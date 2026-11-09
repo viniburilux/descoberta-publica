@@ -1,0 +1,155 @@
+{
+ "pacote": "Descoberta Pública — Inexigibilidades publicadas no PNCP, recorte 2025 e 2026 parcial, v0.1.2 (saneado)",
+ "escopo": "modalidade inexigibilidade (9); publicacao 01/01/2025 a 06/11/2026; lacuna 22-31/08/2026; 494.446 registros em 27 UFs; derivados de classificacao v6.3",
+ "gerado_em": "2026-11-08",
+ "licencas": "codigo MIT (LICENSE-CODE); curadoria/documentacao/derivados CC BY 4.0 (LICENSE-DATA)",
+ "saneamento": "v0.1.1: CPFs pontuados e sequencias de 11 digitos com contexto CPF, RGs e 37 enderecos residenciais mascarados. v0.1.2: segunda varredura independente — CPFs validados por digito verificador em qualquer formatacao (incl. sem pontuacao e com espacos), numeros de RG, e-mails de provedores pessoais e enderecos residenciais co-ocorrentes restantes. Nomes de pessoas e enderecos de imoveis objeto do contrato mantidos (decisao editorial declarada). v2.1: 48 numeros de documentos de identidade em grafias alternativas, 2 enderecos residenciais restantes e 123 nomes de familias beneficiarias de auxilio-moradia/aluguel social mascarados.",
+ "nota_integridade": "494.446 linhas preservadas (contagem identica por UF/ano). Conteudo interno verificado contra manifest_consolidacao.json na v0.1.",
+ "arquivos": [
+  {
+   "arquivo": "dados/PNCP_UF_AC.zip",
+   "bytes": 243753,
+   "sha256": "d43ef6884c0615c6b67718f5dc8fe0e67f88ef9ca626800fad8e2ad02f225cb8"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_AL.zip",
+   "bytes": 558956,
+   "sha256": "0701de42c0b85cb7f0bb3266d364e8eacc6915e1c9465cf007ae4847735192fe"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_AM.zip",
+   "bytes": 613758,
+   "sha256": "df7d987c93ff921ece6cc75cce82507149eead686c92512b66d1b386b6984c66"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_AP.zip",
+   "bytes": 179045,
+   "sha256": "1bd0b0e31fd5cbcb194f7f60a89596e4a351d5b74196f50412abb99d2fa4007e"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_BA.zip",
+   "bytes": 5338427,
+   "sha256": "1c16dbfcb695d68d7cb5515a97ffa396d02db051c783d9946c7b5ff62a6d1c4c"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_CE.zip",
+   "bytes": 1919436,
+   "sha256": "87092f36ec80cc84d96d91217d7b5361421b009b0b35970d0b64c0bee1d108da"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_DF.zip",
+   "bytes": 2269912,
+   "sha256": "744164b42967b2662559e400f6048bd8f27eca2c30e09ef6e4438973234c8c3f"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_ES.zip",
+   "bytes": 2254819,
+   "sha256": "b728b60268fa84a1cd34a4832c78b226c9ab5632756efb1a808886fb8ae86073"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_GO.zip",
+   "bytes": 3463642,
+   "sha256": "d6fcb09a8066f169032c802c47465b0b09cf08d659873ae1a27e49db861fab11"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_MA.zip",
+   "bytes": 1265725,
+   "sha256": "69f844f43ff35b5c5b03d5fb2cb1f6aea6895d0fbf318d12118c3bf5a182f9ab"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_MG.zip",
+   "bytes": 6778220,
+   "sha256": "e8e996eb3ef900e3e51dabe94c7fc63e100ceb66e189621f5f7a58af5cf8c5e9"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_MS.zip",
+   "bytes": 1187014,
+   "sha256": "35f7105f4db8c2e787bff684870f0575fff7d77cb19d8f1612815d01dbff0085"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_MT.zip",
+   "bytes": 1189660,
+   "sha256": "efe3790108fdc285c4c6dcd34dcb7c77eaa1f48add4aeee3552e374f41b43be5"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_PA.zip",
+   "bytes": 1523587,
+   "sha256": "a97c987dd46370e7a0735ed5473a2fa60da17155d3e0c7e7c6667e4f1c3fb76b"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_PB.zip",
+   "bytes": 1307907,
+   "sha256": "7071cc5e6409676929beeb54a039454dde4769f2b90df457e1a9fc57514c22e7"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_PE.zip",
+   "bytes": 4523059,
+   "sha256": "b897e88e587e199a67257a0c5225920c61ecd994aa717ff1966da0c70be8b776"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_PI.zip",
+   "bytes": 574115,
+   "sha256": "8e3de38bd7010117aae4e5d5df1cab043e019b661c9d0140316e1532d6815030"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_PR.zip",
+   "bytes": 6537100,
+   "sha256": "5d9064a2bd2c9454bb4eaf17c47ff1873f2101e2bef14ecd37ea732b36b9c36e"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_RJ.zip",
+   "bytes": 3302920,
+   "sha256": "392392086179e48c2c3a3452913566b5306dca701f0e8f7eaaa41634ab8cddee"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_RN.zip",
+   "bytes": 1878466,
+   "sha256": "cbe9d647cf7b7aa100719b8e415e0301e3bc1af31691e205ae4c44a3149187a2"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_RO.zip",
+   "bytes": 1132923,
+   "sha256": "9000dc16f6b4676111b1d63d174aa3db808d7ee873fb3754dd7d6a98e86e931f"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_RR.zip",
+   "bytes": 206907,
+   "sha256": "f8744d2eeaa2deed799a11e46cc75f1a640daea1e893ec29449f240425543368"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_RS.zip",
+   "bytes": 6411043,
+   "sha256": "68405f547900c6b657ed944daf6531bd3ee21b28ec28af42fc614dbed6d7f8d4"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_SC.zip",
+   "bytes": 5789943,
+   "sha256": "7e05bd4d77ddfebadbb3250a8048f3965555a7219c2fedfe7e13b1a298f1fb8f"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_SE.zip",
+   "bytes": 1416943,
+   "sha256": "3d6f03afb5e50238c398c2b68aa00f100129591f3f4d4f4649242a5cc1f4fca1"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_SP.zip",
+   "bytes": 6298395,
+   "sha256": "ca3fb2afc625c6936705a7992e2a64f141dd2297f3dac056864044cd6561ec34"
+  },
+  {
+   "arquivo": "dados/PNCP_UF_TO.zip",
+   "bytes": 716706,
+   "sha256": "fc83dc28fce5c3280f868ad0ea9635c960da0272f7767a4e309f9108dc9b89ae"
+  },
+  {
+   "arquivo": "ferramentas/PNCP_FERRAMENTAS.zip",
+   "bytes": 297993,
+   "sha256": "060094bb389196b531c954a305958e4459792061608a83a982dd3f19638dc6af"
+  },
+  {
+   "arquivo": "(docs/, derivados/, LICENSE-*, README.md, CHANGELOG.md)",
+   "bytes": null,
+   "sha256": "idem v0.1 — ver manifest_v01.json para os arquivos inalterados"
+  }
+ ]
+}
