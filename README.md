@@ -34,6 +34,7 @@ Se você quer usar, testar, criticar ou construir junto: este repositório é o 
 
 ## Antes de usar, saiba
 
+- **O recorte é por data de publicação no PNCP, não pelo ano do ato.** A base inclui compras de anos anteriores publicadas nesse período: entre os registros publicados em 2025–2026 há compras de 2022 a 2026 pelo ano da compra.
 - **Valor estimado e valor homologado não são valor pago.** São campos do registro público, preservados como vieram da fonte — inclusive os visivelmente inconsistentes.
 - **Nomes de fornecedores, órgãos e municípios são a substância pública dos atos** e foram mantidos. Identificadores pessoais que os órgãos escreveram no texto livre (CPF, RG, e-mail pessoal, endereço residencial) foram mascarados nesta edição; famílias beneficiárias de programas sociais tiveram os nomes removidos. Não é anonimização: os registros de origem seguem públicos no PNCP.
 - Leia `docs/LIMITACOES.md` antes de reutilizar. A classificação derivada é material de exploração, não conclusão nem acusação.
