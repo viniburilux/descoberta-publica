@@ -2,70 +2,77 @@
 
 **Uma iniciativa aberta para descobrir padrões, perguntas e conexões na informação pública brasileira.**
 
-A informação pública do Brasil é enorme — e quase inutilizável do jeito que está espalhada. A Descoberta Pública faz o trabalho de base: coleta, organiza, verifica e devolve esses dados em pacotes prontos para qualquer pessoa usar. Sem cadastro, sem paywall, sem permissão.
+A informação pública do Brasil é enorme e quase inutilizável do jeito que está espalhada. A Descoberta Pública faz o trabalho de base: coleta, organiza, documenta e devolve esses dados em pacotes prontos para descoberta, análise e investigação.
 
-O Portal Nacional de Contratações Públicas (PNCP) é a primeira base. Não é o limite: outras fontes de dados públicos entram no caminho.
+O objetivo não é só reunir dados. É reduzir a distância entre informação pública e alguém descobrir algo com ela.
+
+## Por que importa
+
+Uma contratação isolada conta pouco. Cruzar milhares delas pode revelar padrões, diferenças entre municípios e perguntas que ninguém fez ainda. É daí que podem sair uma história, uma pesquisa, uma ferramenta ou uma investigação.
+
+A Descoberta Pública estrutura a matéria-prima. O [Quem Pagou Isso?](https://www.instagram.com/quempagouisso/) transforma descobertas em atenção e conversa. Outras pessoas podem chegar com perguntas e construir caminhos que a gente ainda não imaginou.
+
+O PNCP é a primeira fonte, não o limite do projeto.
+
+## O que já existe
+
+### Base original: inexigibilidades do PNCP
+
+A edição **v0.1.2** reúne **494.446 registros únicos das 27 UFs**, publicados entre 01/01/2025 e 06/11/2026, com uma lacuna de 22 a 31/08/2026. Inclui classificação do objeto, ferramentas de consulta e uma dimensão de municípios com população, PIB e receita.
+
+[Baixar a edição v0.1.2](https://github.com/viniburilux/descoberta-publica/releases/tag/v0.1.2) ou escolher pacotes por UF em [`dados/`](dados/).
+
+### Fonte adicional: snapshot PNCP do Kaggle
+
+**3.768.885 contratações únicas, 18 modalidades presentes, 69 Parquets por modalidade/ano.** Snapshot declarado de 30/09/2026, organizado e processado como fonte separada. **Não foi somado à base original de 494.446 nem a substitui.**
+
+O mérito da coleta e da disponibilização é de **Lucas Rangel S. Souza**: [dataset no Kaggle](https://www.kaggle.com/datasets/lucasrangelss/pncp-raw-trusted-part-1) e [projeto do coletor](https://github.com/LucasRangelSSouza/brazil-public-data-map). A fonte primária é o PNCP.
+
+[Baixar o processamento e os manifestos](https://github.com/viniburilux/descoberta-publica/releases/tag/kaggle-pncp-v0.1.0) · [Código e documentação](fontes/kaggle_pncp/).
+
+Antes de usar esta fonte:
+- A classificação fora da inexigibilidade **ainda não foi validada**; há erros documentados como "banda larga" e "forro" classificados como artístico.
+- O mascaramento por padrões **não anonimiza nomes** nem garante remoção de todo dado pessoal.
+- Os termos são os da fonte: **"Other (specified in description)" / "Source terms apply; credit the original publisher"**. Não se aplica automaticamente a licença CC BY 4.0 da edição original. Preserve o crédito ao coletor e ao PNCP.
 
 ## O que dá para fazer com isso
 
-- **Descobrir.** Os dados chegam prontos para pergunta, não só para download: o que sua cidade contratou, de quem, por quanto, com que justificativa.
-- **Contar histórias.** O [Quem Pagou Isso?](https://www.instagram.com/quempagouisso/) transforma descobertas desta base em vídeos e posts curtos. É a camada de distribuição da iniciativa: a descoberta nasce aqui, a conversa acontece lá.
-- **Construir em cima.** Pesquisa, jornalismo de dados, ferramentas, produtos de transparência. A edição original é aberta (código MIT, conteúdo CC BY 4.0) para ser usada, cruzada e republicada com crédito. Fontes adicionais de terceiros mantêm seus próprios termos, descritos abaixo.
+- **Descobrir padrões:** comparar objetos, valores, municípios e períodos; encontrar recorrências e perguntas para aprofundar.
+- **Contar histórias:** usar o dado como ponto de partida para conteúdo e jornalismo, voltando ao ato original quando o achado pede contexto.
+- **Construir em cima:** pesquisa, cruzamentos com outras bases, ferramentas, produtos de transparência e agentes de IA.
 
-## Primeiro ativo: Inexigibilidades publicadas no PNCP
+Há espaço para uma trilha experimental de investigação: anomalias, padrões, cruzamentos, perguntas e aprofundamento. Não precisa começar procurando fraude. Um achado pode ser erro de preenchimento ou o começo de uma história. Essa trilha é uma possibilidade de trabalho, não uma investigação já concluída.
 
-Recorte 2025 e 2026 parcial, edição **v0.1.2**:
+## Como usar
 
-- **494.446 registros únicos** das 27 UFs, publicados no portal entre 01/01/2025 e 06/11/2026 (o período de 22 a 31/08/2026 não está na base).
-- Modalidade **inexigibilidade de licitação**: contratações diretas por lei, de shows a obras.
-- Dimensão de municípios com população, PIB (IBGE) e receita (Siconfi) para cruzamento.
-- Classificação do objeto por categorias, com metodologia e validação abertas.
-- Ferramentas de consulta incluídas — três comandos e você está filtrando por UF, município e tema.
+### Consultar a base original
 
-**Download completo:** [Release v0.1.2](https://github.com/viniburilux/descoberta-publica/releases) — ou baixe só os pacotes das UFs que interessam em `dados/`.
+Extraia os pacotes de [`dados/`](dados/) e [`ferramentas/`](ferramentas/) na mesma pasta. Instale `duckdb` com `python -m pip install duckdb` e rode:
 
-## Fonte adicional: snapshot PNCP do Kaggle
-
-A Descoberta Pública também oferece um processamento separado do snapshot publicado por **Lucas Rangel S. Souza**: [dataset no Kaggle](https://www.kaggle.com/datasets/lucasrangelss/pncp-raw-trusted-part-1) e [projeto do coletor](https://github.com/LucasRangelSSouza/brazil-public-data-map). O mérito da coleta é dele; a fonte primária é o PNCP.
-
-São **3.768.885 contratações únicas, 18 modalidades presentes, 69 Parquets por modalidade/ano**, snapshot declarado de 30/09/2026. Código, manifestos e pacote de dados ficam em [Releases](https://github.com/viniburilux/descoberta-publica/releases); metodologia em `fontes/kaggle_pncp/`. É uma fonte adicional, **não uma soma nem substituição da base original de 494.446**, que continua distinta e intacta. Não prova cobertura completa.
-
-- Classificador v6.3 reaplicado, **não validado nas outras modalidades**. Erros documentados: internet "banda larga", obra com "forro" e manutenção de teatro podem virar artístico. Os 202.953 rótulos artísticos do conjunto inteiro incluem inexigibilidade e não são uma estimativa validada de mercado.
-- Mascaramento por padrões: 16.836 ocorrências de CPF-like/e-mail/telefone/RG. **Não anonimiza nomes** nem garante remoção de todo dado pessoal. Não foi o mesmo código de privacidade da edição v0.1.2.
-- **3.978 IDs do trusted não têm linhagem explicada pelo raw de atualização disponível**. Uma comparação histórica encontrou 280 IDs próprios ausentes no snapshot. Não fundir contagens sem reconciliação por ID.
-- **Exceção às licenças gerais deste repositório:** este dataset de terceiro informa "Other (specified in description)" e "Source terms apply; credit the original publisher". Não o relicenciamos como CC BY 4.0; preserve crédito ao coletor e ao PNCP, procedência e avisos. Sem endosso/afiliação e sem certificação jurídica ou de anonimato.
-
-## O que existe hoje, o que pode virar
-
-**Existe hoje:** esta base, as ferramentas, a classificação e um canal publicando histórias reais a partir dela.
-
-**Pode virar (hipóteses, não promessas):** novas fontes além do PNCP (diários oficiais, outras bases federais), mais modalidades e anos de contratações, camadas de investigação mais profundas, parcerias com pesquisa e jornalismo, produtos de transparência em cima desta infraestrutura.
-
-Se você quer usar, testar, criticar ou construir junto: este repositório é o ponto de partida.
-
-## Antes de usar, saiba
-
-- **O recorte é por data de publicação no PNCP, não pelo ano do ato.** A base inclui compras de anos anteriores publicadas nesse período: entre os registros publicados em 2025–2026 há compras de 2022 a 2026 pelo ano da compra.
-- **Valor estimado e valor homologado não são valor pago.** São campos do registro público, preservados como vieram da fonte — inclusive os visivelmente inconsistentes.
-- **Nomes de fornecedores, órgãos e municípios são a substância pública dos atos** e foram mantidos. Identificadores pessoais que os órgãos escreveram no texto livre (CPF, RG, e-mail pessoal, endereço residencial) foram mascarados nesta edição; famílias beneficiárias de programas sociais tiveram os nomes removidos. Não é anonimização: os registros de origem seguem públicos no PNCP.
-- Leia `docs/LIMITACOES.md` antes de reutilizar. A classificação derivada é material de exploração, não conclusão nem acusação.
-
-## Como consultar
-
-Extraia os pacotes de `dados/` e `ferramentas/` na mesma pasta. Com `duckdb` instalado (`python -m pip install duckdb`):
-
-```
+```bash
 python consultar.py --resumo --ano 2025
 python consultar.py --uf BA --ano 2025 --municipio Salvador --esfera M --csv salvador.csv
 python consultar.py --uf CE --objeto show --limite 500 --csv shows_ce.csv
 ```
 
-Qualquer leitor de Parquet com suporte a partições Hive lê `dados/` direto; a dimensão de municípios se junta por `cod_ibge`.
+Um leitor de Parquet com suporte a partições Hive também lê os dados; a dimensão de municípios se junta por `cod_ibge`.
 
-## Origem, integridade e licenças
+### Usar o snapshot Kaggle processado
 
-- **Fontes:** PNCP (API de dados abertos, sem cadastro), Siconfi/Tesouro Nacional, IBGE. Os registros são dados públicos governamentais; este pacote não concede nem restringe direitos sobre eles.
-- **Integridade:** 621 arquivos brutos com SHA256 conferido (100%); contagens por UF/ano verificadas após cada transformação; hashes desta edição em `manifest_v012.json`.
-- **Licenças:** código sob MIT (`LICENSE-CODE`); curadoria, documentação e derivados sob CC BY 4.0 (`LICENSE-DATA`). Atribuição: "Vinícius Buri Lux (LuxVerso), Descoberta Pública — Inexigibilidades publicadas no PNCP, v0.1.2".
+Na [release da fonte adicional](https://github.com/viniburilux/descoberta-publica/releases/tag/kaggle-pncp-v0.1.0), baixe as 45 partes, o manifesto e o utilitário para reunir e conferir os hashes. As instruções estão em [`fontes/kaggle_pncp/`](fontes/kaggle_pncp/). Mantenha as fontes distintas ao comparar ou deduplicar.
+
+## Metodologia e limites
+
+Os arquivos têm procedência e checagens de integridade documentadas. Isso não significa que cada contratação foi investigada ou confirmada.
+
+**Valor estimado e homologado não são valor pago. Classificação e anomalias são pistas para explorar, não conclusões ou acusações.**
+
+- [Metodologia, integridade e diferenças entre as fontes](docs/METODOLOGIA_FONTES.md)
+- [Limitações da edição original](docs/LIMITACOES.md)
+- [Método, privacidade e limites do snapshot Kaggle](fontes/kaggle_pncp/)
+
+Código da edição original sob MIT; curadoria, documentação e derivados da edição v0.1.2 sob CC BY 4.0. A fonte adicional de terceiros mantém os termos descritos acima. Consulte [`LICENSE-CODE`](LICENSE-CODE) e [`LICENSE-DATA`](LICENSE-DATA).
+
+Se você quer usar, testar, criticar ou construir junto: este repositório é o ponto de partida.
 
 Origem da iniciativa: [LuxVerso](https://github.com/viniburilux/LuxVerso).
