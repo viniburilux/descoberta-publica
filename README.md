@@ -10,7 +10,7 @@ O Portal Nacional de Contratações Públicas (PNCP) é a primeira base. Não é
 
 - **Descobrir.** Os dados chegam prontos para pergunta, não só para download: o que sua cidade contratou, de quem, por quanto, com que justificativa.
 - **Contar histórias.** O [Quem Pagou Isso?](https://www.instagram.com/quempagouisso/) transforma descobertas desta base em vídeos e posts curtos. É a camada de distribuição da iniciativa: a descoberta nasce aqui, a conversa acontece lá.
-- **Construir em cima.** Pesquisa, jornalismo de dados, ferramentas, produtos de transparência. A base é aberta (código MIT, conteúdo CC BY 4.0) para ser usada, cruzada e republicada com crédito.
+- **Construir em cima.** Pesquisa, jornalismo de dados, ferramentas, produtos de transparência. A edição original é aberta (código MIT, conteúdo CC BY 4.0) para ser usada, cruzada e republicada com crédito. Fontes adicionais de terceiros mantêm seus próprios termos, descritos abaixo.
 
 ## Primeiro ativo: Inexigibilidades publicadas no PNCP
 
@@ -23,6 +23,17 @@ Recorte 2025 e 2026 parcial, edição **v0.1.2**:
 - Ferramentas de consulta incluídas — três comandos e você está filtrando por UF, município e tema.
 
 **Download completo:** [Release v0.1.2](https://github.com/viniburilux/descoberta-publica/releases) — ou baixe só os pacotes das UFs que interessam em `dados/`.
+
+## Fonte adicional: snapshot PNCP do Kaggle
+
+A Descoberta Pública também oferece um processamento separado do snapshot publicado por **Lucas Rangel S. Souza**: [dataset no Kaggle](https://www.kaggle.com/datasets/lucasrangelss/pncp-raw-trusted-part-1) e [projeto do coletor](https://github.com/LucasRangelSSouza/brazil-public-data-map). O mérito da coleta é dele; a fonte primária é o PNCP.
+
+São **3.768.885 contratações únicas, 18 modalidades presentes, 69 Parquets por modalidade/ano**, snapshot declarado de 30/09/2026. Código, manifestos e pacote de dados ficam em [Releases](https://github.com/viniburilux/descoberta-publica/releases); metodologia em `fontes/kaggle_pncp/`. É uma fonte adicional, **não uma soma nem substituição da base original de 494.446**, que continua distinta e intacta. Não prova cobertura completa.
+
+- Classificador v6.3 reaplicado, **não validado nas outras modalidades**. Erros documentados: internet "banda larga", obra com "forro" e manutenção de teatro podem virar artístico. Os 202.953 rótulos artísticos do conjunto inteiro incluem inexigibilidade e não são uma estimativa validada de mercado.
+- Mascaramento por padrões: 16.836 ocorrências de CPF-like/e-mail/telefone/RG. **Não anonimiza nomes** nem garante remoção de todo dado pessoal. Não foi o mesmo código de privacidade da edição v0.1.2.
+- **3.978 IDs do trusted não têm linhagem explicada pelo raw de atualização disponível**. Uma comparação histórica encontrou 280 IDs próprios ausentes no snapshot. Não fundir contagens sem reconciliação por ID.
+- **Exceção às licenças gerais deste repositório:** este dataset de terceiro informa "Other (specified in description)" e "Source terms apply; credit the original publisher". Não o relicenciamos como CC BY 4.0; preserve crédito ao coletor e ao PNCP, procedência e avisos. Sem endosso/afiliação e sem certificação jurídica ou de anonimato.
 
 ## O que existe hoje, o que pode virar
 
