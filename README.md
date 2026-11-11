@@ -57,6 +57,16 @@ python consultar.py --uf CE --objeto show --limite 500 --csv shows_ce.csv
 
 Um leitor de Parquet com suporte a partições Hive também lê os dados; a dimensão de municípios se junta por `cod_ibge`.
 
+### Conferir a integridade do pacote
+
+Antes de confiar no acervo, verifique os SHA-256 declarados no manifesto (somente leitura):
+
+```bash
+python3 ferramentas/verificar_integridade.py
+```
+
+O script retorna `0` quando todos os arquivos com checksum conferem e lista explicitamente as entradas informativas sem checksum (documentos). Para quem baixa a release, é a checagem de que nada foi alterado em trânsito.
+
 ### Usar o snapshot Kaggle processado
 
 Na [release da fonte adicional](https://github.com/viniburilux/descoberta-publica/releases/tag/kaggle-pncp-v0.1.0), baixe as 45 partes, o manifesto e o utilitário para reunir e conferir os hashes. As instruções estão em [`fontes/kaggle_pncp/`](fontes/kaggle_pncp/). Mantenha as fontes distintas ao comparar ou deduplicar.
