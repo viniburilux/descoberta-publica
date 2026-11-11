@@ -67,6 +67,16 @@ python3 ferramentas/verificar_integridade.py
 
 O script retorna `0` quando todos os arquivos com checksum conferem e lista explicitamente as entradas informativas sem checksum (documentos). Para quem baixa a release, é a checagem de que nada foi alterado em trânsito.
 
+### Exemplo de descoberta reprodutível
+
+Para ver o tipo de coisa que a base permite encontrar — com o resultado à vista, não só a promessa:
+
+```bash
+python3 ferramentas/exemplo_descoberta_artistico.py --top 10 --ano 2025
+```
+
+Em 2025, Recife concentra **8.022** inexigibilidades classificadas como "artistico" — quase 3× São Paulo (2.897) com um nono da população — com picos em fevereiro/março e junho. A leitura honesta do número está nos avisos que o próprio script imprime: contagem é pista, classificação é heurística e valor homologado não é valor pago. Volte ao ato original pelo `link_origem` antes de qualquer conclusão.
+
 ### Usar o snapshot Kaggle processado
 
 Na [release da fonte adicional](https://github.com/viniburilux/descoberta-publica/releases/tag/kaggle-pncp-v0.1.0), baixe as 45 partes, o manifesto e o utilitário para reunir e conferir os hashes. As instruções estão em [`fontes/kaggle_pncp/`](fontes/kaggle_pncp/). Mantenha as fontes distintas ao comparar ou deduplicar.
