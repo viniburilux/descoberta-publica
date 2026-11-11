@@ -1,5 +1,9 @@
 # Changelog
 
+## Não versionado (11/11/2026) — manutenção de infraestrutura do repo
+- Nova ferramenta `ferramentas/verificar_integridade.py`: verifica por SHA-256 e tamanho todos os arquivos com checksum declarado em `manifest_v012.json`. Somente leitura; não altera dados.
+- `manifest_v012.json`: a entrada agregada `(docs/, derivados/, LICENSE-*, README.md, CHANGELOG.md)` — que misturava múltiplos caminhos em um único campo `arquivo` e tornava a verificação automática impossível — foi desdobrada em entradas individuais com `sha256: null` e observação. Conteúdo dos dados (28 arquivos binários) permanece byte a byte idêntico; nenhum hash de dado foi alterado.
+
 ## v0.1.2 (08/11/2026)
 - Segunda varredura independente de dados pessoais no campo `objeto`: 785 CPFs válidos por dígito verificador em formatações não cobertas pela v0.1.1 (sem pontuação, com espaços, mista), 101 ocorrências adicionais em contexto de CPF, 212 números de RG, 192 e-mails de provedores pessoais e 21 endereços residenciais co-ocorrentes mascarados. Resíduo zero na reverificação dos padrões; 494.446 linhas preservadas (contagem idêntica por UF/ano). Manifesto novo (manifest_v012.json); manifest_v01.json cobre apenas os arquivos inalterados.
 - `ferramentas`: `duplicatas_auditoria.parquet` recebeu o mesmo tratamento.

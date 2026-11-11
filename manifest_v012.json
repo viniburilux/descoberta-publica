@@ -147,9 +147,40 @@
    "sha256": "060094bb389196b531c954a305958e4459792061608a83a982dd3f19638dc6af"
   },
   {
-   "arquivo": "(docs/, derivados/, LICENSE-*, README.md, CHANGELOG.md)",
+   "arquivo": "docs/",
    "bytes": null,
-   "sha256": "idem v0.1 — ver manifest_v01.json para os arquivos inalterados"
+   "sha256": null,
+   "observacao": "Documentação inalterada em relação à v0.1 (checksums individuais indisponíveis neste repo; verificar via release v0.1). Não verificável por sha256."
+  },
+  {
+   "arquivo": "derivados/",
+   "bytes": null,
+   "sha256": null,
+   "observacao": "Derivados da classificação v6.3. Recomenda-se gerar checksums individuais no próximo release."
+  },
+  {
+   "arquivo": "LICENSE-CODE",
+   "bytes": null,
+   "sha256": null,
+   "observacao": "Texto da licença MIT, inalterado desde a v0.1."
+  },
+  {
+   "arquivo": "LICENSE-DATA",
+   "bytes": null,
+   "sha256": null,
+   "observacao": "Texto da licença CC BY 4.0, inalterado desde a v0.1."
+  },
+  {
+   "arquivo": "README.md",
+   "bytes": null,
+   "sha256": null,
+   "observacao": "Documento informativo, sem checksum declarado na v0.1.2."
+  },
+  {
+   "arquivo": "CHANGELOG.md",
+   "bytes": null,
+   "sha256": null,
+   "observacao": "Documento informativo, sem checksum declarado na v0.1.2."
   }
  ]
 }
