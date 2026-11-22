@@ -1,0 +1,16 @@
+[VALIDADO 20/11/2026 03h40] Reconsulta com método documentado (endpoint terrabrasilis/geoserver/ows, WFS 1.0.0, BBOX(geom,-44.14,-13.60,-43.98,-13.43) axis lon,lat; controles na mesma sessão: positivo 30.522 feições em bbox de referência, negativo 0 no oceano; raw prodes_ca_sfc_v2.json 1.037 feições no bbox ±0,06°). Resultado CONFIRMADO: 90 feições intersectam o espelho; 448,90 ha acumulados 2004-2024; 2025 zero; micro7 fora de qualquer feição PRODES e fora do espelho. Nota: o bbox ±0,06° contém 1.037 feições (não 651 — o número 651 vinha da consulta invalidada). O marcador PROVISÓRIO anterior está SUPERADO.
+
+PRODES CAATINGA × espelho PA Bom Sucesso (SFC) — 20/11/2026 02h40 -03
+
+Fonte: terrabrasilis WFS prodes-caatinga-nb:yearly_deforestation (prop geom; CQL espacial nesta camada exige lon,lat — OPOSTO do PRODES-AMZ que exige lat,lon; verificado com controle positivo de 2.216 feições em bbox conhecido).
+Bioma oficial: ponto do micro7 (-44.038694,-13.50335) está DENTRO de prodes-caatinga-nb:biome_border (bioma='Caatinga', cd_bioma=2) e FORA do border de Cerrado → a área do PA/espelho é Caatinga no mapeamento oficial INPE. Consistente com o rótulo "Caatinga" do MapBiomas para SFC. Limite: o border INPE confirma apenas o recorte do PRÓPRIO produto INPE; NÃO resolve por si o enquadramento do bioma (malha IBGE não checada, pode divergir).
+Cobertura do produto: anos 2004-2025 no controle municipal (2.770 feições no bbox Coribe; anos 2004,2006,2008,2010,2013,2014,2016-2025 — notar anos faltantes: 2005,2007,2009,2011,2012,2015 sem mapeamento anual neste produto).
+
+Recorte ao polígono espelho (interseção real, área = fração geométrica × area_km do atributo, aproximada):
+2004 ~30,4 ha | 2006 ~3,7 | 2008 ~3,6 | 2010 ~66,7 | 2013 ~147,7 | 2014 ~42,6 | 2016 ~64,7 | 2017 ~2,8 | 2018 ~22,3 | 2019 ~1,7 | 2020 ~6,2 | 2021 ~5,2 | 2022 ~9,2 | 2023 ~17,8 | 2024 ~24,7. Total acumulado ~449 ha (90 feições intersectam). 2025: zero dentro do espelho (controle municipal 2025 tem 116 feições → cobertura existe).
+micro7 (ponto): NÃO está dentro de nenhum polígono PRODES (qualquer ano).
+main_class = DESMATAMENTO em todas (supressão de vegetação nativa, método PRODES).
+
+Enquadramento: o PA é de 2002/2003 e as detecções são posteriores à criação. Hipóteses legítimas possíveis (não verificadas neste caso): abertura de áreas de cultivo pelas famílias assentadas, manejo autorizado. Nenhuma explicação específica está documentada até aqui; registrar apenas o fato das detecções e seus anos. NÃO é evidência de irregularidade per se, e também não tem explicação confirmada. DETER não tem cobertura Caatinga (só Amazônia/Cerrado) → sem alertas DETER possíveis em SFC.
+PRODES-Cerrado × espelho: 0 feições — consistente com a área ser Caatinga (o produto Cerrado não mapeia lá).
+Raw: /tmp/aprof20/prodes_caatinga_espelho_bbox.json

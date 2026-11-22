@@ -1,0 +1,13 @@
+{
+  "fonte": "BD chatbot T6 (c3e3f115) 2026-11-19 06:40 - execucao original registrada em bd_clean_6.txt",
+  "registros_rais": 11768420,
+  "subclasses_distintas_rais": 1339,
+  "subclasses_com_correspondencia": 1337,
+  "registros_com_correspondencia": 11760468,
+  "sem_correspondencia_detalhe": [
+    {"subclasse": "8630505", "registros": 1253},
+    {"subclasse": "9999999", "registros": 6699}
+  ],
+  "destaque_subclasses_pct": 99.85,
+  "destaque_registros_pct": 99.93
+}

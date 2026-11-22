@@ -1,0 +1,29 @@
+{
+  "id": "ibama_autos_embargos",
+  "tipo": "experiencia_validada",
+  "titulo": "Autos de infracao IBAMA com e sem embargo (suite 04, validada ao vivo)",
+  "tags": [
+    "ibama",
+    "autos",
+    "embargos",
+    "fiscalizacao",
+    "reconciliacao"
+  ],
+  "familia_metodo": "reconciliacao de contagens entre fontes",
+  "armadilhas_validadas": [
+    "IBAMA: 116.332 autos, 19.979 com embargo, 96.293 sem; rotulo do dataset dizia 60 embargos sem auto vs 20.039 reais; conferir rotulo contra contagem antes de citar."
+  ],
+  "fonte": "thread 5d4bd8d9, qr_944d51b8, 2026-11-19",
+  "registrado_em": "2026-11-19T21:21:00-03:00",
+  "contexto_origem": "OPERAÇÃO BD, missão 2 (reconciliação), 19/11/2026; thread validação 5d4bd8d9.",
+  "ideia_original": "Reconciliar autos de infração × áreas embargadas do IBAMA medindo cobertura e resíduos entre as duas fontes.",
+  "principio_hipotese": "Fontes do mesmo órgão com granularidades distintas exigem normalização de chave antes de qualquer junção avaliada.",
+  "evidencias_exemplos": [
+    "IBAMA: 116.332 autos, 19.979 com embargo, 96.293 sem; rotulo do dataset dizia 60 embargos sem auto vs 20.039 reais; conferir rotulo contra contagem antes de citar."
+  ],
+  "outras_aplicacoes": "Hipótese: padrão reutilizável em outros pares sanção × território (ICMBio, FUNAI). Não executado.",
+  "perguntas_abertas": "Qualidade geográfica das áreas embargadas; autos sem geolocalização ficam fora de cruzamentos territoriais.",
+  "experimentos_possiveis": "Cruzar embargos com PRODES/MapBiomas (relação já catalogada); suite temporal.",
+  "estado_validacao": "experimentada",
+  "relacoes": "Linha bd_reconciliation; suite outputs/sql/ibama_autos_embargos/; experiência prodes_mapbiomas_cobertura."
+}

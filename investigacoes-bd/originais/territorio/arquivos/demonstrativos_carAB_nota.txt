@@ -1,0 +1,27 @@
+DEMONSTRATIVOS SICAR (car.gov.br/#/consultar, capturado 20/11/2026 ~02h16 -03, browser consulta publica -> Demonstrativo)
+
+CAR A = PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56
+- Condição Externa: Aguardando análise
+- Data da Inscrição: 28/04/2016
+- Data da Última Retificação: 06/06/2023  (= campo dat_criacao do WFS; WFS "criado" era na verdade a retificação)
+- Área 1.350,22 ha; 24,55 módulos fiscais; centróide 04°41'30,27"S 48°02'11,92"O
+- Remanescente veg. nativa declarado: 569,84 ha; Área Rural Consolidada: 750,93 ha; Servidão Adm.: 5,75 ha
+- RL proposta: 621,48 ha (total declarado; nada averbado); APP 113,79 ha (102,75 em remanescente, 11,04 em consolidada)
+- Passivo/Excedente RL: (passivo) - 455,26 ha; RL a recompor 51,54 ha; APP a recompor 10,35 ha
+- "Nenhuma sobreposição encontrada." (seção regularidade; escopo da checagem de sobreposição do sistema = áreas protegidas/TI/UC/embargos, não CARxCAR — REGISTRAR verbatim, não interpretar além)
+
+CAR B = PA-1506187-48EDE9CDCF3947959921871671228876
+- Condição Externa: Analisado, aguardando atendimento a notificação  (consistente com status SU/suspenso no WFS)
+- Data da Inscrição: 26/03/2026; Última Retificação: - (nenhuma)
+- Área 1.288,09 ha; 23,42 módulos fiscais; centróide 04°41'30,23"S 48°02'12,31"O (centróide praticamente idêntico ao do CAR A)
+- Remanescente veg. nativa: 651,70 ha; Consolidada: 616,40 ha; Servidão: 13,28 ha
+- RL proposta: 651,70 ha; APP 39,30 ha (toda em remanescente)
+- Passivo/Excedente RL: (passivo) - 369,36 ha; RL/APP/uso restrito a recompor: -
+- "Nenhuma sobreposição encontrada." (mesma ressalva de escopo)
+
+IMPLICAÇÕES PARA A CRONOLOGIA (fatos, não inferências):
+- CAR A existe desde 28/04/2016 (não 2023): inscrição anterior aos 3 TADs? NÃO: TADs 2006/2010/2012 pre-datam 2016. Cadastro 2016 sobre área com embargos de 2006/2010/2012 segue posterior aos embargos.
+- CAR B inscrito 26/03/2026, já analisado com notificação pendente em ~7 meses (atualizado 20/07/2026 WFS).
+- Os dois CARs declaram coberturas divergentes para área 91,7%/96,1% sobreposta (remanescente 569,84 vs 651,70 ha).
+- Divergência WFS vs demonstrativo: dat_criacao WFS de A (2023-06-06) = data da última retificação, não da inscrição.
+Raws: demonstrativo_carA_raw.json, demonstrativo_carB_raw.json (read-page format=text).

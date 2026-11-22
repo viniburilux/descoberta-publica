@@ -1,0 +1,77 @@
+{
+  "id": "t7_sicor_car_rateio",
+  "tipo": "experiencia_validada",
+  "titulo": "Rateio municipal de credito rural SICOR conectado ao CAR (caso T7, 2023, recurso publico)",
+  "tags": [
+    "sicor",
+    "car",
+    "sicar",
+    "rateio",
+    "municipio",
+    "credito rural",
+    "recurso publico",
+    "tabela-ponte",
+    "normalizacao",
+    "snapshot"
+  ],
+  "familia_metodo": "agregacao territorial com tabela-ponte e rateio",
+  "armadilhas_validadas": [
+    "[status: validada ao vivo 19/11, thread 35bbb638] A tabela-ponte recurso_publico_propriedade NAO tem coluna de valor; o valor esta em operacao.valor_parcela_credito, ligado por id_referencia_bacen + numero_ordem.",
+    "[status: validada ao vivo 19/11] id_car precisa de normalizacao (UPPER + remover hifens) para casar com area_imovel.id_imovel. Equivalencia com CONCAT(SUBSTR) comprovada no caso 2022 (0 divergencias em 489.138).",
+    "[status: REFINADA apos erro induzido no par A/B 1] area_imovel tem multiplos snapshots por imovel; para CADA imovel usar seu snapshot mais recente DENTRO da janela disponivel (ROW_NUMBER PARTITION BY imovel ORDER BY data_extracao DESC); NAO filtrar a tabela inteira pela data maxima global (ex.: data_extracao = max). Isso descarta imoveis com ultimo snapshot anterior (no caso 2022: 378.322 de 489.138, -77%).",
+    "[status: validada ao vivo 19/11] Municipio vem de area_imovel.id_municipio; NAO usar prefixo territorial do id_car.",
+    "[status: validada ao vivo 19/11] Rateio: dividir o valor da operacao igualmente pelo numero de imoveis CAR distintos ligados a ela.",
+    "[status: validada ao vivo 19/11, ~22:54] Recorte de recurso publico: join operacao.id_fonte_recurso -> fonte_recurso.indicador_recurso_publico = '1'. Semantica RESOLVIDA por comparacao no catalogo de fontes da BD: o indicador cobre 16 codigos = os 15 da lista oficial de fontes publicas do BC + FNDCT/0911 (sem operacoes em 2023, impacto zero no recorte). A tabela-ponte sozinha NAO equivale a esse recorte (diferenca de R$ 14,5 bi em 2023)."
+  ],
+  "canonico_2023": {
+    "total_rateado_publico_brl": 112125325594.22,
+    "municipios": 5380,
+    "fracao_credito_publico_2023": 0.9256,
+    "total_operacao_2023_brl": 406395533265.62,
+    "subtotal_publico_2023_brl": 121133688453.85
+  },
+  "disclaimers": [
+    "Valor registrado rateado entre imoveis da operacao; NAO e valor pago nem local exato do beneficio.",
+    "Chave operacao (id_referencia_bacen + numero_ordem) e unica no SICOR 2023 (verificado: 2.129.134 linhas = chaves)."
+  ],
+  "fonte": "thread chatbot BD 35bbb638-d45b-425b-8d06-3b463679a9e4, respostas 2026-11-20T00:01-00:15Z; query_refs qr_c65e2bf6, qr_0ef8fb01, qr_ceaa9c22, qr_8a918dd1",
+  "registrado_em": "2026-11-19T21:20:00-03:00",
+  "resultado_transferencia": {
+    "par_ab_1": {
+      "data": "2026-11-19",
+      "caso_novo": "credito investimento recurso publico 2022 rateado por municipio via CAR",
+      "veredito": "transferencia PARCIAL com erro induzido: neste par B usou menos queries (3 vs 9; tempo/recursos nao medidos), transferiu disclaimers/rateio/normalizacao, mas leitura literal da armadilha de snapshot produziu subcontagem de 77% dos imoveis; baseline sem experiencia convergiu para o metodo do T7, confirmado por diagnostico SQL complementar na propria thread (equivalencia de normalizacao, cobertura de snapshots, fracao de escopo 92,12%)",
+      "acao": "armadilha 3 refinada (ver texto atualizado)",
+      "threads": {
+        "baseline": "e6d448ba-eceb-4c09-9705-dad568afe806",
+        "com_experiencia": "de090efe-9af0-4778-8556-a3c3eb6ef6ba"
+      },
+      "nota_metodo": "diagnostico complementar na mesma thread NAO e auditoria independente; declaracao do executor nao prova correcao"
+    },
+    "par_ab_2_reparo": {
+      "data": "2026-11-19",
+      "caso": "mesmo caso do par 1",
+      "thread": "b41bd441-96c3-4170-b92c-a28e3fd6c569",
+      "veredito": "REPARO CONFIRMADO: registro refinado eliminou o erro de snapshot; resultado identico ao centavo a referencia verificada de A (R$ 48.292.622.454,52 / 5.241 mun / top-10 identico); status por item transferiu para a fala do executor",
+      "limites": "mesmo caso/executor/familia; nao e generalizacao; referencia A validada por diagnostico complementar, nao auditoria independente"
+    }
+  },
+  "contexto_origem": "OPERAÇÃO BD, missão 1 (Dinheiro e Território), 19/11/2026; threads chatbot BD 35bbb638 (M1) e 5d4bd8d9 (validação); cânone qr_0ef8fb01+qr_ceaa9c22, mapa qr_8a918dd1.",
+  "ideia_original": "Territorializar o crédito rural com recurso público por município do imóvel rural associado à operação (CAR; os microdados descrevem a ligação como imóvel relacionado ao financiamento, sem papel jurídico de garantia), com snapshot mais recente por imóvel e rateio igual entre imóveis da operação.",
+  "principio_hipotese": "SICOR × CAR: valor em operacao.valor_parcela_credito via id_referencia_bacen+numero_ordem; snapshot por imóvel (ROW_NUMBER), nunca filtro global; município via area_imovel.id_municipio; rateio igual é hipótese neutra, não valor pago.",
+  "evidencias_exemplos": [
+    "[status: validada ao vivo 19/11, thread 35bbb638] A tabela-ponte recurso_publico_propriedade NAO tem coluna de valor; o valor esta em operacao.valor_parcela_credito, ligado por id_referencia_bacen + numero_ordem.",
+    "[status: validada ao vivo 19/11] id_car precisa de normalizacao (UPPER + remover hifens) para casar com area_imovel.id_imovel. Equivalencia com CONCAT(SUBSTR) comprovada no caso 2022 (0 divergencias em 489.138).",
+    "[status: REFINADA apos erro induzido no par A/B 1] area_imovel tem multiplos snapshots por imovel; para CADA imovel usar seu snapshot mais recente DENTRO da janela disponivel (ROW_NUMBER PARTITION BY imovel ORDER BY data_extracao DESC); NAO filtrar a tabela inteira pela data maxima global (ex.: data_extracao = max). Isso descarta imoveis com ultimo snapshot anterior (no caso 2022: 378.322 de 489.138, -77%).",
+    "[status: validada ao vivo 19/11] Municipio vem de area_imovel.id_municipio; NAO usar prefixo territorial do id_car.",
+    "[status: validada ao vivo 19/11] Rateio: dividir o valor da operacao igualmente pelo numero de imoveis CAR distintos ligados a ela.",
+    "[status: validada ao vivo 19/11, ~22:54] Recorte de recurso publico: join operacao.id_fonte_recurso -> fonte_recurso.indicador_recurso_publico = '1'. Semantica RESOLVIDA por comparacao no catalogo de fontes da BD: o indicador cobre 16 codigos = os 15 da lista oficial de fontes publicas do BC + FNDCT/0911 (sem operacoes em 2023, impacto zero no recorte). A tabela-ponte sozinha NAO equivale a esse recorte (diferenca de R$ 14,5 bi em 2023).",
+    "Canone 2023: ver campo canonico_2023 (estrutura integra): total_rateado_publico_brl = 112.125.325.594,22 em 5.380 municipios; fracao 92,56% do subtotal classificado.",
+    "Par A/B: ver campo resultado_transferencia (estrutura integra): par 1: transferencia PARCIAL com erro induzido de snapshot; par 2 (reparo): REPARO CONFIRMADO, resultado identico ao centavo a referencia verificada de A."
+  ],
+  "outras_aplicacoes": "Hipótese de transferência: mesmo padrão de rateio/snapshot em outras fontes com imóveis territoriais múltiplos associados (ex.: operações com vários imóveis em outros programas). Nível: hipótese, transferência próxima demonstrada só no par A/B 2022 investimento.",
+  "perguntas_abertas": "Distribuição real de valores entre imóveis da mesma operação (rateio real ≠ igual); cobertura de municípios sem CAR ativo; estabilidade do cânone em outros anos.",
+  "experimentos_possiveis": "Reexecutar com rateio ponderado por área do imóvel; comparar 2022/2023; cruzar com PAM/MapBiomas por município (relação já catalogada em prodes_mapbiomas).",
+  "estado_validacao": "experimentada",
+  "relacoes": "Linha bd_reconciliation (Lux-Lab); app 'O Dinheiro e o Território' (File PRIVATE); catálogo catalog/relationships/sicor_car.json; par A/B em docs/experimento_ab_desenho.md."
+}

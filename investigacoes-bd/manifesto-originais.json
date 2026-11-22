@@ -1,0 +1,791 @@
+{
+  "versao": "2026-11-22",
+  "arquivos": [
+    {
+      "path": "originais/bd_reconciliation/manifest.json",
+      "bytes": 901,
+      "sha256": "04f732c884e179d0e7ebc49430dd449772f06ae97d69aae8cdad5a2bebcedbc7",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/README.md",
+      "bytes": 2345,
+      "sha256": "32fe75a57e5f1dd4cb4fe870269521672edee3af2af7e536ad020b251a9eb05b",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/docs/ab_resultado_par1.md",
+      "bytes": 5648,
+      "sha256": "73d3764bcd97a2a2bf3f30b876c08562b6a4f0543ed30afd52faa02dd8ba2603",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/docs/ab_resultado_par2_reparo.md",
+      "bytes": 2330,
+      "sha256": "52267613f44ade547473ab482ce3814597204917decd1703d5fe39e2a776b904",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/docs/experimento_ab_desenho.md",
+      "bytes": 5981,
+      "sha256": "d296cac0858d8b6c00694b38d3c2ef588d0cc366eb57160a9c925943bcf22911",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/docs/dossie_t7.md",
+      "bytes": 4040,
+      "sha256": "610e015f7814d190b7fc46975dc9b342e523b61a2498697f0a0c039238d15877",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/docs/integracao_luxmemory_luxos.md",
+      "bytes": 3251,
+      "sha256": "9f41a052ccaab4be02850a9ffd05542d8b1790a8931beefdf23a265dfdc8f75a",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/docs/metodo.md",
+      "bytes": 2356,
+      "sha256": "44d436bd4c5d5d4b36cc27afef61b82f8d7b1496d534e66096cb2f586ecc0ea7",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/configs/relationships/rais_cnae.json",
+      "bytes": 2551,
+      "sha256": "3d231ab863696b492222a98a1d6bf47780e714bf20aa1201522af56b5b9e4a92",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/configs/relationships/ibama_autos_embargos.json",
+      "bytes": 2601,
+      "sha256": "5a3c7d2f9bd7037e8d4a677a77afb96d61333fd0e86be5d6b2e0511cb8f425a5",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/configs/relationships/sicor_car.json",
+      "bytes": 4153,
+      "sha256": "8af3fed741b90a3fc511f8755f4d79cb927b7a3674459935cb35eb9ae40b7e7f",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/configs/relationships/prodes_mapbiomas.json",
+      "bytes": 2202,
+      "sha256": "9b3aab28f140647c39f4a67f5b361b6607c181bfcfb0126d7dfa4789687f245f",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/source/catalog_query.py",
+      "bytes": 1809,
+      "sha256": "3deb00a93cfd97503e1e805ecca8930d3109f3fea61a728cf50c53184085cbcc",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/source/retrieve_experience.py",
+      "bytes": 2613,
+      "sha256": "3350b7a99f50d5bdc96011ce0cd9be6f0cd46e98b15ff202ed8a25ceb6da675b",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/source/report.py",
+      "bytes": 6793,
+      "sha256": "f19e57bcc060aaba3e936b131acaa5387a80e17b333139deed4db8759e44e1b3",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/source/reconcile.py",
+      "bytes": 7880,
+      "sha256": "bb4629d1e4204deb04970b4201345cfe3423584fe362e2a00dca6bed0b982142",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/catalog/README.md",
+      "bytes": 2343,
+      "sha256": "be1f57bfa87da977393c87fdb66009e6721f2212d5a5f9fe8662b6488b072a55",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/catalog/relationships/rais_cnae.json",
+      "bytes": 3568,
+      "sha256": "88ec2c8b1a36f1205bdc577f31f097b3e73920281a286328350cbca47f71cff6",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/catalog/relationships/ibama_autos_embargos.json",
+      "bytes": 3728,
+      "sha256": "7dd6fd55d2bc2d620bdceebd4ed90b7ca8800765a5af6157d68554e4a6ce3efc",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/catalog/relationships/sicor_car.json",
+      "bytes": 4389,
+      "sha256": "4133b79d26c9a7163c03ada2b4f508619b5e38728db850b6de83a3eb217226df",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/catalog/relationships/prodes_mapbiomas.json",
+      "bytes": 3626,
+      "sha256": "d19d9febe2ab482cf16ba9c81627eac4d1528a07f756b66ac06bf7cd216f6223",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/inputs/bd_msgs_validacao.json",
+      "bytes": 130100,
+      "sha256": "1210b041eedbbfe9fa6cd396f839e0aa03a26930b678ccae7ff5c33669534b9a",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/inputs/bd_msgs_missao1_ciclo1.json",
+      "bytes": 524563,
+      "sha256": "44fc8b0d087f30f86729f0b2997719f4886e9ffc9abdcbe75c8de8cee82b5fe5",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/inputs/recorded/rais_cnae.json",
+      "bytes": 470,
+      "sha256": "f01e7c84ff4b895b48b0c405bfb3867a46444d7d694e205d86a833285efaa360",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/inputs/recorded/ibama_autos_embargos.json",
+      "bytes": 684,
+      "sha256": "81696d73ee4e9613aeb727c25e7ca3b3b9274a0d493e102cf80b1a2ae9c26e2a",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/inputs/recorded/sicor_car.json",
+      "bytes": 857,
+      "sha256": "53ad96bfbb754034d5fd2a84764ee208148e0bca48d5a66e2a6125e929b952c2",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/inputs/recorded/prodes_mapbiomas.json",
+      "bytes": 220,
+      "sha256": "6281b9d0b98416e959c9fe3da505af740ca9efe25315d2052121f2a601852b50",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/mapa_credito_rural_municipal_2023_nomeado.csv",
+      "bytes": 202172,
+      "sha256": "2f44eb7e3ecb4ea9339be9b69a514ef0a5c8c7c2bfee35fcfb39f6a1cd8c391f",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/brasil_municipios.topojson",
+      "bytes": 2133590,
+      "sha256": "ec8c97d583ba7731cbb2c7442f06fa8eee0cbbe905473575e077a8d919d18efe",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/municipios_brasil_id_nome.csv",
+      "bytes": 117683,
+      "sha256": "8c2fe69a7dab1a3a4723b804281cecc1f3e9025173e48adaebf4df8fc261f744",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/mapa_credito_rural_municipal_2023.csv",
+      "bytes": 126199,
+      "sha256": "599fde7094b8a4563473fdbdf5bdc61c82370b5729793b62cfa428a0032977fc",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/brasil_municipios_ibge2022.topojson",
+      "bytes": 2354733,
+      "sha256": "14e200aa7b4d71ab850c299b8683c89c4116a5aa09c96f7e433d53e0c5c729c0",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/mapa_entrega_canone_2023.png",
+      "bytes": 413247,
+      "sha256": "a0c4b609ce399a9cb852fea93df6e33155326796026e1abedf3971d8f13fd647",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/rais_cnae/02_duplicidade.sql",
+      "bytes": 566,
+      "sha256": "2b7a10065d8f8be2ce857d39cace05c95dd49bd0164adf085b00dc02d85cbabb",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/rais_cnae/05_residuos.sql",
+      "bytes": 404,
+      "sha256": "909a872212b56cd47c92ce5ff40a058ffd0680289b2d8c5e0150fcd52c7a040a",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/rais_cnae/04_cobertura.sql",
+      "bytes": 730,
+      "sha256": "6deecb80b079f092ef30a9b9b7ee4f5d35ab2c91e8e5d72ec2d460a00c22e2f5",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/rais_cnae/03_transformacoes.sql",
+      "bytes": 464,
+      "sha256": "25f3ab6f6c7f4c122a716be6ca2d50f090e592f2ed3d2b12825bded343b1bedf",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/rais_cnae/01_chaves_nulas.sql",
+      "bytes": 564,
+      "sha256": "e79aa6adbca6f2e66f2d141bdfa333a10d118812555ce02eacf03d96f35e167b",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/ibama_autos_embargos/02_duplicidade.sql",
+      "bytes": 567,
+      "sha256": "bc73b2ad871f48bdb02cf72ad31be7a0018c1c410c89f2f638f420ab40823fab",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/ibama_autos_embargos/05_residuos.sql",
+      "bytes": 405,
+      "sha256": "8390cea49ac8e2b76da8f3ad360aebf5ce2f13d384a8de3b19764471ad552f3b",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/ibama_autos_embargos/04_cobertura.sql",
+      "bytes": 713,
+      "sha256": "cd94f349594981707fdac824c8355fbbc240459319f6082d803c66889195576f",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/ibama_autos_embargos/03_transformacoes.sql",
+      "bytes": 465,
+      "sha256": "bbefa1c95380041a8509e50714789b200a2305a363358b5533412fb46da4a9f7",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/ibama_autos_embargos/01_chaves_nulas.sql",
+      "bytes": 554,
+      "sha256": "9878dbad161a13fc91efbec4b2b27c79b9c334e544d5fece1af4a711f8d068b2",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/sicor_car/02_duplicidade.sql",
+      "bytes": 572,
+      "sha256": "44f78fcf6e44e51215b640cbc2728769ac8fbc6a8b83d7a19dc4c8f9446bf261",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/sicor_car/06_estrutura.sql",
+      "bytes": 617,
+      "sha256": "81c024cf11dcc3df3a1f73cd5d02b278d400a549c742ee6d79048574dfe98d34",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/sicor_car/05_residuos.sql",
+      "bytes": 472,
+      "sha256": "902372f2aba98b65888b49ff8e2809ce9167b3d2d5c3624ec20fed6ddc515285",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/sicor_car/04_cobertura.sql",
+      "bytes": 814,
+      "sha256": "98205a7e6043f96c8648d3ed50d90ce00e51a6051522cb066498097601cbaf21",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/sicor_car/03_transformacoes.sql",
+      "bytes": 994,
+      "sha256": "8a925343897fa86bef0bf28b722eb7f609876f2acd2e92d7a4966da5e1e396c5",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/sicor_car/01_chaves_nulas.sql",
+      "bytes": 560,
+      "sha256": "34d87fa21c5cef547c077d0122b20fdfefc717062fc162a0358f0ab190e02091",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/prodes_mapbiomas/02_duplicidade.sql",
+      "bytes": 697,
+      "sha256": "34bec8ce7f0df97424e7818605aa6fc0b18502412c10dffd123d8317cf0dc016",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/prodes_mapbiomas/05_residuos.sql",
+      "bytes": 535,
+      "sha256": "adca58e9e0fe87088d2c549e60157967b3818c1af7df4ed992ce947aebfeba04",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/prodes_mapbiomas/04_cobertura.sql",
+      "bytes": 854,
+      "sha256": "abeb3ae03c8c35f8fe1ed1bf4b69aa5783e4dc837d20545bfd1651389c79d867",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/prodes_mapbiomas/03_transformacoes.sql",
+      "bytes": 595,
+      "sha256": "ff3f03e6318d48286f2c5d268236dac29f2bdaa485860e6ba6d7e6a35582f34a",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/sql/prodes_mapbiomas/01_chaves_nulas.sql",
+      "bytes": 786,
+      "sha256": "9701fc355e1db0a9a665fc16032b4e56faddf97e16b561c4594971fe82303770",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/runs/2026-11-19/ab_par1_sql.md",
+      "bytes": 5175,
+      "sha256": "89fdc11a685c1cb861fe73f7c8e33b38618a90a08b546ca68560e1de8d0f7de6",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/runs/2026-11-19/sicor_car_diagnostico.md",
+      "bytes": 1813,
+      "sha256": "5d2defbef4060feb12100279d3bf34fd7324cfc2a3a95b964c510b66b0538a32",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/runs/2026-11-19/ibama_autos_embargos_diagnostico.md",
+      "bytes": 1703,
+      "sha256": "9c61bf4036e0be0986d893c2eb057cc49bd457d4f8f4c5a299512e28c286fcd4",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/runs/2026-11-19/suites_restantes_4configs.md",
+      "bytes": 4143,
+      "sha256": "191c825d9a51f67465bbcc0b78216c54d168079597444cbb5f707fdf16b04c26",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/runs/2026-11-19/ab2_retrieval_log.json",
+      "bytes": 2915,
+      "sha256": "5e224621197d2e56c0405379644df546db17d53358930c70dd7e3f440a63ff9f",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/runs/2026-11-19/prodes_mapbiomas_diagnostico.md",
+      "bytes": 1375,
+      "sha256": "32290444d56ef85ed5f2d11d7ff9a345a642f65ccf8a20c814de2bfb6e8172a1",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/runs/2026-11-19/rais_cnae_diagnostico.md",
+      "bytes": 1593,
+      "sha256": "f03141d68cea01a6ffb872b10bf551345ac0112b637a85b63cf15983d3559959",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/runs/2026-11-19/ab_retrieval_log.json",
+      "bytes": 2221,
+      "sha256": "a5c5619d93056b131b403b2ad60e7bb25e8366c43aa156711e66ad419119d9f7",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/runs/2026-11-19/validacao_real_chatbot.md",
+      "bytes": 4093,
+      "sha256": "258b47d2f5f1100da29a687b82402744d6f90521bb408f225707edfb5ad8d5f9",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/app/build_app.py",
+      "bytes": 18698,
+      "sha256": "c981d8e092376d0b2a0d58c15d7d3190348f68457b145b8e4c90de1cb46c9b53",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/outputs/app/index.html",
+      "bytes": 2621204,
+      "sha256": "03e1159ebc0a65767c8ed471afac3d29338ca318688cbe56d044116daac43007",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/experiencias/SCHEMA.md",
+      "bytes": 1302,
+      "sha256": "8643f2d356d287dd971b91193da4e4dfd7e07c3fe00bbb2347e0ba9b924de674",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/experiencias/prodes_mapbiomas_cobertura.json",
+      "bytes": 2075,
+      "sha256": "1c44575d64a77bd52fb1390c7bbf8e3d92258c14032e869ab718294a76bfda27",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/experiencias/t7_sicor_car_rateio.json",
+      "bytes": 7998,
+      "sha256": "b4943ec3279d94acc88035f976e1b6de6109e7334e4e09b93abe0da11ac435bf",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/experiencias/rais_cnae_reconciliacao.json",
+      "bytes": 1992,
+      "sha256": "e011cb4cf9fc2a5584c229b4e1c2d5368327729db855a42217a3e32bea896d51",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/bd_reconciliation/experiencias/ibama_autos_embargos.json",
+      "bytes": 1763,
+      "sha256": "149556fd00421c7b041156a6a3099777dd9038d63feb01c353470afc9bd4bace",
+      "origem": "bd_reconciliation"
+    },
+    {
+      "path": "originais/ba_vizinhancas_20261120/metodo_ba_vizinhancas_20261120.md",
+      "bytes": 1200,
+      "sha256": "bd7e1852896cfa063a703b97e14039d16fd27521de7ad21b0a2653a82c565295",
+      "origem": "ba_vizinhancas_20261120"
+    },
+    {
+      "path": "originais/ba_vizinhancas_20261120/ba_viz_18_v2.json",
+      "bytes": 38949,
+      "sha256": "b7ddc6211c9cced802516da814eb354683c6fbf741018c61ec0a961f0ae304a1",
+      "origem": "ba_vizinhancas_20261120"
+    },
+    {
+      "path": "originais/ba_vizinhancas_20261120/ba_viz_distancias_utm.json",
+      "bytes": 8320,
+      "sha256": "38e0e72985a690d90a480491219d355799b304b229cf3758a2774f5e66469d69",
+      "origem": "ba_vizinhancas_20261120"
+    },
+    {
+      "path": "originais/ba_vizinhancas_20261120/ba_viz_4_v2.json",
+      "bytes": 27112,
+      "sha256": "93f632210ef941797abe8282b7a65cdd41d4733adc95fdff46cd2cc9322d3f69",
+      "origem": "ba_vizinhancas_20261120"
+    },
+    {
+      "path": "originais/ba_vizinhancas_20261120/ba_viz_11_v2.json",
+      "bytes": 85140,
+      "sha256": "132e23a5741394068f877ba55d588440476e14db1eb300f8ee91dd23f64a0884",
+      "origem": "ba_vizinhancas_20261120"
+    },
+    {
+      "path": "originais/ba_vizinhancas_20261120/ba_viz_20_v2.json",
+      "bytes": 38496,
+      "sha256": "d52c983751cab2127998774931ec132bafd150300949184b2b020ebc99a0778f",
+      "origem": "ba_vizinhancas_20261120"
+    },
+    {
+      "path": "originais/ba_vizinhancas_20261120/ba_viz_13_v2.json",
+      "bytes": 52029,
+      "sha256": "72fc42e08a5d1afb0429a946ec30bc6feaef5b72ae3c152205aea82561c10ce2",
+      "origem": "ba_vizinhancas_20261120"
+    },
+    {
+      "path": "originais/ba_vizinhancas_20261120/ba_viz_8_v2.json",
+      "bytes": 51483,
+      "sha256": "14a4e7216bb5d45899b78dc2fb471813eb4b9a08e2ec11118ab95d32f5ec72c6",
+      "origem": "ba_vizinhancas_20261120"
+    },
+    {
+      "path": "originais/ba_vizinhancas_20261120/ba_viz_5_v2.json",
+      "bytes": 21137,
+      "sha256": "d0faa43d5373b278880095908f98590b410cb902293f0b31a55e5a93bf6a4b85",
+      "origem": "ba_vizinhancas_20261120"
+    },
+    {
+      "path": "originais/ba_vizinhancas_20261120/ba_viz_16_v2.json",
+      "bytes": 65170,
+      "sha256": "da216a8f93951fc0b399aaab158f50e50ff4ba934ca60c77f6fd9efb45352072",
+      "origem": "ba_vizinhancas_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/deter_amz_riomaria_lonlat.json",
+      "bytes": 23417,
+      "sha256": "39551e2d842949884ad5fd66d96fd639a0546e2b72856e7570056990baf0cdab",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/pa3_micro.json",
+      "bytes": 836,
+      "sha256": "32b7b0f56ed40005453f40e8821980ceb9d264c2129c988ea3a70f6ca1b2d2e9",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/casos_rs_tuparendi_nota.txt",
+      "bytes": 1843,
+      "sha256": "4b1f791173f1656478fab331cfccb2b456666f5d9334d9833355f68ece137876",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/deter_amz_carAB_lonlat.json",
+      "bytes": 147,
+      "sha256": "1de54a4496a8fe1bb352b6c7b5877d65ffb19d901315cb88c153bd25232a3ea9",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/ms_pontapora_micro2.json",
+      "bytes": 814,
+      "sha256": "668940aea7338896d487f29e3f3c05ae00709d9006d1110cb50aa2a1c306bf4f",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/ids20.txt",
+      "bytes": 880,
+      "sha256": "9e00598b2a2d396ef33a3d0bc6081e8231b1d70bf52ea015acf38cf9898d4eec",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/prodes_ce_ms_v2.json",
+      "bytes": 8302,
+      "sha256": "37f19fd2a485defe23f5b5cb8f63e77f39912529b2732f3455e6cf1768e1a56e",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/top20_perfis_restantes_nota.txt",
+      "bytes": 3200,
+      "sha256": "42ea64628da7a223134897fec8d54b7ddce882fe25e1f3ccc99555996752baf9",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/prodes_ce_ctrl_pos.json",
+      "bytes": 1844680,
+      "sha256": "59b5d8b2e1522dfcc95b6af18d4d78a8fd70cbe85e8b024c0b9b96bd5de80631",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/deter_carAB_nota.txt",
+      "bytes": 2639,
+      "sha256": "bfdbe815859fea67c1bd3530c56820d10c3f27a944d00b13d10a0af184a8affc",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/caso3_pa_riomaria_nota.txt",
+      "bytes": 2913,
+      "sha256": "e63f93a78b18c1b94f4aa7e8d6e68ccbfbc130ba4a0d25a0f72c515a56c19e42",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/deter_ctrl_carAB_regiao.json",
+      "bytes": 109322,
+      "sha256": "2a38f4e397b735dfbe8ce89a26cf5bda0d9383a4617915fa2d75ee6cc666b64b",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/deter_ctrl_rondon_lonlat.json",
+      "bytes": 78233,
+      "sha256": "5af10adae363578de2117c21decce5c1c30f409043666021747d3e06e35cc302",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/top20_pa1.json",
+      "bytes": 831,
+      "sha256": "39e49e436af398b45b5d09a8f6a496c3c3f67e2762fa98c7cdafedee44f10c97",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/rs10_micro.json",
+      "bytes": 766,
+      "sha256": "4024d66b981820f4949b62191c96132c55a9932671830a138cb2bf0d7c2f4af6",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/deter_ctrl_negativo_oceano.json",
+      "bytes": 147,
+      "sha256": "a9273beacfe6dafeb77d1b7a24f2d09b054914470d8cc8d9b305dd2aca111efa",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/rs_outros3.json",
+      "bytes": 1887,
+      "sha256": "78a7664f605a5f53dd590ea1e1dcb96fcf84cefe05a4f553f84d5725453de6b2",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/assent_geom.json",
+      "bytes": 5220,
+      "sha256": "17f9c55f8a46c151fa07e0f941c8340dd50fbf12a323dfcb2001d59b16abd8a0",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/prodes_amz_rm_v2.json",
+      "bytes": 10875,
+      "sha256": "6c6c359a0b778c9231bbcf7810238ca3cbaccf90162044a29dbd44b7af33c54e",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/prodes_ca_sfc_v2.json",
+      "bytes": 1206677,
+      "sha256": "eead3a4389e06910a100f279c9b9522b63702a565fa6c3c119ad81fd8773169e",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/testes_espaciais_terrabrasilis_20261120.txt",
+      "bytes": 4622,
+      "sha256": "b294061a00688689f294e547ea505050c9c9e8b5ca28e00bfb7fa25e7c34baf7",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/prodes_caatinga_sfc_nota.txt",
+      "bytes": 2942,
+      "sha256": "81e8143495e84989575d47cb98c42ea9d9e81c03d8a677142e32d8086c550a24",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/pa1_vizinhos.json",
+      "bytes": 13510,
+      "sha256": "2eba1dca3de52c85bed9499fc9c22163f7f177a5e4bce94ba6602402ababc4a8",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/prodes_amz_carAB_v2.json",
+      "bytes": 12590,
+      "sha256": "db25f95e2ad9615d704f912373cade080bd12b9b4d5351f5a31e6308d8ddf607",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/prodes_ctrl_neg.json",
+      "bytes": 147,
+      "sha256": "f358f0804b70e45c2970bc4230964961a46f8efc146c5c425736527525043b0b",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/top20_ba_perfis.json",
+      "bytes": 6818,
+      "sha256": "e1ab5c3187c09b3a25fb2a0780eb5d01d7ca6a45d5f4e61ea5e901408540c880",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/pa3_vizinhos.json",
+      "bytes": 15844,
+      "sha256": "65585c1ea2c7a9b44ef3314684b29ce3407bfcc9effb2cdf3e352c7f7491b5cc",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/verificar.py",
+      "bytes": 1656,
+      "sha256": "553f467d68d6104f1ac5641ad149eeb80c1276b15a1074e122bc0f7c3466b003",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/deter_cerrado_pontapora_bbox.json",
+      "bytes": 11769,
+      "sha256": "522750554ffb31449a6c8b913e3969d041e052af766c9ae787a770ef295a7bc4",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/rs_vizinhos.json",
+      "bytes": 292935,
+      "sha256": "05c51656c2565f88f2b5a0b7f51fa6aaf494f393dc5307df90caf00c02dad116",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/prodes_ctrl_pos.json",
+      "bytes": 857609,
+      "sha256": "8532429adcc97dc74289001c69b0d0f2ca3f40416e0204b7892c05d3ae95757e",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/sfc_documental_oficial.txt",
+      "bytes": 5299,
+      "sha256": "76f15106dcbfab517b72fc0909ef31d70ea6ebac41b1cb9e4d9ad93898fe735b",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/prodes_ca_ctrl_neg.json",
+      "bytes": 147,
+      "sha256": "2004a7792e84e39d7b126d66544cda5379740306df7e722a61af373f4ce2c250",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/deter_ctrl_rondon.json",
+      "bytes": 147,
+      "sha256": "d0a72f47a074dac5c3051e54775bb49b166af5723686621fb5281a6b76b7d09c",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/ms_vizinhos.json",
+      "bytes": 60344,
+      "sha256": "90ccc5060c34ab59dd9f9412888c0d9d18fd6b1c45f3d946dcbcde9629fc2645",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/sfc_trio_vizinhos.json",
+      "bytes": 334593,
+      "sha256": "3435366d12d5eb57e41b96dc2f96a2e49933c3eb37880e87289fc28884e56f93",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/caso2_ms_pontapora_nota.txt",
+      "bytes": 3366,
+      "sha256": "14a6965dbf41275aacc27ec46b9a8a34e5ce5ff2a15ca55f26fab9af2fa38aae",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/pacote_evidencias_20261120/prodes_ce_ctrl_neg.json",
+      "bytes": 147,
+      "sha256": "099142c8d8a0739aa510f21dfbdcb78348674b4d792512a72bec1929d8728cbf",
+      "origem": "pacote_evidencias_20261120"
+    },
+    {
+      "path": "originais/sigef_cruzamentos_20261120/sigef_sfc_ll.json",
+      "bytes": 18385,
+      "sha256": "7253ec50edc9dad7553ae691aa4f46c562d02bfa28fb3d839465416849be564b",
+      "origem": "sigef_cruzamentos_20261120"
+    },
+    {
+      "path": "originais/sigef_cruzamentos_20261120/sigef_rondon.json",
+      "bytes": 47885,
+      "sha256": "f3fd37ba5360a770b7dc58af11604435c3944bfe76208d8c41d5fb603cf1bd20",
+      "origem": "sigef_cruzamentos_20261120"
+    },
+    {
+      "path": "originais/sigef_cruzamentos_20261120/sigef_desc.xml",
+      "bytes": 2665,
+      "sha256": "e421bb96941e01a27172464537dbe5497e5bd71588cee315fef6bd862db4a5ad",
+      "origem": "sigef_cruzamentos_20261120"
+    },
+    {
+      "path": "originais/sigef_cruzamentos_20261120/sicar_sfc_pa.json",
+      "bytes": 55827,
+      "sha256": "53f7e40c07e8b5bfe7b668632c3d9c4c4f8fd52aaae6a94c6fdd7ce0f418a985",
+      "origem": "sigef_cruzamentos_20261120"
+    },
+    {
+      "path": "originais/sigef_cruzamentos_20261120/nota_sigef_cruzamentos_20261120.md",
+      "bytes": 2198,
+      "sha256": "8dd9519856d97d8c80149d8f71226f6eba6c12782f911a57d5174ac6ec4cac69",
+      "origem": "sigef_cruzamentos_20261120"
+    },
+    {
+      "path": "originais/territorio/arquivos/timeline_sfc_bom_sucesso.md",
+      "bytes": 6394,
+      "sha256": "1f475a59483cebe9d3cc58cb0ec0409e892e1f3d24bc6c3190ed54fce44b8113",
+      "origem": "Drive, 2026-11-20"
+    },
+    {
+      "path": "originais/territorio/pacotes/sigef_cruzamentos_20261120.tar.gz",
+      "bytes": 30814,
+      "sha256": "ac39b7fff790e55318b304dc6fc7fd9c12e03c3ddbcf3af519c30456ea7f61cb",
+      "origem": "Drive, 2026-11-20"
+    },
+    {
+      "path": "originais/territorio/pacotes/pacote_evidencias_20261120.tar.gz",
+      "bytes": 740968,
+      "sha256": "034e0465c73cbc7fc488ead3e05e1f73d7998727992d7238a6edb4a28204dc05",
+      "origem": "Drive, 2026-11-20"
+    },
+    {
+      "path": "originais/territorio/arquivos/sintese_aprofundamento_2026-11-20_v2.md",
+      "bytes": 14439,
+      "sha256": "51b742d952f4ccbcd3711ba419b61c527243050be0579085a6b8f8bdddc052a7",
+      "origem": "Drive, 2026-11-20"
+    },
+    {
+      "path": "originais/territorio/arquivos/timeline_rondon_do_para.md",
+      "bytes": 6192,
+      "sha256": "21abc3e8651fe4aa6c82e18c69ad9525a03bcf430b0def357a83ea5e0140da46",
+      "origem": "Drive, 2026-11-20"
+    },
+    {
+      "path": "originais/territorio/arquivos/demonstrativos_carAB_nota.txt",
+      "bytes": 2362,
+      "sha256": "cf75e11c068babd27ca9cfe9949546a32d14c29cd257399f6cfaf06e701664f8",
+      "origem": "Drive, 2026-11-20"
+    },
+    {
+      "path": "originais/territorio/arquivos/demonstrativos_micros_inscricao_vs_retificacao.txt",
+      "bytes": 3126,
+      "sha256": "d3e0a9853b32a8b77c7b9ccbd2c579b785f214791df3a15becbb2546c1107205",
+      "origem": "Drive, 2026-11-20"
+    },
+    {
+      "path": "originais/territorio/pacotes/ba_vizinhancas_20261120.tar.gz",
+      "bytes": 81383,
+      "sha256": "57e484cef20d85613578bd22b9a99e3507ef1f6498f20818560903b9905b83aa",
+      "origem": "Drive, 2026-11-20"
+    }
+  ]
+}

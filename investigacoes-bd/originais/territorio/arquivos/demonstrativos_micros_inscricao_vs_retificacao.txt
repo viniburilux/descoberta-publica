@@ -1,0 +1,21 @@
+DEMONSTRATIVOS SICAR — VERIFICAÇÃO INSCRIÇÃO vs RETIFICAÇÃO (car.gov.br/#/consultar, capturado 20/11/2026 02h17-02h28 -03)
+Metodologia: consulta pública SICAR -> botão Demonstrativo -> página oficial car.gov.br/#/consultar/<codigo>. Campo WFS dat_criacao mostrou ser, nos casos verificados, a data da ÚLTIMA RETIFICAÇÃO, não a inscrição.
+
+ONDA 03/04/2025 (três 25 m², CA) — datas 03/04/2025 eram RETIFICAÇÕES:
+1. PA-1506187-8A59FA2709F1467CB9659E8E433E29A2 — Inscrição 23/10/2020; Últ. retif. 02/04/2025; Condição: Cancelado por decisão administrativa. WFS dat_criacao: 2025-04-03.
+2. PA-1506187-2FA6A081B1F745D4800249F665C9DE96 — Inscrição 01/12/2015; Últ. retif. 03/04/2025; Cancelado por decisão administrativa. WFS: 2025-04-03.
+3. PA-1506187-A4DD4E93695C4B7DA32C7F0DB8CDE959 — Inscrição 30/12/2016; Últ. retif. 03/04/2025; Cancelado por decisão administrativa. WFS: 2025-04-03.
+
+ONDA 16/04/2025 (três 9 m², PE) — datas 16/04/2025 eram RETIFICAÇÕES:
+4. PA-1506187-34A1DD76FA7D40848D10832D82940BDA — Inscrição 07/05/2017; Últ. retif. 15/04/2025; Condição: Analisado, aguardando atendimento a notificação. WFS: 2025-04-16.
+5. PA-1506187-DAE50532EA2F4A3093A94AA2A6197177 — Inscrição 27/10/2020; Últ. retif. 15/04/2025; Analisado, aguardando atendimento a notificação. WFS: 2025-04-16.
+6. PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98 (micro #12) — Inscrição 26/11/2015; Últ. retif. 16/04/2025; Analisado, aguardando atendimento a notificação. WFS: 2025-04-16.
+
+MICRO7 (SFC): BA-2929057-C5D11EE026A64399A6EF36764E8739E9 — Inscrição 14/10/2019; Últ. retif. 01/07/2026; Aguardando análise. WFS dat_criacao: 2026-07-01 (era retificação).
+
+CONSEQUÊNCIA (fatos): o que foi entregue ao usuário como "registrados/criados em 03/04/2025, 16/04/2025 e 01/07/2026" corresponde, nos demonstrativos oficiais, às datas de retificação. As inscrições originais são 2015 (2), 2016 (1), 2017 (1), 2019 (1), 2020 (2). A "onda" de 2025 é uma onda de RETIFICAÇÕES simultâneas (3 no mesmo dia 02-03/04/2025; 3 em 15-16/04/2025), não de novos cadastros. Centróides: os 3 da onda 03/04 ficam a ~1-2" de longitude entre si (04°42'14,7"S 48°03'03,4-03,8"O); os 3 de 16/04 idem (48°03'32,7-33,0"O) — lados a lado confirmado.
+A generalização "todos os 20 criados em 2023+" perde suporte: só os demonstrativos verificados valem. Dos 20, apenas estes 9 demonstrativos foram lidos (2 grandes + 6 micros Rondon + micro7). Status CA/PE reportados antes batem com a Condição Externa (CA = Cancelado por decisão administrativa; PE = Aguardando análise ou Analisado aguardando notificação).
+
+REGRA APRENDIDA: dat_criacao do WFS SICAR = data do último evento cadastral (inscrição OU retificação), não comprovadamente a inscrição. Para qualquer um dos 20, só o demonstrativo oficial diz a inscrição.
+
+Raws nesta pasta: dem_8A59FA27.json, dem_2FA6A081.json, dem_A4DD4E93.json, dem_34A1DD76.json, dem_DAE50532.json, dem_CEAD1A3A.json, dem_micro7.json (innerText completo da página oficial), demonstrativo_carA_raw.json, demonstrativo_carB_raw.json.

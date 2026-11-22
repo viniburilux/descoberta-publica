@@ -1,0 +1,35 @@
+{
+  "id": "bd_reconciliation",
+  "titulo": "Reconciliacao de bases publicas - diagnostico configuravel de relacionamentos",
+  "operacao": "OPERACAO BD (2026-11-19)",
+  "missoes": [
+    "2",
+    "3"
+  ],
+  "criado_em": "2026-11-19",
+  "versao": "0.1.0",
+  "status": "em_execucao",
+  "artefato_canonico": "source/reconcile.py",
+  "entradas": [
+    "configs/relationships/*.json",
+    "inputs/recorded/*.json"
+  ],
+  "saidas": [
+    "outputs/sql/",
+    "outputs/runs/",
+    "catalog/"
+  ],
+  "relacionamentos": [
+    "sicor_car",
+    "prodes_mapbiomas",
+    "rais_cnae",
+    "ibama_autos_embargos"
+  ],
+  "custo": "zero (execucao de SQL via assistente de dados da BD, sem projeto GCP proprio; suites executadas ao vivo em 19/11, ver outputs/runs/2026-11-19/)",
+  "evidencia_origem": {
+    "threads_bd_chatbot": [
+      "c3e3f115"
+    ],
+    "autorizacao": "ordem do dono (Vini) em 2026-11-19 20:44"
+  }
+}

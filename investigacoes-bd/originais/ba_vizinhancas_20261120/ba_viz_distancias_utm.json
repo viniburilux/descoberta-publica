@@ -1,0 +1,474 @@
+{
+ "4": {
+  "epsg": 32724,
+  "features": 29,
+  "tiny": 3,
+  "nearest_big": [
+   0.0,
+   26.582
+  ],
+  "top6": [
+   [
+    0.0,
+    26.582,
+    "BA-2921401-0F05B7015F404007905C0A598A258AF4",
+    "Mirangaba",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    2.8404923473582328e-09,
+    0.0001,
+    "BA-2921401-9177991E4861442EACFE3ACDDC06DB91",
+    "Mirangaba",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    6.790295256753346,
+    0.0001,
+    "BA-2921401-20C131EDAB504949BA143D992E528B93",
+    "Mirangaba",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    7.682913551352438,
+    0.0001,
+    "BA-2921401-4DE6B22656E94067B6AC644B3348B660",
+    "Mirangaba",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    11.341964104827573,
+    2.1915,
+    "BA-2921401-CCF044B40153444A8D10D3CA1A0EA565",
+    "Mirangaba",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    14.860907158591463,
+    4.5346,
+    "BA-2921401-B3F35BEA4A5A4822B436F86D6C53DF1C",
+    "Mirangaba",
+    "AT",
+    "Aguardando análise"
+   ]
+  ]
+ },
+ "5": {
+  "epsg": 32723,
+  "features": 23,
+  "tiny": 1,
+  "nearest_big": [
+   0.8361996700954012,
+   190.6368
+  ],
+  "top6": [
+   [
+    0.0,
+    0.0002,
+    "BA-2928109-0F43ABB998F5484394BAA55A4964A2BD",
+    "Santa Maria da Vitória",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    0.8361996700954012,
+    190.6368,
+    "BA-2928109-3CF8E90A771D4AFFBB17432CCD4765B6",
+    "Santa Maria da Vitória",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    403.5057231721182,
+    31.8824,
+    "BA-2928109-CBB1A0A959A3456689EEBD4EEF119FFD",
+    "Santa Maria da Vitória",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    409.85300117148347,
+    41.1565,
+    "BA-2928109-1FD8E2C47FBC47E386B0B3820DBC93C9",
+    "Santa Maria da Vitória",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    448.7445213863275,
+    12.1331,
+    "BA-2928109-011DD94E8D144E0A95E6A57215CBD83E",
+    "Santa Maria da Vitória",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    500.4327662040013,
+    23.3453,
+    "BA-2928109-E7B32A58D54047798CEBE6F6875D4658",
+    "Santa Maria da Vitória",
+    "AT",
+    "Aguardando análise"
+   ]
+  ]
+ },
+ "8": {
+  "epsg": 32724,
+  "features": 61,
+  "tiny": 43,
+  "nearest_big": [
+   420.2567525654293,
+   10.0031
+  ],
+  "top6": [
+   [
+    0.0,
+    0.0001,
+    "BA-2913705-C31099AB04E24F15B9941AAAF17DC244",
+    "Inhambupe",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    77.21432709973007,
+    0.001,
+    "BA-2913705-1F0E3DA541604B0D9AF3140D94F2BDE3",
+    "Inhambupe",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    79.29578460351894,
+    0.001,
+    "BA-2913705-B1F83D31602648C495BEEAEDDAB915A9",
+    "Inhambupe",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    83.87197059962452,
+    0.001,
+    "BA-2913705-261F641003A043AC96A57D1B8A8E2FC6",
+    "Inhambupe",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    86.14494332193446,
+    0.001,
+    "BA-2913705-8616DB4DCE1E46CDA3B74694F75C5517",
+    "Inhambupe",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    88.2285269856896,
+    0.001,
+    "BA-2913705-4F41683F0ACD4B60B541A5B60EC6599D",
+    "Inhambupe",
+    "AT",
+    "Aguardando análise"
+   ]
+  ]
+ },
+ "11": {
+  "epsg": 32724,
+  "features": 55,
+  "tiny": 5,
+  "nearest_big": [
+   2.3743939693118445,
+   188.8979
+  ],
+  "top6": [
+   [
+    0.0,
+    0.0001,
+    "BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70",
+    "Sítio do Quinto",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    2.3743939693118445,
+    188.8979,
+    "BA-2930766-ACF4A434E9CE490687D510AE6A90EB26",
+    "Sítio do Quinto",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    2.5825562586067035,
+    35.0843,
+    "BA-2930766-713704BFA6894896987B08C7B3535255",
+    "Sítio do Quinto",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    220.0838536611954,
+    18.2712,
+    "BA-2930766-905FA29303864FCAB80ED97AB6D053E4",
+    "Sítio do Quinto",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    384.9543713872502,
+    20.3131,
+    "BA-2930766-87558447866741049C1216715E1642B8",
+    "Sítio do Quinto",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    461.4527404215812,
+    25.0497,
+    "BA-2930766-43972699E2C6411FBEC129959CE1A0A6",
+    "Sítio do Quinto",
+    "AT",
+    "Aguardando análise"
+   ]
+  ]
+ },
+ "13": {
+  "epsg": 32724,
+  "features": 54,
+  "tiny": 2,
+  "nearest_big": [
+   2.488381693812072,
+   83.2694
+  ],
+  "top6": [
+   [
+    0.0,
+    0.0001,
+    "BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968",
+    "Antas",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    2.488381693812072,
+    83.2694,
+    "BA-2901601-BDE951735FF440F9849E4183FF0E398E",
+    "Antas",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    7.711989008575425,
+    42.702,
+    "BA-2901601-7D2621AA14614630BB96411CF8C6EA1B",
+    "Antas",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    18.3784979754183,
+    4.5066,
+    "BA-2901601-D7706F848B8448EABECF56660AB9D77F",
+    "Antas",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    20.85626690854525,
+    1.0965,
+    "BA-2901601-8A8C2C0534794A64953D7F36F802398A",
+    "Antas",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    51.91360240262973,
+    1.8394,
+    "BA-2901601-2D60FB54D2104FEB9DEA8E46F46F8E60",
+    "Antas",
+    "AT",
+    "Aguardando análise"
+   ]
+  ]
+ },
+ "16": {
+  "epsg": 32724,
+  "features": 72,
+  "tiny": 4,
+  "nearest_big": [
+   22.502673363491656,
+   267.0041
+  ],
+  "top6": [
+   [
+    0.0,
+    0.0001,
+    "BA-2916500-9222A7C0C77E4E019B498875C6578189",
+    "Itapicuru",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    2.4915714179352717,
+    0.8978,
+    "BA-2916500-A6A2D6A1755D489CB366004813E210B3",
+    "Itapicuru",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    22.502673363491656,
+    267.0041,
+    "BA-2916500-437C23839C5A43469F96242D9B32C35F",
+    "Itapicuru",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    24.841912895865107,
+    1.0522,
+    "BA-2916500-8909A5D8835A4DEF866D1ABFB7BBD679",
+    "Itapicuru",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    111.36706507263492,
+    1.6749,
+    "BA-2916500-2F84A3C6BDC04102AF3CCE34D0A5CA11",
+    "Itapicuru",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    139.23509645102294,
+    1.6143,
+    "BA-2916500-B83B4D182372467B88E46F2663BA2C14",
+    "Itapicuru",
+    "AT",
+    "Aguardando análise"
+   ]
+  ]
+ },
+ "18": {
+  "epsg": 32724,
+  "features": 36,
+  "tiny": 5,
+  "nearest_big": [
+   0.25515754489684367,
+   68.9827
+  ],
+  "top6": [
+   [
+    0.0,
+    0.0001,
+    "BA-2902005-876B8A8CE62D40119A8446C4262A5AC7",
+    "Aracatu",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    0.25515754489684367,
+    68.9827,
+    "BA-2902005-5B20FB7D0FB447B1A6016FB2BE0FBE32",
+    "Aracatu",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    0.27725470097736604,
+    0.0001,
+    "BA-2902005-95392947F37C4874BE002E49F1D07AC3",
+    "Aracatu",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    256.98430791271863,
+    3.0799,
+    "BA-2902005-1198179202AC41868AA24F9023DB700B",
+    "Aracatu",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    421.85372216171874,
+    15.1527,
+    "BA-2902005-044E2B4165944C9FB68DF30869BB79A6",
+    "Aracatu",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    466.4777231248184,
+    0.1634,
+    "BA-2902005-82C81F57A1F84998A9ACD2A41B3ECCE4",
+    "Aracatu",
+    "AT",
+    "Aguardando análise"
+   ]
+  ]
+ },
+ "20": {
+  "epsg": 32724,
+  "features": 46,
+  "tiny": 3,
+  "nearest_big": [
+   1.065682344009271,
+   33.3206
+  ],
+  "top6": [
+   [
+    0.0,
+    0.0001,
+    "BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6",
+    "Ribeira do Amparo",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    1.065682344009271,
+    33.3206,
+    "BA-2926509-B859F2D86B0841CEAFEE72C369474EC5",
+    "Ribeira do Amparo",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    24.069011880435276,
+    19.6226,
+    "BA-2926509-03D891A139964E869EB94640A1DC852A",
+    "Ribeira do Amparo",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    170.34224524900756,
+    26.476,
+    "BA-2926509-0E5DBE8231C943CDAB423E2D7BA03F91",
+    "Ribeira do Amparo",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    289.050665009159,
+    29.3389,
+    "BA-2926509-110096B731DE4BF6949B05C5752CE558",
+    "Ribeira do Amparo",
+    "AT",
+    "Aguardando análise"
+   ],
+   [
+    290.9435091753936,
+    19.8414,
+    "BA-2926509-06F742FFAD994F13B691597BF964DF0F",
+    "Ribeira do Amparo",
+    "AT",
+    "Aguardando análise"
+   ]
+  ]
+ }
+}

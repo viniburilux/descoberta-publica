@@ -1,0 +1,62 @@
+{
+  "id": "prodes_mapbiomas",
+  "titulo": "PRODES x MapBiomas - desmatamento x cobertura e uso da terra",
+  "entidades": {
+    "left": "Municipio dentro de determinado bioma, com desmatamento PRODES",
+    "right": "Municipio dentro de determinado bioma, com cobertura/uso MapBiomas por classe"
+  },
+  "left": {
+    "table": "basedosdados.br_inpe_prodes.municipio_bioma",
+    "key": "CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING))",
+    "partition_field": "ano",
+    "filters": {
+      "ano": [
+        2023
+      ]
+    },
+    "notes": "Chave composta municipal-tematica-temporal."
+  },
+  "right": {
+    "table": "basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe",
+    "key": "CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING))",
+    "partition_field": "ano",
+    "filters": {
+      "ano": [
+        2023
+      ]
+    },
+    "notes": "Uma linha por classe de cobertura: a chave composta se repete por classe (cardinalidade um-para-muitos). Duplicidade de chave composta verificada no diagnostico."
+  },
+  "transforms": [
+    {
+      "name": "literal",
+      "expr": "{key}",
+      "resultado": "adotado - chaves compativeis sem transformacao"
+    }
+  ],
+  "structural_checks": null,
+  "temporal_alignment": {
+    "estrategia": "mesmo ano de referencia (2023)",
+    "motivo": "ambas as bases sao anuais"
+  },
+  "metricas": [
+    "chaves_distintas"
+  ],
+  "observado": {
+    "data_observacao": "2026-11-19",
+    "chaves_prodes": 6536,
+    "chaves_com_mapbiomas": 6437,
+    "chaves_sem_mapbiomas": 99
+  },
+  "problemas_conhecidos": [
+    "99 chaves PRODES sem correspondencia MapBiomas em 2023 (1,51%) - investigar se sao municipio-bioma sem area de cobertura ou defasagem de recorte",
+    "MapBiomas repete a chave composta por classe de cobertura: agregacao por classe necessaria antes de joins 1:1"
+  ],
+  "evidencia": {
+    "thread": "BD chatbot T6 (id c3e3f115), 2026-11-19 06:40",
+    "arquivo_corpus": "bd_clean_6.txt (export da thread T6 NAO incluido neste pacote; conversa original em https://basedosdados.org/chatbot?t=c3e3f115-4ee9-48ca-a0f6-46daa03b50a5)",
+    "query_refs": []
+  },
+  "status_validacao": "validado_execucao_registrada",
+  "versao": "0.1.0"
+}

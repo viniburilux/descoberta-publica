@@ -1,0 +1,32 @@
+{
+  "id": "prodes_mapbiomas_cobertura",
+  "tipo": "experiencia_validada",
+  "titulo": "Cobertura de municipios PRODES dentro do recorte MapBiomas (suite 04, validada ao vivo)",
+  "tags": [
+    "prodes",
+    "mapbiomas",
+    "desmatamento",
+    "cobertura",
+    "reconciliacao",
+    "municipio"
+  ],
+  "familia_metodo": "reconciliacao de contagens entre fontes",
+  "armadilhas_validadas": [
+    "Contagem de municipios PRODES dentro do recorte MapBiomas: 6.536 de 6.437 esperados com 99 excedentes (98,49%); verificar direcao do join antes de declarar cobertura.",
+    "Declarar apenas o diagnostico executado e as particoes consultadas; cobertura temporal exige query DISTINCT, nao inferencia por contagem."
+  ],
+  "fonte": "thread 5d4bd8d9, qr_a98d50fb, 2026-11-19",
+  "registrado_em": "2026-11-19T21:21:00-03:00",
+  "contexto_origem": "OPERAÇÃO BD, missão 2 (reconciliação), 19/11/2026; thread validação 5d4bd8d9.",
+  "ideia_original": "Medir cobertura entre PRODES e MapBiomas como par de fontes territoriais sobre o mesmo fenômeno (desmatamento/cobertura).",
+  "principio_hipotese": "Fontes territoriais concorrentes divergem por definição metodológica, não só por erro: reconciliação exige declarar a definição de cada lado.",
+  "evidencias_exemplos": [
+    "Contagem de municipios PRODES dentro do recorte MapBiomas: 6.536 de 6.437 esperados com 99 excedentes (98,49%); verificar direcao do join antes de declarar cobertura.",
+    "Declarar apenas o diagnostico executado e as particoes consultadas; cobertura temporal exige query DISTINCT, nao inferencia por contagem."
+  ],
+  "outras_aplicacoes": "Hipótese: mesmo desenho para outros pares territoriais (DETER × PRODES, CAR × MapBiomas). Não executado.",
+  "perguntas_abertas": "Recorte temporal e classe a classe; resolução mínima de mapeamento de cada fonte.",
+  "experimentos_possiveis": "Cruzar com alertas DETER; análise por bioma.",
+  "estado_validacao": "experimentada",
+  "relacoes": "Linha bd_reconciliation; suite outputs/sql/prodes_mapbiomas/; experiência ibama_autos_embargos."
+}

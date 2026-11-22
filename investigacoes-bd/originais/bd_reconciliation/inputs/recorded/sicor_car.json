@@ -1,0 +1,9 @@
+{
+  "fonte": "BD chatbot T6 (c3e3f115) 2026-11-19 06:57 - execucao original via execute_bigquery_sql, registrada em bd_clean_6.txt",
+  "cobertura_final": [
+    {"ano": 2019, "registros": 1680904, "registros_com_snapshot": 1680881, "registros_sem_snapshot": 23, "ids_distintos": 770165, "ids_com_snapshot": 770154, "destaque_pct": 99.999},
+    {"ano": 2023, "registros": 2028517, "registros_com_snapshot": 2028504, "registros_sem_snapshot": 13, "ids_distintos": 927784, "ids_com_snapshot": 927775, "destaque_pct": 99.999},
+    {"ano": 2026, "registros": 1839880, "registros_com_snapshot": 1834500, "registros_sem_snapshot": 5380, "ids_distintos": 812394, "ids_com_snapshot": 809136, "destaque_pct": 99.708}
+  ],
+  "residuos": {"ids_nao_encontrados": 3258, "ids_em_municipio_com_outros_car": 3258, "ids_em_municipio_sem_car": 0, "municipios_dos_ids": 1428}
+}

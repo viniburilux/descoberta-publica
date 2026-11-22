@@ -1,0 +1,13 @@
+DETER-AMZ x CARs A/B Rondon do Para (20/11/2026 ~02h06 -03)
+- Query: terrabrasilis WFS deter-amz:deter_amz, BBOX(geom,lat0,lon0,lat1,lon1) no bbox do CAR A (PA-1506187-3F4B7241...), axis lat,lon (ordem exigida pelo servidor, verificada com controle).
+- Resultado: 0 feicoes dentro do bbox.
+- Controle positivo: mesmo servidor/camada retorna alertas no bbox municipal (ex.: 2024-05-07 AMAZONIA-1 WFI; 2020-06-20 CBERS-4 AWFI). Cobertura existe; zero e dentro dos poligonos.
+- Escopo: DETER = alertas de supressao/degradacao de vegetacao nativa (2016+); nao mede manejo em area ja aberta.
+- [RETIRADO 20/11 02h56] PRODES-AMZ: os numeros "so 2008/2009/2010/2015; zero 2016-2025" estao RETIRADOS: requisicao literal nao preservada, ordem de eixos nao reproduzivel (ver testes_espaciais_terrabrasilis_20261120.txt). Reconsulta pendente com metodo documentado; 502 do servidor e pendencia, nao zero.
+- Arquivos: prodes_amz_carA.json, prodes_amz_carB.json, prodes_amz_tads.json (Drive pasta 1yMDRXzf8BGsVF-VOrl2o99bcDvHBfjWb).
+
+
+REVALIDAÇÃO 20/11 02h53 (sobrescreve a nota metodológica de eixo): teste duplo no mesmo bbox de Rondon do Pará mostrou axis lon,lat → 77 feições DETER e lat,lon → 0. A ordem registrada nesta nota (lat,lon, ~02h06) não se reproduziu e sua requisição literal não foi preservada: resultado de 02h06 tratado como NÃO VERIFICADO (sem afirmar mudança do servidor). Em 02h53-02h55, para o mesmo endpoint/camada/versão WFS 1.0.0/filtro BBOX, a ordem correta é lon,lat, provada por controles positivo (77 e 83 feições, 76/77 centroides no recorte) e negativo (0 no oceano). Reconsulta do bbox dos CARs A/B com axis lon,lat + controle regional positivo (83 feições num bbox 0,3° ao redor): CONFIRMA 0 feições DETER dentro do bbox dos CARs A/B. Resultado mantido, agora com controle correto. PRODES-amz: resultado anterior (lat,lon) INVALIDADO; servidor retorna 502 persistente em 02h53; reconsulta pendente. Raws: deter_ctrl_rondon_lonlat.json (77), deter_ctrl_carAB_regiao.json (83), deter_amz_carAB_lonlat.json (0).
+
+
+PRODES-AMZ REESTABELECIDO 20/11 03h39 (método documentado; raw prodes_amz_carAB_v2.json; controles mesma sessão: positivo 580 feições, negativo 0 oceano; axis lon,lat): 7 feições no bbox dos CARs A/B (anos 2008, 2009, 2010, 2013, 2015). Interseções geodésicas: CAR A = 114,60 ha ao todo (2008: 55,01; 2009: 40,30; 2010: 8,80; 2015: 10,50); CAR B = 119,54 ha (2008: 54,13; 2009: 39,37; 2010: 15,56; 2015: 10,50). A feição 2013 não toca A nem B. ZERO 2016-2025 dentro dos CARs A/B — agora VALIDADO. Coincide qualitativamente com o resultado retirado, mas só este vale.

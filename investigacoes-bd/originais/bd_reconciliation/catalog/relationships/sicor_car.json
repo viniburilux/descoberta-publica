@@ -1,0 +1,93 @@
+{
+ "id": "sicor_car",
+ "titulo": "SICOR x CAR - credito rural x imovel rural cadastrado",
+ "config_executavel": "../../configs/relationships/sicor_car.json",
+ "bases": {
+  "left": "basedosdados.br_bcb_sicor.recurso_publico_propriedade",
+  "right": "basedosdados.br_sfb_sicar.area_imovel"
+ },
+ "entidades": "Operacao de credito rural (recurso publico) x imovel rural no CAR",
+ "campos_chaves": {
+  "left": "id_car (sem hifens, 41 chars)",
+  "right": "id_imovel (com hifens, 43 chars)",
+  "particoes": "ano_emissao (left); data_extracao + sigla_uf (right)"
+ },
+ "consultas_referencia": [
+  "SELECT ano_emissao, COUNT(*) registros, COUNTIF(id_car IS NOT NULL AND TRIM(id_car)!='') preenchido FROM basedosdados.br_bcb_sicor.recurso_publico_propriedade GROUP BY ano_emissao -- diagnostico de preenchimento temporal",
+  "WITH car AS (SELECT DISTINCT REPLACE(UPPER(TRIM(id_imovel)),'-','') id_norm FROM basedosdados.br_sfb_sicar.area_imovel WHERE data_extracao IN (<snapshots por UF>)), sicor AS (SELECT ano_emissao, REPLACE(UPPER(TRIM(id_car)),'-','') id_norm FROM basedosdados.br_bcb_sicor.recurso_publico_propriedade WHERE ano_emissao IN (2019,2023,2026) AND id_car IS NOT NULL AND TRIM(id_car)!='') SELECT ano_emissao, COUNT(*), COUNTIF(c.id_norm IS NOT NULL) FROM sicor s LEFT JOIN car c USING(id_norm) GROUP BY ano_emissao -- cobertura final"
+ ],
+ "transformacoes": [
+  "REPLACE(UPPER(TRIM(chave)), '-', '') nos dois lados",
+  "uniao de snapshots CAR por UF",
+  "recorte ano_emissao >= 2019"
+ ],
+ "cardinalidade": "muitos-para-um (varias operacoes/registros por imovel)",
+ "cobertura_observada": {
+  "2019": "99,999% registros (1.680.881/1.680.904)",
+  "2023": "99,999% registros (2.028.504/2.028.517)",
+  "2026": "99,708% registros (1.834.500/1.839.880)",
+  "residuo_2026": "3.258 ids, todos em municipios com outros CARs (1.428 municipios)"
+ },
+ "problemas_conhecidos": "ver config executavel (problemas_conhecidos)",
+ "evidencias": {
+  "thread": "BD chatbot T6 c3e3f115, 2026-11-19 06:37-06:57",
+  "arquivo": "bd_clean_6.txt (export da thread T6 NAO incluido neste pacote; conversa original em https://basedosdados.org/chatbot?t=c3e3f115-4ee9-48ca-a0f6-46daa03b50a5)",
+  "query_refs": [
+   "qr_6231e31d695d43e7a19aec973a414263"
+  ],
+  "validacao_ao_vivo": "thread 5d4bd8d9-338c-4330-9ea0-74230674b27a (chatbot BD, 2026-11-19 ~20h51-20h54): numeros exatos confirmados; ver outputs/runs/2026-11-19/validacao_real_chatbot.md"
+ },
+ "versoes": [
+  {
+   "versao": "0.1.0",
+   "data": "2026-11-19",
+   "nota": "registro inicial a partir da execucao original"
+  }
+ ],
+ "status_validacao": "suites_01_02_03_05_06_executadas_ao_vivo_2026-11-19 (thread 23340b3d, ver outputs/runs/2026-11-19/suites_restantes_4configs.md); suite04_cobertura_validada_ao_vivo_2026-11-19 (thread 5d4bd8d9)",
+ "suites_status": {
+  "01_chaves_nulas": {
+   "status": "executada_ao_vivo_2026-11-19",
+   "query_ref": "qr_36fb3322f59b4456a7662a1a8df16253"
+  },
+  "02_duplicidade": {
+   "status": "executada_ao_vivo_2026-11-19",
+   "query_ref": "qr_48fac946696945ccaa0145f3f4d07e0b"
+  },
+  "03_transformacoes": {
+   "status": "executada_ao_vivo_2026-11-19",
+   "query_ref": "qr_78b5e2b77fc04dc8948ab4e05eba74e1"
+  },
+  "05_residuos": {
+   "status": "executada_ao_vivo_2026-11-19",
+   "query_ref": "qr_8dfa9a59856643aea5efec779a05233f"
+  },
+  "06_estrutura": {
+   "status": "executada_ao_vivo_2026-11-19",
+   "query_ref": "qr_da8da48b64e84032a5be0664b2a81b4d"
+  },
+  "04_cobertura": {
+   "status": "validada_ao_vivo_2026-11-19",
+   "nota": "ver outputs/runs/2026-11-19/validacao_real_chatbot.md"
+  }
+ },
+ "cobertura_suites": "6/6",
+ "thread_validacao": "https://basedosdados.org/chatbot?t=23340b3d-36ca-478c-8a85-7b3db0ed4e3d",
+ "ressalvas_abertas": [
+  "discrepancia de 1 entre DISTINCT bruto (1.687.256) e normalizado ligados+residuos (1.687.257): hipotese bucket vazio NAO demonstrada; resolver com SQL de mesmas particoes/filtros comparando COUNT DISTINCT vs linhas"
+ ],
+ "metadados_bd": {
+  "left": {
+   "dataset_slug_graphql": "sicor",
+   "organizacao": "bcb",
+   "tabelas_no_dataset": 20,
+   "fonte": "GraphQL pública backend.basedosdados.org/graphql, sem autenticação, consultada 20/11/2026"
+  },
+  "right": {
+   "dataset_slug_graphql": "sicar",
+   "organizacao": "sfb",
+   "tabelas_no_dataset": 10,
+   "fonte": "GraphQL pública backend.basedosdados.org/graphql, sem autenticação, consultada 20/11/2026"
+  }
+ }
+}

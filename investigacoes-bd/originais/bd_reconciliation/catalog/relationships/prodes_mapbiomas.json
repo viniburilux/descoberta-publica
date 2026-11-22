@@ -1,0 +1,81 @@
+{
+ "id": "prodes_mapbiomas",
+ "titulo": "PRODES x MapBiomas - desmatamento x cobertura e uso da terra",
+ "config_executavel": "../../configs/relationships/prodes_mapbiomas.json",
+ "bases": {
+  "left": "basedosdados.br_inpe_prodes.municipio_bioma",
+  "right": "basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe"
+ },
+ "entidades": "Municipio-bioma-ano com desmatamento x municipio-bioma-ano com cobertura por classe",
+ "campos_chaves": {
+  "composta": "id_municipio + bioma + ano",
+  "recorte": "ano = 2023"
+ },
+ "consultas_referencia": [
+  "WITH p AS (SELECT id_municipio, bioma, ano FROM basedosdados.br_inpe_prodes.municipio_bioma WHERE ano=2023), m AS (SELECT DISTINCT id_municipio, sigla_uf, bioma, ano FROM basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe WHERE ano=2023 GROUP BY id_municipio, sigla_uf, bioma, ano) SELECT COUNT(*) chaves_prodes, COUNTIF(m.id_municipio IS NOT NULL) com_mapbiomas FROM p LEFT JOIN m USING(id_municipio, bioma, ano)"
+ ],
+ "transformacoes": [
+  "nenhuma - chaves compativeis diretamente"
+ ],
+ "cardinalidade": "um-para-muitos (a chave composta se repete por classe de cobertura no MapBiomas; agregar antes de join 1:1)",
+ "cobertura_observada": {
+  "2023": "98,49% chaves (6.437/6.536); 99 chaves sem correspondencia"
+ },
+ "problemas_conhecidos": "99 chaves PRODES sem correspondencia; repeticao por classe no lado MapBiomas",
+ "evidencias": {
+  "thread": "BD chatbot T6 c3e3f115, 2026-11-19 06:40",
+  "arquivo": "bd_clean_6.txt (export da thread T6 NAO incluido neste pacote; conversa original em https://basedosdados.org/chatbot?t=c3e3f115-4ee9-48ca-a0f6-46daa03b50a5)",
+  "query_refs": [],
+  "validacao_ao_vivo": "thread 5d4bd8d9-338c-4330-9ea0-74230674b27a (chatbot BD, 2026-11-19 ~20h51-20h54): numeros exatos confirmados; ver outputs/runs/2026-11-19/validacao_real_chatbot.md"
+ },
+ "versoes": [
+  {
+   "versao": "0.1.0",
+   "data": "2026-11-19",
+   "nota": "registro inicial"
+  }
+ ],
+ "status_validacao": "suites_01_02_03_05_06_executadas_ao_vivo_2026-11-19 (thread 23340b3d, ver outputs/runs/2026-11-19/suites_restantes_4configs.md); suite04_cobertura_validada_ao_vivo_2026-11-19 (thread 5d4bd8d9)",
+ "suites_status": {
+  "01_chaves_nulas": {
+   "status": "executada_ao_vivo_2026-11-19",
+   "query_ref": "qr_b0d09c710463479d9d7257b810ac86df"
+  },
+  "02_duplicidade": {
+   "status": "executada_ao_vivo_2026-11-19",
+   "query_ref": "qr_a465abf248214f4483fe9613ac8a234f"
+  },
+  "03_transformacoes": {
+   "status": "executada_ao_vivo_2026-11-19",
+   "query_ref": "qr_dca944b3bb5842f08c2d77c3d685ba25"
+  },
+  "05_residuos": {
+   "status": "executada_ao_vivo_2026-11-19",
+   "query_ref": "qr_c631b6d14c4647e790d6be02bf900a28"
+  },
+  "04_cobertura": {
+   "status": "validada_ao_vivo_2026-11-19",
+   "nota": "ver outputs/runs/2026-11-19/validacao_real_chatbot.md"
+  },
+  "06_estrutura": {
+   "status": "NA_justificado",
+   "motivo": "suite estrutural so se aplica a chaves com campos embutidos; config nao define structural_checks"
+  }
+ },
+ "cobertura_suites": "5/5 aplicaveis + 06 NA justificado",
+ "thread_validacao": "https://basedosdados.org/chatbot?t=23340b3d-36ca-478c-8a85-7b3db0ed4e3d",
+ "metadados_bd": {
+  "left": {
+   "dataset_slug_graphql": "prodes",
+   "organizacao": "inpe",
+   "tabelas_no_dataset": 1,
+   "fonte": "GraphQL pública backend.basedosdados.org/graphql, sem autenticação, consultada 20/11/2026"
+  },
+  "right": {
+   "dataset_slug_graphql": "estatisticas",
+   "organizacao": "mapbiomas",
+   "tabelas_no_dataset": 9,
+   "fonte": "GraphQL pública backend.basedosdados.org/graphql, sem autenticação, consultada 20/11/2026"
+  }
+ }
+}

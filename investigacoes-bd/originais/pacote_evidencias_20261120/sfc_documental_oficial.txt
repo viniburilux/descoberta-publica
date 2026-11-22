@@ -1,0 +1,29 @@
+SFC — DOCUMENTAL OFICIAL (20/11/2026 ~02h45 -03, rev.3)
+
+1) Decreto sem número de 19/04/2002 (https://www.planalto.gov.br/ccivil_03/dnn/2002/dnn9543.htm):
+- Art. 1º, I: "Fazenda Bom Sucesso e outros", Município de São Félix do Coribe (BA); área registrada 1.102,8092 ha; área MEDIDA 1.519,6441 ha.
+- 4 registros no Cartório de Registro de Imóveis da Comarca de Santa Maria da Vitória: R-4-4.687 fls.153 Livro 2-AS; R-8-5.511 fls.108 Livro 2-AR; R-2-5.512 fls.107 Livro 2-AR; R-6-5.946 fls.68 Livro 2-AS.
+- Processo INCRA/SR-05 nº 54160.001657/00-18. Natureza: declaração de interesse social para desapropriação (não é a criação do PA nem a implantação).
+- ARMADILHA DE HOMÔNIMO documentada: Decreto de 10/12/2004 (https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/dnn/dnn10384.htm) cita processo 54160.001657/2004-12 = "Fazenda Santa Cruz do Ouro", Itamaraju-BA — número-base idêntico, sufixo/ano diferente; NÃO é o processo do PA de SFC. E existe OUTRO PA "Bom Sucesso" em Pedro Alexandre-BA (BA0308000, 1.753,00 ha, ato 08/05/2002; decreto 08/02/2000, https://www.planalto.gov.br/ccivil_03/dnn/2000/dnn8881.htm). Todo cruzamento deve usar o sufixo /00-18 e o município SFC.
+- PENDENTE: o decreto não discrimina quais glebas compõem "e outros" nem mapeia os 4 registros de cartório a nomes de imóveis. A correspondência entre nomes e matrículas só pode sair do ato de criação de 06/11/2003 ou do processo administrativo, ainda não localizados.
+
+2) Tabela "Estado da Bahia - Projetos de Assentamentos de Reforma Agrária, 1981-2019":
+- Fonte observada: PDF https://geografar.ufba.br/sites/geografar.ufba.br/files/geografar_assrefagraria_incra2019.pdf (baixado 20/11 02h42 -03), hospedado na página http://geografar.ufba.br/2-reforma-agraria-tabela-estado-da-bahia-projetos-de-assentamentos-de-reforma-agraria-1981-2019, do Grupo de Pesquisa Geografar (Instituto de Geociências/UFBA).
+- AUTORIA/VÍNCULO (rev.3): o rodapé final da página 11 traz "Fonte: SIPRA/INCRA, 2020. Elaboração: Grupo de Pesquisa GeografAR, novembro 2020." Ou seja: é uma COMPILAÇÃO do GeografAR/UFBA (nov/2020) que atribui a fonte dos dados ao SIPRA/INCRA 2020 — não é o ato original nem dado consultado diretamente no SIPRA/INCRA. A página hospedeira do site não credita o INCRA no corpo.
+- A linha de SFC não carrega nenhuma das notas de rodapé (1)-(5); a tabela totaliza 535 PAs, 43.182 famílias capacidade, 36.733 assentadas, 1.466.281,93 ha.
+- Localização: página 9 do PDF (páginas 1-12), linha "São Felix do Coribe | Faz Bom Sucesso e Outras | Bom Subesso [sic] e Terra Nova e Aguada Nova | 20 | 20 | 1.519,64 | 06/11/2003". Colunas do cabeçalho: Município | Assentamento | Fazenda/Imóvel | Famílias Capacidade | Famílias Assentadas | Área (ha) | Ato Criação.
+- Bate com o espelho ambientare (BA0369000: criação 06/11/2003, 20 famílias, 1.519,6441 ha, desapropriação, obtenção 19/04/2002) em data/área/famílias.
+- Na mesma página, Rumo Novo (SFC): 66 capacidade/45 assentadas, 4.750,28 ha, ato 06/09/1995 — diverge do ilovegis (2.735 ha/62 fam); ilovegis é agregador.
+- PENDENTE: o ato de 06/11/2003 em si (número/natureza) não consta no DOU online; rotas abertas: DOU histórico, processo INCRA 54160.001657/00-18.
+
+Anexos de apoio no Drive: geografar_assrefagraria_incra2019.pdf (id 1o1rHbzJsur3Ix8_jie8BApYQG9gTNteR); extrato de texto do PDF em geografar_assrefagraria_incra2019_layout.txt (id na pasta do estudo).
+
+
+3) COMPLEMENTO 02h48 — registrorural.com.br (secundário, espelha SIPRA/INCRA; página https://www.registrorural.com.br/assentamentos/assentamento-BA0369000/pa-bom-sucesso-ba/, lida 20/11 02h47):
+- PA Faz Bom Sucesso e Outras, código SIPRA BA0369000, SFC/BA.
+- RESSALVA DE FONTE: a página se autointitula "Dados do INCRA", mas é hospedada por terceiro (registrorural.com.br); o rótulo é alegação do próprio site, NÃO verificada. Todos os campos abaixo seguem SECUNDÁRIOS até confirmação em canal INCRA.
+- "Dados do INCRA (SIPRA/INCRA). Dados coletados em 06/07/2026": Fase "Em instalação" (NÃO "implantado"); Famílias 20 de 20; Modalidade Projeto de Assentamento; Obtenção Desapropriação; Data de criação 06/11/2003; ÁREA OFICIAL 1.514,39 ha.
+- DIVERGÊNCIA DOCUMENTADA: área oficial 1.514,39 ha (SIPRA coletado 2026) vs 1.519,64 ha (tabela SIPRA/INCRA 2020 compilada pela UFBA) vs 1.519,6441 ha (medida do decreto 19/04/2002). Causa não esclarecida (remedição? recorte?). Registrar as duas, não escolher.
+- FASE também diverge do espelho ambientare (fase 4): registrorural diz "Em instalação". Situação atual do PA segue aberta até fonte INCRA direta.
+- A página informa 43 imóveis sobrepostos: 38 CAR + 5 parcelas SIGEF cruzando o perímetro do PA (lista dos imóveis atrás de rota/JS não acessível por fetch simples; mapa KML restrito a assinantes — NÃO assinar).
+- Sobre o dado: "Origem: INCRA. Base geográfica publicada no GeoServer público da FUNAI (CMR)". Tentativa de acesso direto: geoserver.funai.gov.br só publica camadas de terras indígenas (sem assentamentos); endpoint CMR não localizado. dados.gov.br (API nova e CKAN antiga) retornou 401. Geometria oficial do PA segue com espelhos (ambientare/registrorural) até achar fonte INCRA aberta.
