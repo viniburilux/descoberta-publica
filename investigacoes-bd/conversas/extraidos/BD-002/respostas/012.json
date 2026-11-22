@@ -1,0 +1,45 @@
+{
+  "id": "9295564a-ca3d-42d6-9a71-fe5f4c1a0182",
+  "name": "Indicadores do SIOPE",
+  "description": "Indicadores legais e educacionais calculados pelo FNDE a partir das declarações bimestrais de estados, Distrito Federal e municípios no SIOPE, o Sistema de Informações sobre Orçamentos Públicos em Educação. Cobrem a aplicação mínima em manutenção e desenvolvimento do ensino (MDE), os percentuais do ... (119 more characters)",
+  "organizations": [
+    "Fundo Nacional de Desenvolvimento da Educação"
+  ],
+  "tags": [
+    "educação básica",
+    "orçamento",
+    "despesa",
+    "FUNDEB",
+    "finanças públicas",
+    "docente",
+    "transferência"
+  ],
+  "themes": [
+    "Economia",
+    "Educação"
+  ],
+  "tables": [
+    {
+      "id": "0550110f-ecb9-483b-9d9b-c16e9abde25e",
+      "dataset_id": "9295564a-ca3d-42d6-9a71-fe5f4c1a0182",
+      "gcp_id": "basedosdados.br_fnde_fundeb.dicionario",
+      "name": "Dicionário",
+      "description": "Nome de cada indicador do SIOPE por tabela e por período de vigência. O FNDE reescreve o nome dos indicadores ao longo da série, então a mesma chave pode ter mais de um nome, cada um com sua cobertura temporal."
+    },
+    {
+      "id": "33221136-d869-422e-af65-221ccaa288bd",
+      "dataset_id": "9295564a-ca3d-42d6-9a71-fe5f4c1a0182",
+      "gcp_id": "basedosdados.br_fnde_fundeb.indicador_estadual",
+      "name": "Indicadores estaduais",
+      "description": "Indicadores legais e educacionais dos estados e do Distrito Federal, calculados pelo FNDE a partir das declarações bimestrais no SIOPE. Uma linha por unidade da federação, bimestre e indicador. O código do indicador designa indicadores diferentes nesta tabela e na municipal, então só pode ser interp... (37 more characters)"
+    },
+    {
+      "id": "298e1bb5-bc73-456d-90ac-066114333b1d",
+      "dataset_id": "9295564a-ca3d-42d6-9a71-fe5f4c1a0182",
+      "gcp_id": "basedosdados.br_fnde_fundeb.indicador_municipal",
+      "name": "Indicadores municipais",
+      "description": "Indicadores legais e educacionais dos municípios, calculados pelo FNDE a partir das declarações bimestrais no SIOPE. Uma linha por município, bimestre e indicador. O código do indicador designa indicadores diferentes nesta tabela e na estadual, então só pode ser interpretado com o dicionário desta t... (6 more characters)"
+    }
+  ],
+  "usage_guide": null
+}

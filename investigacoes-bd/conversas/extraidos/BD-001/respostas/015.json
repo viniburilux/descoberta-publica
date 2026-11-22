@@ -1,0 +1,186 @@
+[
+  {
+    "id": "9641ec65-0915-45cc-ace4-14684e8a3bf6",
+    "name": "Perfis da Comunidade do Censo (Austrália)",
+    "description": "Perfis da Comunidade do Censo de População e Habitação da Austrália, publicados pelo Australian Bureau of Statistics (ABS), nas edições de 2011, 2016 e 2021. Inclui o General Community Profile (GCP) e o Time Series Profile (TSP), em formato longo (uma célula por linha), para todos os níveis geográficos do ASGS — do nível nacional às Statistical Areas Level 1 (SA1) —, com características de pessoas, famílias e domicílios. As descrições, tabelas e unidades das células estão catalogadas na tabela auxiliary_info.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [],
+    "themes": [
+      "Educação",
+      "População",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "d30222ad-7a5c-4778-a1ec-f0785371d1ca",
+    "name": "População Brasileira",
+    "description": "Fornece estimativas do total da população dos Municípios e das Unidades da Federação brasileiras, com data de referência em 1o de julho, para o ano calendário corrente\r\n\r\nOs dados vem de estimativas de população feitas pelo IBGE, exceto em anos de Censo ou contagem. Dados de município estão atualizados pelo censo 2022.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "demografia",
+      "fertilidade"
+    ],
+    "themes": [
+      "População"
+    ]
+  },
+  {
+    "id": "47d27153-ac97-4d5f-a168-ec27cb1d968f",
+    "name": "Censo de População e Habitação do Chile",
+    "description": "Microdados do Censo de População e Vivienda 2024 do Chile, com uma tabela por unidade de observação (pessoa, lar e domicílio), acompanhados das duas bases agregadas que o INE publica com geometria: manzana-entidade e zona-localidade, cada uma com 189 variáveis de população, lares e domicílios. Os microdados são geocodificados apenas até a comuna, por controle de divulgação estatística, e portanto não se cruzam com as bases agregadas. O INE proíbe o uso dos dados para reidentificar pessoas.",
+    "organizations": [
+      "Instituto Nacional de Estatísticas do Chile (INE)"
+    ],
+    "tags": [
+      "censo",
+      "demografia",
+      "família",
+      "habitação",
+      "migração",
+      "saneamento",
+      "urbanização"
+    ],
+    "themes": [
+      "População",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "a3b57cca-ff80-4bf2-8bac-c145109e06a7",
+    "name": "Censo da Educação Superior",
+    "description": "O Censo da Educação Superior, realizado anualmente pelo Inep, é o instrumento de pesquisa mais completo do Brasil sobre as instituições de educação superior (IES) que ofertam cursos de graduação e sequencias de formação específica, além de seus alunos e docentes. Essa coleta tem como objetivo de oferecer à comunidade acadêmica e à sociedade em geral informações detalhadas sobre a situação e as grandes tendências do setor.\r\n\r\nO Censo da Educação Superior reúne informações sobre as instituições de ensino superior, seus cursos de graduação presencial ou a distância, cursos sequenciais, vagas oferecidas, inscrições, matrículas, ingressantes e concluintes e informações sobre docentes nas diferentes formas de organização acadêmica e categoria administrativa.\r\n\r\nOs dados são coletados a partir do preenchimento dos questionários, por parte das Instituições de Ensino Superior e por importação de dados do Sistema e-MEC. Durante o período de preenchimento do questionário, os pesquisadores institucionais (PIs) podem fazer, a qualquer momento, alterações ou inclusões necessárias nos dados das respectivas instituições. Após esse período, o Inep verifica a consistência das informações coletadas. O sistema do Censo é então reaberto para conferência e validação dos dados pelas IES.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação superior"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+    "name": "Censo Demográfico",
+    "description": "O Censo Demográfico é a mais complexa operação estatística realizada por um país, sobretudo quando ele tem dimensões continentais como o Brasil, com 8.510.417,77 km², distribuídos em um território heterogêneo, muitas vezes de difícil acesso, composto por 27 Unidades da Federação e 5.570 municípios e com uma população de 203.080.756 habitantes, segundo o Censo Demográfico 2022.\n\nOs censos demográficos são pesquisas estatísticas cujo levantamento consiste na visita a todos os domicílios de um país e constituem a única fonte de referência para o conhecimento das condições de vida da população em todos os municípios e em seus recortes territoriais internos - distritos, bairros e localidades, rurais ou urbanos.\n\nO conjunto reúne os microdados da amostra de 1970, 1980, 1991, 2000, 2010 e 2022, os agregados por setor censitário de 2010 e o dicionário de códigos compartilhado. Os microdados de 2022 vêm do arquivo de acesso público, cuja geografia máxima é a Unidade da Federação.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "demografia"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde",
+      "População",
+      "Religião"
+    ]
+  },
+  {
+    "id": "7034496c-fee0-48f9-8fbd-244c3e7c30ec",
+    "name": "Estatísticas Agropecuárias dos EUA (USDA NASS)",
+    "description": "Estatísticas agrícolas do Serviço Nacional de Estatísticas Agrícolas (NASS) do Departamento de Agricultura dos Estados Unidos (USDA), a partir da base QuickStats. Cobre produção, produtividade, área, preços recebidos, estoques e inventário de culturas e pecuária, além do Censo Agropecuário quinquenal, nos níveis nacional, estadual, de distrito agrícola e de condado. Esta é uma seleção curada de commodities de alto valor; não confundir com o conjunto world_usda_agriculture, que é o produto internacional de oferta e demanda (USDA FAS PSD).",
+    "organizations": [
+      "Departamento de Agricultura dos EUA"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "milho",
+      "colheita",
+      "pecuária",
+      "preço",
+      "produção",
+      "soja",
+      "trigo"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia"
+    ]
+  },
+  {
+    "id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+    "name": "Censo Escolar",
+    "description": "O Censo Escolar é o principal instrumento de coleta de informações da educação básica e a mais importante pesquisa estatística educacional brasileira. É coordenado pelo Inep e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação e com a participação de todas as escolas públicas e privadas do país.\r\n\r\nEle abrange as diferentes etapas e modalidades da educação básica e profissional:\r\n- Ensino regular (educação infantil, ensino fundamental e médio);\r\n- Educação especial – modalidade substitutiva;\r\n- Educação de Jovens e Adultos (EJA);\r\n- Educação profissional (cursos técnicos e cursos de formação inicial continuada ou qualificação profissional).\r\n\r\nA coleta de dados das escolas tem caráter declaratório e é dividida em duas etapas. A primeira etapa consiste no preenchimento da Matrícula Inicial, quando ocorre a coleta de informações sobre os estabelecimentos de ensino, gestores, turmas, alunos e profissionais escolares em sala de aula. A segunda etapa ocorre com o preenchimento de informações sobre a Situação do Aluno, e considera os dados sobre o movimento e rendimento escolar dos alunos, ao final do ano letivo.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "indicadores educacionais",
+      "desigualdade",
+      "escola",
+      "escolas",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "1eeb071e-cfe0-4a32-a664-8e86fcb49971",
+    "name": "Recenseamento Geral do Império do Brasil de 1872",
+    "description": "O censo demográfico do Brasil de 1872 foi a primeira operação censitária realizada em território brasileiro, à época imperial.\n\nForam recenseados todos os moradores em domicílios (chamados de \"fogo\") particulares e coletivos e que se encontravam nele na data de referência do censo que foi o dia 1º de agosto de 1872. A distribuição da população se fez segundo a cor, o sexo, o estado de livres ou escravos, o estado civil, a nacionalidade, a ocupação e a religião.\n\nOs dados vêm do banco Pop-72, digitalizado e corrigido pelo Núcleo de Pesquisa em História Econômica e Demográfica (NPHED) do Cedeplar/UFMG, e cobrem 1.440 paróquias em 21 províncias. Cada quadro do recenseamento é publicado em duas versões, a original de 1872 e a corrigida pelo NPHED, em três níveis geográficos: paróquia, município e província. As tabelas corrigidas reproduzem os totais nacionais canônicos de 9.930.478 pessoas, das quais 1.510.806 escravizadas; as originais somam 9.952.948 e preservam os erros aritméticos da publicação de 1872, documentados no relatório crítico do NPHED.",
+    "organizations": [
+      "Universidade Federal de Minas Gerais (UFMG)"
+    ],
+    "tags": [
+      "idade",
+      "censo",
+      "demografia",
+      "império",
+      "alfabetização",
+      "migração",
+      "ocupação",
+      "escravidão"
+    ],
+    "themes": [
+      "História",
+      "População"
+    ]
+  },
+  {
+    "id": "08a1546e-251f-4546-9fe0-b1e6ab2b203d",
+    "name": "Censo 2022",
+    "description": "Conhecer em detalhe como é e como vive o nosso povo é de extrema importância para o governo e para a sociedade. Os resultados obtidos através da realização do Censo Demográfico permitem traçar um retrato abrangente e fiel do País.\r\n\r\nO Censo Demográfico produz informações atualizadas e precisas, que são fundamentais para o desenvolvimento e implementação de políticas públicas e para a realização de investimentos, tanto do governo quanto da iniciativa privada. Além disso, uma sociedade que conhece a si mesma pode executar, com eficácia, ações imediatas e planejar com segurança o seu futuro.\r\n\r\nRetratar o Brasil que está entrando numa nova década é um desafio para o IBGE. Qual é o tamanho da população brasileira? Em que condições vive? Como se distribui no Território Nacional? Qual é o nível de escolaridade de nossas crianças e jovens? Quais as condições de emprego e renda da população? Estas e muitas outras perguntas serão respondidas pelo Censo Demográfico que o IBGE realiza em 2022.\r\n\r\n-------\r\n\r\n* Incluímos nas tabelas disponibilizadas pelo sistema Sidra a numeração correspondente à tabela original, ela se encontra no início do título de cada tabela. Ex: 1209 - População, por grupos de idade, onde 1209 representa o número dessa tabela no sistema Sidra.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "idade",
+      "demografia",
+      "desenvolvimento",
+      "habitação",
+      "terra indígena",
+      "casamento",
+      "quilombola",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde",
+      "População",
+      "Religião",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "5c9618d4-fd32-41ff-b834-61349a3bd65f",
+    "name": "Áreas Mínimas Comparáveis (AMC)",
+    "description": "As mudanças ocorridas nas áreas e limites dos municípios impedem comparações geograficamente consistentes da evolução temporal dos dados demográficos, econômicos e sociais. Para possibilitar comparações consistentes no tempo é necessário agregar os municípios em áreas mínimas comparáveis, ou seja, no menor número de municípios necessário para que a área geográfica conjunta permaneça constante ao longo do período de análise. A base contempla qualquer subperíodo arbitrário entre dois anos de censo na faixa entre o primeiro e o último censo demográfico (1872-2010). Baseia-se em material compilado recentemente pelo Instituto Brasileiro de Geografia e Estatística (IBGE).",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "diretório"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  }
+]

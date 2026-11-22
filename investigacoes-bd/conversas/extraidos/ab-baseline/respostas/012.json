@@ -1,0 +1,73 @@
+{
+  "id": "e2d5dcc5-270e-4a8b-8d55-0227fd46c10f",
+  "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "gcp_id": "basedosdados.br_bcb_sicor.empreendimento",
+  "name": "Empreendimento",
+  "description": "A tabela de empreendimentos é um catálogo do que foi e do que é financiado. Recomenda-se que ela seja utilizada em conjunto com os microdadados de operações de crédito (microdados_operacao) para se ter uma visão completa dos produtos, atividades e demais atributos da operação de crédito que foram al... (20 more characters)",
+  "columns": [
+    {
+      "name": "atividade",
+      "type": "STRING",
+      "description": "Atividade do empreendimento",
+      "needs_decoding": false
+    },
+    {
+      "name": "cedula_mae",
+      "type": "STRING",
+      "description": "Indica se o empreendimento refere-se a uma cédula mãe",
+      "needs_decoding": true
+    },
+    {
+      "name": "cesta_safra",
+      "type": "STRING",
+      "description": "Cesta de safras do empreendimento",
+      "needs_decoding": false
+    },
+    {
+      "name": "consorcio",
+      "type": "STRING",
+      "description": "Consórcio do empreendimento",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_fim",
+      "type": "DATE",
+      "description": "Data de fim do empreendimento",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_inicio",
+      "type": "DATE",
+      "description": "Data de criação do empreendimento",
+      "needs_decoding": false
+    },
+    {
+      "name": "finalidade",
+      "type": "STRING",
+      "description": "Finalidade do empreendimento",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_empreendimento",
+      "type": "STRING",
+      "description": "Código do empreendimento",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_tipo_cultura",
+      "type": "STRING",
+      "description": "Código do tipo de cultura do empreendimento",
+      "needs_decoding": true
+    },
+    {
+      "name": "modalidade",
+      "type": "STRING",
+      "description": "Modalidade do empreendimento",
+      "needs_decoding": false
+    },
+    "... (5 more items)"
+  ],
+  "partitioned_by": [],
+  "period_start": "2013",
+  "period_end": "2026-05"
+}

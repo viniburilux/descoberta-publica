@@ -1,0 +1,46 @@
+{
+  "row_count": 5,
+  "rows": [
+    {
+      "grupo": "micro_alvo",
+      "id_car_norm": "BA2929057C5D11EE026A64399A6EF36764E8739E9",
+      "operacoes": 1,
+      "linhas": 2,
+      "credito_na_base": 29556.66,
+      "area_financiada": 61.86
+    },
+    {
+      "grupo": "micro_alvo",
+      "id_car_norm": "MS50066064693892971CF47B4B2684C3A94950BEE",
+      "operacoes": 1,
+      "linhas": 1,
+      "credito_na_base": 779963.31,
+      "area_financiada": 210.32
+    },
+    {
+      "grupo": "micro_alvo",
+      "id_car_norm": "PA150618794551B72659E427F961D2F62CEBA7392",
+      "operacoes": 3,
+      "linhas": 5,
+      "credito_na_base": 16959217.92,
+      "area_financiada": 2497.7000000000003
+    },
+    {
+      "grupo": "micro_alvo",
+      "id_car_norm": "PA1506187CEAD1A3AC3E14F5DB2FC0B93E54E7E98",
+      "operacoes": 1,
+      "linhas": 1,
+      "credito_na_base": 1947078.0,
+      "area_financiada": 403.83
+    },
+    {
+      "grupo": "vizinho",
+      "id_car_norm": "MS50066069F4376C099A342D2899444A8DB7FADE6",
+      "operacoes": 1,
+      "linhas": 1,
+      "credito_na_base": 319944.0,
+      "area_financiada": 100.07
+    }
+  ],
+  "query_ref": "qr_f2f740ef93564a65adca62106e7b4dbf"
+}

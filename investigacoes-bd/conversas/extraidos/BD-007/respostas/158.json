@@ -1,0 +1,30 @@
+{
+  "id": "9125d2bc-0495-499d-ab85-0de3f9d060b9",
+  "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "gcp_id": "basedosdados.br_bcb_sicor.instituicao_financeira",
+  "name": "Instituições financeiras",
+  "description": "Diretório das instituições financeiras que operam no Sicor, com CNPJ básico, nome e segmento. É a tabela que permite separar o crédito rural por credor — banco público, banco privado, cooperativa de crédito, banco de desenvolvimento e demais segmentos —, cruzando `cnpj_basico` com `operacao.cnpj_bas... (234 more characters)",
+  "columns": [
+    {
+      "name": "cnpj_basico",
+      "type": "STRING",
+      "description": "CNPJ básico (8 dígitos) da instituição financeira",
+      "needs_decoding": false
+    },
+    {
+      "name": "nome",
+      "type": "STRING",
+      "description": "Nome da instituição financeira, mantido em caixa alta como publicado pela fonte",
+      "needs_decoding": false
+    },
+    {
+      "name": "segmento",
+      "type": "STRING",
+      "description": "Segmento da instituição financeira atribuído pelo Banco Central (banco público, banco privado, banco cooperativo, cooperativa de crédito, banco de desenvolvimento e agência de fomento, sociedade de crédito, financiamento e investimento)",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": "2013",
+  "period_end": "2026"
+}

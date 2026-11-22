@@ -12,21 +12,20 @@ Catálogo de bases → vinte perguntas de cruzamento → escolha das frentes seg
 
 ## A. Material bruto recuperado
 
-A recuperação da conversa completa e dos exports desta frente está em andamento.
-
-Último vestígio da sessão: `078c5865-d4b2-4115-83d1-049d93960da2`, chatbot da BD.
+- [BD-004: JSON de 4 mensagens](../conversas/BD-004_078c5865-d4b2-4115-83d1-049d93960da2.json) · [leitura cronológica](../conversas/extraidos/BD-004/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/BD-004/)
 
 ## B. Consultas e código
 
-SQL e chamadas da sessão ainda não recuperados como arquivos nesta frente.
+As sessões desta frente são de reconhecimento de catálogo e desenho de cruzamentos. Chamadas e respostas originais, com identificadores e argumentos, estão nas pastas ligadas acima.
 
 ## C. Resultados e arquivos
 
-Resultados ainda registrados na ficha e no vestígio da sessão; os exports correspondentes aguardam recuperação.
+Respostas do catálogo e texto integral dos resultados nas conversas recuperadas.
+
 
 ## D. Reprodutibilidade
 
-Aguardando os arquivos da sessão para executar a reprodução.
+Abra a leitura cronológica para seguir perguntas, chamadas e respostas na ordem. As chamadas de catálogo estão registradas com os argumentos usados na sessão.
 
 ## E. Destinos possíveis
 
@@ -34,10 +33,11 @@ Banco de pautas QPI e backlog de experimentos BD.
 
 ## F. Pendências e próximo passo
 
-Recuperar as vinte perguntas e registrar tabelas, chaves e uma primeira consulta para cada uma.
+As vinte perguntas e suas tabelas/chaves estão recuperadas. Escolher o primeiro cruzamento e executar sua primeira consulta.
 
-Pendente: integrar a conversa completa com suas perguntas, respostas e chamadas originais.
 
 ## G. Pacote de trabalho
+
+[Baixar o material recuperado (ZIP)](../pacotes/BD-004-material-recuperado-2026-11-22.zip). Versão 22/11/2026.
 
 [Todos os materiais desta frente](#c-resultados-e-arquivos) · [Painel das 12 investigações](../PAINEL.md) · [Manifesto de arquivos e SHA-256](../manifesto-originais.json).

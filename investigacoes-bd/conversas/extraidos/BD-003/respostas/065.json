@@ -1,0 +1,67 @@
+{
+  "row_count": 30,
+  "rows": [
+    {
+      "cargo": "vereador",
+      "tipo_eleicao": "eleicao ordinaria",
+      "situacao": "deferido",
+      "n": 487416
+    },
+    {
+      "cargo": "vice-prefeito",
+      "tipo_eleicao": "eleicao ordinaria",
+      "situacao": "deferido",
+      "n": 18307
+    },
+    {
+      "cargo": "prefeito",
+      "tipo_eleicao": "eleicao ordinaria",
+      "situacao": "deferido",
+      "n": 17934
+    },
+    {
+      "cargo": "vereador",
+      "tipo_eleicao": "eleicao ordinaria",
+      "situacao": "indeferido",
+      "n": 14459
+    },
+    {
+      "cargo": "vereador",
+      "tipo_eleicao": "eleicao ordinaria",
+      "situacao": "renuncia",
+      "n": 8134
+    },
+    {
+      "cargo": "vereador",
+      "tipo_eleicao": "eleicao ordinaria",
+      "situacao": "cassado",
+      "n": 4420
+    },
+    {
+      "cargo": "vereador",
+      "tipo_eleicao": "eleicao ordinaria",
+      "situacao": "indeferido com recurso",
+      "n": 1154
+    },
+    {
+      "cargo": "vereador",
+      "tipo_eleicao": "eleicao ordinaria",
+      "situacao": "cassado com recurso",
+      "n": 614
+    },
+    {
+      "cargo": "prefeito",
+      "tipo_eleicao": "eleicao ordinaria",
+      "situacao": "indeferido",
+      "n": 567
+    },
+    {
+      "cargo": "vice-prefeito",
+      "tipo_eleicao": "eleicao ordinaria",
+      "situacao": "indeferido",
+      "n": 524
+    },
+    "... (20 more items)"
+  ],
+  "query_ref": "qr_30274abdbfd44a50aa5f2b65861ac2da"
+}

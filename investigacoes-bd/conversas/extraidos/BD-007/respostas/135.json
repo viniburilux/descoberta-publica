@@ -1,0 +1,66 @@
+{
+  "row_count": 6,
+  "rows": [
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_municipio": "1506187",
+      "id_referencia_bacen": "515502340",
+      "embargos_no_mesmo_municipio": 0,
+      "primeiro_embargo": null,
+      "ultimo_embargo": null,
+      "ids_embargos": []
+    },
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_municipio": "2929057",
+      "id_referencia_bacen": "517214277",
+      "embargos_no_mesmo_municipio": 0,
+      "primeiro_embargo": null,
+      "ultimo_embargo": null,
+      "ids_embargos": []
+    },
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_municipio": "1506187",
+      "id_referencia_bacen": "516069932",
+      "embargos_no_mesmo_municipio": 0,
+      "primeiro_embargo": null,
+      "ultimo_embargo": null,
+      "ids_embargos": []
+    },
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_municipio": "1506187",
+      "id_referencia_bacen": "516254325",
+      "embargos_no_mesmo_municipio": 0,
+      "primeiro_embargo": null,
+      "ultimo_embargo": null,
+      "ids_embargos": []
+    },
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_municipio": "1506187",
+      "id_referencia_bacen": "517034899",
+      "embargos_no_mesmo_municipio": 0,
+      "primeiro_embargo": null,
+      "ultimo_embargo": null,
+      "ids_embargos": []
+    },
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_municipio": "5006606",
+      "id_referencia_bacen": "517010398",
+      "embargos_no_mesmo_municipio": 0,
+      "primeiro_embargo": null,
+      "ultimo_embargo": null,
+      "ids_embargos": []
+    }
+  ],
+  "query_ref": "qr_55585c275a40425bb7ae41cd490ed408"
+}

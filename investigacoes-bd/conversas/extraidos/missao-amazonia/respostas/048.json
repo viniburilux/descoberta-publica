@@ -1,0 +1,97 @@
+{
+  "row_count": 25,
+  "rows": [
+    {
+      "id_municipio": "1500800",
+      "nome": "Ananindeua",
+      "populacao": 507838,
+      "pib": 11473897000,
+      "pib_per_capita": 22593.61646824381,
+      "estabelecimentos_reciclagem": 64,
+      "vinculos_reciclagem": 224
+    },
+    {
+      "id_municipio": "1501402",
+      "nome": "Belém",
+      "populacao": 1398531,
+      "pib": 40536062000,
+      "pib_per_capita": 28984.74327705285,
+      "estabelecimentos_reciclagem": 62,
+      "vinculos_reciclagem": 114
+    },
+    {
+      "id_municipio": "1504208",
+      "nome": "Marabá",
+      "populacao": 288513,
+      "pib": 9748965000,
+      "pib_per_capita": 33790.38379553088,
+      "estabelecimentos_reciclagem": 52,
+      "vinculos_reciclagem": 78
+    },
+    {
+      "id_municipio": "1505536",
+      "nome": "Parauapebas",
+      "populacao": 298854,
+      "pib": 26421067000,
+      "pib_per_capita": 88407.9416705147,
+      "estabelecimentos_reciclagem": 34,
+      "vinculos_reciclagem": 154
+    },
+    {
+      "id_municipio": "1501501",
+      "nome": "Benevides",
+      "populacao": 68191,
+      "pib": 3338145000,
+      "pib_per_capita": 48952.867680485695,
+      "estabelecimentos_reciclagem": 26,
+      "vinculos_reciclagem": 72
+    },
+    {
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "populacao": 207603,
+      "pib": 6318091000,
+      "pib_per_capita": 30433.524563710544,
+      "estabelecimentos_reciclagem": 25,
+      "vinculos_reciclagem": 130
+    },
+    {
+      "id_municipio": "1506807",
+      "nome": "Santarém",
+      "populacao": 357311,
+      "pib": 8681869000,
+      "pib_per_capita": 24297.79379867958,
+      "estabelecimentos_reciclagem": 21,
+      "vinculos_reciclagem": 138
+    },
+    {
+      "id_municipio": "1501303",
+      "nome": "Barcarena",
+      "populacao": 137331,
+      "pib": 9190033000,
+      "pib_per_capita": 66918.85299022071,
+      "estabelecimentos_reciclagem": 21,
+      "vinculos_reciclagem": 47
+    },
+    {
+      "id_municipio": "1504422",
+      "nome": "Marituba",
+      "populacao": 118998,
+      "pib": 2780522000,
+      "pib_per_capita": 23366.123800400008,
+      "estabelecimentos_reciclagem": 19,
+      "vinculos_reciclagem": 39
+    },
+    {
+      "id_municipio": "1500602",
+      "nome": "Altamira",
+      "populacao": 136982,
+      "pib": 3887894000,
+      "pib_per_capita": 28382.517411046705,
+      "estabelecimentos_reciclagem": 9,
+      "vinculos_reciclagem": 11
+    },
+    "... (15 more items)"
+  ],
+  "query_ref": "qr_8560fb1aa96547ca8fa4be2bc061e9e2"
+}

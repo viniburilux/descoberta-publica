@@ -1,0 +1,14 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "ano": 2023,
+      "registros_left": 11768420,
+      "subclasses_distintas_left": 1339,
+      "registros_correspondentes": 11760468,
+      "subclasses_correspondentes": 1337,
+      "registros_sem_correspondencia": 7952
+    }
+  ],
+  "query_ref": "qr_254f1cba82c64e80a5025f16808a756e"
+}

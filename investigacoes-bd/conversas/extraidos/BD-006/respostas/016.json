@@ -1,0 +1,33 @@
+{
+  "id": "37807a93-219d-45d6-b2ae-5f3f2746a035",
+  "name": "Cadastro de Imóveis Rurais (CAFIR)",
+  "description": "É o cadastro de imóveis rurais, administrado pela Secretaria Especial da Receita Federal do Brasil (RFB), do qual constarão as informações relativas ao imóvel rural, seu titular e, se for o caso, seus condôminos e compossuidores. Ao imóvel rural cadastrado no Cafir será atribuído o código do imóvel ... (41 more characters)",
+  "organizations": [
+    "Receita Federal"
+  ],
+  "tags": [
+    "agropecuária",
+    "propriedade",
+    "imóvel"
+  ],
+  "themes": [
+    "Organização Territorial"
+  ],
+  "tables": [
+    {
+      "id": "5720b957-fbfe-4ce0-bf4c-7f9d2622be03",
+      "dataset_id": "37807a93-219d-45d6-b2ae-5f3f2746a035",
+      "gcp_id": "basedosdados.br_rf_cafir.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Cadastro de Imóveis Rurais (CAFIR). Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "3a71c300-11ce-404f-8c79-242a2c855f94",
+      "dataset_id": "37807a93-219d-45d6-b2ae-5f3f2746a035",
+      "gcp_id": "basedosdados.br_rf_cafir.imoveis_rurais",
+      "name": "Cadastro de Imóveis Rurais",
+      "description": "É o cadastro de imóveis rurais, administrado pela Secretaria Especial da Receita Federal do Brasil (RFB), do qual constarão as informações relativas ao imóvel rural, seu titular e, se for o caso, seus condôminos e compossuidores."
+    }
+  ],
+  "usage_guide": null
+}

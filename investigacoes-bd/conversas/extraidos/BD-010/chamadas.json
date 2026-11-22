@@ -1,0 +1,563 @@
+[
+  {
+    "message_id": "7c57a7f8-7025-4fc7-ac61-91f8fc039fa5",
+    "evento": 0,
+    "call_id": "call_5ycYeAFJAcWzZhS47vulzK9l",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH op_imoveis AS (\n  SELECT DISTINCT id_referencia_bacen, numero_ordem, REPLACE(id_car, '-', '') AS id_car_norm\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao = 2023 AND id_car IS NOT NULL AND TRIM(id_car) <> ''\n),\nops_pub AS (\n  SELECT o.id_referencia_bacen, o.numero_ordem,\n    MAX(o.valor_parcela_credito) AS valor_parcela_credito,\n    MAX(o.area_financiada) AS area_financiada\n  FROM `basedosdados.br_bcb_sicor.operacao` o\n  JOIN `basedosdados.br_bcb_sicor.fonte_recurso` f USING (id_fonte_recurso)\n  WHERE o.ano_emissao = 2023 AND f.indicador_recurso_publico = '1'\n  GROUP BY 1, 2\n),\ncont AS (\n  SELECT id_referencia_bacen, numero_ordem, COUNT(*) AS n\n  FROM op_imoveis GROUP BY 1, 2\n),\ncar AS (\n  SELECT id_imovel, area, id_municipio\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n  QUALIFY ROW_NUMBER() OVER (PARTITION BY REPLACE(id_imovel, '-', '') ORDER BY data_extracao DESC) = 1\n),\ncred AS (\n  SELECT c.id_imovel, c.area, c.id_municipio,\n    SUM(p.valor_parcela_credito / n.n) AS credito,\n    SUM(p.area_financiada / n.n) AS area_fin\n  FROM ops_pub p\n  JOIN cont n USING (id_referencia_bacen, numero_ordem)\n  JOIN op_imoveis i USING (id_referencia_bacen, numero_ordem)\n  JOIN car c ON REPLACE(c.id_imovel, '-', '') = i.id_car_norm\n  GROUP BY 1, 2, 3\n)\nSELECT\n  COUNT(*) AS imoveis,\n  COUNT(DISTINCT id_municipio) AS municipios,\n  SUM(credito) AS valor_total,\n  COUNTIF(area_fin > area) AS imoveis_area_maior_100,\n  SUM(IF(area_fin > area, credito, 0)) AS valor_area_maior_100,\n  COUNTIF(area < 1) AS micros_menor_1ha,\n  SUM(IF(area < 1, credito, 0)) AS valor_micros\nFROM cred",
+      "slug": "resultado_sql_exato"
+    },
+    "arquivo_sql": "sql/001.sql"
+  },
+  {
+    "message_id": "63f076b0-7d13-4b01-bbe3-5a1865aa9cc9",
+    "evento": 0,
+    "call_id": "call_54mU2FZA3bMAPujp2H4fEqaj",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH op_imoveis AS (\n  SELECT DISTINCT id_referencia_bacen, numero_ordem, REPLACE(id_car, '-', '') AS id_car_norm\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao = 2023 AND id_car IS NOT NULL AND TRIM(id_car) <> ''\n),\nops_pub AS (\n  SELECT o.id_referencia_bacen, o.numero_ordem,\n    MAX(o.valor_parcela_credito) AS valor_parcela_credito,\n    MAX(o.area_financiada) AS area_financiada\n  FROM `basedosdados.br_bcb_sicor.operacao` o\n  JOIN `basedosdados.br_bcb_sicor.fonte_recurso` f USING (id_fonte_recurso)\n  WHERE o.ano_emissao = 2023 AND f.indicador_recurso_publico = '1'\n  GROUP BY 1, 2\n),\ncont AS (\n  SELECT id_referencia_bacen, numero_ordem, COUNT(*) AS n\n  FROM op_imoveis GROUP BY 1, 2\n),\ncar AS (\n  SELECT id_imovel, area, id_municipio\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n  QUALIFY ROW_NUMBER() OVER (PARTITION BY REPLACE(id_imovel, '-', '') ORDER BY data_extracao DESC) = 1\n),\ncred AS (\n  SELECT c.id_imovel, c.area, c.id_municipio,\n    SUM(p.valor_parcela_credito / n.n) AS credito,\n    SUM(p.area_financiada / n.n) AS area_fin\n  FROM ops_pub p\n  JOIN cont n USING (id_referencia_bacen, numero_ordem)\n  JOIN op_imoveis i USING (id_referencia_bacen, numero_ordem)\n  JOIN car c ON REPLACE(c.id_imovel, '-', '') = i.id_car_norm\n  GROUP BY 1, 2, 3\n),\nids AS (\n  SELECT * FROM UNNEST(['PA-1506187-94551B72659E427F961D2F62CEBA7392','MS-5006606-4693892971CF47B4B2684C3A94950BEE','PA-1506161-EE5157E8CA8B4DF280FC7F9D371FF17A','BA-2921401-9177991E4861442EACFE3ACDDC06DB91','BA-2928109-0F43ABB998F5484394BAA55A4964A2BD','BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F','BA-2929057-C5D11EE026A64399A6EF36764E8739E9','BA-2913705-C31099AB04E24F15B9941AAAF17DC244','BA-2929057-2483416C90F94058B15FED07A5FE9FB7','RS-4322301-411110B140A543DB906D80C3081D1822','BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70','PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98','BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968','RS-4322301-249321677C5045DC84BE25A36C504F31','RS-4322301-8DD943476D08400A931895B8A17A8BA9','BA-2916500-9222A7C0C77E4E019B498875C6578189','BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB','BA-2902005-876B8A8CE62D40119A8446C4262A5AC7','RS-4322301-0BBDEB7272784E4DACA585E486AE37A9','BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6']) AS id_car\n)\nSELECT\n  i.id_car,\n  c.id_municipio,\n  c.area AS area_car_ha,\n  c.credito AS credito_publico_alocado,\n  c.area_fin AS area_financiada_alocada,\n  SAFE_DIVIDE(c.area_fin, c.area) * 100 AS razao_pct,\n  (c.id_imovel IS NOT NULL) AS presente_no_recorte_publico\nFROM ids i\nLEFT JOIN cred c ON REPLACE(c.id_imovel, '-', '') = REPLACE(i.id_car, '-', '')\nORDER BY razao_pct DESC",
+      "slug": "detalhamento_ids_car"
+    },
+    "arquivo_sql": "sql/002.sql"
+  },
+  {
+    "message_id": "21b72ce6-4446-4ca4-b5ed-8764fea6f8dd",
+    "evento": 0,
+    "call_id": "call_wKz45WrU7ByEAISqHGsEZKY1",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH op_imoveis AS (\n  SELECT DISTINCT id_referencia_bacen, numero_ordem, REPLACE(id_car, '-', '') AS id_car_norm\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao = 2023 AND id_car IS NOT NULL AND TRIM(id_car) <> ''\n),\nops_pub AS (\n  SELECT o.id_referencia_bacen, o.numero_ordem,\n    MAX(o.valor_parcela_credito) AS valor_parcela_credito,\n    MAX(o.area_financiada) AS area_financiada\n  FROM `basedosdados.br_bcb_sicor.operacao` o\n  JOIN `basedosdados.br_bcb_sicor.fonte_recurso` f USING (id_fonte_recurso)\n  WHERE o.ano_emissao = 2023 AND f.indicador_recurso_publico = '1'\n  GROUP BY 1, 2\n),\ncont AS (\n  SELECT id_referencia_bacen, numero_ordem, COUNT(*) AS n\n  FROM op_imoveis GROUP BY 1, 2\n),\ncar AS (\n  SELECT id_imovel, area, id_municipio\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n  QUALIFY ROW_NUMBER() OVER (PARTITION BY REPLACE(id_imovel, '-', '') ORDER BY data_extracao DESC) = 1\n),\ncred AS (\n  SELECT c.id_imovel, c.area, c.id_municipio,\n    SUM(p.valor_parcela_credito / n.n) AS credito,\n    SUM(p.area_financiada / n.n) AS area_fin\n  FROM ops_pub p\n  JOIN cont n USING (id_referencia_bacen, numero_ordem)\n  JOIN op_imoveis i USING (id_referencia_bacen, numero_ordem)\n  JOIN car c ON REPLACE(c.id_imovel, '-', '') = i.id_car_norm\n  GROUP BY 1, 2, 3\n)\nSELECT\n  COUNTIF(area < 1 AND area_fin > area) AS micros_gt100,\n  SUM(IF(area < 1 AND area_fin > area, credito, 0)) AS valor_micros_gt100,\n  COUNTIF(area_fin > area) AS imoveis_gt100\nFROM cred",
+      "slug": "micros_acima_cem_porcento"
+    },
+    "arquivo_sql": "sql/003.sql"
+  },
+  {
+    "message_id": "e721c3d7-b6a4-4c52-b284-4fc6e46f3955",
+    "evento": 0,
+    "call_id": "call_6vIwdd9vqRx4TJoEJWGGDQkg",
+    "nome": "search_datasets",
+    "args": {
+      "query": "br_mapbiomas_estatisticas"
+    }
+  },
+  {
+    "message_id": "e721c3d7-b6a4-4c52-b284-4fc6e46f3955",
+    "evento": 2,
+    "call_id": "call_EML2I8vSGikcf0G8EVsNZ2JB",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc416ee4f4c7"
+    }
+  },
+  {
+    "message_id": "e721c3d7-b6a4-4c52-b284-4fc6e46f3955",
+    "evento": 4,
+    "call_id": "call_tDWvHjvonshCeD2jqZSzo1yt",
+    "nome": "search_datasets",
+    "args": {
+      "query": "MapBiomas"
+    }
+  },
+  {
+    "message_id": "e721c3d7-b6a4-4c52-b284-4fc6e46f3955",
+    "evento": 6,
+    "call_id": "call_ItYCkzi4CpCzFtTUiEXYEmL3",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7"
+    }
+  },
+  {
+    "message_id": "e721c3d7-b6a4-4c52-b284-4fc6e46f3955",
+    "evento": 8,
+    "call_id": "call_GMh1Eaif180oJj0iDO3krKq7",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "8e0b42d5-b9c7-4ca3-ae66-76bcc8cb2c4b"
+    }
+  },
+  {
+    "message_id": "e721c3d7-b6a4-4c52-b284-4fc6e46f3955",
+    "evento": 8,
+    "call_id": "call_HysF5mTDPUQPpfDvpQ5vsFOx",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "160cdb9e-7856-493c-b03d-b652a345e05e"
+    }
+  },
+  {
+    "message_id": "e721c3d7-b6a4-4c52-b284-4fc6e46f3955",
+    "evento": 11,
+    "call_id": "call_l9xcmXrUrVvONsVD0hpSzDGD",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  ano,\n  bioma,\n  nivel_1,\n  nivel_2,\n  SUM(area) AS area_hectares\nFROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe`\nWHERE ano IN (2017, 2020, 2025)\n  AND id_municipio = '1506187'\nGROUP BY ano, bioma, nivel_1, nivel_2\nORDER BY ano, bioma, nivel_1, nivel_2",
+      "slug": "rondon_do_para_mapbiomas"
+    },
+    "arquivo_sql": "sql/004.sql"
+  },
+  {
+    "message_id": "e721c3d7-b6a4-4c52-b284-4fc6e46f3955",
+    "evento": 11,
+    "call_id": "call_qa4hbq6NUb59EyjOfCvR2bAr",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  ano,\n  bioma,\n  nivel_1,\n  nivel_2,\n  SUM(area) AS area_hectares\nFROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe`\nWHERE ano IN (2017, 2020, 2025)\n  AND id_municipio = '2929057'\nGROUP BY ano, bioma, nivel_1, nivel_2\nORDER BY ano, bioma, nivel_1, nivel_2",
+      "slug": "sao_felix_do_coribe_mapbiomas"
+    },
+    "arquivo_sql": "sql/005.sql"
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 0,
+    "call_id": "call_WKKnCJEWOOoIQ5oIbJwtr5x7",
+    "nome": "search_datasets",
+    "args": {
+      "query": "CAR"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 0,
+    "call_id": "call_tiZQkxslKCDfZ9r4oIkibFaW",
+    "nome": "search_datasets",
+    "args": {
+      "query": "SICAR"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 0,
+    "call_id": "call_TMej4KmthqrarC3EcvvGHhqg",
+    "nome": "search_datasets",
+    "args": {
+      "query": "INCRA"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 4,
+    "call_id": "call_5MOWs9vWQLRJomV4KurlDeoU",
+    "nome": "search_datasets",
+    "args": {
+      "query": "assentamentos"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 4,
+    "call_id": "call_VFJJRJmFzLi3CI8wIdIf431v",
+    "nome": "search_datasets",
+    "args": {
+      "query": "SIGEF"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 4,
+    "call_id": "call_3XKa6mGsssvJvrJG5IR2kOih",
+    "nome": "search_datasets",
+    "args": {
+      "query": "SIPRA"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 4,
+    "call_id": "call_gqiHFCd2o2UhXL2SPN8M5C1s",
+    "nome": "search_datasets",
+    "args": {
+      "query": "certificação imóveis"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 9,
+    "call_id": "call_a5wQl90QAu1hgBHe84LhzmsX",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 11,
+    "call_id": "call_GgJwPpTfOt25oj3py2QB3wSL",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "01ced411-b26c-4890-81c9-d2d1991b9eb4"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 11,
+    "call_id": "call_9kthNwc3yYSkbSOZsGy9dIf5",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "6484f4de-881b-496a-a9cc-061012242a17"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 11,
+    "call_id": "call_TOmu6usb2csywgvWlDiQsr7d",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "0ba51523-2eb6-422c-a1bb-efc9f9e717a1"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 11,
+    "call_id": "call_OChTSroFMDoIt7IzFJL5bllr",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "871fdedd-0922-4577-b976-9723080b0fea"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 11,
+    "call_id": "call_5AO8vt8zEXYqWW6VV0MyFWO2",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "609b9d16-43d4-48c2-87d1-cd5a263828e8"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 11,
+    "call_id": "call_zSTfwRCx1QezL3JBvq2XStPa",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "810ed04f-98ff-43a4-9db8-4819b0533684"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 11,
+    "call_id": "call_VntS25f5iuZP7M3ZEEvuTURw",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "7ade1cbd-c2b5-4d93-b12a-b3bfd255be52"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 11,
+    "call_id": "call_z8bLDiURYZfzDTWVw6RsHhCx",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "20361f28-4078-49ac-affb-e73f47de6714"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 11,
+    "call_id": "call_bCWnbSaw4qHnjralqDp5821i",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "1025bd03-d4ab-47ca-af8b-5735fbacb3d2"
+    }
+  },
+  {
+    "message_id": "cd92605d-c4d4-4fed-92ee-43d45cad488f",
+    "evento": 11,
+    "call_id": "call_padQcUdsJGkj4inJFLPFXfHQ",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "9be7072f-4b92-4808-9691-24a0c164623e"
+    }
+  },
+  {
+    "message_id": "6a00a483-b1d2-4af3-8022-811a55b8a0eb",
+    "evento": 0,
+    "call_id": "call_In2bUYZNyZADPS4xiQZmuRU5",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (\n  SELECT id_imovel\n  FROM UNNEST([\n    'PA-1506187-94551B72659E427F961D2F62CEBA7392',\n    'MS-5006606-4693892971CF47B4B2684C3A94950BEE',\n    'PA-1506161-EE5157E8CA8B4DF280FC7F9D371FF17A',\n    'BA-2921401-9177991E4861442EACFE3ACDDC06DB91',\n    'BA-2928109-0F43ABB998F5484394BAA55A4964A2BD',\n    'BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F',\n    'BA-2913705-C31099AB04E24F15B9941AAAF17DC244',\n    'BA-2929057-2483416C90F94058B15FED07A5FE9FB7',\n    'RS-4322301-411110B140A543DB906D80C3081D1822',\n    'BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70',\n    'BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968',\n    'RS-4322301-249321677C5045DC84BE25A36C504F31',\n    'RS-4322301-8DD943476D08400A931895B8A17A8BA9',\n    'BA-2916500-9222A7C0C77E4E019B498875C6578189',\n    'BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB',\n    'BA-2902005-876B8A8CE62D40119A8446C4262A5AC7',\n    'RS-4322301-0BBDEB7272784E4DACA585E486AE37A9',\n    'BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6'\n  ]) AS id_imovel\n)\nSELECT\n  i.id_imovel,\n  a.data_criacao,\n  a.data_atualizacao,\n  a.data_extracao,\n  a.status,\n  a.condicao,\n  a.area,\n  a.tipo,\n  a.sigla_uf\nFROM ids i\nLEFT JOIN `basedosdados.br_sfb_sicar.area_imovel` a\n  ON a.id_imovel = i.id_imovel\n  AND a.data_extracao = '2026-08-04'\nORDER BY i.id_imovel",
+      "slug": "consulta_imoveis_snapshot_recente"
+    },
+    "arquivo_sql": "sql/006.sql"
+  },
+  {
+    "message_id": "6a00a483-b1d2-4af3-8022-811a55b8a0eb",
+    "evento": 0,
+    "call_id": "call_0aALMXmRcxOxhi74hIuqmODi",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  nome_coluna,\n  valor\nFROM `basedosdados.br_sfb_sicar.dicionario`\nWHERE id_tabela = 'area_imovel'\n  AND nome_coluna IN ('data_criacao', 'data_atualizacao')\nORDER BY nome_coluna, valor",
+      "slug": "definicoes_datas_area_imovel"
+    },
+    "arquivo_sql": "sql/007.sql"
+  },
+  {
+    "message_id": "6a00a483-b1d2-4af3-8022-811a55b8a0eb",
+    "evento": 3,
+    "call_id": "call_PBmcF8BfOtb5FdnJaOZ0Fb2C",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (\n  SELECT id_imovel\n  FROM UNNEST([\n    'PA-1506187-94551B72659E427F961D2F62CEBA7392',\n    'MS-5006606-4693892971CF47B4B2684C3A94950BEE',\n    'PA-1506161-EE5157E8CA8B4DF280FC7F9D371FF17A',\n    'BA-2921401-9177991E4861442EACFE3ACDDC06DB91',\n    'BA-2928109-0F43ABB998F5484394BAA55A4964A2BD',\n    'BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F',\n    'BA-2913705-C31099AB04E24F15B9941AAAF17DC244',\n    'BA-2929057-2483416C90F94058B15FED07A5FE9FB7',\n    'RS-4322301-411110B140A543DB906D80C3081D1822',\n    'BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70',\n    'BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968',\n    'RS-4322301-249321677C5045DC84BE25A36C504F31',\n    'RS-4322301-8DD943476D08400A931895B8A17A8BA9',\n    'BA-2916500-9222A7C0C77E4E019B498875C6578189',\n    'BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB',\n    'BA-2902005-876B8A8CE62D40119A8446C4262A5AC7',\n    'RS-4322301-0BBDEB7272784E4DACA585E486AE37A9',\n    'BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6'\n  ]) AS id_imovel\n)\nSELECT\n  i.id_imovel,\n  a.data_criacao,\n  a.data_atualizacao,\n  a.data_extracao,\n  a.status,\n  a.condicao,\n  a.area,\n  a.tipo,\n  a.sigla_uf\nFROM ids i\nLEFT JOIN `basedosdados.br_sfb_sicar.area_imovel` a\n  ON REPLACE(a.id_imovel, '-', '') = REPLACE(i.id_imovel, '-', '')\n  AND a.data_extracao = '2026-08-04'\nORDER BY i.id_imovel",
+      "slug": "consulta_imoveis_snapshot_recente_corrigida"
+    },
+    "arquivo_sql": "sql/008.sql"
+  },
+  {
+    "message_id": "6a00a483-b1d2-4af3-8022-811a55b8a0eb",
+    "evento": 3,
+    "call_id": "call_8m2WfDNjZUxwsp9du48zyHBu",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  id_tabela,\n  nome_coluna,\n  valor\nFROM `basedosdados.br_sfb_sicar.dicionario`\nWHERE nome_coluna IN ('data_criacao', 'data_atualizacao')\nORDER BY id_tabela, nome_coluna, valor",
+      "slug": "definicoes_datas_area_imovel_corrigidas"
+    },
+    "arquivo_sql": "sql/009.sql"
+  },
+  {
+    "message_id": "6a00a483-b1d2-4af3-8022-811a55b8a0eb",
+    "evento": 6,
+    "call_id": "call_MeZ7qREU3zyfyL4b1G4NAqdR",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  data_extracao,\n  COUNT(*) AS linhas\nFROM `basedosdados.br_sfb_sicar.area_imovel`\nWHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n  AND REPLACE(id_imovel, '-', '') IN (\n    'PA150618794551B72659E427F961D2F62CEBA7392',\n    'MS50066064693892971CF47B4B2684C3A94950BEE',\n    'PA1506161EE5157E8CA8B4DF280FC7F9D371FF17A',\n    'BA29214019177991E4861442EACFE3ACDDC06DB91',\n    'BA29281090F43ABB998F5484394BAA55A4964A2BD',\n    'BA29290573DE9EF4059BE416EBC88EAAE603F1B5F',\n    'BA2913705C31099AB04E24F15B9941AAAF17DC244',\n    'BA29290572483416C90F94058B15FED07A5FE9FB7',\n    'RS4322301411110B140A543DB906D80C3081D1822',\n    'BA29307669CCE04D4FED440E0844D0C38B9C89B70',\n    'BA29016012D6EA3618F4A48BF87E2EB78992B2968',\n    'RS4322301249321677C5045DC84BE25A36C504F31',\n    'RS43223018DD943476D08400A931895B8A17A8BA9',\n    'BA29165009222A7C0C77E4E019B498875C6578189',\n    'BA292905760EC867CE3FF4AEAA712CD4AE3992CCB',\n    'BA2902005876B8A8CE62D40119A8446C4262A5AC7',\n    'RS43223010BBDEB7272784E4DACA585E486AE37A9',\n    'BA2926509E3BCDCD3078C4BADBC80D0166EACCAF6'\n  )\nGROUP BY data_extracao\nORDER BY data_extracao",
+      "slug": "datas_snapshot_ids_car"
+    },
+    "arquivo_sql": "sql/010.sql"
+  },
+  {
+    "message_id": "6a00a483-b1d2-4af3-8022-811a55b8a0eb",
+    "evento": 6,
+    "call_id": "call_XhBUQqyIyiKp23td9T6oWgVT",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT *\nFROM `basedosdados.br_sfb_sicar.dicionario`\nLIMIT 20",
+      "slug": "amostra_dicionario_sicar"
+    },
+    "arquivo_sql": "sql/011.sql"
+  },
+  {
+    "message_id": "6a00a483-b1d2-4af3-8022-811a55b8a0eb",
+    "evento": 9,
+    "call_id": "call_V6AcHts6iCdWKlxnCc8mCaOo",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (\n  SELECT id_imovel\n  FROM UNNEST([\n    'PA-1506187-94551B72659E427F961D2F62CEBA7392',\n    'MS-5006606-4693892971CF47B4B2684C3A94950BEE',\n    'PA-1506161-EE5157E8CA8B4DF280FC7F9D371FF17A',\n    'BA-2921401-9177991E4861442EACFE3ACDDC06DB91',\n    'BA-2928109-0F43ABB998F5484394BAA55A4964A2BD',\n    'BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F',\n    'BA-2913705-C31099AB04E24F15B9941AAAF17DC244',\n    'BA-2929057-2483416C90F94058B15FED07A5FE9FB7',\n    'RS-4322301-411110B140A543DB906D80C3081D1822',\n    'BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70',\n    'BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968',\n    'RS-4322301-249321677C5045DC84BE25A36C504F31',\n    'RS-4322301-8DD943476D08400A931895B8A17A8BA9',\n    'BA-2916500-9222A7C0C77E4E019B498875C6578189',\n    'BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB',\n    'BA-2902005-876B8A8CE62D40119A8446C4262A5AC7',\n    'RS-4322301-0BBDEB7272784E4DACA585E486AE37A9',\n    'BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6'\n  ]) AS id_imovel\n),\nrecente AS (\n  SELECT\n    a.id_imovel,\n    a.data_criacao,\n    a.data_atualizacao,\n    a.data_extracao,\n    a.status,\n    a.condicao,\n    a.area,\n    a.tipo,\n    a.sigla_uf,\n    ROW_NUMBER() OVER (\n      PARTITION BY REPLACE(a.id_imovel, '-', '')\n      ORDER BY a.data_extracao DESC\n    ) AS rn\n  FROM `basedosdados.br_sfb_sicar.area_imovel` a\n  WHERE a.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n    AND REPLACE(a.id_imovel, '-', '') IN (\n      SELECT REPLACE(id_imovel, '-', '') FROM ids\n    )\n)\nSELECT\n  i.id_imovel,\n  r.data_criacao,\n  r.data_atualizacao,\n  r.data_extracao,\n  r.status,\n  r.condicao,\n  r.area,\n  r.tipo,\n  r.sigla_uf\nFROM ids i\nLEFT JOIN recente r\n  ON REPLACE(r.id_imovel, '-', '') = REPLACE(i.id_imovel, '-', '')\n  AND r.rn = 1\nORDER BY i.id_imovel",
+      "slug": "consulta_imoveis_ultimo_snapshot_disponivel"
+    },
+    "arquivo_sql": "sql/012.sql"
+  },
+  {
+    "message_id": "a3e8d27e-bb9a-43b6-bd89-edd542ab5bf8",
+    "evento": 0,
+    "call_id": "call_YHrZ1LbDC3vYXNJ5gaPoqaxK",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (\n  SELECT id_imovel\n  FROM UNNEST([\n    'PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56',\n    'PA-1506187-48EDE9CDCF3947959921871671228876',\n    'PA-1506187-8A59FA2709F1467CB9659E8E433E29A2',\n    'PA-1506187-2FA6A081B1F745D4800249F665C9DE96',\n    'PA-1506187-A4DD4E93695C4B7DA32C7F0DB8CDE959',\n    'PA-1506187-34A1DD76FA7D40848D10832D82940BDA',\n    'PA-1506187-DAE50532EA2F4A3093A94AA2A6197177',\n    'PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98',\n    'BA-2929057-C5D11EE026A64399A6EF36764E8739E9'\n  ]) AS id_imovel\n),\nrecente AS (\n  SELECT\n    a.id_imovel,\n    a.data_criacao,\n    a.data_atualizacao,\n    a.data_extracao,\n    a.status,\n    a.condicao,\n    a.area,\n    a.tipo,\n    ROW_NUMBER() OVER (\n      PARTITION BY REPLACE(a.id_imovel, '-', '')\n      ORDER BY a.data_extracao DESC\n    ) AS rn\n  FROM `basedosdados.br_sfb_sicar.area_imovel` a\n  WHERE a.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n    AND REPLACE(a.id_imovel, '-', '') IN (\n      SELECT REPLACE(id_imovel, '-', '') FROM ids\n    )\n)\nSELECT\n  i.id_imovel,\n  r.data_criacao,\n  r.data_atualizacao,\n  r.data_extracao,\n  r.status,\n  r.condicao,\n  r.area,\n  r.tipo\nFROM ids i\nLEFT JOIN recente r\n  ON REPLACE(r.id_imovel, '-', '') = REPLACE(i.id_imovel, '-', '')\n  AND r.rn = 1\nORDER BY i.id_imovel",
+      "slug": "controle_qualidade_novos_imoveis"
+    },
+    "arquivo_sql": "sql/013.sql"
+  },
+  {
+    "message_id": "fc07745d-9ca1-4d8c-960f-420f264c2a13",
+    "evento": 0,
+    "call_id": "call_po8DxC2pdkygog21KZT6zOKC",
+    "nome": "decode_table_values",
+    "args": {
+      "table_gcp_id": "basedosdados.br_sfb_sicar.app",
+      "column_name": "tipo"
+    }
+  },
+  {
+    "message_id": "fc07745d-9ca1-4d8c-960f-420f264c2a13",
+    "evento": 0,
+    "call_id": "call_aftfO8q6EY0DY23qXdAa5TI2",
+    "nome": "decode_table_values",
+    "args": {
+      "table_gcp_id": "basedosdados.br_sfb_sicar.reserva_legal",
+      "column_name": "tipo"
+    }
+  },
+  {
+    "message_id": "fc07745d-9ca1-4d8c-960f-420f264c2a13",
+    "evento": 3,
+    "call_id": "call_1GEroubpk3jrGWQq3Bzd5mt8",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (\n  SELECT id_imovel\n  FROM UNNEST([\n    'PA-1506187-94551B72659E427F961D2F62CEBA7392',\n    'MS-5006606-4693892971CF47B4B2684C3A94950BEE',\n    'PA-1506161-EE5157E8CA8B4DF280FC7F9D371FF17A',\n    'BA-2921401-9177991E4861442EACFE3ACDDC06DB91',\n    'BA-2928109-0F43ABB998F5484394BAA55A4964A2BD',\n    'BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F',\n    'BA-2929057-C5D11EE026A64399A6EF36764E8739E9',\n    'BA-2913705-C31099AB04E24F15B9941AAAF17DC244',\n    'BA-2929057-2483416C90F94058B15FED07A5FE9FB7',\n    'RS-4322301-411110B140A543DB906D80C3081D1822',\n    'BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70',\n    'PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98',\n    'BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968',\n    'RS-4322301-249321677C5045DC84BE25A36C504F31',\n    'RS-4322301-8DD943476D08400A931895B8A17A8BA9',\n    'BA-2916500-9222A7C0C77E4E019B498875C6578189',\n    'BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB',\n    'BA-2902005-876B8A8CE62D40119A8446C4262A5AC7',\n    'RS-4322301-0BBDEB7272784E4DACA585E486AE37A9',\n    'BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6',\n    'PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56',\n    'PA-1506187-48EDE9CDCF3947959921871671228876'\n  ]) AS id_imovel\n),\napp_recente AS (\n  SELECT\n    REPLACE(a.id_imovel, '-', '') AS id_norm,\n    a.data_extracao,\n    a.tipo AS tipo_codigo,\n    a.area,\n    ROW_NUMBER() OVER (\n      PARTITION BY REPLACE(a.id_imovel, '-', '')\n      ORDER BY a.data_extracao DESC\n    ) AS rn\n  FROM `basedosdados.br_sfb_sicar.app` a\n  WHERE a.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n    AND REPLACE(a.id_imovel, '-', '') IN (SELECT REPLACE(id_imovel, '-', '') FROM ids)\n),\napp_agregado AS (\n  SELECT\n    id_norm,\n    data_extracao,\n    'app' AS tabela,\n    tipo_codigo,\n    d.valor AS tipo,\n    SUM(area) AS area_ha\n  FROM app_recente a\n  LEFT JOIN `basedosdados.br_sfb_sicar.dicionario` d\n    ON d.id_tabela = 'app'\n   AND d.nome_coluna = 'tipo'\n   AND d.chave = a.tipo_codigo\n  WHERE rn = 1\n  GROUP BY id_norm, data_extracao, tipo_codigo, tipo\n),\nrl_recente AS (\n  SELECT\n    REPLACE(r.id_imovel, '-', '') AS id_norm,\n    r.data_extracao,\n    r.tipo AS tipo_codigo,\n    r.area,\n    ROW_NUMBER() OVER (\n      PARTITION BY REPLACE(r.id_imovel, '-', '')\n      ORDER BY r.data_extracao DESC\n    ) AS rn\n  FROM `basedosdados.br_sfb_sicar.reserva_legal` r\n  WHERE r.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n    AND REPLACE(r.id_imovel, '-', '') IN (SELECT REPLACE(id_imovel, '-', '') FROM ids)\n),\nrl_agregado AS (\n  SELECT\n    id_norm,\n    data_extracao,\n    'reserva_legal' AS tabela,\n    tipo_codigo,\n    d.valor AS tipo,\n    SUM(area) AS area_ha\n  FROM rl_recente r\n  LEFT JOIN `basedosdados.br_sfb_sicar.dicionario` d\n    ON d.id_tabela = 'reserva_legal'\n   AND d.nome_coluna = 'tipo'\n   AND d.chave = r.tipo_codigo\n  WHERE rn = 1\n  GROUP BY id_norm, data_extracao, tipo_codigo, tipo\n),\nambiental AS (\n  SELECT * FROM app_agregado\n  UNION ALL\n  SELECT * FROM rl_agregado\n),\ngrid AS (\n  SELECT i.id_imovel, REPLACE(i.id_imovel, '-', '') AS id_norm, t.tabela\n  FROM ids i\n  CROSS JOIN UNNEST(['app', 'reserva_legal']) AS t(tabela)\n)\nSELECT\n  g.id_imovel,\n  g.tabela,\n  a.data_extracao,\n  a.tipo_codigo,\n  a.tipo,\n  COALESCE(a.area_ha, 0) AS area_ha,\n  a.tipo_codigo IS NOT NULL AS tem_poligono\nFROM grid g\nLEFT JOIN ambiental a\n  ON a.id_norm = g.id_norm\n AND a.tabela = g.tabela\nORDER BY g.id_imovel, g.tabela, a.tipo",
+      "slug": "areas_ambientais_declaradas"
+    },
+    "arquivo_sql": "sql/014.sql"
+  },
+  {
+    "message_id": "fc07745d-9ca1-4d8c-960f-420f264c2a13",
+    "evento": 5,
+    "call_id": "call_UJmXhszUAX867uWbPF40vDnZ",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (\n  SELECT id_imovel\n  FROM UNNEST([\n    'PA-1506187-94551B72659E427F961D2F62CEBA7392',\n    'MS-5006606-4693892971CF47B4B2684C3A94950BEE',\n    'PA-1506161-EE5157E8CA8B4DF280FC7F9D371FF17A',\n    'BA-2921401-9177991E4861442EACFE3ACDDC06DB91',\n    'BA-2928109-0F43ABB998F5484394BAA55A4964A2BD',\n    'BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F',\n    'BA-2929057-C5D11EE026A64399A6EF36764E8739E9',\n    'BA-2913705-C31099AB04E24F15B9941AAAF17DC244',\n    'BA-2929057-2483416C90F94058B15FED07A5FE9FB7',\n    'RS-4322301-411110B140A543DB906D80C3081D1822',\n    'BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70',\n    'PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98',\n    'BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968',\n    'RS-4322301-249321677C5045DC84BE25A36C504F31',\n    'RS-4322301-8DD943476D08400A931895B8A17A8BA9',\n    'BA-2916500-9222A7C0C77E4E019B498875C6578189',\n    'BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB',\n    'BA-2902005-876B8A8CE62D40119A8446C4262A5AC7',\n    'RS-4322301-0BBDEB7272784E4DACA585E486AE37A9',\n    'BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6',\n    'PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56',\n    'PA-1506187-48EDE9CDCF3947959921871671228876'\n  ]) AS id_imovel\n),\napp_recente AS (\n  SELECT\n    REPLACE(a.id_imovel, '-', '') AS id_norm,\n    a.data_extracao,\n    a.tipo AS tipo_codigo,\n    a.area,\n    ROW_NUMBER() OVER (\n      PARTITION BY REPLACE(a.id_imovel, '-', '')\n      ORDER BY a.data_extracao DESC\n    ) AS rn\n  FROM `basedosdados.br_sfb_sicar.app` a\n  WHERE a.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n    AND REPLACE(a.id_imovel, '-', '') IN (SELECT REPLACE(id_imovel, '-', '') FROM ids)\n),\napp_agregado AS (\n  SELECT\n    id_norm,\n    data_extracao,\n    'app' AS tabela,\n    tipo_codigo,\n    d.valor AS tipo,\n    SUM(area) AS area_ha\n  FROM app_recente a\n  LEFT JOIN `basedosdados.br_sfb_sicar.dicionario` d\n    ON d.id_tabela = 'app'\n   AND d.nome_coluna = 'tipo'\n   AND d.chave = a.tipo_codigo\n  WHERE rn = 1\n  GROUP BY id_norm, data_extracao, tipo_codigo, tipo\n),\nrl_recente AS (\n  SELECT\n    REPLACE(r.id_imovel, '-', '') AS id_norm,\n    r.data_extracao,\n    r.tipo AS tipo_codigo,\n    r.area,\n    ROW_NUMBER() OVER (\n      PARTITION BY REPLACE(r.id_imovel, '-', '')\n      ORDER BY r.data_extracao DESC\n    ) AS rn\n  FROM `basedosdados.br_sfb_sicar.reserva_legal` r\n  WHERE r.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n    AND REPLACE(r.id_imovel, '-', '') IN (SELECT REPLACE(id_imovel, '-', '') FROM ids)\n),\nrl_agregado AS (\n  SELECT\n    id_norm,\n    data_extracao,\n    'reserva_legal' AS tabela,\n    tipo_codigo,\n    d.valor AS tipo,\n    SUM(area) AS area_ha\n  FROM rl_recente r\n  LEFT JOIN `basedosdados.br_sfb_sicar.dicionario` d\n    ON d.id_tabela = 'reserva_legal'\n   AND d.nome_coluna = 'tipo'\n   AND d.chave = r.tipo_codigo\n  WHERE rn = 1\n  GROUP BY id_norm, data_extracao, tipo_codigo, tipo\n),\nambiental AS (\n  SELECT * FROM app_agregado\n  UNION ALL\n  SELECT * FROM rl_agregado\n),\ngrid AS (\n  SELECT i.id_imovel, REPLACE(i.id_imovel, '-', '') AS id_norm, tabela\n  FROM ids i\n  CROSS JOIN UNNEST(['app', 'reserva_legal']) AS tabela\n)\nSELECT\n  g.id_imovel,\n  g.tabela,\n  a.data_extracao,\n  a.tipo_codigo,\n  a.tipo,\n  COALESCE(a.area_ha, 0) AS area_ha,\n  a.tipo_codigo IS NOT NULL AS tem_poligono\nFROM grid g\nLEFT JOIN ambiental a\n  ON a.id_norm = g.id_norm\n AND a.tabela = g.tabela\nORDER BY g.id_imovel, g.tabela, a.tipo",
+      "slug": "areas_ambientais_declaradas_corrigido"
+    },
+    "arquivo_sql": "sql/015.sql"
+  },
+  {
+    "message_id": "fc07745d-9ca1-4d8c-960f-420f264c2a13",
+    "evento": 7,
+    "call_id": "call_7khKnD6EjgCARpN2dkhc6Gp4",
+    "nome": "export_query_result",
+    "args": {
+      "query_ref": "qr_0f550ef6ff9c4d1ea4ac15d8518e2ad6",
+      "file_format": "CSV"
+    }
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 0,
+    "call_id": "call_QfNfj2RvK54oiJ5MNSlCklCf",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (\n  SELECT id_imovel\n  FROM UNNEST([\n    'PA-1506187-94551B72659E427F961D2F62CEBA7392',\n    'MS-5006606-4693892971CF47B4B2684C3A94950BEE',\n    'PA-1506161-EE5157E8CA8B4DF280FC7F9D371FF17A',\n    'BA-2921401-9177991E4861442EACFE3ACDDC06DB91',\n    'BA-2928109-0F43ABB998F5484394BAA55A4964A2BD',\n    'BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F',\n    'BA-2929057-C5D11EE026A64399A6EF36764E8739E9',\n    'BA-2913705-C31099AB04E24F15B9941AAAF17DC244',\n    'BA-2929057-2483416C90F94058B15FED07A5FE9FB7',\n    'RS-4322301-411110B140A543DB906D80C3081D1822',\n    'BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70',\n    'PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98',\n    'BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968',\n    'RS-4322301-249321677C5045DC84BE25A36C504F31',\n    'RS-4322301-8DD943476D08400A931895B8A17A8BA9',\n    'BA-2916500-9222A7C0C77E4E019B498875C6578189',\n    'BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB',\n    'BA-2902005-876B8A8CE62D40119A8446C4262A5AC7',\n    'RS-4322301-0BBDEB7272784E4DACA585E486AE37A9',\n    'BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6',\n    'PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56',\n    'PA-1506187-48EDE9CDCF3947959921871671228876'\n  ]) AS id_imovel\n),\napp_base AS (\n  SELECT a.* EXCEPT(id_imovel), a.id_imovel AS id_original,\n    REPLACE(a.id_imovel, '-', '') AS id_norm\n  FROM `basedosdados.br_sfb_sicar.app` a\n  WHERE a.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n    AND REPLACE(a.id_imovel, '-', '') IN (SELECT REPLACE(id_imovel, '-', '') FROM ids)\n),\napp_latest AS (\n  SELECT *\n  FROM app_base\n  QUALIFY data_extracao = MAX(data_extracao) OVER (PARTITION BY id_norm)\n),\nrl_base AS (\n  SELECT r.* EXCEPT(id_imovel), r.id_imovel AS id_original,\n    REPLACE(r.id_imovel, '-', '') AS id_norm\n  FROM `basedosdados.br_sfb_sicar.reserva_legal` r\n  WHERE r.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n    AND REPLACE(r.id_imovel, '-', '') IN (SELECT REPLACE(id_imovel, '-', '') FROM ids)\n),\nrl_latest AS (\n  SELECT *\n  FROM rl_base\n  QUALIFY data_extracao = MAX(data_extracao) OVER (PARTITION BY id_norm)\n),\nimovel_latest AS (\n  SELECT *\n  FROM (\n    SELECT\n      a.*,\n      REPLACE(a.id_imovel, '-', '') AS id_norm,\n      ROW_NUMBER() OVER (\n        PARTITION BY REPLACE(a.id_imovel, '-', '')\n        ORDER BY a.data_extracao DESC\n      ) AS rn\n    FROM `basedosdados.br_sfb_sicar.area_imovel` a\n    WHERE a.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n      AND REPLACE(a.id_imovel, '-', '') IN (SELECT REPLACE(id_imovel, '-', '') FROM ids)\n  )\n  WHERE rn = 1\n),\ncondicoes AS (\n  SELECT\n    id_norm,\n    'app' AS tabela,\n    MAX(data_extracao) AS data_extracao,\n    STRING_AGG(DISTINCT condicao, ' | ' IGNORE NULLS) AS condicao,\n    COUNT(*) AS n_geometrias\n  FROM app_latest\n  GROUP BY id_norm\n  UNION ALL\n  SELECT\n    id_norm,\n    'reserva_legal' AS tabela,\n    MAX(data_extracao) AS data_extracao,\n    STRING_AGG(DISTINCT condicao, ' | ' IGNORE NULLS) AS condicao,\n    COUNT(*) AS n_geometrias\n  FROM rl_latest\n  GROUP BY id_norm\n),\nmicros AS (\n  SELECT id_imovel\n  FROM UNNEST([\n    'BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968',\n    'BA-2902005-876B8A8CE62D40119A8446C4262A5AC7',\n    'BA-2913705-C31099AB04E24F15B9941AAAF17DC244',\n    'BA-2916500-9222A7C0C77E4E019B498875C6578189',\n    'BA-2921401-9177991E4861442EACFE3ACDDC06DB91',\n    'BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6',\n    'BA-2928109-0F43ABB998F5484394BAA55A4964A2BD',\n    'BA-2929057-2483416C90F94058B15FED07A5FE9FB7',\n    'BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F',\n    'BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB',\n    'BA-2929057-C5D11EE026A64399A6EF36764E8739E9',\n    'BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70',\n    'RS-4322301-249321677C5045DC84BE25A36C504F31'\n  ]) AS id_imovel\n),\nrl_micros AS (\n  SELECT\n    m.id_imovel,\n    MAX(r.data_extracao) AS data_extracao,\n    ST_UNION_AGG(r.geometria) AS geom_rl\n  FROM micros m\n  JOIN rl_latest r\n    ON r.id_norm = REPLACE(m.id_imovel, '-', '')\n  GROUP BY m.id_imovel\n),\nimovel_micros AS (\n  SELECT\n    m.id_imovel,\n    i.area AS area_imovel_ha,\n    i.geometria AS geom_imovel\n  FROM micros m\n  JOIN imovel_latest i\n    ON i.id_norm = REPLACE(m.id_imovel, '-', '')\n),\npar AS (\n  SELECT\n    x.id_imovel,\n    x.data_extracao,\n    ST_AREA(x.geom_rl) / 10000 AS area_rl_ha,\n    x.area_imovel_ha,\n    ST_AREA(ST_INTERSECTION(x.geom_rl, x.geom_imovel)) / 10000 AS area_intersecao_ha,\n    SAFE_DIVIDE(\n      ST_AREA(ST_INTERSECTION(x.geom_rl, x.geom_imovel)),\n      ST_AREA(x.geom_rl)\n    ) * 100 AS percentual_rl_intersecta_imovel\n  FROM (\n    SELECT r.id_imovel, r.data_extracao, r.geom_rl, i.area_imovel_ha, i.geom_imovel\n    FROM rl_micros r\n    JOIN imovel_micros i USING (id_imovel)\n  ) x\n),\npair_rl AS (\n  SELECT\n    a.geom_rl AS geom_a,\n    b.geom_rl AS geom_b,\n    a.data_extracao AS data_extracao_a,\n    b.data_extracao AS data_extracao_b\n  FROM rl_micros a\n  JOIN rl_micros b\n    ON a.id_imovel = 'PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56'\n   AND b.id_imovel = 'PA-1506187-48EDE9CDCF3947959921871671228876'\n),\nms_app AS (\n  SELECT\n    ST_UNION_AGG(a.geometria) AS geom_app,\n    MAX(a.data_extracao) AS data_extracao\n  FROM app_latest a\n  WHERE a.id_norm = REPLACE('MS-5006606-4693892971CF47B4B2684C3A94950BEE', '-', '')\n),\nms_imovel AS (\n  SELECT geometria AS geom_imovel\n  FROM imovel_latest\n  WHERE id_norm = REPLACE('MS-5006606-4693892971CF47B4B2684C3A94950BEE', '-', '')\n),\nsaida AS (\n  SELECT\n    '1_condicao' AS bloco,\n    i.id_imovel,\n    CAST(NULL AS STRING) AS id_imovel_2,\n    c.tabela,\n    c.data_extracao,\n    c.condicao,\n    c.n_geometrias,\n    CAST(NULL AS FLOAT64) AS area_rl_ha,\n    CAST(NULL AS FLOAT64) AS area_imovel_ha,\n    CAST(NULL AS FLOAT64) AS area_intersecao_ha,\n    CAST(NULL AS FLOAT64) AS percentual_a,\n    CAST(NULL AS FLOAT64) AS percentual_b,\n    CAST(NULL AS FLOAT64) AS area_app_ha,\n    CAST(NULL AS FLOAT64) AS percentual_intersecao_imovel\n  FROM ids i\n  LEFT JOIN condicoes c\n    ON c.id_norm = REPLACE(i.id_imovel, '-', '')\n  UNION ALL\n  SELECT\n    '2_micros_rl_imovel',\n    p.id_imovel,\n    CAST(NULL AS STRING),\n    'reserva_legal',\n    p.data_extracao,\n    CAST(NULL AS STRING),\n    CAST(NULL AS INT64),\n    p.area_rl_ha,\n    p.area_imovel_ha,\n    p.area_intersecao_ha,\n    p.percentual_rl_intersecta_imovel,\n    CAST(NULL AS FLOAT64),\n    CAST(NULL AS FLOAT64),\n    CAST(NULL AS FLOAT64)\n  FROM par p\n  UNION ALL\n  SELECT\n    '3_intersecao_rl_dois_car',\n    'PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56',\n    'PA-1506187-48EDE9CDCF3947959921871671228876',\n    'reserva_legal',\n    pa.data_extracao_a,\n    CAST(NULL AS STRING),\n    CAST(NULL AS INT64),\n    ST_AREA(pa.geom_a) / 10000,\n    ST_AREA(pa.geom_b) / 10000,\n    ST_AREA(ST_INTERSECTION(pa.geom_a, pa.geom_b)) / 10000,\n    SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(pa.geom_a, pa.geom_b)), ST_AREA(pa.geom_a)) * 100,\n    SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(pa.geom_a, pa.geom_b)), ST_AREA(pa.geom_b)) * 100,\n    CAST(NULL AS FLOAT64),\n    CAST(NULL AS FLOAT64)\n  FROM pair_rl pa\n  UNION ALL\n  SELECT\n    '4_ms_app_imovel',\n    'MS-5006606-4693892971CF47B4B2684C3A94950BEE',\n    CAST(NULL AS STRING),\n    'app',\n    a.data_extracao,\n    CAST(NULL AS STRING),\n    CAST(NULL AS INT64),\n    CAST(NULL AS FLOAT64),\n    i.area,\n    ST_AREA(ST_INTERSECTION(a.geom_app, i.geometria)) / 10000,\n    CAST(NULL AS FLOAT64),\n    CAST(NULL AS FLOAT64),\n    ST_AREA(a.geom_app) / 10000,\n    SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(a.geom_app, i.geometria)), ST_AREA(a.geom_app)) * 100\n  FROM ms_app a\n  CROSS JOIN (\n    SELECT area, geom_imovel AS geometria\n    FROM (\n      SELECT area, geometria AS geom_imovel\n      FROM imovel_latest\n      WHERE id_norm = REPLACE('MS-5006606-4693892971CF47B4B2684C3A94950BEE', '-', '')\n    )\n  ) i\n)\nSELECT *\nFROM saida\nORDER BY bloco, id_imovel, tabela, id_imovel_2",
+      "slug": "analise_ambiental_detalhada"
+    },
+    "arquivo_sql": "sql/016.sql"
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 2,
+    "call_id": "call_jXEGFF3eUbok6OQgUvbdopDD",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (\n  SELECT id_imovel\n  FROM UNNEST([\n    'PA-1506187-94551B72659E427F961D2F62CEBA7392','MS-5006606-4693892971CF47B4B2684C3A94950BEE','PA-1506161-EE5157E8CA8B4DF280FC7F9D371FF17A','BA-2921401-9177991E4861442EACFE3ACDDC06DB91','BA-2928109-0F43ABB998F5484394BAA55A4964A2BD','BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F','BA-2929057-C5D11EE026A64399A6EF36764E8739E9','BA-2913705-C31099AB04E24F15B9941AAAF17DC244','BA-2929057-2483416C90F94058B15FED07A5FE9FB7','RS-4322301-411110B140A543DB906D80C3081D1822','BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70','PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98','BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968','RS-4322301-249321677C5045DC84BE25A36C504F31','RS-4322301-8DD943476D08400A931895B8A17A8BA9','BA-2916500-9222A7C0C77E4E019B498875C6578189','BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB','BA-2902005-876B8A8CE62D40119A8446C4262A5AC7','RS-4322301-0BBDEB7272784E4DACA585E486AE37A9','BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6','PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56','PA-1506187-48EDE9CDCF3947959921871671228876'\n  ]) AS id_imovel\n),\napp_base AS (\n  SELECT a.* EXCEPT(id_imovel), a.id_imovel AS id_original, REPLACE(a.id_imovel, '-', '') AS id_norm\n  FROM `basedosdados.br_sfb_sicar.app` a\n  WHERE a.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n    AND REPLACE(a.id_imovel, '-', '') IN (SELECT REPLACE(id_imovel, '-', '') FROM ids)\n),\napp_latest AS (\n  SELECT * FROM app_base\n  QUALIFY data_extracao = MAX(data_extracao) OVER (PARTITION BY id_norm)\n),\nrl_base AS (\n  SELECT r.* EXCEPT(id_imovel), r.id_imovel AS id_original, REPLACE(r.id_imovel, '-', '') AS id_norm\n  FROM `basedosdados.br_sfb_sicar.reserva_legal` r\n  WHERE r.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n    AND REPLACE(r.id_imovel, '-', '') IN (SELECT REPLACE(id_imovel, '-', '') FROM ids)\n),\nrl_latest AS (\n  SELECT * FROM rl_base\n  QUALIFY data_extracao = MAX(data_extracao) OVER (PARTITION BY id_norm)\n),\nimovel_latest AS (\n  SELECT * EXCEPT(rn) FROM (\n    SELECT a.*, REPLACE(a.id_imovel, '-', '') AS id_norm,\n      ROW_NUMBER() OVER (PARTITION BY REPLACE(a.id_imovel, '-', '') ORDER BY a.data_extracao DESC) AS rn\n    FROM `basedosdados.br_sfb_sicar.area_imovel` a\n    WHERE a.data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n      AND REPLACE(a.id_imovel, '-', '') IN (SELECT REPLACE(id_imovel, '-', '') FROM ids)\n  ) WHERE rn = 1\n),\ncondicoes AS (\n  SELECT id_norm, 'app' AS tabela, MAX(data_extracao) AS data_extracao,\n    STRING_AGG(DISTINCT condicao, ' | ') AS condicao, COUNT(*) AS n_geometrias\n  FROM app_latest GROUP BY id_norm\n  UNION ALL\n  SELECT id_norm, 'reserva_legal' AS tabela, MAX(data_extracao) AS data_extracao,\n    STRING_AGG(DISTINCT condicao, ' | ') AS condicao, COUNT(*) AS n_geometrias\n  FROM rl_latest GROUP BY id_norm\n),\nmicros AS (\n  SELECT id_imovel FROM UNNEST([\n    'BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968','BA-2902005-876B8A8CE62D40119A8446C4262A5AC7','BA-2913705-C31099AB04E24F15B9941AAAF17DC244','BA-2916500-9222A7C0C77E4E019B498875C6578189','BA-2921401-9177991E4861442EACFE3ACDDC06DB91','BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6','BA-2928109-0F43ABB998F5484394BAA55A4964A2BD','BA-2929057-2483416C90F94058B15FED07A5FE9FB7','BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F','BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB','BA-2929057-C5D11EE026A64399A6EF36764E8739E9','BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70','RS-4322301-249321677C5045DC84BE25A36C504F31'\n  ]) AS id_imovel\n),\nrl_micros AS (\n  SELECT m.id_imovel, MAX(r.data_extracao) AS data_extracao, ST_UNION_AGG(r.geometria) AS geom_rl\n  FROM micros m JOIN rl_latest r ON r.id_norm = REPLACE(m.id_imovel, '-', '')\n  GROUP BY m.id_imovel\n),\nimovel_micros AS (\n  SELECT m.id_imovel, i.area AS area_imovel_ha, i.geometria AS geom_imovel\n  FROM micros m JOIN imovel_latest i ON i.id_norm = REPLACE(m.id_imovel, '-', '')\n),\npar AS (\n  SELECT r.id_imovel, r.data_extracao, ST_AREA(r.geom_rl)/10000 AS area_rl_ha, i.area_imovel_ha,\n    ST_AREA(ST_INTERSECTION(r.geom_rl, i.geom_imovel))/10000 AS area_intersecao_ha,\n    SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(r.geom_rl, i.geom_imovel)), ST_AREA(r.geom_rl))*100 AS percentual_rl_intersecta_imovel\n  FROM rl_micros r JOIN imovel_micros i USING (id_imovel)\n),\npair_rl AS (\n  SELECT a.geom_rl AS geom_a, b.geom_rl AS geom_b, a.data_extracao AS data_extracao_a, b.data_extracao AS data_extracao_b\n  FROM rl_micros a JOIN rl_micros b ON a.id_imovel = 'PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56' AND b.id_imovel = 'PA-1506187-48EDE9CDCF3947959921871671228876'\n),\nms_app AS (\n  SELECT ST_UNION_AGG(a.geometria) AS geom_app, MAX(a.data_extracao) AS data_extracao\n  FROM app_latest a WHERE a.id_norm = REPLACE('MS-5006606-4693892971CF47B4B2684C3A94950BEE', '-', '')\n),\nsaida AS (\n  SELECT '1_condicao' AS bloco, i.id_imovel, CAST(NULL AS STRING) AS id_imovel_2, c.tabela, c.data_extracao, c.condicao, c.n_geometrias,\n    CAST(NULL AS FLOAT64) AS area_rl_ha, CAST(NULL AS FLOAT64) AS area_imovel_ha, CAST(NULL AS FLOAT64) AS area_intersecao_ha,\n    CAST(NULL AS FLOAT64) AS percentual_a, CAST(NULL AS FLOAT64) AS percentual_b, CAST(NULL AS FLOAT64) AS area_app_ha, CAST(NULL AS FLOAT64) AS percentual_intersecao_imovel\n  FROM ids i LEFT JOIN condicoes c ON c.id_norm = REPLACE(i.id_imovel, '-', '')\n  UNION ALL\n  SELECT '2_micros_rl_imovel', p.id_imovel, CAST(NULL AS STRING), 'reserva_legal', p.data_extracao, CAST(NULL AS STRING), CAST(NULL AS INT64),\n    p.area_rl_ha, p.area_imovel_ha, p.area_intersecao_ha, p.percentual_rl_intersecta_imovel, CAST(NULL AS FLOAT64), CAST(NULL AS FLOAT64), CAST(NULL AS FLOAT64)\n  FROM par p\n  UNION ALL\n  SELECT '3_intersecao_rl_dois_car', 'PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56', 'PA-1506187-48EDE9CDCF3947959921871671228876', 'reserva_legal', pa.data_extracao_a, CAST(NULL AS STRING), CAST(NULL AS INT64),\n    ST_AREA(pa.geom_a)/10000, ST_AREA(pa.geom_b)/10000, ST_AREA(ST_INTERSECTION(pa.geom_a, pa.geom_b))/10000,\n    SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(pa.geom_a, pa.geom_b)), ST_AREA(pa.geom_a))*100,\n    SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(pa.geom_a, pa.geom_b)), ST_AREA(pa.geom_b))*100,\n    CAST(NULL AS FLOAT64), CAST(NULL AS FLOAT64)\n  FROM pair_rl pa\n  UNION ALL\n  SELECT '4_ms_app_imovel', 'MS-5006606-4693892971CF47B4B2684C3A94950BEE', CAST(NULL AS STRING), 'app', a.data_extracao, CAST(NULL AS STRING), CAST(NULL AS INT64),\n    CAST(NULL AS FLOAT64), i.area, ST_AREA(ST_INTERSECTION(a.geom_app, i.geometria))/10000, CAST(NULL AS FLOAT64), CAST(NULL AS FLOAT64),\n    ST_AREA(a.geom_app)/10000, SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(a.geom_app, i.geometria)), ST_AREA(a.geom_app))*100\n  FROM ms_app a CROSS JOIN (SELECT area, geometria FROM imovel_latest WHERE id_norm = REPLACE('MS-5006606-4693892971CF47B4B2684C3A94950BEE', '-', '')) i\n)\nSELECT * FROM saida ORDER BY bloco, id_imovel, tabela, id_imovel_2",
+      "slug": "analise_ambiental_detalhada_v2"
+    },
+    "arquivo_sql": "sql/017.sql"
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 4,
+    "call_id": "call_klnUYZdjrRKaZpXG3keOl29y",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (SELECT id_imovel FROM UNNEST(['PA-1506187-94551B72659E427F961D2F62CEBA7392','MS-5006606-4693892971CF47B4B2684C3A94950BEE','PA-1506161-EE5157E8CA8B4DF280FC7F9D371FF17A','BA-2921401-9177991E4861442EACFE3ACDDC06DB91','BA-2928109-0F43ABB998F5484394BAA55A4964A2BD','BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F','BA-2929057-C5D11EE026A64399A6EF36764E8739E9','BA-2913705-C31099AB04E24F15B9941AAAF17DC244','BA-2929057-2483416C90F94058B15FED07A5FE9FB7','RS-4322301-411110B140A543DB906D80C3081D1822','BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70','PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98','BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968','RS-4322301-249321677C5045DC84BE25A36C504F31','RS-4322301-8DD943476D08400A931895B8A17A8BA9','BA-2916500-9222A7C0C77E4E019B498875C6578189','BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB','BA-2902005-876B8A8CE62D40119A8446C4262A5AC7','RS-4322301-0BBDEB7272784E4DACA585E486AE37A9','BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6','PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56','PA-1506187-48EDE9CDCF3947959921871671228876']) AS id_imovel),\napp_latest AS (\n SELECT a.*,REPLACE(a.id_imovel,'-','') id_norm\n FROM `basedosdados.br_sfb_sicar.app` a\n WHERE a.data_extracao IN ('2026-08-01','2026-08-02','2026-08-03') AND REPLACE(a.id_imovel,'-','') IN (SELECT REPLACE(id_imovel,'-','') FROM ids)\n QUALIFY a.data_extracao=MAX(a.data_extracao) OVER(PARTITION BY REPLACE(a.id_imovel,'-',''))\n),\nrl_latest AS (\n SELECT r.*,REPLACE(r.id_imovel,'-','') id_norm\n FROM `basedosdados.br_sfb_sicar.reserva_legal` r\n WHERE r.data_extracao IN ('2026-08-01','2026-08-02','2026-08-03') AND REPLACE(r.id_imovel,'-','') IN (SELECT REPLACE(id_imovel,'-','') FROM ids)\n QUALIFY r.data_extracao=MAX(r.data_extracao) OVER(PARTITION BY REPLACE(r.id_imovel,'-',''))\n),\nimovel_latest AS (\n SELECT * EXCEPT(rn) FROM (SELECT a.*,REPLACE(a.id_imovel,'-','') id_norm,ROW_NUMBER() OVER(PARTITION BY REPLACE(a.id_imovel,'-','') ORDER BY a.data_extracao DESC) rn FROM `basedosdados.br_sfb_sicar.area_imovel` a WHERE a.data_extracao IN ('2026-08-01','2026-08-02','2026-08-03') AND a.sigla_uf IN ('PA','MS','BA','RS') AND REPLACE(a.id_imovel,'-','') IN (SELECT REPLACE(id_imovel,'-','') FROM ids)) WHERE rn=1\n),\ncondicoes AS (SELECT id_norm,'app' tabela,MAX(data_extracao) data_extracao,STRING_AGG(DISTINCT condicao,' | ') condicao,COUNT(*) n_geometrias FROM app_latest GROUP BY id_norm UNION ALL SELECT id_norm,'reserva_legal',MAX(data_extracao),STRING_AGG(DISTINCT condicao,' | '),COUNT(*) FROM rl_latest GROUP BY id_norm),\nmicros AS (SELECT id_imovel FROM UNNEST(['BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968','BA-2902005-876B8A8CE62D40119A8446C4262A5AC7','BA-2913705-C31099AB04E24F15B9941AAAF17DC244','BA-2916500-9222A7C0C77E4E019B498875C6578189','BA-2921401-9177991E4861442EACFE3ACDDC06DB91','BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6','BA-2928109-0F43ABB998F5484394BAA55A4964A2BD','BA-2929057-2483416C90F94058B15FED07A5FE9FB7','BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F','BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB','BA-2929057-C5D11EE026A64399A6EF36764E8739E9','BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70','RS-4322301-249321677C5045DC84BE25A36C504F31']) AS id_imovel),\nrl_micros AS (SELECT m.id_imovel,MAX(r.data_extracao) data_extracao,ST_UNION_AGG(r.geometria) geom_rl FROM micros m JOIN rl_latest r ON r.id_norm=REPLACE(m.id_imovel,'-','') GROUP BY m.id_imovel),\npar AS (SELECT r.id_imovel,r.data_extracao,ST_AREA(r.geom_rl)/10000 area_rl_ha,i.area area_imovel_ha,ST_AREA(ST_INTERSECTION(r.geom_rl,i.geometria))/10000 area_intersecao_ha,SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(r.geom_rl,i.geometria)),ST_AREA(r.geom_rl))*100 percentual_rl_intersecta_imovel FROM rl_micros r JOIN imovel_latest i ON i.id_norm=REPLACE(r.id_imovel,'-','')),\npair_rl AS (SELECT a.geom_rl geom_a,b.geom_rl geom_b,a.data_extracao data_extracao_a FROM rl_micros a JOIN rl_micros b ON a.id_imovel='PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56' AND b.id_imovel='PA-1506187-48EDE9CDCF3947959921871671228876'),\nms_app AS (SELECT ST_UNION_AGG(geometria) geom_app,MAX(data_extracao) data_extracao FROM app_latest WHERE id_norm=REPLACE('MS-5006606-4693892971CF47B4B2684C3A94950BEE','-','')),\nsaida AS (\n SELECT '1_condicao' bloco,i.id_imovel,CAST(NULL AS STRING) id_imovel_2,c.tabela,c.data_extracao,c.condicao,c.n_geometrias,CAST(NULL AS FLOAT64) area_rl_ha,CAST(NULL AS FLOAT64) area_imovel_ha,CAST(NULL AS FLOAT64) area_intersecao_ha,CAST(NULL AS FLOAT64) percentual_a,CAST(NULL AS FLOAT64) percentual_b,CAST(NULL AS FLOAT64) area_app_ha,CAST(NULL AS FLOAT64) percentual_intersecao_imovel FROM ids i LEFT JOIN condicoes c ON c.id_norm=REPLACE(i.id_imovel,'-','')\n UNION ALL SELECT '2_micros_rl_imovel',p.id_imovel,NULL,'reserva_legal',p.data_extracao,NULL,NULL,p.area_rl_ha,p.area_imovel_ha,p.area_intersecao_ha,p.percentual_rl_intersecta_imovel,NULL,NULL,NULL FROM par p\n UNION ALL SELECT '3_intersecao_rl_dois_car','PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56','PA-1506187-48EDE9CDCF3947959921871671228876','reserva_legal',pa.data_extracao_a,NULL,NULL,ST_AREA(pa.geom_a)/10000,ST_AREA(pa.geom_b)/10000,ST_AREA(ST_INTERSECTION(pa.geom_a,pa.geom_b))/10000,SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(pa.geom_a,pa.geom_b)),ST_AREA(pa.geom_a))*100,SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(pa.geom_a,pa.geom_b)),ST_AREA(pa.geom_b))*100,NULL,NULL FROM pair_rl pa\n UNION ALL SELECT '4_ms_app_imovel','MS-5006606-4693892971CF47B4B2684C3A94950BEE',NULL,'app',a.data_extracao,NULL,NULL,NULL,i.area,ST_AREA(ST_INTERSECTION(a.geom_app,i.geometria))/10000,NULL,NULL,ST_AREA(a.geom_app)/10000,SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(a.geom_app,i.geometria)),ST_AREA(a.geom_app))*100 FROM ms_app a CROSS JOIN (SELECT area,geometria FROM imovel_latest WHERE id_norm=REPLACE('MS-5006606-4693892971CF47B4B2684C3A94950BEE','-','')) i)\nSELECT * FROM saida ORDER BY bloco,id_imovel,tabela,id_imovel_2",
+      "slug": "analise_ambiental_detalhada_final"
+    },
+    "arquivo_sql": "sql/018.sql"
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 6,
+    "call_id": "call_vRObNw1ciru2NITX2pfEkAxw",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  id_imovel,\n  data_extracao,\n  condicao,\n  COUNT(*) AS n_geometrias\nFROM `basedosdados.br_sfb_sicar.app`\nWHERE data_extracao IN ('2026-08-01','2026-08-02','2026-08-03')\n  AND id_imovel IN ('PA150618794551B72659E427F961D2F62CEBA7392','MS50066064693892971CF47B4B2684C3A94950BEE','PA1506161EE5157E8CA8B4DF280FC7F9D371FF17A','BA29214019177991E4861442EACFE3ACDDC06DB91','BA29281090F43ABB998F5484394BAA55A4964A2BD','BA29290573DE9EF4059BE416EBC88EAAE603F1B5F','BA2929057C5D11EE026A64399A6EF36764E8739E9','BA2913705C31099AB04E24F15B9941AAAF17DC244','BA29290572483416C90F94058B15FED07A5FE9FB7','RS4322301411110B140A543DB906D80C3081D1822','BA29307669CCE04D4FED440E0844D0C38B9C89B70','PA1506187CEAD1A3AC3E14F5DB2FC0B93E54E7E98','BA29016012D6EA3618F4A48BF87E2EB78992B2968','RS4322301249321677C5045DC84BE25A36C504F31','RS43223018DD943476D08400A931895B8A17A8BA9','BA29165009222A7C0C77E4E019B498875C6578189','BA292905760EC867CE3FF4AEAA712CD4AE3992CCB','BA2902005876B8A8CE62D40119A8446C4262A5AC7','RS43223010BBDEB7272784E4DACA585E486AE37A9','BA2926509E3BCDCD3078C4BADBC80D0166EACCAF6','PA15061873F4B7241FA0D4F60B91CCE115953FD56','PA150618748EDE9CDCF3947959921871671228876')\nGROUP BY id_imovel, data_extracao, condicao",
+      "slug": "teste_condicao_app_ids"
+    },
+    "arquivo_sql": "sql/019.sql"
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 8,
+    "call_id": "call_6IHZ2Jdls58lETK0FrtWl4DW",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT id_imovel, data_extracao, condicao, tipo\nFROM `basedosdados.br_sfb_sicar.app`\nWHERE data_extracao = '2026-08-03'\n  AND REPLACE(id_imovel, '-', '') = 'PA15061873F4B7241FA0D4F60B91CCE115953FD56'",
+      "slug": "verificar_formato_id_app"
+    },
+    "arquivo_sql": "sql/020.sql"
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 10,
+    "call_id": "call_tced3bxxSIuikwwSaSzvK0n3",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (SELECT id_imovel FROM UNNEST(['PA-1506187-94551B72659E427F961D2F62CEBA7392','MS-5006606-4693892971CF47B4B2684C3A94950BEE','PA-1506161-EE5157E8CA8B4DF280FC7F9D371FF17A','BA-2921401-9177991E4861442EACFE3ACDDC06DB91','BA-2928109-0F43ABB998F5484394BAA55A4964A2BD','BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F','BA-2929057-C5D11EE026A64399A6EF36764E8739E9','BA-2913705-C31099AB04E24F15B9941AAAF17DC244','BA-2929057-2483416C90F94058B15FED07A5FE9FB7','RS-4322301-411110B140A543DB906D80C3081D1822','BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70','PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98','BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968','RS-4322301-249321677C5045DC84BE25A36C504F31','RS-4322301-8DD943476D08400A931895B8A17A8BA9','BA-2916500-9222A7C0C77E4E019B498875C6578189','BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB','BA-2902005-876B8A8CE62D40119A8446C4262A5AC7','RS-4322301-0BBDEB7272784E4DACA585E486AE37A9','BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6','PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56','PA-1506187-48EDE9CDCF3947959921871671228876']) AS id_imovel), s AS (SELECT id_imovel,'app' tabela,data_extracao,condicao FROM `basedosdados.br_sfb_sicar.app` WHERE data_extracao IN ('2026-08-01','2026-08-02','2026-08-03') AND id_imovel IN (SELECT id_imovel FROM ids) UNION ALL SELECT id_imovel,'reserva_legal',data_extracao,condicao FROM `basedosdados.br_sfb_sicar.reserva_legal` WHERE data_extracao IN ('2026-08-01','2026-08-02','2026-08-03') AND id_imovel IN (SELECT id_imovel FROM ids)), r AS (SELECT *,ROW_NUMBER() OVER(PARTITION BY id_imovel,tabela ORDER BY data_extracao DESC) rn FROM (SELECT id_imovel,tabela,data_extracao,condicao,COUNT(*) OVER(PARTITION BY id_imovel,tabela,data_extracao,condicao) n_geometrias FROM s)) SELECT id_imovel,tabela,data_extracao,condicao,n_geometrias FROM r WHERE rn=1 ORDER BY id_imovel,tabela",
+      "slug": "condicoes_ambientais"
+    },
+    "arquivo_sql": "sql/021.sql"
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 10,
+    "call_id": "call_V79NLQFuWMvxea3m5iBNYPLx",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (SELECT id_imovel FROM UNNEST(['BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968','BA-2902005-876B8A8CE62D40119A8446C4262A5AC7','BA-2913705-C31099AB04E24F15B9941AAAF17DC244','BA-2916500-9222A7C0C77E4E019B498875C6578189','BA-2921401-9177991E4861442EACFE3ACDDC06DB91','BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6','BA-2928109-0F43ABB998F5484394BAA55A4964A2BD','BA-2929057-2483416C90F94058B15FED07A5FE9FB7','BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F','BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB','BA-2929057-C5D11EE026A64399A6EF36764E8739E9','BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70','RS-4322301-249321677C5045DC84BE25A36C504F31']) AS id_imovel), rl AS (SELECT r.id_imovel,r.data_extracao,r.geometria FROM `basedosdados.br_sfb_sicar.reserva_legal` r WHERE ((r.data_extracao='2026-08-02' AND STARTS_WITH(r.id_imovel,'BA-')) OR (r.data_extracao='2026-08-01' AND STARTS_WITH(r.id_imovel,'RS-'))) AND r.id_imovel IN (SELECT id_imovel FROM ids)), im AS (SELECT a.id_imovel,a.area,a.geometria FROM `basedosdados.br_sfb_sicar.area_imovel` a WHERE a.data_extracao IN ('2026-08-01','2026-08-02') AND a.sigla_uf IN ('BA','RS') AND a.id_imovel IN (SELECT id_imovel FROM ids)), g AS (SELECT rl.id_imovel,MAX(rl.data_extracao) data_extracao,ST_UNION_AGG(rl.geometria) geom_rl FROM rl GROUP BY rl.id_imovel), i AS (SELECT * FROM im QUALIFY ROW_NUMBER() OVER(PARTITION BY id_imovel ORDER BY data_extracao DESC)=1) SELECT g.id_imovel,g.data_extracao,ROUND(ST_AREA(g.geom_rl)/10000,6) area_rl_ha,ROUND(i.area,6) area_imovel_ha,ROUND(ST_AREA(ST_INTERSECTION(g.geom_rl,i.geometria))/10000,6) area_intersecao_ha,ROUND(SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(g.geom_rl,i.geometria)),ST_AREA(g.geom_rl))*100,6) percentual_rl_intersecta_imovel FROM g JOIN i USING(id_imovel) ORDER BY g.id_imovel",
+      "slug": "micros_rl_intersecao_imovel"
+    },
+    "arquivo_sql": "sql/022.sql"
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 10,
+    "call_id": "call_jAclRVkhrUrCLYTLfmFZpiv1",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH rl AS (SELECT id_imovel,geometria,data_extracao FROM `basedosdados.br_sfb_sicar.reserva_legal` WHERE data_extracao='2026-08-03' AND id_imovel IN ('PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56','PA-1506187-48EDE9CDCF3947959921871671228876')), g AS (SELECT id_imovel,MAX(data_extracao) data_extracao,ST_UNION_AGG(geometria) geom FROM rl GROUP BY id_imovel), p AS (SELECT a.geom geom_a,b.geom geom_b,a.data_extracao data_extracao_a,b.data_extracao data_extracao_b FROM g a JOIN g b ON a.id_imovel='PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56' AND b.id_imovel='PA-1506187-48EDE9CDCF3947959921871671228876') SELECT data_extracao_a,data_extracao_b,ROUND(ST_AREA(geom_a)/10000,6) area_rl_a_ha,ROUND(ST_AREA(geom_b)/10000,6) area_rl_b_ha,ROUND(ST_AREA(ST_INTERSECTION(geom_a,geom_b))/10000,6) area_intersecao_ha,ROUND(SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(geom_a,geom_b)),ST_AREA(geom_a))*100,6) percentual_sobre_a,ROUND(SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(geom_a,geom_b)),ST_AREA(geom_b))*100,6) percentual_sobre_b FROM p",
+      "slug": "intersecao_rl_dois_cars"
+    },
+    "arquivo_sql": "sql/023.sql"
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 10,
+    "call_id": "call_vEbWL3ulD9CQo5yv2eEG6OMQ",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH a AS (SELECT geometria,data_extracao FROM `basedosdados.br_sfb_sicar.app` WHERE data_extracao='2026-08-03' AND id_imovel='MS-5006606-4693892971CF47B4B2684C3A94950BEE'), ag AS (SELECT MAX(data_extracao) data_extracao,ST_UNION_AGG(geometria) geom_app FROM a), i AS (SELECT area,geometria FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao='2026-08-03' AND sigla_uf='MS' AND id_imovel='MS-5006606-4693892971CF47B4B2684C3A94950BEE') SELECT ag.data_extracao,ROUND(ST_AREA(ag.geom_app)/10000,6) area_app_ha,ROUND(i.area,6) area_imovel_ha,ROUND(ST_AREA(ST_INTERSECTION(ag.geom_app,i.geometria))/10000,6) area_intersecao_ha,ROUND(SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(ag.geom_app,i.geometria)),ST_AREA(ag.geom_app))*100,6) percentual_app_intersecta_imovel FROM ag CROSS JOIN i",
+      "slug": "ms_app_intersecao_imovel"
+    },
+    "arquivo_sql": "sql/024.sql"
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 15,
+    "call_id": "call_8wYHUFyw6vipv7E4rWAee8Pf",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH ids AS (SELECT id_imovel FROM UNNEST(['BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968','BA-2902005-876B8A8CE62D40119A8446C4262A5AC7','BA-2913705-C31099AB04E24F15B9941AAAF17DC244','BA-2916500-9222A7C0C77E4E019B498875C6578189','BA-2921401-9177991E4861442EACFE3ACDDC06DB91','BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6','BA-2928109-0F43ABB998F5484394BAA55A4964A2BD','BA-2929057-2483416C90F94058B15FED07A5FE9FB7','BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F','BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB','BA-2929057-C5D11EE026A64399A6EF36764E8739E9','BA-2930766-9CCE04D4FED440E0844D0C38B9C89B70','RS-4322301-249321677C5045DC84BE25A36C504F31']) AS id_imovel), rl AS (SELECT r.id_imovel,r.data_extracao,r.geometria FROM `basedosdados.br_sfb_sicar.reserva_legal` r WHERE ((r.data_extracao='2026-08-02' AND STARTS_WITH(r.id_imovel,'BA-')) OR (r.data_extracao='2026-08-01' AND STARTS_WITH(r.id_imovel,'RS-'))) AND r.id_imovel IN (SELECT id_imovel FROM ids)), im AS (SELECT a.id_imovel,a.data_extracao,a.area,a.geometria FROM `basedosdados.br_sfb_sicar.area_imovel` a WHERE a.data_extracao IN ('2026-08-01','2026-08-02') AND a.sigla_uf IN ('BA','RS') AND a.id_imovel IN (SELECT id_imovel FROM ids)), g AS (SELECT rl.id_imovel,MAX(rl.data_extracao) data_extracao,ST_UNION_AGG(rl.geometria) geom_rl FROM rl GROUP BY rl.id_imovel), i AS (SELECT * FROM im QUALIFY ROW_NUMBER() OVER(PARTITION BY id_imovel ORDER BY data_extracao DESC)=1) SELECT g.id_imovel,g.data_extracao,ROUND(ST_AREA(g.geom_rl)/10000,6) area_rl_ha,ROUND(i.area,6) area_imovel_ha,ROUND(ST_AREA(ST_INTERSECTION(g.geom_rl,i.geometria))/10000,6) area_intersecao_ha,ROUND(SAFE_DIVIDE(ST_AREA(ST_INTERSECTION(g.geom_rl,i.geometria)),ST_AREA(g.geom_rl))*100,6) percentual_rl_intersecta_imovel FROM g JOIN i USING(id_imovel) ORDER BY g.id_imovel",
+      "slug": "micros_rl_intersecao_imovel_corrigido"
+    },
+    "arquivo_sql": "sql/025.sql"
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 17,
+    "call_id": "call_cjACmH6rxAO0g6eF0XRH8NC3",
+    "nome": "export_query_result",
+    "args": {
+      "query_ref": "qr_6fc95181a24d4720b132f71451144784",
+      "file_format": "CSV"
+    }
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 17,
+    "call_id": "call_f0C5jAaPTe307DA99ZQb5QZ6",
+    "nome": "export_query_result",
+    "args": {
+      "query_ref": "qr_5c4b50633eab4deb8ff55c9ba0ba810e",
+      "file_format": "CSV"
+    }
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 17,
+    "call_id": "call_qpu4VdoOvZsTwUxERm6IBZtG",
+    "nome": "export_query_result",
+    "args": {
+      "query_ref": "qr_1ee7ef9ef95b4dd1be736754d1cee346",
+      "file_format": "CSV"
+    }
+  },
+  {
+    "message_id": "feb8be91-cd72-4491-beef-a893eb2dbeb9",
+    "evento": 17,
+    "call_id": "call_cJ9vpURwahlKQsgBGOpFaqxn",
+    "nome": "export_query_result",
+    "args": {
+      "query_ref": "qr_42392f05cc50451ea531e3f354c1965f",
+      "file_format": "CSV"
+    }
+  }
+]

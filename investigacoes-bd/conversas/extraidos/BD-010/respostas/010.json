@@ -1,0 +1,77 @@
+{
+  "row_count": 39,
+  "rows": [
+    {
+      "ano": 2017,
+      "bioma": "Amazônia",
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Agricultura",
+      "area_hectares": 33023.41020944808
+    },
+    {
+      "ano": 2017,
+      "bioma": "Amazônia",
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Mosaico de Usos",
+      "area_hectares": 24227.6767768063
+    },
+    {
+      "ano": 2017,
+      "bioma": "Amazônia",
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Pastagem",
+      "area_hectares": 336520.7482196495
+    },
+    {
+      "ano": 2017,
+      "bioma": "Amazônia",
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Silvicultura",
+      "area_hectares": 2176.454639703364
+    },
+    {
+      "ano": 2017,
+      "bioma": "Amazônia",
+      "nivel_1": "Corpo d'Água",
+      "nivel_2": "Rio, Lago e Oceano",
+      "area_hectares": 631.1126948791497
+    },
+    {
+      "ano": 2017,
+      "bioma": "Amazônia",
+      "nivel_1": "Floresta",
+      "nivel_2": "Floresta Alagável",
+      "area_hectares": 3462.265518164067
+    },
+    {
+      "ano": 2017,
+      "bioma": "Amazônia",
+      "nivel_1": "Floresta",
+      "nivel_2": "Formação Florestal",
+      "area_hectares": 420153.8654890148
+    },
+    {
+      "ano": 2017,
+      "bioma": "Amazônia",
+      "nivel_1": "Floresta",
+      "nivel_2": "Formação Savânica",
+      "area_hectares": 32.61129669189456
+    },
+    {
+      "ano": 2017,
+      "bioma": "Amazônia",
+      "nivel_1": "Vegetação Herbácea e Arbustiva",
+      "nivel_2": "Afloramento Rochoso",
+      "area_hectares": 237.9039846191405
+    },
+    {
+      "ano": 2017,
+      "bioma": "Amazônia",
+      "nivel_1": "Vegetação Herbácea e Arbustiva",
+      "nivel_2": "Campo Alagado e Área Pantanosa",
+      "area_hectares": 57.57314010620118
+    },
+    "... (29 more items)"
+  ],
+  "query_ref": "qr_ebbe840b083e443095dd1416112492d4"
+}

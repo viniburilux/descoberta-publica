@@ -1,0 +1,70 @@
+{
+  "id": "945d6a0b-39d0-42d7-b479-a087d5e09d64",
+  "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "gcp_id": "basedosdados.br_bcb_sicor.recurso_publico_propriedade",
+  "name": "Recurso Público Propriedade",
+  "description": "Em 2023 o Banco Central do Brasil (BCB) liberou informações adicionais das operações de crédito que foram financiadas com recursos públicos. Esta tabela contém dados adicionais do imóvel rural de aplicação do crédito.",
+  "columns": [
+    {
+      "name": "ano_emissao",
+      "type": "INT64",
+      "description": "Ano da emissão da operação",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_basico",
+      "type": "STRING",
+      "description": "CNPJ Básico do proprietário",
+      "needs_decoding": false
+    },
+    {
+      "name": "cpf",
+      "type": "STRING",
+      "description": "CPF do poprietário",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_car",
+      "type": "STRING",
+      "description": "Identificador do Cadastro da Área Rural (CAR)",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_cib",
+      "type": "STRING",
+      "description": "Identificador do Imóvel no Cadastro Imobiliário Brasileiro (CIB), que sucede o NIRF a partir de julho de 2026",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_referencia_bacen",
+      "type": "STRING",
+      "description": "Identificador único de cada operação de crédito",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_sncr",
+      "type": "STRING",
+      "description": "Identificar do Imóvel no Sistema Nacional de Cadastro Rural (SNCR)",
+      "needs_decoding": false
+    },
+    {
+      "name": "mes_emissao",
+      "type": "INT64",
+      "description": "Mês de emissão da operação",
+      "unit": "month",
+      "needs_decoding": false
+    },
+    {
+      "name": "numero_ordem",
+      "type": "STRING",
+      "description": "Identificador da quantidade de ordens que compõem uma operação de crédito",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano_emissao"
+  ],
+  "period_start": "2013-01",
+  "period_end": "2026-10"
+}

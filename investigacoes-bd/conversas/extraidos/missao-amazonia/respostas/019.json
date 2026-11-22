@@ -1,0 +1,77 @@
+{
+  "id": "1f2cf310-77c2-45dd-8a10-d10078f1def0",
+  "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+  "gcp_id": "basedosdados.br_me_siconfi.municipio_despesas_funcao",
+  "name": "Despesas por Função - Município",
+  "description": "Dados de despesas por função a nível de município.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "needs_decoding": false
+    },
+    {
+      "name": "conta",
+      "type": "STRING",
+      "description": "Conta",
+      "needs_decoding": false
+    },
+    {
+      "name": "conta_bd",
+      "type": "STRING",
+      "description": "Conta - Base dos Dados",
+      "needs_decoding": false
+    },
+    {
+      "name": "estagio",
+      "type": "STRING",
+      "description": "Estágio",
+      "needs_decoding": false
+    },
+    {
+      "name": "estagio_bd",
+      "type": "STRING",
+      "description": "Estágio - Base dos Dados",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_conta_bd",
+      "type": "STRING",
+      "description": "ID Conta - Base dos Dados",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "portaria",
+      "type": "STRING",
+      "description": "Portaria",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da unidade da federação",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor",
+      "type": "FLOAT64",
+      "description": "Valor",
+      "unit": "brl",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "1996",
+  "period_end": "2025"
+}

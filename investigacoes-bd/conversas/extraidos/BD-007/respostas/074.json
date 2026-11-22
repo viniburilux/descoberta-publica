@@ -1,0 +1,69 @@
+{
+  "row_count": 1202,
+  "rows": [
+    {
+      "conta_bd": "Adicional ICMS - Fundo Estadual de Combate à Pobreza",
+      "id_conta_bd": "",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "linhas": 2
+    },
+    {
+      "conta_bd": "Adicional ISS - Fundo Municipal de Combate à Pobreza",
+      "id_conta_bd": "",
+      "estagio_bd": "Outras Deduções da Receita",
+      "linhas": 1
+    },
+    {
+      "conta_bd": "Adicional ISS - Fundo Municipal de Combate à Pobreza",
+      "id_conta_bd": "",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "linhas": 26
+    },
+    {
+      "conta_bd": "Alienação de Bens",
+      "id_conta_bd": "1.2.2.0.0.00.00.00",
+      "estagio_bd": "Outras Deduções da Receita",
+      "linhas": 91
+    },
+    {
+      "conta_bd": "Alienação de Bens",
+      "id_conta_bd": "1.2.2.0.0.00.00.00",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "linhas": 2329
+    },
+    {
+      "conta_bd": "Alienação de Bens - Intraorçamentárias",
+      "id_conta_bd": "1.8.2.0.0.00.00.00",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "linhas": 31
+    },
+    {
+      "conta_bd": "Alienação de Bens Apreendidos",
+      "id_conta_bd": "",
+      "estagio_bd": "Outras Deduções da Receita",
+      "linhas": 1
+    },
+    {
+      "conta_bd": "Alienação de Bens Apreendidos",
+      "id_conta_bd": "",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "linhas": 8
+    },
+    {
+      "conta_bd": "Alienação de Bens Imóveis",
+      "id_conta_bd": "",
+      "estagio_bd": "Outras Deduções da Receita",
+      "linhas": 66
+    },
+    {
+      "conta_bd": "Alienação de Bens Imóveis",
+      "id_conta_bd": "",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "linhas": 705
+    },
+    "... (990 more items)"
+  ],
+  "truncated": true,
+  "truncation_note": "Only the first 1000 of 1202 rows are shown here to keep the context small. The full result can still be downloaded from the interface.",
+  "query_ref": "qr_a3f27fb4ffa54520b8ebe348cc1ad227"
+}

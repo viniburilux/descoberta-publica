@@ -1,0 +1,1 @@
+SELECT cnae_2, COUNT(*) vinculos FROM `basedosdados.br_me_rais.microdados_vinculos` WHERE ano=2023 GROUP BY cnae_2 ORDER BY vinculos DESC LIMIT 30

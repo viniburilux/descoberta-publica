@@ -1,0 +1,35 @@
+[
+  {
+    "id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+    "name": "Produto Interno Bruto (PIB)",
+    "description": "O PIB permite identificar as áreas de geração de renda, produzindo informações que captam as especifidades do País. Disponibilizamos o PIB por Município, Unidade da Federação e para o País.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "pib",
+      "crescimento",
+      "renda"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "033c3cb9-01f9-4c52-8f69-902b54297ac3",
+    "name": "Banco de Dados Mundial de Desigualdade (WID)",
+    "description": "Séries históricas de distribuição de renda e riqueza compiladas pelo World Inequality Lab, cobrindo 1800 a 2025 para 410 áreas geográficas entre países, unidades subnacionais e agregados regionais, inclusive o mundo. Reúne agregados macroeconômicos das contas nacionais e medidas distribucionais por percentil, entre participações, limiares, médias e índices de Gini, construídos segundo as diretrizes de Contas Nacionais Distributivas (DINA). A unidade de cada série, sua fonte primária e seu método de construção estão na tabela series.",
+    "organizations": [
+      "World Inequality Lab (WIL)"
+    ],
+    "tags": [
+      "pib",
+      "renda",
+      "desigualdade",
+      "riqueza"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

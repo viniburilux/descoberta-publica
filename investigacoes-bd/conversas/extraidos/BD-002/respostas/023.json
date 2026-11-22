@@ -1,0 +1,197 @@
+[
+  {
+    "id": "1add7eaa-39ef-4731-914b-fc396f071c81",
+    "name": "Eleições na Alemanha (GERDA)",
+    "description": "Resultados eleitorais alemães harmonizados pelo projeto GERDA (Heddesheimer, Hilbig, Sichart e Wiedemann, 2025), em formato longo por partido. Abrange eleições federais (Bundestag), estaduais (Landtag), municipais, para conselhos de condado (Kreistag) e europeias nos níveis de município, condado e distrito eleitoral (Wahlkreis), incluindo versões harmonizadas para limites municipais fixos de 2021, 2023 e 2025.",
+    "organizations": [
+      "Nature"
+    ],
+    "tags": [
+      "congresso",
+      "eleições",
+      "partido político"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "56d7381b-f525-4557-8cb3-3e863b3e81d9",
+    "name": "Eleições Nacionais",
+    "description": "O Banco de Dados de Eleições Nacionais fornece informações sobre os resultados das eleições presidenciais e parlamentares realizadas em todo o mundo desde 1789. A versão 2.0 do conjunto de dados abrange 6.309 eleições nacionais (1.409 eleições presidenciais e 4.900 eleições parlamentares) realizadas entre 1789 e 2023 em 212 países e territórios independentes. O conjunto de dados visa alcançar a mais ampla cobertura temporal e espacial possível, compilando informações de diversas fontes, conforme descrito no livro de códigos e no artigo complementar.",
+    "organizations": [
+      "Harvard University"
+    ],
+    "tags": [
+      "congresso",
+      "eleições",
+      "sistema eleitoral",
+      "parlamento",
+      "partido político",
+      "presidência",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "1b0856e3-8b76-46eb-b5ff-418763669fcf",
+    "name": "Eleições da Índia (Lok Dhaba/TCPD)",
+    "description": "Resultados eleitorais em nível de candidato das eleições gerais (Lok Sabha) e estaduais (Vidhan Sabha) da Índia desde 1962, compilados pelo Trivedi Centre for Political Data (TCPD) da Universidade Ashoka a partir dos relatórios da Election Commission of India, com variáveis de incumbência e trajetória política por candidato. Variáveis de escolaridade e profissão do candidato provêm da ADR/MyNeta.",
+    "organizations": [
+      "Centro Trivedi para Dados Políticos (TCPD)"
+    ],
+    "tags": [],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+    "name": "Eleições Brasileiras",
+    "description": "Dados de eleições brasileiras desde 1945 fornecidos pelo TSE. Inclui dados de eleitorado, candidaturas, resultados e prestação de contas",
+    "organizations": [
+      "Tribunal Superior Eleitoral (TSE)"
+    ],
+    "tags": [
+      "congresso",
+      "eleições",
+      "partido político",
+      "presidência",
+      "voto"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "84523368-44df-4508-adce-a13f4b2eb0e8",
+    "name": "Eleições Federais e Transparência do Financiamento Político",
+    "description": "Resultados das eleições federais australianas apurados pela Comissão Eleitoral Australiana (AEC), para a Câmara dos Representantes e o Senado, no nível da divisão eleitoral e do local de votação individual. Cobre as oito eleições gerais de 2004 a 2025, 24 eleições suplementares, a eleição de Senado da Austrália Ocidental de 2014 e o referendo de 2023. Inclui também as declarações de financiamento político do Transparency Register da AEC — doações, recebimentos, despesas eleitorais e totais das declarações anuais — dos exercícios financeiros de 1998-99 a 2024-25.",
+    "organizations": [
+      "Comissão Eleitoral Australiana (AEC)"
+    ],
+    "tags": [
+      "financiamento de campanha",
+      "candidatura",
+      "doação",
+      "eleições",
+      "sistema eleitoral",
+      "parlamento",
+      "partido político",
+      "referendo",
+      "transparência",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "1a7197ab-87fe-4039-8504-59407b3ec067",
+    "name": "Eleições Globais em Pequenas Áreas (SAGE)",
+    "description": "Retornos eleitorais geocodificados e padronizados no menor nível publicado por cada autoridade eleitoral (tipicamente a seção eleitoral), para eleições legislativas de câmara baixa e presidenciais em 110 países, de 1948 a 2026. O conjunto reúne cerca de 10 bilhões de votos em mais de 8 milhões de unidades eleitorais, com identificadores de partido e candidato harmonizados (Party Facts) e coordenadas geográficas.",
+    "organizations": [],
+    "tags": [
+      "eleições",
+      "sistema eleitoral",
+      "partido político",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "50d7bd73-dce6-41a5-adf0-66a50d10b501",
+    "name": "Japanese Municipal Elections Dataset (JMED)",
+    "description": "O Japanese Municipal Elections Dataset (JMED), elaborado por Charles T. McClean na Yale University, reúne 223.561 candidaturas em 21.111 eleições para assembleias municipais e prefeituras em 2.027 municípios do Japão de 2005 a 2025. Cada candidatura traz nome, idade, sexo, partido, situação de incumbência, votos e resultado, além do comparecimento e das eleições sem disputa. Um conjunto complementar registra as fusões, incorporações, desmembramentos e mudanças de nome, código e limites dos municípios no período.",
+    "organizations": [
+      "Yale University"
+    ],
+    "tags": [
+      "candidatura",
+      "eleições",
+      "gênero",
+      "município",
+      "partido político",
+      "representatividade",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "8192b6a5-863b-4603-a3bd-d10d82958e5d",
+    "name": "Eleições da Tasmânia",
+    "description": "Resultados das eleições estaduais da Tasmânia publicados pela Comissão Eleitoral da Tasmânia (TEC), cobrindo a Casa de Assembleia e o Conselho Legislativo de 2018 a 2026. Inclui candidaturas, resultados por divisão e por local de votação, distribuição de preferências, inscrições e comparecimento. A Casa de Assembleia usa o sistema Hare-Clark de voto único transferível e o Conselho Legislativo usa voto preferencial em divisões de cadeira única.",
+    "organizations": [
+      "Comissão Eleitoral da Tasmânia"
+    ],
+    "tags": [
+      "candidatura",
+      "eleições",
+      "sistema eleitoral",
+      "legislativo",
+      "parlamento",
+      "partido político",
+      "preferências",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "31ffbaa4-e7a1-4e20-9c5c-a52329e4127b",
+    "name": "Eleições de Victoria",
+    "description": "Resultados das eleições estaduais de Victoria, na Austrália, publicados pela Comissão Eleitoral de Victoria (VEC). Cobre as eleições gerais de 2006, 2010, 2014, 2018 e 2022, as eleições suplementares e parciais realizadas desde então, e o registro público de doações políticas a partir de 2018. Os resultados abrangem a Assembleia Legislativa, disputada por distritos de cadeira única, e o Conselho Legislativo, disputado por regiões de múltiplas cadeiras pelo voto único transferível desde 2006. A eleição de 2002 está representada apenas por duas províncias do Conselho Legislativo, Western Port e Higinbotham, porque a VEC não publica mais nada daquele pleito. As disputas de governo local, também administradas pela VEC, não estão incluídas.",
+    "organizations": [
+      "Comissão Eleitoral de Victoria (VEC)"
+    ],
+    "tags": [
+      "financiamento de campanha",
+      "candidatura",
+      "doação",
+      "eleições",
+      "sistema eleitoral",
+      "partido político",
+      "preferências",
+      "transparência",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "131dba4e-2101-4eb6-b93b-c923ae9e82ee",
+    "name": "Eleições estaduais da Austrália Meridional",
+    "description": "Resultados das eleições estaduais da Austrália Meridional publicados pela Comissão Eleitoral do estado (ECSA), cobrindo os pleitos gerais de 2022 e 2026 e as três eleições suplementares de distrito realizadas entre eles. Cobre as duas câmaras do Parlamento estadual: a Assembleia, eleita por voto preferencial obrigatório em 47 distritos, e o Conselho Legislativo, eleito por voto único transferível em uma circunscrição estadual única de 11 cadeiras por pleito. Inclui ainda as declarações de financiamento de campanha apresentadas à ECSA desde 2015, no nível da declaração e não da doação individual. Sobre a licença: a página de direitos autorais da ECSA licencia o conteúdo de ecsa.sa.gov.au sob a Creative Commons Australia Attribution 3.0 Licence, com atribuição a 'Government of South Australia 2011', mas essa concessão não alcança o servidor da API de resultados, que não publica declaração de licença alguma, e os portais de declarações de financiamento reservam todos os direitos; os dados são publicados aqui como registro público factual de resultados eleitorais declarados.",
+    "organizations": [
+      "Comissão Eleitoral da Austrália Meridional"
+    ],
+    "tags": [
+      "financiamento de campanha",
+      "candidatura",
+      "doação",
+      "eleições",
+      "sistema eleitoral",
+      "partido político",
+      "preferências",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  }
+]

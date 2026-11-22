@@ -1,0 +1,20 @@
+{
+  "row_count": 2,
+  "rows": [
+    {
+      "segmento": "Outras festividades e eventos",
+      "quantidade_contratacoes": 1,
+      "total_homologado_segmento": 0.0,
+      "total_homologado_geral": 0.0,
+      "quantidade_total": 6
+    },
+    {
+      "segmento": "Festividades específicas",
+      "quantidade_contratacoes": 5,
+      "total_homologado_segmento": 0.0,
+      "total_homologado_geral": 0.0,
+      "quantidade_total": 6
+    }
+  ],
+  "query_ref": "qr_4c390c4f65a74966a42d87cd2122dcab"
+}

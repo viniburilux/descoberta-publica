@@ -1,0 +1,63 @@
+{
+  "row_count": 6,
+  "rows": [
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_referencia_bacen": "515502340",
+      "embargos": 2,
+      "primeiro_embargo": "2018-04-06",
+      "ultimo_embargo": "2018-07-26",
+      "ids_embargos": [
+        "1673369",
+        "1678140"
+      ]
+    },
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_referencia_bacen": "517214277",
+      "embargos": 0,
+      "primeiro_embargo": null,
+      "ultimo_embargo": null,
+      "ids_embargos": []
+    },
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_referencia_bacen": "516069932",
+      "embargos": 0,
+      "primeiro_embargo": null,
+      "ultimo_embargo": null,
+      "ids_embargos": []
+    },
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_referencia_bacen": "516254325",
+      "embargos": 0,
+      "primeiro_embargo": null,
+      "ultimo_embargo": null,
+      "ids_embargos": []
+    },
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_referencia_bacen": "517034899",
+      "embargos": 0,
+      "primeiro_embargo": null,
+      "ultimo_embargo": null,
+      "ids_embargos": []
+    },
+    {
+      "documento": "[CPF_OCULTADO]",
+      "tipo_documento": "CPF",
+      "id_referencia_bacen": "517010398",
+      "embargos": 0,
+      "primeiro_embargo": null,
+      "ultimo_embargo": null,
+      "ids_embargos": []
+    }
+  ],
+  "query_ref": "qr_984b9dae61f54127a5c9fd074a2e92b8"
+}

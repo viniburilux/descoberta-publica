@@ -1,0 +1,14 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "imoveis": 5250,
+      "operacoes_distintas": 8148,
+      "credito_alocado": 662625964.9493903,
+      "area_financiada": 118696.5663290043,
+      "area_car": 1531.0497000000007,
+      "razao_agregada": 77.52626601801643
+    }
+  ],
+  "query_ref": "qr_5b623a40a0714e808dac7ca965721417"
+}

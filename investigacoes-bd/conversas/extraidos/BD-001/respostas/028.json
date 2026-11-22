@@ -1,0 +1,77 @@
+{
+  "row_count": 20,
+  "rows": [
+    {
+      "municipio": "Mata de São João",
+      "quantidade": 855,
+      "qtd_homologado": 402,
+      "valor_homologado": 427288501.42,
+      "valor_estimado": 851564510.8699999
+    },
+    {
+      "municipio": "Porto Seguro",
+      "quantidade": 765,
+      "qtd_homologado": 756,
+      "valor_homologado": 55695936.75,
+      "valor_estimado": 65754997.31999999
+    },
+    {
+      "municipio": "Feira de Santana",
+      "quantidade": 690,
+      "qtd_homologado": 669,
+      "valor_homologado": 44396794.14,
+      "valor_estimado": 73261715.96
+    },
+    {
+      "municipio": "Salvador",
+      "quantidade": 683,
+      "qtd_homologado": 481,
+      "valor_homologado": 205817113.7699999,
+      "valor_estimado": 454397310.8800001
+    },
+    {
+      "municipio": "Cachoeira",
+      "quantidade": 456,
+      "qtd_homologado": 455,
+      "valor_homologado": 20886137.0,
+      "valor_estimado": 28741238.0
+    },
+    {
+      "municipio": "Caetité",
+      "quantidade": 339,
+      "qtd_homologado": 331,
+      "valor_homologado": 13907581.4,
+      "valor_estimado": 20521098.06
+    },
+    {
+      "municipio": "Amargosa",
+      "quantidade": 339,
+      "qtd_homologado": 238,
+      "valor_homologado": 16729172.740000002,
+      "valor_estimado": 23583501.88
+    },
+    {
+      "municipio": "Irecê",
+      "quantidade": 304,
+      "qtd_homologado": 7,
+      "valor_homologado": 5746428.1,
+      "valor_estimado": 46301469.1
+    },
+    {
+      "municipio": "Conceição do Coité",
+      "quantidade": 290,
+      "qtd_homologado": 210,
+      "valor_homologado": 18662044.14,
+      "valor_estimado": 30796323.230000004
+    },
+    {
+      "municipio": "Pojuca",
+      "quantidade": 232,
+      "qtd_homologado": 8,
+      "valor_homologado": 2847127.17,
+      "valor_estimado": 21647014.929999996
+    },
+    "... (10 more items)"
+  ],
+  "query_ref": "qr_877421e79328445c979d6b973275ea5e"
+}

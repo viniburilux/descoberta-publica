@@ -12,13 +12,19 @@ Experiência T7 → par A/B 1 → erro de snapshot → refinamento do registro �
 
 ## A. Material bruto recuperado
 
-Código, consultas, contagens, documentos e resultados originais no pacote abaixo. Os dois exports de conversa do pacote de reconciliação somam 14 mensagens; a recuperação das sessões completas está em andamento.
+- [ab-baseline: JSON de 4 mensagens](../conversas/ab-baseline_e6d448ba-eceb-4c09-9705-dad568afe806.json) · [leitura cronológica](../conversas/extraidos/ab-baseline/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/ab-baseline/)
+- [ab-experiencia: JSON de 2 mensagens](../conversas/ab-experiencia_de090efe-9af0-4778-8556-a3c3eb6ef6ba.json) · [leitura cronológica](../conversas/extraidos/ab-experiencia/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/ab-experiencia/)
+- [ab2-reparo: JSON de 2 mensagens](../conversas/ab2-reparo_b41bd441-96c3-4170-b92c-a28e3fd6c569.json) · [leitura cronológica](../conversas/extraidos/ab2-reparo/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/ab2-reparo/)
 
 ## B. Consultas e código
 
-[Código Python](../originais/bd_reconciliation/source/) · [SQLs originais](../originais/bd_reconciliation/outputs/sql/) · [Guia de reprodução](../REPRODUZIR.md).
+15 consultas SQL extraídas das conversas. Chamadas e respostas originais, com identificadores e argumentos, estão nas pastas ligadas acima. Os SQLs estão separados em `sql/` dentro de cada pasta.
+
+[Código da reconciliação](../originais/bd_reconciliation/source/) · [21 SQLs parametrizados](../originais/bd_reconciliation/outputs/sql/) · [Reprodução local](../REPRODUZIR.md).
 
 ## C. Resultados e arquivos
+
+12 tabelas CSV das linhas registradas nas respostas do chatbot; respostas completas e índices com a consulta e a mensagem de origem.
 
 - [Desenho A/B](../originais/bd_reconciliation/docs/experimento_ab_desenho.md)
 - [Resultado par 1](../originais/bd_reconciliation/docs/ab_resultado_par1.md)
@@ -37,9 +43,10 @@ Paper ou artigo de método com desenho A/B, registro de erro e reparo.
 
 ## F. Pendências e próximo passo
 
+Os exports nativos apenas referenciados em `downloads-referenciados.json` ainda não foram baixados neste lote. As respostas e linhas registradas já estão nos arquivos extraídos.
+
 Executar um novo par A/B em outra família de relacionamento e guardar contexto inicial, SQL, resultados e contagem de chamadas.
 
-Pendente: integrar a conversa completa com suas perguntas, respostas e chamadas originais.
 
 ## G. Pacote de trabalho
 

@@ -1,0 +1,79 @@
+{
+  "id": "a742f6e9-7d04-4b91-88d7-fa6cc17914a3",
+  "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+  "gcp_id": "basedosdados.br_tse_eleicoes.perfil_eleitorado_local_votacao",
+  "name": "Perfil do Eleitorado por Local de Votação",
+  "description": "Perfil eleitorado a nível de local de votação.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "bairro",
+      "type": "STRING",
+      "description": "Bairro",
+      "needs_decoding": false
+    },
+    {
+      "name": "cep",
+      "type": "STRING",
+      "description": "CEP",
+      "needs_decoding": false
+    },
+    {
+      "name": "eleitores_secao",
+      "type": "INT64",
+      "description": "Quantidade de eleitores na seção",
+      "needs_decoding": false
+    },
+    {
+      "name": "endereco",
+      "type": "STRING",
+      "description": "Endereço",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio_tse",
+      "type": "STRING",
+      "description": "ID Município - TSE",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "latitude",
+      "type": "FLOAT64",
+      "description": "Latitude",
+      "needs_decoding": false
+    },
+    {
+      "name": "longitude",
+      "type": "FLOAT64",
+      "description": "Longitude",
+      "needs_decoding": false
+    },
+    {
+      "name": "nome",
+      "type": "STRING",
+      "description": "Nome",
+      "needs_decoding": false
+    },
+    "... (13 more items)"
+  ],
+  "partitioned_by": [
+    "ano",
+    "sigla_uf"
+  ],
+  "period_start": "2010",
+  "period_end": "2026"
+}

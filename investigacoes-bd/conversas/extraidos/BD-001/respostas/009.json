@@ -1,0 +1,26 @@
+{
+  "row_count": 5,
+  "rows": [
+    {
+      "modalidade": "Dispensa",
+      "quantidade": 88
+    },
+    {
+      "modalidade": "Pregão - Eletrônico",
+      "quantidade": 54
+    },
+    {
+      "modalidade": "Inexigibilidade",
+      "quantidade": 21
+    },
+    {
+      "modalidade": "Credenciamento",
+      "quantidade": 20
+    },
+    {
+      "modalidade": "Concorrência - Eletrônica",
+      "quantidade": 11
+    }
+  ],
+  "query_ref": "qr_b288a408f14f44fcab1dae689fb4e13e"
+}

@@ -1,0 +1,77 @@
+{
+  "row_count": 40,
+  "rows": [
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "embargo",
+      "valor": "2004",
+      "id_exemplo": "1012341",
+      "detalhe": "526385"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "embargo",
+      "valor": "2011",
+      "id_exemplo": "1058830",
+      "detalhe": "1720153"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "embargo",
+      "valor": "2002",
+      "id_exemplo": "1080408",
+      "detalhe": "1724093"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "embargo",
+      "valor": "2003",
+      "id_exemplo": "1120880",
+      "detalhe": "560743"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "embargo",
+      "valor": "2004",
+      "id_exemplo": "1140662",
+      "detalhe": "734267"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "embargo",
+      "valor": "2011",
+      "id_exemplo": "1143206",
+      "detalhe": "1228496"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "embargo",
+      "valor": "2005",
+      "id_exemplo": "1150",
+      "detalhe": "1022"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "embargo",
+      "valor": "2005",
+      "id_exemplo": "1156",
+      "detalhe": "1026"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "embargo",
+      "valor": "2005",
+      "id_exemplo": "1158",
+      "detalhe": "1028"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "embargo",
+      "valor": "2005",
+      "id_exemplo": "1159",
+      "detalhe": "1029"
+    },
+    "... (30 more items)"
+  ],
+  "query_ref": "qr_85897d4b62624895af5f14125ebe94bd"
+}

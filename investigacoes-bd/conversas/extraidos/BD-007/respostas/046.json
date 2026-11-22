@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Column name documento is ambiguous at [23:17]\n\nLocation: None\nJob ID: a84d0189-30fc-4c79-bf41-2f621eb5fe4e\n"
+}

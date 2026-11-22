@@ -1,0 +1,50 @@
+{
+  "row_count": 4,
+  "rows": [
+    {
+      "segmento": "Festividades específicas",
+      "quantidade_contratacoes": 3734,
+      "quantidade_com_valor_homologado": 1558,
+      "total_homologado_segmento": 167989596.61,
+      "total_estimado_segmento": 450138785.66,
+      "quantidade_total": 6079,
+      "quantidade_total_com_valor_homologado": 2763,
+      "total_homologado_geral": 256037384.56,
+      "total_estimado_geral": 689127797.05
+    },
+    {
+      "segmento": "Artistas, bandas e atrações musicais",
+      "quantidade_contratacoes": 2043,
+      "quantidade_com_valor_homologado": 1014,
+      "total_homologado_segmento": 67407974.50999999,
+      "total_estimado_segmento": 186047488.23999998,
+      "quantidade_total": 6079,
+      "quantidade_total_com_valor_homologado": 2763,
+      "total_homologado_geral": 256037384.56,
+      "total_estimado_geral": 689127797.05
+    },
+    {
+      "segmento": "Estrutura e apoio a eventos",
+      "quantidade_contratacoes": 61,
+      "quantidade_com_valor_homologado": 26,
+      "total_homologado_segmento": 7355917.87,
+      "total_estimado_segmento": 27079777.700000003,
+      "quantidade_total": 6079,
+      "quantidade_total_com_valor_homologado": 2763,
+      "total_homologado_geral": 256037384.56,
+      "total_estimado_geral": 689127797.05
+    },
+    {
+      "segmento": "Shows e eventos",
+      "quantidade_contratacoes": 241,
+      "quantidade_com_valor_homologado": 165,
+      "total_homologado_segmento": 13283895.57,
+      "total_estimado_segmento": 25861745.45,
+      "quantidade_total": 6079,
+      "quantidade_total_com_valor_homologado": 2763,
+      "total_homologado_geral": 256037384.56,
+      "total_estimado_geral": 689127797.05
+    }
+  ],
+  "query_ref": "qr_ad5074eadebf41168c132d67667dd4bb"
+}

@@ -1,0 +1,18 @@
+{
+  "row_count": 2,
+  "rows": [
+    {
+      "lado": "left",
+      "registros": 6536,
+      "chaves_distintas": 6536,
+      "chaves_repetidas": 0
+    },
+    {
+      "lado": "right",
+      "registros": 77405,
+      "chaves_distintas": 6474,
+      "chaves_repetidas": 70931
+    }
+  ],
+  "query_ref": "qr_a465abf248214f4483fe9613ac8a234f"
+}

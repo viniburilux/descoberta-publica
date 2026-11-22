@@ -1,0 +1,30 @@
+{
+  "row_count": 4,
+  "rows": [
+    {
+      "ano": 2021,
+      "registros_contrato": 5308,
+      "contratos_com_valor": 5308,
+      "soma_valor_global": 297084747.3072
+    },
+    {
+      "ano": 2022,
+      "registros_contrato": 40645,
+      "contratos_com_valor": 40645,
+      "soma_valor_global": 171253503173.38928
+    },
+    {
+      "ano": 2025,
+      "registros_contrato": 2023342,
+      "contratos_com_valor": 2023342,
+      "soma_valor_global": 18254491330639.99
+    },
+    {
+      "ano": 2026,
+      "registros_contrato": 1523580,
+      "contratos_com_valor": 1523580,
+      "soma_valor_global": 20127363713192.816
+    }
+  ],
+  "query_ref": "qr_abecf8aefb084a9d8f60afcc8a16c58d"
+}

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "f51134c2-5ab9-4bbc-882f-f1034603147a",
+    "name": "Sistema de Informação de Agravos de Notificação (SINAN)",
+    "description": "O Sistema de Informação de Agravos de Notificação (SINAN) tem como objetivo coletar, transmitir e disseminar dados gerados rotineiramente pelo Sistema de Vigilância Epidemiológica das três esferas de governo, através de uma rede informatizada, para apoiar o processo de investigação e dar subsídios à análise das informações de vigilância epidemiológica das doenças e agravos de notificação compulsória.\r\n\r\nO sistema foi desenvolvido pelo Departamento de Informática do SUS (DATASUS) para ser operacionalizado da Unidade de Saúde até a Secretaria Estadual de Saúde, porém caso o município não disponha de microcomputadores nas suas unidades, o mesmo pode ser operacionalizado a partir das Secretarias Municipais de Saúde (SMS), das Regionais de Saúde e da Secretaria Estadual de Saúde. O sistema é alimentado semanalmente em 52 semanas, de acordo com o calendário epidemiológico do ano. Em consequência, quando não houver a ocorrência de algum caso de doença ou agravo de notificação compulsória em alguma unidade de saúde, a SMS deve fazer uma notificação negativa para cada unidade nessa situação.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "óbito",
+      "doença",
+      "epidemiologia",
+      "mortalidade",
+      "acidente de trabalho"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+    "name": "Cadastro Nacional de Estabelecimentos de Saúde (CNES)",
+    "description": "O Cadastro Nacional de Estabelecimentos de Saúde (CNES) é um documento público e sistema de informação oficial de cadastramento de informações acerca de todos os estabelecimentos de saúde do país, independentemente de sua natureza jurídica ou integração com o Sistema Único de Saúde (SUS). Os dados se referem à capacidade instalada e mão-de-obra assistencial de saúde no Brasil em estabelecimentos de saúde públicos ou privados. O CNES é a base cadastral para operacionalização de diversos sistemas, tais como: Sistema de Informação Ambulatorial (SIA), Sistema de Informação Hospitalar (SIH), e- SUS Atenção Básica (e-SUS AB), entre outros. Atualmente, o CNES é a ferramenta auxiliadora para uma gestão eficaz e eficiente, proporcionando ao gestor o conhecimento da realidade da rede assistencial existente e suas potencialidades e, auxiliando no planejamento em saúde em todas as esferas administrativa do Governo.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "datasus",
+      "diretório",
+      "hospital",
+      "leito hospitalar"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "48ccef51-8207-40ee-af5b-134c8ac3fb8c",
+    "name": "Nascidos Vivos (SINASC)",
+    "description": "Os dados disponíveis são oriundos do Sistema de Informações sobre Nascidos Vivos (SINASC)  elaborado pelo Departamento de Informática do SUS (DATASUS). O SINASC é gerido pelo Departamento de Análise de Situação de Saúde, da Secretaria de Vigilância em Saúde, em conjunto com as Secretarias Estaduais e Municipais de Saúde.\r\n\r\nAs Secretarias de Saúde coletam as Declarações de Nascidos Vivos (DN) nos estabelecimentos de saúde e nos cartórios (para partos domiciliares) e entram, no SINASC, as informações nelas contidas.\r\n\r\nDe uma maneira geral, as Secretarias Estaduais de Saúde enviam a sua Base de Dados para o Ministério da Saúde, quando consideram a coleta completa. O MS só pode considerar a Base Nacional completa quando todas as UF enviaram seus dados. A partir daí, é feita a consolidação, inclusive com a redistribuição dos dados pelo local de residência, a qual é a forma tradicional de apresentar os dados de Nascidos Vivos. Eventualmente, são feitas algumas correções nas informações.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "adolescente",
+      "nascimento",
+      "exame",
+      "fertilidade",
+      "gravidez",
+      "pré-natal"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "5beeec93-cbf3-43f6-9eea-9bee6a0d1683",
+    "name": "Sistema de Informações sobre Mortalidade (SIM)",
+    "description": "O Sistema de Informações sobre Mortalidade (SIM) foi criado pelo DATASUS para a obtenção regular de dados sobre mortalidade no país. A partir da criação do SIM foi possível a captação de dados sobre mortalidade, de forma abrangente, para subsidiar as diversas esferas de gestão na saúde pública. Com base nessas informações é possível realizar análises de situação, planejamento e avaliação das ações e programas na área.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "mortalidade"
+    ],
+    "themes": [
+      "Saúde",
+      "População"
+    ]
+  },
+  {
+    "id": "22d1f0d6-9bbc-4653-a841-7734867d2319",
+    "name": "Sistema de Informações Ambulatoriais (SIA)",
+    "description": "O Sistema de Informação Ambulatorial (SIA) faz parte do DATASUS e foi implantado nacionalmente na década de noventa com a finalidade de registrar os atendimentos/procedimentos/tratamentos realizados em cada estabelecimento de saúde no âmbito ambulatorial, por meio do Boletim de Produção Ambulatorial (BPA).\r\n\r\n Ao longo dos anos, o SIA vem sendo aprimorado para ser efetivamente um sistema que gere informações referentes ao atendimento ambulatorial e que possa subsidiar os gestores estaduais e municipais no monitoramento dos processos de planejamento, programação, regulação, avaliação e controle dos serviços de saúde na área ambulatorial.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "saúde",
+      "plano de saúde",
+      "saúde mental",
+      "avaliação de políticas públicas",
+      "política pública",
+      "sus"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "5020ca16-6df4-43bd-8717-eab37ef84c30",
+    "name": "Campanha Nacional de Vacinação contra Covid-19",
+    "description": "Dados de vacinação contra a Covid-19 no Brasil.\r\n\r\nFonte original: https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "coronavírus",
+      "COVID19",
+      "COVID-19",
+      "pandemia",
+      "vacina"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "20142838-b5a5-42f8-91cf-248be26590b8",
+    "name": "Crop and Livestock Production",
+    "description": "These datasets are originally elaborated by the Food and Agriculture Organization of the United Nations (FAO), and are freely accessible on FAOSTAT portal. Here you can find Crop and Livestock data for more than 245 countries and territories, regarding 278 products from 1961 until 2021.",
+    "organizations": [
+      "Food and Agriculture Organization (FAO)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "alimentação",
+      "produção"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "d4bc397b-926f-471f-b336-b4d3b33e2488",
+    "name": "Supply Chain",
+    "description": "Trase is at the forefront of a data-driven revolution in supply chain sustainability, drawing on vast sets of production, trade and customs data, for the first time laying bare the flows of globally traded commodities at scales that are directly relevant to decision-making. Its pioneering approach to data analysis and visualization provides full coverage of the export routes and buyers responsible for all production and trade, and the associated sustainability risks, of a given commodity.\r\n\r\nThe supply chain mapping at the core of Trase balances scale and data resolution. It builds on an enhanced form of material flow analysis called Spatially Explicit Information on Production to Consumption Systems (SEI-PCS) originally developed by Godar et al. 2015. \r\n\r\nIt systematically links individual supply chain actors to specific, subnational production regions, and the sustainability risks and investment opportunities associated with those regions. It identifies the individual companies that export, ship and import a given traded commodity  and\r\nIt covers all of the exports of a given commodity from a given country of production.",
+    "organizations": [
+      "Transparent Supply Chains for Sustainable Economies (TRASE)"
+    ],
+    "tags": [
+      "agropecuária",
+      "firma",
+      "desmatamento",
+      "exportação",
+      "empresa",
+      "importação",
+      "pecuária",
+      "comércio"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia",
+      "Infraestrutura e Transportes"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "4aa6290b-b35b-43bf-9a11-348aed4a5716",
+    "name": "Dados Econômicos do Federal Reserve de St. Louis (FRED)",
+    "description": "Séries temporais econômicas dos Estados Unidos publicadas pelo FRED, do Federal Reserve de St. Louis. O conjunto cobre o subconjunto de livre redistribuição, originado em agências públicas federais dos EUA (Federal Reserve, BLS, BEA, Census, Tesouro e OMB): taxas de juros, preços, emprego, moeda e produto. Inclui uma tabela longa de observações (série, data, valor) e um catálogo de metadados das séries.",
+    "organizations": [
+      "Federal Reserve Bank of St. Louis (FRED)"
+    ],
+    "tags": [
+      "banco central",
+      "atividade econômica",
+      "emprego",
+      "câmbio",
+      "finanças",
+      "pib",
+      "inflação",
+      "taxa de juros",
+      "política monetária",
+      "recessão"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

@@ -1,0 +1,67 @@
+{
+  "row_count": 99,
+  "rows": [
+    {
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "data_extracao": "2026-08-03",
+      "condicao": "Aguardando analise",
+      "tipo": "APP_RIO_ATE_10"
+    },
+    {
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "data_extracao": "2026-08-03",
+      "condicao": "Aguardando analise",
+      "tipo": "APP_NASCENTE_OLHO_DAGUA"
+    },
+    {
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "data_extracao": "2026-08-03",
+      "condicao": "Aguardando analise",
+      "tipo": "APP_AREA_VN"
+    },
+    {
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "data_extracao": "2026-08-03",
+      "condicao": "Aguardando analise",
+      "tipo": "APP_RIO_ATE_10"
+    },
+    {
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "data_extracao": "2026-08-03",
+      "condicao": "Aguardando analise",
+      "tipo": "APP_NASCENTE_OLHO_DAGUA"
+    },
+    {
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "data_extracao": "2026-08-03",
+      "condicao": "Aguardando analise",
+      "tipo": "APP_RIO_ATE_10"
+    },
+    {
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "data_extracao": "2026-08-03",
+      "condicao": "Aguardando analise",
+      "tipo": "APP_NASCENTE_OLHO_DAGUA"
+    },
+    {
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "data_extracao": "2026-08-03",
+      "condicao": "Aguardando analise",
+      "tipo": "APP_RIO_ATE_10"
+    },
+    {
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "data_extracao": "2026-08-03",
+      "condicao": "Aguardando analise",
+      "tipo": "APP_NASCENTE_OLHO_DAGUA"
+    },
+    {
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "data_extracao": "2026-08-03",
+      "condicao": "Aguardando analise",
+      "tipo": "APP_NASCENTE_OLHO_DAGUA"
+    },
+    "... (89 more items)"
+  ],
+  "query_ref": "qr_e1ec5fdf95464e97b7b6af7cac408594"
+}

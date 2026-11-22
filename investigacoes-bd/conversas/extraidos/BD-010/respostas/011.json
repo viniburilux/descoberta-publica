@@ -1,0 +1,77 @@
+{
+  "row_count": 30,
+  "rows": [
+    {
+      "ano": 2017,
+      "bioma": "Caatinga",
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Agricultura",
+      "area_hectares": 3499.5190121643277
+    },
+    {
+      "ano": 2017,
+      "bioma": "Caatinga",
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Mosaico de Usos",
+      "area_hectares": 123.6723166137697
+    },
+    {
+      "ano": 2017,
+      "bioma": "Caatinga",
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Pastagem",
+      "area_hectares": 39793.96559074416
+    },
+    {
+      "ano": 2017,
+      "bioma": "Caatinga",
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Silvicultura",
+      "area_hectares": 40.57570297851576
+    },
+    {
+      "ano": 2017,
+      "bioma": "Caatinga",
+      "nivel_1": "Corpo d'Água",
+      "nivel_2": "Rio, Lago e Oceano",
+      "area_hectares": 306.8729386779788
+    },
+    {
+      "ano": 2017,
+      "bioma": "Caatinga",
+      "nivel_1": "Floresta",
+      "nivel_2": "Formação Florestal",
+      "area_hectares": 18967.01969730123
+    },
+    {
+      "ano": 2017,
+      "bioma": "Caatinga",
+      "nivel_1": "Floresta",
+      "nivel_2": "Formação Savânica",
+      "area_hectares": 105630.3633135973
+    },
+    {
+      "ano": 2017,
+      "bioma": "Caatinga",
+      "nivel_1": "Vegetação Herbácea e Arbustiva",
+      "nivel_2": "Afloramento Rochoso",
+      "area_hectares": 6534.698749743599
+    },
+    {
+      "ano": 2017,
+      "bioma": "Caatinga",
+      "nivel_1": "Área não Vegetada",
+      "nivel_2": "Outras Áreas não Vegetadas",
+      "area_hectares": 4.352041986083983
+    },
+    {
+      "ano": 2017,
+      "bioma": "Caatinga",
+      "nivel_1": "Área não Vegetada",
+      "nivel_2": "Área Urbanizada",
+      "area_hectares": 266.0231791198731
+    },
+    "... (20 more items)"
+  ],
+  "query_ref": "qr_4c5953b5b8184660a31eb5dc8ed2a416"
+}

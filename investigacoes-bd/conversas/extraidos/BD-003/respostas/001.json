@@ -1,0 +1,204 @@
+[
+  {
+    "id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+    "name": "Força de Trabalho (Austrália)",
+    "description": "Estatísticas da força de trabalho australiana produzidas pelo Australian Bureau of Statistics, reunindo a publicação mensal Labour Force, Australia (catálogo 6202.0) desde fevereiro de 1978 e os cubos trimestrais e mensais da publicação encerrada Labour Force, Australia, Detailed (catálogo 6291.0.55.001) desde novembro de 1984. Abrange emprego, desemprego, participação, horas trabalhadas, posição na ocupação, subutilização da força de trabalho, indústria (ANZSIC 2006), ocupação (ANZSCO 2013), tempo no trabalho atual e duração da procura por trabalho, para a Austrália e os estados e territórios.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "atividade econômica",
+      "emprego",
+      "trabalho",
+      "ocupação",
+      "pesquisa",
+      "desemprego",
+      "carga horária"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "d05765b9-6de4-4ddd-a066-011eabafcd06",
+    "name": "OpenAlex",
+    "description": "Catálogo aberto da produção científica mundial: 476 milhões de trabalhos acadêmicos (artigos, livros, teses, conjuntos de dados, preprints), 132 milhões de autores, instituições, periódicos, editoras, financiadores e financiamentos, com a rede de 2,9 bilhões de citações entre trabalhos, afiliações, tópicos, resumos e indicadores de acesso aberto. O OpenAlex é mantido pela organização sem fins lucrativos OurResearch, sucede o Microsoft Academic Graph e agrega Crossref, PubMed, DataCite, ORCID, ROR e milhares de repositórios. A Base dos Dados reconstrói todas as tabelas a cada publicação trimestral do snapshot.",
+    "organizations": [
+      "OurResearch"
+    ],
+    "tags": [
+      "academia",
+      "citação",
+      "inovação",
+      "conhecimento",
+      "acesso aberto",
+      "publicação",
+      "pesquisa",
+      "universidade"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "c747a59f-b695-4d19-82e4-fef703e74c17",
+    "name": "Pesquisa Nacional por Amostra de Domicílios - PNAD COVID19",
+    "description": "Objetiva estimar o número de pessoas com sintomas referidos associados à síndrome gripal e monitorar os impactos da pandemia da COVID-19 no mercado de trabalho brasileiro.\r\n\r\nA coleta da Pesquisa Nacional por Amostra de Domicílios - PNAD COVID19 teve início em 4 de maio de 2020, com entrevistas realizadas por telefone em, aproximadamente, 48 mil domicílios por semana, totalizando cerca de 193 mil domicílios por mês, em todo o Território Nacional. A amostra é fixa, ou seja, os domicílios entrevistados no primeiro mês de coleta de dados permanecerão na amostra nos meses subsequentes, até o fim da pesquisa.\r\n\r\nO questionário se divide em duas partes, sendo uma direcionada a questões de saúde, especificamente sobre sintomas associados à síndrome gripal e outra, a questões de trabalho. Nas questões de saúde, investiga-se a ocorrência de alguns dos principais sintomas da COVID19 no período de referência da pesquisa, considerando-se todos os moradores do domicílio. Para aqueles que apresentaram algum sintoma, perguntam-se quais as providências tomadas para alivio dos sintomas; se buscaram por atendimento médico devido a esses sintomas; e o tipo de estabelecimento de saúde procurado. Nas questões de trabalho, busca-se classificar a população em idade de trabalhar nas seguintes categorias: ocupados, desocupados e pessoas fora da força de trabalho. Investiga-se, ainda, os seguintes aspectos: ocupação e atividade; afastamento do trabalho e o motivo do afastamento; exercício de trabalho remoto; busca por trabalho; motivo por não ter procurado trabalho; horas semanais efetivamente e habitualmente trabalhadas; assim como o rendimento efetivo e habitual do trabalho. Por fim, visando compor o rendimento domiciliar, pergunta-se se algum morador recebeu outros rendimentos não oriundos do trabalho, tais como: aposentadoria, BPC-LOAS, Bolsa Família, algum auxílio emergencial relacionado à COVID, seguro desemprego, aluguel e outros. Cabe ressaltar que a PNAD COVID19 é uma pesquisa com instrumento dinâmico de coleta das informações; portanto, o questionário está sujeito a alterações ao longo do período de sua aplicação.\r\n\r\nA pesquisa prevê divulgações semanais para alguns indicadores, em nível Brasil, e divulgações mensais para um conjunto mais amplo de indicadores, por Unidades da Federação.\r\n\r\nOs resultados da PNAD COVID19 são pioneiros no sentido de constituírem a primeira divulgação de Estatísticas Experimentais elaboradas pelo IBGE, as quais estão alinhadas com a estratégia de modernização do Instituto e permitem a ampliação das ofertas de informação para atender às necessidades de seus usuários.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "coronavírus",
+      "COVID19",
+      "emprego",
+      "trabalho",
+      "trabalho remoto"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde"
+    ]
+  },
+  {
+    "id": "ade90775-fe0d-4a79-8aed-e357e0a01819",
+    "name": "Certificação de Trabalho Estrangeiro (OFLC)",
+    "description": "Dados de divulgação de casos do Office of Foreign Labor Certification (OFLC) do Departamento do Trabalho dos Estados Unidos, cobrindo todas as solicitações de certificação de trabalho estrangeiro decididas desde o ano fiscal de 2008. Há uma tabela por programa: Labor Condition Application (H-1B, H-1B1 e E-3), certificação laboral permanente PERM, e certificação temporária H-2A agrícola e H-2B não agrícola. Cada linha é um caso e traz o empregador e seu endereço, o local de trabalho principal, o cargo e o código SOC, o salário oferecido com sua unidade de pagamento, o salário prevalecente quando publicado, o período de emprego e o resultado da decisão. A coluna de partição year é o ano FISCAL federal, de 1º de outubro a 30 de setembro.",
+    "organizations": [
+      "U.S. Department of Labor"
+    ],
+    "tags": [
+      "agropecuária",
+      "certificação",
+      "emprego",
+      "empresa",
+      "H1B",
+      "trabalho",
+      "migração",
+      "ocupação",
+      "salário",
+      "visto"
+    ],
+    "themes": [
+      "Economia",
+      "População"
+    ]
+  },
+  {
+    "id": "482cb481-0a4f-4304-84eb-e9e3124bbbe3",
+    "name": "LEHD Origin-Destination Employment Statistics (LODES)",
+    "description": "Contagens de empregos por bloco censitário de 2020 nos Estados Unidos, produzidas pelo programa Longitudinal Employer-Household Dynamics (LEHD) do Census Bureau a partir de registros administrativos de seguro-desemprego e da folha de pagamento federal. Cobre 50 estados, o Distrito de Columbia e Porto Rico entre 2002 e 2023, com desagregações por idade, faixa de rendimento, setor NAICS, raça, etnia, escolaridade, sexo e características da firma, tanto pelo bloco de residência quanto pelo bloco de trabalho do trabalhador. Toda a série é enumerada na malha de blocos censitários de 2020.",
+    "organizations": [
+      "U.S. Census Bureau"
+    ],
+    "tags": [
+      "demografia",
+      "emprego",
+      "trabalho",
+      "mobilidade",
+      "salário"
+    ],
+    "themes": [
+      "Economia",
+      "População",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+    "name": "Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD-C)",
+    "description": "A Pesquisa Nacional por Amostra de Domicílios Contínua, PNAD Contínua, é uma pesquisa realizada pelo IBGE com o objetivo de produzir continuamente informações sobre mercado de trabalho, associadas a características demográficas e educacionais. Periodicamente, são analisados temas adicionais permanentes, como trabalho infantil e outras formas de trabalho, fecundidade e migração, e suplementares, selecionados segundo necessidade, relativos ao desenvolvimento socioeconômico do país.A pesquisa fornece informações mensais para um conjunto restrito de indicadores relativos à força de trabalho, trimestral para os indicadores de força de trabalho, anual para temas permanentes e adicionais sobre força e trabalho e variável para temas suplementares. As informações mensais são representativas apenas em nível nacional e as demais têm representatividade para os níveis geográficos: Brasil, Grandes Regiões, Unidades da Federação, 20 Regiões Metropolitanas que contêm Municípios das Capitais, Municípios das Capitais e Região Integrada de Desenvolvimento da Grande Teresina. A cada trimestre, são investigados cerca de 211.000 domicílios inseridos em aproximadamente 16.000 setores censitários de 3.500 municípios.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "emprego",
+      "informalidade",
+      "trabalho",
+      "ocupação"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde",
+      "População"
+    ]
+  },
+  {
+    "id": "562b56a3-0b01-4735-a049-eeac5681f056",
+    "name": "Cadastro Geral de Empregados e Desempregados (CAGED)",
+    "description": "O Cadastro Geral de Empregados e Desempregados – CAGED, instituído pela Lei nº 4.923, em 23 de dezembro de 1965, constitui fonte de informação de âmbito nacional e de periodicidade mensal. Foi criado como instrumento de acompanhamento e de fiscalização do processo de admissão e de dispensa de trabalhadores regidos pela CLT, com o objetivo de assistir os desempregados e de apoiar medidas contra o desemprego.\r\n\r\nO CAGED é um Registro Administrativo, e, inicialmente, objetivou gerir e controlar a concessão do auxílio-desemprego. A partir de 1986, passou a ser utilizado como suporte ao pagamento do seguro desemprego e, mais recentemente, tornou-se, também, um relevante instrumento à reciclagem profissional e à recolocação do trabalhador no mercado de trabalho e, ainda, um importante subsídio para a fiscalização.\r\n\r\nDevido à crescente demanda por dados conjunturais do mercado de trabalho e à necessidade deste Ministério em contar com estatísticas mais completas, mais consistentes e mais ágeis, foram implementadas expressivas alterações ao sistema – Lei nº 4.923/65. Como decorrência dos substanciais avanços, pôde-se construir, a partir de 1983, o índice mensal de emprego, a taxa de rotatividade e a flutuação da mão-de-obra (admitidos / desligados).\r\n\r\nOs aperfeiçoamentos ocorridos no sistema CAGED e também na metodologia de tratamento dos dados tornaram esse registro administrativo uma das principais fontes de informações estatísticas sobre o mercado de trabalho conjuntural. O CAGED apresenta desagregações idênticas às da RAIS, em termos geográficos, setoriais e ocupacionais, possibilitando a realização de estudos que indicam as tendências mais atuais. No espectro conjuntural, é a única fonte de informação com tal nível de desagregação, sendo, portanto, imprescindível para o balizamento das intervenções dos formuladores de políticas na esfera do mercado de trabalho, aumentando a eficácia e eficiência das políticas de emprego que possibilitam o aumento do número e da qualidade de postos de trabalho e, por conseguinte, a redução da desigualdade social.\r\n\r\nA qualidade das informações do CAGED vem apresentando significativa melhora. Concorreu para esse fato a implantação da Portaria nº 561/2001 que determinou a extinção da declaração do CAGED em formulário padrão a partir da competência de novembro de 2001. Esta medida teve um impacto positivo na qualidade, uma vez que as informações declaradas, em meios eletrônicos, passam por um processo de críticas. Ademais, a implantação da recepção do CAGED, via Internet, possibilitou, também, um ganho na tempestividade.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "firma",
+      "emprego",
+      "empresa",
+      "trabalho"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "e38d1ca6-5da8-4fb5-a59e-2bf7246a27ad",
+    "name": "OCDE: educação",
+    "description": "Estatísticas de educação da OCDE reunidas na coleta UOE (OCDE, Instituto de Estatística da UNESCO e Eurostat), na publicação Education at a Glance e na Pesquisa Internacional sobre Ensino e Aprendizagem (TALIS). Cobre matrículas e concluintes, pessoal docente, financiamento da educação, salários e jornada de professores, tempo de instrução e os resultados de escolaridade no mercado de trabalho, para países da OCDE e parceiros. Cada tabela é um cubo longo: uma observação por combinação de dimensões, com o código de cada dimensão resolvido na tabela dicionario.",
+    "organizations": [
+      "Organization for Economic Cooperation and Development (OECD)"
+    ],
+    "tags": [
+      "financiamento",
+      "educação superior",
+      "trabalho",
+      "salário",
+      "escolaridade",
+      "gasto",
+      "aluno",
+      "docente"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "8af7f0e9-c0a9-40ca-bd1a-9abe94c96973",
+    "name": "Emprego, Desemprego e Rotatividade do Trabalho (CES, LAUS, JOLTS)",
+    "description": "Os três principais programas de emprego do Bureau of Labor Statistics dos Estados Unidos, publicados como séries temporais mensais. O Current Employment Statistics (CES) mede emprego em folha de pagamento, horas e salários por setor de atividade, em nível nacional e por estado e área metropolitana. O Local Area Unemployment Statistics (LAUS) estima força de trabalho, emprego, desemprego e taxa de desemprego para estados, condados, áreas metropolitanas e demais áreas locais. O Job Openings and Labor Turnover Survey (JOLTS) mede vagas abertas, contratações, pedidos de demissão e dispensas. Cada tabela identifica o ajuste sazonal como dimensão e cobre de 1939 (CES), 1976 (LAUS) e 2000 (JOLTS) até o presente.",
+    "organizations": [
+      "Centro de Estatísticas Laborais (BLS) dos Estados Unidos"
+    ],
+    "tags": [
+      "demissão",
+      "atividade econômica",
+      "emprego",
+      "Estabelecimento",
+      "vagas abertas",
+      "trabalho",
+      "rotatividade do trabalho",
+      "salário",
+      "desemprego",
+      "carga horária"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "3e7c4d58-96ba-448e-b053-d385a829ef00",
+    "name": "Relação Anual de Informações Sociais (RAIS)",
+    "description": "A Relação Anual de Informações Sociais (RAIS) é um relatório de informações socioeconômicas solicitado pela Secretaria de Trabalho do Ministério da Economia brasileiro às pessoas jurídicas e outros empregadores anualmente. Foi instituída pelo Decreto nº 76.900, de 23 de dezembro de 1975.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "emprego",
+      "trabalho"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

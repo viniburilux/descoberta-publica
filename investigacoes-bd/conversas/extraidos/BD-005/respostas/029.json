@@ -1,0 +1,76 @@
+{
+  "id": "823f0540-0034-40cc-aa68-bfe077e82cd2",
+  "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+  "gcp_id": "basedosdados.br_tse_eleicoes.candidatos",
+  "name": "Candidatos",
+  "description": "Dados de candidatos em eleições brasileiras.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "cargo",
+      "type": "STRING",
+      "description": "Cargo",
+      "needs_decoding": false
+    },
+    {
+      "name": "cpf",
+      "type": "STRING",
+      "description": "CPF",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_eleicao",
+      "type": "DATE",
+      "description": "Data da eleição",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_nascimento",
+      "type": "DATE",
+      "description": "Data de nascimento",
+      "needs_decoding": false
+    },
+    {
+      "name": "email",
+      "type": "STRING",
+      "description": "Email",
+      "needs_decoding": false
+    },
+    {
+      "name": "estado_civil",
+      "type": "STRING",
+      "description": "Estado civil",
+      "needs_decoding": false
+    },
+    {
+      "name": "genero",
+      "type": "STRING",
+      "description": "Gênero",
+      "needs_decoding": false
+    },
+    {
+      "name": "idade",
+      "type": "INT64",
+      "description": "Idade",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_eleicao",
+      "type": "STRING",
+      "description": "ID Eleição",
+      "needs_decoding": false
+    },
+    "... (18 more items)"
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "1994",
+  "period_end": "2026"
+}

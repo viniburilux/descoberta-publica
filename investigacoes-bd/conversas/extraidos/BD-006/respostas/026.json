@@ -1,0 +1,32 @@
+{
+  "id": "b39609b4-ffb2-4b4f-a182-47b0d160037b",
+  "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+  "gcp_id": "basedosdados.br_geobr_mapas.municipio",
+  "name": "Município",
+  "description": "O geobr é um pacote R e Python que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples,... (61 more characters)",
+  "columns": [
+    {
+      "name": "geometria",
+      "type": "GEOGRAPHY",
+      "description": "Multipoligono",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município IBGE - 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da Unidade de Federação",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": "2020",
+  "period_end": "2020"
+}

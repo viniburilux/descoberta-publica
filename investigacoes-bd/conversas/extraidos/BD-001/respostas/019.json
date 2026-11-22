@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Column 3 in UNION ALL has incompatible types: INT64, INT64, STRING, STRING, STRING at [68:11]\n\nLocation: None\nJob ID: 72eba9b8-0c54-4f98-acf5-a5cc81e5fc0d\n"
+}

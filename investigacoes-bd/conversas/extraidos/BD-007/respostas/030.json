@@ -1,0 +1,226 @@
+[
+  {
+    "id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15",
+    "name": "Fiscalização Ambiental",
+    "description": "Registros de fiscalização ambiental do Ibama: autos de infração lavrados desde 1977 e termos de embargo desde 1987, com o enquadramento, o valor da multa, a situação do débito, a área embargada e a localização declarada. Os dados são publicados diariamente no portal de dados abertos do Ibama e reproduzem os sistemas Sifisc e Sicafi.",
+    "organizations": [
+      "Ibama"
+    ],
+    "tags": [
+      "desmatamento",
+      "embargo",
+      "fauna",
+      "multa",
+      "flora",
+      "infração",
+      "fiscalização",
+      "sanção"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "b0ab31f7-d5b0-43f3-a599-502601d9b206",
+    "name": "Fiscalização da OSHA",
+    "description": "Registro completo da fiscalização de segurança e saúde no trabalho nos Estados Unidos, desde 1972: cada inspeção realizada pela OSHA ou por um plano estadual, as violações citadas, as multas propostas e revisadas, e os acidentes e lesões investigados. Onze tabelas ligadas pelo número da inspeção (activity number). A multa corrente é um valor móvel: é contestada e revisada por anos após a citação e só se estabiliza quando o caso é encerrado — o histórico completo está em violation_event. Fonte: Catálogo de Dados de Fiscalização do Departamento do Trabalho dos Estados Unidos.",
+    "organizations": [
+      "Administração de Segurança e Saúde Ocupacional (OSHA)"
+    ],
+    "tags": [
+      "óbito",
+      "multa",
+      "empresa",
+      "saúde",
+      "trabalho",
+      "fiscalização",
+      "regulação",
+      "risco",
+      "segurança",
+      "acidente de trabalho"
+    ],
+    "themes": [
+      "Economia",
+      "Justiça",
+      "Segurança, Crime, Violência, e Conflito"
+    ]
+  },
+  {
+    "id": "562b56a3-0b01-4735-a049-eeac5681f056",
+    "name": "Cadastro Geral de Empregados e Desempregados (CAGED)",
+    "description": "O Cadastro Geral de Empregados e Desempregados – CAGED, instituído pela Lei nº 4.923, em 23 de dezembro de 1965, constitui fonte de informação de âmbito nacional e de periodicidade mensal. Foi criado como instrumento de acompanhamento e de fiscalização do processo de admissão e de dispensa de trabalhadores regidos pela CLT, com o objetivo de assistir os desempregados e de apoiar medidas contra o desemprego.\r\n\r\nO CAGED é um Registro Administrativo, e, inicialmente, objetivou gerir e controlar a concessão do auxílio-desemprego. A partir de 1986, passou a ser utilizado como suporte ao pagamento do seguro desemprego e, mais recentemente, tornou-se, também, um relevante instrumento à reciclagem profissional e à recolocação do trabalhador no mercado de trabalho e, ainda, um importante subsídio para a fiscalização.\r\n\r\nDevido à crescente demanda por dados conjunturais do mercado de trabalho e à necessidade deste Ministério em contar com estatísticas mais completas, mais consistentes e mais ágeis, foram implementadas expressivas alterações ao sistema – Lei nº 4.923/65. Como decorrência dos substanciais avanços, pôde-se construir, a partir de 1983, o índice mensal de emprego, a taxa de rotatividade e a flutuação da mão-de-obra (admitidos / desligados).\r\n\r\nOs aperfeiçoamentos ocorridos no sistema CAGED e também na metodologia de tratamento dos dados tornaram esse registro administrativo uma das principais fontes de informações estatísticas sobre o mercado de trabalho conjuntural. O CAGED apresenta desagregações idênticas às da RAIS, em termos geográficos, setoriais e ocupacionais, possibilitando a realização de estudos que indicam as tendências mais atuais. No espectro conjuntural, é a única fonte de informação com tal nível de desagregação, sendo, portanto, imprescindível para o balizamento das intervenções dos formuladores de políticas na esfera do mercado de trabalho, aumentando a eficácia e eficiência das políticas de emprego que possibilitam o aumento do número e da qualidade de postos de trabalho e, por conseguinte, a redução da desigualdade social.\r\n\r\nA qualidade das informações do CAGED vem apresentando significativa melhora. Concorreu para esse fato a implantação da Portaria nº 561/2001 que determinou a extinção da declaração do CAGED em formulário padrão a partir da competência de novembro de 2001. Esta medida teve um impacto positivo na qualidade, uma vez que as informações declaradas, em meios eletrônicos, passam por um processo de críticas. Ademais, a implantação da recepção do CAGED, via Internet, possibilitou, também, um ganho na tempestividade.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "firma",
+      "emprego",
+      "empresa",
+      "trabalho"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "58b92117-9974-4b4e-9cdb-48bc4458ccad",
+    "name": "Inventário Nacional de Gases de Efeito Estufa (Austrália)",
+    "description": "Inventário Nacional de Gases de Efeito Estufa da Austrália, das Contas Nacionais de Gases de Efeito Estufa do Departamento de Mudança Climática, Energia, Meio Ambiente e Água (DCCEEW). Emissões por ano fiscal, jurisdição (Austrália e cada estado e território), setor e gás na base contábil UNFCCC/Paris (GWP AR5 de 100 anos), em gigagramas, desde 1989-90. Três tabelas trazem o mesmo inventário sob a hierarquia de categorias da UNFCCC, a classificação por setor econômico ANZSIC e as emissões de Escopo 2 (eletricidade indireta). As projeções anuais de emissões serão adicionadas posteriormente.",
+    "organizations": [
+      "Departamento de Mudança Climática, Energia, Meio Ambiente e Água (DCCEEW)"
+    ],
+    "tags": [
+      "carbono",
+      "clima",
+      "emissões",
+      "gases de efeito estufa"
+    ],
+    "themes": [
+      "Energia",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "aa3ab348-3184-4baa-a0f9-e90465854e0e",
+    "name": "Índice de Efetividade da Gestão Municipal (IEGM)",
+    "description": null,
+    "organizations": [
+      "Tribunal de Contas do Estado do Rio de Janeiro (TCE-RJ)"
+    ],
+    "tags": [
+      "gestão",
+      "município"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+    "name": "Cadastros de Sanções da CGU",
+    "description": "Cadastros de sanções administrativas mantidos pela Controladoria-Geral da União (CGU) e publicados no Portal da Transparência, reunindo empresas e pessoas inidôneas, suspensas ou punidas (CEIS e CNEP), entidades privadas sem fins lucrativos impedidas (CEPIM) e acordos de leniência. Cada tabela é um retrato (snapshot) datado do respectivo cadastro, particionado pela data de extração.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "cnpj",
+      "companhia",
+      "corrupção",
+      "devedor",
+      "federal",
+      "multa",
+      "integridade",
+      "fiscalização",
+      "administração pública",
+      "licitação",
+      "sanção",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Justiça"
+    ]
+  },
+  {
+    "id": "445f17b5-e781-4ee1-8bcf-f6ef3996724b",
+    "name": "Relatórios de Custos de Hospitais (HCRIS)",
+    "description": "Relatórios anuais de custos do Medicare apresentados por todos os hospitais certificados pelo Medicare nos Estados Unidos, do exercício fiscal de 1996 em diante, extraídos do Healthcare Cost Report Information System (HCRIS) da CMS. Cada relatório declara receitas, despesas, cobranças, leitos, altas, atendimento filantrópico e não remunerado e o balanço patrimonial da instituição. O conjunto é publicado em duas camadas: a forma bruta do formulário, em que cada célula declarada é uma linha, e uma camada tratada com as medidas nomeadas de uso corrente, cada uma rastreável até a planilha, linha e coluna de origem.",
+    "organizations": [
+      "Centers for Medicare & Medicaid Services (CMS)"
+    ],
+    "tags": [
+      "contabilidade",
+      "balanço patrimonial",
+      "demonstração financeira",
+      "Estabelecimentos de saúde",
+      "hospital",
+      "medicare",
+      "atendimento não remunerado"
+    ],
+    "themes": [
+      "Economia",
+      "Saúde"
+    ]
+  },
+  {
+    "id": "f7df4160-7a6f-4658-a287-3a73d412ed10",
+    "name": "Pesquisa Pecuária Municipal (PPM)",
+    "description": "A Pesquisa da Pecuária Municipal fornece informações sobre os efetivos da pecuária existentes no município na data de referência do levantamento, bem como a produção de origem animal, e o valor da produção durante o ano de referência. Os efetivos incluem bovinos, suínos, matrizes de suínos, galináceos, galinhas, codornas, equinos, bubalinos, caprinos e ovinos. A produção de origem animal, por sua vez, contempla a produção de leite, ovos de galinha, ovos de codorna, mel, lã bruta e casulos do bicho-da-seda; as quantidades de vacas ordenhadas e ovinos tosquiados; e a aquicultura, que engloba as produções da piscicultura, carcinocultura e malacocultura.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "animal",
+      "produção aquicultura",
+      "desmatamento",
+      "gestão ambiental",
+      "fazenda",
+      "peixe",
+      "alimento",
+      "alimentação",
+      "ovos de galinha",
+      "rebanho",
+      "rebanhos",
+      "mel de abelha",
+      "uso da terra",
+      "larvas",
+      "vacas ordenhadas",
+      "produção",
+      "propriedade",
+      "proteína",
+      "imóvel",
+      "camarão",
+      "solo",
+      "sustentabilidade"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia"
+    ]
+  },
+  {
+    "id": "56ecd090-1392-474b-a99f-5bcd53450e01",
+    "name": "Dados Abertos Administrativos do Senado Federal",
+    "description": "Dados abertos administrativos do Senado Federal — despesas da CEAPS, servidores, remuneração, aposentados e pensionistas, contratações, licitações, empresas contratadas, colaboradores, suprimento de fundos e quadros de pessoal — extraídos do Serviço de Dados Abertos Administrativos (adm.senado.gov.br).",
+    "organizations": [
+      "Senado Federal"
+    ],
+    "tags": [
+      "orçamento",
+      "contrato",
+      "despesa",
+      "previdência",
+      "finanças públicas",
+      "aposentadoria",
+      "salário",
+      "transparência"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "b9bd31ef-e49b-4890-9c33-c95933c248b8",
+    "name": "Cadastro Nacional de Prestadores de Serviços de Saúde (NPPES) dos Estados Unidos",
+    "description": "Cadastro de todos os prestadores de serviços de saúde dos Estados Unidos que possuem um Identificador Nacional de Prestador (NPI), publicado mensalmente pelo Centers for Medicare &amp; Medicaid Services (CMS) no âmbito do National Plan and Provider Enumeration System. Cobre pessoas físicas e organizações, com taxonomia de especialidade, licenças profissionais, endereços de correspondência e de atendimento, outros nomes, outros identificadores emitidos por planos de saúde e endpoints eletrônicos de troca de informações de saúde. Cada arquivo mensal é uma fotografia completa do cadastro; as extrações são empilhadas na coluna extraction_date, formando um painel histórico.",
+    "organizations": [
+      "Centers for Medicare & Medicaid Services (CMS)"
+    ],
+    "tags": [
+      "Estabelecimento",
+      "hospital",
+      "medicina",
+      "ocupação",
+      "cadastro",
+      "prestador de serviço"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Saúde"
+    ]
+  }
+]

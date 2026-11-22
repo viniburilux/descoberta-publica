@@ -1,0 +1,66 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "analise": "pooled_contemporanea",
+      "ano": null,
+      "observacoes": 14352,
+      "correlacao_pearson": NaN
+    },
+    {
+      "analise": "pooled_defasagem_emendas_1_ano",
+      "ano": null,
+      "observacoes": 12558,
+      "correlacao_pearson": NaN
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2018,
+      "observacoes": 1794,
+      "correlacao_pearson": NaN
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2019,
+      "observacoes": 1794,
+      "correlacao_pearson": NaN
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2020,
+      "observacoes": 1794,
+      "correlacao_pearson": NaN
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2021,
+      "observacoes": 1794,
+      "correlacao_pearson": NaN
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2022,
+      "observacoes": 1794,
+      "correlacao_pearson": NaN
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2023,
+      "observacoes": 1794,
+      "correlacao_pearson": NaN
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2024,
+      "observacoes": 1794,
+      "correlacao_pearson": NaN
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2025,
+      "observacoes": 1794,
+      "correlacao_pearson": NaN
+    }
+  ],
+  "query_ref": "qr_ad504f373aa04e05a8e589a929e1f52b"
+}

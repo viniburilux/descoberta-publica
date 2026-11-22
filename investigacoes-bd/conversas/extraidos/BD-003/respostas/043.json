@@ -1,0 +1,11 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "internacoes_a00_a09": 6839,
+      "com_municipio_ne": 0,
+      "municipios_distintos": 1616
+    }
+  ],
+  "query_ref": "qr_bd4d37e2b3c646059cb8171d2ff50cca"
+}

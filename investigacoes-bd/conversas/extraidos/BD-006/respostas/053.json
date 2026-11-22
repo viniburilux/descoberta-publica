@@ -1,0 +1,12 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "total_embargos": 96353,
+      "embargos_com_auto": 96293,
+      "embargos_sem_auto": 60,
+      "autos_com_embargo": 94546
+    }
+  ],
+  "query_ref": "qr_6cdff61d39694033a0e6a86908d5f5a1"
+}

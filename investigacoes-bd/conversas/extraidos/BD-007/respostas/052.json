@@ -1,0 +1,190 @@
+[
+  {
+    "id": "96eab476-5d30-459b-82be-f888d4d0d6b9",
+    "name": "Índice de Desenvolvimento da Educação Básica (Ideb)",
+    "description": "O Índice de Desenvolvimento da Educação Básica (Ideb) foi criado em 2007 e reúne, em um só indicador, os resultados de dois conceitos igualmente importantes para a qualidade da educação: o fluxo escolar e as médias de desempenho nas avaliações.\r\n\r\nEle é calculado a partir dos dados sobre aprovação escolar, obtidos no Censo Escolar, e das médias de desempenho nas avaliações do Inep, o Sistema de Avaliação da Educação Básica (Saeb) – para as unidades da federação e para o país, e a Prova Brasil – para os municípios.\r\n\r\nO Ideb agrega ao enfoque pedagógico dos resultados das avaliações em larga escala do Inep a possibilidade de resultados sintéticos, facilmente assimiláveis, e que permitem traçar metas de qualidade educacional para os sistemas. O índice varia de zero a 10 e a combinação entre fluxo e aprendizagem tem o mérito de equilibrar as duas dimensões: se um sistema de ensino retiver seus alunos para obter resultados de melhor qualidade no Saeb ou Prova Brasil, o fator fluxo será alterado, indicando a necessidade de melhoria do sistema. Se, ao contrário, o sistema apressar a aprovação do aluno sem qualidade, o resultado das avaliações indicará igualmente a necessidade de melhoria do sistema.\r\n\r\nO Ideb também é importante por ser condutor de política pública em prol da qualidade da educação. É a ferramenta para acompanhamento das metas de qualidade do Plano de Desenvolvimento da Educação (PDE) para a educação básica, que tem estabelecido, como meta, que em 2022 o Ideb do Brasil seja 6,0 – média que corresponde a um sistema educacional de qualidade comparável a dos países desenvolvidos.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação básica",
+      "avaliação",
+      "exame",
+      "ensino médio"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "e083c9a2-1cee-4342-bedc-535cbad6f3cd",
+    "name": "Sistema de Avaliação da Educação Básica (Saeb)",
+    "description": "O Sistema de Avaliação da Educação Básica (Saeb) é um conjunto de avaliações externas em larga escala que permite ao Inep realizar um diagnóstico da educação básica brasileira e de fatores que podem interferir no desempenho do estudante. Desde 1995, a avaliação bienal busca fornecer um panorama da Educação Básica e sofreu algumas mudanças metodológicas para aprimoramento. Juntamente com outros indicadores, as notas do SAEB estruturam a nota do Índice de Desenvolvimento da Educação Básica (Ideb). Por meio de testes e questionários, aplicados a cada dois anos na rede pública e em uma amostra da rede privada, o Saeb reflete os níveis de aprendizagem demonstrados pelos estudantes avaliados, explicando esses resultados a partir de uma série de informações contextuais. Avalia as séries: 5º ano, 9º ano e 3º ano do EM. Em 2019, tem o 2º ano do E.F.\r\n\r\nEm 2021 houve um novo recorte adicionado, uma separação entre capital e não capital. A Base dos dados decidiu não incluir esse recorte para melhor compatibilização com os anos anteriores.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "avaliação",
+      "aprendizagem",
+      "ensino fundamental",
+      "ensino médio"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "4c01a797-12f1-4d3a-bcb2-1b5f0223e04f",
+    "name": "Debates Parlamentares (Hansard)",
+    "description": "Hansard, o registro oficial dos debates do Parlamento da Austrália, em forma tabular. Uma linha por intervenção contínua de um mesmo orador — início de discurso, aparte ou retomada da palavra — com o texto integral e os metadados de quem falou, quando, em que câmara e sob qual debate. São 4,55 milhões de falas e 754 milhões de palavras, cobrindo a Câmara dos Representantes e o Senado de 9 de maio de 1901 em diante, com atualização diária a partir da base ParlInfo.",
+    "organizations": [
+      "Parlamento da Austrália"
+    ],
+    "tags": [
+      "democracia",
+      "legislativo",
+      "legislatura",
+      "parlamento",
+      "partido político",
+      "discurso",
+      "análise de texto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "História",
+      "Política"
+    ]
+  },
+  {
+    "id": "f433916d-b6ed-41ff-9184-0bebfdec2694",
+    "name": "Estudos Eleitorais Nacionais Americanos (ANES): Série Temporal",
+    "description": "O Arquivo Cumulativo da Série Temporal do ANES reúne em um único arquivo os respondentes de corte transversal e as variáveis harmonizadas presentes em três ou mais estudos da Série Temporal do ANES desde 1948. As variáveis são recodificadas para um esquema comum (códigos VCF) a fim de permitir comparabilidade entre anos eleitorais; a cobertura vai de 1948 a 2024, com uma linha por respondente por ano de estudo.",
+    "organizations": [
+      "Estudos Eleitorais Nacionais Americanos (ANES)"
+    ],
+    "tags": [],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "aaf69fe2-3ac6-4d8b-8c4f-db464095f986",
+    "name": "Sistema de Contas Nacionais (Austrália)",
+    "description": "Séries temporais do Sistema Australiano de Contas Nacionais (catálogo 5204.0 do ABS), as contas nacionais anuais compiladas pelo Australian Bureau of Statistics. Abrange produto interno bruto, contas de renda, capital, financeiras e de balanço patrimonial por setor e indústria, além de medidas de produtividade e estoque de capital, a partir do ano fiscal de 1959-60. Está organizado como um dicionário de séries e uma tabela de observações no formato longo, identificados pelo código de série do ABS.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "dívida",
+      "finanças",
+      "política fiscal",
+      "gasto"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "da75c900-e1bf-4ea9-a263-ad9228909892",
+    "name": "Ideologia, Dinheiro na Política e Eleições (DIME)",
+    "description": "Registros detalhados de contribuições políticas a eleições federais, estaduais e locais nos Estados Unidos, dos ciclos eleitorais de 1980 a 2024, acompanhados de bases de candidatos, comitês e doadores. O DIME atribui identificadores estáveis a doadores e beneficiários por resolução de entidades, geocodifica cada registro e estima pontos ideais em espaço comum (CFscores) para candidatos, comitês e doadores. A base inclui ainda escores DW-DIME, escores compostos e DW-NOMINATE para os beneficiários. Compilado por Adam Bonica e publicado pelas Bibliotecas da Universidade Stanford; os registros do CRP/NIMSP não integram a versão pública.",
+    "organizations": [
+      "Stanford University"
+    ],
+    "tags": [
+      "campanha",
+      "financiamento de campanha",
+      "candidatura",
+      "doação",
+      "eleições",
+      "sistema eleitoral",
+      "ideologia",
+      "lobby"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+    "name": "Cadastros de Sanções da CGU",
+    "description": "Cadastros de sanções administrativas mantidos pela Controladoria-Geral da União (CGU) e publicados no Portal da Transparência, reunindo empresas e pessoas inidôneas, suspensas ou punidas (CEIS e CNEP), entidades privadas sem fins lucrativos impedidas (CEPIM) e acordos de leniência. Cada tabela é um retrato (snapshot) datado do respectivo cadastro, particionado pela data de extração.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "cnpj",
+      "companhia",
+      "corrupção",
+      "devedor",
+      "federal",
+      "multa",
+      "integridade",
+      "fiscalização",
+      "administração pública",
+      "licitação",
+      "sanção",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Justiça"
+    ]
+  },
+  {
+    "id": "0d419804-f5a6-40eb-b710-15bf2e4b6715",
+    "name": "Índice de Desenvolvimento da Educação do Estado de São Paulo (IDESP)",
+    "description": "O IDESP é um indicador que avalia a qualidade da escola. Nesta avaliação, considera–se que uma boa escola é aquela em que a maior parte dos alunos aprende as competências e habilidades requeridas para a sua série/ano, num período de tempo ideal – o ano letivo. O IDESP é composto por dois critérios: o desempenho dos alunos nos exames de proficiência do SARESP (o quanto aprenderam) e o fluxo escolar (em quanto tempo aprenderam).",
+    "organizations": [
+      "Secretaria de Educação de São Paulo"
+    ],
+    "tags": [
+      "indicadores educacionais",
+      "exame",
+      "aprendizagem",
+      "avaliação de políticas públicas",
+      "fluxo escolar",
+      "escolas"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "3d388daa-2d20-49eb-8f55-6c561bef26b6",
+    "name": "Dados Abertos da Câmara dos Deputados",
+    "description": "Dados abertos da Câmara Federal de Deputados",
+    "organizations": [
+      "Câmara dos Deputados"
+    ],
+    "tags": [
+      "partido político"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "c68d443c-792b-4bc3-b07f-7fc53bc0614a",
+    "name": "Voteview: votações nominais do Congresso dos EUA",
+    "description": "O Voteview, mantido pelo Departamento de Ciência Política da UCLA, registra todas as votações nominais da Câmara dos Representantes e do Senado dos Estados Unidos desde o 1º Congresso, em 1789, e como cada membro votou em cada uma. Também publica as estimativas DW-NOMINATE da posição ideológica de cada membro. Este conjunto cobre os Congressos 1 a 119 (1789-2026): 51.064 registros de membro por Congresso, 113.568 votações nominais e 26,4 milhões de votos individuais, atualizados semanalmente.",
+    "organizations": [
+      "Universidade da Califórnia em Los Angeles (UCLA)"
+    ],
+    "tags": [
+      "congresso",
+      "ideologia",
+      "legislativo",
+      "polarização",
+      "partido político",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  }
+]

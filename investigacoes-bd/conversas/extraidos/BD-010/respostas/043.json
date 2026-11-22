@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: IGNORE NULLS and RESPECT NULLS are not allowed for aggregate function string_agg at [73:5]\n\nLocation: None\nJob ID: 22c83dca-487d-4056-bb18-7812a033b64f\n"
+}

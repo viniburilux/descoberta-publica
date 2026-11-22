@@ -1,0 +1,30 @@
+{
+  "row_count": 3,
+  "rows": [
+    {
+      "ano_emissao": 2019,
+      "registros_left": 1680904,
+      "ids_distintos_left": 770165,
+      "registros_correspondentes": 1680881,
+      "ids_correspondentes": 770154,
+      "registros_sem_correspondencia": 23
+    },
+    {
+      "ano_emissao": 2023,
+      "registros_left": 2028517,
+      "ids_distintos_left": 927784,
+      "registros_correspondentes": 2028504,
+      "ids_correspondentes": 927775,
+      "registros_sem_correspondencia": 13
+    },
+    {
+      "ano_emissao": 2026,
+      "registros_left": 1839880,
+      "ids_distintos_left": 812394,
+      "registros_correspondentes": 1834500,
+      "ids_correspondentes": 809136,
+      "registros_sem_correspondencia": 5380
+    }
+  ],
+  "query_ref": "qr_fe80786656034c5bbb8129f8dbad1337"
+}

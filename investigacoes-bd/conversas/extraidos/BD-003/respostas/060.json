@@ -1,0 +1,22 @@
+[
+  {
+    "nome_coluna": "id_poder",
+    "chave": "E",
+    "valor": "Executivo"
+  },
+  {
+    "nome_coluna": "id_poder",
+    "chave": "J",
+    "valor": "Judiciário"
+  },
+  {
+    "nome_coluna": "id_poder",
+    "chave": "L",
+    "valor": "Legislativo"
+  },
+  {
+    "nome_coluna": "id_poder",
+    "chave": "N",
+    "valor": "Não se aplica"
+  }
+]

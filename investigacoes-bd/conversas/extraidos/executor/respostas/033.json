@@ -1,0 +1,119 @@
+{
+  "row_count": 5380,
+  "rows": [
+    {
+      "id_municipio": "2928901",
+      "nome_municipio": "São Desidério",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 622569134.4800003,
+      "numero_operacoes": 346,
+      "total_conectado_publico": 112125325594.21999,
+      "total_recurso_publico_classificado": 121133688453.84952,
+      "fracao_sobre_recurso_publico_classificado": 0.9256328856603618,
+      "municipios_conectados": 5380
+    },
+    {
+      "id_municipio": "2911105",
+      "nome_municipio": "Formosa do Rio Preto",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 608518769.4050002,
+      "numero_operacoes": 306,
+      "total_conectado_publico": 112125325594.21999,
+      "total_recurso_publico_classificado": 121133688453.84952,
+      "fracao_sobre_recurso_publico_classificado": 0.9256328856603618,
+      "municipios_conectados": 5380
+    },
+    {
+      "id_municipio": "2201150",
+      "nome_municipio": "Baixa Grande do Ribeiro",
+      "sigla_uf": "PI",
+      "valor_financiado_rateado": 454559140.79499996,
+      "numero_operacoes": 378,
+      "total_conectado_publico": 112125325594.21999,
+      "total_recurso_publico_classificado": 121133688453.84952,
+      "fracao_sobre_recurso_publico_classificado": 0.9256328856603618,
+      "municipios_conectados": 5380
+    },
+    {
+      "id_municipio": "2917359",
+      "nome_municipio": "Jaborandi",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 432586031.7299995,
+      "numero_operacoes": 1177,
+      "total_conectado_publico": 112125325594.21999,
+      "total_recurso_publico_classificado": 121133688453.84952,
+      "fracao_sobre_recurso_publico_classificado": 0.9256328856603618,
+      "municipios_conectados": 5380
+    },
+    {
+      "id_municipio": "1100205",
+      "nome_municipio": "Porto Velho",
+      "sigla_uf": "RO",
+      "valor_financiado_rateado": 418407610.17882687,
+      "numero_operacoes": 2672,
+      "total_conectado_publico": 112125325594.21999,
+      "total_recurso_publico_classificado": 121133688453.84952,
+      "fracao_sobre_recurso_publico_classificado": 0.9256328856603618,
+      "municipios_conectados": 5380
+    },
+    {
+      "id_municipio": "5218805",
+      "nome_municipio": "Rio Verde",
+      "sigla_uf": "GO",
+      "valor_financiado_rateado": 397774497.39999986,
+      "numero_operacoes": 590,
+      "total_conectado_publico": 112125325594.21999,
+      "total_recurso_publico_classificado": 121133688453.84952,
+      "fracao_sobre_recurso_publico_classificado": 0.9256328856603618,
+      "municipios_conectados": 5380
+    },
+    {
+      "id_municipio": "2903201",
+      "nome_municipio": "Barreiras",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 380065149.18999976,
+      "numero_operacoes": 279,
+      "total_conectado_publico": 112125325594.21999,
+      "total_recurso_publico_classificado": 121133688453.84952,
+      "fracao_sobre_recurso_publico_classificado": 0.9256328856603618,
+      "municipios_conectados": 5380
+    },
+    {
+      "id_municipio": "5100201",
+      "nome_municipio": "Água Boa",
+      "sigla_uf": "MT",
+      "valor_financiado_rateado": 368898231.155,
+      "numero_operacoes": 261,
+      "total_conectado_publico": 112125325594.21999,
+      "total_recurso_publico_classificado": 121133688453.84952,
+      "fracao_sobre_recurso_publico_classificado": 0.9256328856603618,
+      "municipios_conectados": 5380
+    },
+    {
+      "id_municipio": "2909307",
+      "nome_municipio": "Correntina",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 342498621.50000006,
+      "numero_operacoes": 1666,
+      "total_conectado_publico": 112125325594.21999,
+      "total_recurso_publico_classificado": 121133688453.84952,
+      "fracao_sobre_recurso_publico_classificado": 0.9256328856603618,
+      "municipios_conectados": 5380
+    },
+    {
+      "id_municipio": "1505502",
+      "nome_municipio": "Paragominas",
+      "sigla_uf": "PA",
+      "valor_financiado_rateado": 327201716.88709515,
+      "numero_operacoes": 253,
+      "total_conectado_publico": 112125325594.21999,
+      "total_recurso_publico_classificado": 121133688453.84952,
+      "fracao_sobre_recurso_publico_classificado": 0.9256328856603618,
+      "municipios_conectados": 5380
+    },
+    "... (990 more items)"
+  ],
+  "truncated": true,
+  "truncation_note": "Only the first 1000 of 5380 rows are shown here to keep the context small. The full result can still be downloaded from the interface.",
+  "query_ref": "qr_0ef8fb018eac4c358f2bec0877336a20"
+}

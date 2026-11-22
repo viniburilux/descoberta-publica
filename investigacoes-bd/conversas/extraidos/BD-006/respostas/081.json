@@ -1,0 +1,34 @@
+{
+  "row_count": 4,
+  "rows": [
+    {
+      "transformacao": "literal",
+      "registros_sicor": 1839880,
+      "registros_correspondentes": 0,
+      "ids_correspondentes": 0,
+      "cobertura_registros": 0.0
+    },
+    {
+      "transformacao": "remove_hifens",
+      "registros_sicor": 1839880,
+      "registros_correspondentes": 389263,
+      "ids_correspondentes": 159159,
+      "cobertura_registros": 0.21156977628975804
+    },
+    {
+      "transformacao": "remove_nao_alfanumericos",
+      "registros_sicor": 1839880,
+      "registros_correspondentes": 389263,
+      "ids_correspondentes": 159159,
+      "cobertura_registros": 0.21156977628975804
+    },
+    {
+      "transformacao": "trim_upper",
+      "registros_sicor": 1839880,
+      "registros_correspondentes": 0,
+      "ids_correspondentes": 0,
+      "cobertura_registros": 0.0
+    }
+  ],
+  "query_ref": "qr_1ce527543c8a4c009391067e9880e53c"
+}

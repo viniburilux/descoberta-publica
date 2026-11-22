@@ -1,0 +1,194 @@
+[
+  {
+    "id": "d257f9f9-f54e-4116-a98a-dbb37979a777",
+    "name": "Diretórios França",
+    "description": "Diretório de geografia francesa (regiões, departamentos e comunas do Code Officiel Géographique do INSEE) e de classificações (nomenclaturas de atividade NAF rév. 2 e NAF 2025, e categorias jurídicas). Tabelas de referência que ligam códigos institucionais franceses a suas descrições e níveis hierárquicos.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "companhia",
+      "diretório"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "86ab41f5-6676-4e7b-8515-5824caa6f139",
+    "name": "Cadastro de Empresas e Estabelecimentos da França (SIRENE)",
+    "description": "Registro nacional de empresas da França mantido pelo INSEE. Cobre cada unidade jurídica (SIREN) e cada estabelecimento (SIRET), com o estoque atual e o histórico completo de períodos, além da geolocalização do INSEE.",
+    "organizations": [
+      "Instituto Nacional de Estatística e Estudos Econômicos (INSEE)"
+    ],
+    "tags": [
+      "cnpj",
+      "companhia",
+      "atividade econômica",
+      "emprego",
+      "Estabelecimento",
+      "Geolocalização"
+    ],
+    "themes": [
+      "Economia",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "8af7f0e9-c0a9-40ca-bd1a-9abe94c96973",
+    "name": "Emprego, Desemprego e Rotatividade do Trabalho (CES, LAUS, JOLTS)",
+    "description": "Os três principais programas de emprego do Bureau of Labor Statistics dos Estados Unidos, publicados como séries temporais mensais. O Current Employment Statistics (CES) mede emprego em folha de pagamento, horas e salários por setor de atividade, em nível nacional e por estado e área metropolitana. O Local Area Unemployment Statistics (LAUS) estima força de trabalho, emprego, desemprego e taxa de desemprego para estados, condados, áreas metropolitanas e demais áreas locais. O Job Openings and Labor Turnover Survey (JOLTS) mede vagas abertas, contratações, pedidos de demissão e dispensas. Cada tabela identifica o ajuste sazonal como dimensão e cobre de 1939 (CES), 1976 (LAUS) e 2000 (JOLTS) até o presente.",
+    "organizations": [
+      "Centro de Estatísticas Laborais (BLS) dos Estados Unidos"
+    ],
+    "tags": [
+      "demissão",
+      "atividade econômica",
+      "emprego",
+      "Estabelecimento",
+      "vagas abertas",
+      "trabalho",
+      "rotatividade do trabalho",
+      "salário",
+      "desemprego",
+      "carga horária"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "332a9a40-4898-4b21-a38d-b89ff41c8c96",
+    "name": "Estatísticas de Emprego e Salários por Ocupação (OEWS)",
+    "description": "Estimativas de emprego e salários do programa Occupational Employment and Wage Statistics (OEWS) do Bureau of Labor Statistics dos Estados Unidos, produzidas anualmente a partir de uma pesquisa semestral com estabelecimentos não agrícolas. Cobre cerca de 800 ocupações da Standard Occupational Classification (SOC) e reporta emprego, salário médio e os percentis 10, 25, 50, 75 e 90 em base horária e anual. As estimativas por área geográfica (nacional, estadual, territorial, metropolitana e não metropolitana) e por setor de atividade (NAICS) referem-se a maio de cada ano, de 2003 a 2025. As estimativas do OEWS não são desenhadas como série temporal: definições ocupacionais, setoriais e de área, além dos métodos de estimação, mudam ao longo do período.",
+    "organizations": [
+      "Centro de Estatísticas Laborais (BLS) dos Estados Unidos"
+    ],
+    "tags": [
+      "emprego",
+      "renda",
+      "trabalho",
+      "ocupação",
+      "salário"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "062621e9-5aa0-4903-852d-619ae54393d2",
+    "name": "Cadastro Nacional de Obras (CNO)",
+    "description": "O Cadastro Nacional de Obras (CNO) é o banco de dados, administrado pela Secretaria Especial da Receita Federal do Brasil (RFB), que armazena informações cadastrais de obras de construção civil e de seus responsáveis. Este cadastro é necessário para que o contribuinte possa cumprir as suas obrigações tributárias (entregar declarações e realizar pagamentos) e, ao final da obra, obter a certidão de regularidade fiscal relativa à obra.",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "construção",
+      "fiscalização",
+      "obra pública"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+    "name": "Força de Trabalho (Austrália)",
+    "description": "Estatísticas da força de trabalho australiana produzidas pelo Australian Bureau of Statistics, reunindo a publicação mensal Labour Force, Australia (catálogo 6202.0) desde fevereiro de 1978 e os cubos trimestrais e mensais da publicação encerrada Labour Force, Australia, Detailed (catálogo 6291.0.55.001) desde novembro de 1984. Abrange emprego, desemprego, participação, horas trabalhadas, posição na ocupação, subutilização da força de trabalho, indústria (ANZSIC 2006), ocupação (ANZSCO 2013), tempo no trabalho atual e duração da procura por trabalho, para a Austrália e os estados e territórios.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "atividade econômica",
+      "emprego",
+      "trabalho",
+      "ocupação",
+      "pesquisa",
+      "desemprego",
+      "carga horária"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "5242e5cb-1c61-4190-9e5a-f439f50152c1",
+    "name": "Estatísticas Tributárias",
+    "description": "Estatísticas tributárias agregadas do Departamento de Impostos da Austrália (ATO), cobrindo pessoas físicas, empresas e o imposto sobre bens e serviços (GST). Os dados são publicados anualmente e detalhados por faixa de renda tributável, divisão industrial (ANZSIC), estado ou território e código postal. Esta versão cobre os exercícios fiscais de 2016-17 a 2023-24, e de 2017-18 a 2024-25 no caso do GST.",
+    "organizations": [
+      "Departamento de Impostos da Austrália (ATO)"
+    ],
+    "tags": [
+      "empresa",
+      "renda",
+      "desigualdade",
+      "receita",
+      "arrecadação",
+      "salário",
+      "tributo"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "ab4af450-6b41-412e-b7cb-ec7030646c3d",
+    "name": "Resultado da Arrecadação Federal",
+    "description": "Dados da arrecadação de impostos e contribuições federais administrados pela Secretaria Especial da Receita Federal do Brasil (RFB).",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "receita",
+      "arrecadação"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+    "name": "Cadastro Ambiental Rural (CAR)",
+    "description": "Dados públicos do Cadastro Ambiental Rural (CAR), registro eletrônico nacional obrigatório dos imóveis rurais brasileiros, mantido no Sistema Nacional de Cadastro Ambiental Rural (SICAR) pelo Serviço Florestal Brasileiro. Inclui o perímetro dos imóveis e as feições ambientais declaradas — Área de Preservação Permanente (APP), Reserva Legal, vegetação nativa, hidrografia, área consolidada, uso restrito, servidão administrativa e pousio — com geometria em coordenadas geográficas (WGS84). Os dados são organizados como snapshots empilhados por data de disponibilização por Unidade da Federação.",
+    "organizations": [
+      "Serviço Florestal Brasileiro"
+    ],
+    "tags": [
+      "agropecuária",
+      "atividade econômica",
+      "licenciamento ambiental",
+      "gestão ambiental",
+      "uso da terra",
+      "sicar"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  }
+]

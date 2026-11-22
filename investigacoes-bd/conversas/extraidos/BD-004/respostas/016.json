@@ -1,0 +1,36 @@
+{
+  "id": "48ccef51-8207-40ee-af5b-134c8ac3fb8c",
+  "name": "Nascidos Vivos (SINASC)",
+  "description": "Os dados disponíveis são oriundos do Sistema de Informações sobre Nascidos Vivos (SINASC)  elaborado pelo Departamento de Informática do SUS (DATASUS). O SINASC é gerido pelo Departamento de Análise de Situação de Saúde, da Secretaria de Vigilância em Saúde, em conjunto com as Secretarias Estaduais ... (697 more characters)",
+  "organizations": [
+    "Ministério da Saúde (MS)"
+  ],
+  "tags": [
+    "adolescente",
+    "nascimento",
+    "exame",
+    "fertilidade",
+    "gravidez",
+    "pré-natal"
+  ],
+  "themes": [
+    "Saúde"
+  ],
+  "tables": [
+    {
+      "id": "7b563487-8b6c-4d3a-b84a-506604559b02",
+      "dataset_id": "48ccef51-8207-40ee-af5b-134c8ac3fb8c",
+      "gcp_id": "basedosdados.br_ms_sinasc.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Nascidos Vivos (SINASC). Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "80359f9a-8189-4693-bdf7-ebf7be0d2fff",
+      "dataset_id": "48ccef51-8207-40ee-af5b-134c8ac3fb8c",
+      "gcp_id": "basedosdados.br_ms_sinasc.microdados",
+      "name": "Microdados",
+      "description": "Microdados de Nascidos Vivos a nível municipal considerando a localidade de ocorrência a partir de 1994"
+    }
+  ],
+  "usage_guide": null
+}

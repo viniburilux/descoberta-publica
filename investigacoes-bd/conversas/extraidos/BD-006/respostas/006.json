@@ -1,0 +1,155 @@
+[
+  {
+    "id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9",
+    "name": "Banco de Dados de Queimadas",
+    "description": "Ocorrência do Fogo na Vegetação é o tema deste portal, http://queimadas.dgi.inpe.br/queimadas, desenvolvido no INPE, Instituto Nacional de Pesquisas Espaciais. Ele inclui o monitoramento operacional de focos de queimadas e de incêndios florestais detectados por satélites, e o cálculo e previsão do risco de fogo da vegetação.\r\n\r\nOs dados para a América do Sul e a Central, África e Europa, são atualizados a cada três horas, todos os dias do ano. O acesso às informações é livre, e no navegador internet usado, deve estar desbloqueada a carga das janelas \"pop up\" para acesso a várias figuras, tabelas e gráficos.\r\n\r\nUsuários que necessitam de focos com maior frequência temporal ou monitoramento em áreas específicas deverão consultar as \"Perguntas Frequentes\"\r\n\r\nAs informações neste portal estão divididas em blocos:\r\n\r\n- \"Situação Atual\", é a \"Sala de Situação\" do Portal, e fornece para os últimos dois dias os resultados relevantes do monitoramento de focos de queima de vegetação feito pelo INPE em imagens satélites. Vários itens nos títulos das figuras e tabelas podem ser selecionados, alterando as apresentações gráficas conforme as preferências espaciais e temporais do usuário. Passando o mouse sobre os títulos e figuras serão indicadas as opções ativas.\r\n- \"SIG Focos-Geral\", permite visualizar os focos em um Sistema de Informação Geográfica, com opções de períodos, regiões de interesse, satélites, planos de informação (p.ex. desmatamento, hidrografia, estradas), etc., além da exportação dos dados em formatos txt, html, shp e kmz.\r\n- \"SIG Focos-Áreas Protegidas\", Semelhante ao item anterior, mas dedicado à ocorrência do fogo em Áreas de Preservação, como Parques, Florestas, Reservas Biológicas municipais, estaduais e nacionais, e Terras Indígenas.\r\n- \"Situação nas Áreas Protegidas\", que contém o último relatório de focos detectados nas áreas de preservação, incluindo links que os mostram já inseridos no SIG do monitoramento.\r\n- \"Relatório Atual\", contém o último resumo do monitoramento de queimadas em formato pdf, que poderá ser salvo pelo usuário para análise detalhada dos dados. A opção \"Receber por E-Mail\" leva ao cadastro do usuário, onde se define individualmente o conteúdo dos relatórios e mensagens de alerta que serão recebidos automaticamente por E-Mail.\r\n- \"Risco de Fogo\", que apresenta o Risco de Fogo da vegetação estimado no presente, e suas previsões futuras (diárias, semanais e mensais), bem como o \"fogograma\" para qualquer local selecionado com o mouse nos mapas.\r\n- \"Meu Cadastro\", onde o usuário define e configura individualmente os produtos que deseja receber em seu E-Mail, como alertas de ocorrência de focos em áreas de preservação, boletins pdf diários com tabelas, gráficos e mapas de estados e países de interesse, e mensagens operacionais.\r\n- \"Outros Produtos\", com links a produtos adicionais gerados por este sistema de Queimadas e Incêndios, destacando-se: mapas mensais de focos em formato .gif com animações; mapas Meteorológicos (precipitação, temperatura, umidade do ar, ventos); detecções dos vários satélites utilizados; estimativas de concentrações e trajetórias dos poluentes emitidos; localização dos satélites utilizados, uma coletânea de dados anteriores e área de download, e; acesso a uma antiga versão da página do monitoramento de focos.\r\n- \"Links Relacionados\", com indicações de acesso ao Boletim do Ibama de Monitoramento de Queimadas e Incêndios, ao texto publicado mensalmente no Boletim Climanálise, a uma coleção de mais de 500 páginas com matérias, fotos, vídeos e sites diversos sobre queimadas e incêndios florestais, à composição da equipe deste trabalho, e aos agradecimentos.\r\n- \"Notícias e Destaques\", com informações, notícias e links de destaque na ocorrência do fogo na vegetação, e não restritas apenas à detecção de focos com satélites.\r\n- \"Aviso\", com informações operacionais indicando novidades, falhas e detalhes relevantes na geração dos produtos do monitoramento do fogo na vegetação.\r\n\r\nO INPE também gera outros produtos de queimadas que não são divulgados neste portal, atendendo necessidades individuais de usuários que optam em fazer o próprio processamento dos dados brutos enviados pelo INPE; um exemplo destes é o caso do PrevFogo/Ibama. Para receber em tempo quase-real as coordenadas geográficas dos focos e desenvolver sua própria base de aplicações, contatar queimadas@inpe.br.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "ar",
+      "queimada",
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "fogo",
+      "floresta",
+      "incêndio"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "35d072bc-ddf5-4975-b8ab-9a75f6d2fcfa",
+    "name": "Greenhouse Gas Reporting Program (GHGRP)",
+    "description": "O GHGRP exige a comunicação de dados de gases de efeito estufa (GEE) e outras informações relevantes de grandes fontes de emissão de GEE, fornecedores de combustíveis e gases industriais e locais de injeção de CO2 nos Estados Unidos. Aproximadamente 8.000 instalações são obrigadas a reportar as suas emissões anualmente, e os dados reportados são disponibilizados ao público em outubro de cada ano.",
+    "organizations": [
+      "U.S. Environmental Protection Agency (EPA)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "empresa",
+      "poluição"
+    ],
+    "themes": [
+      "Energia",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "e5c87240-ecce-4856-97c5-e6b84984bf42",
+    "name": "Desmatamento PRODES",
+    "description": "O projeto PRODES realiza o monitoramento por satélites do desmatamento por corte raso na Amazônia Legal e produz, desde 1988, as taxas anuais de desmatamento na região, que são usadas pelo governo brasileiro para o estabelecimento de políticas públicas. As taxas anuais são estimadas a partir dos incrementos de desmatamento identificados em cada imagem de satélite que cobre a Amazônia Legal. A primeira apresentação dos dados é realizada para dezembro de cada ano, na forma de estimativa. Os dados consolidados são apresentados no primeiro semestre do ano seguinte.\r\n\r\nResultados recentes, a partir de análises realizadas com especialistas independentes, indicam nível de precisão próximo a 95%.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "conservação",
+      "desmatamento",
+      "uso da terra"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "218ae306-29ac-4a83-836d-95bfdb9683fe",
+    "name": "Pesquisa de Informações Básicas Municipais (MUNIC)",
+    "description": "Efetua, periodicamente, um levantamento pormenorizado de informações sobre a estrutura, a dinâmica e o funcionamento das instituições públicas municipais, tendo como unidade de investigação o município e, como informante principal, a prefeitura, por meio dos diversos setores que a compõem.\r\n\r\nA Pesquisa de Informações Básicas Municipais - MUNIC teve início em 1999, extensiva à totalidade dos municípios do País. Os temas e questões abordados em seu questionário básico são levantados regularmente e visam responder às necessidades de informação da sociedade e do Estado brasileiro, com vistas à consolidação de uma base de dados estatísticos e cadastrais atualizados e que proporcionem um conjunto relevante de indicadores de avaliação e monitoramento dos quadros institucional e administrativo das municipalidades. Usualmente, a MUNIC traz um caderno suplementar que contempla temas específicos, de forma mais detalhada, em um esforço permanente de atualização da pesquisa. A partir de 2005, o bloco sobre características básicas dos gestores, presente no questionário básico, passou a ser investigado a cada quadriênio, sempre nos anos que marcam o início das administrações eleitas no ano anterior.\r\n\r\nA pesquisa fornece informações variadas sobre a gestão pública municipal, incluindo a legislação vigente e os instrumentos de planejamento existentes nessa esfera da administração, especialmente aqueles discriminados no Estatuto da Cidade e que, junto com o Plano Diretor, têm por meta regular o uso e a ocupação do solo urbano; organização das prefeituras; composição do quadro de pessoal por vínculo empregatício das prefeituras, tanto na administração direta quanto na indireta; recursos financeiros utilizados para a gestão; políticas públicas setoriais no âmbito das áreas pesquisadas (habitação, transporte, agropecuária, meio ambiente etc.), entre outros aspectos.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "governança",
+      "governo",
+      "informação",
+      "lei",
+      "administração pública",
+      "sistema"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "b8e72d64-5416-4a6e-a796-b47a0a600ddc",
+    "name": "SinPatinhas",
+    "description": "É um sistema inovador desenvolvido pelo Governo Federal para gerenciar e monitorar a política pública de controle populacional de animais. Focado em iniciativas de castração e microchipagem, o sistema permite o cadastro de animais, o acompanhamento detalhado dos procedimentos realizados e a geração de relatórios abrangentes. Tem por objetivo centralizar as informações sobre cães e gatos e seus tutores, em conformidade com a Lei nº 15.046, de 17 de dezembro de 2024, e com o Decreto Federal nº 12.439, de 17 de abril de 2025, que regulamenta a criação do Cadastro Nacional de Animais Domésticos. Inclui dados de identificação, endereço e contato dos responsáveis e de seus animais, além de detalhes dos animais, como espécie, raça, idade, vacinas e doenças, representando um avanço significativo no combate aos maus-tratos e no controle de zoonoses. Permite o cadastro de animais que se destinam à companhia ou são criados como de estimação.",
+    "organizations": [
+      "Ministério do Meio Ambiente (MMA)"
+    ],
+    "tags": [
+      "animal",
+      "gestão ambiental",
+      "PET"
+    ],
+    "themes": [
+      "Meio Ambiente",
+      "População"
+    ]
+  },
+  {
+    "id": "22d1f0d6-9bbc-4653-a841-7734867d2319",
+    "name": "Sistema de Informações Ambulatoriais (SIA)",
+    "description": "O Sistema de Informação Ambulatorial (SIA) faz parte do DATASUS e foi implantado nacionalmente na década de noventa com a finalidade de registrar os atendimentos/procedimentos/tratamentos realizados em cada estabelecimento de saúde no âmbito ambulatorial, por meio do Boletim de Produção Ambulatorial (BPA).\r\n\r\n Ao longo dos anos, o SIA vem sendo aprimorado para ser efetivamente um sistema que gere informações referentes ao atendimento ambulatorial e que possa subsidiar os gestores estaduais e municipais no monitoramento dos processos de planejamento, programação, regulação, avaliação e controle dos serviços de saúde na área ambulatorial.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "saúde",
+      "plano de saúde",
+      "saúde mental",
+      "avaliação de políticas públicas",
+      "política pública",
+      "sus"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "54e9609c-dfb8-4ae4-b59a-5af4575874e7",
+    "name": "HydroSHEDS",
+    "description": "‍A base de dados HydroSHEDS oferece um conjunto de camadas de dados digitais globais para apoiar a investigação e as aplicações hidroecológicas em todo o mundo",
+    "organizations": [
+      "World Wide Fund"
+    ],
+    "tags": [
+      "cartografia",
+      "lago",
+      "mapa",
+      "relevo",
+      "água",
+      "hidrovia"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "544c9d22-97b7-479a-8eca-94762840b465",
+    "name": "Microdados do Sistema de Operações do Crédito Rural e do Proagro (Sicor)",
+    "description": "Este conjunto de dados consolida as informações do SICOR (Sistema de Operações do Crédito Rural e do Proagro), registrando o ciclo completo das operações de crédito rural no Brasil, desde a contratação até o saldo devedor e a espacialização das áreas financiadas.\r\n\r\n  O conjunto possui diversas tabelas de microdados, organizadas por eixos temáticos:\r\n\r\n   * Operação: Cada linha representa uma operação de crédito rural e seus atributos cadastrais (valores contratados, finalidade, programa, etc.).\r\n   * Saldo: Cada linha representa o saldo devedor mensal de uma operação, permitindo o acompanhamento da evolução da dívida ao longo do tempo.\r\n   * Liberação: Cada linha registra um evento de desembolso (repasse financeiro) associado a uma operação contratada.\r\n   * Recurso Público (Mutuário, Cooperado e Propriedade): Tabelas que detalham os beneficiários (pessoas físicas ou jurídicas), membros de cooperativas e as propriedades rurais envolvidas em operações que utilizam subsídios ou fontes de recurso públicas.\r\n   * Gleba: Cada linha contém a delimitação geográfica (polígonos e coordenadas) das áreas onde o recurso do crédito rural é aplicado.\r\n\r\n\r\n  A tabela que relaciona todas as demais é a microdados_operacao. O vínculo entre as tabelas é realizado através da combinação das colunas id_referencia_bacen e numero_ordem. Uma única operação registrada na tabela mestre pode possuir múltiplos registros de saldo mensais, diversas parcelas de liberação e diferentes glebas ou beneficiários associados.\r\n\r\n\r\n  Diferente de bases estáticas, o SICOR é atualizado mensalmente pelas instituições  financeiras. Para garantir a consistência temporal e o permissionamento dos dados, as tabelas utilizam as colunas ano_emissao e mes_emissao como chaves de particionamento e filtro principal.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "agropecuária",
+      "crédito",
+      "gestão ambiental",
+      "uso da terra",
+      "rural"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  }
+]

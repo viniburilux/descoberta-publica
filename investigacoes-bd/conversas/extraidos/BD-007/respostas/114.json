@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Function not found: ST_ISVALID at [1:1087]\n\nLocation: None\nJob ID: 2349f1d7-cc97-421a-ad31-daf8787c1050\n"
+}

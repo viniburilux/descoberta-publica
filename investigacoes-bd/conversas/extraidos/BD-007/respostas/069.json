@@ -1,0 +1,39 @@
+{
+  "id": "d30222ad-7a5c-4778-a1ec-f0785371d1ca",
+  "name": "População Brasileira",
+  "description": "Fornece estimativas do total da população dos Municípios e das Unidades da Federação brasileiras, com data de referência em 1o de julho, para o ano calendário corrente\r\n\r\nOs dados vem de estimativas de população feitas pelo IBGE, exceto em anos de Censo ou contagem. Dados de município estão atualiza... (20 more characters)",
+  "organizations": [
+    "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+  ],
+  "tags": [
+    "demografia",
+    "fertilidade"
+  ],
+  "themes": [
+    "População"
+  ],
+  "tables": [
+    {
+      "id": "2440d076-8934-471f-8cbe-51faae387c66",
+      "dataset_id": "d30222ad-7a5c-4778-a1ec-f0785371d1ca",
+      "gcp_id": "basedosdados.br_ibge_populacao.brasil",
+      "name": "Brasil",
+      "description": "Dados de população do Brasil do IBGE. Os dados vem de estimativas de população feitas pelo IBGE, exceto em anos de Censo ou contagem."
+    },
+    {
+      "id": "0c279444-165b-41da-92cd-50fd7e66baa1",
+      "dataset_id": "d30222ad-7a5c-4778-a1ec-f0785371d1ca",
+      "gcp_id": "basedosdados.br_ibge_populacao.municipio",
+      "name": "Município",
+      "description": "Dados de população municipal do IBGE. Os dados vem de estimativas de população feitas pelo IBGE, exceto em anos de Censo ou contagem."
+    },
+    {
+      "id": "b99f0017-e587-477e-8cfb-05fb5d1005b8",
+      "dataset_id": "d30222ad-7a5c-4778-a1ec-f0785371d1ca",
+      "gcp_id": "basedosdados.br_ibge_populacao.uf",
+      "name": "UF",
+      "description": "Dados de população dos estados segundo o IBGE. Os dados vem de estimativas de população feitas pelo IBGE, exceto em anos de Censo ou contagem."
+    }
+  ],
+  "usage_guide": null
+}

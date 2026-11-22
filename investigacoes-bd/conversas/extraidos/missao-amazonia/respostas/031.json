@@ -1,0 +1,77 @@
+{
+  "id": "eed2b316-795d-4577-af96-f47e40cef09d",
+  "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+  "gcp_id": "basedosdados.br_ibge_censo_demografico.setor_censitario_domicilio_caracteristicas_gerais_2010",
+  "name": "Setor Censitário Domicílio Características Gerais 2010",
+  "description": "Informações de caracteristicas gerais por setor censitário",
+  "columns": [
+    {
+      "name": "id_setor_censitario",
+      "type": "STRING",
+      "description": "ID do setor censitário",
+      "reference_table_id": "00ffeac4-0fea-45a3-a4fc-c81b57595408",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla do Estado",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    },
+    {
+      "name": "v001",
+      "type": "INT64",
+      "description": "Domicílios particulares e domicílios coletivos",
+      "needs_decoding": false
+    },
+    {
+      "name": "v002",
+      "type": "INT64",
+      "description": "Domicílios particulares permanentes",
+      "needs_decoding": false
+    },
+    {
+      "name": "v003",
+      "type": "INT64",
+      "description": "Domicílios particulares permanentes do tipo casa",
+      "needs_decoding": false
+    },
+    {
+      "name": "v004",
+      "type": "INT64",
+      "description": "Domicílios particulares permanentes do tipo casa de  vila ou em condomínio",
+      "needs_decoding": false
+    },
+    {
+      "name": "v005",
+      "type": "INT64",
+      "description": "Domicílios particulares permanentes do tipo  apartamento",
+      "needs_decoding": false
+    },
+    {
+      "name": "v006",
+      "type": "INT64",
+      "description": "Domicílios particulares permanentes próprios e  quitados",
+      "needs_decoding": false
+    },
+    {
+      "name": "v007",
+      "type": "INT64",
+      "description": "Domicílios particulares permanentes próprios em  aquisição",
+      "needs_decoding": false
+    },
+    {
+      "name": "v008",
+      "type": "INT64",
+      "description": "Domicílios particulares permanentes alugados",
+      "needs_decoding": false
+    },
+    "... (90 more items)"
+  ],
+  "partitioned_by": [
+    "sigla_uf"
+  ],
+  "period_start": "2010",
+  "period_end": "2010"
+}

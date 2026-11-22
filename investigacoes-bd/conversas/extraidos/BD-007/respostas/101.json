@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Column chave in USING clause not found on left side of join at [1:1451]\n\nLocation: None\nJob ID: a684c6b8-0311-42f3-ac43-02aaf5095f4a\n"
+}

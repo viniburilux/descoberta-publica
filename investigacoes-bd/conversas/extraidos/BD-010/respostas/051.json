@@ -1,0 +1,13 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "data_extracao": "2026-08-03",
+      "area_app_ha": 2.125113,
+      "area_imovel_ha": 0.0001,
+      "area_intersecao_ha": 0.0,
+      "percentual_app_intersecta_imovel": 0.0
+    }
+  ],
+  "query_ref": "qr_42392f05cc50451ea531e3f354c1965f"
+}

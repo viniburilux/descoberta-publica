@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Syntax error: Expected \")\" or \",\" but got identifier \"alvo_id\" at [1:91]\n\nLocation: None\nJob ID: 39dd9c31-ac53-4e21-829b-002a94eb5b1b\n"
+}

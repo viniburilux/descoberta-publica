@@ -1,0 +1,12 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "total": 2338388,
+      "cpf_11_digitos": 1077687,
+      "cnpj_14_digitos": 1165798,
+      "nulos": 94901
+    }
+  ],
+  "query_ref": "qr_a7f6abef45ca4fe3a86138a3935cffce"
+}

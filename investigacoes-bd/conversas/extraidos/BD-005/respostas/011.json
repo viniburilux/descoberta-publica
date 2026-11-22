@@ -1,0 +1,196 @@
+[
+  {
+    "id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+    "name": "Quadros Societários CNPJ",
+    "description": "Quadros societários e de administradores das pessoas jurídicas brasileiras.\r\n\r\n Este conjunto de dados é divulgado pela fonte original no formato de fotografias. Para cada data tem-se um retrato do universo de Cadastro Nacional das Pessoas Jurídicas (CNPJs) e seus atributos.  Com exceção da tabela de dicionários, a coluna data informa a data na qual os dados foram extraídos e disponibilizados pelo ministério da economia. \r\n\r\nPor que isso ocorre? Os atributos do CNPJ (situação cadastral; quadro societário) estão em constante mudança. A divulgação no formato de fotografias é uma forma de lidar com essa pecualiridade, uma vez que cada data reflete o estado atual do cadastro em um dado momento.\r\n\r\nComo isso afeta a análise? Em cada fotografia todos os CNPJs (ID de 14 dígitos) são repetidos. Logo,  haverá repetição de CNPJs se mais de uma data (fotografia) for selecionada.",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "firma",
+      "empresa",
+      "sócio"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "67ba206f-83c0-4d29-8ff4-bf0a0a09878d",
+    "name": "Registro de Empresas da Austrália (ABR)",
+    "description": "Registro de todos os números de empresa (ABN) emitidos pelo Registro de Empresas da Austrália, administrado pelo Departamento de Impostos da Austrália (ATO). O extrato em massa é publicado semanalmente como um retrato completo: cada extraction_date é uma fotografia de todo o registro, contendo o nome da entidade, o tipo de entidade, a situação de registro do ABN e do GST, o número ASIC e a localização principal do negócio (estado e código postal). Nomes comerciais e outros nomes, além das habilitações como Beneficiária de Doações Dedutíveis (DGR), estão em tabelas filhas. Como cada retrato repete todos os ABN, selecionar mais de um extraction_date repete as entidades. Este é o análogo australiano do CNPJ brasileiro. Fonte: data.gov.au, licenciado sob CC BY 3.0 AU.",
+    "organizations": [
+      "Departamento de Impostos da Austrália (ATO)"
+    ],
+    "tags": [
+      "cnpj",
+      "empreendedorismo",
+      "Estabelecimento",
+      "empresa",
+      "governo",
+      "tributo"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+    "name": "Cadastros de Sanções da CGU",
+    "description": "Cadastros de sanções administrativas mantidos pela Controladoria-Geral da União (CGU) e publicados no Portal da Transparência, reunindo empresas e pessoas inidôneas, suspensas ou punidas (CEIS e CNEP), entidades privadas sem fins lucrativos impedidas (CEPIM) e acordos de leniência. Cada tabela é um retrato (snapshot) datado do respectivo cadastro, particionado pela data de extração.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "cnpj",
+      "companhia",
+      "corrupção",
+      "devedor",
+      "federal",
+      "multa",
+      "integridade",
+      "fiscalização",
+      "administração pública",
+      "licitação",
+      "sanção",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Justiça"
+    ]
+  },
+  {
+    "id": "86ab41f5-6676-4e7b-8515-5824caa6f139",
+    "name": "Cadastro de Empresas e Estabelecimentos da França (SIRENE)",
+    "description": "Registro nacional de empresas da França mantido pelo INSEE. Cobre cada unidade jurídica (SIREN) e cada estabelecimento (SIRET), com o estoque atual e o histórico completo de períodos, além da geolocalização do INSEE.",
+    "organizations": [
+      "Instituto Nacional de Estatística e Estudos Econômicos (INSEE)"
+    ],
+    "tags": [
+      "cnpj",
+      "companhia",
+      "atividade econômica",
+      "emprego",
+      "Estabelecimento",
+      "Geolocalização"
+    ],
+    "themes": [
+      "Economia",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "84bb75ae-5955-4bbe-8bb6-2d644cae0cee",
+    "name": "Estatística Bancária (ESTBAN)",
+    "description": "O arquivo Saldos Estban por município é gerado mensalmente com a informação da Estatística Bancária Mensal (Código documento 4500), contemplando a posição mensal dos saldos das principais rubricas de balancetes dos bancos comerciais e dos bancos múltiplos com carteira comercial, por município. Ele é disponibilizado 60 (sessenta) dias após a data-base do documento, com exceção da data-base de dezembro, que é disponibilizado em 90 (noventa) dias após o seu encerramento, conforme estabelece o Comunicado 20.467, de 04 de janeiro de 2011. Sua atualização é mensal, e abrange os últimos 6 (seis) meses publicados.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "banco central",
+      "crédito",
+      "atividade econômica"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "544c9d22-97b7-479a-8eca-94762840b465",
+    "name": "Microdados do Sistema de Operações do Crédito Rural e do Proagro (Sicor)",
+    "description": "Este conjunto de dados consolida as informações do SICOR (Sistema de Operações do Crédito Rural e do Proagro), registrando o ciclo completo das operações de crédito rural no Brasil, desde a contratação até o saldo devedor e a espacialização das áreas financiadas.\r\n\r\n  O conjunto possui diversas tabelas de microdados, organizadas por eixos temáticos:\r\n\r\n   * Operação: Cada linha representa uma operação de crédito rural e seus atributos cadastrais (valores contratados, finalidade, programa, etc.).\r\n   * Saldo: Cada linha representa o saldo devedor mensal de uma operação, permitindo o acompanhamento da evolução da dívida ao longo do tempo.\r\n   * Liberação: Cada linha registra um evento de desembolso (repasse financeiro) associado a uma operação contratada.\r\n   * Recurso Público (Mutuário, Cooperado e Propriedade): Tabelas que detalham os beneficiários (pessoas físicas ou jurídicas), membros de cooperativas e as propriedades rurais envolvidas em operações que utilizam subsídios ou fontes de recurso públicas.\r\n   * Gleba: Cada linha contém a delimitação geográfica (polígonos e coordenadas) das áreas onde o recurso do crédito rural é aplicado.\r\n\r\n\r\n  A tabela que relaciona todas as demais é a microdados_operacao. O vínculo entre as tabelas é realizado através da combinação das colunas id_referencia_bacen e numero_ordem. Uma única operação registrada na tabela mestre pode possuir múltiplos registros de saldo mensais, diversas parcelas de liberação e diferentes glebas ou beneficiários associados.\r\n\r\n\r\n  Diferente de bases estáticas, o SICOR é atualizado mensalmente pelas instituições  financeiras. Para garantir a consistência temporal e o permissionamento dos dados, as tabelas utilizam as colunas ano_emissao e mes_emissao como chaves de particionamento e filtro principal.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "agropecuária",
+      "crédito",
+      "gestão ambiental",
+      "uso da terra",
+      "rural"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "ef31c5c6-452f-4eaa-8d61-128b45e65823",
+    "name": "Despesas Públicas",
+    "description": "Despesas do Governo Federal brasileiro publicadas pelo Portal da Transparência da Controladoria-Geral da União. Cobre a execução mensal da despesa nos orçamentos fiscal e da seguridade social desde janeiro de 2014, com os valores empenhado, liquidado e pago do exercício e a movimentação de restos a pagar, detalhados por órgão, unidade gestora, unidade orçamentária, classificação funcional-programática, plano orçamentário, localizador e natureza da despesa.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "orçamento",
+      "despesa",
+      "federal",
+      "política fiscal",
+      "ministério",
+      "gasto",
+      "transparência"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+    "name": "Eleições Brasileiras",
+    "description": "Dados de eleições brasileiras desde 1945 fornecidos pelo TSE. Inclui dados de eleitorado, candidaturas, resultados e prestação de contas",
+    "organizations": [
+      "Tribunal Superior Eleitoral (TSE)"
+    ],
+    "tags": [
+      "congresso",
+      "eleições",
+      "partido político",
+      "presidência",
+      "voto"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "43cba610-415a-4c0a-958f-4c57d82c2f0f",
+    "name": "Bolsas e Auxílios Pagos pelo CNPq",
+    "description": "O CNPq concede bolsas para a formação de recursos humanos no campo da pesquisa científica e tecnológica, em universidades, institutos de pesquisa, centros tecnológicos e de formação profissional, tanto no Brasil como no exterior.\r\n\r\nAlém de promover a formação de recursos humanos em áreas estratégicas para o desenvolvimento nacional, o CNPq aporta recursos financeiros para a implementação de projetos, programas e redes de Pesquisa e Desenvolvimento (P&D), diretamente ou em parceria com os Estados da Federação.\r\n\r\nO CNPq investe, ainda, em ações de divulgação científica e tecnológica com apoio financeiro à editoração e publicação de periódicos, à promoção de eventos científicos e à participação de estudantes e pesquisadores nos principais congressos e eventos nacionais e internacionais na área de ciência e tecnologia.\r\n\r\nPúblico Alvo: Jovens de ensino médio e superior, em nível de pós-graduação, interessados em atuar na pesquisa cientifica, e especialistas para atuarem em Pesquisa e Desenvolvimento (P&D) nas empresas e centros tecnológicos.\r\n\r\nModalidades de bolsas: O CNPq oferece varias modalidades de bolsas de formação e fomento a pesquisa, a alunos de ensino médio, graduação, pós-graduação, recém-doutores e pesquisadores já experientes do País e do exterior. As bolsas são concedidas diretamente pelo CNPq ou por instituições de ensino e pesquisa para as quais o CNPq destina quotas de bolsas.",
+    "organizations": [
+      "Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)"
+    ],
+    "tags": [
+      "doutorado",
+      "PhD",
+      "pós-doutorado",
+      "bolsa"
+    ],
+    "themes": [
+      "Educação",
+      "Governo e Finanças Públicas",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "9c5a820f-09dd-4519-adfd-611819163ae0",
+    "name": "Fundos de Investimento",
+    "description": "Informações públicas sobre os Fundos de Investimento registrados na CVM, incluindo composição de carteira, informes diários, extratos das informações, dados cadastrais, balancetes e perfil mensal conforme ICVM 555.",
+    "organizations": [
+      "Comissão de Valores Mobiliários (CVM)"
+    ],
+    "tags": [
+      "administração",
+      "investimento",
+      "investimento",
+      "bolsa"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

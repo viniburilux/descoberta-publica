@@ -1,0 +1,18 @@
+{
+  "row_count": 2,
+  "rows": [
+    {
+      "grupo": "top20_credito",
+      "municipios": 1,
+      "media": 0.0,
+      "mediana": 0.0
+    },
+    {
+      "grupo": "demais_municipios",
+      "municipios": 1,
+      "media": 0.0,
+      "mediana": 0.0
+    }
+  ],
+  "query_ref": "qr_69b16209265d4a6794554e9742f99fb2"
+}

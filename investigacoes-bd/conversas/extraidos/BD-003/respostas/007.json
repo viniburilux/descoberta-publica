@@ -1,0 +1,167 @@
+[
+  {
+    "id": "6153e6ff-ecca-4bec-9165-64a7619262e0",
+    "name": "Sorteios da Caixa Econômica Federal",
+    "description": "Resultados de sorteios da Caixa Econômica Federal.",
+    "organizations": [
+      "Caixa Econômica Federal"
+    ],
+    "tags": [
+      "prêmio",
+      "sorteio",
+      "megasena"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "5ebd8129-ae10-4ec6-bf97-8a43d0166fdb",
+    "name": "Empresas exportadoras e importadoras",
+    "description": "Cadastro de empresas que realizaram atividades de exportação ou importação durante anos específicos.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "atividade econômica",
+      "exportação",
+      "empresa",
+      "importação"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "292a33be-2f98-4fc1-8c6b-7d3c3f167047",
+    "name": "Afrobarômetro",
+    "description": "O Afrobarometer é uma instituição de pesquisa pan-africana não partidária que realiza pesquisas de atitude pública sobre democracia, governança, economia e sociedade em mais de 30 países, repetidas em um ciclo regular. Somos a principal fonte mundial de dados de alta qualidade sobre o que os africanos estão pensando.",
+    "organizations": [
+      "Afrobarometer"
+    ],
+    "tags": [
+      "barômetro"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "c634880c-3e8e-4edf-805c-2c1018128571",
+    "name": "Preços de Imóveis Residenciais (BIS)",
+    "description": "Estatísticas de preços de imóveis residenciais compiladas pelo Bank for International Settlements (BIS), a partir de seu conjunto selecionado (WS_SPP): índices nominais e reais (deflacionados por preços ao consumidor) na base comum 2010 = 100 e suas variações percentuais interanuais, em frequência trimestral, para 57 economias, com diversas séries iniciando nas décadas de 1960 e 1970. Os índices nacionais subjacentes diferem em método, cobertura e qualidade, de modo que os níveis não são comparáveis entre países — apenas as taxas de crescimento e os índices rebaseados são. Distribuído sob os Termos de Uso Permitido de Estatísticas do BIS, com atribuição obrigatória.",
+    "organizations": [
+      "Bank for International Settlements (BIS)"
+    ],
+    "tags": [
+      "moradia",
+      "habitação",
+      "preço",
+      "índice de preços",
+      "propriedade",
+      "imóvel"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "38e6420d-085e-4463-a66b-0f11c4da3237",
+    "name": "Ofertas de distribuição de ações",
+    "description": "Ofertas de distribuição (ações, fundos, debêntures, CRI, etc) registradas ou dispensadas de registro.",
+    "organizations": [
+      "Comissão de Valores Mobiliários (CVM)"
+    ],
+    "tags": [
+      "empresa",
+      "bolsa"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "d8a9dda3-a160-45f1-ac52-cbf793e6f722",
+    "name": "Índice de Preços ao Produtor",
+    "description": "O Índice de Preços ao Produtor - IPP, cujo âmbito são as indústrias extrativas e de transformação, tem como principal objetivo mensurar a mudança média dos preços de venda recebidos pelos produtores domésticos de bens e serviços, bem como sua evolução ao longo do tempo, sinalizando as tendências inflacionárias de curto prazo no País.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "inflação",
+      "preço",
+      "produção"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+    "name": "Produto Interno Bruto (PIB)",
+    "description": "O PIB permite identificar as áreas de geração de renda, produzindo informações que captam as especifidades do País. Disponibilizamos o PIB por Município, Unidade da Federação e para o País.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "pib",
+      "crescimento",
+      "renda"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "3734fdcf-92d4-4a34-82c0-774ca9978c8e",
+    "name": "Taxa Selic",
+    "description": "​A Selic é a taxa básica de juros da economia. É o principal instrumento de política monetária utilizado pelo Banco Central (BC) para controlar a inflação. Ela influencia todas as taxas de juros do país, como as taxas de juros dos empréstimos, dos financiamentos e das aplicações financeiras. \r\n\r\nA taxa Selic refere-se à taxa de juros apurada nas operações de empréstimos de um dia entre as instituições financeiras que utilizam títulos públicos federais como garantia. O BC opera no mercado de títulos públicos para que a taxa Selic efetiva esteja em linha com a meta da Selic definida na reunião do Comitê de Política Monetária do BC (Copom).",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "juros"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "e12c7b46-6b3b-4658-ba99-1e80d5256938",
+    "name": "Indicadores de Programas do Ministério da Cidadania",
+    "description": "Indicadores de programas do Ministério da Cidadania.",
+    "organizations": [
+      "Ministério da Cidadania"
+    ],
+    "tags": [
+      "pobreza"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "4aa6290b-b35b-43bf-9a11-348aed4a5716",
+    "name": "Dados Econômicos do Federal Reserve de St. Louis (FRED)",
+    "description": "Séries temporais econômicas dos Estados Unidos publicadas pelo FRED, do Federal Reserve de St. Louis. O conjunto cobre o subconjunto de livre redistribuição, originado em agências públicas federais dos EUA (Federal Reserve, BLS, BEA, Census, Tesouro e OMB): taxas de juros, preços, emprego, moeda e produto. Inclui uma tabela longa de observações (série, data, valor) e um catálogo de metadados das séries.",
+    "organizations": [
+      "Federal Reserve Bank of St. Louis (FRED)"
+    ],
+    "tags": [
+      "banco central",
+      "atividade econômica",
+      "emprego",
+      "câmbio",
+      "finanças",
+      "pib",
+      "inflação",
+      "taxa de juros",
+      "política monetária",
+      "recessão"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

@@ -1,0 +1,91 @@
+{
+  "id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+  "name": "Cadastro Nacional de Estabelecimentos de Saúde (CNES)",
+  "description": "O Cadastro Nacional de Estabelecimentos de Saúde (CNES) é um documento público e sistema de informação oficial de cadastramento de informações acerca de todos os estabelecimentos de saúde do país, independentemente de sua natureza jurídica ou integração com o Sistema Único de Saúde (SUS). Os dados s... (616 more characters)",
+  "organizations": [
+    "Ministério da Saúde (MS)"
+  ],
+  "tags": [
+    "datasus",
+    "diretório",
+    "hospital",
+    "leito hospitalar"
+  ],
+  "themes": [
+    "Saúde"
+  ],
+  "tables": [
+    {
+      "id": "181d5695-66a5-4fbe-91f5-91e9effaaefc",
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+      "gcp_id": "basedosdados.br_ms_cnes.dados_complementares",
+      "name": "Dados Complementares",
+      "description": "Esta tabela contém dados complementares dos estabelecimentos de saúde"
+    },
+    {
+      "id": "7c7ec504-f5b9-44f4-a148-8153bdf9a9e4",
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+      "gcp_id": "basedosdados.br_ms_cnes.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Cadastro Nacional de Estabelecimentos de Saúde (CNES). Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "5391e2ef-43ac-448d-b8af-5178d76a643f",
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+      "gcp_id": "basedosdados.br_ms_cnes.equipamento",
+      "name": "Equipamento",
+      "description": "Esta tabela contém o catálogo de equipamentos em atividade ou não nos estabelecimentos de saúde"
+    },
+    {
+      "id": "4ffcacb9-d69c-4165-9c87-21304ff64098",
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+      "gcp_id": "basedosdados.br_ms_cnes.equipe",
+      "name": "Equipe",
+      "description": "Esta tabela contém o cadastro de equipes em atividade ou não nos estabelecimentos de saúde."
+    },
+    {
+      "id": "72505728-8867-4b6f-8afd-b732de55854e",
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+      "gcp_id": "basedosdados.br_ms_cnes.estabelecimento",
+      "name": "Estabelecimento",
+      "description": "A tabela fornece informações sobre a gestão e operação dos estabelecimentos de saúde brasileiros."
+    },
+    {
+      "id": "0bba141f-0e9f-42a3-9e3b-8a77f4cbe5ec",
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+      "gcp_id": "basedosdados.br_ms_cnes.estabelecimento_ensino",
+      "name": "Estabelecimento Ensino",
+      "description": "Esta tabela apresenta informações sobre os estabelecimentos de ensino."
+    },
+    {
+      "id": "c1096d6b-f234-45e2-8817-2efb1ad77585",
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+      "gcp_id": "basedosdados.br_ms_cnes.estabelecimento_filantropico",
+      "name": "Estabelecimento Filantrópico",
+      "description": "Esta tabela apresenta um cadastro de estabelecimentos de saúde filantrópicos"
+    },
+    {
+      "id": "238190e4-b3d9-49f4-8443-f3d0e7bb2b8a",
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+      "gcp_id": "basedosdados.br_ms_cnes.gestao_metas",
+      "name": "Gestão e Metas",
+      "description": "Esta tabela apresenta informações sobre os contratos de gestão de metas dos estabelecimentos de sáude"
+    },
+    {
+      "id": "5d030ef9-379e-4516-b987-dc4c454ff317",
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+      "gcp_id": "basedosdados.br_ms_cnes.habilitacao",
+      "name": "Habilitação",
+      "description": "Esta tabela fornece informações sobre as habilitações do estabelecimento"
+    },
+    {
+      "id": "8cd9b97b-a13d-4006-aac0-06292467d6e8",
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+      "gcp_id": "basedosdados.br_ms_cnes.incentivos",
+      "name": "Incentivos",
+      "description": "Esta tabela fornece informações sobre os incentivos do estabelecimento"
+    },
+    "... (4 more items)"
+  ],
+  "usage_guide": null
+}

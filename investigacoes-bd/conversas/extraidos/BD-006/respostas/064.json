@@ -1,0 +1,87 @@
+{
+  "row_count": 17,
+  "rows": [
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "car_id_nulo",
+      "valor": "0",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "car_ids_distintos",
+      "valor": "1786880",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "car_ids_duplicados",
+      "valor": "1346",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "car_registros_snapshot",
+      "valor": "1788278",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "proporcao_sicor_com_car",
+      "valor": "0",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "proporcao_sicor_sem_car",
+      "valor": "1",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "sicor_id_car_nulo",
+      "valor": "72778",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "sicor_ids_distintos",
+      "valor": "812394",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "sicor_ids_duplicados",
+      "valor": "399264",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "sicor_registros_2026",
+      "valor": "1912658",
+      "id_1": null,
+      "id_2": null
+    },
+    "... (7 more items)"
+  ],
+  "query_ref": "qr_0d733479dcef4749ba67c15e9d2196c9"
+}

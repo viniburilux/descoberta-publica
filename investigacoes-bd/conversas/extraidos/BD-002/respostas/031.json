@@ -1,0 +1,41 @@
+{
+  "id": "94d7844b-3061-4a8e-9010-00633f1f9a02",
+  "name": "Projeções da População Mundial (World Population Prospects)",
+  "description": "Estimativas oficiais (1950–2023) e projeções da variante média (2024–2100) de população e indicadores demográficos para 237 países e áreas, produzidas pela Divisão de População das Nações Unidas (revisão de 2024). Inclui população por idade e sexo, fecundidade, mortalidade e migração internacional.",
+  "organizations": [
+    "Organização das Nações Unidas (ONU)"
+  ],
+  "tags": [
+    "demografia",
+    "fertilidade",
+    "expectativa de vida",
+    "mortalidade"
+  ],
+  "themes": [
+    "População"
+  ],
+  "tables": [
+    {
+      "id": "3cd646e1-8e55-44fc-a3b4-3699646db70e",
+      "dataset_id": "94d7844b-3061-4a8e-9010-00633f1f9a02",
+      "gcp_id": "basedosdados.world_un_wpp.demographic_indicators",
+      "name": "Indicadores Demográficos",
+      "description": "Indicadores demográficos anuais por país e área, de 1950 a 2100, incluindo população, fecundidade, mortalidade, expectativa de vida e migração internacional, produzidos pela Divisão de População das Nações Unidas (revisão de 2024)."
+    },
+    {
+      "id": "97641857-506b-4416-8aee-e97998eed451",
+      "dataset_id": "94d7844b-3061-4a8e-9010-00633f1f9a02",
+      "gcp_id": "basedosdados.world_un_wpp.population_age_group_sex",
+      "name": "População por Grupo de Idade e Sexo",
+      "description": "População por país, grupo etário quinquenal e sexo em 1º de janeiro, de 1950 a 2100, em milhares, produzida pela Divisão de População das Nações Unidas (revisão de 2024)."
+    },
+    {
+      "id": "2128b4ed-7a6b-4868-84ae-504ec2d6a113",
+      "dataset_id": "94d7844b-3061-4a8e-9010-00633f1f9a02",
+      "gcp_id": "basedosdados.world_un_wpp.population_single_age_sex",
+      "name": "População por Idade Simples e Sexo",
+      "description": "População por país, idade simples e sexo em 1º de julho, de 1950 a 2100, em milhares, produzida pela Divisão de População das Nações Unidas (revisão de 2024)."
+    }
+  ],
+  "usage_guide": null
+}

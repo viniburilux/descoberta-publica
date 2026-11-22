@@ -1,0 +1,90 @@
+{
+  "row_count": 6,
+  "rows": [
+    {
+      "cnpj_agencia": "07237373030207",
+      "cnpj": "07237373030207",
+      "razao_social": null,
+      "nome_fantasia": "BANCO DO NORDESTE DO BRASIL S/A",
+      "id_municipio": "2930501",
+      "sigla_uf": "BA",
+      "logradouro": "LUIZ NOGUEIRA",
+      "numero": "235",
+      "bairro": "CENTRO",
+      "operacoes": 1533,
+      "primeiro_ano": 2019,
+      "ultimo_ano": 2024
+    },
+    {
+      "cnpj_agencia": "07237373008376",
+      "cnpj": "07237373008376",
+      "razao_social": null,
+      "nome_fantasia": "BNB",
+      "id_municipio": "2900702",
+      "sigla_uf": "BA",
+      "logradouro": "DR MILTON JOSE ORNELAS",
+      "numero": "S/N",
+      "bairro": "NÃO INFORMADO",
+      "operacoes": 49,
+      "primeiro_ano": 2019,
+      "ultimo_ano": 2024
+    },
+    {
+      "cnpj_agencia": "07237373005199",
+      "cnpj": "07237373005199",
+      "razao_social": null,
+      "nome_fantasia": "BNB",
+      "id_municipio": "2807105",
+      "sigla_uf": "SE",
+      "logradouro": "FELISBERTO PRATA",
+      "numero": "214",
+      "bairro": "CENTRO",
+      "operacoes": 11,
+      "primeiro_ano": 2019,
+      "ultimo_ano": 2024
+    },
+    {
+      "cnpj_agencia": "07237373028806",
+      "cnpj": "07237373028806",
+      "razao_social": null,
+      "nome_fantasia": "BANCO DO NORDESTE DO BRASIL S.A",
+      "id_municipio": "2921500",
+      "sigla_uf": "BA",
+      "logradouro": "MONSENHOR BERENGUER",
+      "numero": "S/N",
+      "bairro": "CENTRO",
+      "operacoes": 8,
+      "primeiro_ano": 2021,
+      "ultimo_ano": 2024
+    },
+    {
+      "cnpj_agencia": "07237373011679",
+      "cnpj": "07237373011679",
+      "razao_social": null,
+      "nome_fantasia": "BNB",
+      "id_municipio": "2802908",
+      "sigla_uf": "SE",
+      "logradouro": "FRANCISCO SANTOS",
+      "numero": "209",
+      "bairro": "CENTRO",
+      "operacoes": 3,
+      "primeiro_ano": 2021,
+      "ultimo_ano": 2024
+    },
+    {
+      "cnpj_agencia": "07237373001363",
+      "cnpj": "07237373001363",
+      "razao_social": null,
+      "nome_fantasia": "BNB",
+      "id_municipio": "2907806",
+      "sigla_uf": "BA",
+      "logradouro": "DO FORUM",
+      "numero": "S/N",
+      "bairro": "NÃO INFORMADO",
+      "operacoes": 2,
+      "primeiro_ano": 2023,
+      "ultimo_ano": 2024
+    }
+  ],
+  "query_ref": "qr_c2e870e7cac94bee88227c2d461ec5fb"
+}

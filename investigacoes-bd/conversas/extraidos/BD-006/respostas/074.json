@@ -1,0 +1,86 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "ano_emissao": 2017,
+      "comprimento": 41,
+      "registros": 725,
+      "formato_sem_hifen": 714,
+      "formato_com_hifen": 0,
+      "com_caractere_nao_alfanumerico": 0
+    },
+    {
+      "ano_emissao": 2018,
+      "comprimento": 41,
+      "registros": 51571,
+      "formato_sem_hifen": 51476,
+      "formato_com_hifen": 0,
+      "com_caractere_nao_alfanumerico": 0
+    },
+    {
+      "ano_emissao": 2019,
+      "comprimento": 41,
+      "registros": 1680904,
+      "formato_sem_hifen": 1680904,
+      "formato_com_hifen": 0,
+      "com_caractere_nao_alfanumerico": 0
+    },
+    {
+      "ano_emissao": 2020,
+      "comprimento": 41,
+      "registros": 1892881,
+      "formato_sem_hifen": 1892881,
+      "formato_com_hifen": 0,
+      "com_caractere_nao_alfanumerico": 0
+    },
+    {
+      "ano_emissao": 2021,
+      "comprimento": 41,
+      "registros": 1878377,
+      "formato_sem_hifen": 1878129,
+      "formato_com_hifen": 0,
+      "com_caractere_nao_alfanumerico": 0
+    },
+    {
+      "ano_emissao": 2022,
+      "comprimento": 41,
+      "registros": 1900197,
+      "formato_sem_hifen": 1900197,
+      "formato_com_hifen": 0,
+      "com_caractere_nao_alfanumerico": 0
+    },
+    {
+      "ano_emissao": 2023,
+      "comprimento": 41,
+      "registros": 2028517,
+      "formato_sem_hifen": 2028517,
+      "formato_com_hifen": 0,
+      "com_caractere_nao_alfanumerico": 0
+    },
+    {
+      "ano_emissao": 2024,
+      "comprimento": 41,
+      "registros": 2258604,
+      "formato_sem_hifen": 2258604,
+      "formato_com_hifen": 0,
+      "com_caractere_nao_alfanumerico": 0
+    },
+    {
+      "ano_emissao": 2025,
+      "comprimento": 41,
+      "registros": 2296240,
+      "formato_sem_hifen": 2296240,
+      "formato_com_hifen": 0,
+      "com_caractere_nao_alfanumerico": 0
+    },
+    {
+      "ano_emissao": 2026,
+      "comprimento": 41,
+      "registros": 1839880,
+      "formato_sem_hifen": 1839880,
+      "formato_com_hifen": 0,
+      "com_caractere_nao_alfanumerico": 0
+    }
+  ],
+  "query_ref": "qr_8ca2aa13f273471eb0c53331a6b27030"
+}

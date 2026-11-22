@@ -1,0 +1,190 @@
+[
+  {
+    "id": "d3874769-bcbd-4ece-a38a-157ba1021514",
+    "name": "Microdados de Despesas de Entes Subnacionais (MiDES)",
+    "description": "Microdados de compras públicas e execução orçamentária de entes subnacionais brasileiros.\r\n\r\nDados coletados de Tribunais de Contas Estaduais (TCEs) e harmonizados seguindo a metodologia descrita em Dahis, Ricca, Scot, Sales e Nascimento (2023).",
+    "organizations": [
+      "Banco Mundial"
+    ],
+    "tags": [
+      "orçamento",
+      "contrato",
+      "despesa",
+      "finanças públicas",
+      "licitação",
+      "compra",
+      "gasto",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "afc7c3a1-8691-4f3b-8566-bdce90f1100d",
+    "name": "Diretórios Mundiais",
+    "description": "Diretórios cobrindo entidades internacionais.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "2ae9ce23-150e-4839-bf58-52b1226a2e6b",
+    "name": "Notas de Universidades dos Estados Unidos",
+    "description": "Resultados por instituição e por área de formação de todas as instituições de ensino superior dos Estados Unidos elegíveis ao auxílio estudantil federal do Título IV, publicados pelo Departamento de Educação. Cobre as coortes de 1996-97 a 2025-26 e inclui rendimento após a saída da instituição, dívida estudantil acumulada e sua amortização, taxas de conclusão, custo e preço líquido, admissão e perfil demográfico do corpo discente; as tabelas por área de formação cruzam rendimento e dívida com o código CIP de 4 dígitos e o nível da credencial. As instituições são identificadas pelo UNITID do IPEDS, de modo que os dados cruzam com o conjunto us_ed_ipeds. As cerca de 3.300 colunas do arquivo institucional foram normalizadas em uma tabela larga e sete tabelas longas por domínio de medida; nenhuma variável publicada foi descartada e a tabela variable documenta todas elas.",
+    "organizations": [
+      "Departamento de Educação (DE) dos Estados Unidos"
+    ],
+    "tags": [
+      "custo",
+      "dívida",
+      "indicadores educacionais",
+      "educação superior",
+      "renda",
+      "aluno",
+      "financiamento estudantil",
+      "universidade"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "0d57e87c-0522-4cf3-b20a-427670c9b49a",
+    "name": "Sistema de Dados de Energia por Estado dos EUA (SEDS)",
+    "description": "State Energy Data System (SEDS) da U.S. Energy Information Administration: as estimativas completas de consumo, preço, despesa e emissões de CO2 de energia por estado, cobrindo todas as fontes de energia de 1960 ao ano completo mais recente. Cada série é identificada pelo Mnemonic Series Name (MSN) de cinco caracteres, cujo significado completo está na tabela dicionario; como as unidades variam por série, a coluna value não carrega uma unidade única e a unidade de cada linha está em measurement_unit. Este conjunto é o lado da demanda por todas as fontes de energia, complementar ao us_eia_electricity (geração de eletricidade) e ao us_eia_consumption (vendas de eletricidade a consumidores finais pelo Formulário EIA-861).",
+    "organizations": [
+      "Energy Information Administration (EIA)"
+    ],
+    "tags": [
+      "consumo",
+      "eletricidade",
+      "emissão",
+      "despesa",
+      "combustível",
+      "gás natural",
+      "petróleo",
+      "preço"
+    ],
+    "themes": [
+      "Energia"
+    ]
+  },
+  {
+    "id": "058e7a36-6608-414e-a9b7-89c42e0504d2",
+    "name": "Diretórios Índia",
+    "description": "Diretórios de entidades da Índia para padronizar identificadores em conjuntos de dados sobre o país.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "População"
+    ]
+  },
+  {
+    "id": "3f7c078a-008e-407f-bbc7-45153d9a9b5e",
+    "name": "Pontualidade de Voos Domésticos",
+    "description": "Desempenho de pontualidade de cada voo doméstico regular dos Estados Unidos reportado ao Bureau of Transportation Statistics, uma linha por voo programado desde outubro de 1987. Traz a empresa aérea que reportou o voo, os aeroportos de origem e destino, os horários programados e efetivos de partida e chegada, os atrasos em minutos, cancelamentos, desvios e a atribuição do atraso a causas como empresa aérea, clima, sistema nacional de espaço aéreo, segurança e atraso da aeronave no trecho anterior. As causas do atraso são reportadas a partir de junho de 2003 e as colunas de desvio a partir de 2008.",
+    "organizations": [
+      "Departamento de Estatísticas de Transporte (BTS) dos Estados Unidos"
+    ],
+    "tags": [
+      "avião",
+      "aeroporto",
+      "tráfego aéreo",
+      "aviação",
+      "atraso",
+      "voo"
+    ],
+    "themes": [
+      "Infraestrutura e Transportes"
+    ]
+  },
+  {
+    "id": "e857324e-f50d-4369-bb41-104381878cfc",
+    "name": "Diretórios Chile",
+    "description": "Tabelas de diretório com a divisão político-administrativa do Chile segundo o INE: regiões, províncias e comunas com seus códigos únicos territoriais (CUT) oficiais e a hierarquia entre eles, usadas como chaves estrangeiras por outros conjuntos de dados chilenos. A tabela de regiões traz ainda variantes de nome: nome oficial completo, sigla ISO 3166-2:CL e o ordinal romano histórico.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "divisão administrativa",
+      "código",
+      "diretório",
+      "município"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "84523368-44df-4508-adce-a13f4b2eb0e8",
+    "name": "Eleições Federais e Transparência do Financiamento Político",
+    "description": "Resultados das eleições federais australianas apurados pela Comissão Eleitoral Australiana (AEC), para a Câmara dos Representantes e o Senado, no nível da divisão eleitoral e do local de votação individual. Cobre as oito eleições gerais de 2004 a 2025, 24 eleições suplementares, a eleição de Senado da Austrália Ocidental de 2014 e o referendo de 2023. Inclui também as declarações de financiamento político do Transparency Register da AEC — doações, recebimentos, despesas eleitorais e totais das declarações anuais — dos exercícios financeiros de 1998-99 a 2024-25.",
+    "organizations": [
+      "Comissão Eleitoral Australiana (AEC)"
+    ],
+    "tags": [
+      "financiamento de campanha",
+      "candidatura",
+      "doação",
+      "eleições",
+      "sistema eleitoral",
+      "parlamento",
+      "partido político",
+      "referendo",
+      "transparência",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "43cffef4-fb23-4af4-94c4-9bcce806f9c7",
+    "name": "China Biographical Database Project (CBDB)",
+    "description": "O China Biographical Database (CBDB) é um banco de dados relacional de livre acesso com informações biográficas sobre aproximadamente 470.000 indivíduos em maio de 2020, principalmente do século 7 ao 19. Com as versões online e offline, os dados devem ser úteis para estatísticas, redes sociais e análises espaciais, além de servir como uma espécie de referência biográfica.\n\nO objetivo de longo prazo do CBDB é incluir sistematicamente todo o material biográfico significativo do registro histórico da China e disponibilizar o conteúdo gratuitamente, sem restrições, para uso acadêmico. Esses dados são regularmente enriquecidos e novas entradas biográficas estão sendo criadas para as figuras Tang, Five Dynasties, Liao, Song, Jin, Yuan, Ming e Qing.\n\nO CBDB tem origem no trabalho de Robert M. Hartwell (1932–1996). O professor Hartwell legou sua propriedade, incluindo a primeira versão deste banco de dados, ao Harvard-Yenching Institute, que cedeu sua propriedade.",
+    "organizations": [
+      "Harvard University"
+    ],
+    "tags": [
+      "biografia",
+      "China",
+      "diretório",
+      "genealogia"
+    ],
+    "themes": [
+      "Cultura e Arte",
+      "História"
+    ]
+  }
+]

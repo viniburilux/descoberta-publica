@@ -1,0 +1,207 @@
+[
+  {
+    "id": "e5c87240-ecce-4856-97c5-e6b84984bf42",
+    "name": "Desmatamento PRODES",
+    "description": "O projeto PRODES realiza o monitoramento por satélites do desmatamento por corte raso na Amazônia Legal e produz, desde 1988, as taxas anuais de desmatamento na região, que são usadas pelo governo brasileiro para o estabelecimento de políticas públicas. As taxas anuais são estimadas a partir dos incrementos de desmatamento identificados em cada imagem de satélite que cobre a Amazônia Legal. A primeira apresentação dos dados é realizada para dezembro de cada ano, na forma de estimativa. Os dados consolidados são apresentados no primeiro semestre do ano seguinte.\r\n\r\nResultados recentes, a partir de análises realizadas com especialistas independentes, indicam nível de precisão próximo a 95%.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "conservação",
+      "desmatamento",
+      "uso da terra"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "20142838-b5a5-42f8-91cf-248be26590b8",
+    "name": "Crop and Livestock Production",
+    "description": "These datasets are originally elaborated by the Food and Agriculture Organization of the United Nations (FAO), and are freely accessible on FAOSTAT portal. Here you can find Crop and Livestock data for more than 245 countries and territories, regarding 278 products from 1961 until 2021.",
+    "organizations": [
+      "Food and Agriculture Organization (FAO)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "alimentação",
+      "produção"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "c990253a-8e63-4880-9d45-bca2559aa8e3",
+    "name": "Penn World Tables (PWT)",
+    "description": "Os dados da Penn World Table (versão 10.0) tratam sobre renda, produção, insumos e produtividade. A base fornece contas de paridade do poder de compra e renda nacional convertidas a preços internacionais para 183 países de 1950 a 2019.",
+    "organizations": [
+      "University of Groningen"
+    ],
+    "tags": [],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "fc403b40-a7e1-40e7-9efe-910847b45a69",
+    "name": "Pesquisa Agrícola Municipal (PAM)",
+    "description": "A pesquisa Produção Agrícola Municipal - PAM investiga, anualmente, os principais produtos das lavouras temporárias e permanentes do País, que se caracterizam não só pela grande importância econômica que possuem na pauta de exportações, como também por sua relevância social, componentes que são da cesta básica do brasileiro.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "feijão",
+      "cultivo",
+      "alimento",
+      "alimentação",
+      "fruticultura",
+      "uso da terra",
+      "comida",
+      "arroz",
+      "soja",
+      "água"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "f7df4160-7a6f-4658-a287-3a73d412ed10",
+    "name": "Pesquisa Pecuária Municipal (PPM)",
+    "description": "A Pesquisa da Pecuária Municipal fornece informações sobre os efetivos da pecuária existentes no município na data de referência do levantamento, bem como a produção de origem animal, e o valor da produção durante o ano de referência. Os efetivos incluem bovinos, suínos, matrizes de suínos, galináceos, galinhas, codornas, equinos, bubalinos, caprinos e ovinos. A produção de origem animal, por sua vez, contempla a produção de leite, ovos de galinha, ovos de codorna, mel, lã bruta e casulos do bicho-da-seda; as quantidades de vacas ordenhadas e ovinos tosquiados; e a aquicultura, que engloba as produções da piscicultura, carcinocultura e malacocultura.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "animal",
+      "produção aquicultura",
+      "desmatamento",
+      "gestão ambiental",
+      "fazenda",
+      "peixe",
+      "alimento",
+      "alimentação",
+      "ovos de galinha",
+      "rebanho",
+      "rebanhos",
+      "mel de abelha",
+      "uso da terra",
+      "larvas",
+      "vacas ordenhadas",
+      "produção",
+      "propriedade",
+      "proteína",
+      "imóvel",
+      "camarão",
+      "solo",
+      "sustentabilidade"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia"
+    ]
+  },
+  {
+    "id": "cecb702d-d4b7-45ec-adbb-719ebd5b3906",
+    "name": "Produção da Extração Vegetal e da Silvicultura (PEVS)",
+    "description": "Investiga informações sobre a quantidade e o valor da produção decorrente dos processos de exploração dos recursos vegetais nativos e dos maciços florestais plantados, tendo como unidade de coleta o município. A área total existente e a área colhida de cultivos florestais também são objetos da pesquisa",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "desmatamento",
+      "exportação",
+      "floresta",
+      "colheita",
+      "plantação"
+    ],
+    "themes": [
+      "Economia",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "1e3aa290-c25a-4a06-9ff9-b1ee481e615b",
+    "name": "Inventário de Liberações Tóxicas (TRI)",
+    "description": "O Toxics Release Inventory (TRI) é o inventário anual da Agência de Proteção Ambiental dos Estados Unidos (EPA) sobre liberações no meio ambiente, transferências para fora do local e gestão de resíduos de mais de 700 substâncias químicas tóxicas, declaradas por cerca de 21 mil instalações industriais e federais sob a seção 313 do EPCRA. O conjunto traz uma tabela de instalações por ano, uma dimensão de produtos químicos, uma linha por formulário entregue (instalação, produto químico e ano) com os totais calculados pela EPA e as quantidades de resíduo relacionado à produção, e o detalhe em formato longo das liberações e transferências por categoria do Form R, de 1987 até o presente. Todas as quantidades estão em libras, com o valor original em gramas preservado para dioxinas.",
+    "organizations": [
+      "U.S. Environmental Protection Agency (EPA)"
+    ],
+    "tags": [
+      "produto químico",
+      "companhia",
+      "emissão",
+      "gestão ambiental",
+      "Estabelecimento",
+      "poluição",
+      "reciclagem",
+      "regulação",
+      "resíduo"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "0c3d7825-7bad-42a1-ac2b-14d0ed609edf",
+    "name": "Diretórios de Comércio Internacional",
+    "description": "Diretórios de referência para classificações de comércio internacional de mercadorias, incluindo o Sistema Harmonizado (SH) e a Classificação Uniforme para o Comércio Internacional (CUCI/SITC), usados como chaves estrangeiras por conjuntos de dados de comércio.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "eaa16880-e668-4865-980c-240b6117c46e",
+    "name": "Comércio Internacional e Complexidade Econômica (BACI e Atlas)",
+    "description": "Fluxos bilaterais de comércio internacional de mercadorias por produto, ano, exportador e importador, e indicadores de complexidade econômica. As tabelas em Sistema Harmonizado (SH6) vêm do BACI, do CEPII, que harmoniza as declarações do UN COMTRADE e cobre 1995-2024. As tabelas em CUCI/SITC revisão 2 e os índices de complexidade (ICE e ICP) vêm do Atlas of Economic Complexity, do Harvard Growth Lab, e cobrem 1962-2024. As duas origens usam metodologias de limpeza distintas e não devem ser combinadas em uma única série.",
+    "organizations": [
+      "Centre d'Etudes Prospectives et d'Informations Internationales (CEPII)",
+      "Harvard University"
+    ],
+    "tags": [
+      "complexidade econômica",
+      "exportação",
+      "importação",
+      "comércio"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "d4bc397b-926f-471f-b336-b4d3b33e2488",
+    "name": "Supply Chain",
+    "description": "Trase is at the forefront of a data-driven revolution in supply chain sustainability, drawing on vast sets of production, trade and customs data, for the first time laying bare the flows of globally traded commodities at scales that are directly relevant to decision-making. Its pioneering approach to data analysis and visualization provides full coverage of the export routes and buyers responsible for all production and trade, and the associated sustainability risks, of a given commodity.\r\n\r\nThe supply chain mapping at the core of Trase balances scale and data resolution. It builds on an enhanced form of material flow analysis called Spatially Explicit Information on Production to Consumption Systems (SEI-PCS) originally developed by Godar et al. 2015. \r\n\r\nIt systematically links individual supply chain actors to specific, subnational production regions, and the sustainability risks and investment opportunities associated with those regions. It identifies the individual companies that export, ship and import a given traded commodity  and\r\nIt covers all of the exports of a given commodity from a given country of production.",
+    "organizations": [
+      "Transparent Supply Chains for Sustainable Economies (TRASE)"
+    ],
+    "tags": [
+      "agropecuária",
+      "firma",
+      "desmatamento",
+      "exportação",
+      "empresa",
+      "importação",
+      "pecuária",
+      "comércio"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia",
+      "Infraestrutura e Transportes"
+    ]
+  }
+]

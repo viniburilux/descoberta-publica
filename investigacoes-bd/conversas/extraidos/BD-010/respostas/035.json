@@ -1,0 +1,18 @@
+{
+  "row_count": 3,
+  "rows": [
+    {
+      "data_extracao": "2026-08-01",
+      "linhas": 4
+    },
+    {
+      "data_extracao": "2026-08-02",
+      "linhas": 11
+    },
+    {
+      "data_extracao": "2026-08-03",
+      "linhas": 3
+    }
+  ],
+  "query_ref": "qr_caf550dd81ce42759f509892df29871f"
+}

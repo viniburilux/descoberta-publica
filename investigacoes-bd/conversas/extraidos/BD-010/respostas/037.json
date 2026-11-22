@@ -1,0 +1,96 @@
+{
+  "row_count": 9,
+  "rows": [
+    {
+      "id_imovel": "BA-2929057-C5D11EE026A64399A6EF36764E8739E9",
+      "data_criacao": "2019-10-14",
+      "data_atualizacao": "2026-07-01",
+      "data_extracao": "2026-08-02",
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "area": 0.0001,
+      "tipo": "IRU"
+    },
+    {
+      "id_imovel": "PA-1506187-2FA6A081B1F745D4800249F665C9DE96",
+      "data_criacao": "2015-12-01",
+      "data_atualizacao": "2025-04-03",
+      "data_extracao": "2026-08-03",
+      "status": "PE",
+      "condicao": "Aguardando analise",
+      "area": 0.0025,
+      "tipo": "IRU"
+    },
+    {
+      "id_imovel": "PA-1506187-34A1DD76FA7D40848D10832D82940BDA",
+      "data_criacao": "2017-05-07",
+      "data_atualizacao": "2025-04-15",
+      "data_extracao": "2026-08-03",
+      "status": "PE",
+      "condicao": "Analisado, aguardando atendimento a notificacao",
+      "area": 0.0009,
+      "tipo": "IRU"
+    },
+    {
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "data_criacao": "2016-04-28",
+      "data_atualizacao": "2023-06-06",
+      "data_extracao": "2026-08-03",
+      "status": "PE",
+      "condicao": "Aguardando analise",
+      "area": 1350.2239,
+      "tipo": "IRU"
+    },
+    {
+      "id_imovel": "PA-1506187-48EDE9CDCF3947959921871671228876",
+      "data_criacao": "2026-03-26",
+      "data_atualizacao": "2026-03-26",
+      "data_extracao": "2026-08-03",
+      "status": "PE",
+      "condicao": "Analisado, aguardando atendimento a notificacao",
+      "area": 1288.0856,
+      "tipo": "IRU"
+    },
+    {
+      "id_imovel": "PA-1506187-8A59FA2709F1467CB9659E8E433E29A2",
+      "data_criacao": "2020-10-23",
+      "data_atualizacao": "2025-04-02",
+      "data_extracao": "2026-08-03",
+      "status": "PE",
+      "condicao": "Aguardando analise",
+      "area": 0.0025,
+      "tipo": "IRU"
+    },
+    {
+      "id_imovel": "PA-1506187-A4DD4E93695C4B7DA32C7F0DB8CDE959",
+      "data_criacao": "2016-12-30",
+      "data_atualizacao": "2025-04-03",
+      "data_extracao": "2026-08-03",
+      "status": "PE",
+      "condicao": "Aguardando analise",
+      "area": 0.0025,
+      "tipo": "IRU"
+    },
+    {
+      "id_imovel": "PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98",
+      "data_criacao": "2015-11-26",
+      "data_atualizacao": "2025-04-16",
+      "data_extracao": "2026-08-03",
+      "status": "PE",
+      "condicao": "Analisado, aguardando atendimento a notificacao",
+      "area": 0.0009,
+      "tipo": "IRU"
+    },
+    {
+      "id_imovel": "PA-1506187-DAE50532EA2F4A3093A94AA2A6197177",
+      "data_criacao": "2020-10-27",
+      "data_atualizacao": "2025-04-15",
+      "data_extracao": "2026-08-03",
+      "status": "PE",
+      "condicao": "Analisado, aguardando atendimento a notificacao",
+      "area": 0.0009,
+      "tipo": "IRU"
+    }
+  ],
+  "query_ref": "qr_a0f46b173b294f7fb4708a95b2b103c1"
+}

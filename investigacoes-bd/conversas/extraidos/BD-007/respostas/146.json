@@ -1,0 +1,21 @@
+{
+  "row_count": 5,
+  "rows": [
+    {
+      "data_extracao": "2026-06-02"
+    },
+    {
+      "data_extracao": "2026-08-01"
+    },
+    {
+      "data_extracao": "2026-08-02"
+    },
+    {
+      "data_extracao": "2026-08-03"
+    },
+    {
+      "data_extracao": "2026-08-04"
+    }
+  ],
+  "query_ref": "qr_4cab00f7a1ba4896ab7775ddda7a72bb"
+}

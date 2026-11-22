@@ -1,0 +1,42 @@
+{
+  "id": "ff933265-8b61-4458-877a-173b3f38102b",
+  "name": "Sistema de Informações Hospitalares do SUS (SIH/SUS)",
+  "description": "O SIH/SUS, ou Sistema de Informações Hospitalares do Sistema Único de Saúde, é um banco de dados que abrange todos os hospitais que utilizam o SUS, gerido pela Secretaria de Atenção Especializada à Saúde, do Ministério da Saúde. Esse sistema coleta informações sobre internações hospitalares, incluin... (279 more characters)",
+  "organizations": [
+    "Ministério da Saúde (MS)"
+  ],
+  "tags": [
+    "saúde",
+    "hospital",
+    "internação",
+    "sus"
+  ],
+  "themes": [
+    "Saúde",
+    "População"
+  ],
+  "tables": [
+    {
+      "id": "74f616d0-933c-4198-9f8e-00858eff807d",
+      "dataset_id": "ff933265-8b61-4458-877a-173b3f38102b",
+      "gcp_id": "basedosdados.br_ms_sih.aihs_reduzidas",
+      "name": "AIH's Reduzidas",
+      "description": "Movimento de AIH - Arquivos Reduzidos\r\n\r\nÉ importante destacar que, embora os metadados sugiram que o nível de observação da tabela é dado pelo conjunto das variáveis id_aih e sequencia, essa tabela apresenta uma inconsistência ao tratar das observações em que a coluna indicador_id_aih, que serve pa... (209 more characters)"
+    },
+    {
+      "id": "db1e4b92-90d9-4969-9f6a-c250a74c75cc",
+      "dataset_id": "ff933265-8b61-4458-877a-173b3f38102b",
+      "gcp_id": "basedosdados.br_ms_sih.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto SIH/SUS. Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "75db9d44-42be-42c5-9fbc-7591f4dc8d5f",
+      "dataset_id": "ff933265-8b61-4458-877a-173b3f38102b",
+      "gcp_id": "basedosdados.br_ms_sih.servicos_profissionais",
+      "name": "Serviços Profissionais",
+      "description": "Movimento de AIH - Procedimentos Serviços Profissionais.\r\n\r\nA Tabela de Serviços Profissionais do SIH/SUS é uma parte integrante do Sistema de Informações Hospitalares do Sistema Único de Saúde. Ela é utilizada para registrar os serviços e procedimentos realizados por profissionais de saúde dentro d... (964 more characters)"
+    }
+  ],
+  "usage_guide": null
+}

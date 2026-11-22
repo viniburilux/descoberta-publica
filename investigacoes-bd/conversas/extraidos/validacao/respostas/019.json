@@ -1,0 +1,26 @@
+{
+  "row_count": 5,
+  "rows": [
+    {
+      "data_extracao": "2026-06-02",
+      "registros": 468571
+    },
+    {
+      "data_extracao": "2026-08-01",
+      "registros": 2254420
+    },
+    {
+      "data_extracao": "2026-08-02",
+      "registros": 2819155
+    },
+    {
+      "data_extracao": "2026-08-03",
+      "registros": 1154162
+    },
+    {
+      "data_extracao": "2026-08-04",
+      "registros": 1788278
+    }
+  ],
+  "query_ref": "qr_5e759c0c83ee4cb4aca1c733e58fc006"
+}

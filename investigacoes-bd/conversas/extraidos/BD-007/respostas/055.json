@@ -1,0 +1,55 @@
+{
+  "id": "96eab476-5d30-459b-82be-f888d4d0d6b9",
+  "name": "Índice de Desenvolvimento da Educação Básica (Ideb)",
+  "description": "O Índice de Desenvolvimento da Educação Básica (Ideb) foi criado em 2007 e reúne, em um só indicador, os resultados de dois conceitos igualmente importantes para a qualidade da educação: o fluxo escolar e as médias de desempenho nas avaliações.\r\n\r\nEle é calculado a partir dos dados sobre aprovação e... (1313 more characters)",
+  "organizations": [
+    "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+  ],
+  "tags": [
+    "educação básica",
+    "avaliação",
+    "exame",
+    "ensino médio"
+  ],
+  "themes": [
+    "Educação"
+  ],
+  "tables": [
+    {
+      "id": "bc84dea9-1126-4423-86d2-8835e6b19a72",
+      "dataset_id": "96eab476-5d30-459b-82be-f888d4d0d6b9",
+      "gcp_id": "basedosdados.br_inep_ideb.brasil",
+      "name": "Brasil",
+      "description": "Dados do Ideb agregados para o Brasil a nível de rede-anos_escolares-ano"
+    },
+    {
+      "id": "0b47cff1-46dc-4240-a9f1-19543afb6437",
+      "dataset_id": "96eab476-5d30-459b-82be-f888d4d0d6b9",
+      "gcp_id": "basedosdados.br_inep_ideb.escola",
+      "name": "Escola",
+      "description": "Dados do Ideb agregados para o Brasil a nível de escola-ano."
+    },
+    {
+      "id": "8873f899-fdca-4ae4-808a-cdaaa1735d6a",
+      "dataset_id": "96eab476-5d30-459b-82be-f888d4d0d6b9",
+      "gcp_id": "basedosdados.br_inep_ideb.municipio",
+      "name": "Município",
+      "description": "Dados do Ideb agregados para o Brasil a nível de municipio-rede-ensino-ano."
+    },
+    {
+      "id": "4eca6f7f-721c-4a07-8ee1-3a565f92e4f2",
+      "dataset_id": "96eab476-5d30-459b-82be-f888d4d0d6b9",
+      "gcp_id": "basedosdados.br_inep_ideb.regiao",
+      "name": "Região",
+      "description": "Dados do Ideb agregados para o Brasil a nível de regiao-rede-ensino-ano"
+    },
+    {
+      "id": "1f8967ee-162d-48ec-b788-33a3f1b6f6cd",
+      "dataset_id": "96eab476-5d30-459b-82be-f888d4d0d6b9",
+      "gcp_id": "basedosdados.br_inep_ideb.uf",
+      "name": "UF",
+      "description": "Dados do Ideb agregados para o Brasil a nível de UF-rede-ensino-ano"
+    }
+  ],
+  "usage_guide": null
+}

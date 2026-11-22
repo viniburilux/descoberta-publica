@@ -1,0 +1,58 @@
+{
+  "id": "ce7babc2-35b6-4e48-a604-3c4d32306bb3",
+  "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "gcp_id": "basedosdados.br_bcb_sicor.recurso_publico_gleba",
+  "name": "Recurso Público Gleba",
+  "description": "Em 2023 o Banco Central do Brasil (BCB) liberou informações adicionais das operações de crédito que foram financiadas com recursos públicos. Esta tabela contém dados adicionais sobre as coordenadas geográficas das glebas do imóvel do mutuário.",
+  "columns": [
+    {
+      "name": "ano_emissao",
+      "type": "INT64",
+      "description": "Ano da emissão da operação",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "geometria",
+      "type": "GEOGRAPHY",
+      "description": "Geometria da gleba padronizada pela Base dos Dados. O tratamento remove a dimensão Z (altitude), não suportada pelo Big Query, corrige coordenadas para o hemisfério Sul/Oeste (Brasil), aplica 'make_valid' para reparar topologias inválidas e anula  registros cujos centroides caem fora do Bounding Box... (116 more characters)",
+      "needs_decoding": false
+    },
+    {
+      "name": "geometria_original",
+      "type": "STRING",
+      "description": "Geometria da gleba extraida da fonte original sem tratamento",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_referencia_bacen",
+      "type": "STRING",
+      "description": "Identificador único de cada operação de crédito",
+      "needs_decoding": false
+    },
+    {
+      "name": "indice_gleba",
+      "type": "STRING",
+      "description": "índice da gleba",
+      "needs_decoding": false
+    },
+    {
+      "name": "mes_emissao",
+      "type": "INT64",
+      "description": "Mês de emissão da operação",
+      "unit": "month",
+      "needs_decoding": false
+    },
+    {
+      "name": "numero_ordem",
+      "type": "STRING",
+      "description": "Identificador da quantidade de ordens que compõem uma operação de crédito",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano_emissao"
+  ],
+  "period_start": "2013-01",
+  "period_end": "2026-10"
+}

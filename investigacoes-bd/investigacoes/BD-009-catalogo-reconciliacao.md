@@ -16,13 +16,18 @@ Quatro pares de tabelas → nulos e duplicidade → transformações → cobertu
 
 ## A. Material bruto recuperado
 
-Código, consultas, contagens, documentos e resultados originais no pacote abaixo. Os dois exports de conversa do pacote de reconciliação somam 14 mensagens; a recuperação das sessões completas está em andamento.
+- [validacao: JSON de 10 mensagens](../conversas/validacao_5d4bd8d9-338c-4330-9ea0-74230674b27a.json) · [leitura cronológica](../conversas/extraidos/validacao/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/validacao/)
+- [validacao-suites: JSON de 8 mensagens](../conversas/validacao-suites_23340b3d-36ca-478c-8a85-7b3db0ed4e3d.json) · [leitura cronológica](../conversas/extraidos/validacao-suites/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/validacao-suites/)
 
 ## B. Consultas e código
 
-[Código Python](../originais/bd_reconciliation/source/) · [SQLs originais](../originais/bd_reconciliation/outputs/sql/) · [Guia de reprodução](../REPRODUZIR.md).
+22 consultas SQL extraídas das conversas. Chamadas e respostas originais, com identificadores e argumentos, estão nas pastas ligadas acima. Os SQLs estão separados em `sql/` dentro de cada pasta.
+
+[Código da reconciliação](../originais/bd_reconciliation/source/) · [21 SQLs parametrizados](../originais/bd_reconciliation/outputs/sql/) · [Reprodução local](../REPRODUZIR.md).
 
 ## C. Resultados e arquivos
+
+21 tabelas CSV das linhas registradas nas respostas do chatbot; respostas completas e índices com a consulta e a mensagem de origem.
 
 - [Catálogo original](../originais/bd_reconciliation/catalog/)
 - [4 configurações](../originais/bd_reconciliation/configs/)
@@ -39,6 +44,8 @@ Geração local dos 21 SQLs conferida em 22/11/2026: 21/21 idênticos aos origin
 Catálogo reutilizável, dataset de relacionamentos e biblioteca de diagnóstico SQL.
 
 ## F. Pendências e próximo passo
+
+Os exports nativos apenas referenciados em `downloads-referenciados.json` ainda não foram baixados neste lote. As respostas e linhas registradas já estão nos arquivos extraídos.
 
 Adicionar um quinto relacionamento com config, export registrado e relatório no mesmo formato.
 

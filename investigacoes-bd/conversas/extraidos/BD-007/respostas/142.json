@@ -1,0 +1,97 @@
+{
+  "row_count": 55,
+  "rows": [
+    {
+      "ano_emissao": 2019,
+      "produto": "SOJA",
+      "finalidade": "Custeio",
+      "operacoes": 4,
+      "linhas": 4,
+      "credito_agregado": 2144197.0,
+      "area_financiada": 793.62
+    },
+    {
+      "ano_emissao": 2019,
+      "produto": "MÁQUINAS E IMPLEMENTOS",
+      "finalidade": "Investimento",
+      "operacoes": 2,
+      "linhas": 2,
+      "credito_agregado": 710000.0,
+      "area_financiada": 0.0
+    },
+    {
+      "ano_emissao": 2019,
+      "produto": "CORREÇÃO INTENSIVA DO SOLO",
+      "finalidade": "Investimento",
+      "operacoes": 1,
+      "linhas": 1,
+      "credito_agregado": 601568.19,
+      "area_financiada": 1.0
+    },
+    {
+      "ano_emissao": 2019,
+      "produto": "BOVINOS",
+      "finalidade": "Custeio",
+      "operacoes": 6,
+      "linhas": 6,
+      "credito_agregado": 572229.76,
+      "area_financiada": 215.09
+    },
+    {
+      "ano_emissao": 2019,
+      "produto": "COLHEITADEIRAS, COLHEDEIRAS E ARRANCADEIRAS",
+      "finalidade": "Investimento",
+      "operacoes": 1,
+      "linhas": 1,
+      "credito_agregado": 40000.0,
+      "area_financiada": 0.0
+    },
+    {
+      "ano_emissao": 2019,
+      "produto": "TRIGO",
+      "finalidade": "Custeio",
+      "operacoes": 1,
+      "linhas": 1,
+      "credito_agregado": 24300.0,
+      "area_financiada": 15.0
+    },
+    {
+      "ano_emissao": 2019,
+      "produto": "BOVINOS",
+      "finalidade": "Investimento",
+      "operacoes": 1,
+      "linhas": 1,
+      "credito_agregado": 15000.0,
+      "area_financiada": 0.0
+    },
+    {
+      "ano_emissao": 2020,
+      "produto": "SOJA",
+      "finalidade": "Custeio",
+      "operacoes": 5,
+      "linhas": 5,
+      "credito_agregado": 1240966.15,
+      "area_financiada": 439.84
+    },
+    {
+      "ano_emissao": 2020,
+      "produto": "BOVINOS",
+      "finalidade": "Custeio",
+      "operacoes": 5,
+      "linhas": 5,
+      "credito_agregado": 1082175.9,
+      "area_financiada": 459.10999999999996
+    },
+    {
+      "ano_emissao": 2020,
+      "produto": "MILHO",
+      "finalidade": "Custeio",
+      "operacoes": 4,
+      "linhas": 4,
+      "credito_agregado": 800921.2500000001,
+      "area_financiada": 470.0
+    },
+    "... (45 more items)"
+  ],
+  "query_ref": "qr_85fb74743c474a13ae38a702cef1a4c8"
+}

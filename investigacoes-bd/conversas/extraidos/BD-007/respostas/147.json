@@ -1,0 +1,47 @@
+{
+  "row_count": 14,
+  "rows": [
+    {
+      "ano_emissao": 2013,
+      "linhas": 2804692
+    },
+    {
+      "ano_emissao": 2014,
+      "linhas": 2584654
+    },
+    {
+      "ano_emissao": 2015,
+      "linhas": 2330156
+    },
+    {
+      "ano_emissao": 2016,
+      "linhas": 1576888
+    },
+    {
+      "ano_emissao": 2017,
+      "linhas": 2109447
+    },
+    {
+      "ano_emissao": 2018,
+      "linhas": 2033300
+    },
+    {
+      "ano_emissao": 2019,
+      "linhas": 1860899
+    },
+    {
+      "ano_emissao": 2020,
+      "linhas": 1924778
+    },
+    {
+      "ano_emissao": 2021,
+      "linhas": 1989446
+    },
+    {
+      "ano_emissao": 2022,
+      "linhas": 1990945
+    },
+    "... (4 more items)"
+  ],
+  "query_ref": "qr_9b69824de11e4f0bab71c7d0287ba683"
+}

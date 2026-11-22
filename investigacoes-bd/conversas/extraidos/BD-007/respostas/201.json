@@ -1,0 +1,56 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "id_imovel": "BA-2929701-3438EBE3EC1C4160B13A7DC99112E048",
+      "operacoes": 35,
+      "credito": 176451.0
+    },
+    {
+      "id_imovel": "BA-2929701-2AB554A7753D4521B6A0BDAB35F79EEB",
+      "operacoes": 6,
+      "credito": 44000.0
+    },
+    {
+      "id_imovel": "BA-2929701-0DF1CFBE9CAB4CCCA93F01D10BCC6F75",
+      "operacoes": 6,
+      "credito": 40000.0
+    },
+    {
+      "id_imovel": "BA-2929701-7F30C9C2B82E494B8ED3425ED0E716A7",
+      "operacoes": 6,
+      "credito": 38360.0
+    },
+    {
+      "id_imovel": "BA-2929701-DB3D8881DBB84C4C9F749B133FF748A6",
+      "operacoes": 6,
+      "credito": 34000.0
+    },
+    {
+      "id_imovel": "BA-2929701-3BD8F6BC72E445C99396152FC0747154",
+      "operacoes": 5,
+      "credito": 24000.0
+    },
+    {
+      "id_imovel": "BA-2929701-93876576737144B8A510D90839A58394",
+      "operacoes": 4,
+      "credito": 1980721.31
+    },
+    {
+      "id_imovel": "BA-2929701-6E80EDCDFEBB4E4D8DE23DBBA9E2FA5A",
+      "operacoes": 4,
+      "credito": 1099393.2483333333
+    },
+    {
+      "id_imovel": "BA-2929701-C187263A8E304C49BDD0198886E8C497",
+      "operacoes": 4,
+      "credito": 22000.0
+    },
+    {
+      "id_imovel": "BA-2929701-74529C3AD1564BBCA4B5A24DB4D62A50",
+      "operacoes": 4,
+      "credito": 20000.0
+    }
+  ],
+  "query_ref": "qr_80353101764d490c8796d29bcfbac1e1"
+}

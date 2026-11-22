@@ -1,0 +1,204 @@
+[
+  {
+    "id": "a9a5b35d-2b41-4be5-be07-7256e713ba53",
+    "name": "Benefícios ao Cidadão",
+    "description": "Dados do portal da transparência sobre os benefícios sociais pagos aos cidadãos brasileiros.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "auxílio",
+      "consumo",
+      "desigualdade",
+      "pobreza_-renda",
+      "pobreza",
+      "bolsa",
+      "transferência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Política",
+      "População"
+    ]
+  },
+  {
+    "id": "c57b568a-94ae-43b4-80e7-2595550480bf",
+    "name": "Observações Meteorológicas e Séries Climatológicas (Météo-France)",
+    "description": "Observações meteorológicas de superfície e estatísticas climatológicas do serviço meteorológico nacional da França. Reúne o arquivo SYNOP, com medições a cada três horas desde 1996 nas 190 estações de reporte internacional, e o arquivo climatológico completo, com séries diárias desde 1786 e mensais desde 1688 para os mais de 14 mil postos da rede, cobrindo precipitação, temperatura, vento, umidade, insolação, radiação e neve. Inclui ainda as normais climatológicas de 1991 a 2020 com os recordes absolutos de cada posto, e os cadastros das estações com coordenadas, altitude e período de operação.",
+    "organizations": [
+      "Météo-France"
+    ],
+    "tags": [
+      "clima",
+      "mudancas climáticas",
+      "umidade",
+      "meteorologia",
+      "precipitação",
+      "temperatura",
+      "vento"
+    ],
+    "themes": [
+      "Meio Ambiente",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "782c5607-9f69-4e12-b0d5-aa0f1a7a94e2",
+    "name": "Banco de Dados Meteorológicos (INMET)",
+    "description": "O BDMEP abriga dados meteorológicos diários em forma digital, de séries históricas das várias estações meteorológicas convencionais da rede de estações do INMET com milhões de informações, referentes às medições diárias, de acordo com as normas técnicas internacionais da Organização Meteorológica Mundial.",
+    "organizations": [
+      "Instituto Nacional de Meteorologia (INMET)"
+    ],
+    "tags": [
+      "clima",
+      "meio ambiente",
+      "umidade",
+      "meteorologia",
+      "precipitação",
+      "radiação",
+      "temperatura"
+    ],
+    "themes": [
+      "Meio Ambiente",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "0bd844d9-454a-4c47-83e2-fc15df4f5ed7",
+    "name": "Diário Oficial da União (DOU)",
+    "description": "Esta base contém o Diário Oficial da União (DOU), no formato de uma tabela. Eventualmente, poderá conter dados e informações extraídos do DOU em views ou tabelas sobre assuntos específicos. Outras informações sobre o DOU podem ser obtidas aqui: http://imprensa.in.gov.br/central/duvida.do?metodo=getFaqList.",
+    "organizations": [
+      "Imprensa Nacional"
+    ],
+    "tags": [
+      "nomeação",
+      "contrato",
+      "exoneração",
+      "lei",
+      "legislação",
+      "ato normativo",
+      "diário oficial",
+      "licitação"
+    ],
+    "themes": [
+      "Jornalismo e Comunicação",
+      "Governo e Finanças Públicas",
+      "História",
+      "Justiça",
+      "Política"
+    ]
+  },
+  {
+    "id": "672967d3-bdf4-401a-afe1-15b8cb942adf",
+    "name": "Diretórios Estados Unidos",
+    "description": "Tabelas de diretório que ligam códigos institucionais e geográficos e informações de entidades dos Estados Unidos, usadas como chaves estrangeiras por outros conjuntos de dados.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório"
+    ],
+    "themes": [
+      "Educação",
+      "Governo e Finanças Públicas",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "63f1218f-c446-4835-b746-f109a338e3a1",
+    "name": "Indicadores Educacionais",
+    "description": "Os indicadores educacionais atribuem valor estatístico à qualidade do ensino, atendo-se não somente ao desempenho dos alunos mas também ao contexto econômico e social em que as escolas estão inseridas. Eles são úteis principalmente para o monitoramento dos sistemas educacionais, considerando o acesso, a permanência e a aprendizagem de todos os alunos. Dessa forma, contribuem para a criação de políticas públicas voltadas para a melhoria da qualidade da educação e dos serviços oferecidos à sociedade pela escola.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação básica",
+      "creche",
+      "educação superior",
+      "ensino médio"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "5020ca16-6df4-43bd-8717-eab37ef84c30",
+    "name": "Campanha Nacional de Vacinação contra Covid-19",
+    "description": "Dados de vacinação contra a Covid-19 no Brasil.\r\n\r\nFonte original: https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "coronavírus",
+      "COVID19",
+      "COVID-19",
+      "pandemia",
+      "vacina"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "aabcf834-3b65-408e-9bad-b0fdf8ba2d3e",
+    "name": "Adequação da Formação Docente",
+    "description": null,
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "docente",
+      "formação"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "b0ab31f7-d5b0-43f3-a599-502601d9b206",
+    "name": "Fiscalização da OSHA",
+    "description": "Registro completo da fiscalização de segurança e saúde no trabalho nos Estados Unidos, desde 1972: cada inspeção realizada pela OSHA ou por um plano estadual, as violações citadas, as multas propostas e revisadas, e os acidentes e lesões investigados. Onze tabelas ligadas pelo número da inspeção (activity number). A multa corrente é um valor móvel: é contestada e revisada por anos após a citação e só se estabiliza quando o caso é encerrado — o histórico completo está em violation_event. Fonte: Catálogo de Dados de Fiscalização do Departamento do Trabalho dos Estados Unidos.",
+    "organizations": [
+      "Administração de Segurança e Saúde Ocupacional (OSHA)"
+    ],
+    "tags": [
+      "óbito",
+      "multa",
+      "empresa",
+      "saúde",
+      "trabalho",
+      "fiscalização",
+      "regulação",
+      "risco",
+      "segurança",
+      "acidente de trabalho"
+    ],
+    "themes": [
+      "Economia",
+      "Justiça",
+      "Segurança, Crime, Violência, e Conflito"
+    ]
+  },
+  {
+    "id": "56ecd090-1392-474b-a99f-5bcd53450e01",
+    "name": "Dados Abertos Administrativos do Senado Federal",
+    "description": "Dados abertos administrativos do Senado Federal — despesas da CEAPS, servidores, remuneração, aposentados e pensionistas, contratações, licitações, empresas contratadas, colaboradores, suprimento de fundos e quadros de pessoal — extraídos do Serviço de Dados Abertos Administrativos (adm.senado.gov.br).",
+    "organizations": [
+      "Senado Federal"
+    ],
+    "tags": [
+      "orçamento",
+      "contrato",
+      "despesa",
+      "previdência",
+      "finanças públicas",
+      "aposentadoria",
+      "salário",
+      "transparência"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  }
+]

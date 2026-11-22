@@ -1,0 +1,144 @@
+[
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 0,
+    "call_id": "call_KLyZtjFo9GII3DFhUVJHQUlO",
+    "nome": "search_datasets",
+    "args": {
+      "query": "SICOR"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 2,
+    "call_id": "call_aXBRnfUQkVk0VjjQ2fnWvAeB",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 4,
+    "call_id": "call_jIpKLsh19yIR4T5aBuYhdT3R",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "d8514322-a6d4-4c7e-a4f7-3ec7860510f6"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 4,
+    "call_id": "call_Q8lQWLdEhD6Gcp3E5PiW8Yy4",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "02f435a6-a68a-4a6d-bad2-bb23ce3a4039"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 4,
+    "call_id": "call_hzT8Ker4M8NjseaWK6HmN2SP",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "945d6a0b-39d0-42d7-b479-a087d5e09d64"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 4,
+    "call_id": "call_c916rrc9AcvSc6aVu8EX3xdw",
+    "nome": "search_datasets",
+    "args": {
+      "query": "CAR"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 9,
+    "call_id": "call_tHETcKtfNF3K525MvMpDXYix",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 11,
+    "call_id": "call_J1frUneip1Mvg77damJRNN0u",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "0ba51523-2eb6-422c-a1bb-efc9f9e717a1"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 13,
+    "call_id": "call_ADcXbtszPFKYmuMm9WLmdPPX",
+    "nome": "decode_table_values",
+    "args": {
+      "table_gcp_id": "basedosdados.br_bcb_sicor.operacao",
+      "column_name": "id_empreendimento"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 15,
+    "call_id": "call_iDmHSxPUHeQYqawacCEAyeJa",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "4668b727-c4fb-43da-bf9b-d6543a579df9"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 17,
+    "call_id": "call_VJ4K5jY0JLeCjnz66TZ7wNV0",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT DISTINCT nome_coluna, id_tabela FROM `basedosdados.br_bcb_sicor.dicionario` WHERE LOWER(nome_coluna) LIKE '%invest%' OR LOWER(valor) LIKE '%invest%' ORDER BY nome_coluna, id_tabela",
+      "slug": "dicionario_investimento"
+    },
+    "arquivo_sql": "sql/001.sql"
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 19,
+    "call_id": "call_oG60bLmr0EwA6NCsEKdXFhAc",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "e2d5dcc5-270e-4a8b-8d55-0227fd46c10f"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 21,
+    "call_id": "call_1ODJPNfRBF7wMDRomOh7S7aQ",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT e.finalidade, COUNT(*) AS linhas FROM `basedosdados.br_bcb_sicor.operacao` AS o JOIN `basedosdados.br_bcb_sicor.fonte_recurso` AS f ON o.id_fonte_recurso = f.id_fonte_recurso JOIN `basedosdados.br_bcb_sicor.empreendimento` AS e ON o.id_empreendimento = e.id_empreendimento WHERE o.ano_emissao = 2022 AND f.indicador_recurso_publico = '1' GROUP BY e.finalidade ORDER BY linhas DESC",
+      "slug": "finalidades_investimento_2022"
+    },
+    "arquivo_sql": "sql/002.sql"
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 23,
+    "call_id": "call_KHpGmwzqtwcoIFjnSGcoGTSu",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056"
+    }
+  },
+  {
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 25,
+    "call_id": "call_5qeHxZc9wxEBK5RPSFYZPIE7",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH operacoes AS (\n  SELECT DISTINCT\n    o.id_referencia_bacen,\n    o.numero_ordem,\n    o.valor_parcela_credito\n  FROM `basedosdados.br_bcb_sicor.operacao` AS o\n  JOIN `basedosdados.br_bcb_sicor.fonte_recurso` AS f\n    ON o.id_fonte_recurso = f.id_fonte_recurso\n  JOIN `basedosdados.br_bcb_sicor.empreendimento` AS e\n    ON o.id_empreendimento = e.id_empreendimento\n  WHERE o.ano_emissao = 2022\n    AND f.indicador_recurso_publico = '1'\n    AND e.finalidade = 'Investimento'\n), propriedades AS (\n  SELECT DISTINCT\n    p.id_referencia_bacen,\n    p.numero_ordem,\n    REPLACE(UPPER(p.id_car), '-', '') AS id_car_normalizado\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` AS p\n  WHERE p.ano_emissao = 2022\n    AND p.id_car IS NOT NULL\n), car_snapshot AS (\n  SELECT id_car_normalizado, id_municipio\n  FROM (\n    SELECT\n      REPLACE(UPPER(a.id_imovel), '-', '') AS id_car_normalizado,\n      a.id_municipio,\n      ROW_NUMBER() OVER (\n        PARTITION BY REPLACE(UPPER(a.id_imovel), '-', '')\n        ORDER BY a.data_extracao DESC, a.data_atualizacao DESC\n      ) AS rn\n    FROM `basedosdados.br_sfb_sicar.area_imovel` AS a\n    WHERE a.data_extracao = '2026-08-04'\n  )\n  WHERE rn = 1\n), operacao_car AS (\n  SELECT DISTINCT\n    o.id_referencia_bacen,\n    o.numero_ordem,\n    o.valor_parcela_credito,\n    c.id_car_normalizado,\n    c.id_municipio\n  FROM operacoes AS o\n  JOIN propriedades AS p\n    ON o.id_referencia_bacen = p.id_referencia_bacen\n   AND o.numero_ordem = p.numero_ordem\n  JOIN car_snapshot AS c\n    ON p.id_car_normalizado = c.id_car_normalizado\n), rateado AS (\n  SELECT\n    id_referencia_bacen,\n    numero_ordem,\n    id_municipio,\n    valor_parcela_credito / COUNT(*) OVER (\n      PARTITION BY id_referencia_bacen, numero_ordem\n    ) AS valor_rateado\n  FROM operacao_car\n), municipios AS (\n  SELECT\n    r.id_municipio,\n    m.nome AS municipio,\n    SUM(r.valor_rateado) AS credito_rateado\n  FROM rateado AS r\n  LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` AS m\n    ON r.id_municipio = m.id_municipio\n  GROUP BY r.id_municipio, m.nome\n), resumo AS (\n  SELECT\n    *,\n    SUM(credito_rateado) OVER () AS total_geral,\n    COUNT(*) OVER () AS numero_municipios,\n    ROW_NUMBER() OVER (ORDER BY credito_rateado DESC, municipio) AS ranking\n  FROM municipios\n)\nSELECT\n  ranking,\n  id_municipio,\n  municipio,\n  credito_rateado,\n  total_geral,\n  numero_municipios\nFROM resumo\nWHERE ranking <= 10\nORDER BY ranking",
+      "slug": "credito_investimento_publico_municipio_2022"
+    },
+    "arquivo_sql": "sql/003.sql"
+  }
+]

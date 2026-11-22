@@ -1,0 +1,42 @@
+{
+  "id": "4668b727-c4fb-43da-bf9b-d6543a579df9",
+  "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "gcp_id": "basedosdados.br_bcb_sicor.dicionario",
+  "name": "Dicionário",
+  "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Microdados do Sistema de Operações do Crédito Rural e do Proagro (Sicor). Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios",
+  "columns": [
+    {
+      "name": "chave",
+      "type": "STRING",
+      "description": "Chave",
+      "needs_decoding": false
+    },
+    {
+      "name": "cobertura_temporal",
+      "type": "STRING",
+      "description": "Cobertura Temporal",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_tabela",
+      "type": "STRING",
+      "description": "ID Tabela",
+      "needs_decoding": false
+    },
+    {
+      "name": "nome_coluna",
+      "type": "STRING",
+      "description": "Nome da coluna",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor",
+      "type": "STRING",
+      "description": "Valor",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": null,
+  "period_end": null
+}

@@ -1,0 +1,87 @@
+[
+  {
+    "id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+    "name": "Cadastro Ambiental Rural (CAR)",
+    "description": "Dados públicos do Cadastro Ambiental Rural (CAR), registro eletrônico nacional obrigatório dos imóveis rurais brasileiros, mantido no Sistema Nacional de Cadastro Ambiental Rural (SICAR) pelo Serviço Florestal Brasileiro. Inclui o perímetro dos imóveis e as feições ambientais declaradas — Área de Preservação Permanente (APP), Reserva Legal, vegetação nativa, hidrografia, área consolidada, uso restrito, servidão administrativa e pousio — com geometria em coordenadas geográficas (WGS84). Os dados são organizados como snapshots empilhados por data de disponibilização por Unidade da Federação.",
+    "organizations": [
+      "Serviço Florestal Brasileiro"
+    ],
+    "tags": [
+      "agropecuária",
+      "atividade econômica",
+      "licenciamento ambiental",
+      "gestão ambiental",
+      "uso da terra",
+      "sicar"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "544c9d22-97b7-479a-8eca-94762840b465",
+    "name": "Microdados do Sistema de Operações do Crédito Rural e do Proagro (Sicor)",
+    "description": "Este conjunto de dados consolida as informações do SICOR (Sistema de Operações do Crédito Rural e do Proagro), registrando o ciclo completo das operações de crédito rural no Brasil, desde a contratação até o saldo devedor e a espacialização das áreas financiadas.\r\n\r\n  O conjunto possui diversas tabelas de microdados, organizadas por eixos temáticos:\r\n\r\n   * Operação: Cada linha representa uma operação de crédito rural e seus atributos cadastrais (valores contratados, finalidade, programa, etc.).\r\n   * Saldo: Cada linha representa o saldo devedor mensal de uma operação, permitindo o acompanhamento da evolução da dívida ao longo do tempo.\r\n   * Liberação: Cada linha registra um evento de desembolso (repasse financeiro) associado a uma operação contratada.\r\n   * Recurso Público (Mutuário, Cooperado e Propriedade): Tabelas que detalham os beneficiários (pessoas físicas ou jurídicas), membros de cooperativas e as propriedades rurais envolvidas em operações que utilizam subsídios ou fontes de recurso públicas.\r\n   * Gleba: Cada linha contém a delimitação geográfica (polígonos e coordenadas) das áreas onde o recurso do crédito rural é aplicado.\r\n\r\n\r\n  A tabela que relaciona todas as demais é a microdados_operacao. O vínculo entre as tabelas é realizado através da combinação das colunas id_referencia_bacen e numero_ordem. Uma única operação registrada na tabela mestre pode possuir múltiplos registros de saldo mensais, diversas parcelas de liberação e diferentes glebas ou beneficiários associados.\r\n\r\n\r\n  Diferente de bases estáticas, o SICOR é atualizado mensalmente pelas instituições  financeiras. Para garantir a consistência temporal e o permissionamento dos dados, as tabelas utilizam as colunas ano_emissao e mes_emissao como chaves de particionamento e filtro principal.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "agropecuária",
+      "crédito",
+      "gestão ambiental",
+      "uso da terra",
+      "rural"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "fc403b40-a7e1-40e7-9efe-910847b45a69",
+    "name": "Pesquisa Agrícola Municipal (PAM)",
+    "description": "A pesquisa Produção Agrícola Municipal - PAM investiga, anualmente, os principais produtos das lavouras temporárias e permanentes do País, que se caracterizam não só pela grande importância econômica que possuem na pauta de exportações, como também por sua relevância social, componentes que são da cesta básica do brasileiro.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "feijão",
+      "cultivo",
+      "alimento",
+      "alimentação",
+      "fruticultura",
+      "uso da terra",
+      "comida",
+      "arroz",
+      "soja",
+      "água"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "86bac6cc-575f-4289-a857-13f3f52c9a1d",
+    "name": "Pesquisa Nacional de Saúde (PNS)",
+    "description": "A Pesquisa Nacional de Saúde (PNS) é um inquérito de base domiciliar e âmbito nacional, realizada pelo Ministério da Saúde (MS) em parceria com o Instituto Brasileiro de Geografia e Estatística (IBGE), nos anos de 2013 e 2019.\r\nA população pesquisada corresponde aos moradores de domicílios particulares permanentes do Brasil, exceto os localizados nos setores censitários especiais (compostos por aglomerados subnormais; quartéis, bases militares etc.; alojamento, acampamentos etc.; embarcações, barcos, navios etc.; aldeia indígena; penitenciárias, colônias penais, presídios, cadeias etc.; asilos, orfanatos, conventos, hospitais etc.; e assentamentos rurais).",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "saúde",
+      "saúde mental",
+      "política pública"
+    ],
+    "themes": [
+      "Saúde",
+      "População"
+    ]
+  }
+]

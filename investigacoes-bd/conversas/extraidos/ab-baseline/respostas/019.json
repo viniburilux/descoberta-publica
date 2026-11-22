@@ -1,0 +1,31 @@
+{
+  "row_count": 5,
+  "rows": [
+    {
+      "id_car": "PE261350347F126A53ABC43A6844B65FDBF8F761E",
+      "normalizado": "PE-2613503-47F126A53ABC43A6844B65FDBF8F761E",
+      "id_imovel": null
+    },
+    {
+      "id_car": "RN2404853764B200AC248474A9DC8435A7325D515",
+      "normalizado": "RN-2404853-764B200AC248474A9DC8435A7325D515",
+      "id_imovel": null
+    },
+    {
+      "id_car": "MG316440700DB652289794BC49AD531F37E6D5561",
+      "normalizado": "MG-3164407-00DB652289794BC49AD531F37E6D5561",
+      "id_imovel": null
+    },
+    {
+      "id_car": "CE230427719D24D03E79B4825BE86BD450E5E20F2",
+      "normalizado": "CE-2304277-19D24D03E79B4825BE86BD450E5E20F2",
+      "id_imovel": null
+    },
+    {
+      "id_car": "BA2904209C99AD60627A9478A9910C61BDE9E57CA",
+      "normalizado": "BA-2904209-C99AD60627A9478A9910C61BDE9E57CA",
+      "id_imovel": null
+    }
+  ],
+  "query_ref": "qr_ad59b56adc5f4767af14e68856439077"
+}

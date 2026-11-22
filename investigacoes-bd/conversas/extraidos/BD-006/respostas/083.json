@@ -1,0 +1,13 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "ids_sicor_nao_encontrados": 3258,
+      "ids_em_municipio_com_outros_car": 3258,
+      "ids_em_municipio_sem_car": 0,
+      "municipios_dos_ids_nao_encontrados": 1428,
+      "municipios_com_outros_car": 1428
+    }
+  ],
+  "query_ref": "qr_6231e31d695d43e7a19aec973a414263"
+}

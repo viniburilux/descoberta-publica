@@ -1,0 +1,77 @@
+{
+  "row_count": 30,
+  "rows": [
+    {
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "fonte_recurso": "POUPANÇA RURAL - EQUALIZADA - DIRECIONADA/CONTROLADA",
+      "credito": 4713902271.625748,
+      "area_financiada": 1240357.872710318,
+      "linhas": 77132
+    },
+    {
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "fonte_recurso": "OBRIGATÓRIOS - MCR 6.2 - DIRECIONADA/CONTROLADA",
+      "credito": 3596650310.1703534,
+      "area_financiada": 814921.8903482351,
+      "linhas": 82953
+    },
+    {
+      "programa": "FINANCIAMENTO SEM VÍNCULO A PROGRAMA ESPECÍFICO",
+      "fonte_recurso": "FUNDO CONSTITUCIONAL DE FINANCIAMENTO DO NORTE (FNO) - DIRECIONADA/CONTROLADA",
+      "credito": 1998024732.6091957,
+      "area_financiada": 628810.8941649598,
+      "linhas": 4147
+    },
+    {
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "fonte_recurso": "BNDES/FINAME - EQUALIZADA - DIRECIONADA/CONTROLADA",
+      "credito": 1767065297.5331776,
+      "area_financiada": 207543.5958452381,
+      "linhas": 27569
+    },
+    {
+      "programa": "FINANCIAMENTO SEM VÍNCULO A PROGRAMA ESPECÍFICO",
+      "fonte_recurso": "FUNDO CONSTITUCIONAL DE FINANCIAMENTO DO NORDESTE (FNE) - DIRECIONADA/CONTROLADA",
+      "credito": 1751111221.1044009,
+      "area_financiada": 477472.46356656123,
+      "linhas": 6563
+    },
+    {
+      "programa": "PRONAMP - PROGRAMA NACIONAL DE APOIO AO MÉDIO PRODUTOR RURAL",
+      "fonte_recurso": "POUPANÇA RURAL - EQUALIZADA - DIRECIONADA/CONTROLADA",
+      "credito": 1688731757.106351,
+      "area_financiada": 386426.31877100683,
+      "linhas": 14589
+    },
+    {
+      "programa": "FINANCIAMENTO SEM VÍNCULO A PROGRAMA ESPECÍFICO",
+      "fonte_recurso": "POUPANÇA RURAL - EQUALIZADA - DIRECIONADA/CONTROLADA",
+      "credito": 1197084005.314083,
+      "area_financiada": 300610.6397770563,
+      "linhas": 2974
+    },
+    {
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "fonte_recurso": "RECURSOS LIVRES - EQUALIZADA - LIVRE/CONTROLADA",
+      "credito": 1103954464.7183022,
+      "area_financiada": 207084.5154325397,
+      "linhas": 21837
+    },
+    {
+      "programa": "PRONAMP - PROGRAMA NACIONAL DE APOIO AO MÉDIO PRODUTOR RURAL",
+      "fonte_recurso": "OBRIGATÓRIOS - MCR 6.2 - DIRECIONADA/CONTROLADA",
+      "credito": 1092599915.4915426,
+      "area_financiada": 260796.79733194588,
+      "linhas": 14846
+    },
+    {
+      "programa": "FINANCIAMENTO SEM VÍNCULO A PROGRAMA ESPECÍFICO",
+      "fonte_recurso": "FUNDO CONSTITUCIONAL DE FINANCIAMENTO DO CENTRO-OESTE (FCO) - DIRECIONADA/CONTROLADA",
+      "credito": 771110200.9578336,
+      "area_financiada": 299186.6406666667,
+      "linhas": 2283
+    },
+    "... (20 more items)"
+  ],
+  "query_ref": "qr_431bdb5f46bf45b08aa97f1728b351db"
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "id": "81d89c04-120e-4b7d-aae0-41428f199811",
+    "name": "Portal Nacional de Contratações Públicas (PNCP)",
+    "description": "Contratações públicas divulgadas no Portal Nacional de Contratações Públicas (PNCP), instituído pela Lei 14.133/2021 para a divulgação centralizada e obrigatória dos atos de contratação de todos os entes federativos. Abrange os três níveis de governo — federal, estadual e municipal — com contratações (licitações, dispensas e inexigibilidades), contratos e empenhos, atas de registro de preços e instrumentos de cobrança, a partir de 2021.",
+    "organizations": [
+      "Ministério da Gestão e da Inovação em Serviços Públicos"
+    ],
+    "tags": [
+      "contrato",
+      "despesa",
+      "administração pública",
+      "finanças públicas",
+      "licitação",
+      "compra",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+    "name": "Compras públicas",
+    "description": "Compras públicas brasileiras registradas no Compras.gov.br, abrangendo os dois regimes de contratação: as contratações realizadas sob a Lei 14.133/2021 e divulgadas no PNCP, de 2021 em diante, e as licitações e contratações diretas sob a Lei 8.666/1993, de 1997 a 2025. Inclui itens, resultados, atas de registro de preços, contratos e os cadastros de órgãos, unidades compradoras, fornecedores e catálogos de materiais e serviços. Apesar do nome do portal, cobre os três níveis de governo: 43% das contratações são federais, 31% estaduais e 25% municipais.",
+    "organizations": [
+      "Ministério da Gestão e da Inovação em Serviços Públicos"
+    ],
+    "tags": [
+      "companhia",
+      "contrato",
+      "preço",
+      "administração pública",
+      "licitação",
+      "compra",
+      "gasto",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "56ecd090-1392-474b-a99f-5bcd53450e01",
+    "name": "Dados Abertos Administrativos do Senado Federal",
+    "description": "Dados abertos administrativos do Senado Federal — despesas da CEAPS, servidores, remuneração, aposentados e pensionistas, contratações, licitações, empresas contratadas, colaboradores, suprimento de fundos e quadros de pessoal — extraídos do Serviço de Dados Abertos Administrativos (adm.senado.gov.br).",
+    "organizations": [
+      "Senado Federal"
+    ],
+    "tags": [
+      "orçamento",
+      "contrato",
+      "despesa",
+      "previdência",
+      "finanças públicas",
+      "aposentadoria",
+      "salário",
+      "transparência"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "8af7f0e9-c0a9-40ca-bd1a-9abe94c96973",
+    "name": "Emprego, Desemprego e Rotatividade do Trabalho (CES, LAUS, JOLTS)",
+    "description": "Os três principais programas de emprego do Bureau of Labor Statistics dos Estados Unidos, publicados como séries temporais mensais. O Current Employment Statistics (CES) mede emprego em folha de pagamento, horas e salários por setor de atividade, em nível nacional e por estado e área metropolitana. O Local Area Unemployment Statistics (LAUS) estima força de trabalho, emprego, desemprego e taxa de desemprego para estados, condados, áreas metropolitanas e demais áreas locais. O Job Openings and Labor Turnover Survey (JOLTS) mede vagas abertas, contratações, pedidos de demissão e dispensas. Cada tabela identifica o ajuste sazonal como dimensão e cobre de 1939 (CES), 1976 (LAUS) e 2000 (JOLTS) até o presente.",
+    "organizations": [
+      "Centro de Estatísticas Laborais (BLS) dos Estados Unidos"
+    ],
+    "tags": [
+      "demissão",
+      "atividade econômica",
+      "emprego",
+      "Estabelecimento",
+      "vagas abertas",
+      "trabalho",
+      "rotatividade do trabalho",
+      "salário",
+      "desemprego",
+      "carga horária"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "d909c505-0508-475c-b1a4-459e683567f8",
+    "name": "Execução Orçamentária e Compras dos Governos Estaduais",
+    "description": "Execução orçamentária e compras públicas dos governos estaduais brasileiros, em nível de transação sempre que a fonte permite. Os dados vêm dos portais de transparência de cada estado, sobre seus próprios sistemas financeiros (SIAFI/MG, FIPLAN/BA, e-Fisco/PE, SIAFEM/SP), e são harmonizados em um esquema comum.\n\nDiferente do MiDES, que reúne dados municipais coletados dos Tribunais de Contas estaduais, este conjunto cobre o gasto do próprio Poder Executivo estadual. A granularidade varia por estado, conforme o que cada fonte publica: empenho por linha orçamentária em Minas Gerais e Pernambuco, agregado mensal na Bahia e anual em São Paulo. Cada tabela documenta seu próprio grão.",
+    "organizations": [
+      "Base dos Dados",
+      "Governo da Bahia",
+      "Governo de Minas Gerais",
+      "Governo de Pernambuco",
+      "Governo de São Paulo"
+    ],
+    "tags": [
+      "orçamento",
+      "contrato",
+      "despesa",
+      "administração pública",
+      "finanças públicas",
+      "licitação",
+      "compra"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "0a09aba0-4a90-4873-b0b1-a44ed82e254b",
+    "name": "Dados Essenciais da Contratação Pública (DECP)",
+    "description": "Contratos públicos da França declarados pelos compradores nos Dados Essenciais da Contratação Pública (DECP), consolidados diariamente por colibre.fr a partir de cerca de 60 fontes de dados abertos. Cobre os contratos notificados desde 2014, com cobertura ampla a partir de 2019, e registra comprador, objeto, código CPV, procedimento, valor, duração, modificações e contratados identificados pelo SIRET. A publicação dos dados essenciais é obrigatória para contratos a partir de 40 mil euros desde 2020, e a partir de 25 mil euros antes.",
+    "organizations": [
+      "Colibre"
+    ],
+    "tags": [
+      "companhia",
+      "contrato",
+      "administração pública",
+      "licitação",
+      "gasto",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "2810837f-e52b-4da0-a4e9-e7ad4109ffe7",
+    "name": "Operações Contratadas",
+    "description": "Dados de Operações Financeiras Contratadas do BNDES (Banco Nacional de Desenvolvimento Econômico e Social) disponibilizadas em sua Central de Downloads de Transparência.",
+    "organizations": [
+      "BNDES"
+    ],
+    "tags": [
+      "atividade econômica",
+      "economia",
+      "financiamento",
+      "governança",
+      "governo"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "bff9bdbd-d15e-45f1-83dc-a2ea3f1ee340",
+    "name": "Indicador Nível Socioeconômico (INSE)",
+    "description": "O Indicador de Nível Socioeconômico (Inse), construído pela Diretoria de Avaliação da Educação Básica (Daeb), com base nos resultados do questionário do(a) aluno(a) do Saeb (Inse do Saeb), tem como objetivo contextualizar resultados obtidos em avaliações e exames aplicados por este Instituto no âmbito da educação básica.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "nível socioeconômico"
+    ],
+    "themes": [
+      "Economia",
+      "Educação"
+    ]
+  },
+  {
+    "id": "a92a2b12-b0b7-4a69-aff1-7bca1795fc64",
+    "name": "Informações de Pessoal do Governo Federal",
+    "description": "Contém informações acerca dos contratos de terceirização de mão de obra, incluindo as autarquias e fundações vinculadas, bem como de  servidores públicos dos ministérios do Poder Executivo Federal, mantido pela Controladoria Geral da União - CGU.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "emprego",
+      "trabalho",
+      "terceirização"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+    "name": "Eleições Brasileiras",
+    "description": "Dados de eleições brasileiras desde 1945 fornecidos pelo TSE. Inclui dados de eleitorado, candidaturas, resultados e prestação de contas",
+    "organizations": [
+      "Tribunal Superior Eleitoral (TSE)"
+    ],
+    "tags": [
+      "congresso",
+      "eleições",
+      "partido político",
+      "presidência",
+      "voto"
+    ],
+    "themes": [
+      "Política"
+    ]
+  }
+]

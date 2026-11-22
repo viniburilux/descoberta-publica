@@ -1,0 +1,60 @@
+{
+  "id": "f19caeac-3098-42b0-a5ff-c13e68d1c306",
+  "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+  "gcp_id": "basedosdados.br_mapbiomas_estatisticas.transicao_uf_de_para_anual",
+  "name": "Transições anuais de cobertura e uso da terra por unidade da federação",
+  "description": "Área, em hectares, que passou de cada classe de cobertura e uso da terra para cada outra classe, por unidade da federação e bioma, entre anos consecutivos de 1985 a 2025.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano final do período de transição",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano_inicial",
+      "type": "INT64",
+      "description": "Ano inicial do período de transição",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "area",
+      "type": "FLOAT64",
+      "description": "Área que passou da classe inicial para a classe final no período",
+      "unit": "hectare",
+      "needs_decoding": false
+    },
+    {
+      "name": "bioma",
+      "type": "STRING",
+      "description": "Bioma ao qual pertence a porção do território descrita nesta linha",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_classe_de",
+      "type": "STRING",
+      "description": "Código da classe de cobertura e uso da terra inicial da transição",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_classe_para",
+      "type": "STRING",
+      "description": "Código da classe de cobertura e uso da terra final da transição",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da Unidade da Federação",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "1986",
+  "period_end": "2025"
+}

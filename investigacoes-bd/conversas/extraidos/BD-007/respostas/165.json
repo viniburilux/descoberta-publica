@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Unrecognized name: id_car_norm at [1:1325]\n\nLocation: None\nJob ID: 95dbd238-6aa5-4b85-8101-86dc56da5c2b\n"
+}

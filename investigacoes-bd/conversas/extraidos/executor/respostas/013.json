@@ -1,0 +1,94 @@
+{
+  "id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+  "name": "Cadastro Ambiental Rural (CAR)",
+  "description": "Dados públicos do Cadastro Ambiental Rural (CAR), registro eletrônico nacional obrigatório dos imóveis rurais brasileiros, mantido no Sistema Nacional de Cadastro Ambiental Rural (SICAR) pelo Serviço Florestal Brasileiro. Inclui o perímetro dos imóveis e as feições ambientais declaradas — Área de Pr... (296 more characters)",
+  "organizations": [
+    "Serviço Florestal Brasileiro"
+  ],
+  "tags": [
+    "agropecuária",
+    "atividade econômica",
+    "licenciamento ambiental",
+    "gestão ambiental",
+    "uso da terra",
+    "sicar"
+  ],
+  "themes": [
+    "Agropecuária",
+    "Meio Ambiente",
+    "Organização Territorial"
+  ],
+  "tables": [
+    {
+      "id": "01ced411-b26c-4890-81c9-d2d1991b9eb4",
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+      "gcp_id": "basedosdados.br_sfb_sicar.app",
+      "name": "Área de Preservação Permanente (APP)",
+      "description": "Áreas de Preservação Permanente (APP) declaradas nos imóveis do CAR/SICAR."
+    },
+    {
+      "id": "6484f4de-881b-496a-a9cc-061012242a17",
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+      "gcp_id": "basedosdados.br_sfb_sicar.area_consolidada",
+      "name": "Área consolidada",
+      "description": "Áreas rurais consolidadas declaradas nos imóveis do CAR/SICAR."
+    },
+    {
+      "id": "0ba51523-2eb6-422c-a1bb-efc9f9e717a1",
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+      "gcp_id": "basedosdados.br_sfb_sicar.area_imovel",
+      "name": "Área do imóvel",
+      "description": "Perímetro e atributos declaratórios dos imóveis rurais cadastrados no CAR/SICAR. Uma linha por imóvel por snapshot da base."
+    },
+    {
+      "id": "871fdedd-0922-4577-b976-9723080b0fea",
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+      "gcp_id": "basedosdados.br_sfb_sicar.area_pousio",
+      "name": "Área de pousio",
+      "description": "Áreas de pousio declaradas nos imóveis do CAR/SICAR."
+    },
+    {
+      "id": "609b9d16-43d4-48c2-87d1-cd5a263828e8",
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+      "gcp_id": "basedosdados.br_sfb_sicar.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do conjunto br_sfb_sicar."
+    },
+    {
+      "id": "810ed04f-98ff-43a4-9db8-4819b0533684",
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+      "gcp_id": "basedosdados.br_sfb_sicar.hidrografia",
+      "name": "Hidrografia",
+      "description": "Feições de hidrografia declaradas nos imóveis do CAR/SICAR."
+    },
+    {
+      "id": "7ade1cbd-c2b5-4d93-b12a-b3bfd255be52",
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+      "gcp_id": "basedosdados.br_sfb_sicar.reserva_legal",
+      "name": "Reserva Legal",
+      "description": "Áreas de Reserva Legal declaradas nos imóveis do CAR/SICAR."
+    },
+    {
+      "id": "20361f28-4078-49ac-affb-e73f47de6714",
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+      "gcp_id": "basedosdados.br_sfb_sicar.servidao_administrativa",
+      "name": "Servidão administrativa",
+      "description": "Áreas de servidão administrativa declaradas nos imóveis do CAR/SICAR."
+    },
+    {
+      "id": "1025bd03-d4ab-47ca-af8b-5735fbacb3d2",
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+      "gcp_id": "basedosdados.br_sfb_sicar.uso_restrito",
+      "name": "Uso restrito",
+      "description": "Áreas de uso restrito declaradas nos imóveis do CAR/SICAR."
+    },
+    {
+      "id": "9be7072f-4b92-4808-9691-24a0c164623e",
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+      "gcp_id": "basedosdados.br_sfb_sicar.vegetacao_nativa",
+      "name": "Vegetação nativa",
+      "description": "Remanescentes de vegetação nativa declarados nos imóveis do CAR/SICAR."
+    }
+  ],
+  "usage_guide": null
+}

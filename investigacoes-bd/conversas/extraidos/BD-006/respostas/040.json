@@ -1,0 +1,42 @@
+{
+  "id": "fc403b40-a7e1-40e7-9efe-910847b45a69",
+  "name": "Pesquisa Agrícola Municipal (PAM)",
+  "description": "A pesquisa Produção Agrícola Municipal - PAM investiga, anualmente, os principais produtos das lavouras temporárias e permanentes do País, que se caracterizam não só pela grande importância econômica que possuem na pauta de exportações, como também por sua relevância social, componentes que são da c... (26 more characters)",
+  "organizations": [
+    "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+  ],
+  "tags": [
+    "produtividade agrícola",
+    "agropecuária",
+    "feijão",
+    "cultivo",
+    "alimento",
+    "alimentação",
+    "fruticultura",
+    "uso da terra",
+    "comida",
+    "arroz",
+    "... (2 more items)"
+  ],
+  "themes": [
+    "Agropecuária",
+    "Meio Ambiente"
+  ],
+  "tables": [
+    {
+      "id": "bd9b2960-361f-4465-be23-baaadaaf266d",
+      "dataset_id": "fc403b40-a7e1-40e7-9efe-910847b45a69",
+      "gcp_id": "basedosdados.br_ibge_pam.lavoura_permanente",
+      "name": "Lavouras Permanentes",
+      "description": "A tabela contém dados da Pesquisa Agrícola Municipal para lavouras permanentes. Tem-se 8 variáveis desagregadas para cada municiípio, para cada ano e para cada um dos mais de 35 produtos. A tabela pode ser usada para comparação com as lavouras temporárias, para melhor compreender o uso da terra em c... (93 more characters)"
+    },
+    {
+      "id": "1fd6598f-2dfa-4f26-94bb-0d6bd4a4c873",
+      "dataset_id": "fc403b40-a7e1-40e7-9efe-910847b45a69",
+      "gcp_id": "basedosdados.br_ibge_pam.lavoura_temporaria",
+      "name": "Lavouras Temporárias",
+      "description": "A tabela de lavouras temporárias apresenta dados de cada município brasileiro, desagregado por ano e por produto. Há um conjunto de produtos que são classificados como lavouras temporárias, entre eles: alho, arroz, feijão, mandioca, melancia, melão, tomate, cana-de-açúcar. No total, tem-se diferente... (326 more characters)"
+    }
+  ],
+  "usage_guide": null
+}

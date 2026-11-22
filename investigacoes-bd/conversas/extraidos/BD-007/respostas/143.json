@@ -1,0 +1,57 @@
+{
+  "row_count": 12,
+  "rows": [
+    {
+      "ano_emissao": 2013,
+      "operacoes": 1,
+      "linhas": 1
+    },
+    {
+      "ano_emissao": 2016,
+      "operacoes": 6,
+      "linhas": 6
+    },
+    {
+      "ano_emissao": 2017,
+      "operacoes": 552,
+      "linhas": 601
+    },
+    {
+      "ano_emissao": 2018,
+      "operacoes": 35322,
+      "linhas": 45565
+    },
+    {
+      "ano_emissao": 2019,
+      "operacoes": 1065685,
+      "linhas": 1486784
+    },
+    {
+      "ano_emissao": 2020,
+      "operacoes": 1222250,
+      "linhas": 1656900
+    },
+    {
+      "ano_emissao": 2021,
+      "operacoes": 1262032,
+      "linhas": 1653595
+    },
+    {
+      "ano_emissao": 2022,
+      "operacoes": 1287647,
+      "linhas": 1674631
+    },
+    {
+      "ano_emissao": 2023,
+      "operacoes": 1314474,
+      "linhas": 1798447
+    },
+    {
+      "ano_emissao": 2024,
+      "operacoes": 1424651,
+      "linhas": 2020863
+    },
+    "... (2 more items)"
+  ],
+  "query_ref": "qr_3c7729137a7a4d56ad31337c4628c2ec"
+}

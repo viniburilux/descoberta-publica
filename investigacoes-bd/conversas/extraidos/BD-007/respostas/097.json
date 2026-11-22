@@ -1,0 +1,46 @@
+{
+  "row_count": 5,
+  "rows": [
+    {
+      "recorte": "Custeio — 2022/2023",
+      "finalidade": "Custeio",
+      "imoveis": 87944,
+      "operacoes": 87946,
+      "credito": 7927919775.918165,
+      "area_financiada": 2171169.198898991
+    },
+    {
+      "recorte": "Custeio — 2023/2024",
+      "finalidade": "Custeio",
+      "imoveis": 97387,
+      "operacoes": 98712,
+      "credito": 9152175056.571735,
+      "area_financiada": 2272930.384634407
+    },
+    {
+      "recorte": "todas as safras",
+      "finalidade": "Custeio",
+      "imoveis": 125134,
+      "operacoes": 186658,
+      "credito": 17080094832.489904,
+      "area_financiada": 4444099.583533398
+    },
+    {
+      "recorte": "todas as safras",
+      "finalidade": "Investimento",
+      "imoveis": 45484,
+      "operacoes": 60707,
+      "credito": 9615750346.799097,
+      "area_financiada": 2027317.8690888153
+    },
+    {
+      "recorte": "todas as safras",
+      "finalidade": "Comercialização",
+      "imoveis": 55,
+      "operacoes": 62,
+      "credito": 41781270.96,
+      "area_financiada": 0.0
+    }
+  ],
+  "query_ref": "qr_e612ac11ad064e78bd9a77cdbcf5b4de"
+}

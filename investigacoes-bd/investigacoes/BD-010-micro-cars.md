@@ -16,15 +16,20 @@ Vinte micro-CARs → datas de inscrição e retificação → APP e reserva lega
 
 ## A. Material bruto recuperado
 
-Pacotes de evidências, respostas geoespaciais, TIFFs, imagens, notas, PDF do DOU e timelines originais recuperados. Recuperação da conversa completa em andamento.
+- [BD-007: JSON de 34 mensagens](../conversas/BD-007_a6ea1581-9c4a-45e1-b6a7-1f00375baf57.json) · [leitura cronológica](../conversas/extraidos/BD-007/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/BD-007/)
+- [BD-010: JSON de 18 mensagens](../conversas/BD-010_430dfb1d-63f9-4901-b181-963177941355.json) · [leitura cronológica](../conversas/extraidos/BD-010/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/BD-010/)
 
-Último vestígio da sessão: `430dfb1d-63f9-4901-b181-963177941355`, chatbot da BD.
+BD-007 contém a origem dos 20 micro-CARs e a frente de Sátiro Dias. No JSON publicado, 36 ocorrências de números de CPF foram substituídas por `[CPF_OCULTADO]`; o original integral permanece no arquivo privado.
 
 ## B. Consultas e código
 
-[Verificador espacial Python](../originais/pacote_evidencias_20261120/verificar.py) · [Método SIGEF](../originais/sigef_cruzamentos_20261120/nota_sigef_cruzamentos_20261120.md) · [Método LULC](../originais/drive-2026-11-20/lulc_10m_metodo_v3_geodesico.txt).
+150 consultas SQL extraídas das conversas. Chamadas e respostas originais, com identificadores e argumentos, estão nas pastas ligadas acima. Os SQLs estão separados em `sql/` dentro de cada pasta.
+
+[Verificador espacial](../originais/pacote_evidencias_20261120/verificar.py) · [Método SIGEF](../originais/sigef_cruzamentos_20261120/nota_sigef_cruzamentos_20261120.md).
 
 ## C. Resultados e arquivos
+
+56 tabelas CSV das linhas registradas nas respostas do chatbot; respostas completas e índices com a consulta e a mensagem de origem.
 
 - [Timeline Rondon do Pará](../originais/drive-2026-11-20/timeline_rondon_do_para.md)
 - [Timeline Bom Sucesso](../originais/drive-2026-11-20/timeline_sfc_bom_sucesso.md)
@@ -47,9 +52,10 @@ Duas pautas territoriais QPI, dossiê documental e pacote geoespacial.
 
 ## F. Pendências e próximo passo
 
+Os exports nativos apenas referenciados em `downloads-referenciados.json` ainda não foram baixados neste lote. As respostas e linhas registradas já estão nos arquivos extraídos.
+
 Continuar pelas pendências das timelines: demonstrativos CAR, processo do INCRA, geometria do assentamento e cruzamento dos imóveis vizinhos.
 
-Pendente: integrar a conversa completa com suas perguntas, respostas e chamadas originais.
 
 ## G. Pacote de trabalho
 

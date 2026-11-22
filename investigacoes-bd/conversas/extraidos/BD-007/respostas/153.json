@@ -1,0 +1,77 @@
+{
+  "row_count": 218,
+  "rows": [
+    {
+      "dimensao": "finalidade",
+      "categoria": "Investimento",
+      "imoveis": 25689,
+      "operacoes": 60353,
+      "credito": 1205807524.915267
+    },
+    {
+      "dimensao": "finalidade",
+      "categoria": "Custeio",
+      "imoveis": 6830,
+      "operacoes": 16769,
+      "credito": 1110961875.5524113
+    },
+    {
+      "dimensao": "finalidade",
+      "categoria": "Comercialização",
+      "imoveis": 8,
+      "operacoes": 15,
+      "credito": 49531912.0
+    },
+    {
+      "dimensao": "produto",
+      "categoria": "BOVINOS",
+      "imoveis": 8271,
+      "operacoes": 18088,
+      "credito": 597177572.7897979
+    },
+    {
+      "dimensao": "produto",
+      "categoria": "MILHO",
+      "imoveis": 2398,
+      "operacoes": 4608,
+      "credito": 352353717.571035
+    },
+    {
+      "dimensao": "produto",
+      "categoria": "SOJA",
+      "imoveis": 747,
+      "operacoes": 1817,
+      "credito": 204952420.03095523
+    },
+    {
+      "dimensao": "produto",
+      "categoria": "Terraços, Porteiras, Mata-burros, Currais, Cochos, Cercas",
+      "imoveis": 9152,
+      "operacoes": 13941,
+      "credito": 128218409.53666666
+    },
+    {
+      "dimensao": "produto",
+      "categoria": "CAFÉ",
+      "imoveis": 169,
+      "operacoes": 363,
+      "credito": 90907468.68666668
+    },
+    {
+      "dimensao": "produto",
+      "categoria": "MÁQUINAS E IMPLEMENTOS",
+      "imoveis": 1009,
+      "operacoes": 1219,
+      "credito": 86626475.50479168
+    },
+    {
+      "dimensao": "produto",
+      "categoria": "TRATOR",
+      "imoveis": 337,
+      "operacoes": 375,
+      "credito": 82235507.79062502
+    },
+    "... (208 more items)"
+  ],
+  "query_ref": "qr_6a3124aabde847e69230c1c30bfd7753"
+}

@@ -1,0 +1,1 @@
+SELECT ano_safra_emissao,COUNT(*) linhas FROM `basedosdados.br_bcb_sicor.operacao` WHERE ano_emissao=2023 GROUP BY ano_safra_emissao ORDER BY ano_safra_emissao

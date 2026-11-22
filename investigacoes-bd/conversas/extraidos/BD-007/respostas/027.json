@@ -1,0 +1,12 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "registros_sicor_com_car": 2028517,
+      "registros_com_correspondencia": 2028504,
+      "registros_sem_correspondencia": 13,
+      "taxa_correspondencia": 0.9999935913773461
+    }
+  ],
+  "query_ref": "qr_374c23806c0a4dbdbe39ea685abb463e"
+}

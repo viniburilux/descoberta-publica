@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Syntax error: Expected \")\" but got \"]\" at [1:914]\n\nLocation: None\nJob ID: 21cd8f26-3610-4b72-926c-2ac05e20116f\n"
+}

@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Queries in UNION ALL have mismatched column count; query 1 has 6 columns, query 2 has 5 columns at [15:11]\n\nLocation: None\nJob ID: 4d9e9527-75a7-46dd-a366-d19ade2d5477\n"
+}

@@ -1,0 +1,77 @@
+{
+  "row_count": 20,
+  "rows": [
+    {
+      "id_municipio": "2928901",
+      "nome": "São Desidério",
+      "sigla_uf": "BA",
+      "credito": 622569134.4799999,
+      "ranking": 1
+    },
+    {
+      "id_municipio": "2911105",
+      "nome": "Formosa do Rio Preto",
+      "sigla_uf": "BA",
+      "credito": 608774769.4049999,
+      "ranking": 2
+    },
+    {
+      "id_municipio": "2201150",
+      "nome": "Baixa Grande do Ribeiro",
+      "sigla_uf": "PI",
+      "credito": 454559140.7949999,
+      "ranking": 3
+    },
+    {
+      "id_municipio": "2917359",
+      "nome": "Jaborandi",
+      "sigla_uf": "BA",
+      "credito": 432586031.73,
+      "ranking": 4
+    },
+    {
+      "id_municipio": "1100205",
+      "nome": "Porto Velho",
+      "sigla_uf": "RO",
+      "credito": 419375752.1788267,
+      "ranking": 5
+    },
+    {
+      "id_municipio": "5218805",
+      "nome": "Rio Verde",
+      "sigla_uf": "GO",
+      "credito": 402235557.78,
+      "ranking": 6
+    },
+    {
+      "id_municipio": "2903201",
+      "nome": "Barreiras",
+      "sigla_uf": "BA",
+      "credito": 381402353.51000005,
+      "ranking": 7
+    },
+    {
+      "id_municipio": "5100201",
+      "nome": "Água Boa",
+      "sigla_uf": "MT",
+      "credito": 370386495.5849999,
+      "ranking": 8
+    },
+    {
+      "id_municipio": "2909307",
+      "nome": "Correntina",
+      "sigla_uf": "BA",
+      "credito": 342498621.5,
+      "ranking": 9
+    },
+    {
+      "id_municipio": "1505502",
+      "nome": "Paragominas",
+      "sigla_uf": "PA",
+      "credito": 327753084.0370953,
+      "ranking": 10
+    },
+    "... (10 more items)"
+  ],
+  "query_ref": "qr_83134689d2684fbfbfeb67b75d22e0cc"
+}

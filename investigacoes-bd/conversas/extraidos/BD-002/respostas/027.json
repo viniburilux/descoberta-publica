@@ -1,0 +1,195 @@
+[
+  {
+    "id": "80cc0bd8-a8f3-40dc-bd48-81e2076da0ac",
+    "name": "Censo Trimestral de Emprego e Salários (QCEW)",
+    "description": "Censo Trimestral de Emprego e Salários (QCEW) do Bureau of Labor Statistics dos Estados Unidos, um quase-censo dos estabelecimentos cobertos pelo seguro-desemprego. Reporta contagens de estabelecimentos, níveis mensais de emprego e salários trimestrais e anuais por condado, estado, área metropolitana e nação, classificados por indústria (NAICS a partir de 1990, SIC de 1975 a 2000), setor de propriedade e classe de tamanho.",
+    "organizations": [
+      "Centro de Estatísticas Laborais (BLS) dos Estados Unidos"
+    ],
+    "tags": [],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+    "name": "Força de Trabalho (Austrália)",
+    "description": "Estatísticas da força de trabalho australiana produzidas pelo Australian Bureau of Statistics, reunindo a publicação mensal Labour Force, Australia (catálogo 6202.0) desde fevereiro de 1978 e os cubos trimestrais e mensais da publicação encerrada Labour Force, Australia, Detailed (catálogo 6291.0.55.001) desde novembro de 1984. Abrange emprego, desemprego, participação, horas trabalhadas, posição na ocupação, subutilização da força de trabalho, indústria (ANZSIC 2006), ocupação (ANZSCO 2013), tempo no trabalho atual e duração da procura por trabalho, para a Austrália e os estados e territórios.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "atividade econômica",
+      "emprego",
+      "trabalho",
+      "ocupação",
+      "pesquisa",
+      "desemprego",
+      "carga horária"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "332a9a40-4898-4b21-a38d-b89ff41c8c96",
+    "name": "Estatísticas de Emprego e Salários por Ocupação (OEWS)",
+    "description": "Estimativas de emprego e salários do programa Occupational Employment and Wage Statistics (OEWS) do Bureau of Labor Statistics dos Estados Unidos, produzidas anualmente a partir de uma pesquisa semestral com estabelecimentos não agrícolas. Cobre cerca de 800 ocupações da Standard Occupational Classification (SOC) e reporta emprego, salário médio e os percentis 10, 25, 50, 75 e 90 em base horária e anual. As estimativas por área geográfica (nacional, estadual, territorial, metropolitana e não metropolitana) e por setor de atividade (NAICS) referem-se a maio de cada ano, de 2003 a 2025. As estimativas do OEWS não são desenhadas como série temporal: definições ocupacionais, setoriais e de área, além dos métodos de estimação, mudam ao longo do período.",
+    "organizations": [
+      "Centro de Estatísticas Laborais (BLS) dos Estados Unidos"
+    ],
+    "tags": [
+      "emprego",
+      "renda",
+      "trabalho",
+      "ocupação",
+      "salário"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "8af7f0e9-c0a9-40ca-bd1a-9abe94c96973",
+    "name": "Emprego, Desemprego e Rotatividade do Trabalho (CES, LAUS, JOLTS)",
+    "description": "Os três principais programas de emprego do Bureau of Labor Statistics dos Estados Unidos, publicados como séries temporais mensais. O Current Employment Statistics (CES) mede emprego em folha de pagamento, horas e salários por setor de atividade, em nível nacional e por estado e área metropolitana. O Local Area Unemployment Statistics (LAUS) estima força de trabalho, emprego, desemprego e taxa de desemprego para estados, condados, áreas metropolitanas e demais áreas locais. O Job Openings and Labor Turnover Survey (JOLTS) mede vagas abertas, contratações, pedidos de demissão e dispensas. Cada tabela identifica o ajuste sazonal como dimensão e cobre de 1939 (CES), 1976 (LAUS) e 2000 (JOLTS) até o presente.",
+    "organizations": [
+      "Centro de Estatísticas Laborais (BLS) dos Estados Unidos"
+    ],
+    "tags": [
+      "demissão",
+      "atividade econômica",
+      "emprego",
+      "Estabelecimento",
+      "vagas abertas",
+      "trabalho",
+      "rotatividade do trabalho",
+      "salário",
+      "desemprego",
+      "carga horária"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "821b85cd-1256-47f8-8db2-d5dddf1d0638",
+    "name": "Censo de Governos (CoG)",
+    "description": "O Censo de Governos mede a estrutura, o emprego e as finanças de todos os governos estaduais e locais dos Estados Unidos. O conjunto reúne os três componentes do programa: a lista de unidades de governo dos levantamentos de 1997 a 2025, o emprego e a folha de pagamento por categoria funcional de 1992 a 2024, e receita, despesa, dívida e ativos por item financeiro dos exercícios de 1967 a 2018. As três famílias usam identificadores distintos, preservados nas colunas government_id e government_id_govs.",
+    "organizations": [
+      "U.S. Census Bureau"
+    ],
+    "tags": [
+      "dívida",
+      "emprego",
+      "despesa",
+      "administração pública",
+      "finanças públicas",
+      "servidor",
+      "receita",
+      "salário",
+      "tributo"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "482cb481-0a4f-4304-84eb-e9e3124bbbe3",
+    "name": "LEHD Origin-Destination Employment Statistics (LODES)",
+    "description": "Contagens de empregos por bloco censitário de 2020 nos Estados Unidos, produzidas pelo programa Longitudinal Employer-Household Dynamics (LEHD) do Census Bureau a partir de registros administrativos de seguro-desemprego e da folha de pagamento federal. Cobre 50 estados, o Distrito de Columbia e Porto Rico entre 2002 e 2023, com desagregações por idade, faixa de rendimento, setor NAICS, raça, etnia, escolaridade, sexo e características da firma, tanto pelo bloco de residência quanto pelo bloco de trabalho do trabalhador. Toda a série é enumerada na malha de blocos censitários de 2020.",
+    "organizations": [
+      "U.S. Census Bureau"
+    ],
+    "tags": [
+      "demografia",
+      "emprego",
+      "trabalho",
+      "mobilidade",
+      "salário"
+    ],
+    "themes": [
+      "Economia",
+      "População",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "ade90775-fe0d-4a79-8aed-e357e0a01819",
+    "name": "Certificação de Trabalho Estrangeiro (OFLC)",
+    "description": "Dados de divulgação de casos do Office of Foreign Labor Certification (OFLC) do Departamento do Trabalho dos Estados Unidos, cobrindo todas as solicitações de certificação de trabalho estrangeiro decididas desde o ano fiscal de 2008. Há uma tabela por programa: Labor Condition Application (H-1B, H-1B1 e E-3), certificação laboral permanente PERM, e certificação temporária H-2A agrícola e H-2B não agrícola. Cada linha é um caso e traz o empregador e seu endereço, o local de trabalho principal, o cargo e o código SOC, o salário oferecido com sua unidade de pagamento, o salário prevalecente quando publicado, o período de emprego e o resultado da decisão. A coluna de partição year é o ano FISCAL federal, de 1º de outubro a 30 de setembro.",
+    "organizations": [
+      "U.S. Department of Labor"
+    ],
+    "tags": [
+      "agropecuária",
+      "certificação",
+      "emprego",
+      "empresa",
+      "H1B",
+      "trabalho",
+      "migração",
+      "ocupação",
+      "salário",
+      "visto"
+    ],
+    "themes": [
+      "Economia",
+      "População"
+    ]
+  },
+  {
+    "id": "1ba59664-c373-4a61-9e32-cee91668999f",
+    "name": "Contas Econômicas dos Estados Unidos (BEA)",
+    "description": "Contas econômicas dos Estados Unidos publicadas pelo Bureau of Economic Analysis (BEA), do Departamento de Comércio, obtidas pela API REST da BEA. Cobre as Contas Nacionais de Renda e Produto (NIPA: PIB, renda pessoal, consumo), o PIB por indústria e as contas regionais por estado, condado e área metropolitana, em formato longo (tabela, linha, período, valor).",
+    "organizations": [
+      "Bureau of Economic Analysis (BEA)"
+    ],
+    "tags": [
+      "consumo",
+      "atividade econômica",
+      "emprego",
+      "finanças",
+      "pib",
+      "renda",
+      "inflação"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "3e7c4d58-96ba-448e-b053-d385a829ef00",
+    "name": "Relação Anual de Informações Sociais (RAIS)",
+    "description": "A Relação Anual de Informações Sociais (RAIS) é um relatório de informações socioeconômicas solicitado pela Secretaria de Trabalho do Ministério da Economia brasileiro às pessoas jurídicas e outros empregadores anualmente. Foi instituída pelo Decreto nº 76.900, de 23 de dezembro de 1975.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "emprego",
+      "trabalho"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "562b56a3-0b01-4735-a049-eeac5681f056",
+    "name": "Cadastro Geral de Empregados e Desempregados (CAGED)",
+    "description": "O Cadastro Geral de Empregados e Desempregados – CAGED, instituído pela Lei nº 4.923, em 23 de dezembro de 1965, constitui fonte de informação de âmbito nacional e de periodicidade mensal. Foi criado como instrumento de acompanhamento e de fiscalização do processo de admissão e de dispensa de trabalhadores regidos pela CLT, com o objetivo de assistir os desempregados e de apoiar medidas contra o desemprego.\r\n\r\nO CAGED é um Registro Administrativo, e, inicialmente, objetivou gerir e controlar a concessão do auxílio-desemprego. A partir de 1986, passou a ser utilizado como suporte ao pagamento do seguro desemprego e, mais recentemente, tornou-se, também, um relevante instrumento à reciclagem profissional e à recolocação do trabalhador no mercado de trabalho e, ainda, um importante subsídio para a fiscalização.\r\n\r\nDevido à crescente demanda por dados conjunturais do mercado de trabalho e à necessidade deste Ministério em contar com estatísticas mais completas, mais consistentes e mais ágeis, foram implementadas expressivas alterações ao sistema – Lei nº 4.923/65. Como decorrência dos substanciais avanços, pôde-se construir, a partir de 1983, o índice mensal de emprego, a taxa de rotatividade e a flutuação da mão-de-obra (admitidos / desligados).\r\n\r\nOs aperfeiçoamentos ocorridos no sistema CAGED e também na metodologia de tratamento dos dados tornaram esse registro administrativo uma das principais fontes de informações estatísticas sobre o mercado de trabalho conjuntural. O CAGED apresenta desagregações idênticas às da RAIS, em termos geográficos, setoriais e ocupacionais, possibilitando a realização de estudos que indicam as tendências mais atuais. No espectro conjuntural, é a única fonte de informação com tal nível de desagregação, sendo, portanto, imprescindível para o balizamento das intervenções dos formuladores de políticas na esfera do mercado de trabalho, aumentando a eficácia e eficiência das políticas de emprego que possibilitam o aumento do número e da qualidade de postos de trabalho e, por conseguinte, a redução da desigualdade social.\r\n\r\nA qualidade das informações do CAGED vem apresentando significativa melhora. Concorreu para esse fato a implantação da Portaria nº 561/2001 que determinou a extinção da declaração do CAGED em formulário padrão a partir da competência de novembro de 2001. Esta medida teve um impacto positivo na qualidade, uma vez que as informações declaradas, em meios eletrônicos, passam por um processo de críticas. Ademais, a implantação da recepção do CAGED, via Internet, possibilitou, também, um ganho na tempestividade.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "firma",
+      "emprego",
+      "empresa",
+      "trabalho"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

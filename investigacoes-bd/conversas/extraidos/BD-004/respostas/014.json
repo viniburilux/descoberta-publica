@@ -1,0 +1,56 @@
+{
+  "id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+  "name": "Censo Escolar",
+  "description": "O Censo Escolar é o principal instrumento de coleta de informações da educação básica e a mais importante pesquisa estatística educacional brasileira. É coordenado pelo Inep e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação e com a participação de todas as ... (864 more characters)",
+  "organizations": [
+    "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+  ],
+  "tags": [
+    "indicadores educacionais",
+    "desigualdade",
+    "escola",
+    "escolas",
+    "indicadores socioeconômicos"
+  ],
+  "themes": [
+    "Educação"
+  ],
+  "tables": [
+    {
+      "id": "62f7bef8-36f3-4c9b-bc79-882a2ebbed8f",
+      "dataset_id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+      "gcp_id": "basedosdados.br_inep_censo_escolar.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Censo Escolar. Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "cf9586ad-a168-40c1-97f9-86083ba4409f",
+      "dataset_id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+      "gcp_id": "basedosdados.br_inep_censo_escolar.docente",
+      "name": "Docente",
+      "description": "A tabela contém dados de cada professor de cada ano das escolas nacionais. A tabela identifica desde características pessoais dos profissionais, as disciplinas que eles ensinam, as suas formações e a qual escola e qual turma pertencem. Pode ser facilmente combinada com as outras tabelas do censo ou ... (71 more characters)"
+    },
+    {
+      "id": "15e428cb-cce2-41f8-aec5-066d685b5bd5",
+      "dataset_id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+      "gcp_id": "basedosdados.br_inep_censo_escolar.escola",
+      "name": "Escola",
+      "description": "A tabela contém dados do Censo Escolar ao nível de cada escola. Os dados são organizados em mais de 400 variáveis que traçam um perfil completo da escola, caracterizando desde a infraestrutura física disponível, a equipe pedagógica, a infraestrutura pedagógica, marcas do período letivo como seu come... (138 more characters)"
+    },
+    {
+      "id": "a1cdb042-073e-4891-ad98-67e0bef5d18e",
+      "dataset_id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+      "gcp_id": "basedosdados.br_inep_censo_escolar.matricula",
+      "name": "Matrícula",
+      "description": "Dados de matrícula. \r\n\r\nDescontinuado pelo INEP (LGPD)"
+    },
+    {
+      "id": "a915f6eb-9729-4425-a035-f486d6a83db9",
+      "dataset_id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+      "gcp_id": "basedosdados.br_inep_censo_escolar.turma",
+      "name": "Turma",
+      "description": "A tabela contém dados que caracterizam as turmas de cada escola brasileira. Entre os dados podemos encontrar as disciplinas feitas pela turma, o horário de começo das aulas, o número de alunos da turma e o nível de ensino no qual se encontra a turma. Há também vários outros aspectos mais específicos... (203 more characters)"
+    }
+  ],
+  "usage_guide": "---\ntitle: Guia de uso de dados do Censo Escolar\ndescription: >-\n  Guia de uso de dados de Campeonatos de Futebol. Este material contém informações sobre as variáveis mais importantes, perguntas frequentes e exemplos de uso do conjunto.\ndate:\n  created: \"2024-11-28T18:18:06.419Z\"\nthumbnail: \ncategor... (6308 more characters)"
+}

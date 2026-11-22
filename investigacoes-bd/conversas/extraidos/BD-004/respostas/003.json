@@ -1,0 +1,181 @@
+[
+  {
+    "id": "63f1218f-c446-4835-b746-f109a338e3a1",
+    "name": "Indicadores Educacionais",
+    "description": "Os indicadores educacionais atribuem valor estatístico à qualidade do ensino, atendo-se não somente ao desempenho dos alunos mas também ao contexto econômico e social em que as escolas estão inseridas. Eles são úteis principalmente para o monitoramento dos sistemas educacionais, considerando o acesso, a permanência e a aprendizagem de todos os alunos. Dessa forma, contribuem para a criação de políticas públicas voltadas para a melhoria da qualidade da educação e dos serviços oferecidos à sociedade pela escola.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação básica",
+      "creche",
+      "educação superior",
+      "ensino médio"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "f8ab4a9d-7457-4f5f-8a50-9eec334e9abe",
+    "name": "Educação Especial",
+    "description": "A Educação Especial é a “modalidade de educação escolar oferecida preferencialmente na rede regular de ensino, para educandos com deficiência, transtornos globais do desenvolvimento e altas habilidades ou superdotação” (Redação dada pela Lei nº 12.796/2013, art.58, que alterou a LDB). Nesse conjunto, estão reunidos os dados da Sinopse Estatística da Educação Básica referentes à Educação Especial, e pedidos LAI com informações complementares sobre Educação Especial",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "acessibilidade",
+      "aprovação",
+      "alfabetização",
+      "abandono_escolar"
+    ],
+    "themes": [
+      "Diversidade e Inclusão",
+      "Educação"
+    ]
+  },
+  {
+    "id": "69102969-73eb-41cf-ae9c-e647d7ad6034",
+    "name": "Simet Educação Conectada",
+    "description": "Dados de monitoramento da qualidade da internet em escolas que possuem o medidor Educação Conectada - Simet.\r\n\r\nOs dados em questão são atualizados diariamente, mas na Base dos Dados temos apenas o retrato de um único dia.",
+    "organizations": [
+      "Ministério da Educação e Cultura (MEC)"
+    ],
+    "tags": [
+      "internet",
+      "escola"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "96eab476-5d30-459b-82be-f888d4d0d6b9",
+    "name": "Índice de Desenvolvimento da Educação Básica (Ideb)",
+    "description": "O Índice de Desenvolvimento da Educação Básica (Ideb) foi criado em 2007 e reúne, em um só indicador, os resultados de dois conceitos igualmente importantes para a qualidade da educação: o fluxo escolar e as médias de desempenho nas avaliações.\r\n\r\nEle é calculado a partir dos dados sobre aprovação escolar, obtidos no Censo Escolar, e das médias de desempenho nas avaliações do Inep, o Sistema de Avaliação da Educação Básica (Saeb) – para as unidades da federação e para o país, e a Prova Brasil – para os municípios.\r\n\r\nO Ideb agrega ao enfoque pedagógico dos resultados das avaliações em larga escala do Inep a possibilidade de resultados sintéticos, facilmente assimiláveis, e que permitem traçar metas de qualidade educacional para os sistemas. O índice varia de zero a 10 e a combinação entre fluxo e aprendizagem tem o mérito de equilibrar as duas dimensões: se um sistema de ensino retiver seus alunos para obter resultados de melhor qualidade no Saeb ou Prova Brasil, o fator fluxo será alterado, indicando a necessidade de melhoria do sistema. Se, ao contrário, o sistema apressar a aprovação do aluno sem qualidade, o resultado das avaliações indicará igualmente a necessidade de melhoria do sistema.\r\n\r\nO Ideb também é importante por ser condutor de política pública em prol da qualidade da educação. É a ferramenta para acompanhamento das metas de qualidade do Plano de Desenvolvimento da Educação (PDE) para a educação básica, que tem estabelecido, como meta, que em 2022 o Ideb do Brasil seja 6,0 – média que corresponde a um sistema educacional de qualidade comparável a dos países desenvolvidos.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação básica",
+      "avaliação",
+      "exame",
+      "ensino médio"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "a3b57cca-ff80-4bf2-8bac-c145109e06a7",
+    "name": "Censo da Educação Superior",
+    "description": "O Censo da Educação Superior, realizado anualmente pelo Inep, é o instrumento de pesquisa mais completo do Brasil sobre as instituições de educação superior (IES) que ofertam cursos de graduação e sequencias de formação específica, além de seus alunos e docentes. Essa coleta tem como objetivo de oferecer à comunidade acadêmica e à sociedade em geral informações detalhadas sobre a situação e as grandes tendências do setor.\r\n\r\nO Censo da Educação Superior reúne informações sobre as instituições de ensino superior, seus cursos de graduação presencial ou a distância, cursos sequenciais, vagas oferecidas, inscrições, matrículas, ingressantes e concluintes e informações sobre docentes nas diferentes formas de organização acadêmica e categoria administrativa.\r\n\r\nOs dados são coletados a partir do preenchimento dos questionários, por parte das Instituições de Ensino Superior e por importação de dados do Sistema e-MEC. Durante o período de preenchimento do questionário, os pesquisadores institucionais (PIs) podem fazer, a qualquer momento, alterações ou inclusões necessárias nos dados das respectivas instituições. Após esse período, o Inep verifica a consistência das informações coletadas. O sistema do Censo é então reaberto para conferência e validação dos dados pelas IES.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação superior"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "cbfc7253-089b-44e2-8825-755e1419efc8",
+    "name": "Atlas do Desenvolvimento Humano (ADH)",
+    "description": "O Atlas do Desenvolvimento Humano no Brasil é um site que traz o IDH a nível municipal (IDHM) e outros 200 indicadores de demografia, educação, renda, trabalho, habitação e vulnerabilidade para os municípios brasileiros.",
+    "organizations": [
+      "Organização das Nações Unidas (ONU)"
+    ],
+    "tags": [
+      "educação básica",
+      "desenvolvimento",
+      "emprego",
+      "índice de desenvolvimento humano",
+      "educação superior",
+      "renda",
+      "expectativa de vida",
+      "alfabetização",
+      "mortalidade",
+      "pobreza_-renda",
+      "pobreza",
+      "bem público",
+      "bem-estar"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde",
+      "População"
+    ]
+  },
+  {
+    "id": "8326e3d7-9cd2-4144-863f-c380fefef82c",
+    "name": "Sistema de Seleção Unificado",
+    "description": "O Sistema de Seleção Unificada (Sisu) é um sistema eletrônico gerido pelo MEC para as vagas ofertadas por instituições públicas de ensino superior de todo o Brasil. O sistema executa a seleção dos estudantes com base na média da nota do Exame Nacional do Ensino Médio (Enem) até o limite da oferta das vagas, por curso e modalidade de concorrência, de acordo com as escolhas dos candidatos inscritos e perfil socioeconômico para Lei de Cotas",
+    "organizations": [
+      "Ministério da Educação e Cultura (MEC)"
+    ],
+    "tags": [
+      "educação",
+      "educação superior",
+      "escola",
+      "ensino"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+    "name": "Censo Escolar",
+    "description": "O Censo Escolar é o principal instrumento de coleta de informações da educação básica e a mais importante pesquisa estatística educacional brasileira. É coordenado pelo Inep e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação e com a participação de todas as escolas públicas e privadas do país.\r\n\r\nEle abrange as diferentes etapas e modalidades da educação básica e profissional:\r\n- Ensino regular (educação infantil, ensino fundamental e médio);\r\n- Educação especial – modalidade substitutiva;\r\n- Educação de Jovens e Adultos (EJA);\r\n- Educação profissional (cursos técnicos e cursos de formação inicial continuada ou qualificação profissional).\r\n\r\nA coleta de dados das escolas tem caráter declaratório e é dividida em duas etapas. A primeira etapa consiste no preenchimento da Matrícula Inicial, quando ocorre a coleta de informações sobre os estabelecimentos de ensino, gestores, turmas, alunos e profissionais escolares em sala de aula. A segunda etapa ocorre com o preenchimento de informações sobre a Situação do Aluno, e considera os dados sobre o movimento e rendimento escolar dos alunos, ao final do ano letivo.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "indicadores educacionais",
+      "desigualdade",
+      "escola",
+      "escolas",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "386927a4-4ee8-4975-8ff3-beece3474942",
+    "name": "Sinopses Estatísticas da Educação Básica",
+    "description": "As Sinopses Estatísticas do Inep correspondem a um conjunto de tabelas com dados recolhidos por suas pesquisas estatísticas, avaliações e exames. Elaborada anualmente pela Diretoria de Estatísticas Educacionais (Deed), a Sinopse Estatística traz um resumo dos principais dados coletados no Censo Escolar da Educação Básica.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação básica",
+      "indicadores educacionais",
+      "matrícula",
+      "aprendizagem",
+      "escola",
+      "aluno"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "aabcf834-3b65-408e-9bad-b0fdf8ba2d3e",
+    "name": "Adequação da Formação Docente",
+    "description": null,
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "docente",
+      "formação"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  }
+]

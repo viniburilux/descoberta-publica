@@ -1,0 +1,74 @@
+{
+  "id": "8873f899-fdca-4ae4-808a-cdaaa1735d6a",
+  "dataset_id": "96eab476-5d30-459b-82be-f888d4d0d6b9",
+  "gcp_id": "basedosdados.br_inep_ideb.municipio",
+  "name": "Município",
+  "description": "Dados do Ideb agregados para o Brasil a nível de municipio-rede-ensino-ano.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "needs_decoding": false
+    },
+    {
+      "name": "anos_escolares",
+      "type": "STRING",
+      "description": "Anos Escolares",
+      "needs_decoding": false
+    },
+    {
+      "name": "ensino",
+      "type": "STRING",
+      "description": "Tipo de Ensino",
+      "needs_decoding": false
+    },
+    {
+      "name": "ideb",
+      "type": "FLOAT64",
+      "description": "IDEB (N x P)",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "indicador_rendimento",
+      "type": "FLOAT64",
+      "description": "Indicador de Rendimento (P)",
+      "needs_decoding": false
+    },
+    {
+      "name": "nota_saeb_lingua_portuguesa",
+      "type": "FLOAT64",
+      "description": "Nota SAEB - Língua Portuguesa",
+      "needs_decoding": false
+    },
+    {
+      "name": "nota_saeb_matematica",
+      "type": "FLOAT64",
+      "description": "Nota SAEB - Matemática",
+      "needs_decoding": false
+    },
+    {
+      "name": "nota_saeb_media_padronizada",
+      "type": "FLOAT64",
+      "description": "Nota SAEB - Média Padronizada (N)",
+      "needs_decoding": false
+    },
+    {
+      "name": "projecao",
+      "type": "FLOAT64",
+      "description": "Projeção",
+      "needs_decoding": false
+    },
+    "... (3 more items)"
+  ],
+  "partitioned_by": [],
+  "period_start": "2005",
+  "period_end": "2025"
+}

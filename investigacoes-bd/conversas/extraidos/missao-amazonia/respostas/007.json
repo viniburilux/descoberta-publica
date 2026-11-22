@@ -1,0 +1,186 @@
+[
+  {
+    "id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+    "name": "Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro (SICONFI)",
+    "description": "O Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro (Siconfi) foi desenvolvido como um instrumento para, dentre outros objetivos, facilitar a produção e análise de informações contábeis e fiscais, padronizar os mecanismos de consolidação e aumentar a qualidade e confiabilidade das informações contábeis, financeiras e de estatísticas fiscais recebidas dos municípios, estados, Distrito Federal e União. \r\nA base abrange os dados do Finbra, que vão de 1989 até 2012, e do SICONFI, que vão até o dado mais recente disponível",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "orçamento",
+      "despesa",
+      "fiscalização",
+      "finanças públicas",
+      "finanças públicas",
+      "receita",
+      "gasto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "31ffbaa4-e7a1-4e20-9c5c-a52329e4127b",
+    "name": "Eleições de Victoria",
+    "description": "Resultados das eleições estaduais de Victoria, na Austrália, publicados pela Comissão Eleitoral de Victoria (VEC). Cobre as eleições gerais de 2006, 2010, 2014, 2018 e 2022, as eleições suplementares e parciais realizadas desde então, e o registro público de doações políticas a partir de 2018. Os resultados abrangem a Assembleia Legislativa, disputada por distritos de cadeira única, e o Conselho Legislativo, disputado por regiões de múltiplas cadeiras pelo voto único transferível desde 2006. A eleição de 2002 está representada apenas por duas províncias do Conselho Legislativo, Western Port e Higinbotham, porque a VEC não publica mais nada daquele pleito. As disputas de governo local, também administradas pela VEC, não estão incluídas.",
+    "organizations": [
+      "Comissão Eleitoral de Victoria (VEC)"
+    ],
+    "tags": [
+      "financiamento de campanha",
+      "candidatura",
+      "doação",
+      "eleições",
+      "sistema eleitoral",
+      "partido político",
+      "preferências",
+      "transparência",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "544c9d22-97b7-479a-8eca-94762840b465",
+    "name": "Microdados do Sistema de Operações do Crédito Rural e do Proagro (Sicor)",
+    "description": "Este conjunto de dados consolida as informações do SICOR (Sistema de Operações do Crédito Rural e do Proagro), registrando o ciclo completo das operações de crédito rural no Brasil, desde a contratação até o saldo devedor e a espacialização das áreas financiadas.\r\n\r\n  O conjunto possui diversas tabelas de microdados, organizadas por eixos temáticos:\r\n\r\n   * Operação: Cada linha representa uma operação de crédito rural e seus atributos cadastrais (valores contratados, finalidade, programa, etc.).\r\n   * Saldo: Cada linha representa o saldo devedor mensal de uma operação, permitindo o acompanhamento da evolução da dívida ao longo do tempo.\r\n   * Liberação: Cada linha registra um evento de desembolso (repasse financeiro) associado a uma operação contratada.\r\n   * Recurso Público (Mutuário, Cooperado e Propriedade): Tabelas que detalham os beneficiários (pessoas físicas ou jurídicas), membros de cooperativas e as propriedades rurais envolvidas em operações que utilizam subsídios ou fontes de recurso públicas.\r\n   * Gleba: Cada linha contém a delimitação geográfica (polígonos e coordenadas) das áreas onde o recurso do crédito rural é aplicado.\r\n\r\n\r\n  A tabela que relaciona todas as demais é a microdados_operacao. O vínculo entre as tabelas é realizado através da combinação das colunas id_referencia_bacen e numero_ordem. Uma única operação registrada na tabela mestre pode possuir múltiplos registros de saldo mensais, diversas parcelas de liberação e diferentes glebas ou beneficiários associados.\r\n\r\n\r\n  Diferente de bases estáticas, o SICOR é atualizado mensalmente pelas instituições  financeiras. Para garantir a consistência temporal e o permissionamento dos dados, as tabelas utilizam as colunas ano_emissao e mes_emissao como chaves de particionamento e filtro principal.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "agropecuária",
+      "crédito",
+      "gestão ambiental",
+      "uso da terra",
+      "rural"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "ea7293fb-cff1-4de3-ba08-71ea526550fe",
+    "name": "Estatísticas do Poder Judiciário",
+    "description": "Principal fonte das estatísticas oficiais do Poder Judiciário, anualmente, desde 2004, o Relatório Justiça em Números divulga a realidade dos tribunais brasileiros, com muitos detalhamentos da estrutura e litigiosidade, além dos indicadores e das análises essenciais para subsidiar a Gestão Judiciária brasileira.",
+    "organizations": [
+      "Conselho Nacional de Justiça (CNJ)"
+    ],
+    "tags": [
+      "judiciário"
+    ],
+    "themes": [
+      "Justiça"
+    ]
+  },
+  {
+    "id": "2810837f-e52b-4da0-a4e9-e7ad4109ffe7",
+    "name": "Operações Contratadas",
+    "description": "Dados de Operações Financeiras Contratadas do BNDES (Banco Nacional de Desenvolvimento Econômico e Social) disponibilizadas em sua Central de Downloads de Transparência.",
+    "organizations": [
+      "BNDES"
+    ],
+    "tags": [
+      "atividade econômica",
+      "economia",
+      "financiamento",
+      "governança",
+      "governo"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "63970b0c-e39c-445c-9369-3db6b8ce7570",
+    "name": "Agências Bancárias",
+    "description": "Apresenta a relação de agências bancárias atuantes no brasil autorizadas pelo Banco Central do Brasil (BCB), com atualização mensal.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "banco"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "062621e9-5aa0-4903-852d-619ae54393d2",
+    "name": "Cadastro Nacional de Obras (CNO)",
+    "description": "O Cadastro Nacional de Obras (CNO) é o banco de dados, administrado pela Secretaria Especial da Receita Federal do Brasil (RFB), que armazena informações cadastrais de obras de construção civil e de seus responsáveis. Este cadastro é necessário para que o contribuinte possa cumprir as suas obrigações tributárias (entregar declarações e realizar pagamentos) e, ao final da obra, obter a certidão de regularidade fiscal relativa à obra.",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "construção",
+      "fiscalização",
+      "obra pública"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "81d89c04-120e-4b7d-aae0-41428f199811",
+    "name": "Portal Nacional de Contratações Públicas (PNCP)",
+    "description": "Contratações públicas divulgadas no Portal Nacional de Contratações Públicas (PNCP), instituído pela Lei 14.133/2021 para a divulgação centralizada e obrigatória dos atos de contratação de todos os entes federativos. Abrange os três níveis de governo — federal, estadual e municipal — com contratações (licitações, dispensas e inexigibilidades), contratos e empenhos, atas de registro de preços e instrumentos de cobrança, a partir de 2021.",
+    "organizations": [
+      "Ministério da Gestão e da Inovação em Serviços Públicos"
+    ],
+    "tags": [
+      "contrato",
+      "despesa",
+      "administração pública",
+      "finanças públicas",
+      "licitação",
+      "compra",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "5c6664e6-38a4-4916-9473-72ac368bb96c",
+    "name": "Campeonatos Internacionais de Futebol",
+    "description": "Dados de competições internacionais de futebol no mundo com informações de partidas, times e jogadores de futebol.",
+    "organizations": [
+      "Transfermarkt"
+    ],
+    "tags": [
+      "champions_league",
+      "la_liga"
+    ],
+    "themes": [
+      "Esportes"
+    ]
+  },
+  {
+    "id": "e05e6988-71f2-468b-96ac-3e62297e4271",
+    "name": "Estatísticas de Previdência (APRA, Austrália)",
+    "description": "Estatísticas trimestrais de desempenho dos fundos de previdência regulados pela APRA na Austrália, publicadas pela Autoridade Australiana de Regulação Prudencial. Abrange toda a indústria e os tipos de fundo corporativo, setorial, do setor público e de varejo, desde o quarto trimestre de 2004, com desempenho financeiro (fluxos de contribuições, benefícios e resultados, incluindo a divisão das contribuições patronais entre benefício definido, Garantia de Previdência e salary sacrifice), posição financeira (balanço) e índices de desempenho (taxa de retorno). Os valores estão em milhões de dólares australianos.",
+    "organizations": [
+      "Autoridade Australiana de Regulação Prudencial (APRA)"
+    ],
+    "tags": [
+      "instituição financeira",
+      "demonstração financeira",
+      "investimento",
+      "previdência",
+      "regulação prudencial",
+      "aposentadoria"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

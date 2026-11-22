@@ -1,0 +1,96 @@
+{
+  "id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+  "name": "Dados Geográficos Brasileiros (geobr)",
+  "description": "O geobr é um pacote R que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples, disponív... (52 more characters)",
+  "organizations": [
+    "Instituto de Pesquisa Econômica Aplicada (ipea)"
+  ],
+  "tags": [
+    "amazônia",
+    "hospital",
+    "mapa",
+    "desastre natural",
+    "área protegida",
+    "escola"
+  ],
+  "themes": [
+    "Educação",
+    "Saúde",
+    "Organização Territorial",
+    "Urbanização"
+  ],
+  "tables": [
+    {
+      "id": "96ed191f-cde0-4abf-b959-67cb000ff0c6",
+      "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+      "gcp_id": "basedosdados.br_geobr_mapas.amazonia_legal",
+      "name": "Amazônia Legal",
+      "description": "O geobr é um pacote R e Python que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples,... (61 more characters)"
+    },
+    {
+      "id": "dc95fdad-9b3a-4bda-bcb5-8803764f1fc3",
+      "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+      "gcp_id": "basedosdados.br_geobr_mapas.area_minima_comparavel_2010",
+      "name": "Área Mínima Comparável 2010",
+      "description": "O geobr é um pacote R e Python que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples,... (61 more characters)"
+    },
+    {
+      "id": "6c6a5c9f-2f1a-4611-ba61-6dfd5b165417",
+      "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+      "gcp_id": "basedosdados.br_geobr_mapas.area_risco_desastre",
+      "name": "Área Risco Desastre",
+      "description": "O geobr é um pacote R e Python que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples,... (61 more characters)"
+    },
+    {
+      "id": "cb2d4de1-f698-426f-87d9-0c9892dd0847",
+      "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+      "gcp_id": "basedosdados.br_geobr_mapas.arranjo_populacional",
+      "name": "Arranjo Populacional",
+      "description": "O geobr é um pacote R e Python que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples,... (61 more characters)"
+    },
+    {
+      "id": "3880670f-eceb-47ec-802b-4579ee62ae3b",
+      "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+      "gcp_id": "basedosdados.br_geobr_mapas.bioma",
+      "name": "Bioma",
+      "description": "Polígonos de todos o biomas presentes no território brasileiro e área costeira.\r\n\r\nOs dados de 2019 estão na estala 1:250.000. Os dados de 2004 estão na escala\r\n1:5.000.000.\r\n\r\nDados originais do IBGE. Saiba mais em https://www.ibge.gov.br/apps/biomas/"
+    },
+    {
+      "id": "93d442d4-6481-4d6b-9477-ff5911717cee",
+      "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+      "gcp_id": "basedosdados.br_geobr_mapas.concentracao_urbana",
+      "name": "Concentração Urbana",
+      "description": "O geobr é um pacote R e Python que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples,... (61 more characters)"
+    },
+    {
+      "id": "1313997d-fec6-4533-a510-0542ffdd8ddc",
+      "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+      "gcp_id": "basedosdados.br_geobr_mapas.escola",
+      "name": "Escola",
+      "description": "O geobr é um pacote R e Python que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples,... (61 more characters)"
+    },
+    {
+      "id": "3cf82519-02f4-4916-b8f4-aed07a3706c3",
+      "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+      "gcp_id": "basedosdados.br_geobr_mapas.estabelecimentos_saude",
+      "name": "Estabelecimentos saúde",
+      "description": "O geobr é um pacote R e Python que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples,... (61 more characters)"
+    },
+    {
+      "id": "f04b5dd8-51b0-431c-8a2a-a68b3701fc54",
+      "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+      "gcp_id": "basedosdados.br_geobr_mapas.limite_vizinhanca",
+      "name": "Limite Vizinhança",
+      "description": "O geobr é um pacote R e Python que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples,... (61 more characters)"
+    },
+    {
+      "id": "a8093a2e-92e7-49e9-9a0b-799c3b1c4e0b",
+      "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+      "gcp_id": "basedosdados.br_geobr_mapas.mesorregiao",
+      "name": "Mesorregião",
+      "description": "O geobr é um pacote R e Python que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples,... (61 more characters)"
+    },
+    "... (15 more items)"
+  ],
+  "usage_guide": null
+}

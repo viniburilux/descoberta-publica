@@ -1,0 +1,195 @@
+[
+  {
+    "id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+    "name": "Cadastro Ambiental Rural (CAR)",
+    "description": "Dados públicos do Cadastro Ambiental Rural (CAR), registro eletrônico nacional obrigatório dos imóveis rurais brasileiros, mantido no Sistema Nacional de Cadastro Ambiental Rural (SICAR) pelo Serviço Florestal Brasileiro. Inclui o perímetro dos imóveis e as feições ambientais declaradas — Área de Preservação Permanente (APP), Reserva Legal, vegetação nativa, hidrografia, área consolidada, uso restrito, servidão administrativa e pousio — com geometria em coordenadas geográficas (WGS84). Os dados são organizados como snapshots empilhados por data de disponibilização por Unidade da Federação.",
+    "organizations": [
+      "Serviço Florestal Brasileiro"
+    ],
+    "tags": [
+      "agropecuária",
+      "atividade econômica",
+      "licenciamento ambiental",
+      "gestão ambiental",
+      "uso da terra",
+      "sicar"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "6502fbc5-7383-4f0b-b836-dc630541f0e8",
+    "name": "Sistema de Informações de Custos do Governo Federal (SIC)",
+    "description": null,
+    "organizations": [
+      "Ministério da Fazenda (MF)"
+    ],
+    "tags": [
+      "custo",
+      "transferência"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "80cc0bd8-a8f3-40dc-bd48-81e2076da0ac",
+    "name": "Censo Trimestral de Emprego e Salários (QCEW)",
+    "description": "Censo Trimestral de Emprego e Salários (QCEW) do Bureau of Labor Statistics dos Estados Unidos, um quase-censo dos estabelecimentos cobertos pelo seguro-desemprego. Reporta contagens de estabelecimentos, níveis mensais de emprego e salários trimestrais e anuais por condado, estado, área metropolitana e nação, classificados por indústria (NAICS a partir de 1990, SIC de 1975 a 2000), setor de propriedade e classe de tamanho.",
+    "organizations": [
+      "Centro de Estatísticas Laborais (BLS) dos Estados Unidos"
+    ],
+    "tags": [],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15",
+    "name": "Fiscalização Ambiental",
+    "description": "Registros de fiscalização ambiental do Ibama: autos de infração lavrados desde 1977 e termos de embargo desde 1987, com o enquadramento, o valor da multa, a situação do débito, a área embargada e a localização declarada. Os dados são publicados diariamente no portal de dados abertos do Ibama e reproduzem os sistemas Sifisc e Sicafi.",
+    "organizations": [
+      "Ibama"
+    ],
+    "tags": [
+      "desmatamento",
+      "embargo",
+      "fauna",
+      "multa",
+      "flora",
+      "infração",
+      "fiscalização",
+      "sanção"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "fb693f9b-9e74-4b5a-8ef6-7ab4ae7b1e2c",
+    "name": "Demonstrações Financeiras de Companhias Abertas (SEC EDGAR)",
+    "description": "Dados numéricos das demonstrações financeiras principais de todas as companhias que protocolam documentos na Securities and Exchange Commission (SEC) dos Estados Unidos, extraídos das submissões em XBRL e publicados nos Financial Statement Data Sets trimestrais. Cobre balanço patrimonial, demonstração de resultado, fluxo de caixa, mutações do patrimônio líquido e resultado abrangente, de abril de 2009 a junho de 2026. As quatro tabelas espelham os arquivos de origem: submissões, fatos numéricos, marcadores da taxonomia XBRL e apresentação das linhas das demonstrações.",
+    "organizations": [
+      "Comissão de Valores Mobiliários dos Estados Unidos (SEC)"
+    ],
+    "tags": [
+      "contabilidade",
+      "atividade econômica",
+      "finanças",
+      "demonstração financeira",
+      "empresa",
+      "investimento",
+      "regulação"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "672967d3-bdf4-401a-afe1-15b8cb942adf",
+    "name": "Diretórios Estados Unidos",
+    "description": "Tabelas de diretório que ligam códigos institucionais e geográficos e informações de entidades dos Estados Unidos, usadas como chaves estrangeiras por outros conjuntos de dados.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório"
+    ],
+    "themes": [
+      "Educação",
+      "Governo e Finanças Públicas",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "1e3aa290-c25a-4a06-9ff9-b1ee481e615b",
+    "name": "Inventário de Liberações Tóxicas (TRI)",
+    "description": "O Toxics Release Inventory (TRI) é o inventário anual da Agência de Proteção Ambiental dos Estados Unidos (EPA) sobre liberações no meio ambiente, transferências para fora do local e gestão de resíduos de mais de 700 substâncias químicas tóxicas, declaradas por cerca de 21 mil instalações industriais e federais sob a seção 313 do EPCRA. O conjunto traz uma tabela de instalações por ano, uma dimensão de produtos químicos, uma linha por formulário entregue (instalação, produto químico e ano) com os totais calculados pela EPA e as quantidades de resíduo relacionado à produção, e o detalhe em formato longo das liberações e transferências por categoria do Form R, de 1987 até o presente. Todas as quantidades estão em libras, com o valor original em gramas preservado para dioxinas.",
+    "organizations": [
+      "U.S. Environmental Protection Agency (EPA)"
+    ],
+    "tags": [
+      "produto químico",
+      "companhia",
+      "emissão",
+      "gestão ambiental",
+      "Estabelecimento",
+      "poluição",
+      "reciclagem",
+      "regulação",
+      "resíduo"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "d3874769-bcbd-4ece-a38a-157ba1021514",
+    "name": "Microdados de Despesas de Entes Subnacionais (MiDES)",
+    "description": "Microdados de compras públicas e execução orçamentária de entes subnacionais brasileiros.\r\n\r\nDados coletados de Tribunais de Contas Estaduais (TCEs) e harmonizados seguindo a metodologia descrita em Dahis, Ricca, Scot, Sales e Nascimento (2023).",
+    "organizations": [
+      "Banco Mundial"
+    ],
+    "tags": [
+      "orçamento",
+      "contrato",
+      "despesa",
+      "finanças públicas",
+      "licitação",
+      "compra",
+      "gasto",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+    "name": "Compras públicas",
+    "description": "Compras públicas brasileiras registradas no Compras.gov.br, abrangendo os dois regimes de contratação: as contratações realizadas sob a Lei 14.133/2021 e divulgadas no PNCP, de 2021 em diante, e as licitações e contratações diretas sob a Lei 8.666/1993, de 1997 a 2025. Inclui itens, resultados, atas de registro de preços, contratos e os cadastros de órgãos, unidades compradoras, fornecedores e catálogos de materiais e serviços. Apesar do nome do portal, cobre os três níveis de governo: 43% das contratações são federais, 31% estaduais e 25% municipais.",
+    "organizations": [
+      "Ministério da Gestão e da Inovação em Serviços Públicos"
+    ],
+    "tags": [
+      "companhia",
+      "contrato",
+      "preço",
+      "administração pública",
+      "licitação",
+      "compra",
+      "gasto",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+    "name": "Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro (SICONFI)",
+    "description": "O Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro (Siconfi) foi desenvolvido como um instrumento para, dentre outros objetivos, facilitar a produção e análise de informações contábeis e fiscais, padronizar os mecanismos de consolidação e aumentar a qualidade e confiabilidade das informações contábeis, financeiras e de estatísticas fiscais recebidas dos municípios, estados, Distrito Federal e União. \r\nA base abrange os dados do Finbra, que vão de 1989 até 2012, e do SICONFI, que vão até o dado mais recente disponível",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "orçamento",
+      "despesa",
+      "fiscalização",
+      "finanças públicas",
+      "finanças públicas",
+      "receita",
+      "gasto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  }
+]

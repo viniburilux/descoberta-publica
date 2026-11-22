@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Unrecognized name: geometria at [20:93]\n\nLocation: None\nJob ID: 994db396-19be-4e97-b26e-6a70eb34bdbe\n"
+}

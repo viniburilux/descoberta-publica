@@ -1,0 +1,73 @@
+{
+  "id": "8a02c4e5-1718-41e7-8891-d0fa09265d58",
+  "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+  "gcp_id": "basedosdados.br_bd_diretorios_brasil.cnae_2",
+  "name": "CNAE 2",
+  "description": "Diretório da Classificação Nacional de Atividades Econômicas 2.0, 2.1, 2.2 e 2.3. Para facilitar o uso das diferentes versões da CNAE criamos uma tabela única variáveis para identificar a presença ou não da subclasse da CNAE numa dada versão.",
+  "columns": [
+    {
+      "name": "classe",
+      "type": "STRING",
+      "description": "Classe da CNAE",
+      "needs_decoding": false
+    },
+    {
+      "name": "descricao_classe",
+      "type": "STRING",
+      "description": "Descrição da classe",
+      "needs_decoding": false
+    },
+    {
+      "name": "descricao_divisao",
+      "type": "STRING",
+      "description": "Descrição da divisão",
+      "needs_decoding": false
+    },
+    {
+      "name": "descricao_grupo",
+      "type": "STRING",
+      "description": "Descrição do grupo",
+      "needs_decoding": false
+    },
+    {
+      "name": "descricao_secao",
+      "type": "STRING",
+      "description": "Descrição da Seção",
+      "needs_decoding": false
+    },
+    {
+      "name": "descricao_subclasse",
+      "type": "STRING",
+      "description": "Descrição da subclasse da CNAE",
+      "needs_decoding": false
+    },
+    {
+      "name": "divisao",
+      "type": "STRING",
+      "description": "Divisão da CNAE",
+      "needs_decoding": false
+    },
+    {
+      "name": "grupo",
+      "type": "STRING",
+      "description": "Grupo da CNAE",
+      "needs_decoding": false
+    },
+    {
+      "name": "indicador_cnae_2_0",
+      "type": "INT64",
+      "description": "Indica se o código está presente na CNAE 2.0",
+      "needs_decoding": false
+    },
+    {
+      "name": "indicador_cnae_2_1",
+      "type": "INT64",
+      "description": "Indica se o código está presente na CNAE 2.1",
+      "needs_decoding": false
+    },
+    "... (4 more items)"
+  ],
+  "partitioned_by": [],
+  "period_start": null,
+  "period_end": null
+}

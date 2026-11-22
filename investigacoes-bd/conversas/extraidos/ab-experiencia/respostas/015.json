@@ -1,0 +1,86 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "ranking": 1,
+      "id_municipio": "3147006",
+      "municipio": "Paracatu",
+      "credito_rateado": 124511318.62499996,
+      "total_geral": 6720439372.939999,
+      "numero_municipios": 1273
+    },
+    {
+      "ranking": 2,
+      "id_municipio": "3136306",
+      "municipio": "João Pinheiro",
+      "credito_rateado": 88597355.26499999,
+      "total_geral": 6720439372.939999,
+      "numero_municipios": 1273
+    },
+    {
+      "ranking": 3,
+      "id_municipio": "3170206",
+      "municipio": "Uberlândia",
+      "credito_rateado": 79338996.03,
+      "total_geral": 6720439372.939999,
+      "numero_municipios": 1273
+    },
+    {
+      "ranking": 4,
+      "id_municipio": "3170404",
+      "municipio": "Unaí",
+      "credito_rateado": 72859953.19000003,
+      "total_geral": 6720439372.939999,
+      "numero_municipios": 1273
+    },
+    {
+      "ranking": 5,
+      "id_municipio": "3148103",
+      "municipio": "Patrocínio",
+      "credito_rateado": 65097000.99,
+      "total_geral": 6720439372.939999,
+      "numero_municipios": 1273
+    },
+    {
+      "ranking": 6,
+      "id_municipio": "3148004",
+      "municipio": "Patos de Minas",
+      "credito_rateado": 58668737.50000001,
+      "total_geral": 6720439372.939999,
+      "numero_municipios": 1273
+    },
+    {
+      "ranking": 7,
+      "id_municipio": "3153400",
+      "municipio": "Presidente Olegário",
+      "credito_rateado": 57640492.519999996,
+      "total_geral": 6720439372.939999,
+      "numero_municipios": 1273
+    },
+    {
+      "ranking": 8,
+      "id_municipio": "3133402",
+      "municipio": "Itapagipe",
+      "credito_rateado": 50418911.24,
+      "total_geral": 6720439372.939999,
+      "numero_municipios": 1273
+    },
+    {
+      "ranking": 9,
+      "id_municipio": "3109402",
+      "municipio": "Buritizeiro",
+      "credito_rateado": 49972532.800000004,
+      "total_geral": 6720439372.939999,
+      "numero_municipios": 1273
+    },
+    {
+      "ranking": 10,
+      "id_municipio": "3203908",
+      "municipio": "Nova Venécia",
+      "credito_rateado": 49384333.470000006,
+      "total_geral": 6720439372.939999,
+      "numero_municipios": 1273
+    }
+  ],
+  "query_ref": "qr_4b0aa72e628c4aeda721552a31e5806c"
+}

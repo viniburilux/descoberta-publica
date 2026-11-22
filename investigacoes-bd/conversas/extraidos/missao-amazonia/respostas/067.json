@@ -1,0 +1,21 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "ano": 2025,
+      "id_municipio": "1502400",
+      "nome_orgao": "CASTANHAL CAMARA MUNICIPAL",
+      "objeto_contrato": "Contratação de empresa para prestação de serviço de publicações de atos administrativos em veículos oficiais de comunicação (imprensa oficial do estado do Pará, diário oficial da união e jornal de grande circulação no estado), para atender a Câmara Municipal de Castanhal/PA.",
+      "id_fornecedor": "11779005000180",
+      "nome_fornecedor": "ELOAH PUBLICIDADE E PROPAGANDA LTDA",
+      "valor_inicial": 32475.0,
+      "valor_acumulado": null,
+      "valor_global": 32475.0,
+      "data_assinatura": "2025-01-17",
+      "data_vigencia_inicio": "2025-01-20",
+      "data_vigencia_fim": "2027-01-18",
+      "tipo_contrato": "Contrato (termo inicial)"
+    }
+  ],
+  "query_ref": "qr_9577d6fade2d4292b6b1976ff4e0930b"
+}

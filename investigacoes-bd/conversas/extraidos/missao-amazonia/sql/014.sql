@@ -1,0 +1,1 @@
+SELECT ano, conta_bd, estagio_bd, SUM(valor) AS valor FROM `basedosdados.br_me_siconfi.municipio_receitas_orcamentarias` WHERE id_municipio='1503200' AND ano=2024 GROUP BY ano,conta_bd,estagio_bd ORDER BY valor DESC LIMIT 20

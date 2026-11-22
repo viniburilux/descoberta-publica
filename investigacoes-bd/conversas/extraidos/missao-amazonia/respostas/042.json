@@ -1,0 +1,60 @@
+{
+  "row_count": 6,
+  "rows": [
+    {
+      "ano": 2025,
+      "id_contratacao_pncp": "05149117000155-1-000010/2025",
+      "id_municipio": "1503200",
+      "nome_orgao": "MUNICIPIO DE IGARAPE-ACU",
+      "objeto_compra": "[Portal de Compras Públicas] - REGISTRO DE PREÇOS PARA CONTRATAÇÃO DE EMPRESA PARA AQUISIÇÃO DE MATERIAIS DE HIGIENE, LIMPEZA E DESCARTÁVEIS, DESTINADOS AO ATENDIMENTO DAS DEMANDAS DA PREFEITURA, FUNDOS E SECRETARIAS DO MUNICÍPIO DE IGARAPÉ-AÇU/PA.",
+      "valor_total_homologado": 1599050.38,
+      "situacao_compra": "Divulgada no PNCP"
+    },
+    {
+      "ano": 2025,
+      "id_contratacao_pncp": "04554168000108-1-000002/2025",
+      "id_municipio": "1503200",
+      "nome_orgao": "CAMARA MUNICIPAL DE IGARAPE-ACU",
+      "objeto_compra": "[Portal de Compras Públicas] - Registro de preços para contratação de empresa especializada no fornecimento de gêneros alimentícios, material de higiene e limpeza e material de expediente, visando atender as necessidades da Câmara Municipal de Igarapé Açu.",
+      "valor_total_homologado": 182584.2,
+      "situacao_compra": "Divulgada no PNCP"
+    },
+    {
+      "ano": 2025,
+      "id_contratacao_pncp": "05149117000155-1-000007/2025",
+      "id_municipio": "1503200",
+      "nome_orgao": "MUNICIPIO DE IGARAPE-ACU",
+      "objeto_compra": "[Portal de Compras Públicas] - Registro de preços para contratação de empresa especializada na prestação de serviço de coletas, transporte, tratamento\r\ne destino final de lixo hospitalar para atender as necessidades da secretaria municipal de saúde de Igarapé-Açu.",
+      "valor_total_homologado": 46800.0,
+      "situacao_compra": "Divulgada no PNCP"
+    },
+    {
+      "ano": 2025,
+      "id_contratacao_pncp": "05149117000155-1-000063/2025",
+      "id_municipio": "1503200",
+      "nome_orgao": "MUNICIPIO DE IGARAPE-ACU",
+      "objeto_compra": "[Portal de Compras Públicas] - CONTRATAÇÃO DE EMPRESA ESPECIALIZADA PARA PRESTAÇÃO DE SERVIÇOS TÉCNICOS PROFISSIONAIS E ASSESSORIA E CONSULTORIA PÚBLICA, DE NATUREZA SINGULAR, INCLUINDO: DIAGNÓSTICO E LEVANTAMENTO DOS PROBLEMAS ATUAIS RELACIONADOS À TRANSPARÊNCIA PÚBLICA; SELEÇÃO DE SERVIDORES RESPO... (701 more characters)",
+      "valor_total_homologado": null,
+      "situacao_compra": "Divulgada no PNCP"
+    },
+    {
+      "ano": 2026,
+      "id_contratacao_pncp": "04554168000108-1-000003/2026",
+      "id_municipio": "1503200",
+      "nome_orgao": "CAMARA MUNICIPAL DE IGARAPE-ACU",
+      "objeto_compra": "[Portal de Compras Públicas] - Contratação de empresa especializada no fornecimento de gêneros alimentícios, material de higiene e limpeza e material de expediente, visando atender as necessidades da Câmara Municipal de Igarapé Açu.",
+      "valor_total_homologado": 263875.16,
+      "situacao_compra": "Divulgada no PNCP"
+    },
+    {
+      "ano": 2026,
+      "id_contratacao_pncp": "05149117000155-1-000021/2026",
+      "id_municipio": "1503200",
+      "nome_orgao": "MUNICIPIO DE IGARAPE-ACU",
+      "objeto_compra": "[Portal de Compras Públicas] - REGISTRO DE PREÇO PARA CONTRATAÇÃO DE EMPRESA ESPECIALIZADA NA PRESTAÇÃO DE SERVIÇO DE COLETA, TRANSPORTE, TRATAMENTO E DESTINO FINAL DE LIXO HOSPITALAR PARA ATENDER AS NECESSIDADES DA SECRETARIA MUNICIPAL DE SAÚDE DE IGARAPÉ-AÇU.",
+      "valor_total_homologado": 198000.0,
+      "situacao_compra": "Divulgada no PNCP"
+    }
+  ],
+  "query_ref": "qr_edef1f97dea64016af515e7a59b545f8"
+}

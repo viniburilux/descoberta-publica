@@ -1,0 +1,41 @@
+{
+  "row_count": 5,
+  "rows": [
+    {
+      "faixa": "acima de 100%",
+      "imoveis": 138032,
+      "credito": 26736700746.99232,
+      "area_financiada": 6469575.91462221,
+      "razao_media": 254.56199893186954
+    },
+    {
+      "faixa": "50% a 100%",
+      "imoveis": 210073,
+      "credito": 34541251460.6112,
+      "area_financiada": 6946892.825163967,
+      "razao_media": 0.7499486568292395
+    },
+    {
+      "faixa": "25% a 50%",
+      "imoveis": 125809,
+      "credito": 22434234999.92234,
+      "area_financiada": 3644626.7743862397,
+      "razao_media": 0.3742314704664228
+    },
+    {
+      "faixa": "até 25%",
+      "imoveis": 453748,
+      "credito": 42280529185.977394,
+      "area_financiada": 2489445.368049807,
+      "razao_media": 0.038325364101779585
+    },
+    {
+      "faixa": "sem razão",
+      "imoveis": 113,
+      "credito": 671723854.36,
+      "area_financiada": 87.46000000000001,
+      "razao_media": null
+    }
+  ],
+  "query_ref": "qr_d017e4748cfd4c6197f6586132922c2f"
+}

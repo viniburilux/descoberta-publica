@@ -1,0 +1,14 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "municipios_com_credito": 5392,
+      "corr_credito_area_soja": 0.6623451854311461,
+      "corr_credito_producao_soja": 0.6283905228749438,
+      "corr_credito_valor_soja": 0.6298455591461019,
+      "corr_credito_area_agricultura": 0.6912420387770245,
+      "corr_credito_area_pastagem": 0.34471044377050225
+    }
+  ],
+  "query_ref": "qr_215ae1a1787e46dd901743a5e020aa82"
+}

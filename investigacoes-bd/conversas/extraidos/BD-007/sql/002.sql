@@ -1,0 +1,1 @@
+SELECT nivel_1, nivel_2, COUNT(*) AS linhas FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe` WHERE ano = 2023 GROUP BY nivel_1, nivel_2 ORDER BY nivel_1, nivel_2

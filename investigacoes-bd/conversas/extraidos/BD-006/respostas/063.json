@@ -1,0 +1,66 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "id_embargo": "1387965",
+      "id_auto": "1658227",
+      "id_municipio": "1400308",
+      "ano": 2012
+    },
+    {
+      "id_embargo": "1400829",
+      "id_auto": "1646656",
+      "id_municipio": "5200308",
+      "ano": 1995
+    },
+    {
+      "id_embargo": "1413118",
+      "id_auto": "1640683",
+      "id_municipio": "5103379",
+      "ano": 2013
+    },
+    {
+      "id_embargo": "1422478",
+      "id_auto": "1571654",
+      "id_municipio": "2502151",
+      "ano": 2005
+    },
+    {
+      "id_embargo": "1598321",
+      "id_auto": "1687141",
+      "id_municipio": "2802106",
+      "ano": 1995
+    },
+    {
+      "id_embargo": "1598517",
+      "id_auto": "1626043",
+      "id_municipio": "3170057",
+      "ano": 2004
+    },
+    {
+      "id_embargo": "1645937",
+      "id_auto": "1941618",
+      "id_municipio": "1200104",
+      "ano": 2019
+    },
+    {
+      "id_embargo": "1657570",
+      "id_auto": "1936589",
+      "id_municipio": "1100700",
+      "ano": 2019
+    },
+    {
+      "id_embargo": "1668238",
+      "id_auto": "1913517",
+      "id_municipio": "1715754",
+      "ano": 2018
+    },
+    {
+      "id_embargo": "1772764",
+      "id_auto": "1602169",
+      "id_municipio": "4205407",
+      "ano": 1995
+    }
+  ],
+  "query_ref": "qr_69e07b057db64ffbab9d0f9350c511ec"
+}

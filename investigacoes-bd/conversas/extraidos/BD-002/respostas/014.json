@@ -1,0 +1,94 @@
+{
+  "id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+  "name": "Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro (SICONFI)",
+  "description": "O Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro (Siconfi) foi desenvolvido como um instrumento para, dentre outros objetivos, facilitar a produção e análise de informações contábeis e fiscais, padronizar os mecanismos de consolidação e aumentar a qualidade e confiabilidade d... (244 more characters)",
+  "organizations": [
+    "Ministério da Economia (ME)"
+  ],
+  "tags": [
+    "orçamento",
+    "despesa",
+    "fiscalização",
+    "finanças públicas",
+    "finanças públicas",
+    "receita",
+    "gasto"
+  ],
+  "themes": [
+    "Governo e Finanças Públicas"
+  ],
+  "tables": [
+    {
+      "id": "0091d8c9-a2d0-4e6e-86f9-2b4c86aee683",
+      "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+      "gcp_id": "basedosdados.br_me_siconfi.brasil_despesas_funcao",
+      "name": "Despesas por Função - Brasil",
+      "description": "Despesas do governo federal por função orçamentária, publicadas pelo SICONFI do Ministério da Fazenda. Abrange estágios de execução orçamentária e extra-orçamentária a partir de 2013."
+    },
+    {
+      "id": "b7f20f93-1b7e-4744-97fa-bd5ae5a13b34",
+      "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+      "gcp_id": "basedosdados.br_me_siconfi.brasil_despesas_orcamentarias",
+      "name": "Despesas Orçamentárias - Brasil",
+      "description": "Despesas orçamentárias do governo federal publicadas pelo SICONFI do Ministério da Fazenda. Abrange contas do plano de contas aplicado ao setor público por estágio de execução a partir de 2013."
+    },
+    {
+      "id": "f7ab29f5-fa53-4f9b-ab1b-ba9ae706be03",
+      "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+      "gcp_id": "basedosdados.br_me_siconfi.brasil_execucao_restos_pagar",
+      "name": "Execução de Restos a Pagar - Brasil",
+      "description": "Execução de restos a pagar do governo federal publicada pelo SICONFI do Ministério da Fazenda. Cobre inscrição e pagamento de restos a pagar processados e não processados a partir de 2013."
+    },
+    {
+      "id": "28567e37-77bd-4741-8c1e-0327e8245102",
+      "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+      "gcp_id": "basedosdados.br_me_siconfi.brasil_execucao_restos_pagar_funcao",
+      "name": "Execução de Restos a Pagar por Função - Brasil",
+      "description": "Execução de restos a pagar do governo federal por função orçamentária, publicada pelo SICONFI do Ministério da Fazenda, a partir de 2013."
+    },
+    {
+      "id": "bb426bb5-a5a4-42cc-99bb-84f46b20b212",
+      "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+      "gcp_id": "basedosdados.br_me_siconfi.brasil_receitas_orcamentarias",
+      "name": "Receitas Orçamentárias - Brasil",
+      "description": "Receitas orçamentárias do governo federal publicadas pelo SICONFI do Ministério da Fazenda. Abrange contas do plano de contas por estágio de execução a partir de 2013."
+    },
+    {
+      "id": "b23b7110-ccc7-4c54-9c33-b5ea48d51490",
+      "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+      "gcp_id": "basedosdados.br_me_siconfi.brasil_variacoes_patrimoniais",
+      "name": "Variações Patrimoniais - Brasil",
+      "description": "Variações patrimoniais do governo federal publicadas pelo SICONFI do Ministério da Fazenda. Abrange variações patrimoniais aumentativas e diminutivas por conta a partir de 2013."
+    },
+    {
+      "id": "ee51f2d3-c5fb-4ff3-a6e2-fe4bbdcc46c8",
+      "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+      "gcp_id": "basedosdados.br_me_siconfi.municipio_balanco_patrimonial",
+      "name": "Balanço Patrimonial - Município",
+      "description": "Balanço patrimonial"
+    },
+    {
+      "id": "1f2cf310-77c2-45dd-8a10-d10078f1def0",
+      "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+      "gcp_id": "basedosdados.br_me_siconfi.municipio_despesas_funcao",
+      "name": "Despesas por Função - Município",
+      "description": "Dados de despesas por função a nível de município."
+    },
+    {
+      "id": "8d717bbb-1f20-4d0a-a4b6-9d684de43150",
+      "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+      "gcp_id": "basedosdados.br_me_siconfi.municipio_despesas_orcamentarias",
+      "name": "Despesas Orçamentárias - Município",
+      "description": "Dados de despesas orçamentárias a nível de município."
+    },
+    {
+      "id": "ecd48095-c0cf-4ead-8aba-9b6f27147e3c",
+      "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+      "gcp_id": "basedosdados.br_me_siconfi.municipio_execucao_restos_pagar",
+      "name": "Execução de Restos a Pagar - Município",
+      "description": "Execução municipal de restos a pagar"
+    },
+    "... (9 more items)"
+  ],
+  "usage_guide": null
+}

@@ -1,0 +1,220 @@
+[
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 0,
+    "call_id": "call_f104deff4af0404d95e86e46bb7a620a",
+    "nome": "search_datasets",
+    "args": {
+      "query": "crédito rural"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 2,
+    "call_id": "call_LCbV1DjcUkkfYyATO7cXKQwj",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 4,
+    "call_id": "call_4AVuohpbXT49OoeNYO6k3tmA",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "d8514322-a6d4-4c7e-a4f7-3ec7860510f6"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 4,
+    "call_id": "call_9g8Nx62KFPR9y0opccRqIAvE",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "945d6a0b-39d0-42d7-b479-a087d5e09d64"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 4,
+    "call_id": "call_noLIsEAfcnGgxRULvL5CzVAx",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "ce7babc2-35b6-4e48-a604-3c4d32306bb3"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 4,
+    "call_id": "call_Jxnt3Z50yNVbTrJ6mkdWd2cg",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "02f435a6-a68a-4a6d-bad2-bb23ce3a4039"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 9,
+    "call_id": "call_vZ6pOFUQ7lRacZ6on78ZjD01",
+    "nome": "search_datasets",
+    "args": {
+      "query": "Cadastro Ambiental Rural"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 11,
+    "call_id": "call_LIBEPwIKUTAIqlakE70M3hBZ",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 13,
+    "call_id": "call_1WfvsAP1RxsDHsi3jlJACkB7",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "0ba51523-2eb6-422c-a1bb-efc9f9e717a1"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 15,
+    "call_id": "call_54GF5HqtcnwLsM9e8KCiobPp",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "4668b727-c4fb-43da-bf9b-d6543a579df9"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 17,
+    "call_id": "call_W9ZxzcHoVYCga2lFWUzYfsIB",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT nome_coluna, chave, valor FROM `basedosdados.br_bcb_sicor.dicionario` WHERE nome_coluna IN ('id_fonte_recurso','id_tipo_ciclo_cultivar','id_empreendimento','id_referencia_bacen_investimento') ORDER BY nome_coluna, chave",
+      "slug": "dicionario_credito_investimento"
+    },
+    "arquivo_sql": "sql/001.sql"
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 19,
+    "call_id": "call_cGy5ZoOE7hJ2d082dLdFWLrG",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "e2d5dcc5-270e-4a8b-8d55-0227fd46c10f"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 21,
+    "call_id": "call_ahPCApf7Tk0eAKPCHTz9Cgxf",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056"
+    }
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 23,
+    "call_id": "call_TsZAdbvjqoeDAUGEexD94A7f",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT e.finalidade, COUNT(*) AS n FROM `basedosdados.br_bcb_sicor.operacao` o JOIN `basedosdados.br_bcb_sicor.empreendimento` e USING (id_empreendimento) WHERE o.ano_emissao = 2022 GROUP BY e.finalidade ORDER BY n DESC",
+      "slug": "finalidades_credito_2022"
+    },
+    "arquivo_sql": "sql/002.sql"
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 25,
+    "call_id": "call_niMibRQe4rIZwBGdDLHtYdLp",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH operacoes AS (\n  SELECT\n    o.id_referencia_bacen,\n    o.numero_ordem,\n    o.valor_parcela_credito,\n    p.id_car\n  FROM `basedosdados.br_bcb_sicor.operacao` AS o\n  JOIN `basedosdados.br_bcb_sicor.empreendimento` AS e\n    ON o.id_empreendimento = e.id_empreendimento\n  JOIN `basedosdados.br_bcb_sicor.fonte_recurso` AS f\n    ON o.id_fonte_recurso = f.id_fonte_recurso\n  JOIN `basedosdados.br_bcb_sicor.recurso_publico_propriedade` AS p\n    ON o.id_referencia_bacen = p.id_referencia_bacen\n   AND o.numero_ordem = p.numero_ordem\n   AND p.ano_emissao = 2022\n  WHERE o.ano_emissao = 2022\n    AND e.finalidade = 'Investimento'\n    AND f.indicador_recurso_publico = '1'\n    AND p.id_car IS NOT NULL\n), operacoes_car AS (\n  SELECT DISTINCT id_referencia_bacen, numero_ordem, valor_parcela_credito, id_car\n  FROM operacoes\n), rateio AS (\n  SELECT\n    oc.id_referencia_bacen,\n    oc.numero_ordem,\n    oc.id_car,\n    SAFE_DIVIDE(oc.valor_parcela_credito, COUNT(*) OVER (PARTITION BY oc.id_referencia_bacen, oc.numero_ordem)) AS valor_rateado\n  FROM operacoes_car AS oc\n), car_atual AS (\n  SELECT id_imovel, id_municipio\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n  QUALIFY ROW_NUMBER() OVER (PARTITION BY id_imovel ORDER BY data_extracao DESC) = 1\n), por_municipio AS (\n  SELECT\n    m.id_municipio,\n    m.nome,\n    SUM(r.valor_rateado) AS valor_credito\n  FROM rateio AS r\n  JOIN car_atual AS c ON r.id_car = c.id_imovel\n  JOIN `basedosdados.br_bd_diretorios_brasil.municipio` AS m USING (id_municipio)\n  GROUP BY m.id_municipio, m.nome\n), ranking AS (\n  SELECT\n    ROW_NUMBER() OVER (ORDER BY valor_credito DESC, nome) AS posicao,\n    nome AS municipio,\n    valor_credito,\n    COUNT(*) OVER () AS numero_municipios,\n    SUM(valor_credito) OVER () AS total_geral\n  FROM por_municipio\n)\nSELECT\n  'TOTAL_GERAL' AS tipo_resultado,\n  CAST(NULL AS INT64) AS posicao,\n  CAST(NULL AS STRING) AS municipio,\n  total_geral AS valor_credito,\n  numero_municipios,\n  total_geral\nFROM ranking\nWHERE posicao = 1\nUNION ALL\nSELECT\n  'TOP_10' AS tipo_resultado,\n  posicao,\n  municipio,\n  valor_credito,\n  numero_municipios,\n  total_geral\nFROM ranking\nWHERE posicao <= 10\nORDER BY tipo_resultado, posicao",
+      "slug": "credito_investimento_publico_municipios_2022"
+    },
+    "arquivo_sql": "sql/003.sql"
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 27,
+    "call_id": "call_znQWW4Jh9KyDak1N5xmXJZdK",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  COUNT(*) AS operacoes_2022,\n  COUNTIF(e.finalidade = 'Investimento') AS investimento,\n  COUNTIF(f.indicador_recurso_publico = '1') AS investimento_publico,\n  COUNTIF(p.id_car IS NOT NULL) AS com_car\nFROM `basedosdados.br_bcb_sicor.operacao` AS o\nJOIN `basedosdados.br_bcb_sicor.empreendimento` AS e USING (id_empreendimento)\nJOIN `basedosdados.br_bcb_sicor.fonte_recurso` AS f USING (id_fonte_recurso)\nLEFT JOIN `basedosdados.br_bcb_sicor.recurso_publico_propriedade` AS p\n  ON o.id_referencia_bacen = p.id_referencia_bacen\n AND o.numero_ordem = p.numero_ordem\n AND p.ano_emissao = 2022\nWHERE o.ano_emissao = 2022",
+      "slug": "diagnostico_credito_publico_2022"
+    },
+    "arquivo_sql": "sql/004.sql"
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 29,
+    "call_id": "call_flYtgSnqvZiZ8AGi6z5Llc2G",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH base AS (\n SELECT DISTINCT o.id_referencia_bacen, o.numero_ordem, p.id_car\n FROM `basedosdados.br_bcb_sicor.operacao` o\n JOIN `basedosdados.br_bcb_sicor.empreendimento` e USING(id_empreendimento)\n JOIN `basedosdados.br_bcb_sicor.fonte_recurso` f USING(id_fonte_recurso)\n JOIN `basedosdados.br_bcb_sicor.recurso_publico_propriedade` p\n ON o.id_referencia_bacen=p.id_referencia_bacen AND o.numero_ordem=p.numero_ordem AND p.ano_emissao=2022\n WHERE o.ano_emissao=2022 AND e.finalidade='Investimento' AND f.indicador_recurso_publico='1' AND p.id_car IS NOT NULL\n), car AS (\n SELECT id_imovel\n FROM `basedosdados.br_sfb_sicar.area_imovel`\n WHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n GROUP BY id_imovel\n)\nSELECT COUNT(*) AS pares, COUNTIF(c.id_imovel IS NOT NULL) AS pares_com_match\nFROM base b LEFT JOIN car c ON b.id_car=c.id_imovel",
+      "slug": "diagnostico_match_car"
+    },
+    "arquivo_sql": "sql/005.sql"
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 31,
+    "call_id": "call_LqvkRlGNarD2B3EhIrzwZ08y",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH p AS (SELECT DISTINCT id_car FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao=2022 AND id_car IS NOT NULL LIMIT 5), c AS (SELECT id_imovel FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04' LIMIT 5) SELECT 'sicor' AS origem, id_car AS valor FROM p UNION ALL SELECT 'car', id_imovel FROM c",
+      "slug": "amostras_ids_car"
+    },
+    "arquivo_sql": "sql/006.sql"
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 33,
+    "call_id": "call_prVdjJpJxwWPIsBaN7hxbUAN",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH p AS (SELECT DISTINCT id_car FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao=2022 AND id_car IS NOT NULL LIMIT 5), c AS (SELECT id_imovel FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04' LIMIT 5) SELECT p.id_car, CONCAT(SUBSTR(p.id_car,1,2),'-',SUBSTR(p.id_car,3,7),'-',SUBSTR(p.id_car,10)) AS normalizado, c.id_imovel FROM p LEFT JOIN c ON CONCAT(SUBSTR(p.id_car,1,2),'-',SUBSTR(p.id_car,3,7),'-',SUBSTR(p.id_car,10))=c.id_imovel",
+      "slug": "validacao_normalizacao_car"
+    },
+    "arquivo_sql": "sql/007.sql"
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 35,
+    "call_id": "call_KBF5hH0DAoQSgOwe402p4EaC",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH base AS (SELECT DISTINCT id_car FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao=2022 AND id_car IS NOT NULL), car AS (SELECT DISTINCT id_imovel FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04') SELECT COUNT(*) AS sicor_ids, COUNTIF(c.id_imovel IS NOT NULL) AS matches FROM base b LEFT JOIN car c ON CONCAT(SUBSTR(b.id_car,1,2),'-',SUBSTR(b.id_car,3,7),'-',SUBSTR(b.id_car,10))=c.id_imovel",
+      "slug": "diagnostico_match_car_normalizado"
+    },
+    "arquivo_sql": "sql/008.sql"
+  },
+  {
+    "message_id": "cdd5afba-8e1c-4fa8-9269-da1d93157d41",
+    "evento": 37,
+    "call_id": "call_eQQSxbVLWAW8MdSrL76VwcDO",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH operacoes AS (\n  SELECT\n    o.id_referencia_bacen,\n    o.numero_ordem,\n    o.valor_parcela_credito,\n    CONCAT(SUBSTR(p.id_car, 1, 2), '-', SUBSTR(p.id_car, 3, 7), '-', SUBSTR(p.id_car, 10)) AS id_car\n  FROM `basedosdados.br_bcb_sicor.operacao` AS o\n  JOIN `basedosdados.br_bcb_sicor.empreendimento` AS e\n    ON o.id_empreendimento = e.id_empreendimento\n  JOIN `basedosdados.br_bcb_sicor.fonte_recurso` AS f\n    ON o.id_fonte_recurso = f.id_fonte_recurso\n  JOIN `basedosdados.br_bcb_sicor.recurso_publico_propriedade` AS p\n    ON o.id_referencia_bacen = p.id_referencia_bacen\n   AND o.numero_ordem = p.numero_ordem\n   AND p.ano_emissao = 2022\n  WHERE o.ano_emissao = 2022\n    AND e.finalidade = 'Investimento'\n    AND f.indicador_recurso_publico = '1'\n    AND p.id_car IS NOT NULL\n), operacoes_car AS (\n  SELECT DISTINCT id_referencia_bacen, numero_ordem, valor_parcela_credito, id_car\n  FROM operacoes\n), rateio AS (\n  SELECT\n    oc.id_referencia_bacen,\n    oc.numero_ordem,\n    oc.id_car,\n    SAFE_DIVIDE(oc.valor_parcela_credito, COUNT(*) OVER (PARTITION BY oc.id_referencia_bacen, oc.numero_ordem)) AS valor_rateado\n  FROM operacoes_car AS oc\n), car_atual AS (\n  SELECT id_imovel, id_municipio\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n  QUALIFY ROW_NUMBER() OVER (PARTITION BY id_imovel ORDER BY data_extracao DESC) = 1\n), por_municipio AS (\n  SELECT\n    m.id_municipio,\n    m.nome,\n    SUM(r.valor_rateado) AS valor_credito\n  FROM rateio AS r\n  JOIN car_atual AS c ON r.id_car = c.id_imovel\n  JOIN `basedosdados.br_bd_diretorios_brasil.municipio` AS m USING (id_municipio)\n  GROUP BY m.id_municipio, m.nome\n), ranking AS (\n  SELECT\n    ROW_NUMBER() OVER (ORDER BY valor_credito DESC, nome) AS posicao,\n    nome AS municipio,\n    valor_credito,\n    COUNT(*) OVER () AS numero_municipios,\n    SUM(valor_credito) OVER () AS total_geral\n  FROM por_municipio\n)\nSELECT\n  'TOTAL_GERAL' AS tipo_resultado,\n  CAST(NULL AS INT64) AS posicao,\n  CAST(NULL AS STRING) AS municipio,\n  total_geral AS valor_credito,\n  numero_municipios,\n  total_geral\nFROM ranking\nWHERE posicao = 1\nUNION ALL\nSELECT\n  'TOP_10' AS tipo_resultado,\n  posicao,\n  municipio,\n  valor_credito,\n  numero_municipios,\n  total_geral\nFROM ranking\nWHERE posicao <= 10\nORDER BY tipo_resultado, posicao",
+      "slug": "credito_investimento_publico_municipios_2022_corrigido"
+    },
+    "arquivo_sql": "sql/009.sql"
+  },
+  {
+    "message_id": "105defc1-42f8-42cb-9d61-49c98cf2e76b",
+    "evento": 0,
+    "call_id": "call_LO0MJEUMjYTqOnSNV1sBhq1o",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH base AS (\n  SELECT DISTINCT\n    p.id_car,\n    CONCAT(SUBSTR(p.id_car, 1, 2), '-', SUBSTR(p.id_car, 3, 7), '-', SUBSTR(p.id_car, 10)) AS id_car_formatado\n  FROM `basedosdados.br_bcb_sicor.operacao` AS o\n  JOIN `basedosdados.br_bcb_sicor.empreendimento` AS e USING (id_empreendimento)\n  JOIN `basedosdados.br_bcb_sicor.fonte_recurso` AS f USING (id_fonte_recurso)\n  JOIN `basedosdados.br_bcb_sicor.recurso_publico_propriedade` AS p\n    ON o.id_referencia_bacen = p.id_referencia_bacen\n   AND o.numero_ordem = p.numero_ordem\n   AND p.ano_emissao = 2022\n  WHERE o.ano_emissao = 2022\n    AND e.finalidade = 'Investimento'\n    AND f.indicador_recurso_publico = '1'\n    AND p.id_car IS NOT NULL\n), car_janela AS (\n  SELECT DISTINCT id_imovel\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04'\n), car_maxima AS (\n  SELECT DISTINCT id_imovel\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao = '2026-08-04'\n), checks AS (\n  SELECT\n    b.id_car,\n    EXISTS (SELECT 1 FROM car_janela c WHERE c.id_imovel = b.id_car_formatado) AS ligado_formatado,\n    EXISTS (SELECT 1 FROM car_janela c WHERE REPLACE(UPPER(c.id_imovel), '-', '') = REPLACE(UPPER(b.id_car), '-', '')) AS ligado_replace,\n    EXISTS (SELECT 1 FROM car_maxima c WHERE c.id_imovel = b.id_car_formatado) AS maxima_formatado\n  FROM base b\n), connected_total AS (\n  SELECT SUM(SAFE_DIVIDE(o.valor_parcela_credito, n.n_car)) AS valor_conectado\n  FROM (\n    SELECT DISTINCT\n      o.id_referencia_bacen,\n      o.numero_ordem,\n      o.valor_parcela_credito,\n      CONCAT(SUBSTR(p.id_car, 1, 2), '-', SUBSTR(p.id_car, 3, 7), '-', SUBSTR(p.id_car, 10)) AS id_car_formatado\n    FROM `basedosdados.br_bcb_sicor.operacao` AS o\n    JOIN `basedosdados.br_bcb_sicor.empreendimento` AS e USING (id_empreendimento)\n    JOIN `basedosdados.br_bcb_sicor.fonte_recurso` AS f USING (id_fonte_recurso)\n    JOIN `basedosdados.br_bcb_sicor.recurso_publico_propriedade` AS p\n      ON o.id_referencia_bacen = p.id_referencia_bacen\n     AND o.numero_ordem = p.numero_ordem\n     AND p.ano_emissao = 2022\n    WHERE o.ano_emissao = 2022\n      AND e.finalidade = 'Investimento'\n      AND f.indicador_recurso_publico = '1'\n      AND p.id_car IS NOT NULL\n  ) AS o\n  JOIN car_janela c ON o.id_car_formatado = c.id_imovel\n  JOIN (\n    SELECT id_referencia_bacen, numero_ordem, COUNT(*) AS n_car\n    FROM (\n      SELECT DISTINCT\n        o.id_referencia_bacen,\n        o.numero_ordem,\n        CONCAT(SUBSTR(p.id_car, 1, 2), '-', SUBSTR(p.id_car, 3, 7), '-', SUBSTR(p.id_car, 10)) AS id_car_formatado\n      FROM `basedosdados.br_bcb_sicor.operacao` AS o\n      JOIN `basedosdados.br_bcb_sicor.empreendimento` AS e USING (id_empreendimento)\n      JOIN `basedosdados.br_bcb_sicor.fonte_recurso` AS f USING (id_fonte_recurso)\n      JOIN `basedosdados.br_bcb_sicor.recurso_publico_propriedade` AS p\n        ON o.id_referencia_bacen = p.id_referencia_bacen\n       AND o.numero_ordem = p.numero_ordem\n       AND p.ano_emissao = 2022\n      WHERE o.ano_emissao = 2022\n        AND e.finalidade = 'Investimento'\n        AND f.indicador_recurso_publico = '1'\n        AND p.id_car IS NOT NULL\n    )\n    GROUP BY id_referencia_bacen, numero_ordem\n  ) n USING (id_referencia_bacen, numero_ordem)\n), total_sem_car AS (\n  SELECT SUM(o.valor_parcela_credito) AS valor_sem_car\n  FROM `basedosdados.br_bcb_sicor.operacao` AS o\n  JOIN `basedosdados.br_bcb_sicor.empreendimento` AS e USING (id_empreendimento)\n  JOIN `basedosdados.br_bcb_sicor.fonte_recurso` AS f USING (id_fonte_recurso)\n  WHERE o.ano_emissao = 2022\n    AND e.finalidade = 'Investimento'\n    AND f.indicador_recurso_publico = '1'\n)\nSELECT 'NORMALIZACAO' AS checagem,\n  COUNT(*) AS id_car_distintos,\n  COUNTIF(ligado_formatado) AS ligados_por_concat,\n  COUNTIF(ligado_replace) AS ligados_por_replace,\n  COUNTIF(ligado_formatado AND NOT ligado_replace) AS concat_sem_replace,\n  COUNTIF(ligado_replace AND NOT ligado_formatado) AS replace_sem_concat,\n  CAST(NULL AS FLOAT64) AS valor,\n  CAST(NULL AS FLOAT64) AS fracao\nFROM checks\nUNION ALL\nSELECT 'SNAPSHOTS',\n  COUNTIF(ligado_formatado),\n  COUNTIF(maxima_formatado),\n  COUNTIF(ligado_formatado AND NOT maxima_formatado),\n  NULL, NULL, NULL, NULL\nFROM checks\nUNION ALL\nSELECT 'ESCOPO', NULL, NULL, NULL, NULL, NULL, s.valor_sem_car, SAFE_DIVIDE(c.valor_conectado, s.valor_sem_car)\nFROM total_sem_car s CROSS JOIN connected_total c",
+      "slug": "checagens_rigor_credito_2022"
+    },
+    "arquivo_sql": "sql/010.sql"
+  }
+]

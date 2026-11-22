@@ -1,0 +1,218 @@
+[
+  {
+    "id": "e5c87240-ecce-4856-97c5-e6b84984bf42",
+    "name": "Desmatamento PRODES",
+    "description": "O projeto PRODES realiza o monitoramento por satélites do desmatamento por corte raso na Amazônia Legal e produz, desde 1988, as taxas anuais de desmatamento na região, que são usadas pelo governo brasileiro para o estabelecimento de políticas públicas. As taxas anuais são estimadas a partir dos incrementos de desmatamento identificados em cada imagem de satélite que cobre a Amazônia Legal. A primeira apresentação dos dados é realizada para dezembro de cada ano, na forma de estimativa. Os dados consolidados são apresentados no primeiro semestre do ano seguinte.\r\n\r\nResultados recentes, a partir de análises realizadas com especialistas independentes, indicam nível de precisão próximo a 95%.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "conservação",
+      "desmatamento",
+      "uso da terra"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "cecb702d-d4b7-45ec-adbb-719ebd5b3906",
+    "name": "Produção da Extração Vegetal e da Silvicultura (PEVS)",
+    "description": "Investiga informações sobre a quantidade e o valor da produção decorrente dos processos de exploração dos recursos vegetais nativos e dos maciços florestais plantados, tendo como unidade de coleta o município. A área total existente e a área colhida de cultivos florestais também são objetos da pesquisa",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "desmatamento",
+      "exportação",
+      "floresta",
+      "colheita",
+      "plantação"
+    ],
+    "themes": [
+      "Economia",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15",
+    "name": "Fiscalização Ambiental",
+    "description": "Registros de fiscalização ambiental do Ibama: autos de infração lavrados desde 1977 e termos de embargo desde 1987, com o enquadramento, o valor da multa, a situação do débito, a área embargada e a localização declarada. Os dados são publicados diariamente no portal de dados abertos do Ibama e reproduzem os sistemas Sifisc e Sicafi.",
+    "organizations": [
+      "Ibama"
+    ],
+    "tags": [
+      "desmatamento",
+      "embargo",
+      "fauna",
+      "multa",
+      "flora",
+      "infração",
+      "fiscalização",
+      "sanção"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "f7df4160-7a6f-4658-a287-3a73d412ed10",
+    "name": "Pesquisa Pecuária Municipal (PPM)",
+    "description": "A Pesquisa da Pecuária Municipal fornece informações sobre os efetivos da pecuária existentes no município na data de referência do levantamento, bem como a produção de origem animal, e o valor da produção durante o ano de referência. Os efetivos incluem bovinos, suínos, matrizes de suínos, galináceos, galinhas, codornas, equinos, bubalinos, caprinos e ovinos. A produção de origem animal, por sua vez, contempla a produção de leite, ovos de galinha, ovos de codorna, mel, lã bruta e casulos do bicho-da-seda; as quantidades de vacas ordenhadas e ovinos tosquiados; e a aquicultura, que engloba as produções da piscicultura, carcinocultura e malacocultura.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "animal",
+      "produção aquicultura",
+      "desmatamento",
+      "gestão ambiental",
+      "fazenda",
+      "peixe",
+      "alimento",
+      "alimentação",
+      "ovos de galinha",
+      "rebanho",
+      "rebanhos",
+      "mel de abelha",
+      "uso da terra",
+      "larvas",
+      "vacas ordenhadas",
+      "produção",
+      "propriedade",
+      "proteína",
+      "imóvel",
+      "camarão",
+      "solo",
+      "sustentabilidade"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia"
+    ]
+  },
+  {
+    "id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+    "name": "MapBiomas Estatísticas",
+    "description": "Mapeamento anual da cobertura e uso da terra do Brasil produzido pelo Projeto MapBiomas a partir da classificação automática de imagens de satélite no Google Earth Engine. Os dados desta versão vêm da Coleção 11, publicada em agosto de 2026, que cobre 1985 a 2025 em resolução de 30 metros. Distribuído sob licença CC BY 4.0, com a referência exigida pela fonte: \"Projeto MapBiomas – Coleção 11 da Série Anual de Mapas de Cobertura e Uso da Terra do Brasil, acessado em 24 de setembro de 2026 através do link: https://brasil.mapbiomas.org/downloads/estatisticas/\".",
+    "organizations": [
+      "MapBiomas"
+    ],
+    "tags": [
+      "desmatamento",
+      "uso da terra"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "d4bc397b-926f-471f-b336-b4d3b33e2488",
+    "name": "Supply Chain",
+    "description": "Trase is at the forefront of a data-driven revolution in supply chain sustainability, drawing on vast sets of production, trade and customs data, for the first time laying bare the flows of globally traded commodities at scales that are directly relevant to decision-making. Its pioneering approach to data analysis and visualization provides full coverage of the export routes and buyers responsible for all production and trade, and the associated sustainability risks, of a given commodity.\r\n\r\nThe supply chain mapping at the core of Trase balances scale and data resolution. It builds on an enhanced form of material flow analysis called Spatially Explicit Information on Production to Consumption Systems (SEI-PCS) originally developed by Godar et al. 2015. \r\n\r\nIt systematically links individual supply chain actors to specific, subnational production regions, and the sustainability risks and investment opportunities associated with those regions. It identifies the individual companies that export, ship and import a given traded commodity  and\r\nIt covers all of the exports of a given commodity from a given country of production.",
+    "organizations": [
+      "Transparent Supply Chains for Sustainable Economies (TRASE)"
+    ],
+    "tags": [
+      "agropecuária",
+      "firma",
+      "desmatamento",
+      "exportação",
+      "empresa",
+      "importação",
+      "pecuária",
+      "comércio"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia",
+      "Infraestrutura e Transportes"
+    ]
+  },
+  {
+    "id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9",
+    "name": "Banco de Dados de Queimadas",
+    "description": "Ocorrência do Fogo na Vegetação é o tema deste portal, http://queimadas.dgi.inpe.br/queimadas, desenvolvido no INPE, Instituto Nacional de Pesquisas Espaciais. Ele inclui o monitoramento operacional de focos de queimadas e de incêndios florestais detectados por satélites, e o cálculo e previsão do risco de fogo da vegetação.\r\n\r\nOs dados para a América do Sul e a Central, África e Europa, são atualizados a cada três horas, todos os dias do ano. O acesso às informações é livre, e no navegador internet usado, deve estar desbloqueada a carga das janelas \"pop up\" para acesso a várias figuras, tabelas e gráficos.\r\n\r\nUsuários que necessitam de focos com maior frequência temporal ou monitoramento em áreas específicas deverão consultar as \"Perguntas Frequentes\"\r\n\r\nAs informações neste portal estão divididas em blocos:\r\n\r\n- \"Situação Atual\", é a \"Sala de Situação\" do Portal, e fornece para os últimos dois dias os resultados relevantes do monitoramento de focos de queima de vegetação feito pelo INPE em imagens satélites. Vários itens nos títulos das figuras e tabelas podem ser selecionados, alterando as apresentações gráficas conforme as preferências espaciais e temporais do usuário. Passando o mouse sobre os títulos e figuras serão indicadas as opções ativas.\r\n- \"SIG Focos-Geral\", permite visualizar os focos em um Sistema de Informação Geográfica, com opções de períodos, regiões de interesse, satélites, planos de informação (p.ex. desmatamento, hidrografia, estradas), etc., além da exportação dos dados em formatos txt, html, shp e kmz.\r\n- \"SIG Focos-Áreas Protegidas\", Semelhante ao item anterior, mas dedicado à ocorrência do fogo em Áreas de Preservação, como Parques, Florestas, Reservas Biológicas municipais, estaduais e nacionais, e Terras Indígenas.\r\n- \"Situação nas Áreas Protegidas\", que contém o último relatório de focos detectados nas áreas de preservação, incluindo links que os mostram já inseridos no SIG do monitoramento.\r\n- \"Relatório Atual\", contém o último resumo do monitoramento de queimadas em formato pdf, que poderá ser salvo pelo usuário para análise detalhada dos dados. A opção \"Receber por E-Mail\" leva ao cadastro do usuário, onde se define individualmente o conteúdo dos relatórios e mensagens de alerta que serão recebidos automaticamente por E-Mail.\r\n- \"Risco de Fogo\", que apresenta o Risco de Fogo da vegetação estimado no presente, e suas previsões futuras (diárias, semanais e mensais), bem como o \"fogograma\" para qualquer local selecionado com o mouse nos mapas.\r\n- \"Meu Cadastro\", onde o usuário define e configura individualmente os produtos que deseja receber em seu E-Mail, como alertas de ocorrência de focos em áreas de preservação, boletins pdf diários com tabelas, gráficos e mapas de estados e países de interesse, e mensagens operacionais.\r\n- \"Outros Produtos\", com links a produtos adicionais gerados por este sistema de Queimadas e Incêndios, destacando-se: mapas mensais de focos em formato .gif com animações; mapas Meteorológicos (precipitação, temperatura, umidade do ar, ventos); detecções dos vários satélites utilizados; estimativas de concentrações e trajetórias dos poluentes emitidos; localização dos satélites utilizados, uma coletânea de dados anteriores e área de download, e; acesso a uma antiga versão da página do monitoramento de focos.\r\n- \"Links Relacionados\", com indicações de acesso ao Boletim do Ibama de Monitoramento de Queimadas e Incêndios, ao texto publicado mensalmente no Boletim Climanálise, a uma coleção de mais de 500 páginas com matérias, fotos, vídeos e sites diversos sobre queimadas e incêndios florestais, à composição da equipe deste trabalho, e aos agradecimentos.\r\n- \"Notícias e Destaques\", com informações, notícias e links de destaque na ocorrência do fogo na vegetação, e não restritas apenas à detecção de focos com satélites.\r\n- \"Aviso\", com informações operacionais indicando novidades, falhas e detalhes relevantes na geração dos produtos do monitoramento do fogo na vegetação.\r\n\r\nO INPE também gera outros produtos de queimadas que não são divulgados neste portal, atendendo necessidades individuais de usuários que optam em fazer o próprio processamento dos dados brutos enviados pelo INPE; um exemplo destes é o caso do PrevFogo/Ibama. Para receber em tempo quase-real as coordenadas geográficas dos focos e desenvolver sua própria base de aplicações, contatar queimadas@inpe.br.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "ar",
+      "queimada",
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "fogo",
+      "floresta",
+      "incêndio"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "50d7bd73-dce6-41a5-adf0-66a50d10b501",
+    "name": "Japanese Municipal Elections Dataset (JMED)",
+    "description": "O Japanese Municipal Elections Dataset (JMED), elaborado por Charles T. McClean na Yale University, reúne 223.561 candidaturas em 21.111 eleições para assembleias municipais e prefeituras em 2.027 municípios do Japão de 2005 a 2025. Cada candidatura traz nome, idade, sexo, partido, situação de incumbência, votos e resultado, além do comparecimento e das eleições sem disputa. Um conjunto complementar registra as fusões, incorporações, desmembramentos e mudanças de nome, código e limites dos municípios no período.",
+    "organizations": [
+      "Yale University"
+    ],
+    "tags": [
+      "candidatura",
+      "eleições",
+      "gênero",
+      "município",
+      "partido político",
+      "representatividade",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "60aaf560-d82a-42b9-bf86-155d18b8c5bf",
+    "name": "Estatísticas de Ciência e Engenharia do NCSES (HERD e SED)",
+    "description": "Dois levantamentos do National Center for Science and Engineering Statistics (NCSES), a agência estatística federal dentro da National Science Foundation dos Estados Unidos. O Higher Education Research and Development Survey (HERD) é um censo anual das faculdades e universidades americanas que gastam ao menos US$ 150 mil em pesquisa e desenvolvimento orçado separadamente; aqui estão seus arquivos de uso público em nível de instituição para os anos fiscais de 1972 a 2024, incluindo o levantamento anterior, o Survey of R&D Expenditures at Universities and Colleges, com despesas por campo de pesquisa, fonte de recursos e agência federal financiadora, além das contagens de pessoal de pesquisa. O Survey of Earned Doctorates (SED) é um censo anual, realizado desde o ano acadêmico de 1958, de todos os que recebem um doutorado de pesquisa de uma instituição americana credenciada; aqui estão suas tabelas agregadas publicadas, já que os registros individuais são de uso restrito. As instituições do HERD carregam o UNITID do IPEDS, o que liga este conjunto a us_ed_ipeds e us_ed_college_scorecard; com us_nih_reporter, os três descrevem uma mesma cadeia: o financiamento federal que entra, o gasto em pesquisa que a instituição realiza e os pesquisadores que o sistema forma.",
+    "organizations": [
+      "National Science Foundation (NSF)"
+    ],
+    "tags": [
+      "doutorado",
+      "financiamento",
+      "renda",
+      "trabalho",
+      "pesquisa",
+      "salário",
+      "universidade"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "72ffa6fa-7a7c-4949-8631-f0dc4a364b2b",
+    "name": "Dados Selecionados de Instituições Financeiras (IF.data)",
+    "description": "O IF.data reúne dados contábeis, de capital e de carteira de crédito das instituições financeiras autorizadas a funcionar pelo Banco Central do Brasil, divulgados trimestralmente desde março de 2000. As informações são reportadas pelas próprias instituições e publicadas em três recortes de consolidação: conglomerados prudenciais, conglomerados financeiros e instituições individuais. Na data-base de dezembro o Banco Central republica os dados contábeis, de capital e de crédito dos últimos quatro trimestres, de modo que competências já divulgadas podem ser alteradas.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "balanço patrimonial",
+      "banco",
+      "crédito",
+      "atividade econômica",
+      "instituição financeira",
+      "regulação prudencial"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

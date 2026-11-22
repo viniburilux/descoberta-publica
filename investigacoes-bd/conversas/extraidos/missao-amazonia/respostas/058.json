@@ -1,0 +1,66 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "cnae_fiscal_principal": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "estabelecimentos": 29,
+      "ativas": 14
+    },
+    {
+      "cnae_fiscal_principal": "3812200",
+      "descricao_subclasse": "Coleta de resíduos perigosos",
+      "estabelecimentos": 2,
+      "ativas": 0
+    },
+    {
+      "cnae_fiscal_principal": "3822000",
+      "descricao_subclasse": "Tratamento e disposição de resíduos perigosos",
+      "estabelecimentos": 1,
+      "ativas": 1
+    },
+    {
+      "cnae_fiscal_principal": "3831901",
+      "descricao_subclasse": "Recuperação de sucatas de alumínio",
+      "estabelecimentos": 12,
+      "ativas": 6
+    },
+    {
+      "cnae_fiscal_principal": "3831999",
+      "descricao_subclasse": "Recuperação de materiais metálicos, exceto alumínio",
+      "estabelecimentos": 12,
+      "ativas": 7
+    },
+    {
+      "cnae_fiscal_principal": "3832700",
+      "descricao_subclasse": "Recuperação de materiais plásticos",
+      "estabelecimentos": 21,
+      "ativas": 8
+    },
+    {
+      "cnae_fiscal_principal": "3839499",
+      "descricao_subclasse": "Recuperação de materiais não especificados anteriormente",
+      "estabelecimentos": 6,
+      "ativas": 3
+    },
+    {
+      "cnae_fiscal_principal": "4687701",
+      "descricao_subclasse": "Comércio atacadista de resíduos de papel e papelão",
+      "estabelecimentos": 3,
+      "ativas": 1
+    },
+    {
+      "cnae_fiscal_principal": "4687702",
+      "descricao_subclasse": "Comércio atacadista de resíduos e sucatas não metálicos, exceto de papel e papelão",
+      "estabelecimentos": 5,
+      "ativas": 2
+    },
+    {
+      "cnae_fiscal_principal": "4687703",
+      "descricao_subclasse": "Comércio atacadista de resíduos e sucatas metálicos",
+      "estabelecimentos": 27,
+      "ativas": 13
+    }
+  ],
+  "query_ref": "qr_7f66e474cc014866a72a2a5482f97162"
+}

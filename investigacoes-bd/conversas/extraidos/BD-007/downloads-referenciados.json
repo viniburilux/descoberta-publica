@@ -1,0 +1,1036 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_241e087ce49f482da0f97919aef6f65c",
+    "slug": "produtos_pam_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ee0deebed1024a348ae828a3b90429c2",
+    "slug": "estrutura_sicor_propriedade_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ae0a347e30154a55ae588a11420cfb6c",
+    "slug": "resumo_credito_car_uf_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_bb2f5bc993ca47fbb29b87a92d89ed95",
+    "slug": "top_municipios_credito_car_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_a4978387906f4380b0353c40bcccbd19",
+    "slug": "outliers_area_financiada_maior_car_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_374c23806c0a4dbdbe39ea685abb463e",
+    "slug": "correspondencia_sicor_car_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_59014226ab3b4a96ad956f971ea2dee0",
+    "slug": "classes_mapbiomas_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_49df23f67f204df68aa387deb8097e2b",
+    "slug": "ranking_credito_car_municipios_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_8c690ac8075746bdbe7eaa15a629d67a",
+    "slug": "resumo_credito_car_area_unica_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_d017e4748cfd4c6197f6586132922c2f",
+    "slug": "distribuicao_razao_credito_area_car_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_215ae1a1787e46dd901743a5e020aa82",
+    "slug": "correlacoes_credito_producao_territorio_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_8fba9b45db014923af41160a23093eeb",
+    "slug": "top_municipios_embargo_credito_car_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_54cdafc32b5542f5a0f41283b73fc8d4",
+    "slug": "taxa_casamento_embargo_documento_municipio",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_7ed862e12db949d08c5d9085a12fe233",
+    "slug": "estrutura_embargos_ibama",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_92bad73ccd4243d591157dda55fc0189",
+    "slug": "embargos_credito_car_comparacao_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_2ab58249a619417e94ddaf656d08a7c7",
+    "slug": "comparacao_prodes_grupos_area_car_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_a3f27fb4ffa54520b8ebe348cc1ad227",
+    "slug": "contas_siconfi_receitas_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_f0eddaa87bd548dd9075288b3175ce16",
+    "slug": "subsetores_rais_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_83134689d2684fbfbfeb67b75d22e0cc",
+    "slug": "top20_credito_car_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5fdc4ea9bbd24718b7a1cc2f775e26a9",
+    "slug": "completude_va_agro_pib",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_69b16209265d4a6794554e9742f99fb2",
+    "slug": "teste_agregacao_benchmark",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_438ff693541b44e7966e99b815dd6cb5",
+    "slug": "dimensoes_ideb_municipio",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_32a01a6c1aa94f57ac224583b08428b1",
+    "slug": "anos_pib_municipio",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_9a623366798348328bad0492063126f6",
+    "slug": "cnae_rais_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_2653fca7db1f48289c35b79eca5ee7c3",
+    "slug": "idades_obito_infantil_sim_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_9cfcdcfd34c94290bec9fba3fc9ec668",
+    "slug": "raiox_top20_credito_socioeconomico_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_4a7ff7bb5e7b41f18871be870bfbf1a4",
+    "slug": "completude_pib_agro_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_b6197ec082f344639f7087c1d73a2f73",
+    "slug": "raiox_top20_metricas_completas_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_c01e73938f52493b9c3add550d0e3d8f",
+    "slug": "comparacao_top20_demais_municipios_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_3f15c197650742e0bf2d99f8ac8856f8",
+    "slug": "benchmark_top20_demais_municipios_corrigido",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_09146767598840ed974652cb35762e98",
+    "slug": "faixas_area_imoveis_acima_100_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_c66fda1988304975aefc46adabd66e7e",
+    "slug": "safras_sicor_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_0640d3d60b0e4767b730802ec224347f",
+    "slug": "produtos_imoveis_acima_100_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_431bdb5f46bf45b08aa97f1728b351db",
+    "slug": "programas_fontes_excesso_area_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_a6ebc5585d2640fb9edab863226f11bc",
+    "slug": "finalidades_empreendimentos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_e612ac11ad064e78bd9a77cdbcf5b4de",
+    "slug": "finalidade_safra_imoveis_acima_100_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_eeb8181b62af45839bb2b71991ae3360",
+    "slug": "top20_municipios_percentual_credito_excesso",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_47d32ad69bc24077b78bc4516cb326ea",
+    "slug": "concentracao_programas_fontes_excesso_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_a7cf5bd79d0049f28905d987a0e0995a",
+    "slug": "maiores_outliers_micro_car_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_a03e157394fc4d29a48cb3884b6cb241",
+    "slug": "detalhe_operacoes_top20_micro_outliers",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_44e80825a74b42d49ce2c5d61e96a8f0",
+    "slug": "teste_acesso_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ccebb120c7a94350ab0e27a101911a59",
+    "slug": "snapshots_geometria_20_outliers_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_51f4ba72d9e64039adbe289b19ec29b9",
+    "slug": "historico_snapshots_20_outliers_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_1d275d4d24fe477abd07787d5ab8cab4",
+    "slug": "sobreposicoes_geometricas_20_outliers_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_b4b37d1bae6842708b4e3f170d5bba84",
+    "slug": "centroides_20_imoveis_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_2676597366024153a6f9b7fba1aa3ae5",
+    "slug": "atributos_vizinhos_intersectantes_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_03e7a92063544d1e8f0aa0d8ef829e4f",
+    "slug": "relacao_geometrica_7_pares_car_corrigida",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_50849464099045a982a263c829f4a9a3",
+    "slug": "documentos_por_micro_car_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_984b9dae61f54127a5c9fd074a2e92b8",
+    "slug": "embargos_cpfs_cnpjs_micro_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_f2f740ef93564a65adca62106e7b4dbf",
+    "slug": "credito_sicor_micro_e_vizinhos_2023_corrigido",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_55585c275a40425bb7ae41cd490ed408",
+    "slug": "embargos_mesmo_municipio_micro_car_corrigido",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_6359ffc25a994b48bb04e29fee33f9c7",
+    "slug": "pontos_embargo_dentro_micro_vizinhos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_3c7729137a7a4d56ad31337c4628c2ec",
+    "slug": "anos_operacoes_sicor_conectadas_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_85fb74743c474a13ae38a702cef1a4c8",
+    "slug": "operacoes_outliers_20_por_ano_produto_finalidade",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_9cddbd06c64e4c309190a1473ec320d6",
+    "slug": "resumo_anual_outliers_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_4cab00f7a1ba4896ab7775ddda7a72bb",
+    "slug": "snapshots_car_disponiveis",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_8148ca4e5584457080f6fe0e3313f7d1",
+    "slug": "serie_historica_micro_car_credito_corrigida",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_c4df9aa4e6f74229a031c89a213c6294",
+    "slug": "municipios_concentracao_micro_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_6a3124aabde847e69230c1c30bfd7753",
+    "slug": "micro_car_programas_produtos_finalidades",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_afc0d14d27634a1d8816fb744df50d7a",
+    "slug": "reproducao_micro_excesso_2023_final",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5b623a40a0714e808dac7ca965721417",
+    "slug": "reproducao_micro_excesso_2023_final",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_9b69824de11e4f0bab71c7d0287ba683",
+    "slug": "anos_sicor_disponiveis",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_24b358a9db5b406c8d5e1ddb4f60d518",
+    "slug": "serie_historica_micro_car_credito",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_bec2c993bd7a4f86b7d36819ea613b56",
+    "slug": "reproducao_micro_excesso_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_7494867336494e488f2a1952c40f11e1",
+    "slug": "micro_car_credito_por_estado_ano",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_0cde545b28de4a36a00990b7fc9a0398",
+    "slug": "reproducao_micro_excesso_2023_corrigida",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_a57af266a9b04e7e8cb2dc786f2fa29d",
+    "slug": "instituicoes_micro_car_municipios_bahia_corrigida",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5a8043d93c2c4a44a39904408596e4bb",
+    "slug": "operacoes_ligando_micro_e_imoveis_maiores",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_88b7d1731ee64fe486256d53ed60cb39",
+    "slug": "programas_produtos_micro_municipios_bahia",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_7f3a8758797644c8a4d7f346c700bb43",
+    "slug": "serie_micro_car_municipios_bahia_corrigida",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_795c00b7c2aa4fbb9c4341b5a53a0296",
+    "slug": "top_produtos_micro_por_municipio",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_192937f648d24eab9ede81d6a588cd82",
+    "slug": "estrutura_mutuarios_micro_car_bahia_corrigida",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_f4cfbcb1f8b74bb0909d3e15e957909d",
+    "slug": "programas_micro_municipios_bahia",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_08889c212980437fb2cb64cf0eb4563e",
+    "slug": "repeticao_micro_car_anos_bahia",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_1a85ebdd654d498bb82233785257f87c",
+    "slug": "estrutura_mutuarios_micro_car_bahia_final",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ee62d77b1d6345738d606e27a95cfdb9",
+    "slug": "operacoes_focal_micro_car_satiro_dias",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_c74104b930834d09bfb89ab35585c981",
+    "slug": "maior_multiplicidade_mutuarios_satiro_dias",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_e84ac949335d49fdada0815023ad7a8a",
+    "slug": "multiplicidade_documentos_focal_car_corrigida",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_cae613c4f3c84b5d8d83d93ad3ed0611",
+    "slug": "focal_micro_em_operacoes_mistas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_f94bf47afbc442af9ee2b8579f488bb9",
+    "slug": "trajetoria_anual_focal_micro_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_12848c0e4ac24e478702531915d82a87",
+    "slug": "multiplicidade_documentos_operacoes_focal_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5362904ebabd4f5688762cc79e42ef0d",
+    "slug": "operacoes_mistas_satiro_dias_detalhadas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_7bd361ecf3b5453484e28d3d8fa3c41f",
+    "slug": "mutuarios_reais_focal_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_f5f20ede849c4607800348290f2a2b88",
+    "slug": "comparacao_outros_micro_car_bnb_satiro",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5965dd4ef3274897ab1475068bdb54a7",
+    "slug": "comparacao_outros_micro_car_bnb_satiro_corrigida",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_4130684d157b43e3bab0c08ceb4c23a6",
+    "slug": "ficha_cadastral_geometrica_focal_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_f9a5249b9c5f4f038272af71f1d090ee",
+    "slug": "reconstrucao_35_operacoes_focal_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_d192b86d1a3e47a98a9595ffe9fc0929",
+    "slug": "grafo_bipartido_focal_car_corrigido",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_6128eedf542a49f2a606233696e3f4a0",
+    "slug": "tabela_86_micro_cars_bnb_satiro_corrigida",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_af576d0840d547cc8765c34a5f7e3dd5",
+    "slug": "agencia_focal_banco_nordeste",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_b257910483d548e98c1ae77131005cba",
+    "slug": "universo_completo_bnb_satiro_dias",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_d23fc2ad1ea04169bced06c41eb91278",
+    "slug": "tabela_86_micro_cars_bnb_satiro",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_c2e870e7cac94bee88227c2d461ec5fb",
+    "slug": "agencias_banco_nordeste_satiro_dias",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_80353101764d490c8796d29bcfbac1e1",
+    "slug": "top_micro_cars_bnb_satiro",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

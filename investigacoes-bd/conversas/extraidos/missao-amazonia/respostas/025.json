@@ -1,0 +1,37 @@
+{
+  "id": "2a543ad8-3cdb-4047-9498-efe7fb8ed697",
+  "name": "Sistema Nacional de Informações sobre Saneamento (SNIS)",
+  "description": "Criado em 1996, o SNIS é uma unidade vinculada à Secretaria Nacional de Saneamento (SNS) do Ministério do Desenvolvimento Regional (MDR). Com abrangência nacional, reúne informações de caráter institucional, administrativo, operacional, gerencial, econômico-financeiro, contábil e de qualidade da pre... (944 more characters)",
+  "organizations": [
+    "Ministério do Desenvolvimento Regional (MDR)"
+  ],
+  "tags": [
+    "poluição",
+    "resíduo",
+    "saneamento",
+    "esgoto",
+    "lixo"
+  ],
+  "themes": [
+    "Saúde",
+    "Infraestrutura e Transportes",
+    "Urbanização"
+  ],
+  "tables": [
+    {
+      "id": "df7cf198-4889-4baf-bb77-4e0e28eb90ca",
+      "dataset_id": "2a543ad8-3cdb-4047-9498-efe7fb8ed697",
+      "gcp_id": "basedosdados.br_mdr_snis.municipio_agua_esgoto",
+      "name": "Serviços de Água e Esgoto nos Municípios",
+      "description": "Esta tabela contém informações e indicadores consolidados por município dos serviços de água e esgoto, fornecendo um panorama detalhado do histórico e do estado da arte do saneamento básico no Brasil. Atenção! Este dataset não representa o conjunto total de dados disponíveis no SNIS. Para detalhes s... (126 more characters)"
+    },
+    {
+      "id": "bac6f62e-080e-4f4f-8c05-1ffa2ad9816b",
+      "dataset_id": "2a543ad8-3cdb-4047-9498-efe7fb8ed697",
+      "gcp_id": "basedosdados.br_mdr_snis.prestador_agua_esgoto",
+      "name": "Prestadores de Água e Esgoto",
+      "description": "Esta tabela contém informações e indicadores desagregados por prestador de serviço de água e esgoto, fornecendo um panorama detalhado do histórico e do estado da arte da oferta de serviços saneamento básico no Brasil. Atenção! Este dataset não representa o conjunto total de dados disponíveis no SNIS... (149 more characters)"
+    }
+  ],
+  "usage_guide": null
+}

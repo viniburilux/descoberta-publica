@@ -1,0 +1,12 @@
+[
+  {
+    "nome_coluna": "tipo_pessoa_embargado",
+    "chave": "PF",
+    "valor": "Pessoa física"
+  },
+  {
+    "nome_coluna": "tipo_pessoa_embargado",
+    "chave": "PJ",
+    "valor": "Pessoa jurídica"
+  }
+]

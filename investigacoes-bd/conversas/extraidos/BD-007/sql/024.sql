@@ -1,0 +1,1 @@
+SELECT DISTINCT ano FROM `basedosdados.br_ibge_pib.municipio` ORDER BY ano DESC LIMIT 5

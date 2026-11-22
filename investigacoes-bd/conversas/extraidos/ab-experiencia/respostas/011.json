@@ -1,0 +1,30 @@
+{
+  "row_count": 6,
+  "rows": [
+    {
+      "nome_coluna": "id_fonte_recurso",
+      "id_tabela": "operacao"
+    },
+    {
+      "nome_coluna": "id_motivo_desclassificacao",
+      "id_tabela": "operacoes_desclassificadas"
+    },
+    {
+      "nome_coluna": "id_natureza_parcela",
+      "id_tabela": "proagro_parcela"
+    },
+    {
+      "nome_coluna": "id_programa",
+      "id_tabela": "operacao"
+    },
+    {
+      "nome_coluna": "id_programa",
+      "id_tabela": "recurso_publico_cooperado"
+    },
+    {
+      "nome_coluna": "id_subprograma",
+      "id_tabela": "operacao"
+    }
+  ],
+  "query_ref": "qr_08f5c16249d14a62acd9aaf6744e2bd8"
+}

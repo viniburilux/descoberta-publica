@@ -1,0 +1,27 @@
+[
+  {
+    "nome_coluna": "situacao_cadastral",
+    "chave": "1",
+    "valor": "Nula"
+  },
+  {
+    "nome_coluna": "situacao_cadastral",
+    "chave": "2",
+    "valor": "Ativa"
+  },
+  {
+    "nome_coluna": "situacao_cadastral",
+    "chave": "3",
+    "valor": "Suspensa"
+  },
+  {
+    "nome_coluna": "situacao_cadastral",
+    "chave": "4",
+    "valor": "Inapta"
+  },
+  {
+    "nome_coluna": "situacao_cadastral",
+    "chave": "8",
+    "valor": "Baixada"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "row_count": 4,
+  "rows": [
+    {
+      "id_imovel": "BA-2929057-C5D11EE026A64399A6EF36764E8739E9",
+      "operacoes_vinculadas": 1,
+      "cpfs": 1,
+      "cnpjs": 0,
+      "documentos": [
+        "[CPF_OCULTADO]"
+      ]
+    },
+    {
+      "id_imovel": "MS-5006606-4693892971CF47B4B2684C3A94950BEE",
+      "operacoes_vinculadas": 1,
+      "cpfs": 1,
+      "cnpjs": 0,
+      "documentos": [
+        "[CPF_OCULTADO]"
+      ]
+    },
+    {
+      "id_imovel": "PA-1506187-94551B72659E427F961D2F62CEBA7392",
+      "operacoes_vinculadas": 3,
+      "cpfs": 1,
+      "cnpjs": 0,
+      "documentos": [
+        "[CPF_OCULTADO]"
+      ]
+    },
+    {
+      "id_imovel": "PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98",
+      "operacoes_vinculadas": 1,
+      "cpfs": 1,
+      "cnpjs": 0,
+      "documentos": [
+        "[CPF_OCULTADO]"
+      ]
+    }
+  ],
+  "query_ref": "qr_50849464099045a982a263c829f4a9a3"
+}

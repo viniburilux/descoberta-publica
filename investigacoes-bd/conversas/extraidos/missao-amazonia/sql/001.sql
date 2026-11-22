@@ -1,0 +1,1 @@
+SELECT ano, populacao FROM `basedosdados.br_ibge_populacao.municipio` WHERE ano BETWEEN 1991 AND 2025 AND id_municipio = '1503200' ORDER BY ano

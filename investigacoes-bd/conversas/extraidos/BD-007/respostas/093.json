@@ -1,0 +1,202 @@
+[
+  {
+    "nome_coluna": "id_programa",
+    "chave": "1",
+    "valor": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "100",
+    "valor": "PRLC-BA (PROG RECUP LAVOURA CACAUEIRA BAIANA) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "110",
+    "valor": "PRODECER III - PROG COOP NIPO-BRASILEIRA P DESENV DOS CERRADOS - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "151",
+    "valor": "PROCAP-AGRO (PROGRAMA DE CAPITALIZAÇÃO DAS COOPERATIVAS DE PRODUÇÃO AGROPECUÁRIAS)"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "152",
+    "valor": "PROIRRIGA - antigo Moderinfra, alterado em 01/07/2021"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "153",
+    "valor": "MODERAGRO - PROGRAMA DE MODERNIZAÇÃO DA AGRICULTURA E CONSERVAÇÃO DE RECURSOS NATURAIS"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "154",
+    "valor": "MODERFROTA - PROGRAMA DE MODERNIZAÇÃO DA FROTA DE TRATORES AGRÍCOLAS E IMPL ASSOC E COLHEITADEIRAS"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "155",
+    "valor": "PRODECOOP - PROGRAMA DE DESENVOLVIMENTO COOPERATIVO PARA AGREGAÇÃO DE VALOR À PRODUÇÃO AGROPECUÁRIA"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "156",
+    "valor": "ABC + Programa para a Adaptação à Mudança do Clima e Baixa Emissão de Carbono\"\""
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "157",
+    "valor": "PSI-RURAL - PROG SUSTENTAÇÃO  INVESTIMENTO ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "158",
+    "valor": "PROCAP-CRED (PROG CAPIT COOP CRÉDITO) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "159",
+    "valor": "MODERMAQ - PROG MOD PARQUE IND NACIONAL - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "160",
+    "valor": "PRI - PROGRAMA DE REFORÇO DO INVESTIMENTO (CIRC 3.745) - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "161",
+    "valor": "PRORENOVA-RURAL- PROG APOIO  RENOV IMPLANTAÇÃO NOVOS CANAVIAIS- ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "162",
+    "valor": "INOVAGRO - Programa de Incentivo à Inovação Tecnológica na Produção Agropecuária"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "163",
+    "valor": "PCA - Programa para Construção e Ampliação de Armazéns"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "164",
+    "valor": "PRORENOVA-IND- PROG APOIO RENOV IMPLANT NOVOS CANAVIAIS - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "165",
+    "valor": "PROAQÜICULTURA-PROG APOIO DESENVSETOR AQUÍCOLA - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "180",
+    "valor": "FNO-ABC (PROG FINANC AGRICULTURA BAIXO CARBONO) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "200",
+    "valor": "PROCERA - PROG ESPECIAL DE CRÉDITO PARA A REFORMA AGRÁRIA - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "201",
+    "valor": "PROGRAMA NACIONAL DE CRÉDITO FUNDIÁRIO (FTRA)"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "222",
+    "valor": "RenovAgro - Programa de Financiamento a Sistemas de Produção Agropecuária Sustentáveis"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "240",
+    "valor": "ANF - ATIVIDADE NÃO FINANCIADA ENQUADRADA NO PROAGRO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "50",
+    "valor": "PRONAMP - PROGRAMA NACIONAL DE APOIO AO MÉDIO PRODUTOR RURAL"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "70",
+    "valor": "FUNCAFÉ (PROGRAMA DE DEFESA DA ECONOMIA CAFEEIRA)"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "721",
+    "valor": "Linha Crédito Rural instit Res. 4.028/2011 (Dívidas Composição e Renegoc PRONAF) - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "722",
+    "valor": "Linha Crédito Rural inst Res. 4.029/2011 (Reneg Crédito Fundiário) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "730",
+    "valor": "Linha Crédito Rural inst Res. 4.083/2012 (Enchentes Reg Norte) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "735",
+    "valor": "Linha de Crédito Rural instituida pela Res. 4.126/2012 (Produtores de Maçã) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "776",
+    "valor": "Linha Crédito Rural Inst Res. 4.147/2012 e 4.260/2013 (Agricultores Familiares) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "777",
+    "valor": "Linha Crédito Rural inst Res. 4.147/2012 e 4.260/2013 (Demais Agricultores) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "779",
+    "valor": "Linha de Crédito Rural instituida pela Res. 4.161/2012 (Produtores de Arroz) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "783",
+    "valor": "Linha Crédito Rural inst pelas Res 4.189 e 4.212/2013-PRONAF (Estiagem Area Sudene) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "784",
+    "valor": "Linha Credito Rural inst Res. 4.188 e 4.211/2013-Demais Produtores (Estiagem Area Sudene) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "785",
+    "valor": "Linha Crédito Rural inst  Res. 4.220/2013 (Recursos BNDES-Estiagem Área da Sudene) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "786",
+    "valor": "Linha de Crédito Rural Instituída pela Res. 4.289/2013 (Renegociação Café Arábica) ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "790",
+    "valor": "Linha de Crédito Rural inst Res 5.120/2024 (Linha emergencial Custeio Pecuário)"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "888",
+    "valor": "Outras Linhas de Crédito Rural não Especificadas - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "901",
+    "valor": "Eco Invest Brasil - RES CMN Nº 5.130/2024"
+  },
+  {
+    "nome_coluna": "id_programa",
+    "chave": "999",
+    "valor": "FINANCIAMENTO SEM VÍNCULO A PROGRAMA ESPECÍFICO"
+  }
+]

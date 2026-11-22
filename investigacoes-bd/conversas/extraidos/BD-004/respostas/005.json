@@ -1,0 +1,203 @@
+[
+  {
+    "id": "c57b568a-94ae-43b4-80e7-2595550480bf",
+    "name": "Observações Meteorológicas e Séries Climatológicas (Météo-France)",
+    "description": "Observações meteorológicas de superfície e estatísticas climatológicas do serviço meteorológico nacional da França. Reúne o arquivo SYNOP, com medições a cada três horas desde 1996 nas 190 estações de reporte internacional, e o arquivo climatológico completo, com séries diárias desde 1786 e mensais desde 1688 para os mais de 14 mil postos da rede, cobrindo precipitação, temperatura, vento, umidade, insolação, radiação e neve. Inclui ainda as normais climatológicas de 1991 a 2020 com os recordes absolutos de cada posto, e os cadastros das estações com coordenadas, altitude e período de operação.",
+    "organizations": [
+      "Météo-France"
+    ],
+    "tags": [
+      "clima",
+      "mudancas climáticas",
+      "umidade",
+      "meteorologia",
+      "precipitação",
+      "temperatura",
+      "vento"
+    ],
+    "themes": [
+      "Meio Ambiente",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "4bc40f5f-17bf-4647-9186-b3f9b3dbde46",
+    "name": "Pesquisa de Clima Organizacional",
+    "description": null,
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "avaliação",
+      "empresa",
+      "pesquisa",
+      "bem-estar"
+    ],
+    "themes": [
+      "Jornalismo e Comunicação",
+      "Diversidade e Inclusão",
+      "Política"
+    ]
+  },
+  {
+    "id": "34c17d70-036c-4345-88ba-be09e0a9dec0",
+    "name": "Global Historical Climatology Network - Daily (GHCN-Daily)",
+    "description": "Observações meteorológicas diárias de superfície de 132.501 estações em todo o mundo, compiladas pelo NOAA National Centers for Environmental Information a partir de mais de trinta fontes nacionais e internacionais. A série cobre de 1763 a 2026 e reúne 144 elementos, entre eles temperatura máxima e mínima, precipitação, queda de neve e profundidade de neve. Cada observação carrega sinalizadores de medição, qualidade e fonte; um sinalizador de qualidade não nulo indica que o valor reprovou no controle de qualidade do NCEI. Não confundir com o produto nClimGrid, que é a versão interpolada em grade de 5 km para os Estados Unidos continentais.",
+    "organizations": [
+      "National Oceanic and Atmospheric Administration (NOAA)"
+    ],
+    "tags": [
+      "clima",
+      "mudancas climáticas",
+      "umidade",
+      "meteorologia",
+      "precipitação",
+      "chuva",
+      "temperatura",
+      "vento"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "9a22474f-a763-4431-8e3d-667908a1c7ab",
+    "name": "Emissões de gases de efeito estufa no Brasil",
+    "description": "O Sistema de Estimativas de Emissões e Remoções de Gases de Efeito Estufa (SEEG) é uma iniciativa do Observatório do Clima que compreende a produção de estimativas anuais das emissões de gases de efeito estufa (GEE) no Brasil, documentos analíticos sobre a evolução das emissões e um portal na internet para disponibilização de forma simples e clara dos métodos e dados do sistema.\r\n\r\nSão avaliados todos os cinco setores que são fontes de emissões – Agropecuária, Energia, Mudanças de Uso da Terra, Processos Industriais e Resíduos com o mesmo grau de detalhamento contido nos inventários de emissões.",
+    "organizations": [
+      "Sistema de Estimativas de Emissões e Remoções de Gases de Efeito Estufa (SEEG)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "efeito estufa"
+    ],
+    "themes": [
+      "Energia",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "782c5607-9f69-4e12-b0d5-aa0f1a7a94e2",
+    "name": "Banco de Dados Meteorológicos (INMET)",
+    "description": "O BDMEP abriga dados meteorológicos diários em forma digital, de séries históricas das várias estações meteorológicas convencionais da rede de estações do INMET com milhões de informações, referentes às medições diárias, de acordo com as normas técnicas internacionais da Organização Meteorológica Mundial.",
+    "organizations": [
+      "Instituto Nacional de Meteorologia (INMET)"
+    ],
+    "tags": [
+      "clima",
+      "meio ambiente",
+      "umidade",
+      "meteorologia",
+      "precipitação",
+      "radiação",
+      "temperatura"
+    ],
+    "themes": [
+      "Meio Ambiente",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "58b92117-9974-4b4e-9cdb-48bc4458ccad",
+    "name": "Inventário Nacional de Gases de Efeito Estufa (Austrália)",
+    "description": "Inventário Nacional de Gases de Efeito Estufa da Austrália, das Contas Nacionais de Gases de Efeito Estufa do Departamento de Mudança Climática, Energia, Meio Ambiente e Água (DCCEEW). Emissões por ano fiscal, jurisdição (Austrália e cada estado e território), setor e gás na base contábil UNFCCC/Paris (GWP AR5 de 100 anos), em gigagramas, desde 1989-90. Três tabelas trazem o mesmo inventário sob a hierarquia de categorias da UNFCCC, a classificação por setor econômico ANZSIC e as emissões de Escopo 2 (eletricidade indireta). As projeções anuais de emissões serão adicionadas posteriormente.",
+    "organizations": [
+      "Departamento de Mudança Climática, Energia, Meio Ambiente e Água (DCCEEW)"
+    ],
+    "tags": [
+      "carbono",
+      "clima",
+      "emissões",
+      "gases de efeito estufa"
+    ],
+    "themes": [
+      "Energia",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "e5c87240-ecce-4856-97c5-e6b84984bf42",
+    "name": "Desmatamento PRODES",
+    "description": "O projeto PRODES realiza o monitoramento por satélites do desmatamento por corte raso na Amazônia Legal e produz, desde 1988, as taxas anuais de desmatamento na região, que são usadas pelo governo brasileiro para o estabelecimento de políticas públicas. As taxas anuais são estimadas a partir dos incrementos de desmatamento identificados em cada imagem de satélite que cobre a Amazônia Legal. A primeira apresentação dos dados é realizada para dezembro de cada ano, na forma de estimativa. Os dados consolidados são apresentados no primeiro semestre do ano seguinte.\r\n\r\nResultados recentes, a partir de análises realizadas com especialistas independentes, indicam nível de precisão próximo a 95%.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "conservação",
+      "desmatamento",
+      "uso da terra"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "35d072bc-ddf5-4975-b8ab-9a75f6d2fcfa",
+    "name": "Greenhouse Gas Reporting Program (GHGRP)",
+    "description": "O GHGRP exige a comunicação de dados de gases de efeito estufa (GEE) e outras informações relevantes de grandes fontes de emissão de GEE, fornecedores de combustíveis e gases industriais e locais de injeção de CO2 nos Estados Unidos. Aproximadamente 8.000 instalações são obrigadas a reportar as suas emissões anualmente, e os dados reportados são disponibilizados ao público em outubro de cada ano.",
+    "organizations": [
+      "U.S. Environmental Protection Agency (EPA)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "empresa",
+      "poluição"
+    ],
+    "themes": [
+      "Energia",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9",
+    "name": "Banco de Dados de Queimadas",
+    "description": "Ocorrência do Fogo na Vegetação é o tema deste portal, http://queimadas.dgi.inpe.br/queimadas, desenvolvido no INPE, Instituto Nacional de Pesquisas Espaciais. Ele inclui o monitoramento operacional de focos de queimadas e de incêndios florestais detectados por satélites, e o cálculo e previsão do risco de fogo da vegetação.\r\n\r\nOs dados para a América do Sul e a Central, África e Europa, são atualizados a cada três horas, todos os dias do ano. O acesso às informações é livre, e no navegador internet usado, deve estar desbloqueada a carga das janelas \"pop up\" para acesso a várias figuras, tabelas e gráficos.\r\n\r\nUsuários que necessitam de focos com maior frequência temporal ou monitoramento em áreas específicas deverão consultar as \"Perguntas Frequentes\"\r\n\r\nAs informações neste portal estão divididas em blocos:\r\n\r\n- \"Situação Atual\", é a \"Sala de Situação\" do Portal, e fornece para os últimos dois dias os resultados relevantes do monitoramento de focos de queima de vegetação feito pelo INPE em imagens satélites. Vários itens nos títulos das figuras e tabelas podem ser selecionados, alterando as apresentações gráficas conforme as preferências espaciais e temporais do usuário. Passando o mouse sobre os títulos e figuras serão indicadas as opções ativas.\r\n- \"SIG Focos-Geral\", permite visualizar os focos em um Sistema de Informação Geográfica, com opções de períodos, regiões de interesse, satélites, planos de informação (p.ex. desmatamento, hidrografia, estradas), etc., além da exportação dos dados em formatos txt, html, shp e kmz.\r\n- \"SIG Focos-Áreas Protegidas\", Semelhante ao item anterior, mas dedicado à ocorrência do fogo em Áreas de Preservação, como Parques, Florestas, Reservas Biológicas municipais, estaduais e nacionais, e Terras Indígenas.\r\n- \"Situação nas Áreas Protegidas\", que contém o último relatório de focos detectados nas áreas de preservação, incluindo links que os mostram já inseridos no SIG do monitoramento.\r\n- \"Relatório Atual\", contém o último resumo do monitoramento de queimadas em formato pdf, que poderá ser salvo pelo usuário para análise detalhada dos dados. A opção \"Receber por E-Mail\" leva ao cadastro do usuário, onde se define individualmente o conteúdo dos relatórios e mensagens de alerta que serão recebidos automaticamente por E-Mail.\r\n- \"Risco de Fogo\", que apresenta o Risco de Fogo da vegetação estimado no presente, e suas previsões futuras (diárias, semanais e mensais), bem como o \"fogograma\" para qualquer local selecionado com o mouse nos mapas.\r\n- \"Meu Cadastro\", onde o usuário define e configura individualmente os produtos que deseja receber em seu E-Mail, como alertas de ocorrência de focos em áreas de preservação, boletins pdf diários com tabelas, gráficos e mapas de estados e países de interesse, e mensagens operacionais.\r\n- \"Outros Produtos\", com links a produtos adicionais gerados por este sistema de Queimadas e Incêndios, destacando-se: mapas mensais de focos em formato .gif com animações; mapas Meteorológicos (precipitação, temperatura, umidade do ar, ventos); detecções dos vários satélites utilizados; estimativas de concentrações e trajetórias dos poluentes emitidos; localização dos satélites utilizados, uma coletânea de dados anteriores e área de download, e; acesso a uma antiga versão da página do monitoramento de focos.\r\n- \"Links Relacionados\", com indicações de acesso ao Boletim do Ibama de Monitoramento de Queimadas e Incêndios, ao texto publicado mensalmente no Boletim Climanálise, a uma coleção de mais de 500 páginas com matérias, fotos, vídeos e sites diversos sobre queimadas e incêndios florestais, à composição da equipe deste trabalho, e aos agradecimentos.\r\n- \"Notícias e Destaques\", com informações, notícias e links de destaque na ocorrência do fogo na vegetação, e não restritas apenas à detecção de focos com satélites.\r\n- \"Aviso\", com informações operacionais indicando novidades, falhas e detalhes relevantes na geração dos produtos do monitoramento do fogo na vegetação.\r\n\r\nO INPE também gera outros produtos de queimadas que não são divulgados neste portal, atendendo necessidades individuais de usuários que optam em fazer o próprio processamento dos dados brutos enviados pelo INPE; um exemplo destes é o caso do PrevFogo/Ibama. Para receber em tempo quase-real as coordenadas geográficas dos focos e desenvolver sua própria base de aplicações, contatar queimadas@inpe.br.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "ar",
+      "queimada",
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "fogo",
+      "floresta",
+      "incêndio"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "2907eff4-e542-4b76-9942-4b98aed54d1d",
+    "name": "OpenFEMA: desastres, assistência federal e seguro de inundação",
+    "description": "Conjunto de dados abertos da Agência Federal de Gestão de Emergências dos Estados Unidos (FEMA), publicado pelo programa OpenFEMA. Reúne as declarações de desastre emitidas sob o Stafford Act desde 1953, com uma linha por área designada; os projetos financiados pelo programa Public Assistance desde 1998, com os valores federais obrigados; e os arquivos redigidos do National Flood Insurance Program, com 2,7 milhões de sinistros desde 1970 e 74,3 milhões de apólices desde 2009, incluindo data da perda, cobertura contratada, valores pagos, prêmio, zona de inundação e localização aproximada. Os dados não são de domínio público: seu uso é regido pelos termos do OpenFEMA, que o restringem a pesquisa estatística ou registro de referência e proíbem a reidentificação.",
+    "organizations": [
+      "Agência Federal de Gestão de Emergências (FEMA) dos Estados Unidos"
+    ],
+    "tags": [
+      "auxílio",
+      "mudancas climáticas",
+      "indenização",
+      "desastre",
+      "federal",
+      "inundação",
+      "habitação",
+      "seguro",
+      "desastre natural",
+      "propriedade",
+      "risco"
+    ],
+    "themes": [
+      "Economia",
+      "Meio Ambiente",
+      "Governo e Finanças Públicas"
+    ]
+  }
+]

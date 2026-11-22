@@ -1,0 +1,131 @@
+[
+  {
+    "arquivo": "respostas/001.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 1,
+    "tool_call_id": "call_KLyZtjFo9GII3DFhUVJHQUlO",
+    "nome": "search_datasets",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/002.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 3,
+    "tool_call_id": "call_aXBRnfUQkVk0VjjQ2fnWvAeB",
+    "nome": "get_dataset_details",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/003.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 5,
+    "tool_call_id": "call_hzT8Ker4M8NjseaWK6HmN2SP",
+    "nome": "get_table_details",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/004.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 6,
+    "tool_call_id": "call_Q8lQWLdEhD6Gcp3E5PiW8Yy4",
+    "nome": "get_table_details",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/005.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 7,
+    "tool_call_id": "call_c916rrc9AcvSc6aVu8EX3xdw",
+    "nome": "search_datasets",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/006.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 8,
+    "tool_call_id": "call_jIpKLsh19yIR4T5aBuYhdT3R",
+    "nome": "get_table_details",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/007.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 10,
+    "tool_call_id": "call_tHETcKtfNF3K525MvMpDXYix",
+    "nome": "get_dataset_details",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/008.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 12,
+    "tool_call_id": "call_J1frUneip1Mvg77damJRNN0u",
+    "nome": "get_table_details",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/009.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 14,
+    "tool_call_id": "call_ADcXbtszPFKYmuMm9WLmdPPX",
+    "nome": "decode_table_values",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/010.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 16,
+    "tool_call_id": "call_iDmHSxPUHeQYqawacCEAyeJa",
+    "nome": "get_table_details",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/011.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 18,
+    "tool_call_id": "call_VJ4K5jY0JLeCjnz66TZ7wNV0",
+    "nome": "execute_bigquery_sql",
+    "status": "success",
+    "tabela": "tabelas/011.csv",
+    "linhas_registradas": 6,
+    "row_count_reportado": 6
+  },
+  {
+    "arquivo": "respostas/012.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 20,
+    "tool_call_id": "call_oG60bLmr0EwA6NCsEKdXFhAc",
+    "nome": "get_table_details",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/013.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 22,
+    "tool_call_id": "call_1ODJPNfRBF7wMDRomOh7S7aQ",
+    "nome": "execute_bigquery_sql",
+    "status": "success",
+    "tabela": "tabelas/013.csv",
+    "linhas_registradas": 4,
+    "row_count_reportado": 4
+  },
+  {
+    "arquivo": "respostas/014.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 24,
+    "tool_call_id": "call_KHpGmwzqtwcoIFjnSGcoGTSu",
+    "nome": "get_table_details",
+    "status": "success"
+  },
+  {
+    "arquivo": "respostas/015.json",
+    "message_id": "a97261a7-7f5f-4b3a-adc0-ec507d4b0724",
+    "evento": 26,
+    "tool_call_id": "call_5qeHxZc9wxEBK5RPSFYZPIE7",
+    "nome": "execute_bigquery_sql",
+    "status": "success",
+    "tabela": "tabelas/015.csv",
+    "linhas_registradas": 10,
+    "row_count_reportado": 10
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "receitas": 13284,
+      "doadores_preenchidos": 13180,
+      "cpfs_11_digitos": 8695,
+      "cnpjs_14_digitos": 4485,
+      "valor": 412736694.76000005
+    }
+  ],
+  "query_ref": "qr_1d026d656fa04215a678c7adc599ebbd"
+}

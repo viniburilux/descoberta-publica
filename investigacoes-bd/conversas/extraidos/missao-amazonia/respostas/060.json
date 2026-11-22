@@ -1,0 +1,97 @@
+{
+  "row_count": 114,
+  "rows": [
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Gestão Ambiental",
+      "conta": "Gestão Ambiental",
+      "estagio_bd": "Despesas Empenhadas",
+      "valor": 2674951.18
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Gestão Ambiental",
+      "conta": "Gestão Ambiental",
+      "estagio_bd": "Despesas Liquidadas",
+      "valor": 2577554.63
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Gestão Ambiental",
+      "conta": "Gestão Ambiental",
+      "estagio_bd": "Despesas Pagas",
+      "valor": 2381320.08
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Gestão Ambiental",
+      "conta": "Gestão Ambiental",
+      "estagio_bd": "Inscrição de Restos a Pagar Não Processados",
+      "valor": 97396.55
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Gestão Ambiental",
+      "conta": "Gestão Ambiental",
+      "estagio_bd": "Inscrição de Restos a Pagar Processados",
+      "valor": 196234.55
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Serviços Urbanos",
+      "conta": "Serviços Urbanos",
+      "estagio_bd": "Despesas Empenhadas",
+      "valor": 92035107.47
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Serviços Urbanos",
+      "conta": "Serviços Urbanos",
+      "estagio_bd": "Despesas Liquidadas",
+      "valor": 85595235.81
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Serviços Urbanos",
+      "conta": "Serviços Urbanos",
+      "estagio_bd": "Despesas Pagas",
+      "valor": 80273699.98
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Serviços Urbanos",
+      "conta": "Serviços Urbanos",
+      "estagio_bd": "Inscrição de Restos a Pagar Não Processados",
+      "valor": 6439871.66
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Serviços Urbanos",
+      "conta": "Serviços Urbanos",
+      "estagio_bd": "Inscrição de Restos a Pagar Processados",
+      "valor": 5321535.83
+    },
+    "... (104 more items)"
+  ],
+  "query_ref": "qr_4667fc620a5b469b8d28344320ad31b7"
+}

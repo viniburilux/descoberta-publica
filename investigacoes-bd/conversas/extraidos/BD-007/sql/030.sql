@@ -1,0 +1,1 @@
+SELECT ano,COUNT(*) linhas,COUNTIF(va_agropecuaria IS NOT NULL) com_agro FROM `basedosdados.br_ibge_pib.municipio` GROUP BY ano ORDER BY ano DESC LIMIT 10

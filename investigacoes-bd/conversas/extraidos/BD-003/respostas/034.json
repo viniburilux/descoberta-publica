@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: No matching signature for operator IN for argument types INT64 and {STRING} at [32:18]\n\nLocation: None\nJob ID: c6009a14-396d-4f16-a4a0-5d28930c46a6\n"
+}

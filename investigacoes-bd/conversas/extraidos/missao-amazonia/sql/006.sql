@@ -1,0 +1,1 @@
+SELECT ano, id_municipio, pib, va, va_agropecuaria, va_industria, va_servicos, va_adespss FROM `basedosdados.br_ibge_pib.municipio` WHERE id_municipio = '1503200' ORDER BY ano

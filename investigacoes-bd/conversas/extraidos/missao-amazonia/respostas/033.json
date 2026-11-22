@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Unrecognized name: produto_interno_bruto at [1:27]\n\nLocation: None\nJob ID: f508099c-748b-4a7e-a06f-a149ac430ba6\n"
+}

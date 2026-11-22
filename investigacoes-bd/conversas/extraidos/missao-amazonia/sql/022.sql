@@ -1,0 +1,1 @@
+SELECT data_referencia, COUNT(*) AS registros FROM `basedosdados.br_rf_cnpj.estabelecimentos` WHERE data_referencia IN ('2021-11-01','2022-11-01','2023-11-01','2024-11-01','2025-11-01','2026-11-01') AND id_municipio IN ('1503200','1502400') GROUP BY data_referencia ORDER BY data_referencia

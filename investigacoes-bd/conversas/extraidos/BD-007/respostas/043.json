@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Name id_car_norm not found inside c at [31:12]\n\nLocation: None\nJob ID: 9652b669-ffbb-42ab-bc1e-316919bf64cc\n"
+}

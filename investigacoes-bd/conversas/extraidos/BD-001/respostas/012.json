@@ -1,0 +1,54 @@
+{
+  "row_count": 6,
+  "rows": [
+    {
+      "id_contratacao_pncp": "14221741000107-1-000014/2025",
+      "data_publicacao": "2025-03-10",
+      "nome_orgao": "MUNICIPIO DE CORRENTINA",
+      "objeto_compra": "Contratação de empresa para prestação de serviços especializados de consultoria técnica previdenciária, com realização de estudo na folha de pagamento referente as alíquotas previdenciárias, bem como análise de cobranças indevidas feitas ao município, além da prestação de serviços de advocacia (prev... (308 more characters)",
+      "valor_total_estimado": 144000.0,
+      "valor_total_homologado": null
+    },
+    {
+      "id_contratacao_pncp": "14221741000107-1-000053/2025",
+      "data_publicacao": "2025-04-11",
+      "nome_orgao": "MUNICIPIO DE CORRENTINA",
+      "objeto_compra": "Contratação de Show artístico musical do Cantor Robyssão, para o tradicional Carnaval de 2025 do Município de Correntina/BA.",
+      "valor_total_estimado": 180000.0,
+      "valor_total_homologado": null
+    },
+    {
+      "id_contratacao_pncp": "14221741000107-1-000054/2025",
+      "data_publicacao": "2025-04-11",
+      "nome_orgao": "MUNICIPIO DE CORRENTINA",
+      "objeto_compra": "Contratação de Show artístico musical da Banda Patchanka, para o tradicional Carnaval de 2025 do Município de Correntina/BA.",
+      "valor_total_estimado": 220000.0,
+      "valor_total_homologado": null
+    },
+    {
+      "id_contratacao_pncp": "14221741000107-1-000163/2025",
+      "data_publicacao": "2025-12-10",
+      "nome_orgao": "MUNICIPIO DE CORRENTINA",
+      "objeto_compra": "contratação de show artístico da Banda DONAS DO BAR, a ser realizado durante a comemoração do Réveillon de Correntina-BA 2026",
+      "valor_total_estimado": 150000.0,
+      "valor_total_homologado": null
+    },
+    {
+      "id_contratacao_pncp": "14221741000107-1-000165/2025",
+      "data_publicacao": "2025-12-10",
+      "nome_orgao": "MUNICIPIO DE CORRENTINA",
+      "objeto_compra": "CONTRATAÇÃO DE SHOW ARTÍSTICO DA BANDA NEGO RAINNER NA COMEMORAÇÃO DE ANIVERSÁRIO DO DISTRITO DE ROSÁRIO, NA CIDADE DE CORRENTINA - BA.",
+      "valor_total_estimado": 17000.0,
+      "valor_total_homologado": null
+    },
+    {
+      "id_contratacao_pncp": "14221741000107-1-000166/2025",
+      "data_publicacao": "2025-12-10",
+      "nome_orgao": "MUNICIPIO DE CORRENTINA",
+      "objeto_compra": "CONTRATAÇÃO DE SHOW ARTÍSTICO DA BANDA TONY SALLES NA COMEMORAÇÃO DO RÉVEILLON DE CORRENTINA-BA 2026.",
+      "valor_total_estimado": 650000.0,
+      "valor_total_homologado": null
+    }
+  ],
+  "query_ref": "qr_71331d7e41134c3698cc234559032db8"
+}

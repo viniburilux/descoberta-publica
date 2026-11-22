@@ -1,0 +1,87 @@
+{
+  "row_count": 19,
+  "rows": [
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "diretorio_registros",
+      "valor": "1356",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "diretorio_subclasses_distintas",
+      "valor": "1356",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "diretorio_subclasses_duplicadas",
+      "valor": "0",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "proporcao_subclasses_com_diretorio",
+      "valor": "0.99850634802091109",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "rais_cnae_nulo",
+      "valor": "0",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "rais_registros",
+      "valor": "11768420",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "rais_registros_com_cnae",
+      "valor": "11760468",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "rais_registros_sem_cnae",
+      "valor": "7952",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "rais_subclasses_com_diretorio",
+      "valor": "1337",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "rais_subclasses_distintas",
+      "valor": "1339",
+      "id_1": null,
+      "id_2": null
+    },
+    "... (9 more items)"
+  ],
+  "query_ref": "qr_448a592c7a5e4190aceea87bda324103"
+}

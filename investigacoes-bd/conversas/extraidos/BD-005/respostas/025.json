@@ -1,0 +1,78 @@
+{
+  "id": "f4b08023-5530-4dc9-bced-3321e8928fd7",
+  "dataset_id": "74827951-3f2c-4f9f-b3d0-56e3aa7aeb39",
+  "gcp_id": "basedosdados.br_me_comex_stat.municipio_exportacao",
+  "name": "Município Exportação",
+  "description": "Base de dados detalhada por município da empresa exportadora e Posição do Sistema Harmonizado (SH4). Os dados de comércio exterior detalhados por município se relacionam com o domicílio fiscal da empresa que declarou a operação de exportação. O município não diz respeito ao local onde se produziu a ... (132 more characters)",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "unit": "",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_pais",
+      "type": "STRING",
+      "description": "ID do País",
+      "unit": "",
+      "needs_decoding": true
+    },
+    {
+      "name": "id_sh4",
+      "type": "STRING",
+      "description": "ID Sistema Harmonizado",
+      "unit": "",
+      "needs_decoding": false
+    },
+    {
+      "name": "mes",
+      "type": "INT64",
+      "description": "Mês",
+      "unit": "month",
+      "needs_decoding": false
+    },
+    {
+      "name": "peso_liquido_kg",
+      "type": "INT64",
+      "description": "Peso Líquido",
+      "unit": "kg",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_pais_iso3",
+      "type": "STRING",
+      "description": "Sigla ISO3 do País",
+      "unit": "",
+      "reference_table_id": "3f10f34f-c5d1-4298-8fc2-a356c4cd8c65",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da Unidade da Federação",
+      "unit": "",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor_fob_dolar",
+      "type": "INT64",
+      "description": "Valor Livre a Bordo",
+      "unit": "usd",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": "1997-01",
+  "period_end": "2026-10"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "16e2c1a4-2444-4bf3-a268-4d20db9c9e95",
+  "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+  "gcp_id": "basedosdados.br_tse_eleicoes.resultados_candidato",
+  "name": "Resultados por Candidato",
+  "description": "Dados de resultados eleitorais a nível de candidato.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "cargo",
+      "type": "STRING",
+      "description": "Cargo",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_eleicao",
+      "type": "DATE",
+      "description": "Data da eleição",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_eleicao",
+      "type": "STRING",
+      "description": "ID Eleição",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio_tse",
+      "type": "STRING",
+      "description": "ID Município - TSE",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "nome_candidato",
+      "type": "STRING",
+      "description": "Nome do candidato",
+      "needs_decoding": false
+    },
+    {
+      "name": "numero_candidato",
+      "type": "STRING",
+      "description": "Número do candidato",
+      "needs_decoding": false
+    },
+    {
+      "name": "numero_partido",
+      "type": "STRING",
+      "description": "Número do partido",
+      "needs_decoding": false
+    },
+    {
+      "name": "resultado",
+      "type": "STRING",
+      "description": "Resultado",
+      "needs_decoding": false
+    },
+    "... (7 more items)"
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "1945",
+  "period_end": "2026"
+}

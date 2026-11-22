@@ -1,0 +1,44 @@
+{
+  "id": "0c279444-165b-41da-92cd-50fd7e66baa1",
+  "dataset_id": "d30222ad-7a5c-4778-a1ec-f0785371d1ca",
+  "gcp_id": "basedosdados.br_ibge_populacao.municipio",
+  "name": "Município",
+  "description": "Dados de população municipal do IBGE. Os dados vem de estimativas de população feitas pelo IBGE, exceto em anos de Censo ou contagem.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "populacao",
+      "type": "INT64",
+      "description": "População",
+      "unit": "person",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da Unidade da Federação",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano",
+    "id_municipio",
+    "sigla_uf"
+  ],
+  "period_start": "1991",
+  "period_end": "2025"
+}

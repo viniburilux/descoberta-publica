@@ -1,0 +1,89 @@
+[
+  {
+    "id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+    "name": "Produto Interno Bruto (PIB)",
+    "description": "O PIB permite identificar as áreas de geração de renda, produzindo informações que captam as especifidades do País. Disponibilizamos o PIB por Município, Unidade da Federação e para o País.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "pib",
+      "crescimento",
+      "renda"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "aaf69fe2-3ac6-4d8b-8c4f-db464095f986",
+    "name": "Sistema de Contas Nacionais (Austrália)",
+    "description": "Séries temporais do Sistema Australiano de Contas Nacionais (catálogo 5204.0 do ABS), as contas nacionais anuais compiladas pelo Australian Bureau of Statistics. Abrange produto interno bruto, contas de renda, capital, financeiras e de balanço patrimonial por setor e indústria, além de medidas de produtividade e estoque de capital, a partir do ano fiscal de 1959-60. Está organizado como um dicionário de séries e uma tabela de observações no formato longo, identificados pelo código de série do ABS.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "dívida",
+      "finanças",
+      "política fiscal",
+      "gasto"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9",
+    "name": "Banco de Dados de Queimadas",
+    "description": "Ocorrência do Fogo na Vegetação é o tema deste portal, http://queimadas.dgi.inpe.br/queimadas, desenvolvido no INPE, Instituto Nacional de Pesquisas Espaciais. Ele inclui o monitoramento operacional de focos de queimadas e de incêndios florestais detectados por satélites, e o cálculo e previsão do risco de fogo da vegetação.\r\n\r\nOs dados para a América do Sul e a Central, África e Europa, são atualizados a cada três horas, todos os dias do ano. O acesso às informações é livre, e no navegador internet usado, deve estar desbloqueada a carga das janelas \"pop up\" para acesso a várias figuras, tabelas e gráficos.\r\n\r\nUsuários que necessitam de focos com maior frequência temporal ou monitoramento em áreas específicas deverão consultar as \"Perguntas Frequentes\"\r\n\r\nAs informações neste portal estão divididas em blocos:\r\n\r\n- \"Situação Atual\", é a \"Sala de Situação\" do Portal, e fornece para os últimos dois dias os resultados relevantes do monitoramento de focos de queima de vegetação feito pelo INPE em imagens satélites. Vários itens nos títulos das figuras e tabelas podem ser selecionados, alterando as apresentações gráficas conforme as preferências espaciais e temporais do usuário. Passando o mouse sobre os títulos e figuras serão indicadas as opções ativas.\r\n- \"SIG Focos-Geral\", permite visualizar os focos em um Sistema de Informação Geográfica, com opções de períodos, regiões de interesse, satélites, planos de informação (p.ex. desmatamento, hidrografia, estradas), etc., além da exportação dos dados em formatos txt, html, shp e kmz.\r\n- \"SIG Focos-Áreas Protegidas\", Semelhante ao item anterior, mas dedicado à ocorrência do fogo em Áreas de Preservação, como Parques, Florestas, Reservas Biológicas municipais, estaduais e nacionais, e Terras Indígenas.\r\n- \"Situação nas Áreas Protegidas\", que contém o último relatório de focos detectados nas áreas de preservação, incluindo links que os mostram já inseridos no SIG do monitoramento.\r\n- \"Relatório Atual\", contém o último resumo do monitoramento de queimadas em formato pdf, que poderá ser salvo pelo usuário para análise detalhada dos dados. A opção \"Receber por E-Mail\" leva ao cadastro do usuário, onde se define individualmente o conteúdo dos relatórios e mensagens de alerta que serão recebidos automaticamente por E-Mail.\r\n- \"Risco de Fogo\", que apresenta o Risco de Fogo da vegetação estimado no presente, e suas previsões futuras (diárias, semanais e mensais), bem como o \"fogograma\" para qualquer local selecionado com o mouse nos mapas.\r\n- \"Meu Cadastro\", onde o usuário define e configura individualmente os produtos que deseja receber em seu E-Mail, como alertas de ocorrência de focos em áreas de preservação, boletins pdf diários com tabelas, gráficos e mapas de estados e países de interesse, e mensagens operacionais.\r\n- \"Outros Produtos\", com links a produtos adicionais gerados por este sistema de Queimadas e Incêndios, destacando-se: mapas mensais de focos em formato .gif com animações; mapas Meteorológicos (precipitação, temperatura, umidade do ar, ventos); detecções dos vários satélites utilizados; estimativas de concentrações e trajetórias dos poluentes emitidos; localização dos satélites utilizados, uma coletânea de dados anteriores e área de download, e; acesso a uma antiga versão da página do monitoramento de focos.\r\n- \"Links Relacionados\", com indicações de acesso ao Boletim do Ibama de Monitoramento de Queimadas e Incêndios, ao texto publicado mensalmente no Boletim Climanálise, a uma coleção de mais de 500 páginas com matérias, fotos, vídeos e sites diversos sobre queimadas e incêndios florestais, à composição da equipe deste trabalho, e aos agradecimentos.\r\n- \"Notícias e Destaques\", com informações, notícias e links de destaque na ocorrência do fogo na vegetação, e não restritas apenas à detecção de focos com satélites.\r\n- \"Aviso\", com informações operacionais indicando novidades, falhas e detalhes relevantes na geração dos produtos do monitoramento do fogo na vegetação.\r\n\r\nO INPE também gera outros produtos de queimadas que não são divulgados neste portal, atendendo necessidades individuais de usuários que optam em fazer o próprio processamento dos dados brutos enviados pelo INPE; um exemplo destes é o caso do PrevFogo/Ibama. Para receber em tempo quase-real as coordenadas geográficas dos focos e desenvolver sua própria base de aplicações, contatar queimadas@inpe.br.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "ar",
+      "queimada",
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "fogo",
+      "floresta",
+      "incêndio"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "fcb40f26-0d15-463f-b5fe-e69d5f0affe1",
+    "name": "Avaliação da Operação do Sistema Interligado Nacional (SIN) e outros subssistemas",
+    "description": "A organização temática Avaliação da Operação permite um retrato da operação das usinas em todo território nacional. São apresentados dados cadastrais das usinas, dos reservatórios e da sua contribuição para o Sistema Interligado Nacional (SIN) e demais subssistemas",
+    "organizations": [
+      "Operador Nacional do Sistema Elétrico (ONS)"
+    ],
+    "tags": [
+      "eletricidade",
+      "avaliação",
+      "hidrelétrica"
+    ],
+    "themes": [
+      "Energia",
+      "Infraestrutura e Transportes"
+    ]
+  },
+  {
+    "id": "6d20934d-373c-4a01-96b9-4205da302ee6",
+    "name": "Gestão de Pessoas (Executivo Federal) - Pensionistas",
+    "description": "As informações disponibilizadas referem-se ao pagamento (rendimento bruto) recebido por pensionistas de servidores instituidores de pensão, constantes no Sistema Integrado de Administração de Pessoal (Siape).\r\n\r\nCabe ressaltar que o Ministério da Economia é responsável pelas informações dos servidores instituidores de pensão e pensionistas do Poder Executivo Federal, não incluindo dados dos poderes Judiciário e Legislativo. Também não constam nos arquivos, dados relativos aos servidores do Banco Central do Brasil (1), Ministério da Defesa (2) (com exceção de militares de ex-territórios ou que assumiram cargos civis no Poder Executivo Federal) e Governo do Distrito Federal (3) (Fundo Constitucional), responsáveis pela publicação dos seus dados em portais próprios.\r\n\r\nEm relação à Agência Brasileira de Inteligência (Abin), os dados funcionais de pessoal são protegidos pela legislação vigente Lei nº 9883 (4) e Portaria Conjunta n° 5, de 05/08/2015/MPOG (5).\r\n\r\nDestacamos que todas as pensões acima do teto do funcionalismo público estão sujeitas ao abate-teto. Aos pensionistas com mais de um benefício, aplica-se o abate-teto em cima da soma das pensões, considerando os valores proporcionais a cada uma.\r\n\r\n### Conceito\r\n\r\nBeneficiário de pensão ou pensionista: Dependente do servidor titular de cargo efetivo da União ou do aposentado que faleceu; dependente de anistiado político ou pessoa que receba pensão especial graciosa ou indenizatória, concedida por meio de Lei ou Decreto Presidencial; ou beneficiados dessas condições por decisão judicial, a quem tenha sido concedido o benefício da pensão.\r\n\r\n### Política Pública\r\n\r\nPolítica de aperfeiçoamento contínuo dos processos de gestão de pessoas no âmbito da administração pública federal, no que se refere ao aspecto de aprimorar a cultura de transparência pública de forma a franquear a todos o acesso de forma aberta, aos dados produzidos ou acumulados pelo Poder Executivo federal, sobre os quais não recaia vedação expressa de acesso.\r\n\r\n### Legislação\r\n\r\nLei nº 8112 de 11 de dezembro de 1990, Lei nº 13.135, de 17 de junho de 2015.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "serviço militar",
+      "pensão"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  }
+]

@@ -12,21 +12,20 @@ Entidades recorrentes → chaves de ligação → seis camadas → testes de rec
 
 ## A. Material bruto recuperado
 
-A recuperação da conversa completa e dos exports desta frente está em andamento.
-
-Último vestígio da sessão: `6deb373a-9730-4a52-b009-c9eefa55f26f`, chatbot da BD.
+- [BD-005: JSON de 2 mensagens](../conversas/BD-005_6deb373a-9730-4a52-b009-c9eefa55f26f.json) · [leitura cronológica](../conversas/extraidos/BD-005/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/BD-005/)
 
 ## B. Consultas e código
 
-SQL e chamadas da sessão ainda não recuperados como arquivos nesta frente.
+As sessões desta frente são de reconhecimento de catálogo e desenho de cruzamentos. Chamadas e respostas originais, com identificadores e argumentos, estão nas pastas ligadas acima.
 
 ## C. Resultados e arquivos
 
-Resultados ainda registrados na ficha e no vestígio da sessão; os exports correspondentes aguardam recuperação.
+Respostas do catálogo e texto integral dos resultados nas conversas recuperadas.
+
 
 ## D. Reprodutibilidade
 
-Aguardando os arquivos da sessão para executar a reprodução.
+Abra a leitura cronológica para seguir perguntas, chamadas e respostas na ordem. As chamadas de catálogo estão registradas com os argumentos usados na sessão.
 
 ## E. Destinos possíveis
 
@@ -34,10 +33,11 @@ Diagrama de interoperabilidade e catálogo de relacionamentos.
 
 ## F. Pendências e próximo passo
 
-Recuperar o mapa original e converter cada ligação em uma linha com entidades, tabelas e chaves; conectar ao catálogo de BD-009.
+Mapa e respostas de catálogo recuperados. Converter cada ligação em uma linha e testar a cobertura das chaves pelo método de BD-009.
 
-Pendente: integrar a conversa completa com suas perguntas, respostas e chamadas originais.
 
 ## G. Pacote de trabalho
+
+[Baixar o material recuperado (ZIP)](../pacotes/BD-005-material-recuperado-2026-11-22.zip). Versão 22/11/2026.
 
 [Todos os materiais desta frente](#c-resultados-e-arquivos) · [Painel das 12 investigações](../PAINEL.md) · [Manifesto de arquivos e SHA-256](../manifesto-originais.json).

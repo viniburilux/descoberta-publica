@@ -1,0 +1,134 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_c65e2bf6dfc747a7a206f36f891a76be",
+    "slug": "credito_rural_municipal_rateado_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_b941825b4eed49308bc109cd03190b77",
+    "slug": "teste_credito_rural_rateio_2",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5e34b6be957341219a566e53023b0ee0",
+    "slug": "top20_credito_rural_municipal_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_589588551b9540ac9ae531a2879c526a",
+    "slug": "credito_rural_municipal_rateado_2023_todos_snapshots",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_af40e21bb67c4527b4aea5b25bc64cb4",
+    "slug": "mapa_credito_rural_municipal_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ceaa9c22dcb44642a51e9f76d7c4afab",
+    "slug": "verificacoes_cardinalidade_escopo_sicor_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_0ef8fb018eac4c358f2bec0877336a20",
+    "slug": "missao_1_2_agregado_publico_municipal_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_8a918dd1cb4d4495b6711a3945f81131",
+    "slug": "mapa_definitivo_credito_publico_car_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_06e6d428acd84f6fa0df48f74c2bab0e",
+    "slug": "catalogo_completo_fontes_recurso",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_471a06425f90478b9c9b66fe8a751f2a",
+    "slug": "ids_fontes_recurso_publico",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_e346d03d620c44c9a81e110ed1214760",
+    "slug": "verificacao_fonte_911_catalogo",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_0454ef447a7a4f19a728c259c9de78ae",
+    "slug": "municipios_brasil_id_nome",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

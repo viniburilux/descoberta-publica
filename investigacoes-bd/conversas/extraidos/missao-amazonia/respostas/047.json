@@ -1,0 +1,46 @@
+{
+  "row_count": 8,
+  "rows": [
+    {
+      "ano": 2022,
+      "estagio_bd": "Deduções - FUNDEB",
+      "receita_total": 8481834.01
+    },
+    {
+      "ano": 2022,
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "receita_total": 114598075.79
+    },
+    {
+      "ano": 2023,
+      "estagio_bd": "Deduções - FUNDEB",
+      "receita_total": 8922846.98
+    },
+    {
+      "ano": 2023,
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "receita_total": 127075710.48
+    },
+    {
+      "ano": 2024,
+      "estagio_bd": "Deduções - FUNDEB",
+      "receita_total": 10902016.43
+    },
+    {
+      "ano": 2024,
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "receita_total": 146571070.66
+    },
+    {
+      "ano": 2025,
+      "estagio_bd": "Deduções - FUNDEB",
+      "receita_total": 12052542.25
+    },
+    {
+      "ano": 2025,
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "receita_total": 171139955.3
+    }
+  ],
+  "query_ref": "qr_e035f3e0bcdc4eedb13e1149d111b429"
+}

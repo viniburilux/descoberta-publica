@@ -1,0 +1,109 @@
+{
+  "row_count": 1301,
+  "rows": [
+    {
+      "id_municipio": "3148103",
+      "nome_municipio": "Patrocínio",
+      "sigla_uf": "MG",
+      "valor_financiado_rateado": 289819052.31000006,
+      "numero_operacoes": 891,
+      "ranking_valor": 1,
+      "total_conectado": 19797085353.879997,
+      "municipios_conectados": 1301
+    },
+    {
+      "id_municipio": "3170404",
+      "nome_municipio": "Unaí",
+      "sigla_uf": "MG",
+      "valor_financiado_rateado": 277601671.0399999,
+      "numero_operacoes": 600,
+      "ranking_valor": 2,
+      "total_conectado": 19797085353.879997,
+      "municipios_conectados": 1301
+    },
+    {
+      "id_municipio": "3147006",
+      "nome_municipio": "Paracatu",
+      "sigla_uf": "MG",
+      "valor_financiado_rateado": 247440626.78399995,
+      "numero_operacoes": 264,
+      "ranking_valor": 3,
+      "total_conectado": 19797085353.879997,
+      "municipios_conectados": 1301
+    },
+    {
+      "id_municipio": "3148004",
+      "nome_municipio": "Patos de Minas",
+      "sigla_uf": "MG",
+      "valor_financiado_rateado": 202017795.2100001,
+      "numero_operacoes": 690,
+      "ranking_valor": 4,
+      "total_conectado": 19797085353.879997,
+      "municipios_conectados": 1301
+    },
+    {
+      "id_municipio": "3136306",
+      "nome_municipio": "João Pinheiro",
+      "sigla_uf": "MG",
+      "valor_financiado_rateado": 188127084.82999992,
+      "numero_operacoes": 436,
+      "ranking_valor": 5,
+      "total_conectado": 19797085353.879997,
+      "municipios_conectados": 1301
+    },
+    {
+      "id_municipio": "3203205",
+      "nome_municipio": "Linhares",
+      "sigla_uf": "ES",
+      "valor_financiado_rateado": 167386198.45333344,
+      "numero_operacoes": 959,
+      "ranking_valor": 6,
+      "total_conectado": 19797085353.879997,
+      "municipios_conectados": 1301
+    },
+    {
+      "id_municipio": "3155504",
+      "nome_municipio": "Rio Paranaíba",
+      "sigla_uf": "MG",
+      "valor_financiado_rateado": 164185843.60999995,
+      "numero_operacoes": 375,
+      "ranking_valor": 7,
+      "total_conectado": 19797085353.879997,
+      "municipios_conectados": 1301
+    },
+    {
+      "id_municipio": "3129509",
+      "nome_municipio": "Ibiá",
+      "sigla_uf": "MG",
+      "valor_financiado_rateado": 164057958.33000004,
+      "numero_operacoes": 263,
+      "ranking_valor": 8,
+      "total_conectado": 19797085353.879997,
+      "municipios_conectados": 1301
+    },
+    {
+      "id_municipio": "3203908",
+      "nome_municipio": "Nova Venécia",
+      "sigla_uf": "ES",
+      "valor_financiado_rateado": 151624858.99000004,
+      "numero_operacoes": 1392,
+      "ranking_valor": 9,
+      "total_conectado": 19797085353.879997,
+      "municipios_conectados": 1301
+    },
+    {
+      "id_municipio": "3143104",
+      "nome_municipio": "Monte Carmelo",
+      "sigla_uf": "MG",
+      "valor_financiado_rateado": 151179736.5300001,
+      "numero_operacoes": 315,
+      "ranking_valor": 10,
+      "total_conectado": 19797085353.879997,
+      "municipios_conectados": 1301
+    },
+    "... (990 more items)"
+  ],
+  "truncated": true,
+  "truncation_note": "Only the first 1000 of 1301 rows are shown here to keep the context small. The full result can still be downloaded from the interface.",
+  "query_ref": "qr_c65e2bf6dfc747a7a206f36f891a76be"
+}

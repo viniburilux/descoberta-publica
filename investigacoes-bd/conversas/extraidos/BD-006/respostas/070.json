@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Unrecognized name: sigla_uf at [3:3]\n\nLocation: None\nJob ID: 9287d077-a1b4-4ec9-8a87-8da6e6710a7d\n"
+}

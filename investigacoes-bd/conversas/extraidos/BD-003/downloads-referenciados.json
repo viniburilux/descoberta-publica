@@ -1,0 +1,200 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_ad504f373aa04e05a8e589a929e1f52b",
+    "slug": "correlacao_emendas_doencas_hidricas_final",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_a01fdcd3c4c34b24b37c48245c3609a8",
+    "slug": "validacao_emendas_municipios",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_750977e7cc1247979f8b10f942cbe2a8",
+    "slug": "validacao_codigos_municipio_emendas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_bd4d37e2b3c646059cb8171d2ff50cca",
+    "slug": "validacao_internacoes_hidricas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_41a65bbe10df4389863a805cd601d0fc",
+    "slug": "correlacao_emendas_doencas_hidricas_corrigida",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_25dd55ecd5d5449e90a82558ba5d6bd1",
+    "slug": "valores_uf_sih",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_1508707c448849dc8aa03052519fca2b",
+    "slug": "categorias_cid_sih",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_b4d2344d4e6248328c3206f47841a87b",
+    "slug": "amostra_codigos_emendas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ed975440abb043a6b4655d4d107ddd91",
+    "slug": "validacao_join_emendas_ne",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_45e6c3c667604ca19d800ce689053d67",
+    "slug": "amostra_municipios_sih",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_30274abdbfd44a50aa5f2b65861ac2da",
+    "slug": "valores_candidatos_2020",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ead0ca6466864fc9acc3ba6199fc96f9",
+    "slug": "tipos_doadores_2020_capitais",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_1d026d656fa04215a678c7adc599ebbd",
+    "slug": "doacoes_prefeitos_capitais_2020",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_abecf8aefb084a9d8f60afcc8a16c58d",
+    "slug": "cobertura_pncp_periodos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_24a0b91fb7ec4765aba68465fbc5f9b7",
+    "slug": "resultados_prefeito_2020",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_a7f6abef45ca4fe3a86138a3935cffce",
+    "slug": "formato_doadores_2020",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_1ced2ba686914221a4f00562ebc05c5f",
+    "slug": "formato_qsa_cpfs",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_6b97463eebab4c57bfb743a78396b866",
+    "slug": "doadores_vencedores_capitais_2020",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

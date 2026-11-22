@@ -1,0 +1,1 @@
+SELECT DISTINCT data_referencia FROM `basedosdados.br_rf_cnpj.estabelecimentos` WHERE data_referencia BETWEEN '2021-11-01' AND '2026-11-01' ORDER BY data_referencia

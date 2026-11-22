@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Column id_car_norm in USING clause not found on left side of join at [1:1228]\n\nLocation: None\nJob ID: 79da36ba-8ba8-44a0-ac06-e34d1f97a6ee\n"
+}

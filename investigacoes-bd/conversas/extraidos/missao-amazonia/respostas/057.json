@@ -1,0 +1,22 @@
+{
+  "row_count": 4,
+  "rows": [
+    {
+      "data_referencia": "2023-11-01",
+      "registros": 39021
+    },
+    {
+      "data_referencia": "2024-11-01",
+      "registros": 42637
+    },
+    {
+      "data_referencia": "2025-11-01",
+      "registros": 46382
+    },
+    {
+      "data_referencia": "2026-11-01",
+      "registros": 50559
+    }
+  ],
+  "query_ref": "qr_ce7f2201c7a449d180e8983dd7f9479e"
+}

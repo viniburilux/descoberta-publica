@@ -1,0 +1,71 @@
+{
+  "id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+  "name": "Cadastros de Sanções da CGU",
+  "description": "Cadastros de sanções administrativas mantidos pela Controladoria-Geral da União (CGU) e publicados no Portal da Transparência, reunindo empresas e pessoas inidôneas, suspensas ou punidas (CEIS e CNEP), entidades privadas sem fins lucrativos impedidas (CEPIM) e acordos de leniência. Cada tabela é um ... (85 more characters)",
+  "organizations": [
+    "Controladoria Geral da União (CGU)"
+  ],
+  "tags": [
+    "cnpj",
+    "companhia",
+    "corrupção",
+    "devedor",
+    "federal",
+    "multa",
+    "integridade",
+    "fiscalização",
+    "administração pública",
+    "licitação",
+    "... (2 more items)"
+  ],
+  "themes": [
+    "Economia",
+    "Governo e Finanças Públicas",
+    "Justiça"
+  ],
+  "tables": [
+    {
+      "id": "5476eb5a-f1ab-4b70-8632-1d06d4f0986a",
+      "dataset_id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+      "gcp_id": "basedosdados.br_cgu_sancoes.acordos_leniencia",
+      "name": "Acordos de Leniência",
+      "description": "Acordos de leniência celebrados no âmbito da Lei Anticorrupção (Lei nº 12.846/2013). Cada linha é a participação de uma pessoa jurídica em um acordo, identificada por id_acordo e cnpj_sancionado. A tabela é um retrato datado do cadastro, particionado por data_extracao."
+    },
+    {
+      "id": "93c53805-aef0-4c95-8fcf-a45922917229",
+      "dataset_id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+      "gcp_id": "basedosdados.br_cgu_sancoes.acordos_leniencia_efeitos",
+      "name": "Acordos de Leniência — Efeitos",
+      "description": "Efeitos dos acordos de leniência: um ou mais registros por acordo, detalhando cada efeito e seu complemento. Relaciona-se a acordos_leniencia por id_acordo. A tabela é um retrato datado do cadastro, particionado por data_extracao."
+    },
+    {
+      "id": "9ea3af78-29b8-408a-8d8a-e78e8c61b6b5",
+      "dataset_id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+      "gcp_id": "basedosdados.br_cgu_sancoes.ceis",
+      "name": "Cadastro de Empresas Inidôneas e Suspensas (CEIS)",
+      "description": "Cadastro de Empresas Inidôneas e Suspensas (CEIS): pessoas físicas e jurídicas que sofreram sanções restringindo o direito de participar de licitações ou de celebrar contratos com a Administração Pública. Cada linha é uma sanção, identificada por codigo_sancao. A tabela é um retrato datado do cadast... (35 more characters)"
+    },
+    {
+      "id": "f835270d-a1cd-4a53-8d12-86da5f5388ea",
+      "dataset_id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+      "gcp_id": "basedosdados.br_cgu_sancoes.cepim",
+      "name": "Cadastro de Entidades Privadas Sem Fins Lucrativos Impedidas (CEPIM)",
+      "description": "Cadastro de Entidades Privadas Sem Fins Lucrativos Impedidas (CEPIM): entidades privadas sem fins lucrativos impedidas de celebrar convênios, contratos de repasse ou termos de parceria com a Administração Pública Federal. Cada linha é um impedimento por convênio, identificado por cnpj_entidade e num... (87 more characters)"
+    },
+    {
+      "id": "a5161bb2-5017-4116-8081-962f7caed72f",
+      "dataset_id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+      "gcp_id": "basedosdados.br_cgu_sancoes.cnep",
+      "name": "Cadastro Nacional de Empresas Punidas (CNEP)",
+      "description": "Cadastro Nacional de Empresas Punidas (CNEP): pessoas jurídicas e físicas punidas com base na Lei Anticorrupção (Lei nº 12.846/2013). Cada linha é uma sanção, identificada por codigo_sancao. A tabela é um retrato datado do cadastro, particionado por data_extracao."
+    },
+    {
+      "id": "c38e2ee3-07ad-4950-8697-47efdeff24f1",
+      "dataset_id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+      "gcp_id": "basedosdados.br_cgu_sancoes.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário de códigos das colunas codificadas do conjunto br_cgu_sancoes, mapeando cada chave ao seu rótulo (valor). Cobre a coluna tipo_pessoa das tabelas ceis e cnep."
+    }
+  ],
+  "usage_guide": null
+}

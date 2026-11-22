@@ -1,0 +1,1 @@
+SELECT ano, estagio_bd, SUM(valor) AS receita_total FROM `basedosdados.br_me_siconfi.municipio_receitas_orcamentarias` WHERE id_municipio='1503200' AND ano BETWEEN 2022 AND 2025 AND LOWER(conta_bd)='receitas orçamentárias' GROUP BY ano,estagio_bd ORDER BY ano,estagio_bd

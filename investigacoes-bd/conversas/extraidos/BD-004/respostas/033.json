@@ -1,0 +1,51 @@
+{
+  "id": "2c7fdc3d-f2ed-4c78-84b8-d9c792a06703",
+  "dataset_id": "782c5607-9f69-4e12-b0d5-aa0f1a7a94e2",
+  "gcp_id": "basedosdados.br_inmet_bdmep.estacao",
+  "name": "Estação",
+  "description": "O BDMEP abriga dados meteorológicos diários em forma digital, de séries históricas das várias estações meteorológicas convencionais da rede de estações do INMET com milhões de informações, referentes às medições diárias, de acordo com as normas técnicas internacionais da Organização Meteorológica Mu... (6 more characters)",
+  "columns": [
+    {
+      "name": "altitude",
+      "type": "FLOAT64",
+      "description": "Altitude da estação meteorológica",
+      "unit": "meters",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_fundacao",
+      "type": "DATE",
+      "description": "Data de fundação da estação meteorológica",
+      "needs_decoding": false
+    },
+    {
+      "name": "estacao",
+      "type": "STRING",
+      "description": "Nome da estação meteorológica",
+      "needs_decoding": false
+    },
+    {
+      "name": "geolocalizacao",
+      "type": "GEOGRAPHY",
+      "description": "Latitude e longitude da estação meteorológica",
+      "unit": "degrees",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_estacao",
+      "type": "STRING",
+      "description": "ID da estação meteorológica",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": "2000",
+  "period_end": "2026"
+}

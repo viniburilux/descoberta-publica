@@ -1,0 +1,54 @@
+{
+  "id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+  "name": "Quadros Societários CNPJ",
+  "description": "Quadros societários e de administradores das pessoas jurídicas brasileiras.\r\n\r\n Este conjunto de dados é divulgado pela fonte original no formato de fotografias. Para cada data tem-se um retrato do universo de Cadastro Nacional das Pessoas Jurídicas (CNPJs) e seus atributos.  Com exceção da tabela d... (580 more characters)",
+  "organizations": [
+    "Receita Federal"
+  ],
+  "tags": [
+    "firma",
+    "empresa",
+    "sócio"
+  ],
+  "themes": [
+    "Economia"
+  ],
+  "tables": [
+    {
+      "id": "81272674-f522-4e43-a70b-05bf46f0a163",
+      "dataset_id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+      "gcp_id": "basedosdados.br_rf_cnpj.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Quadros Societários CNPJ. Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "3dbb38d1-65af-44a3-b43a-7b088891ebc0",
+      "dataset_id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+      "gcp_id": "basedosdados.br_rf_cnpj.empresas",
+      "name": "Empresas",
+      "description": "Empresas"
+    },
+    {
+      "id": "b8432ff5-06c8-45ca-b8b6-33fceb24089d",
+      "dataset_id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+      "gcp_id": "basedosdados.br_rf_cnpj.estabelecimentos",
+      "name": "Estabelecimentos",
+      "description": "Estabelecimentos"
+    },
+    {
+      "id": "96d3a80b-d0b5-419a-8845-55bcfd824175",
+      "dataset_id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+      "gcp_id": "basedosdados.br_rf_cnpj.simples",
+      "name": "Simples",
+      "description": "Simples Nacional"
+    },
+    {
+      "id": "f7bf63e6-dc55-4953-acf6-4db7fc99f1f7",
+      "dataset_id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+      "gcp_id": "basedosdados.br_rf_cnpj.socios",
+      "name": "Sócios",
+      "description": "Sócios"
+    }
+  ],
+  "usage_guide": null
+}

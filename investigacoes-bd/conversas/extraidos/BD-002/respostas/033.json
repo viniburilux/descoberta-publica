@@ -1,0 +1,94 @@
+{
+  "id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+  "name": "Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD-C)",
+  "description": "A Pesquisa Nacional por Amostra de Domicílios Contínua, PNAD Contínua, é uma pesquisa realizada pelo IBGE com o objetivo de produzir continuamente informações sobre mercado de trabalho, associadas a características demográficas e educacionais. Periodicamente, são analisados temas adicionais permanen... (912 more characters)",
+  "organizations": [
+    "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+  ],
+  "tags": [
+    "emprego",
+    "informalidade",
+    "trabalho",
+    "ocupação"
+  ],
+  "themes": [
+    "Economia",
+    "Educação",
+    "Saúde",
+    "População"
+  ],
+  "tables": [
+    {
+      "id": "9e4ab8f4-3ad4-47fb-9919-5658d2e09c4f",
+      "dataset_id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+      "gcp_id": "basedosdados.br_ibge_pnadc.ano_brasil_grupo_idade",
+      "name": "População do Brasil por Grupo de Idade",
+      "description": "População residente, por sexo e grupos de idade."
+    },
+    {
+      "id": "ba0d270b-ccbf-43fd-a67d-cf8f9f50751d",
+      "dataset_id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+      "gcp_id": "basedosdados.br_ibge_pnadc.ano_brasil_raca_cor",
+      "name": "População dio Brasil por Raça/Cor",
+      "description": "População residente, por sexo e cor ou raça"
+    },
+    {
+      "id": "b7537336-dbf1-4c21-a7c8-9bfef421f504",
+      "dataset_id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+      "gcp_id": "basedosdados.br_ibge_pnadc.ano_municipio_grupo_idade",
+      "name": "População por Município e Grupo de Idade",
+      "description": "População residente, por sexo e grupos de idade."
+    },
+    {
+      "id": "b3a905db-222a-42ad-b359-9731aa8709d6",
+      "dataset_id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+      "gcp_id": "basedosdados.br_ibge_pnadc.ano_municipio_raca_cor",
+      "name": "População por Município e Raça/Cor",
+      "description": "População residente, por sexo e cor ou raça"
+    },
+    {
+      "id": "e3016987-c3cd-4e02-8c5d-78ec1ae516ba",
+      "dataset_id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+      "gcp_id": "basedosdados.br_ibge_pnadc.ano_regiao_grupo_idade",
+      "name": "População por Região e Grupo de Idade",
+      "description": "População residente, por sexo e grupos de idade."
+    },
+    {
+      "id": "c1d0dd92-f18c-4fd1-9121-bdb6fd53430d",
+      "dataset_id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+      "gcp_id": "basedosdados.br_ibge_pnadc.ano_regiao_metropolitana_grupo_idade",
+      "name": "População por Região Metropolitana e Grupo de Idade",
+      "description": "População residente, por sexo e grupos de idade."
+    },
+    {
+      "id": "91d0144b-5d6b-4c65-a15c-3f33dd5435d5",
+      "dataset_id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+      "gcp_id": "basedosdados.br_ibge_pnadc.ano_regiao_metropolitana_raca_cor",
+      "name": "População por Região Metropolitana e Raça/Cor",
+      "description": "População residente, por sexo e cor ou raça"
+    },
+    {
+      "id": "3d2c324a-c5cd-4e05-bcb3-98cc833f20bc",
+      "dataset_id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+      "gcp_id": "basedosdados.br_ibge_pnadc.ano_regiao_raca_cor",
+      "name": "População por Região e Raça/Cor",
+      "description": "População residente, por sexo e cor ou raça"
+    },
+    {
+      "id": "b10acb1e-a2ad-43aa-81e9-8b3ad06b372a",
+      "dataset_id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+      "gcp_id": "basedosdados.br_ibge_pnadc.ano_uf_grupo_idade",
+      "name": "População por UF e Grupo de Idade",
+      "description": "População residente, por sexo e grupos de idade."
+    },
+    {
+      "id": "e2214aa8-d619-47a3-9645-f261dea1a738",
+      "dataset_id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+      "gcp_id": "basedosdados.br_ibge_pnadc.ano_uf_raca_cor",
+      "name": "População por UF e Raça/Cor",
+      "description": "População residente, por sexo e cor ou raça"
+    },
+    "... (4 more items)"
+  ],
+  "usage_guide": null
+}

@@ -1,0 +1,79 @@
+{
+  "row_count": 5456,
+  "rows": [
+    {
+      "comprimento": null,
+      "formato_valido": 0,
+      "registros": 195171,
+      "uf_prefixo": null,
+      "municipio_embutido": null
+    },
+    {
+      "comprimento": 41,
+      "formato_valido": 12498,
+      "registros": 12498,
+      "uf_prefixo": "PR",
+      "municipio_embutido": "4102000"
+    },
+    {
+      "comprimento": 41,
+      "formato_valido": 11415,
+      "registros": 11415,
+      "uf_prefixo": "PE",
+      "municipio_embutido": "2601102"
+    },
+    {
+      "comprimento": 41,
+      "formato_valido": 11030,
+      "registros": 11030,
+      "uf_prefixo": "MG",
+      "municipio_embutido": "3155603"
+    },
+    {
+      "comprimento": 41,
+      "formato_valido": 10969,
+      "registros": 10969,
+      "uf_prefixo": "RS",
+      "municipio_embutido": "4304507"
+    },
+    {
+      "comprimento": 41,
+      "formato_valido": 10407,
+      "registros": 10407,
+      "uf_prefixo": "BA",
+      "municipio_embutido": "2921500"
+    },
+    {
+      "comprimento": 41,
+      "formato_valido": 9888,
+      "registros": 9888,
+      "uf_prefixo": "PR",
+      "municipio_embutido": "4120606"
+    },
+    {
+      "comprimento": 41,
+      "formato_valido": 9678,
+      "registros": 9678,
+      "uf_prefixo": "PE",
+      "municipio_embutido": "2609907"
+    },
+    {
+      "comprimento": 41,
+      "formato_valido": 9158,
+      "registros": 9158,
+      "uf_prefixo": "PR",
+      "municipio_embutido": "4114609"
+    },
+    {
+      "comprimento": 41,
+      "formato_valido": 9148,
+      "registros": 9148,
+      "uf_prefixo": "PR",
+      "municipio_embutido": "4127700"
+    },
+    "... (990 more items)"
+  ],
+  "truncated": true,
+  "truncation_note": "Only the first 1000 of 5456 rows are shown here to keep the context small. The full result can still be downloaded from the interface.",
+  "query_ref": "qr_da8da48b64e84032a5be0664b2a81b4d"
+}

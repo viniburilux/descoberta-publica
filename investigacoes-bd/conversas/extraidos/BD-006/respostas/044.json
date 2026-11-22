@@ -1,0 +1,78 @@
+{
+  "id": "bd9b2960-361f-4465-be23-baaadaaf266d",
+  "dataset_id": "fc403b40-a7e1-40e7-9efe-910847b45a69",
+  "gcp_id": "basedosdados.br_ibge_pam.lavoura_permanente",
+  "name": "Lavouras Permanentes",
+  "description": "A tabela contém dados da Pesquisa Agrícola Municipal para lavouras permanentes. Tem-se 8 variáveis desagregadas para cada municiípio, para cada ano e para cada um dos mais de 35 produtos. A tabela pode ser usada para comparação com as lavouras temporárias, para melhor compreender o uso da terra em c... (93 more characters)",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "area_colhida",
+      "type": "INT64",
+      "description": "Área colhida",
+      "unit": "ha",
+      "needs_decoding": false
+    },
+    {
+      "name": "area_destinada_colheita",
+      "type": "INT64",
+      "description": "Área destinada à colheita",
+      "unit": "ha",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município IBGE 7 dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "produto",
+      "type": "STRING",
+      "description": "Produto",
+      "needs_decoding": false
+    },
+    {
+      "name": "quantidade_produzida",
+      "type": "FLOAT64",
+      "description": "Quantidade da produção",
+      "unit": "ton",
+      "needs_decoding": false
+    },
+    {
+      "name": "rendimento_medio_producao",
+      "type": "FLOAT64",
+      "description": "Rendimento médio da produção",
+      "unit": "kg / ha",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da Unidade da Federação",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor_producao",
+      "type": "FLOAT64",
+      "description": "Valor da produção",
+      "unit": "1000 * brl",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano",
+    "id_municipio",
+    "sigla_uf"
+  ],
+  "period_start": "1974",
+  "period_end": "2024"
+}

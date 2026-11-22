@@ -1,0 +1,39 @@
+{
+  "id": "3e7c4d58-96ba-448e-b053-d385a829ef00",
+  "name": "Relação Anual de Informações Sociais (RAIS)",
+  "description": "A Relação Anual de Informações Sociais (RAIS) é um relatório de informações socioeconômicas solicitado pela Secretaria de Trabalho do Ministério da Economia brasileiro às pessoas jurídicas e outros empregadores anualmente. Foi instituída pelo Decreto nº 76.900, de 23 de dezembro de 1975.",
+  "organizations": [
+    "Ministério da Economia (ME)"
+  ],
+  "tags": [
+    "emprego",
+    "trabalho"
+  ],
+  "themes": [
+    "Economia"
+  ],
+  "tables": [
+    {
+      "id": "c3a5121e-f00d-41ff-b46f-bd26be8d4af3",
+      "dataset_id": "3e7c4d58-96ba-448e-b053-d385a829ef00",
+      "gcp_id": "basedosdados.br_me_rais.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Relação Anual de Informações Sociais (RAIS). Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "86b69f96-0bfe-45da-833b-6edc9a0af213",
+      "dataset_id": "3e7c4d58-96ba-448e-b053-d385a829ef00",
+      "gcp_id": "basedosdados.br_me_rais.microdados_estabelecimentos",
+      "name": "Microdados Estabelecimentos",
+      "description": "Microdados de estabelecimentos da RAIS."
+    },
+    {
+      "id": "dabe5ea8-3bb5-4a3e-9d5a-3c7003cd4a60",
+      "dataset_id": "3e7c4d58-96ba-448e-b053-d385a829ef00",
+      "gcp_id": "basedosdados.br_me_rais.microdados_vinculos",
+      "name": "Microdados Vínculos",
+      "description": "Microdados públicos dos vínculos de emprego na RAIS. Base desidentificada, isto é, que não inclui identificadores únicos de linha. Cada linha representa um vínculo - por isso indicamos este como nível de observação mesmo que não conste como coluna."
+    }
+  ],
+  "usage_guide": "---\ntitle: Guia de uso da RAIS\ndescription: >-\n  Guia de uso da Relação Anual de Informações Sociais (RAIS). Este material contém informações sobre as variáveis mais importantes, perguntas frequentes e exemplos de uso do conjunto da RAIS \ndate:\n  created: \"2024-11-28T18:18:06.419Z\"\nthumbnail: \ncateg... (8433 more characters)"
+}

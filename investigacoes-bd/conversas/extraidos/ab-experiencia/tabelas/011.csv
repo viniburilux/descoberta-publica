@@ -1,0 +1,7 @@
+nome_coluna,id_tabela
+id_fonte_recurso,operacao
+id_motivo_desclassificacao,operacoes_desclassificadas
+id_natureza_parcela,proagro_parcela
+id_programa,operacao
+id_programa,recurso_publico_cooperado
+id_subprograma,operacao

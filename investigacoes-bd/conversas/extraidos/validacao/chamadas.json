@@ -1,0 +1,183 @@
+[
+  {
+    "message_id": "9c59c04b-29d5-414e-a554-905daf6c182b",
+    "evento": 0,
+    "call_id": "call_jp8pySV5dMK9t3UXXVIk7A2k",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH l AS (\n  SELECT ano, CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING)) AS chave\n  FROM `basedosdados.br_inpe_prodes.municipio_bioma`\n  WHERE ano IN (2023)\n), r AS (\n  SELECT DISTINCT CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING)) AS chave\n  FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe`\n  WHERE ano IN (2023)\n)\nSELECT\n  l.ano,\n  COUNT(*) AS registros_left,\n  COUNT(DISTINCT l.chave) AS chaves_distintas_left,\n  COUNTIF(r.chave IS NOT NULL) AS registros_correspondentes,\n  COUNT(DISTINCT IF(r.chave IS NOT NULL, l.chave, NULL)) AS chaves_correspondentes,\n  COUNTIF(r.chave IS NULL) AS registros_sem_correspondencia\nFROM l LEFT JOIN r USING (chave)\nGROUP BY l.ano ORDER BY l.ano;",
+      "slug": "validacao_interoperabilidade_prodes_mapbiomas"
+    },
+    "arquivo_sql": "sql/001.sql"
+  },
+  {
+    "message_id": "9c59c04b-29d5-414e-a554-905daf6c182b",
+    "evento": 2,
+    "call_id": "call_z6JrZToG8uMlJOoefHydtT1G",
+    "nome": "search_datasets",
+    "args": {
+      "query": "PRODES"
+    }
+  },
+  {
+    "message_id": "9c59c04b-29d5-414e-a554-905daf6c182b",
+    "evento": 2,
+    "call_id": "call_k7HKyWUIEBItSwcdrHxEQqIG",
+    "nome": "search_datasets",
+    "args": {
+      "query": "MapBiomas"
+    }
+  },
+  {
+    "message_id": "9c59c04b-29d5-414e-a554-905daf6c182b",
+    "evento": 5,
+    "call_id": "call_YQeYQhviXGLnFixKXcWGxYsH",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "e5c87240-ecce-4856-97c5-e6b84984bf42"
+    }
+  },
+  {
+    "message_id": "9c59c04b-29d5-414e-a554-905daf6c182b",
+    "evento": 5,
+    "call_id": "call_mGKZ1A201NExdAQhyMVGnULV",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7"
+    }
+  },
+  {
+    "message_id": "f2997435-47f5-4b92-8fc1-483d82001724",
+    "evento": 0,
+    "call_id": "call_YiGbfXp8fV4URbBI3mgE8QZ9",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH l AS (\n  SELECT ano, cnae_2_subclasse AS chave\n  FROM `basedosdados.br_me_rais.microdados_estabelecimentos`\n  WHERE ano IN (2023)\n), r AS (\n  SELECT DISTINCT subclasse AS chave\n  FROM `basedosdados.br_bd_diretorios_brasil.cnae_2`\n)\nSELECT\n  l.ano,\n  COUNT(*) AS registros_left,\n  COUNT(DISTINCT l.chave) AS subclasses_distintas_left,\n  COUNTIF(r.chave IS NOT NULL) AS registros_correspondentes,\n  COUNT(DISTINCT IF(r.chave IS NOT NULL, l.chave, NULL)) AS subclasses_correspondentes,\n  COUNTIF(r.chave IS NULL) AS registros_sem_correspondencia\nFROM l LEFT JOIN r USING (chave)\nGROUP BY l.ano ORDER BY l.ano;",
+      "slug": "validacao_rais_cnae_2023"
+    },
+    "arquivo_sql": "sql/002.sql"
+  },
+  {
+    "message_id": "f2997435-47f5-4b92-8fc1-483d82001724",
+    "evento": 2,
+    "call_id": "call_blIsrMdsi0rGKLQGpcbDASvA",
+    "nome": "search_datasets",
+    "args": {
+      "query": "RAIS"
+    }
+  },
+  {
+    "message_id": "f2997435-47f5-4b92-8fc1-483d82001724",
+    "evento": 2,
+    "call_id": "call_SecNeVXU6MpyWqO5qOWuwOwk",
+    "nome": "search_datasets",
+    "args": {
+      "query": "CNAE"
+    }
+  },
+  {
+    "message_id": "f2997435-47f5-4b92-8fc1-483d82001724",
+    "evento": 5,
+    "call_id": "call_v9XCLA7s7afB2YRRGepMo13U",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "3e7c4d58-96ba-448e-b053-d385a829ef00"
+    }
+  },
+  {
+    "message_id": "f2997435-47f5-4b92-8fc1-483d82001724",
+    "evento": 5,
+    "call_id": "call_2sMRhNahzEdoWInv95zX3Ozg",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e"
+    }
+  },
+  {
+    "message_id": "e1831c50-86cd-4d17-813d-4e8b13a48c07",
+    "evento": 0,
+    "call_id": "call_7kPTzcxDjCQDwBVU1GRncftH",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH e AS (\n  SELECT id_embargo, id_auto\n  FROM `basedosdados.br_ibama_fiscalizacao.area_embargada`\n), a AS (\n  SELECT DISTINCT id_auto\n  FROM `basedosdados.br_ibama_fiscalizacao.auto_infracao`\n  WHERE ano >= 1977\n)\nSELECT\n  COUNT(*) AS embargos_registros,\n  COUNTIF(e.id_auto IS NULL OR TRIM(e.id_auto) = '') AS embargos_id_auto_vazio,\n  COUNTIF(a.id_auto IS NOT NULL) AS embargos_com_auto,\n  COUNTIF(e.id_auto IS NOT NULL AND TRIM(e.id_auto) != '' AND a.id_auto IS NULL) AS embargos_sem_auto,\n  COUNT(DISTINCT e.id_auto) AS autos_distintos_referenciados\nFROM e LEFT JOIN a ON e.id_auto = a.id_auto;",
+      "slug": "validacao_embargos_autos"
+    },
+    "arquivo_sql": "sql/003.sql"
+  },
+  {
+    "message_id": "e1831c50-86cd-4d17-813d-4e8b13a48c07",
+    "evento": 2,
+    "call_id": "call_X1CR59ghw92NKk8MH8opPlTQ",
+    "nome": "search_datasets",
+    "args": {
+      "query": "IBAMA"
+    }
+  },
+  {
+    "message_id": "e1831c50-86cd-4d17-813d-4e8b13a48c07",
+    "evento": 4,
+    "call_id": "call_AzitiHTIqGLfu7iAJhUyZBMh",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15"
+    }
+  },
+  {
+    "message_id": "4c87fbbe-23b7-4d87-91fe-6224dff34933",
+    "evento": 0,
+    "call_id": "call_7N24RAC890w0QMdGa7QiVygO",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH l AS (\n  SELECT ano_emissao, REPLACE(UPPER(TRIM(id_car)), '-', '') AS chave\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao IN (2019, 2023, 2026)\n    AND id_car IS NOT NULL AND TRIM(CAST(id_car AS STRING)) != ''\n), r AS (\n  SELECT DISTINCT REPLACE(UPPER(TRIM(id_imovel)), '-', '') AS chave\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n)\nSELECT\n  l.ano_emissao,\n  COUNT(*) AS registros_left,\n  COUNT(DISTINCT l.chave) AS ids_distintos_left,\n  COUNTIF(r.chave IS NOT NULL) AS registros_correspondentes,\n  COUNT(DISTINCT IF(r.chave IS NOT NULL, l.chave, NULL)) AS ids_correspondentes,\n  COUNTIF(r.chave IS NULL) AS registros_sem_correspondencia\nFROM l LEFT JOIN r USING (chave)\nGROUP BY l.ano_emissao ORDER BY l.ano_emissao;",
+      "slug": "validacao_sicor_car"
+    },
+    "arquivo_sql": "sql/004.sql"
+  },
+  {
+    "message_id": "4c87fbbe-23b7-4d87-91fe-6224dff34933",
+    "evento": 2,
+    "call_id": "call_Z9Gssbez5Mtb6w6vnh26mYCn",
+    "nome": "search_datasets",
+    "args": {
+      "query": "SICOR"
+    }
+  },
+  {
+    "message_id": "4c87fbbe-23b7-4d87-91fe-6224dff34933",
+    "evento": 2,
+    "call_id": "call_yj5TDGeFLQvBtw6KrdwMFM8n",
+    "nome": "search_datasets",
+    "args": {
+      "query": "SICAR"
+    }
+  },
+  {
+    "message_id": "4c87fbbe-23b7-4d87-91fe-6224dff34933",
+    "evento": 5,
+    "call_id": "call_BRhnu8nyFF8lqCQNPQGMpPVf",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465"
+    }
+  },
+  {
+    "message_id": "4c87fbbe-23b7-4d87-91fe-6224dff34933",
+    "evento": 5,
+    "call_id": "call_cvKqQY6XGAw3drwSG1K0DfaG",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619"
+    }
+  },
+  {
+    "message_id": "c0d935cd-1f75-4cb9-a2f5-7a77ae4c2bfe",
+    "evento": 0,
+    "call_id": "call_TY3TpYvdcPIm96hxr4jxppar",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT data_extracao, COUNT(*) AS registros\nFROM `basedosdados.br_sfb_sicar.area_imovel`\nGROUP BY data_extracao\nORDER BY data_extracao;",
+      "slug": "snapshots_sicar_area_imovel"
+    },
+    "arquivo_sql": "sql/005.sql"
+  }
+]

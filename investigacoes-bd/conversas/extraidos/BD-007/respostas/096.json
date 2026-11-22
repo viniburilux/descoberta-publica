@@ -1,0 +1,14 @@
+{
+  "row_count": 2,
+  "rows": [
+    {
+      "ano_safra_emissao": "2022/2023",
+      "linhas": 825818
+    },
+    {
+      "ano_safra_emissao": "2023/2024",
+      "linhas": 1303316
+    }
+  ],
+  "query_ref": "qr_c66fda1988304975aefc46adabd66e7e"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "d8514322-a6d4-4c7e-a4f7-3ec7860510f6",
+  "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "gcp_id": "basedosdados.br_bcb_sicor.operacao",
+  "name": "Operação",
+  "description": "A tabela de Operações contém os microdados das contratações de crédito de cada estado brasileiro. Nela, estão presentes principais informações (categoria de produtor; fonte de recursos; instituição credora; produto financiado e etc)\r\ndas mais de 23 milhôes de operações de crédito rural registradas n... (257 more characters)",
+  "columns": [
+    {
+      "name": "ano_emissao",
+      "type": "INT64",
+      "description": "Ano da emissão da operação",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano_safra_emissao",
+      "type": "STRING",
+      "description": "Ano safra de emissao da operação",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano_safra_vencimento",
+      "type": "STRING",
+      "description": "Ano safra de vencimento da operação",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano_vencimento",
+      "type": "INT64",
+      "description": "Ano de vencimento da operação",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "area_financiada",
+      "type": "FLOAT64",
+      "description": "Área financiada",
+      "unit": "ha",
+      "needs_decoding": false
+    },
+    {
+      "name": "area_informada",
+      "type": "FLOAT64",
+      "description": "Área do empreendimento informada",
+      "unit": "ha",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_emissao",
+      "type": "DATE",
+      "description": "Data de emissão da operação",
+      "unit": "day",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_fim_colheita",
+      "type": "DATE",
+      "description": "Data do fim de colheita",
+      "unit": "day",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_fim_plantio",
+      "type": "DATE",
+      "description": "Data do fim de plantio",
+      "unit": "day",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_inicio_colheita",
+      "type": "DATE",
+      "description": "Data do início de colheita",
+      "unit": "day",
+      "needs_decoding": false
+    },
+    "... (40 more items)"
+  ],
+  "partitioned_by": [
+    "ano_emissao",
+    "ano_safra_emissao",
+    "sigla_uf"
+  ],
+  "period_start": "2013-01",
+  "period_end": "2026-10"
+}

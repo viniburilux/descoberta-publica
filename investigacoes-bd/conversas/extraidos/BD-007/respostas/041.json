@@ -1,0 +1,67 @@
+{
+  "row_count": 39,
+  "rows": [
+    {
+      "ano": 1987,
+      "embargos": 1,
+      "com_documento": 1,
+      "com_municipio": 1
+    },
+    {
+      "ano": 1988,
+      "embargos": 2,
+      "com_documento": 2,
+      "com_municipio": 2
+    },
+    {
+      "ano": 1990,
+      "embargos": 5,
+      "com_documento": 5,
+      "com_municipio": 5
+    },
+    {
+      "ano": 1991,
+      "embargos": 5,
+      "com_documento": 5,
+      "com_municipio": 5
+    },
+    {
+      "ano": 1992,
+      "embargos": 5,
+      "com_documento": 4,
+      "com_municipio": 5
+    },
+    {
+      "ano": 1993,
+      "embargos": 6,
+      "com_documento": 6,
+      "com_municipio": 6
+    },
+    {
+      "ano": 1994,
+      "embargos": 10,
+      "com_documento": 10,
+      "com_municipio": 10
+    },
+    {
+      "ano": 1995,
+      "embargos": 36,
+      "com_documento": 35,
+      "com_municipio": 36
+    },
+    {
+      "ano": 1996,
+      "embargos": 70,
+      "com_documento": 66,
+      "com_municipio": 70
+    },
+    {
+      "ano": 1997,
+      "embargos": 56,
+      "com_documento": 52,
+      "com_municipio": 56
+    },
+    "... (29 more items)"
+  ],
+  "query_ref": "qr_7ed862e12db949d08c5d9085a12fe233"
+}

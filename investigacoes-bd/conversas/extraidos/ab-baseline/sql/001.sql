@@ -1,0 +1,1 @@
+SELECT nome_coluna, chave, valor FROM `basedosdados.br_bcb_sicor.dicionario` WHERE nome_coluna IN ('id_fonte_recurso','id_tipo_ciclo_cultivar','id_empreendimento','id_referencia_bacen_investimento') ORDER BY nome_coluna, chave

@@ -1,0 +1,72 @@
+[
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "1",
+    "valor": "Leilão - Eletrônico"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "10",
+    "valor": "Manifestação de Interesse"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "11",
+    "valor": "Pré-qualificação"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "12",
+    "valor": "Credenciamento"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "13",
+    "valor": "Leilão - Presencial"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "14",
+    "valor": "Inaplicabilidade da Licitação"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "2",
+    "valor": "Diálogo Competitivo"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "3",
+    "valor": "Concurso"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "4",
+    "valor": "Concorrência - Eletrônica"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "5",
+    "valor": "Concorrência - Presencial"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "6",
+    "valor": "Pregão - Eletrônico"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "7",
+    "valor": "Pregão - Presencial"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "8",
+    "valor": "Dispensa"
+  },
+  {
+    "nome_coluna": "id_modalidade",
+    "chave": "9",
+    "valor": "Inexigibilidade"
+  }
+]

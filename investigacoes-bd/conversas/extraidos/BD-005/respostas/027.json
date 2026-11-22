@@ -1,0 +1,78 @@
+{
+  "id": "9b07b4ba-f6c1-4df8-9c30-6ee92b8258a5",
+  "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+  "gcp_id": "basedosdados.br_tse_eleicoes.receitas_candidato",
+  "name": "Receitas por Candidato",
+  "description": "Dados de financiamento de campanha de receita para candidatos.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "needs_decoding": false
+    },
+    {
+      "name": "cargo",
+      "type": "STRING",
+      "description": "Cargo",
+      "needs_decoding": false
+    },
+    {
+      "name": "cargo_candidato_doador",
+      "type": "STRING",
+      "description": "Cargo do candidato doador",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_2_doador",
+      "type": "STRING",
+      "description": "Classificação Nacional de Atividades Econômicas 2.0 do doador",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_2_doador_classe",
+      "type": "STRING",
+      "description": "Classe da CNAE",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_2_doador_subclasse",
+      "type": "STRING",
+      "description": "Subclasse da Classificação de Atividades Econômicas (CNAE)",
+      "reference_table_id": "8a02c4e5-1718-41e7-8891-d0fa09265d58",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_candidato",
+      "type": "STRING",
+      "description": "CNPJ do candidato",
+      "reference_table_id": "b71e9a46-f98e-476b-a2d6-4444213a8ddc",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_prestador_contas",
+      "type": "STRING",
+      "description": "CNPJ do prestador de contas",
+      "reference_table_id": "b71e9a46-f98e-476b-a2d6-4444213a8ddc",
+      "needs_decoding": false
+    },
+    {
+      "name": "cpf_administrador",
+      "type": "STRING",
+      "description": "CPF do administrador",
+      "needs_decoding": false
+    },
+    {
+      "name": "cpf_cnpj_doador",
+      "type": "STRING",
+      "description": "CPF ou CNPJ do doador",
+      "needs_decoding": false
+    },
+    "... (45 more items)"
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "2002",
+  "period_end": "2026"
+}

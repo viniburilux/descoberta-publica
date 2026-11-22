@@ -1,0 +1,109 @@
+{
+  "row_count": 5392,
+  "rows": [
+    {
+      "id_municipio": "2928901",
+      "nome_municipio": "São Desidério",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 622569134.4799999,
+      "numero_operacoes": 346,
+      "ranking_valor": 1,
+      "total_conectado": 126664487892.02998,
+      "municipios_conectados": 5392
+    },
+    {
+      "id_municipio": "2911105",
+      "nome_municipio": "Formosa do Rio Preto",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 608774769.4050002,
+      "numero_operacoes": 307,
+      "ranking_valor": 2,
+      "total_conectado": 126664487892.02998,
+      "municipios_conectados": 5392
+    },
+    {
+      "id_municipio": "2201150",
+      "nome_municipio": "Baixa Grande do Ribeiro",
+      "sigla_uf": "PI",
+      "valor_financiado_rateado": 454559140.7950001,
+      "numero_operacoes": 378,
+      "ranking_valor": 3,
+      "total_conectado": 126664487892.02998,
+      "municipios_conectados": 5392
+    },
+    {
+      "id_municipio": "2917359",
+      "nome_municipio": "Jaborandi",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 432586031.72999984,
+      "numero_operacoes": 1177,
+      "ranking_valor": 4,
+      "total_conectado": 126664487892.02998,
+      "municipios_conectados": 5392
+    },
+    {
+      "id_municipio": "1100205",
+      "nome_municipio": "Porto Velho",
+      "sigla_uf": "RO",
+      "valor_financiado_rateado": 419375752.1788268,
+      "numero_operacoes": 2675,
+      "ranking_valor": 5,
+      "total_conectado": 126664487892.02998,
+      "municipios_conectados": 5392
+    },
+    {
+      "id_municipio": "5218805",
+      "nome_municipio": "Rio Verde",
+      "sigla_uf": "GO",
+      "valor_financiado_rateado": 402235557.78,
+      "numero_operacoes": 629,
+      "ranking_valor": 6,
+      "total_conectado": 126664487892.02998,
+      "municipios_conectados": 5392
+    },
+    {
+      "id_municipio": "2903201",
+      "nome_municipio": "Barreiras",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 381402353.51,
+      "numero_operacoes": 285,
+      "ranking_valor": 7,
+      "total_conectado": 126664487892.02998,
+      "municipios_conectados": 5392
+    },
+    {
+      "id_municipio": "5100201",
+      "nome_municipio": "Água Boa",
+      "sigla_uf": "MT",
+      "valor_financiado_rateado": 370386495.585,
+      "numero_operacoes": 269,
+      "ranking_valor": 8,
+      "total_conectado": 126664487892.02998,
+      "municipios_conectados": 5392
+    },
+    {
+      "id_municipio": "2909307",
+      "nome_municipio": "Correntina",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 342498621.50000006,
+      "numero_operacoes": 1666,
+      "ranking_valor": 9,
+      "total_conectado": 126664487892.02998,
+      "municipios_conectados": 5392
+    },
+    {
+      "id_municipio": "1505502",
+      "nome_municipio": "Paragominas",
+      "sigla_uf": "PA",
+      "valor_financiado_rateado": 327753084.0370951,
+      "numero_operacoes": 255,
+      "ranking_valor": 10,
+      "total_conectado": 126664487892.02998,
+      "municipios_conectados": 5392
+    },
+    "... (990 more items)"
+  ],
+  "truncated": true,
+  "truncation_note": "Only the first 1000 of 5392 rows are shown here to keep the context small. The full result can still be downloaded from the interface.",
+  "query_ref": "qr_589588551b9540ac9ae531a2879c526a"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "56d7381b-f525-4557-8cb3-3e863b3e81d9",
+  "name": "Eleições Nacionais",
+  "description": "O Banco de Dados de Eleições Nacionais fornece informações sobre os resultados das eleições presidenciais e parlamentares realizadas em todo o mundo desde 1789. A versão 2.0 do conjunto de dados abrange 6.309 eleições nacionais (1.409 eleições presidenciais e 4.900 eleições parlamentares) realizadas... (255 more characters)",
+  "organizations": [
+    "Harvard University"
+  ],
+  "tags": [
+    "congresso",
+    "eleições",
+    "sistema eleitoral",
+    "parlamento",
+    "partido político",
+    "presidência",
+    "voto"
+  ],
+  "themes": [
+    "Governo e Finanças Públicas",
+    "Política"
+  ],
+  "tables": [
+    {
+      "id": "806751f2-da5a-4b20-9152-7285b6f26f21",
+      "dataset_id": "56d7381b-f525-4557-8cb3-3e863b3e81d9",
+      "gcp_id": "basedosdados.us_harvard_ned.parliamentary_elections",
+      "name": "Eleições Parlamentares",
+      "description": "Cobertura eleitoral: 4.900 eleições. Os dados incluem todos os parlamentos unicamerais e a câmara baixa dos parlamentos bicamerais, tanto em sistemas presidencialistas quanto parlamentaristas.\r\n\r\nVariáveis ​​principais: Contagem de cadeiras e distribuição de cadeiras para todos os partidos, juntamen... (78 more characters)"
+    },
+    {
+      "id": "34d0bd78-523d-4aff-83fb-88e9ac1fedda",
+      "dataset_id": "56d7381b-f525-4557-8cb3-3e863b3e81d9",
+      "gcp_id": "basedosdados.us_harvard_ned.presidential_elections",
+      "name": "Eleições Presidenciais",
+      "description": "Cobertura: 1.409 eleições.\r\n\r\nVariáveis ​​principais: Número de votos e percentagens de votos para todos os candidatos, juntamente com informações sobre se a eleição foi marcada por um evento significativo."
+    }
+  ],
+  "usage_guide": null
+}

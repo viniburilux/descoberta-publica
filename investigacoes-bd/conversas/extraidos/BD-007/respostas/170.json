@@ -1,0 +1,60 @@
+{
+  "row_count": 6,
+  "rows": [
+    {
+      "id_municipio": "2900355",
+      "mutuarios": 353,
+      "mutuarios_com_varios_imoveis": 56,
+      "max_imoveis_por_mutuario": 4,
+      "imoveis_micro": 415,
+      "imoveis_com_varios_mutuarios": 8,
+      "max_mutuarios_por_imovel": 2
+    },
+    {
+      "id_municipio": "2909208",
+      "mutuarios": 245,
+      "mutuarios_com_varios_imoveis": 30,
+      "max_imoveis_por_mutuario": 5,
+      "imoveis_micro": 263,
+      "imoveis_com_varios_mutuarios": 16,
+      "max_mutuarios_por_imovel": 4
+    },
+    {
+      "id_municipio": "2918100",
+      "mutuarios": 457,
+      "mutuarios_com_varios_imoveis": 39,
+      "max_imoveis_por_mutuario": 6,
+      "imoveis_micro": 492,
+      "imoveis_com_varios_mutuarios": 18,
+      "max_mutuarios_por_imovel": 6
+    },
+    {
+      "id_municipio": "2926509",
+      "mutuarios": 84,
+      "mutuarios_com_varios_imoveis": 4,
+      "max_imoveis_por_mutuario": 3,
+      "imoveis_micro": 90,
+      "imoveis_com_varios_mutuarios": 1,
+      "max_mutuarios_por_imovel": 2
+    },
+    {
+      "id_municipio": "2929701",
+      "mutuarios": 128,
+      "mutuarios_com_varios_imoveis": 2,
+      "max_imoveis_por_mutuario": 2,
+      "imoveis_micro": 106,
+      "imoveis_com_varios_mutuarios": 10,
+      "max_mutuarios_por_imovel": 16
+    },
+    {
+      "id_municipio": "2930766",
+      "mutuarios": 217,
+      "mutuarios_com_varios_imoveis": 29,
+      "max_imoveis_por_mutuario": 3,
+      "imoveis_micro": 249,
+      "imoveis_com_varios_mutuarios": 0,
+      "max_mutuarios_por_imovel": 1
+    }
+  ],
+  "query_ref": "qr_1a85ebdd654d498bb82233785257f87c"
+}

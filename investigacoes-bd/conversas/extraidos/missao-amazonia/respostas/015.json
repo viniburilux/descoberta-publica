@@ -1,0 +1,59 @@
+{
+  "id": "81d89c04-120e-4b7d-aae0-41428f199811",
+  "name": "Portal Nacional de Contratações Públicas (PNCP)",
+  "description": "Contratações públicas divulgadas no Portal Nacional de Contratações Públicas (PNCP), instituído pela Lei 14.133/2021 para a divulgação centralizada e obrigatória dos atos de contratação de todos os entes federativos. Abrange os três níveis de governo — federal, estadual e municipal — com contrataçõe... (140 more characters)",
+  "organizations": [
+    "Ministério da Gestão e da Inovação em Serviços Públicos"
+  ],
+  "tags": [
+    "contrato",
+    "despesa",
+    "administração pública",
+    "finanças públicas",
+    "licitação",
+    "compra",
+    "transparência"
+  ],
+  "themes": [
+    "Economia",
+    "Governo e Finanças Públicas"
+  ],
+  "tables": [
+    {
+      "id": "60d2d4e4-60aa-405d-b47c-d58a6ca9960d",
+      "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811",
+      "gcp_id": "basedosdados.br_mgi_pncp.ata_registro_preco",
+      "name": "Ata de Registro de Preços",
+      "description": "Atas de registro de preços divulgadas no Portal Nacional de Contratações Públicas. Uma linha por ata, identificada pelo número de controle no PNCP."
+    },
+    {
+      "id": "700c7b32-3e05-4085-b3c3-917466bba7c9",
+      "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811",
+      "gcp_id": "basedosdados.br_mgi_pncp.contratacao",
+      "name": "Contratação",
+      "description": "Contratações públicas (licitações, dispensas e inexigibilidades) divulgadas no Portal Nacional de Contratações Públicas, abrangendo os três níveis de governo. Uma linha por contratação, identificada pelo número de controle no PNCP."
+    },
+    {
+      "id": "12e35a4c-829d-4ba8-86c2-8e983853d59a",
+      "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811",
+      "gcp_id": "basedosdados.br_mgi_pncp.contrato",
+      "name": "Contrato",
+      "description": "Contratos e empenhos decorrentes de contratações públicas divulgados no Portal Nacional de Contratações Públicas, abrangendo os três níveis de governo. Uma linha por contrato ou empenho; a coluna id_tipo_contrato distingue os dois."
+    },
+    {
+      "id": "6400b27e-fd3f-4dbb-82ad-c636faf39629",
+      "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811",
+      "gcp_id": "basedosdados.br_mgi_pncp.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário de valores codificados das demais tabelas do conjunto, com o significado de cada chave por tabela e coluna."
+    },
+    {
+      "id": "45efca02-8a15-4dbc-8cb3-da3ad7af73a9",
+      "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811",
+      "gcp_id": "basedosdados.br_mgi_pncp.instrumento_cobranca",
+      "name": "Instrumento de Cobrança",
+      "description": "Instrumentos de cobrança (notas fiscais e faturas) vinculados a contratos divulgados no Portal Nacional de Contratações Públicas. Uma linha por instrumento de cobrança dentro de um contrato."
+    }
+  ],
+  "usage_guide": null
+}

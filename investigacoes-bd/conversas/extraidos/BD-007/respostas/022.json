@@ -1,0 +1,107 @@
+{
+  "row_count": 15,
+  "rows": [
+    {
+      "id_municipio": "2928901",
+      "nome": "São Desidério",
+      "sigla_uf": "BA",
+      "operacoes": 296,
+      "imoveis": 292,
+      "credito": 622569134.4800001,
+      "area_financiada": 85886.76000000001,
+      "participacao": 0.004915105875506383
+    },
+    {
+      "id_municipio": "2911105",
+      "nome": "Formosa do Rio Preto",
+      "sigla_uf": "BA",
+      "operacoes": 274,
+      "imoveis": 328,
+      "credito": 608774769.4050001,
+      "area_financiada": 103262.882,
+      "participacao": 0.004806201079116753
+    },
+    {
+      "id_municipio": "2201150",
+      "nome": "Baixa Grande do Ribeiro",
+      "sigla_uf": "PI",
+      "operacoes": 238,
+      "imoveis": 165,
+      "credito": 454559140.79499996,
+      "area_financiada": 64519.556000000004,
+      "participacao": 0.003588687874082859
+    },
+    {
+      "id_municipio": "2917359",
+      "nome": "Jaborandi",
+      "sigla_uf": "BA",
+      "operacoes": 1075,
+      "imoveis": 675,
+      "credito": 432586031.72999996,
+      "area_financiada": 69825.11999999998,
+      "participacao": 0.0034152129112440237
+    },
+    {
+      "id_municipio": "1100205",
+      "nome": "Porto Velho",
+      "sigla_uf": "RO",
+      "operacoes": 2520,
+      "imoveis": 1921,
+      "credito": 419375752.17882687,
+      "area_financiada": 100799.57754978357,
+      "participacao": 0.0033109193974107604
+    },
+    {
+      "id_municipio": "5218805",
+      "nome": "Rio Verde",
+      "sigla_uf": "GO",
+      "operacoes": 564,
+      "imoveis": 450,
+      "credito": 402235557.77999985,
+      "area_financiada": 54279.659999999996,
+      "participacao": 0.0031755996946963585
+    },
+    {
+      "id_municipio": "2903201",
+      "nome": "Barreiras",
+      "sigla_uf": "BA",
+      "operacoes": 231,
+      "imoveis": 239,
+      "credito": 381402353.5099999,
+      "area_financiada": 42460.475142857154,
+      "participacao": 0.003011124138421586
+    },
+    {
+      "id_municipio": "5100201",
+      "nome": "Água Boa",
+      "sigla_uf": "MT",
+      "operacoes": 250,
+      "imoveis": 177,
+      "credito": 370386495.585,
+      "area_financiada": 30491.969999999998,
+      "participacao": 0.002924155310363423
+    },
+    {
+      "id_municipio": "2909307",
+      "nome": "Correntina",
+      "sigla_uf": "BA",
+      "operacoes": 1441,
+      "imoveis": 970,
+      "credito": 342498621.4999999,
+      "area_financiada": 50886.30999999998,
+      "participacao": 0.0027039840134277736
+    },
+    {
+      "id_municipio": "1505502",
+      "nome": "Paragominas",
+      "sigla_uf": "PA",
+      "operacoes": 210,
+      "imoveis": 129,
+      "credito": 327753084.0370953,
+      "area_financiada": 96950.9563333333,
+      "participacao": 0.002587569829351724
+    },
+    "... (5 more items)"
+  ],
+  "query_ref": "qr_bb2f5bc993ca47fbb29b87a92d89ed95"
+}

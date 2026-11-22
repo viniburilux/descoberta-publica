@@ -1,0 +1,187 @@
+[
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_AREA_AC",
+    "valor": "Área de Preservação Permanente em área consolidada"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_AREA_ALTITUDE_SUPERIOR_1800",
+    "valor": "Área de Preservação Permanente de áreas com altitude superior a 1.800 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_AREA_DECLIVIDADE_MAIOR_45",
+    "valor": "Área de Preservação Permanente de áreas com declividade superior a 45 graus"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_AREA_TOPO_MORRO",
+    "valor": "Área de Preservação Permanente de topo de morro"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_AREA_VN",
+    "valor": "Área de Preservação Permanente em área de vegetação nativa"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_BANHADO",
+    "valor": "Área de Preservação Permanente de banhado"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_BORDA_CHAPADA",
+    "valor": "Área de Preservação Permanente de borda de chapada"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_ESCADINHA",
+    "valor": "Área de Preservação Permanente a recompor segundo o art. 61-A da Lei nº 12.651/2012"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_ESCADINHA_LAGO_NATURAL",
+    "valor": "Área de Preservação Permanente a recompor de lagos e lagoas naturais"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_ESCADINHA_NASCENTE_OLHO_DAGUA",
+    "valor": "Área de Preservação Permanente a recompor de nascentes ou olhos d'água perenes"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_ESCADINHA_RIO_10_A_50",
+    "valor": "Área de Preservação Permanente a recompor de rios de 10 a 50 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_ESCADINHA_RIO_200_A_600",
+    "valor": "Área de Preservação Permanente a recompor de rios de 200 a 600 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_ESCADINHA_RIO_50_A_200",
+    "valor": "Área de Preservação Permanente a recompor de rios de 50 a 200 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_ESCADINHA_RIO_ACIMA_600",
+    "valor": "Área de Preservação Permanente a recompor de rios com mais de 600 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_ESCADINHA_RIO_ATE_10",
+    "valor": "Área de Preservação Permanente a recompor de rios de até 10 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_ESCADINHA_VEREDA",
+    "valor": "Área de Preservação Permanente a recompor de veredas"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_LAGO_NATURAL",
+    "valor": "Área de Preservação Permanente de lagos e lagoas naturais"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_MANGUEZAL",
+    "valor": "Área de Preservação Permanente de manguezais"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_NASCENTE_OLHO_DAGUA",
+    "valor": "Área de Preservação Permanente de nascentes ou olhos d'água perenes"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_RESERVATORIO_ARTIFICIAL_DECORRENTE_BARRAMENTO",
+    "valor": "Área de Preservação Permanente de reservatório artificial decorrente de barramento de cursos d'água"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_RESTINGA",
+    "valor": "Área de Preservação Permanente de restingas"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_RIO_10_A_50",
+    "valor": "Área de Preservação Permanente de rios de 10 a 50 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_RIO_200_A_600",
+    "valor": "Área de Preservação Permanente de rios de 200 a 600 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_RIO_50_A_200",
+    "valor": "Área de Preservação Permanente de rios de 50 a 200 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_RIO_ACIMA_600",
+    "valor": "Área de Preservação Permanente de rios com mais de 600 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_RIO_ATE_10",
+    "valor": "Área de Preservação Permanente de rios de até 10 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_TOTAL",
+    "valor": "Área de Preservação Permanente total"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_VAZIO",
+    "valor": "Área de Preservação Permanente em área antropizada não declarada como área consolidada"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "APP_VEREDA",
+    "valor": "Área de Preservação Permanente de veredas"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "AREA_ALTITUDE_SUPERIOR_1800",
+    "valor": "Área com altitude superior a 1.800 metros"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "AREA_DECLIVIDADE_MAIOR_45",
+    "valor": "Área de declividade maior que 45 graus"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "AREA_TOPO_MORRO",
+    "valor": "Área de topo de morro"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "BANHADO",
+    "valor": "Banhado"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "BORDA_CHAPADA",
+    "valor": "Borda de chapada"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "MANGUEZAL",
+    "valor": "Manguezal"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "RESTINGA",
+    "valor": "Restinga"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "VEREDA",
+    "valor": "Vereda"
+  }
+]

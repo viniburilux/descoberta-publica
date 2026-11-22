@@ -1,0 +1,76 @@
+{
+  "id": "4f99de2e-72bc-4597-9cde-1a2c1befedb5",
+  "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+  "gcp_id": "basedosdados.br_mgi_compras_publicas.contrato",
+  "name": "Contrato",
+  "description": "Contratos administrativos registrados no SIASG, de 2010 em diante. Uma linha por contrato, com vigência, fornecedor e valores. Uma unidade gestora reutiliza o número do contrato entre contratações, de modo que a chave inclui a compra de origem; cerca de 0,3% das chaves ainda se repetem com conteúdo ... (65 more characters)",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano de início da vigência do contrato",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "categoria",
+      "type": "STRING",
+      "description": "Categoria do contrato, como compras, serviços ou obras",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_categoria",
+      "type": "STRING",
+      "description": "Código da categoria do contrato",
+      "needs_decoding": true
+    },
+    {
+      "name": "codigo_modalidade_compra",
+      "type": "STRING",
+      "description": "Código da modalidade da contratação de origem",
+      "needs_decoding": true
+    },
+    {
+      "name": "codigo_orgao",
+      "type": "STRING",
+      "description": "Código do órgão contratante no SIASG",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_subcategoria",
+      "type": "STRING",
+      "description": "Código da subcategoria do contrato",
+      "needs_decoding": true
+    },
+    {
+      "name": "codigo_tipo",
+      "type": "STRING",
+      "description": "Código do tipo de contrato",
+      "needs_decoding": true
+    },
+    {
+      "name": "codigo_unidade_gestora",
+      "type": "STRING",
+      "description": "Código da unidade gestora do contrato",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_unidade_gestora_origem",
+      "type": "STRING",
+      "description": "Código da unidade gestora de origem do contrato",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_unidade_realizadora_compra",
+      "type": "STRING",
+      "description": "Código da unidade que realizou a contratação",
+      "needs_decoding": false
+    },
+    "... (29 more items)"
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "2019-07-22",
+  "period_end": "2026-09-04"
+}

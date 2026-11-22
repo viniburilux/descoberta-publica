@@ -1,0 +1,78 @@
+{
+  "id": "3a71c300-11ce-404f-8c79-242a2c855f94",
+  "dataset_id": "37807a93-219d-45d6-b2ae-5f3f2746a035",
+  "gcp_id": "basedosdados.br_rf_cafir.imoveis_rurais",
+  "name": "Cadastro de Imóveis Rurais",
+  "description": "É o cadastro de imóveis rurais, administrado pela Secretaria Especial da Receita Federal do Brasil (RFB), do qual constarão as informações relativas ao imóvel rural, seu titular e, se for o caso, seus condôminos e compossuidores.",
+  "columns": [
+    {
+      "name": "area",
+      "type": "FLOAT64",
+      "description": "Área do imóvel",
+      "unit": "km2",
+      "needs_decoding": false
+    },
+    {
+      "name": "cep",
+      "type": "STRING",
+      "description": "CEP",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_inscricao",
+      "type": "DATE",
+      "description": "Data de inscrição do imóvel no cadastro de imóveis rurais da Receita Federal (RF)",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_modificacao",
+      "type": "DATE",
+      "description": "Data de divulgação/modificação dos dados pela Receita Federal (RF)",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_referencia",
+      "type": "DATE",
+      "description": "Data da competência dos dados da Receita Federal (RF)",
+      "needs_decoding": false
+    },
+    {
+      "name": "distrito",
+      "type": "STRING",
+      "description": "Distrito do imóvel",
+      "needs_decoding": false
+    },
+    {
+      "name": "endereco",
+      "type": "STRING",
+      "description": "Endereço",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_imovel_incra",
+      "type": "STRING",
+      "description": "Identificador do imóvel do Instituto Nacional da Colonização e Reforma Agrária (INCRA)",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_imovel_receita_federal",
+      "type": "STRING",
+      "description": "Identificador do imóvel rural da RF",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    "... (5 more items)"
+  ],
+  "partitioned_by": [
+    "data_referencia",
+    "sigla_uf"
+  ],
+  "period_start": "2023-04-05",
+  "period_end": "2026-11-01"
+}

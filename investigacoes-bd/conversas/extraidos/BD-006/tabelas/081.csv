@@ -1,0 +1,5 @@
+transformacao,registros_sicor,registros_correspondentes,ids_correspondentes,cobertura_registros
+literal,1839880,0,0,0.0
+remove_hifens,1839880,389263,159159,0.21156977628975804
+remove_nao_alfanumericos,1839880,389263,159159,0.21156977628975804
+trim_upper,1839880,0,0,0.0

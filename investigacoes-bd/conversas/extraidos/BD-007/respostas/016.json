@@ -1,0 +1,13 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "ano_emissao": 2023,
+      "linhas": 2057511,
+      "com_car": 2028517,
+      "refs": 1338648,
+      "chaves": 1658048
+    }
+  ],
+  "query_ref": "qr_ee0deebed1024a348ae828a3b90429c2"
+}

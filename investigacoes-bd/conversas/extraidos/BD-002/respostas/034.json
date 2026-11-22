@@ -1,0 +1,68 @@
+{
+  "id": "821b85cd-1256-47f8-8db2-d5dddf1d0638",
+  "name": "Censo de Governos (CoG)",
+  "description": "O Censo de Governos mede a estrutura, o emprego e as finanças de todos os governos estaduais e locais dos Estados Unidos. O conjunto reúne os três componentes do programa: a lista de unidades de governo dos levantamentos de 1997 a 2025, o emprego e a folha de pagamento por categoria funcional de 199... (205 more characters)",
+  "organizations": [
+    "U.S. Census Bureau"
+  ],
+  "tags": [
+    "dívida",
+    "emprego",
+    "despesa",
+    "administração pública",
+    "finanças públicas",
+    "servidor",
+    "receita",
+    "salário",
+    "tributo"
+  ],
+  "themes": [
+    "Governo e Finanças Públicas",
+    "Organização Territorial"
+  ],
+  "tables": [
+    {
+      "id": "ba96edff-3b37-4cdd-832d-3d0e9dd53f6f",
+      "dataset_id": "821b85cd-1256-47f8-8db2-d5dddf1d0638",
+      "gcp_id": "basedosdados.us_census_cog.dicionario",
+      "name": "Dicionário",
+      "description": "Correspondência entre os valores codificados das colunas categóricas do conjunto e sua descrição, cobrindo tipo de governo, categoria funcional do emprego, item financeiro, marcadores de qualidade, nível de ensino e região censitária. Alguns códigos aparecem nos dados mas em nenhuma lista que o Cens... (102 more characters)"
+    },
+    {
+      "id": "52a2b07b-2f39-4567-8623-69e928c10dab",
+      "dataset_id": "821b85cd-1256-47f8-8db2-d5dddf1d0638",
+      "gcp_id": "basedosdados.us_census_cog.employment",
+      "name": "Emprego e folha de pagamento",
+      "description": "Uma linha por unidade de governo e categoria funcional no levantamento anual de emprego e folha de pagamento do setor público. Emprego e folha referem-se ao mês de março, e a folha é o equivalente mensal de 31 dias. Os anos de 1992, 1997, 2002, 2007, 2012, 2017 e 2022 são censos e cobrem todas as un... (245 more characters)"
+    },
+    {
+      "id": "a0e0c2ce-067f-482f-8bbf-c4da9d3a437c",
+      "dataset_id": "821b85cd-1256-47f8-8db2-d5dddf1d0638",
+      "gcp_id": "basedosdados.us_census_cog.employment_unit",
+      "name": "Unidades do levantamento de emprego",
+      "description": "Uma linha por unidade de governo pesquisada em cada ano do levantamento anual de emprego e folha de pagamento do setor público, com nome, localização, nível de ensino e probabilidade de seleção na amostra. Complementa a tabela employment, que traz os valores por categoria funcional. Exceção: o diret... (47 more characters)"
+    },
+    {
+      "id": "88d58d38-efd0-4a2d-b04f-da4e8d4b6eee",
+      "dataset_id": "821b85cd-1256-47f8-8db2-d5dddf1d0638",
+      "gcp_id": "basedosdados.us_census_cog.finance",
+      "name": "Finanças",
+      "description": "Uma linha por unidade de governo e item financeiro nas finanças de governos estaduais e locais, cobrindo receita, despesa, dívida e ativos. Os exercícios até 2012 vêm de um arquivo histórico publicado com uma linha por governo e 529 colunas, aqui transposto para uma linha por item; de 2013 em diante... (333 more characters)"
+    },
+    {
+      "id": "1e857bad-3ed5-4dfb-8211-f5316ec5df1c",
+      "dataset_id": "821b85cd-1256-47f8-8db2-d5dddf1d0638",
+      "gcp_id": "basedosdados.us_census_cog.finance_unit",
+      "name": "Unidades do levantamento de finanças",
+      "description": "Uma linha por unidade de governo em cada exercício fiscal das finanças de governos estaduais e locais, com nome, localização, população, fim do exercício e peso amostral. Complementa a tabela finance, que traz os valores por item financeiro."
+    },
+    {
+      "id": "20e0aab8-3d57-4cc1-a46d-cd6c0665fa1d",
+      "dataset_id": "821b85cd-1256-47f8-8db2-d5dddf1d0638",
+      "gcp_id": "basedosdados.us_census_cog.government_unit",
+      "name": "Unidades de governo",
+      "description": "Uma linha por unidade de governo listada em cada levantamento de unidades de governo, com nome, tipo, endereço, população ou matrícula e localização. Os anos de 2002 e 2007 são publicados em um formato por tipo de governo incompatível com os demais e ficaram de fora. A coluna unit_category separa os... (254 more characters)"
+    }
+  ],
+  "usage_guide": null
+}

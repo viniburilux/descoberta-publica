@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "403 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Access Denied: Table basedosados:br_sfb_sicar.area_imovel: User does not have permission to query table basedosados:br_sfb_sicar.area_imovel, or perhaps it does not exist.\n\nLocation: None\nJob ID: 8a669... (32 more characters)"
+}

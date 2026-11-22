@@ -1,0 +1,15 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "imoveis": 797183,
+      "municipios": 5380,
+      "valor_total": 112125325594.2197,
+      "imoveis_area_maior_100": 76720,
+      "valor_area_maior_100": 18299202226.50192,
+      "micros_menor_1ha": 46343,
+      "valor_micros": 1109742199.6967387
+    }
+  ],
+  "query_ref": "qr_372bc61e97bd4e9691772dec9ba07cb8"
+}

@@ -1,0 +1,1 @@
+SELECT COUNT(*) n FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao=DATE '2026-08-04'

@@ -1,0 +1,47 @@
+{
+  "row_count": 35,
+  "rows": [
+    {
+      "ano": 1991,
+      "populacao": 27307
+    },
+    {
+      "ano": 1992,
+      "populacao": 27727
+    },
+    {
+      "ano": 1993,
+      "populacao": 28083
+    },
+    {
+      "ano": 1994,
+      "populacao": 28435
+    },
+    {
+      "ano": 1995,
+      "populacao": 28779
+    },
+    {
+      "ano": 1996,
+      "populacao": 30651
+    },
+    {
+      "ano": 1997,
+      "populacao": 31718
+    },
+    {
+      "ano": 1998,
+      "populacao": 32617
+    },
+    {
+      "ano": 1999,
+      "populacao": 33517
+    },
+    {
+      "ano": 2000,
+      "populacao": 32400
+    },
+    "... (25 more items)"
+  ],
+  "query_ref": "qr_1266079c6e224961ad2a12f7fbf22688"
+}

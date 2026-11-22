@@ -1,0 +1,56 @@
+{
+  "id": "f7df4160-7a6f-4658-a287-3a73d412ed10",
+  "name": "Pesquisa Pecuária Municipal (PPM)",
+  "description": "A Pesquisa da Pecuária Municipal fornece informações sobre os efetivos da pecuária existentes no município na data de referência do levantamento, bem como a produção de origem animal, e o valor da produção durante o ano de referência. Os efetivos incluem bovinos, suínos, matrizes de suínos, galináce... (358 more characters)",
+  "organizations": [
+    "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+  ],
+  "tags": [
+    "produtividade agrícola",
+    "agropecuária",
+    "animal",
+    "produção aquicultura",
+    "desmatamento",
+    "gestão ambiental",
+    "fazenda",
+    "peixe",
+    "alimento",
+    "alimentação",
+    "... (14 more items)"
+  ],
+  "themes": [
+    "Agropecuária",
+    "Economia"
+  ],
+  "tables": [
+    {
+      "id": "707b3dee-88a2-424d-a790-7216eb431c78",
+      "dataset_id": "f7df4160-7a6f-4658-a287-3a73d412ed10",
+      "gcp_id": "basedosdados.br_ibge_ppm.efetivo_rebanhos",
+      "name": "Efetivo dos Rebanhos",
+      "description": "Efetivo dos rebanhos (cabeça), por tipo de rebanho."
+    },
+    {
+      "id": "ff7d91a7-4482-4097-8b73-82d02f17a8c0",
+      "dataset_id": "f7df4160-7a6f-4658-a287-3a73d412ed10",
+      "gcp_id": "basedosdados.br_ibge_ppm.producao_aquicultura",
+      "name": "Produção da Aquicultura",
+      "description": "Produção da aquicultura, de acordo com a quantidade produzida em quilogramas, e valor da produção em mil reais e percentual."
+    },
+    {
+      "id": "2fb07fc5-da2c-4b0c-a6fe-8f7ba318bd82",
+      "dataset_id": "f7df4160-7a6f-4658-a287-3a73d412ed10",
+      "gcp_id": "basedosdados.br_ibge_ppm.producao_origem_animal",
+      "name": "Produção de Origem Animal",
+      "description": "Produção de origem animal, por tipo de produto, valor da produção e valor percentual."
+    },
+    {
+      "id": "5ad2de3e-ab0c-48cf-ab5b-6a90bc61b05c",
+      "dataset_id": "f7df4160-7a6f-4658-a287-3a73d412ed10",
+      "gcp_id": "basedosdados.br_ibge_ppm.producao_pecuaria",
+      "name": "Produção da Pecuária",
+      "description": "Dados de pecuária contendo o número de vacas ordenhadas e ovinos tosquiados."
+    }
+  ],
+  "usage_guide": null
+}

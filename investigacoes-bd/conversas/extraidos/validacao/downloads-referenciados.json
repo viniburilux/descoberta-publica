@@ -1,0 +1,57 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_a98d50fbca4b42f098e1cea8a1c19fe2",
+    "slug": "validacao_interoperabilidade_prodes_mapbiomas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_254f1cba82c64e80a5025f16808a756e",
+    "slug": "validacao_rais_cnae_2023",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_944d51b839eb4cf29158105df146df19",
+    "slug": "validacao_embargos_autos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_fe80786656034c5bbb8129f8dbad1337",
+    "slug": "validacao_sicor_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5e759c0c83ee4cb4aca1c733e58fc006",
+    "slug": "snapshots_sicar_area_imovel",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

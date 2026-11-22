@@ -1,0 +1,12 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "numericos": 15222,
+      "nao_numericos": 41218,
+      "min_tamanho": 7,
+      "max_tamanho": 14
+    }
+  ],
+  "query_ref": "qr_750977e7cc1247979f8b10f942cbe2a8"
+}

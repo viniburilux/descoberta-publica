@@ -1,0 +1,45 @@
+[
+  {
+    "id": "544c9d22-97b7-479a-8eca-94762840b465",
+    "name": "Microdados do Sistema de Operações do Crédito Rural e do Proagro (Sicor)",
+    "description": "Este conjunto de dados consolida as informações do SICOR (Sistema de Operações do Crédito Rural e do Proagro), registrando o ciclo completo das operações de crédito rural no Brasil, desde a contratação até o saldo devedor e a espacialização das áreas financiadas.\r\n\r\n  O conjunto possui diversas tabelas de microdados, organizadas por eixos temáticos:\r\n\r\n   * Operação: Cada linha representa uma operação de crédito rural e seus atributos cadastrais (valores contratados, finalidade, programa, etc.).\r\n   * Saldo: Cada linha representa o saldo devedor mensal de uma operação, permitindo o acompanhamento da evolução da dívida ao longo do tempo.\r\n   * Liberação: Cada linha registra um evento de desembolso (repasse financeiro) associado a uma operação contratada.\r\n   * Recurso Público (Mutuário, Cooperado e Propriedade): Tabelas que detalham os beneficiários (pessoas físicas ou jurídicas), membros de cooperativas e as propriedades rurais envolvidas em operações que utilizam subsídios ou fontes de recurso públicas.\r\n   * Gleba: Cada linha contém a delimitação geográfica (polígonos e coordenadas) das áreas onde o recurso do crédito rural é aplicado.\r\n\r\n\r\n  A tabela que relaciona todas as demais é a microdados_operacao. O vínculo entre as tabelas é realizado através da combinação das colunas id_referencia_bacen e numero_ordem. Uma única operação registrada na tabela mestre pode possuir múltiplos registros de saldo mensais, diversas parcelas de liberação e diferentes glebas ou beneficiários associados.\r\n\r\n\r\n  Diferente de bases estáticas, o SICOR é atualizado mensalmente pelas instituições  financeiras. Para garantir a consistência temporal e o permissionamento dos dados, as tabelas utilizam as colunas ano_emissao e mes_emissao como chaves de particionamento e filtro principal.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "agropecuária",
+      "crédito",
+      "gestão ambiental",
+      "uso da terra",
+      "rural"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "14bd1457-ffd4-4808-bf27-8795eee051f2",
+    "name": "Relatórios Regulatórios Bancários (Call Report, FR Y-9C e CRA)",
+    "description": "Os relatórios regulatórios completos do sistema bancário dos Estados Unidos: os anexos trimestrais do Call Report de todos os bancos (2009-2026), as demonstrações consolidadas FR Y-9C das holdings bancárias (1986-2026) e a divulgação anual de crédito a pequenas empresas e pequenos produtores rurais do Community Reinvestment Act (1996-2024). Aprofunda o núcleo de finanças em vez de duplicá-lo: us_fdic_bankfind traz o resumo curado da FDIC, este conjunto traz os anexos regulatórios completos que estão por baixo dele, e o arquivo do CRA por setor censitário é a contrapartida de crédito a pequenas empresas dos dados hipotecários de us_cfpb_hmda. Todos os itens são identificados pelo código do MDRM, o dicionário oficial do Federal Reserve, que acompanha o conjunto como tabela própria. O identificador RSSD é a chave de junção entre todas as tabelas deste conjunto; a ponte para us_fdic_bankfind é a coluna institution.fdic_cert_id, que carrega o certificado da FDIC.",
+    "organizations": [
+      "Conselho Federal de Exame de Instituições Financeiras (FFIEC)"
+    ],
+    "tags": [
+      "balanço patrimonial",
+      "banco",
+      "supervisão bancária",
+      "crédito",
+      "depósito",
+      "instituição financeira",
+      "empréstimo",
+      "relatório regulatório",
+      "pequena empresa"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

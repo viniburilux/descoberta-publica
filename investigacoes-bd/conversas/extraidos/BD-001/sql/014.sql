@@ -1,0 +1,13 @@
+WITH b AS (
+ SELECT c.ano,c.valor_total_estimado,c.valor_total_homologado,
+ LOWER(REGEXP_REPLACE(COALESCE(c.objeto_compra,''),r'mata de são joão|mata de sao joao','')) texto
+ FROM `basedosdados.br_mgi_pncp.contratacao` c JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m ON c.id_municipio=m.id_municipio
+ WHERE c.ano BETWEEN 2021 AND 2026 AND m.sigla_uf='BA'
+), f AS (
+ SELECT *,CASE WHEN REGEXP_CONTAINS(texto,r'\bcarnaval\b|\bsão joão\b|\bsao joao\b|\bfesta junina\b|\bfestas juninas\b|\bfestividade|\bfestejo|\bfesta popular|\bfestas populares|\bfestas tradicionais|\bcomemoração de .*?(festa|evento|aniversário|aniversario)|\bcomemoracao de .*?(festa|evento|aniversario)|\barr[aá]i[aá]\b|\br[eé]veillon\b') THEN 'Festas populares e comemorações'
+ WHEN REGEXP_CONTAINS(texto,r'\bartista\b|\bartistas\b|\bcantor\b|\bcantora\b|\bbanda\b|\bm[uú]sico\b|\bm[uú]sica\b|\bdupla\b|\bdj\b|\bservi[cç]o[s]? art[ií]stico|\bapresenta[cç][aã]o musical\b|\batra[cç][aã]o musical\b') THEN 'Artistas, bandas e músicos'
+ WHEN REGEXP_CONTAINS(texto,r'\bshow\b|\bshows\b|\bespet[aá]culo\b|\bfestival\b|\bprodu[cç][aã]o de evento\b|\borganiza[cç][aã]o de evento\b|\brealiza[cç][aã]o de evento\b|\bevento cultural\b|\bevento festivo\b') THEN 'Shows, festivais e produção de eventos'
+ WHEN REGEXP_CONTAINS(texto,r'\bpalco\b|\bsonoriza[cç][aã]o\b|\bsom para (evento|festa|show)\b|\bilumina[cç][aã]o c[eé]nica\b|\btenda[s]?\b|\btoldos?\b|\btrio el[eé]trico\b|\bbanheiro[s]? qu[ií]mico[s]?\b|\bgerador para (evento|festa|show)\b|\bestrutura (para|de) (evento|festa|show)\b|\bloc[aç][aã]o de estrutura') AND REGEXP_CONTAINS(texto,r'evento|festa|show|festival|carnaval|s[aã]o jo[aã]o|festiv') THEN 'Estrutura e apoio para eventos' END categoria
+ FROM b
+), a AS (SELECT ano,categoria,COUNT(*) qtd,COUNTIF(valor_total_homologado IS NOT NULL) qtd_h,SUM(valor_total_homologado) val_h,SUM(valor_total_estimado) val_e FROM f WHERE categoria IS NOT NULL GROUP BY ano,categoria), c AS (SELECT categoria,COUNT(*) qtd,COUNTIF(valor_total_homologado IS NOT NULL) qtd_h,SUM(valor_total_homologado) val_h,SUM(valor_total_estimado) val_e FROM f WHERE categoria IS NOT NULL GROUP BY categoria), t AS (SELECT COUNT(*) qtd,COUNTIF(valor_total_homologado IS NOT NULL) qtd_h,SUM(valor_total_homologado) val_h,SUM(valor_total_estimado) val_e FROM f WHERE categoria IS NOT NULL)
+SELECT 'total' tipo,CAST(NULL AS STRING) ano,categoria,qtd,qtd_h,val_h,val_e FROM t CROSS JOIN (SELECT CAST(NULL AS STRING) categoria) UNION ALL SELECT 'ano',CAST(ano AS STRING),categoria,qtd,qtd_h,val_h,val_e FROM a UNION ALL SELECT 'categoria',CAST(NULL AS STRING),categoria,qtd,qtd_h,val_h,val_e FROM c

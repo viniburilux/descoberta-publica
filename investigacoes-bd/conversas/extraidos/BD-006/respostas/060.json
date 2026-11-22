@@ -1,0 +1,87 @@
+{
+  "row_count": 23,
+  "rows": [
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "autos_com_embargo",
+      "valor": "94489",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "autos_id_nulo",
+      "valor": "6651",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "autos_ids_distintos",
+      "valor": "704489",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "autos_ids_duplicados",
+      "valor": "0",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "autos_registros",
+      "valor": "711140",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "embargos_com_auto",
+      "valor": "96293",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "embargos_id_nulo",
+      "valor": "19979",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "embargos_ids_distintos",
+      "valor": "94546",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "embargos_ids_duplicados",
+      "valor": "1610",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "embargos_registros",
+      "valor": "116332",
+      "id_1": null,
+      "id_2": null
+    },
+    "... (13 more items)"
+  ],
+  "query_ref": "qr_e2ea1b70288e467f8369d9d8ad8aedc0"
+}

@@ -1,0 +1,97 @@
+{
+  "row_count": 44,
+  "rows": [
+    {
+      "id_imovel": "BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968",
+      "tabela": "app",
+      "data_extracao": null,
+      "tipo_codigo": null,
+      "tipo": null,
+      "area_ha": 0.0,
+      "tem_poligono": false
+    },
+    {
+      "id_imovel": "BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "tipo_codigo": "ARL_PROPOSTA",
+      "tipo": "Reserva Legal proposta",
+      "area_ha": 0.0001,
+      "tem_poligono": true
+    },
+    {
+      "id_imovel": "BA-2902005-876B8A8CE62D40119A8446C4262A5AC7",
+      "tabela": "app",
+      "data_extracao": null,
+      "tipo_codigo": null,
+      "tipo": null,
+      "area_ha": 0.0,
+      "tem_poligono": false
+    },
+    {
+      "id_imovel": "BA-2902005-876B8A8CE62D40119A8446C4262A5AC7",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "tipo_codigo": "ARL_PROPOSTA",
+      "tipo": "Reserva Legal proposta",
+      "area_ha": 0.0001,
+      "tem_poligono": true
+    },
+    {
+      "id_imovel": "BA-2913705-C31099AB04E24F15B9941AAAF17DC244",
+      "tabela": "app",
+      "data_extracao": null,
+      "tipo_codigo": null,
+      "tipo": null,
+      "area_ha": 0.0,
+      "tem_poligono": false
+    },
+    {
+      "id_imovel": "BA-2913705-C31099AB04E24F15B9941AAAF17DC244",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "tipo_codigo": "ARL_PROPOSTA",
+      "tipo": "Reserva Legal proposta",
+      "area_ha": 0.0001,
+      "tem_poligono": true
+    },
+    {
+      "id_imovel": "BA-2916500-9222A7C0C77E4E019B498875C6578189",
+      "tabela": "app",
+      "data_extracao": null,
+      "tipo_codigo": null,
+      "tipo": null,
+      "area_ha": 0.0,
+      "tem_poligono": false
+    },
+    {
+      "id_imovel": "BA-2916500-9222A7C0C77E4E019B498875C6578189",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "tipo_codigo": "ARL_PROPOSTA",
+      "tipo": "Reserva Legal proposta",
+      "area_ha": 0.0001,
+      "tem_poligono": true
+    },
+    {
+      "id_imovel": "BA-2921401-9177991E4861442EACFE3ACDDC06DB91",
+      "tabela": "app",
+      "data_extracao": null,
+      "tipo_codigo": null,
+      "tipo": null,
+      "area_ha": 0.0,
+      "tem_poligono": false
+    },
+    {
+      "id_imovel": "BA-2921401-9177991E4861442EACFE3ACDDC06DB91",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "tipo_codigo": "ARL_PROPOSTA",
+      "tipo": "Reserva Legal proposta",
+      "area_ha": 0.0001,
+      "tem_poligono": true
+    },
+    "... (34 more items)"
+  ],
+  "query_ref": "qr_0f550ef6ff9c4d1ea4ac15d8518e2ad6"
+}

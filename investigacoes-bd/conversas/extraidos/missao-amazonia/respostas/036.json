@@ -1,0 +1,67 @@
+{
+  "row_count": 69,
+  "rows": [
+    {
+      "cnae_2_subclasse": "4930202",
+      "descricao_subclasse": "Transporte rodoviário de carga, exceto produtos perigosos e mudanças, intermunicipal, interestadual e internacional",
+      "estabelecimentos": 2348,
+      "vinculos_ativos": 15129
+    },
+    {
+      "cnae_2_subclasse": "4930201",
+      "descricao_subclasse": "Transporte rodoviário de carga, exceto produtos perigosos e mudanças, municipal",
+      "estabelecimentos": 816,
+      "vinculos_ativos": 2919
+    },
+    {
+      "cnae_2_subclasse": "4924800",
+      "descricao_subclasse": "Transporte escolar",
+      "estabelecimentos": 306,
+      "vinculos_ativos": 570
+    },
+    {
+      "cnae_2_subclasse": "4687703",
+      "descricao_subclasse": "Comércio atacadista de resíduos e sucatas metálicos",
+      "estabelecimentos": 245,
+      "vinculos_ativos": 460
+    },
+    {
+      "cnae_2_subclasse": "4929902",
+      "descricao_subclasse": "Transporte rodoviário coletivo de passageiros, sob regime de fretamento, intermunicipal, interestadual e internacional",
+      "estabelecimentos": 228,
+      "vinculos_ativos": 878
+    },
+    {
+      "cnae_2_subclasse": "5022002",
+      "descricao_subclasse": "Transporte por navegação interior de passageiros em linhas regulares, intermunicipal, interestadual e internacional, exceto travessia",
+      "estabelecimentos": 218,
+      "vinculos_ativos": 1026
+    },
+    {
+      "cnae_2_subclasse": "5021102",
+      "descricao_subclasse": "Transporte por navegação interior de carga, intermunicipal, interestadual e internacional, exceto travessia",
+      "estabelecimentos": 208,
+      "vinculos_ativos": 3288
+    },
+    {
+      "cnae_2_subclasse": "7719599",
+      "descricao_subclasse": "Locação de outros meios de transporte não especificados anteriormente, sem condutor",
+      "estabelecimentos": 203,
+      "vinculos_ativos": 617
+    },
+    {
+      "cnae_2_subclasse": "4921301",
+      "descricao_subclasse": "Transporte rodoviário coletivo de passageiros, com itinerário fixo, municipal",
+      "estabelecimentos": 185,
+      "vinculos_ativos": 6562
+    },
+    {
+      "cnae_2_subclasse": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "estabelecimentos": 183,
+      "vinculos_ativos": 2949
+    },
+    "... (59 more items)"
+  ],
+  "query_ref": "qr_9e6a179ab8b1483587d6aa8882a8a7d9"
+}

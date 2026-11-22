@@ -1,0 +1,97 @@
+{
+  "row_count": 150,
+  "rows": [
+    {
+      "id_municipio": "2900355",
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "finalidade": "Custeio",
+      "produto": "MILHO",
+      "operacoes": 583,
+      "imoveis": 276,
+      "credito": 23916003.40988492
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "finalidade": "Investimento",
+      "produto": "BOVINOS",
+      "operacoes": 117,
+      "imoveis": 81,
+      "credito": 3268025.0
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "MODERFROTA - PROGRAMA DE MODERNIZAÇÃO DA FROTA DE TRATORES AGRÍCOLAS E IMPL ASSOC E COLHEITADEIRAS",
+      "finalidade": "Investimento",
+      "produto": "COLHEITADEIRAS, COLHEDEIRAS E ARRANCADEIRAS",
+      "operacoes": 3,
+      "imoveis": 3,
+      "credito": 2402383.05
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "finalidade": "Investimento",
+      "produto": "MÁQUINAS E IMPLEMENTOS",
+      "operacoes": 32,
+      "imoveis": 26,
+      "credito": 1696396.6500000001
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "finalidade": "Investimento",
+      "produto": "TRATOR",
+      "operacoes": 9,
+      "imoveis": 11,
+      "credito": 1532678.165
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "finalidade": "Investimento",
+      "produto": "ARMAZÉM, DEPÓSITO, SILO, GALPÃO, PAIOL, ESTUFA E INSTALAÇÕES CONGÊNERES",
+      "operacoes": 15,
+      "imoveis": 15,
+      "credito": 1442910.56
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "PRONAMP - PROGRAMA NACIONAL DE APOIO AO MÉDIO PRODUTOR RURAL",
+      "finalidade": "Custeio",
+      "produto": "MILHO",
+      "operacoes": 14,
+      "imoveis": 10,
+      "credito": 1227155.2336111113
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "finalidade": "Custeio",
+      "produto": "BOVINOS",
+      "operacoes": 34,
+      "imoveis": 21,
+      "credito": 1219407.0833333333
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "finalidade": "Investimento",
+      "produto": "OVINOS",
+      "operacoes": 101,
+      "imoveis": 65,
+      "credito": 583767.0
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "finalidade": "Custeio",
+      "produto": "FEIJÃO",
+      "operacoes": 36,
+      "imoveis": 38,
+      "credito": 457567.76166666666
+    },
+    "... (140 more items)"
+  ],
+  "query_ref": "qr_88b7d1731ee64fe486256d53ed60cb39"
+}

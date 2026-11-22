@@ -1,0 +1,1 @@
+SELECT e.finalidade, COUNT(*) AS n FROM `basedosdados.br_bcb_sicor.operacao` o JOIN `basedosdados.br_bcb_sicor.empreendimento` e USING (id_empreendimento) WHERE o.ano_emissao = 2022 GROUP BY e.finalidade ORDER BY n DESC

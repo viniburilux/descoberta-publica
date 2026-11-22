@@ -1,0 +1,67 @@
+{
+  "id": "298e1bb5-bc73-456d-90ac-066114333b1d",
+  "dataset_id": "9295564a-ca3d-42d6-9a71-fe5f4c1a0182",
+  "gcp_id": "basedosdados.br_fnde_fundeb.indicador_municipal",
+  "name": "Indicadores municipais",
+  "description": "Indicadores legais e educacionais dos municípios, calculados pelo FNDE a partir das declarações bimestrais no SIOPE. Uma linha por município, bimestre e indicador. O código do indicador designa indicadores diferentes nesta tabela e na estadual, então só pode ser interpretado com o dicionário desta t... (6 more characters)",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano do exercício financeiro declarado",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "bimestre",
+      "type": "INT64",
+      "description": "Bimestre do exercício a que se refere a declaração, de 1 a 6",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_indicador",
+      "type": "STRING",
+      "description": "Código de exibição do indicador, no formato grupo.item",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_indicador",
+      "type": "STRING",
+      "description": "Código do indicador no SIOPE",
+      "needs_decoding": true
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "Código IBGE de 7 dígitos do município declarante",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da unidade federativa do ente declarante",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor_percentual",
+      "type": "FLOAT64",
+      "description": "Valor do indicador, quando expresso em percentual",
+      "unit": "percent",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor_real",
+      "type": "FLOAT64",
+      "description": "Valor do indicador, quando expresso em reais",
+      "unit": "BRL",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "2021-01",
+  "period_end": "2026-08"
+}

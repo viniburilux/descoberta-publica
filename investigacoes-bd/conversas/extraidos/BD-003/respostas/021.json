@@ -1,0 +1,110 @@
+[
+  {
+    "id": "f51134c2-5ab9-4bbc-882f-f1034603147a",
+    "name": "Sistema de Informação de Agravos de Notificação (SINAN)",
+    "description": "O Sistema de Informação de Agravos de Notificação (SINAN) tem como objetivo coletar, transmitir e disseminar dados gerados rotineiramente pelo Sistema de Vigilância Epidemiológica das três esferas de governo, através de uma rede informatizada, para apoiar o processo de investigação e dar subsídios à análise das informações de vigilância epidemiológica das doenças e agravos de notificação compulsória.\r\n\r\nO sistema foi desenvolvido pelo Departamento de Informática do SUS (DATASUS) para ser operacionalizado da Unidade de Saúde até a Secretaria Estadual de Saúde, porém caso o município não disponha de microcomputadores nas suas unidades, o mesmo pode ser operacionalizado a partir das Secretarias Municipais de Saúde (SMS), das Regionais de Saúde e da Secretaria Estadual de Saúde. O sistema é alimentado semanalmente em 52 semanas, de acordo com o calendário epidemiológico do ano. Em consequência, quando não houver a ocorrência de algum caso de doença ou agravo de notificação compulsória em alguma unidade de saúde, a SMS deve fazer uma notificação negativa para cada unidade nessa situação.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "óbito",
+      "doença",
+      "epidemiologia",
+      "mortalidade",
+      "acidente de trabalho"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "b8e72d64-5416-4a6e-a796-b47a0a600ddc",
+    "name": "SinPatinhas",
+    "description": "É um sistema inovador desenvolvido pelo Governo Federal para gerenciar e monitorar a política pública de controle populacional de animais. Focado em iniciativas de castração e microchipagem, o sistema permite o cadastro de animais, o acompanhamento detalhado dos procedimentos realizados e a geração de relatórios abrangentes. Tem por objetivo centralizar as informações sobre cães e gatos e seus tutores, em conformidade com a Lei nº 15.046, de 17 de dezembro de 2024, e com o Decreto Federal nº 12.439, de 17 de abril de 2025, que regulamenta a criação do Cadastro Nacional de Animais Domésticos. Inclui dados de identificação, endereço e contato dos responsáveis e de seus animais, além de detalhes dos animais, como espécie, raça, idade, vacinas e doenças, representando um avanço significativo no combate aos maus-tratos e no controle de zoonoses. Permite o cadastro de animais que se destinam à companhia ou são criados como de estimação.",
+    "organizations": [
+      "Ministério do Meio Ambiente (MMA)"
+    ],
+    "tags": [
+      "animal",
+      "gestão ambiental",
+      "PET"
+    ],
+    "themes": [
+      "Meio Ambiente",
+      "População"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "57c5dc55-10cb-44f9-9f13-6a2fb24392ed",
+    "name": "Índice de Progresso Social (IPS) do Rio de Janeiro",
+    "description": "O Índice de Progresso Social (IPS) é uma abordagem de mensuração direta do desenvolvimento humano a partir de indicadores selecionados em três dimensões e 12 componentes definidos globalmente. A seleção das dimensões e componentes foi realizada pelo Social Progress Imperative com apoio de acadêmicos nas universidades de Harvard e do Massachusetts Institute of Technology (MIT) com o objetivo de cobrir um gama abrangente de temas, sempre tentando responder em que medida cada território é capaz de prover condições mínimas para seus habitantes. Por mensuração direta entende-se a medição que não inclui proxies econômicas nem tampouco indicadores de insumos (inputs), como o nível de investimento e a capacidade instalada de atendimento dos serviços públicos. Mede-se o desenvolvimento com indicadores de resultados (outcomes), como a cobertura de serviços efetivamente disponível, a variação da incidência de doenças ou a exposição à violência..\r\n\r\nO IPS combina variáveis sociais comumente usadas em avaliações do desenvolvimento humano e bem-estar — indicadores de saúde, nível de acesso e qualidade dos serviços básicos e da educação básica e superior — com variáveis ambientais, acesso à comunicação, direitos humanos, liberdade de escolha, tolerância e inclusão. A justificativa desse modelo é que o crescimento econômico é condição necessária, mas não suficiente, do desenvolvimento humano ou “Progresso Social”. Segundo o relatório metodológico do Índice de Progresso Social 2015, o “Progresso Social” é a capacidade de uma sociedade de atender às Necessidades Humanas Básicas de seus cidadãos, estabelecer os componentes básicos que permitam aos cidadãos e às comunidades melhorar e manter a qualidade de vida e criar as condições para que todos atinjam seu pleno potencial.\r\n\r\nA estrutura básica do IPS tem sido utilizada em diversas aplicações. O IPS Global foi criado com 52 indicadores levantados para 133 países. A mesma estrutura foi adaptada e aplicada para as Regiões administrativas no IPS RIO e, em outros contextos, para regiões e cidades na Colômbia, Costa Rica, Estados Unidos, Paraguai, Peru e União Europeia.\r\n\r\nEm cada aplicação, a definição de indicadores é realizada localmente por meio de processo participativo, envolvendo os atores locais, como governo, universidades, institutos de pesquisa, empresas, fundações e organizações da sociedade civil.",
+    "organizations": [
+      "Instituto Pereira Passos (IPP)"
+    ],
+    "tags": [
+      "desenvolvimento",
+      "desigualdade",
+      "nutrição",
+      "pobreza",
+      "saneamento"
+    ],
+    "themes": [
+      "Economia",
+      "Saúde",
+      "Segurança, Crime, Violência, e Conflito",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "afc5c178-fdde-491c-a41f-655a7249029e",
+    "name": "Copa do Mundo FIFA de Futebol Masculino (Fjelstul Database)",
+    "description": "O Fjelstul World Cup Database é um banco de dados sobre a Copa do Mundo da FIFA criado pelo Ph.D. Joshua C. Fjelstul que cobre todos os 21 torneios(1930-2018). O banco de dados inclui 27 conjuntos (aproximadamente 1,1 milhão de pontos de dados) que cobrem todos os aspectos da Copa do Mundo. Os dados foram extensivamente limpos e validados.",
+    "organizations": [
+      "FIFA"
+    ],
+    "tags": [
+      "futebol",
+      "copa do mundo"
+    ],
+    "themes": [
+      "Esportes"
+    ]
+  },
+  {
+    "id": "c39d5d74-7f15-42b6-b200-e152d4da79c0",
+    "name": "Pesquisa de Alvarás de Construção (BPS)",
+    "description": "Contagens mensais e anuais de edificações, unidades habitacionais e valor de construção de novas residências privadas autorizadas por alvarás de construção nos Estados Unidos, desde 1980. Os dados são publicados por jurisdição emissora de alvarás, condado, área estatística metropolitana e estado, separados por tipo de edificação (1 unidade, 2 unidades, 3 a 4 unidades e 5 ou mais unidades). As estimativas incluem imputação para jurisdições que não responderam à pesquisa, e as tabelas trazem também os valores apenas reportados.",
+    "organizations": [
+      "U.S. Census Bureau"
+    ],
+    "tags": [
+      "alvará de construção",
+      "construção",
+      "habitação",
+      "imóvel",
+      "regulação"
+    ],
+    "themes": [
+      "Economia",
+      "Urbanização"
+    ]
+  }
+]

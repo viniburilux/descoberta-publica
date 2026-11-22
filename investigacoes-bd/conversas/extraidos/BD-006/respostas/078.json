@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Column name uf_prefixo is ambiguous at [19:5]\n\nLocation: None\nJob ID: 176f4519-ec9c-4093-a047-4af289fd4441\n"
+}

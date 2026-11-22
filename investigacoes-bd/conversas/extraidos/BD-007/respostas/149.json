@@ -1,0 +1,117 @@
+{
+  "row_count": 42,
+  "rows": [
+    {
+      "ano_emissao": 2013,
+      "faixa": "Demais (>=4 ha)",
+      "imoveis_unicos": 1,
+      "operacoes_distintas": 1,
+      "linhas_operacao": 1,
+      "credito_associado": 9279.0,
+      "area_financiada_acumulada": 0.0,
+      "area_car_declarada": 6.1047,
+      "razao_area_financiada_area_car": 0.0
+    },
+    {
+      "ano_emissao": 2016,
+      "faixa": "Muito pequenos (0,1 a <1 ha)",
+      "imoveis_unicos": 1,
+      "operacoes_distintas": 1,
+      "linhas_operacao": 1,
+      "credito_associado": 34557.59,
+      "area_financiada_acumulada": 20.0,
+      "area_car_declarada": 0.8469,
+      "razao_area_financiada_area_car": 23.615539024678238
+    },
+    {
+      "ano_emissao": 2016,
+      "faixa": "Pequenos (1 a <4 ha)",
+      "imoveis_unicos": 1,
+      "operacoes_distintas": 1,
+      "linhas_operacao": 1,
+      "credito_associado": 62721.84,
+      "area_financiada_acumulada": 36.3,
+      "area_car_declarada": 1.6396,
+      "razao_area_financiada_area_car": 22.139546230787996
+    },
+    {
+      "ano_emissao": 2016,
+      "faixa": "Demais (>=4 ha)",
+      "imoveis_unicos": 4,
+      "operacoes_distintas": 4,
+      "linhas_operacao": 4,
+      "credito_associado": 69069.94,
+      "area_financiada_acumulada": 29.19,
+      "area_car_declarada": 61.4041,
+      "razao_area_financiada_area_car": 0.4753754228137861
+    },
+    {
+      "ano_emissao": 2017,
+      "faixa": "Pequenos (1 a <4 ha)",
+      "imoveis_unicos": 22,
+      "operacoes_distintas": 37,
+      "linhas_operacao": 40,
+      "credito_associado": 2827167.71,
+      "area_financiada_acumulada": 71.44999999999999,
+      "area_car_declarada": 61.059799999999996,
+      "razao_area_financiada_area_car": 1.1701643307053085
+    },
+    {
+      "ano_emissao": 2017,
+      "faixa": "Demais (>=4 ha)",
+      "imoveis_unicos": 374,
+      "operacoes_distintas": 515,
+      "linhas_operacao": 561,
+      "credito_associado": 49506054.95999999,
+      "area_financiada_acumulada": 5922.720000000001,
+      "area_car_declarada": 53951.3119,
+      "razao_area_financiada_area_car": 0.10977898018453933
+    },
+    {
+      "ano_emissao": 2018,
+      "faixa": "Micro (<0,1 ha)",
+      "imoveis_unicos": 152,
+      "operacoes_distintas": 194,
+      "linhas_operacao": 278,
+      "credito_associado": 30251009.25083333,
+      "area_financiada_acumulada": 3325.9183333333335,
+      "area_car_declarada": 4.8248999999999995,
+      "razao_area_financiada_area_car": 689.3237856397716
+    },
+    {
+      "ano_emissao": 2018,
+      "faixa": "Muito pequenos (0,1 a <1 ha)",
+      "imoveis_unicos": 218,
+      "operacoes_distintas": 278,
+      "linhas_operacao": 403,
+      "credito_associado": 34275858.62416667,
+      "area_financiada_acumulada": 5347.001666666668,
+      "area_car_declarada": 96.54929999999999,
+      "razao_area_financiada_area_car": 55.3810505789961
+    },
+    {
+      "ano_emissao": 2018,
+      "faixa": "Pequenos (1 a <4 ha)",
+      "imoveis_unicos": 1168,
+      "operacoes_distintas": 1423,
+      "linhas_operacao": 1732,
+      "credito_associado": 59775913.51888888,
+      "area_financiada_acumulada": 10467.87611111111,
+      "area_car_declarada": 3203.2144,
+      "razao_area_financiada_area_car": 3.2679286503929026
+    },
+    {
+      "ano_emissao": 2018,
+      "faixa": "Demais (>=4 ha)",
+      "imoveis_unicos": 25826,
+      "operacoes_distintas": 33498,
+      "linhas_operacao": 43152,
+      "credito_associado": 4109462106.200834,
+      "area_financiada_acumulada": 536504.6975000001,
+      "area_car_declarada": 7551124.106500001,
+      "razao_area_financiada_area_car": 0.07104964637492547
+    },
+    "... (32 more items)"
+  ],
+  "query_ref": "qr_8148ca4e5584457080f6fe0e3313f7d1"
+}

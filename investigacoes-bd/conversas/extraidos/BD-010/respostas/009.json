@@ -1,0 +1,78 @@
+{
+  "id": "8e0b42d5-b9c7-4ca3-ae66-76bcc8cb2c4b",
+  "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+  "gcp_id": "basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe",
+  "name": "Cobertura e uso da terra por município",
+  "description": "Área, em hectares, de cada classe de cobertura e uso da terra por município, bioma e ano, na Coleção 11 do MapBiomas (mapeamento anual em resolução de 30 metros, 1985 a 2025). Municípios que se estendem por mais de um bioma aparecem em uma linha por bioma.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano de referência do mapeamento de cobertura e uso da terra",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "area",
+      "type": "FLOAT64",
+      "description": "Área ocupada pela classe no território, no bioma e no ano",
+      "unit": "hectare",
+      "needs_decoding": false
+    },
+    {
+      "name": "bioma",
+      "type": "STRING",
+      "description": "Bioma ao qual pertence a porção do território descrita nesta linha",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_classe",
+      "type": "STRING",
+      "description": "Código da classe de cobertura e uso da terra na legenda do MapBiomas",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "Código IBGE de sete dígitos do município",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "nivel_1",
+      "type": "STRING",
+      "description": "Classe de cobertura e uso da terra no nível 1 da legenda",
+      "needs_decoding": false
+    },
+    {
+      "name": "nivel_2",
+      "type": "STRING",
+      "description": "Classe de cobertura e uso da terra no nível 2 da legenda",
+      "needs_decoding": false
+    },
+    {
+      "name": "nivel_3",
+      "type": "STRING",
+      "description": "Classe de cobertura e uso da terra no nível 3 da legenda",
+      "needs_decoding": false
+    },
+    {
+      "name": "nivel_4",
+      "type": "STRING",
+      "description": "Classe de cobertura e uso da terra no nível 4 da legenda",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da Unidade da Federação",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "1985",
+  "period_end": "2025"
+}

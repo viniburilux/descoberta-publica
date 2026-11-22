@@ -1,0 +1,60 @@
+{
+  "id": "5beeec93-cbf3-43f6-9eea-9bee6a0d1683",
+  "name": "Sistema de Informações sobre Mortalidade (SIM)",
+  "description": "O Sistema de Informações sobre Mortalidade (SIM) foi criado pelo DATASUS para a obtenção regular de dados sobre mortalidade no país. A partir da criação do SIM foi possível a captação de dados sobre mortalidade, de forma abrangente, para subsidiar as diversas esferas de gestão na saúde pública. Com ... (121 more characters)",
+  "organizations": [
+    "Ministério da Saúde (MS)"
+  ],
+  "tags": [
+    "mortalidade"
+  ],
+  "themes": [
+    "Saúde",
+    "População"
+  ],
+  "tables": [
+    {
+      "id": "e9bf5a22-ae7b-4078-b5ff-7f383d38a33a",
+      "dataset_id": "5beeec93-cbf3-43f6-9eea-9bee6a0d1683",
+      "gcp_id": "basedosdados.br_ms_sim.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Sistema de Informações sobre Mortalidade (SIM). Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "dea823a5-cad7-4014-b77c-4aa33b3b0541",
+      "dataset_id": "5beeec93-cbf3-43f6-9eea-9bee6a0d1683",
+      "gcp_id": "basedosdados.br_ms_sim.microdados",
+      "name": "Microdados",
+      "description": "Microdados do Sistema de Informações sobre Mortalidade (SIM) do Ministério da Saúde."
+    },
+    {
+      "id": "5c355ed0-f7c1-471f-a8d2-6e9a97d03a29",
+      "dataset_id": "5beeec93-cbf3-43f6-9eea-9bee6a0d1683",
+      "gcp_id": "basedosdados.br_ms_sim.municipio",
+      "name": "Município",
+      "description": "Número de óbitos por ano e município de residência. Calculado a partir dos microdados. Óbitos sem município de residência informado entram com id_municipio nulo."
+    },
+    {
+      "id": "ebc468de-65a6-4ee6-84a1-41c7318ae509",
+      "dataset_id": "5beeec93-cbf3-43f6-9eea-9bee6a0d1683",
+      "gcp_id": "basedosdados.br_ms_sim.municipio_causa",
+      "name": "Município Causa",
+      "description": "Número de óbitos por ano, município de residência e causa básica. Calculado a partir dos microdados. Óbitos sem município de residência informado entram com id_municipio nulo."
+    },
+    {
+      "id": "4e869793-b640-4b00-a0c0-a854f1a447f4",
+      "dataset_id": "5beeec93-cbf3-43f6-9eea-9bee6a0d1683",
+      "gcp_id": "basedosdados.br_ms_sim.municipio_causa_idade",
+      "name": "Município Causa Idade",
+      "description": "Número de óbitos por ano, município de residência, causa básica e idade. Calculado a partir dos microdados. Óbitos sem município de residência informado entram com id_municipio nulo."
+    },
+    {
+      "id": "0e00424f-abc3-4ef3-b72c-2428696b4e70",
+      "dataset_id": "5beeec93-cbf3-43f6-9eea-9bee6a0d1683",
+      "gcp_id": "basedosdados.br_ms_sim.municipio_causa_idade_sexo_raca",
+      "name": "Município Causa Idade Sexo Raça",
+      "description": "Número de óbitos por ano, município de residência, causa básica, idade, sexo e raça ou cor, calculado a partir dos microdados. Óbitos sem município de residência informado entram com id_municipio nulo."
+    }
+  ],
+  "usage_guide": null
+}

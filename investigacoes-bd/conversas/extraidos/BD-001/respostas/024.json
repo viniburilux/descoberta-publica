@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Unrecognized name: valor_homologado at [31:155]\n\nLocation: None\nJob ID: 839c9733-f0c2-4681-9572-65362e377a35\n"
+}

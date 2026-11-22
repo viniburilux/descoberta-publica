@@ -1,0 +1,12 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "transformacao": "literal",
+      "registros_left": 11768420,
+      "registros_correspondentes": 11760468,
+      "ids_correspondentes": 1337
+    }
+  ],
+  "query_ref": "qr_6e7209ab689644b8abc7692bf9ea0ca1"
+}

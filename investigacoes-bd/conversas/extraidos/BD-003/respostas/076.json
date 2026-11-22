@@ -1,0 +1,195 @@
+[
+  {
+    "id": "74827951-3f2c-4f9f-b3d0-56e3aa7aeb39",
+    "name": "Comex Stat",
+    "description": "O Comex Stat um sistema para consultas e extração de dados do comércio exterior brasileiro. São divulgados mensalmente os dados detalhados das exportações e importações brasileiras, extraídas do SISCOMEX e baseados na declaração dos exportadores e importadores. A base de dados do sistema também está disponível para download.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "firma",
+      "exportação",
+      "empresa",
+      "importação",
+      "comércio",
+      "balança comercial"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+    "name": "Eleições Brasileiras",
+    "description": "Dados de eleições brasileiras desde 1945 fornecidos pelo TSE. Inclui dados de eleitorado, candidaturas, resultados e prestação de contas",
+    "organizations": [
+      "Tribunal Superior Eleitoral (TSE)"
+    ],
+    "tags": [
+      "congresso",
+      "eleições",
+      "partido político",
+      "presidência",
+      "voto"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+    "name": "Quadros Societários CNPJ",
+    "description": "Quadros societários e de administradores das pessoas jurídicas brasileiras.\r\n\r\n Este conjunto de dados é divulgado pela fonte original no formato de fotografias. Para cada data tem-se um retrato do universo de Cadastro Nacional das Pessoas Jurídicas (CNPJs) e seus atributos.  Com exceção da tabela de dicionários, a coluna data informa a data na qual os dados foram extraídos e disponibilizados pelo ministério da economia. \r\n\r\nPor que isso ocorre? Os atributos do CNPJ (situação cadastral; quadro societário) estão em constante mudança. A divulgação no formato de fotografias é uma forma de lidar com essa pecualiridade, uma vez que cada data reflete o estado atual do cadastro em um dado momento.\r\n\r\nComo isso afeta a análise? Em cada fotografia todos os CNPJs (ID de 14 dígitos) são repetidos. Logo,  haverá repetição de CNPJs se mais de uma data (fotografia) for selecionada.",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "firma",
+      "empresa",
+      "sócio"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "2b7f941c-4667-44aa-98cd-cdbaf5bbe6f1",
+    "name": "Classificação Brasileira de Ocupações 2002",
+    "description": "Informações sobre a Classificação Brasileira de Ocupações (CBO) 2002.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "emprego",
+      "ocupação"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "67ba206f-83c0-4d29-8ff4-bf0a0a09878d",
+    "name": "Registro de Empresas da Austrália (ABR)",
+    "description": "Registro de todos os números de empresa (ABN) emitidos pelo Registro de Empresas da Austrália, administrado pelo Departamento de Impostos da Austrália (ATO). O extrato em massa é publicado semanalmente como um retrato completo: cada extraction_date é uma fotografia de todo o registro, contendo o nome da entidade, o tipo de entidade, a situação de registro do ABN e do GST, o número ASIC e a localização principal do negócio (estado e código postal). Nomes comerciais e outros nomes, além das habilitações como Beneficiária de Doações Dedutíveis (DGR), estão em tabelas filhas. Como cada retrato repete todos os ABN, selecionar mais de um extraction_date repete as entidades. Este é o análogo australiano do CNPJ brasileiro. Fonte: data.gov.au, licenciado sob CC BY 3.0 AU.",
+    "organizations": [
+      "Departamento de Impostos da Austrália (ATO)"
+    ],
+    "tags": [
+      "cnpj",
+      "empreendedorismo",
+      "Estabelecimento",
+      "empresa",
+      "governo",
+      "tributo"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "1eeb071e-cfe0-4a32-a664-8e86fcb49971",
+    "name": "Recenseamento Geral do Império do Brasil de 1872",
+    "description": "O censo demográfico do Brasil de 1872 foi a primeira operação censitária realizada em território brasileiro, à época imperial.\n\nForam recenseados todos os moradores em domicílios (chamados de \"fogo\") particulares e coletivos e que se encontravam nele na data de referência do censo que foi o dia 1º de agosto de 1872. A distribuição da população se fez segundo a cor, o sexo, o estado de livres ou escravos, o estado civil, a nacionalidade, a ocupação e a religião.\n\nOs dados vêm do banco Pop-72, digitalizado e corrigido pelo Núcleo de Pesquisa em História Econômica e Demográfica (NPHED) do Cedeplar/UFMG, e cobrem 1.440 paróquias em 21 províncias. Cada quadro do recenseamento é publicado em duas versões, a original de 1872 e a corrigida pelo NPHED, em três níveis geográficos: paróquia, município e província. As tabelas corrigidas reproduzem os totais nacionais canônicos de 9.930.478 pessoas, das quais 1.510.806 escravizadas; as originais somam 9.952.948 e preservam os erros aritméticos da publicação de 1872, documentados no relatório crítico do NPHED.",
+    "organizations": [
+      "Universidade Federal de Minas Gerais (UFMG)"
+    ],
+    "tags": [
+      "idade",
+      "censo",
+      "demografia",
+      "império",
+      "alfabetização",
+      "migração",
+      "ocupação",
+      "escravidão"
+    ],
+    "themes": [
+      "História",
+      "População"
+    ]
+  },
+  {
+    "id": "2810837f-e52b-4da0-a4e9-e7ad4109ffe7",
+    "name": "Operações Contratadas",
+    "description": "Dados de Operações Financeiras Contratadas do BNDES (Banco Nacional de Desenvolvimento Econômico e Social) disponibilizadas em sua Central de Downloads de Transparência.",
+    "organizations": [
+      "BNDES"
+    ],
+    "tags": [
+      "atividade econômica",
+      "economia",
+      "financiamento",
+      "governança",
+      "governo"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "4ba41417-ba19-4022-bc24-6837db973009",
+    "name": "Acessos de banda larga fixa no Brasil",
+    "description": "Dados referente ao total de acessos a Banda Larga Fixa (também denominado por Serviço Comunicação Multimídia - SCM) provenientes da Anatel. A base inclui ainda, dados de entrada de banda larga nas escolas segundo o Programa Banda Larga nas Escolas e a instalação de backhauls segundo o Plano Nacional de Universalização da Banda Larga.",
+    "organizations": [
+      "Agência Nacional de Telecomunicações (Anatel)"
+    ],
+    "tags": [
+      "computador",
+      "internet"
+    ],
+    "themes": [
+      "Jornalismo e Comunicação",
+      "Infraestrutura e Transportes",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "cbfc7253-089b-44e2-8825-755e1419efc8",
+    "name": "Atlas do Desenvolvimento Humano (ADH)",
+    "description": "O Atlas do Desenvolvimento Humano no Brasil é um site que traz o IDH a nível municipal (IDHM) e outros 200 indicadores de demografia, educação, renda, trabalho, habitação e vulnerabilidade para os municípios brasileiros.",
+    "organizations": [
+      "Organização das Nações Unidas (ONU)"
+    ],
+    "tags": [
+      "educação básica",
+      "desenvolvimento",
+      "emprego",
+      "índice de desenvolvimento humano",
+      "educação superior",
+      "renda",
+      "expectativa de vida",
+      "alfabetização",
+      "mortalidade",
+      "pobreza_-renda",
+      "pobreza",
+      "bem público",
+      "bem-estar"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde",
+      "População"
+    ]
+  }
+]

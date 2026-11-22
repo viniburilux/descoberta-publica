@@ -1,0 +1,42 @@
+{
+  "id": "609b9d16-43d4-48c2-87d1-cd5a263828e8",
+  "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+  "gcp_id": "basedosdados.br_sfb_sicar.dicionario",
+  "name": "Dicionário",
+  "description": "Dicionário para tradução dos códigos das tabelas do conjunto br_sfb_sicar.",
+  "columns": [
+    {
+      "name": "chave",
+      "type": "STRING",
+      "description": "Chave (valor codificado)",
+      "needs_decoding": false
+    },
+    {
+      "name": "cobertura_temporal",
+      "type": "STRING",
+      "description": "Cobertura temporal",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_tabela",
+      "type": "STRING",
+      "description": "Nome da tabela",
+      "needs_decoding": false
+    },
+    {
+      "name": "nome_coluna",
+      "type": "STRING",
+      "description": "Nome da coluna",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor",
+      "type": "STRING",
+      "description": "Valor traduzido da chave",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": null,
+  "period_end": null
+}

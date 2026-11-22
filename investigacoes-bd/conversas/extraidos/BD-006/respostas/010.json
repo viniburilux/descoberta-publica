@@ -1,0 +1,166 @@
+[
+  {
+    "id": "062621e9-5aa0-4903-852d-619ae54393d2",
+    "name": "Cadastro Nacional de Obras (CNO)",
+    "description": "O Cadastro Nacional de Obras (CNO) é o banco de dados, administrado pela Secretaria Especial da Receita Federal do Brasil (RFB), que armazena informações cadastrais de obras de construção civil e de seus responsáveis. Este cadastro é necessário para que o contribuinte possa cumprir as suas obrigações tributárias (entregar declarações e realizar pagamentos) e, ao final da obra, obter a certidão de regularidade fiscal relativa à obra.",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "construção",
+      "fiscalização",
+      "obra pública"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "ab4af450-6b41-412e-b7cb-ec7030646c3d",
+    "name": "Resultado da Arrecadação Federal",
+    "description": "Dados da arrecadação de impostos e contribuições federais administrados pela Secretaria Especial da Receita Federal do Brasil (RFB).",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "receita",
+      "arrecadação"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "d8a9dda3-a160-45f1-ac52-cbf793e6f722",
+    "name": "Índice de Preços ao Produtor",
+    "description": "O Índice de Preços ao Produtor - IPP, cujo âmbito são as indústrias extrativas e de transformação, tem como principal objetivo mensurar a mudança média dos preços de venda recebidos pelos produtores domésticos de bens e serviços, bem como sua evolução ao longo do tempo, sinalizando as tendências inflacionárias de curto prazo no País.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "inflação",
+      "preço",
+      "produção"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "9b27a7d8-c310-42d8-a312-631588ad4ba0",
+    "name": "Cadastro do IPTU na cidade de Belo Horizonte",
+    "description": "Dados referente ao cadastro do IPTU na cidade de Belo Horizonte",
+    "organizations": [
+      "Secretaria Municipal de Fazenda de Belo Horizonte"
+    ],
+    "tags": [
+      "CEP",
+      "árvore",
+      "água"
+    ],
+    "themes": [
+      "Economia",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "6502fbc5-7383-4f0b-b836-dc630541f0e8",
+    "name": "Sistema de Informações de Custos do Governo Federal (SIC)",
+    "description": null,
+    "organizations": [
+      "Ministério da Fazenda (MF)"
+    ],
+    "tags": [
+      "custo",
+      "transferência"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "b46bb892-3273-434d-9335-f502b8656ef1",
+    "name": "Corte Aberta",
+    "description": "O Programa Corte Aberta, instituído pela Resolução n° 774/2022, foi idealizado para tornar o Supremo Tribunal Federal(STF) cada vez mais transparente e próximo da sociedade. O objetivo dessa iniciativa é garantir que os dados da Corte sejam disponibilizados a todos os cidadãos de maneira mais acessível, precisa, confiável e íntegra",
+    "organizations": [
+      "Supremo Tribunal Federal"
+    ],
+    "tags": [
+      "direito civil",
+      "juiz",
+      "direito"
+    ],
+    "themes": [
+      "Justiça",
+      "Política",
+      "População"
+    ]
+  },
+  {
+    "id": "27c8d99c-3529-4a76-9f5f-2ce8d3b9d682",
+    "name": "World Development Indicators (WDI)",
+    "description": "A principal coleção de indicadores de desenvolvimento do Banco Mundial, compilada a partir de fontes internacionais oficialmente reconhecidas. Apresenta os dados de desenvolvimento global mais atuais e precisos disponíveis e inclui estimativas nacionais, regionais e globais.",
+    "organizations": [
+      "Banco Mundial"
+    ],
+    "tags": [],
+    "themes": [
+      "Economia",
+      "População"
+    ]
+  },
+  {
+    "id": "d2200639-0843-4960-99a2-f844df1fa3d1",
+    "name": "Programa Universidade para Todos (ProUni)",
+    "description": "Programa que concede bolsas de estudo integrais e parciais de 50% em instituições privadas de educação superior, em cursos de graduação e sequenciais de formação específica, a estudantes brasileiros sem diploma de nível superior.",
+    "organizations": [
+      "Ministério da Educação e Cultura (MEC)"
+    ],
+    "tags": [
+      "bolsa",
+      "financiamento estudantil"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "5020ca16-6df4-43bd-8717-eab37ef84c30",
+    "name": "Campanha Nacional de Vacinação contra Covid-19",
+    "description": "Dados de vacinação contra a Covid-19 no Brasil.\r\n\r\nFonte original: https://opendatasus.saude.gov.br/dataset/covid-19-vacinacao.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "coronavírus",
+      "COVID19",
+      "COVID-19",
+      "pandemia",
+      "vacina"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  }
+]

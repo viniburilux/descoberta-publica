@@ -1,0 +1,77 @@
+{
+  "row_count": 60,
+  "rows": [
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "subclasse",
+      "valor": "6187",
+      "chave": "0111301",
+      "detalhe": "presente_no_diretorio"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "subclasse",
+      "valor": "26057",
+      "chave": "0111302",
+      "detalhe": "presente_no_diretorio"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "subclasse",
+      "valor": "704",
+      "chave": "0111303",
+      "detalhe": "presente_no_diretorio"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "subclasse",
+      "valor": "7460",
+      "chave": "0111399",
+      "detalhe": "presente_no_diretorio"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "subclasse",
+      "valor": "471",
+      "chave": "0112101",
+      "detalhe": "presente_no_diretorio"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "subclasse",
+      "valor": "4",
+      "chave": "0112102",
+      "detalhe": "presente_no_diretorio"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "subclasse",
+      "valor": "593",
+      "chave": "0112199",
+      "detalhe": "presente_no_diretorio"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "subclasse",
+      "valor": "14899",
+      "chave": "0113000",
+      "detalhe": "presente_no_diretorio"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "subclasse",
+      "valor": "4020",
+      "chave": "0114800",
+      "detalhe": "presente_no_diretorio"
+    },
+    {
+      "tipo": "exemplo_correspondente",
+      "item": "subclasse",
+      "valor": "48651",
+      "chave": "0115600",
+      "detalhe": "presente_no_diretorio"
+    },
+    "... (50 more items)"
+  ],
+  "query_ref": "qr_5d88593d64a44b19a7c71e4ba639a8de"
+}

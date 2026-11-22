@@ -1,0 +1,37 @@
+[
+  {
+    "id": "2a543ad8-3cdb-4047-9498-efe7fb8ed697",
+    "name": "Sistema Nacional de Informações sobre Saneamento (SNIS)",
+    "description": "Criado em 1996, o SNIS é uma unidade vinculada à Secretaria Nacional de Saneamento (SNS) do Ministério do Desenvolvimento Regional (MDR). Com abrangência nacional, reúne informações de caráter institucional, administrativo, operacional, gerencial, econômico-financeiro, contábil e de qualidade da prestação de serviços de saneamento básico em áreas urbanas das quatro componentes do saneamento básico.\r\n\r\n## Objetivos do SNIS\r\n\r\n- Planejamento e execução de políticas públicas;\r\n- Orientação da aplicação de recursos;\r\n- Conhecimento e avaliação do setor saneamento;\r\n- Avaliação de desempenho dos serviços;\r\n- Aperfeiçoamento da gestão;\r\n- Orientação de atividades regulatórias e de fiscalização;\r\n- Exercício do controle social.\r\n\r\nAnualmente, o SNIS coleta dados dos municípios e dos prestadores de serviços de saneamento e os estrutura e disponibiliza à sociedade por meio dos Diagnósticos (Água e Esgotos, Manejo de Resíduos Sólidos Urbanos e Drenagem e Manejo de Águas Pluviais Urbanas) e da aplicação web SNIS Série Histórica. A partir do ano de 2019, o SNIS passa a divulgar o Painel de Informações sobre Saneamento que traz um panorama do setor e permite que as principais informações e indicadores sejam acessados de forma interativa.",
+    "organizations": [
+      "Ministério do Desenvolvimento Regional (MDR)"
+    ],
+    "tags": [
+      "poluição",
+      "resíduo",
+      "saneamento",
+      "esgoto",
+      "lixo"
+    ],
+    "themes": [
+      "Saúde",
+      "Infraestrutura e Transportes",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "a7d9442f-a591-477e-82a1-bcf780ccd0dc",
+    "name": "Índice Nacional de Preços ao Consumidor Amplo 15 (IPCA-15)",
+    "description": "Com divulgação na Internet iniciada em maio de 2000, o Índice Nacional de Preços ao Consumidor Amplo 15 – IPCA-15 difere do Índice Nacional de Preços ao Consumidor Amplo – IPCA, apenas no período de coleta que abrange, em geral, do dia 16 do mês anterior ao 15 do mês de referência e na abrangência geográfica.\r\n\r\nAtualmente a população-objetivo do IPCA-15 abrange as famílias com rendimentos de 1 a 40 salários mínimos, qualquer que seja a fonte. residentes em 11 áreas urbanas das regiões de abrangência do SNIPC, as quais são: regiões metropolitanas de Belém, Fortaleza, Recife, Salvador, Belo Horizonte, Rio de Janeiro, São Paulo, Curitiba, Porto Alegre, além do Distrito Federal e do município de Goiânia.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "inflação",
+      "preço"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

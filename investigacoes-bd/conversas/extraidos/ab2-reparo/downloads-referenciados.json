@@ -1,0 +1,24 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_943098f1eb2d47919614bcbc1d64d176",
+    "slug": "finalidades_sicor",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_97ac38537f204407a9f69923301102b6",
+    "slug": "credito_investimento_publico_2022_rateado_municipio",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

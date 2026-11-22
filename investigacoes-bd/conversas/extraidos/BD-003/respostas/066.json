@@ -1,0 +1,76 @@
+{
+  "id": "f8ea6a04-dd5f-4a8b-9bd4-8556a905e809",
+  "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+  "gcp_id": "basedosdados.br_mgi_compras_publicas.compra_sem_licitacao",
+  "name": "Contratação direta",
+  "description": "Dispensas e inexigibilidades de licitação sob a Lei 8.666/1993, de 1997 a 2024. Uma linha por contratação direta, com fundamento legal e justificativa",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano de publicação do aviso de contratação direta",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "cargo_responsavel_declaracao_dispensa",
+      "type": "STRING",
+      "description": "Cargo do responsável pela declaração de dispensa ou inexigibilidade",
+      "needs_decoding": false
+    },
+    {
+      "name": "cargo_responsavel_ratificacao",
+      "type": "STRING",
+      "description": "Cargo do responsável pela ratificação",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_modalidade",
+      "type": "STRING",
+      "description": "Código da modalidade da contratação direta",
+      "needs_decoding": true
+    },
+    {
+      "name": "codigo_orgao",
+      "type": "STRING",
+      "description": "Código do órgão responsável pela contratação",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_orgao_superior",
+      "type": "STRING",
+      "description": "Código do órgão superior na hierarquia administrativa",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_uasg",
+      "type": "STRING",
+      "description": "Código da UASG responsável pela contratação",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_alteracao",
+      "type": "DATETIME",
+      "description": "Data e hora da última alteração do registro",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_declaracao_dispensa",
+      "type": "DATE",
+      "description": "Data da declaração de dispensa ou inexigibilidade",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_publicacao",
+      "type": "DATE",
+      "description": "Data de publicação do aviso",
+      "needs_decoding": false
+    },
+    "... (14 more items)"
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "1997-01",
+  "period_end": "2025-12"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "0cd43cfb-5593-4ea8-b36e-5f9fd27e49dc",
+  "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "gcp_id": "basedosdados.br_bcb_sicor.liberacao",
+  "name": "Liberação",
+  "description": "Apresenta o registro dos recursos liberados pelas instituições financeiras no decorrer de uma operação de crédito. A liberação obedece o cronograma de liberação de recursos estipulado no ato da assinatura do contrato que formaliza a operação de crédito rural. Por meio desta base é possível descobrir... (252 more characters)",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano de referência do valor liberado total ou parcial",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano_emissao",
+      "type": "INT64",
+      "description": "Ano da emissão da operação",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_liberacao",
+      "type": "DATE",
+      "description": "Data de liberação da parcela de crédito total ou parcial",
+      "unit": "day",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_referencia_bacen",
+      "type": "STRING",
+      "description": "Identificador único de cada operação de crédito",
+      "needs_decoding": false
+    },
+    {
+      "name": "mes",
+      "type": "INT64",
+      "description": "Mês de referência do valor liberado total ou parcial",
+      "unit": "month",
+      "needs_decoding": false
+    },
+    {
+      "name": "mes_emissao",
+      "type": "INT64",
+      "description": "Mês de emissão da operação",
+      "unit": "month",
+      "needs_decoding": false
+    },
+    {
+      "name": "numero_ordem",
+      "type": "STRING",
+      "description": "Identificador da quantidade de ordens que compõem uma operação de crédito",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor_liberado",
+      "type": "FLOAT64",
+      "description": "Valor total ou parcial liberado na parcela de crédito",
+      "unit": "brl",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano",
+    "mes"
+  ],
+  "period_start": "2013-01",
+  "period_end": "2026-10"
+}

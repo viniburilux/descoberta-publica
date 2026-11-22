@@ -1,0 +1,94 @@
+{
+  "id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+  "name": "Força de Trabalho (Austrália)",
+  "description": "Estatísticas da força de trabalho australiana produzidas pelo Australian Bureau of Statistics, reunindo a publicação mensal Labour Force, Australia (catálogo 6202.0) desde fevereiro de 1978 e os cubos trimestrais e mensais da publicação encerrada Labour Force, Australia, Detailed (catálogo 6291.0.55... (301 more characters)",
+  "organizations": [
+    "Instituto Australiano de Estatística (ABS)"
+  ],
+  "tags": [
+    "atividade econômica",
+    "emprego",
+    "trabalho",
+    "ocupação",
+    "pesquisa",
+    "desemprego",
+    "carga horária"
+  ],
+  "themes": [
+    "Economia"
+  ],
+  "tables": [
+    {
+      "id": "40c7f6ec-feac-4239-9a7f-5525a7a63bce",
+      "dataset_id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+      "gcp_id": "basedosdados.au_abs_labour_force.employment_industry",
+      "name": "Emprego por grupo de indústria, estado e sexo",
+      "description": "Pessoas ocupadas e horas efetivamente trabalhadas em todos os empregos, por trimestre, grupo de indústria do trabalho principal (ANZSIC 2006), estado ou território e sexo."
+    },
+    {
+      "id": "c7319561-7ae8-439a-8d57-00195ae14d84",
+      "dataset_id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+      "gcp_id": "basedosdados.au_abs_labour_force.employment_industry_age",
+      "name": "Emprego por divisão de indústria e faixa etária",
+      "description": "Pessoas ocupadas e horas efetivamente trabalhadas em todos os empregos na Austrália, por trimestre, divisão de indústria do trabalho principal (ANZSIC 2006) e faixa etária quinquenal."
+    },
+    {
+      "id": "41b48650-abe3-4b0c-927f-5522a55af391",
+      "dataset_id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+      "gcp_id": "basedosdados.au_abs_labour_force.employment_industry_hours",
+      "name": "Emprego por divisão de indústria e horas trabalhadas",
+      "description": "Pessoas ocupadas e horas trabalhadas na Austrália, por trimestre, divisão de indústria do trabalho principal (ANZSIC 2006) e faixa de horas, em três conceitos de horas: habitualmente trabalhadas em todos os empregos, efetivamente trabalhadas no trabalho principal e habitualmente trabalhadas no traba... (14 more characters)"
+    },
+    {
+      "id": "59e8b8c2-de4e-4d9e-be7e-83973cc6d157",
+      "dataset_id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+      "gcp_id": "basedosdados.au_abs_labour_force.employment_industry_occupation",
+      "name": "Emprego por divisão de indústria, grande grupo ocupacional e sexo",
+      "description": "Pessoas ocupadas e horas efetivamente trabalhadas em todos os empregos na Austrália, por trimestre, divisão de indústria (ANZSIC 2006), grande grupo ocupacional do trabalho principal (ANZSCO 2013) e sexo."
+    },
+    {
+      "id": "aa2ee90a-7930-486f-80e5-2932505aaafe",
+      "dataset_id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+      "gcp_id": "basedosdados.au_abs_labour_force.employment_industry_region",
+      "name": "Emprego por divisão de indústria, região de grande capital e sexo",
+      "description": "Pessoas ocupadas e horas efetivamente trabalhadas em todos os empregos, por trimestre, divisão de indústria do trabalho principal (ANZSIC 2006), grande capital ou restante do estado e sexo."
+    },
+    {
+      "id": "26215049-13c1-418d-890e-eaa3e32f20ec",
+      "dataset_id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+      "gcp_id": "basedosdados.au_abs_labour_force.employment_industry_status",
+      "name": "Emprego por divisão de indústria e posição na ocupação",
+      "description": "Pessoas ocupadas e horas efetivamente trabalhadas em todos os empregos na Austrália, por trimestre, divisão de indústria do trabalho principal (ANZSIC 2006) e posição na ocupação."
+    },
+    {
+      "id": "d14138cb-fb76-4fee-9f0d-dda89c74a1e6",
+      "dataset_id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+      "gcp_id": "basedosdados.au_abs_labour_force.employment_job_tenure",
+      "name": "Emprego por tempo no trabalho atual, estado e sexo",
+      "description": "Pessoas ocupadas e horas efetivamente trabalhadas em todos os empregos, por trimestre, tempo com o empregador atual ou no negócio próprio atual, estado ou território e sexo."
+    },
+    {
+      "id": "c35d49de-c46c-4e8c-a0b4-ce0014d8598b",
+      "dataset_id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+      "gcp_id": "basedosdados.au_abs_labour_force.employment_occupation",
+      "name": "Emprego por subgrupo principal ocupacional, sexo e faixa etária",
+      "description": "Pessoas ocupadas e horas efetivamente trabalhadas em todos os empregos na Austrália, por trimestre, subgrupo principal ocupacional do trabalho principal (ANZSCO 2013), sexo e faixa etária."
+    },
+    {
+      "id": "25e9e32f-c628-4375-b1e1-1daba9f2252b",
+      "dataset_id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+      "gcp_id": "basedosdados.au_abs_labour_force.employment_occupation_age",
+      "name": "Emprego por grande grupo ocupacional e faixa etária",
+      "description": "Pessoas ocupadas e horas efetivamente trabalhadas em todos os empregos na Austrália, por trimestre, grande grupo ocupacional do trabalho principal (ANZSCO 2013) e faixa etária quinquenal."
+    },
+    {
+      "id": "6304ad87-44e7-4d17-a291-9f570e37baaa",
+      "dataset_id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+      "gcp_id": "basedosdados.au_abs_labour_force.employment_occupation_status",
+      "name": "Emprego por grande grupo ocupacional e posição na ocupação",
+      "description": "Pessoas ocupadas e horas efetivamente trabalhadas em todos os empregos na Austrália, por trimestre, grande grupo ocupacional do trabalho principal (ANZSCO 2013) e posição na ocupação."
+    },
+    "... (6 more items)"
+  ],
+  "usage_guide": null
+}

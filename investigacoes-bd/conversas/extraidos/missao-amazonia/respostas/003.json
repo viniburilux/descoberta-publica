@@ -1,0 +1,139 @@
+[
+  {
+    "id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+    "name": "Produto Interno Bruto (PIB)",
+    "description": "O PIB permite identificar as áreas de geração de renda, produzindo informações que captam as especifidades do País. Disponibilizamos o PIB por Município, Unidade da Federação e para o País.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "pib",
+      "crescimento",
+      "renda"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "1ba59664-c373-4a61-9e32-cee91668999f",
+    "name": "Contas Econômicas dos Estados Unidos (BEA)",
+    "description": "Contas econômicas dos Estados Unidos publicadas pelo Bureau of Economic Analysis (BEA), do Departamento de Comércio, obtidas pela API REST da BEA. Cobre as Contas Nacionais de Renda e Produto (NIPA: PIB, renda pessoal, consumo), o PIB por indústria e as contas regionais por estado, condado e área metropolitana, em formato longo (tabela, linha, período, valor).",
+    "organizations": [
+      "Bureau of Economic Analysis (BEA)"
+    ],
+    "tags": [
+      "consumo",
+      "atividade econômica",
+      "emprego",
+      "finanças",
+      "pib",
+      "renda",
+      "inflação"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "15f8f909-9ef5-4bb1-b6f3-db62846c221f",
+    "name": "OCDE: gasto social",
+    "description": "Base agregada do OECD Social Expenditure Database (SOCX): gasto social público e privado por área de política (velhice, sobreviventes, incapacidade, saúde, família, programas de mercado de trabalho, desemprego, habitação e outras), por origem do financiamento (público, privado obrigatório e privado voluntário) e natureza da prestação (em dinheiro ou em espécie), para países da OCDE e parceiros desde 1980. Cada valor é expresso como proporção do PIB, do gasto público total, em dólares por habitante em PPC ou em moeda nacional. A tabela é um cubo longo: uma observação por combinação de dimensões, com o código de cada dimensão resolvido na tabela dicionario.",
+    "organizations": [
+      "Organization for Economic Cooperation and Development (OECD)"
+    ],
+    "tags": [
+      "saúde",
+      "previdência",
+      "pobreza",
+      "gasto",
+      "desemprego"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "b0164aa7-1cbe-455c-8776-23de5022f4e8",
+    "name": "OCDE: estatísticas globais de receita",
+    "description": "Receitas tributárias e não tributárias por categoria da classificação da OCDE, nível de governo, país e ano, do Banco de Dados Global de Estatísticas de Receita da OCDE. Aplica a metodologia de Estatísticas de Receita da OCDE a 146 economias da OCDE e não pertencentes à OCDE entre 1990 e 2024, expressando cada categoria como percentagem do PIB, percentagem da receita do mesmo nível de governo, percentagem da categoria de imposto superior, em moeda nacional e em dólares dos Estados Unidos. A classificação de impostos é hierárquica: use a categoria superior para evitar dupla contagem ao somar categorias.",
+    "organizations": [
+      "Organization for Economic Cooperation and Development (OECD)"
+    ],
+    "tags": [
+      "governo",
+      "finanças públicas",
+      "receita",
+      "arrecadação",
+      "tributo",
+      "taxação",
+      "imposto"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "4aa6290b-b35b-43bf-9a11-348aed4a5716",
+    "name": "Dados Econômicos do Federal Reserve de St. Louis (FRED)",
+    "description": "Séries temporais econômicas dos Estados Unidos publicadas pelo FRED, do Federal Reserve de St. Louis. O conjunto cobre o subconjunto de livre redistribuição, originado em agências públicas federais dos EUA (Federal Reserve, BLS, BEA, Census, Tesouro e OMB): taxas de juros, preços, emprego, moeda e produto. Inclui uma tabela longa de observações (série, data, valor) e um catálogo de metadados das séries.",
+    "organizations": [
+      "Federal Reserve Bank of St. Louis (FRED)"
+    ],
+    "tags": [
+      "banco central",
+      "atividade econômica",
+      "emprego",
+      "câmbio",
+      "finanças",
+      "pib",
+      "inflação",
+      "taxa de juros",
+      "política monetária",
+      "recessão"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "e38d1ca6-5da8-4fb5-a59e-2bf7246a27ad",
+    "name": "OCDE: educação",
+    "description": "Estatísticas de educação da OCDE reunidas na coleta UOE (OCDE, Instituto de Estatística da UNESCO e Eurostat), na publicação Education at a Glance e na Pesquisa Internacional sobre Ensino e Aprendizagem (TALIS). Cobre matrículas e concluintes, pessoal docente, financiamento da educação, salários e jornada de professores, tempo de instrução e os resultados de escolaridade no mercado de trabalho, para países da OCDE e parceiros. Cada tabela é um cubo longo: uma observação por combinação de dimensões, com o código de cada dimensão resolvido na tabela dicionario.",
+    "organizations": [
+      "Organization for Economic Cooperation and Development (OECD)"
+    ],
+    "tags": [
+      "financiamento",
+      "educação superior",
+      "trabalho",
+      "salário",
+      "escolaridade",
+      "gasto",
+      "aluno",
+      "docente"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "033c3cb9-01f9-4c52-8f69-902b54297ac3",
+    "name": "Banco de Dados Mundial de Desigualdade (WID)",
+    "description": "Séries históricas de distribuição de renda e riqueza compiladas pelo World Inequality Lab, cobrindo 1800 a 2025 para 410 áreas geográficas entre países, unidades subnacionais e agregados regionais, inclusive o mundo. Reúne agregados macroeconômicos das contas nacionais e medidas distribucionais por percentil, entre participações, limiares, médias e índices de Gini, construídos segundo as diretrizes de Contas Nacionais Distributivas (DINA). A unidade de cada série, sua fonte primária e seu método de construção estão na tabela series.",
+    "organizations": [
+      "World Inequality Lab (WIL)"
+    ],
+    "tags": [
+      "pib",
+      "renda",
+      "desigualdade",
+      "riqueza"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

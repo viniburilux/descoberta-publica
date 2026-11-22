@@ -1,0 +1,180 @@
+[
+  {
+    "id": "bbc6df97-08ff-4bb4-819d-6e5d85a80392",
+    "name": "IEPS Data",
+    "description": "O IEPS Data é uma iniciativa do Instituto de Estudos para Políticas de Saúde (IEPS), uma organização sem fins lucrativos, independente e apartidária, cujo único objetivo é contribuir para o aprimoramento das políticas públicas do setor de saúde no Brasil. O IEPS defende a ideia de que toda a população brasileira deva ter acesso à saúde de qualidade e que o uso de recursos e a regulação do sistema de saúde sejam os mais efetivos possíveis. Acreditamos que a melhor maneira de alcançar o nosso propósito é através de políticas públicas baseadas em evidências, desenhadas, implementadas e monitoradas de maneira transparente.",
+    "organizations": [
+      "Instituto de Estudos para Políticas de Saúde (IEPS)"
+    ],
+    "tags": [
+      "política pública",
+      "sus",
+      "vacina"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "86bac6cc-575f-4289-a857-13f3f52c9a1d",
+    "name": "Pesquisa Nacional de Saúde (PNS)",
+    "description": "A Pesquisa Nacional de Saúde (PNS) é um inquérito de base domiciliar e âmbito nacional, realizada pelo Ministério da Saúde (MS) em parceria com o Instituto Brasileiro de Geografia e Estatística (IBGE), nos anos de 2013 e 2019.\r\nA população pesquisada corresponde aos moradores de domicílios particulares permanentes do Brasil, exceto os localizados nos setores censitários especiais (compostos por aglomerados subnormais; quartéis, bases militares etc.; alojamento, acampamentos etc.; embarcações, barcos, navios etc.; aldeia indígena; penitenciárias, colônias penais, presídios, cadeias etc.; asilos, orfanatos, conventos, hospitais etc.; e assentamentos rurais).",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "saúde",
+      "saúde mental",
+      "política pública"
+    ],
+    "themes": [
+      "Saúde",
+      "População"
+    ]
+  },
+  {
+    "id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+    "name": "Cadastro Nacional de Estabelecimentos de Saúde (CNES)",
+    "description": "O Cadastro Nacional de Estabelecimentos de Saúde (CNES) é um documento público e sistema de informação oficial de cadastramento de informações acerca de todos os estabelecimentos de saúde do país, independentemente de sua natureza jurídica ou integração com o Sistema Único de Saúde (SUS). Os dados se referem à capacidade instalada e mão-de-obra assistencial de saúde no Brasil em estabelecimentos de saúde públicos ou privados. O CNES é a base cadastral para operacionalização de diversos sistemas, tais como: Sistema de Informação Ambulatorial (SIA), Sistema de Informação Hospitalar (SIH), e- SUS Atenção Básica (e-SUS AB), entre outros. Atualmente, o CNES é a ferramenta auxiliadora para uma gestão eficaz e eficiente, proporcionando ao gestor o conhecimento da realidade da rede assistencial existente e suas potencialidades e, auxiliando no planejamento em saúde em todas as esferas administrativa do Governo.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "datasus",
+      "diretório",
+      "hospital",
+      "leito hospitalar"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "167e5a31-453b-4b84-a3a1-3757ff6fd24f",
+    "name": "Beneficiários de Plano de Saúde",
+    "description": "O conjunto contém Informações consolidadas de beneficiários por competência.",
+    "organizations": [
+      "Agência Nacional de Saúde Suplementar"
+    ],
+    "tags": [
+      "saúde",
+      "plano de saúde",
+      "regulação"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "2cc0b275-d02a-413a-8769-7ce2785d86ae",
+    "name": "Cobertura da Atenção Básica",
+    "description": "Cobertura populacional estimada de equipes de saúde da família (eSF) e de equipes de Atenção Básica (eAB) utilizada para o monitoramento do acesso aos serviços de Atenção Básica, com vistas ao fortalecimento do planejamento do Sistema Único de Saúde (SUS).",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "município",
+      "atenção básica",
+      "sus"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "d0b61e1c-2ff2-43e7-b32f-5a054ba9b688",
+    "name": "Sistema de Vigilância Alimentar e Nutricional (SISVAN)",
+    "description": "A Vigilância Alimentar e Nutricional (VAN) nos serviços de saúde da Atenção Básica inclui a avaliação antropométrica (medidas corporais) e do consumo alimentar",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "alimentação",
+      "segurança alimentar",
+      "saúde",
+      "nutrição",
+      "atenção básica"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "48ccef51-8207-40ee-af5b-134c8ac3fb8c",
+    "name": "Nascidos Vivos (SINASC)",
+    "description": "Os dados disponíveis são oriundos do Sistema de Informações sobre Nascidos Vivos (SINASC)  elaborado pelo Departamento de Informática do SUS (DATASUS). O SINASC é gerido pelo Departamento de Análise de Situação de Saúde, da Secretaria de Vigilância em Saúde, em conjunto com as Secretarias Estaduais e Municipais de Saúde.\r\n\r\nAs Secretarias de Saúde coletam as Declarações de Nascidos Vivos (DN) nos estabelecimentos de saúde e nos cartórios (para partos domiciliares) e entram, no SINASC, as informações nelas contidas.\r\n\r\nDe uma maneira geral, as Secretarias Estaduais de Saúde enviam a sua Base de Dados para o Ministério da Saúde, quando consideram a coleta completa. O MS só pode considerar a Base Nacional completa quando todas as UF enviaram seus dados. A partir daí, é feita a consolidação, inclusive com a redistribuição dos dados pelo local de residência, a qual é a forma tradicional de apresentar os dados de Nascidos Vivos. Eventualmente, são feitas algumas correções nas informações.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "adolescente",
+      "nascimento",
+      "exame",
+      "fertilidade",
+      "gravidez",
+      "pré-natal"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "22d1f0d6-9bbc-4653-a841-7734867d2319",
+    "name": "Sistema de Informações Ambulatoriais (SIA)",
+    "description": "O Sistema de Informação Ambulatorial (SIA) faz parte do DATASUS e foi implantado nacionalmente na década de noventa com a finalidade de registrar os atendimentos/procedimentos/tratamentos realizados em cada estabelecimento de saúde no âmbito ambulatorial, por meio do Boletim de Produção Ambulatorial (BPA).\r\n\r\n Ao longo dos anos, o SIA vem sendo aprimorado para ser efetivamente um sistema que gere informações referentes ao atendimento ambulatorial e que possa subsidiar os gestores estaduais e municipais no monitoramento dos processos de planejamento, programação, regulação, avaliação e controle dos serviços de saúde na área ambulatorial.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "saúde",
+      "plano de saúde",
+      "saúde mental",
+      "avaliação de políticas públicas",
+      "política pública",
+      "sus"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "ff933265-8b61-4458-877a-173b3f38102b",
+    "name": "Sistema de Informações Hospitalares do SUS (SIH/SUS)",
+    "description": "O SIH/SUS, ou Sistema de Informações Hospitalares do Sistema Único de Saúde, é um banco de dados que abrange todos os hospitais que utilizam o SUS, gerido pela Secretaria de Atenção Especializada à Saúde, do Ministério da Saúde. Esse sistema coleta informações sobre internações hospitalares, incluindo dados sobre o paciente, o diagnóstico, os procedimentos realizados e os valores pagos. O SIH/SUS é fundamental para o acompanhamento e gestão dos serviços hospitalares, além de ser uma importante ferramenta para a produção de estatísticas de saúde e a realização de pesquisas.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "saúde",
+      "hospital",
+      "internação",
+      "sus"
+    ],
+    "themes": [
+      "Saúde",
+      "População"
+    ]
+  },
+  {
+    "id": "3ae482cf-c776-4c8c-957b-7aa0344829ad",
+    "name": "Global Indicators",
+    "description": null,
+    "organizations": [
+      "Social Progress Imperative"
+    ],
+    "tags": [
+      "ar",
+      "criança",
+      "saúde",
+      "mortalidade",
+      "escola",
+      "água"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde",
+      "Política"
+    ]
+  }
+]

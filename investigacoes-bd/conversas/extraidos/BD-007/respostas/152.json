@@ -1,0 +1,87 @@
+{
+  "row_count": 262,
+  "rows": [
+    {
+      "ano_emissao": 2013,
+      "sigla_uf": "RN",
+      "micro_imoveis": 0,
+      "credito_micro": 0.0,
+      "credito_total": 9279.0,
+      "participacao_micro": 0.0
+    },
+    {
+      "ano_emissao": 2016,
+      "sigla_uf": "MG",
+      "micro_imoveis": 0,
+      "credito_micro": 0.0,
+      "credito_total": 24101.78,
+      "participacao_micro": 0.0
+    },
+    {
+      "ano_emissao": 2016,
+      "sigla_uf": "PR",
+      "micro_imoveis": 0,
+      "credito_micro": 0.0,
+      "credito_total": 142247.59,
+      "participacao_micro": 0.0
+    },
+    {
+      "ano_emissao": 2017,
+      "sigla_uf": "AC",
+      "micro_imoveis": 0,
+      "credito_micro": 0.0,
+      "credito_total": 95880.0,
+      "participacao_micro": 0.0
+    },
+    {
+      "ano_emissao": 2017,
+      "sigla_uf": "SP",
+      "micro_imoveis": 0,
+      "credito_micro": 0.0,
+      "credito_total": 4532479.65,
+      "participacao_micro": 0.0
+    },
+    {
+      "ano_emissao": 2017,
+      "sigla_uf": "SC",
+      "micro_imoveis": 0,
+      "credito_micro": 0.0,
+      "credito_total": 2703579.9499999997,
+      "participacao_micro": 0.0
+    },
+    {
+      "ano_emissao": 2017,
+      "sigla_uf": "RO",
+      "micro_imoveis": 0,
+      "credito_micro": 0.0,
+      "credito_total": 5535107.15,
+      "participacao_micro": 0.0
+    },
+    {
+      "ano_emissao": 2017,
+      "sigla_uf": "RS",
+      "micro_imoveis": 0,
+      "credito_micro": 0.0,
+      "credito_total": 2969416.75,
+      "participacao_micro": 0.0
+    },
+    {
+      "ano_emissao": 2017,
+      "sigla_uf": "AM",
+      "micro_imoveis": 0,
+      "credito_micro": 0.0,
+      "credito_total": 60000.0,
+      "participacao_micro": 0.0
+    },
+    {
+      "ano_emissao": 2017,
+      "sigla_uf": "BA",
+      "micro_imoveis": 0,
+      "credito_micro": 0.0,
+      "credito_total": 1039322.7499999999,
+      "participacao_micro": 0.0
+    },
+    "... (252 more items)"
+  ],
+  "query_ref": "qr_7494867336494e488f2a1952c40f11e1"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "160cdb9e-7856-493c-b03d-b652a345e05e",
+  "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+  "gcp_id": "basedosdados.br_mapbiomas_estatisticas.classe",
+  "name": "Dicionário de classes da legenda",
+  "description": "Legenda hierárquica de cobertura e uso da terra da Coleção 11 do MapBiomas, com os rótulos dos quatro níveis em português, inglês e espanhol. Os rótulos em espanhol são tradução da Base dos Dados, já que o MapBiomas Brasil não publica legenda nesse idioma.",
+  "columns": [
+    {
+      "name": "chave",
+      "type": "STRING",
+      "description": "Código da classe de cobertura e uso da terra na legenda do MapBiomas",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_hierarquia",
+      "type": "STRING",
+      "description": "Código hierárquico da classe na planilha de estatísticas, como 3.2.1.1",
+      "needs_decoding": false
+    },
+    {
+      "name": "cor_hex",
+      "type": "STRING",
+      "description": "Cor hexadecimal da classe na legenda oficial do MapBiomas",
+      "needs_decoding": false
+    },
+    {
+      "name": "nivel",
+      "type": "STRING",
+      "description": "Nível da legenda em que a classe é definida, de 1 a 4",
+      "needs_decoding": false
+    },
+    {
+      "name": "nivel_1_en",
+      "type": "STRING",
+      "description": "Rótulo em inglês da classe no nível 1 da legenda",
+      "needs_decoding": false
+    },
+    {
+      "name": "nivel_1_es",
+      "type": "STRING",
+      "description": "Rótulo em espanhol da classe no nível 1 da legenda",
+      "needs_decoding": false
+    },
+    {
+      "name": "nivel_1_pt",
+      "type": "STRING",
+      "description": "Rótulo em português da classe no nível 1 da legenda",
+      "needs_decoding": false
+    },
+    {
+      "name": "nivel_2_en",
+      "type": "STRING",
+      "description": "Rótulo em inglês da classe no nível 2 da legenda",
+      "needs_decoding": false
+    },
+    {
+      "name": "nivel_2_es",
+      "type": "STRING",
+      "description": "Rótulo em espanhol da classe no nível 2 da legenda",
+      "needs_decoding": false
+    },
+    {
+      "name": "nivel_2_pt",
+      "type": "STRING",
+      "description": "Rótulo em português da classe no nível 2 da legenda",
+      "needs_decoding": false
+    },
+    "... (11 more items)"
+  ],
+  "partitioned_by": [],
+  "period_start": null,
+  "period_end": null
+}

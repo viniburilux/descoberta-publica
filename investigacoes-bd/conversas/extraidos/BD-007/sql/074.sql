@@ -1,0 +1,1 @@
+SELECT DISTINCT data_extracao FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao>=DATE '2026-06-02' AND data_extracao<=DATE '2026-08-04' ORDER BY data_extracao

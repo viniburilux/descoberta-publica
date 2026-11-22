@@ -1,0 +1,15 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "cars_total": 745,
+      "micro_cars": 86,
+      "cars_mais_10_operacoes": 2,
+      "cars_varios_mutuarios": 237,
+      "cars_varios_proprietarios": 64,
+      "max_operacoes": 35,
+      "max_mutuarios": 19
+    }
+  ],
+  "query_ref": "qr_b257910483d548e98c1ae77131005cba"
+}

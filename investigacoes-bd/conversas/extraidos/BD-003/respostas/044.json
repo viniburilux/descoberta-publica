@@ -1,0 +1,57 @@
+{
+  "row_count": 20,
+  "rows": [
+    {
+      "id_municipio_paciente": "355030",
+      "sigla_uf": null,
+      "n": 201
+    },
+    {
+      "id_municipio_paciente": "130260",
+      "sigla_uf": null,
+      "n": 185
+    },
+    {
+      "id_municipio_paciente": "530010",
+      "sigla_uf": null,
+      "n": 135
+    },
+    {
+      "id_municipio_paciente": "150140",
+      "sigla_uf": null,
+      "n": 109
+    },
+    {
+      "id_municipio_paciente": "150330",
+      "sigla_uf": null,
+      "n": 88
+    },
+    {
+      "id_municipio_paciente": "210790",
+      "sigla_uf": null,
+      "n": 77
+    },
+    {
+      "id_municipio_paciente": "130010",
+      "sigla_uf": null,
+      "n": 72
+    },
+    {
+      "id_municipio_paciente": "210570",
+      "sigla_uf": null,
+      "n": 68
+    },
+    {
+      "id_municipio_paciente": "210467",
+      "sigla_uf": null,
+      "n": 65
+    },
+    {
+      "id_municipio_paciente": "410690",
+      "sigla_uf": null,
+      "n": 58
+    },
+    "... (10 more items)"
+  ],
+  "query_ref": "qr_45e6c3c667604ca19d800ce689053d67"
+}

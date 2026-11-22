@@ -1,0 +1,86 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "posicao": 1,
+      "id_municipio": "2928901",
+      "municipio": "São Desidério",
+      "credito_rateado": 393801386.41666657,
+      "total_geral": 48292622454.51999,
+      "numero_municipios": 5241
+    },
+    {
+      "posicao": 2,
+      "id_municipio": "1100205",
+      "municipio": "Porto Velho",
+      "credito_rateado": 270615633.12,
+      "total_geral": 48292622454.51999,
+      "numero_municipios": 5241
+    },
+    {
+      "posicao": 3,
+      "id_municipio": "2201150",
+      "municipio": "Baixa Grande do Ribeiro",
+      "credito_rateado": 260903326.23000002,
+      "total_geral": 48292622454.51999,
+      "numero_municipios": 5241
+    },
+    {
+      "posicao": 4,
+      "id_municipio": "2101400",
+      "municipio": "Balsas",
+      "credito_rateado": 236806119.74,
+      "total_geral": 48292622454.51999,
+      "numero_municipios": 5241
+    },
+    {
+      "posicao": 5,
+      "id_municipio": "2911105",
+      "municipio": "Formosa do Rio Preto",
+      "credito_rateado": 234891521.84333333,
+      "total_geral": 48292622454.51999,
+      "numero_municipios": 5241
+    },
+    {
+      "posicao": 6,
+      "id_municipio": "5218805",
+      "municipio": "Rio Verde",
+      "credito_rateado": 227489363.01999998,
+      "total_geral": 48292622454.51999,
+      "numero_municipios": 5241
+    },
+    {
+      "posicao": 7,
+      "id_municipio": "2909307",
+      "municipio": "Correntina",
+      "credito_rateado": 221584893.51,
+      "total_geral": 48292622454.51999,
+      "numero_municipios": 5241
+    },
+    {
+      "posicao": 8,
+      "id_municipio": "5206206",
+      "municipio": "Cristalina",
+      "credito_rateado": 207349073.10000002,
+      "total_geral": 48292622454.51999,
+      "numero_municipios": 5241
+    },
+    {
+      "posicao": 9,
+      "id_municipio": "5107925",
+      "municipio": "Sorriso",
+      "credito_rateado": 203616479.99,
+      "total_geral": 48292622454.51999,
+      "numero_municipios": 5241
+    },
+    {
+      "posicao": 10,
+      "id_municipio": "2917359",
+      "municipio": "Jaborandi",
+      "credito_rateado": 196808906.7,
+      "total_geral": 48292622454.51999,
+      "numero_municipios": 5241
+    }
+  ],
+  "query_ref": "qr_97ac38537f204407a9f69923301102b6"
+}

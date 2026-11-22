@@ -1,0 +1,80 @@
+{
+  "id": "86b69f96-0bfe-45da-833b-6edc9a0af213",
+  "dataset_id": "3e7c4d58-96ba-448e-b053-d385a829ef00",
+  "gcp_id": "basedosdados.br_me_rais.microdados_estabelecimentos",
+  "name": "Microdados Estabelecimentos",
+  "description": "Microdados de estabelecimentos da RAIS.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "bairros_fortaleza",
+      "type": "STRING",
+      "description": "Bairros do município de Fortaleza",
+      "needs_decoding": true
+    },
+    {
+      "name": "bairros_rj",
+      "type": "STRING",
+      "description": "Bairros do município do Rio de Janeiro",
+      "needs_decoding": false
+    },
+    {
+      "name": "bairros_sp",
+      "type": "STRING",
+      "description": "Bairros do Municipio de São Paulo",
+      "needs_decoding": true
+    },
+    {
+      "name": "cep",
+      "type": "STRING",
+      "description": "Código de Endereçamento Postal",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_1",
+      "type": "STRING",
+      "description": "Código Nacional de Atividades Econômicas 1.0",
+      "reference_table_id": "81df4cce-b54c-4abd-9ec9-248bdf155770",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_2",
+      "type": "STRING",
+      "description": "Código Nacional de Atividades Econômicas 2.",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_2_subclasse",
+      "type": "STRING",
+      "description": "Subclasse do Código Nacional de Atividades Econômicas 2.0",
+      "reference_table_id": "8a02c4e5-1718-41e7-8891-d0fa09265d58",
+      "needs_decoding": false
+    },
+    {
+      "name": "distritos_sp",
+      "type": "STRING",
+      "description": "Distritos do município de São Paulo",
+      "needs_decoding": true
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    "... (16 more items)"
+  ],
+  "partitioned_by": [
+    "ano",
+    "sigla_uf"
+  ],
+  "period_start": "1985",
+  "period_end": "2025"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "cc7c4c7c-7648-4af1-a75d-ea15ece8c20f",
+  "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+  "gcp_id": "basedosdados.br_geobr_mapas.unidade_conservacao",
+  "name": "Unidade Conservação",
+  "description": "O geobr é um pacote R e Python que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples,... (61 more characters)",
+  "columns": [
+    {
+      "name": "ano_criacao",
+      "type": "INT64",
+      "description": "Ano de criação",
+      "needs_decoding": false
+    },
+    {
+      "name": "categoria",
+      "type": "STRING",
+      "description": "Categoria da UC segundo o Sistema Nacional de Unidades Conservação (SNUC)",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_ultima",
+      "type": "DATE",
+      "description": "Data da última modificação",
+      "needs_decoding": false
+    },
+    {
+      "name": "esfera",
+      "type": "STRING",
+      "description": "Esfera administrativa",
+      "needs_decoding": false
+    },
+    {
+      "name": "geometria",
+      "type": "GEOGRAPHY",
+      "description": "Polígono da Unidade de Conservação",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_cnuc",
+      "type": "STRING",
+      "description": "ID do Cadastro Nacional de Unidades de Conservação (CNUC)",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_geografico",
+      "type": "STRING",
+      "description": "ID do sistemas de informações geográficas (SIG) para região em questão",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_unidade_conservacao",
+      "type": "STRING",
+      "description": "ID da Unidade de Conservação (UC)",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_unidade_conservacao_wcmc",
+      "type": "STRING",
+      "description": "ID da UC coordenado pela WCMC (World Conservation Monitoring Centre)",
+      "needs_decoding": false
+    },
+    {
+      "name": "legislacao",
+      "type": "STRING",
+      "description": "Legislação",
+      "needs_decoding": false
+    },
+    "... (4 more items)"
+  ],
+  "partitioned_by": [],
+  "period_start": "2019-09",
+  "period_end": "2019-09"
+}

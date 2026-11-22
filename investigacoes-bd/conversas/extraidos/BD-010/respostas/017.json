@@ -1,0 +1,208 @@
+[
+  {
+    "id": "86bac6cc-575f-4289-a857-13f3f52c9a1d",
+    "name": "Pesquisa Nacional de Saúde (PNS)",
+    "description": "A Pesquisa Nacional de Saúde (PNS) é um inquérito de base domiciliar e âmbito nacional, realizada pelo Ministério da Saúde (MS) em parceria com o Instituto Brasileiro de Geografia e Estatística (IBGE), nos anos de 2013 e 2019.\r\nA população pesquisada corresponde aos moradores de domicílios particulares permanentes do Brasil, exceto os localizados nos setores censitários especiais (compostos por aglomerados subnormais; quartéis, bases militares etc.; alojamento, acampamentos etc.; embarcações, barcos, navios etc.; aldeia indígena; penitenciárias, colônias penais, presídios, cadeias etc.; asilos, orfanatos, conventos, hospitais etc.; e assentamentos rurais).",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "saúde",
+      "saúde mental",
+      "política pública"
+    ],
+    "themes": [
+      "Saúde",
+      "População"
+    ]
+  },
+  {
+    "id": "f061a9b7-fbdd-4138-9844-4951aac16d35",
+    "name": "Dados Abertos da ALESP",
+    "description": "O Portal Dados Abertos ALESP é a ferramenta disponibilizada pelo parlamento paulista para que todos possam encontrar e utilizar os dados e as informações públicas da casa. O portal também tem o objetivo de promover a interlocução entre atores da sociedade e os seus representantes para pensar a melhor utilização dos dados em prol de uma sociedade melhor.\r\n\r\nO portal tem o objetivo de disponibilizar todo e qualquer tipo de dado relativo ao Poder Legislativo do Estado de São Paulo. Por exemplo, dados do Processo Legislativo, informações sobre os deputados estaduais (contatos, áreas de atuação, bases eleitorais, produção legislativa), da prestação de contas dos deputados com os gastos de gabinetes, etc. O portal funciona como um grande catálogo que facilita a busca e uso de dados produzidos e publicados pela ALESP.",
+    "organizations": [
+      "Assembléia Legislativa do Estado de São Paulo (ALESP)"
+    ],
+    "tags": [
+      "proposição",
+      "burocracia",
+      "despesa",
+      "legislativo",
+      "dados abertos",
+      "política pública"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "1cdd328b-3b3a-44c9-b4d9-cdd049a4ae8b",
+    "name": "Eleições estaduais de Nova Gales do Sul",
+    "description": "Resultados das eleições gerais estaduais de Nova Gales do Sul, Austrália, publicados pela Comissão Eleitoral do estado (NSWEC), cobrindo os pleitos de 2011, 2015, 2019 e 2023. Reúne candidaturas, resultados por distrito e por local de votação, inscrições e comparecimento, distribuição de preferências e, das eleições de 2015 em diante, as preferências marcadas em cada cédula da Assembleia Legislativa. Cobre as duas câmaras do Parlamento estadual: a Assembleia Legislativa, eleita por voto preferencial opcional em 93 distritos, e o Conselho Legislativo, eleito por voto único transferível em uma circunscrição estadual única.",
+    "organizations": [
+      "Comissão Eleitoral de Nova Gales do Sul"
+    ],
+    "tags": [
+      "candidatura",
+      "democracia",
+      "eleições",
+      "sistema eleitoral",
+      "legislativo",
+      "parlamento",
+      "partido político",
+      "preferências",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "50d7bd73-dce6-41a5-adf0-66a50d10b501",
+    "name": "Japanese Municipal Elections Dataset (JMED)",
+    "description": "O Japanese Municipal Elections Dataset (JMED), elaborado por Charles T. McClean na Yale University, reúne 223.561 candidaturas em 21.111 eleições para assembleias municipais e prefeituras em 2.027 municípios do Japão de 2005 a 2025. Cada candidatura traz nome, idade, sexo, partido, situação de incumbência, votos e resultado, além do comparecimento e das eleições sem disputa. Um conjunto complementar registra as fusões, incorporações, desmembramentos e mudanças de nome, código e limites dos municípios no período.",
+    "organizations": [
+      "Yale University"
+    ],
+    "tags": [
+      "candidatura",
+      "eleições",
+      "gênero",
+      "município",
+      "partido político",
+      "representatividade",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "474eb2ab-3909-454b-8a3a-c07769cea44b",
+    "name": "Pesquisa Internacional de Competências de Adultos (PIAAC)",
+    "description": "Microdados da Pesquisa Internacional de Competências de Adultos (PIAAC) da OCDE, que mede letramento, numeramento e resolução de problemas em adultos de 16 a 65 anos. Reúne os arquivos de uso público dos dois ciclos: 35 arquivos internacionais do Ciclo 1, coletados em três rodadas entre 2011 e 2017, e 30 arquivos do Ciclo 2, coletados entre setembro de 2022 e agosto de 2023. Cada ciclo é dividido em uma tabela por respondente e uma tabela longa de respostas por item.",
+    "organizations": [
+      "Organization for Economic Cooperation and Development (OECD)"
+    ],
+    "tags": [
+      "avaliação da educação",
+      "emprego",
+      "renda",
+      "aprendizagem",
+      "alfabetização",
+      "ocupação",
+      "escolaridade",
+      "habilidade"
+    ],
+    "themes": [
+      "Economia",
+      "Educação"
+    ]
+  },
+  {
+    "id": "8192b6a5-863b-4603-a3bd-d10d82958e5d",
+    "name": "Eleições da Tasmânia",
+    "description": "Resultados das eleições estaduais da Tasmânia publicados pela Comissão Eleitoral da Tasmânia (TEC), cobrindo a Casa de Assembleia e o Conselho Legislativo de 2018 a 2026. Inclui candidaturas, resultados por divisão e por local de votação, distribuição de preferências, inscrições e comparecimento. A Casa de Assembleia usa o sistema Hare-Clark de voto único transferível e o Conselho Legislativo usa voto preferencial em divisões de cadeira única.",
+    "organizations": [
+      "Comissão Eleitoral da Tasmânia"
+    ],
+    "tags": [
+      "candidatura",
+      "eleições",
+      "sistema eleitoral",
+      "legislativo",
+      "parlamento",
+      "partido político",
+      "preferências",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "131dba4e-2101-4eb6-b93b-c923ae9e82ee",
+    "name": "Eleições estaduais da Austrália Meridional",
+    "description": "Resultados das eleições estaduais da Austrália Meridional publicados pela Comissão Eleitoral do estado (ECSA), cobrindo os pleitos gerais de 2022 e 2026 e as três eleições suplementares de distrito realizadas entre eles. Cobre as duas câmaras do Parlamento estadual: a Assembleia, eleita por voto preferencial obrigatório em 47 distritos, e o Conselho Legislativo, eleito por voto único transferível em uma circunscrição estadual única de 11 cadeiras por pleito. Inclui ainda as declarações de financiamento de campanha apresentadas à ECSA desde 2015, no nível da declaração e não da doação individual. Sobre a licença: a página de direitos autorais da ECSA licencia o conteúdo de ecsa.sa.gov.au sob a Creative Commons Australia Attribution 3.0 Licence, com atribuição a 'Government of South Australia 2011', mas essa concessão não alcança o servidor da API de resultados, que não publica declaração de licença alguma, e os portais de declarações de financiamento reservam todos os direitos; os dados são publicados aqui como registro público factual de resultados eleitorais declarados.",
+    "organizations": [
+      "Comissão Eleitoral da Austrália Meridional"
+    ],
+    "tags": [
+      "financiamento de campanha",
+      "candidatura",
+      "doação",
+      "eleições",
+      "sistema eleitoral",
+      "partido político",
+      "preferências",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "257e000c-1685-418a-88d9-4908ccef2840",
+    "name": "Emendas Parlamentares",
+    "description": "Dados do Portal da Transparência com as Emendas Parlamentares. \r\n\r\nEmendas parlamentares entende-se os recursos do orçamento público legalmente indicados pelos membros do Congresso Nacional e das Assembleias Legislativas estaduais para finalidades públicas, geralmente relacionada ao interesse temático e eleitoral de cada parlamentar.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "congresso",
+      "parlamento",
+      "gasto"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "6afcbdcb-5f30-477c-bd0f-c6a002e464df",
+    "name": "Fluxo Escolar no Estado de São Paulo (SP)",
+    "description": "O fluxo escolar é medido pela taxa média de aprovação em cada etapa da escolarização, sendo elas as séries iniciais e séries finais do Ensino Fundamental e Ensino Médio, coletadas pelo Censo Escolar.\r\n\r\nOs Dados de fluxo são apresentados por diretoria de ensino, escola e município, separados por ano, a partir de 2011. Acesse o dicionário de dados para a descrição dos campos do banco de dados.",
+    "organizations": [
+      "Secretaria de Educação de São Paulo"
+    ],
+    "tags": [
+      "taxa de aprovação",
+      "indicadores educacionais",
+      "avaliação da educação",
+      "pedagogia",
+      "escolas",
+      "prova"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "31ffbaa4-e7a1-4e20-9c5c-a52329e4127b",
+    "name": "Eleições de Victoria",
+    "description": "Resultados das eleições estaduais de Victoria, na Austrália, publicados pela Comissão Eleitoral de Victoria (VEC). Cobre as eleições gerais de 2006, 2010, 2014, 2018 e 2022, as eleições suplementares e parciais realizadas desde então, e o registro público de doações políticas a partir de 2018. Os resultados abrangem a Assembleia Legislativa, disputada por distritos de cadeira única, e o Conselho Legislativo, disputado por regiões de múltiplas cadeiras pelo voto único transferível desde 2006. A eleição de 2002 está representada apenas por duas províncias do Conselho Legislativo, Western Port e Higinbotham, porque a VEC não publica mais nada daquele pleito. As disputas de governo local, também administradas pela VEC, não estão incluídas.",
+    "organizations": [
+      "Comissão Eleitoral de Victoria (VEC)"
+    ],
+    "tags": [
+      "financiamento de campanha",
+      "candidatura",
+      "doação",
+      "eleições",
+      "sistema eleitoral",
+      "partido político",
+      "preferências",
+      "transparência",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  }
+]

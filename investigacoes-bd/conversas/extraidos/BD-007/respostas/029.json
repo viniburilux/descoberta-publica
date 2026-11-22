@@ -1,0 +1,44 @@
+[
+  {
+    "id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15",
+    "name": "Fiscalização Ambiental",
+    "description": "Registros de fiscalização ambiental do Ibama: autos de infração lavrados desde 1977 e termos de embargo desde 1987, com o enquadramento, o valor da multa, a situação do débito, a área embargada e a localização declarada. Os dados são publicados diariamente no portal de dados abertos do Ibama e reproduzem os sistemas Sifisc e Sicafi.",
+    "organizations": [
+      "Ibama"
+    ],
+    "tags": [
+      "desmatamento",
+      "embargo",
+      "fauna",
+      "multa",
+      "flora",
+      "infração",
+      "fiscalização",
+      "sanção"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9",
+    "name": "Banco de Dados de Queimadas",
+    "description": "Ocorrência do Fogo na Vegetação é o tema deste portal, http://queimadas.dgi.inpe.br/queimadas, desenvolvido no INPE, Instituto Nacional de Pesquisas Espaciais. Ele inclui o monitoramento operacional de focos de queimadas e de incêndios florestais detectados por satélites, e o cálculo e previsão do risco de fogo da vegetação.\r\n\r\nOs dados para a América do Sul e a Central, África e Europa, são atualizados a cada três horas, todos os dias do ano. O acesso às informações é livre, e no navegador internet usado, deve estar desbloqueada a carga das janelas \"pop up\" para acesso a várias figuras, tabelas e gráficos.\r\n\r\nUsuários que necessitam de focos com maior frequência temporal ou monitoramento em áreas específicas deverão consultar as \"Perguntas Frequentes\"\r\n\r\nAs informações neste portal estão divididas em blocos:\r\n\r\n- \"Situação Atual\", é a \"Sala de Situação\" do Portal, e fornece para os últimos dois dias os resultados relevantes do monitoramento de focos de queima de vegetação feito pelo INPE em imagens satélites. Vários itens nos títulos das figuras e tabelas podem ser selecionados, alterando as apresentações gráficas conforme as preferências espaciais e temporais do usuário. Passando o mouse sobre os títulos e figuras serão indicadas as opções ativas.\r\n- \"SIG Focos-Geral\", permite visualizar os focos em um Sistema de Informação Geográfica, com opções de períodos, regiões de interesse, satélites, planos de informação (p.ex. desmatamento, hidrografia, estradas), etc., além da exportação dos dados em formatos txt, html, shp e kmz.\r\n- \"SIG Focos-Áreas Protegidas\", Semelhante ao item anterior, mas dedicado à ocorrência do fogo em Áreas de Preservação, como Parques, Florestas, Reservas Biológicas municipais, estaduais e nacionais, e Terras Indígenas.\r\n- \"Situação nas Áreas Protegidas\", que contém o último relatório de focos detectados nas áreas de preservação, incluindo links que os mostram já inseridos no SIG do monitoramento.\r\n- \"Relatório Atual\", contém o último resumo do monitoramento de queimadas em formato pdf, que poderá ser salvo pelo usuário para análise detalhada dos dados. A opção \"Receber por E-Mail\" leva ao cadastro do usuário, onde se define individualmente o conteúdo dos relatórios e mensagens de alerta que serão recebidos automaticamente por E-Mail.\r\n- \"Risco de Fogo\", que apresenta o Risco de Fogo da vegetação estimado no presente, e suas previsões futuras (diárias, semanais e mensais), bem como o \"fogograma\" para qualquer local selecionado com o mouse nos mapas.\r\n- \"Meu Cadastro\", onde o usuário define e configura individualmente os produtos que deseja receber em seu E-Mail, como alertas de ocorrência de focos em áreas de preservação, boletins pdf diários com tabelas, gráficos e mapas de estados e países de interesse, e mensagens operacionais.\r\n- \"Outros Produtos\", com links a produtos adicionais gerados por este sistema de Queimadas e Incêndios, destacando-se: mapas mensais de focos em formato .gif com animações; mapas Meteorológicos (precipitação, temperatura, umidade do ar, ventos); detecções dos vários satélites utilizados; estimativas de concentrações e trajetórias dos poluentes emitidos; localização dos satélites utilizados, uma coletânea de dados anteriores e área de download, e; acesso a uma antiga versão da página do monitoramento de focos.\r\n- \"Links Relacionados\", com indicações de acesso ao Boletim do Ibama de Monitoramento de Queimadas e Incêndios, ao texto publicado mensalmente no Boletim Climanálise, a uma coleção de mais de 500 páginas com matérias, fotos, vídeos e sites diversos sobre queimadas e incêndios florestais, à composição da equipe deste trabalho, e aos agradecimentos.\r\n- \"Notícias e Destaques\", com informações, notícias e links de destaque na ocorrência do fogo na vegetação, e não restritas apenas à detecção de focos com satélites.\r\n- \"Aviso\", com informações operacionais indicando novidades, falhas e detalhes relevantes na geração dos produtos do monitoramento do fogo na vegetação.\r\n\r\nO INPE também gera outros produtos de queimadas que não são divulgados neste portal, atendendo necessidades individuais de usuários que optam em fazer o próprio processamento dos dados brutos enviados pelo INPE; um exemplo destes é o caso do PrevFogo/Ibama. Para receber em tempo quase-real as coordenadas geográficas dos focos e desenvolver sua própria base de aplicações, contatar queimadas@inpe.br.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "ar",
+      "queimada",
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "fogo",
+      "floresta",
+      "incêndio"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  }
+]

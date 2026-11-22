@@ -1,0 +1,87 @@
+{
+  "row_count": 36,
+  "rows": [
+    {
+      "ano": 2025,
+      "ensino": "fundamental",
+      "rede": "estadual",
+      "anos_escolares": "finais (6-9)",
+      "linhas": 4907,
+      "com_ideb": 3613
+    },
+    {
+      "ano": 2025,
+      "ensino": "fundamental",
+      "rede": "estadual",
+      "anos_escolares": "iniciais (1-5)",
+      "linhas": 3483,
+      "com_ideb": 1094
+    },
+    {
+      "ano": 2025,
+      "ensino": "fundamental",
+      "rede": "federal",
+      "anos_escolares": "finais (6-9)",
+      "linhas": 24,
+      "com_ideb": 23
+    },
+    {
+      "ano": 2025,
+      "ensino": "fundamental",
+      "rede": "federal",
+      "anos_escolares": "iniciais (1-5)",
+      "linhas": 16,
+      "com_ideb": 15
+    },
+    {
+      "ano": 2025,
+      "ensino": "fundamental",
+      "rede": "municipal",
+      "anos_escolares": "finais (6-9)",
+      "linhas": 3913,
+      "com_ideb": 3292
+    },
+    {
+      "ano": 2025,
+      "ensino": "fundamental",
+      "rede": "municipal",
+      "anos_escolares": "iniciais (1-5)",
+      "linhas": 5450,
+      "com_ideb": 5320
+    },
+    {
+      "ano": 2025,
+      "ensino": "fundamental",
+      "rede": "publica",
+      "anos_escolares": "finais (6-9)",
+      "linhas": 5569,
+      "com_ideb": 5491
+    },
+    {
+      "ano": 2025,
+      "ensino": "fundamental",
+      "rede": "publica",
+      "anos_escolares": "iniciais (1-5)",
+      "linhas": 5568,
+      "com_ideb": 5478
+    },
+    {
+      "ano": 2025,
+      "ensino": "medio",
+      "rede": "estadual",
+      "anos_escolares": "todos (1-4)",
+      "linhas": 5563,
+      "com_ideb": 5431
+    },
+    {
+      "ano": 2025,
+      "ensino": "medio",
+      "rede": "federal",
+      "anos_escolares": "todos (1-4)",
+      "linhas": 522,
+      "com_ideb": 224
+    },
+    "... (26 more items)"
+  ],
+  "query_ref": "qr_438ff693541b44e7966e99b815dd6cb5"
+}

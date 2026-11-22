@@ -1,0 +1,67 @@
+{
+  "row_count": 93,
+  "rows": [
+    {
+      "ano": 2022,
+      "conta_bd": "Gestão Ambiental",
+      "estagio_bd": "Despesas Empenhadas",
+      "valor": 50000.0
+    },
+    {
+      "ano": 2022,
+      "conta_bd": "Gestão Ambiental",
+      "estagio_bd": "Despesas Liquidadas",
+      "valor": 45000.0
+    },
+    {
+      "ano": 2022,
+      "conta_bd": "Gestão Ambiental",
+      "estagio_bd": "Despesas Pagas",
+      "valor": 45000.0
+    },
+    {
+      "ano": 2022,
+      "conta_bd": "Gestão Ambiental",
+      "estagio_bd": "Inscrição de Restos a Pagar Não Processados",
+      "valor": 5000.0
+    },
+    {
+      "ano": 2022,
+      "conta_bd": "Saneamento",
+      "estagio_bd": "Despesas Empenhadas",
+      "valor": 1656344.77
+    },
+    {
+      "ano": 2022,
+      "conta_bd": "Saneamento",
+      "estagio_bd": "Despesas Liquidadas",
+      "valor": 1503689.58
+    },
+    {
+      "ano": 2022,
+      "conta_bd": "Saneamento",
+      "estagio_bd": "Despesas Pagas",
+      "valor": 1500989.58
+    },
+    {
+      "ano": 2022,
+      "conta_bd": "Saneamento",
+      "estagio_bd": "Inscrição de Restos a Pagar Não Processados",
+      "valor": 152655.19
+    },
+    {
+      "ano": 2022,
+      "conta_bd": "Saneamento",
+      "estagio_bd": "Inscrição de Restos a Pagar Processados",
+      "valor": 2700.0
+    },
+    {
+      "ano": 2022,
+      "conta_bd": "Saneamento Básico Rural",
+      "estagio_bd": "Despesas Empenhadas",
+      "valor": 121698.57
+    },
+    "... (83 more items)"
+  ],
+  "query_ref": "qr_14a8216e392e448282300fd35eadf2d2"
+}

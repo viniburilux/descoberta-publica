@@ -1,0 +1,1 @@
+SELECT subatividade_ibge, COUNT(*) AS vinculos FROM `basedosdados.br_me_rais.microdados_vinculos` WHERE ano=2023 GROUP BY subatividade_ibge ORDER BY vinculos DESC LIMIT 30

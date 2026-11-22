@@ -1,0 +1,206 @@
+[
+  {
+    "id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+    "name": "Compras públicas",
+    "description": "Compras públicas brasileiras registradas no Compras.gov.br, abrangendo os dois regimes de contratação: as contratações realizadas sob a Lei 14.133/2021 e divulgadas no PNCP, de 2021 em diante, e as licitações e contratações diretas sob a Lei 8.666/1993, de 1997 a 2025. Inclui itens, resultados, atas de registro de preços, contratos e os cadastros de órgãos, unidades compradoras, fornecedores e catálogos de materiais e serviços. Apesar do nome do portal, cobre os três níveis de governo: 43% das contratações são federais, 31% estaduais e 25% municipais.",
+    "organizations": [
+      "Ministério da Gestão e da Inovação em Serviços Públicos"
+    ],
+    "tags": [
+      "companhia",
+      "contrato",
+      "preço",
+      "administração pública",
+      "licitação",
+      "compra",
+      "gasto",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "d909c505-0508-475c-b1a4-459e683567f8",
+    "name": "Execução Orçamentária e Compras dos Governos Estaduais",
+    "description": "Execução orçamentária e compras públicas dos governos estaduais brasileiros, em nível de transação sempre que a fonte permite. Os dados vêm dos portais de transparência de cada estado, sobre seus próprios sistemas financeiros (SIAFI/MG, FIPLAN/BA, e-Fisco/PE, SIAFEM/SP), e são harmonizados em um esquema comum.\n\nDiferente do MiDES, que reúne dados municipais coletados dos Tribunais de Contas estaduais, este conjunto cobre o gasto do próprio Poder Executivo estadual. A granularidade varia por estado, conforme o que cada fonte publica: empenho por linha orçamentária em Minas Gerais e Pernambuco, agregado mensal na Bahia e anual em São Paulo. Cada tabela documenta seu próprio grão.",
+    "organizations": [
+      "Base dos Dados",
+      "Governo da Bahia",
+      "Governo de Minas Gerais",
+      "Governo de Pernambuco",
+      "Governo de São Paulo"
+    ],
+    "tags": [
+      "orçamento",
+      "contrato",
+      "despesa",
+      "administração pública",
+      "finanças públicas",
+      "licitação",
+      "compra"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "e45fb279-4f3b-4c4c-b5ee-9d230f990a06",
+    "name": "Compras Públicas (Mercado Público)",
+    "description": "Compras públicas do Chile realizadas pela plataforma Mercado Público, no nível de linha de item, de janeiro de 2007 em diante. Cobre as ordens de compra emitidas pelos organismos do Estado regidos pela Lei N° 19.886 e as licitações que as originam, incluindo todas as propostas recebidas em cada licitação e não apenas a vencedora. Conforme a própria ChileCompra, o arquivo de descarga massiva inclui ordens de compra excluídas das estatísticas oficiais por conterem erros de valor ou de tipo de moeda, de modo que agregados calculados aqui não coincidem com as cifras publicadas pelo órgão.",
+    "organizations": [
+      "ChileCompra"
+    ],
+    "tags": [
+      "concorrência",
+      "contrato",
+      "empresa",
+      "administração pública",
+      "finanças públicas",
+      "licitação",
+      "compra",
+      "gasto"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "ade43a7f-eec2-4658-8cc5-10e388c90c47",
+    "name": "Índices Financeiros de Empresas (BCE / INPI)",
+    "description": "Indicadores e índices financeiros de empresas francesas (faturamento, margem bruta, EBE, EBIT, resultado líquido, endividamento, liquidez, autonomia financeira, capacidade de autofinanciamento e prazos de estoques, clientes e fornecedores), por número SIREN e data de encerramento do exercício, calculados a partir das contas anuais depositadas no Registro Nacional do Comércio e das Sociedades (RNCS) e difundidas pelo Instituto Nacional da Propriedade Industrial (INPI). Os dados são tratados pela DNUM do Ministério do Trabalho na Base Commune Entreprise (BCE) e publicados pela Direção-Geral das Empresas (DGE) dos Ministérios Econômicos e Financeiros. Cobre cerca de 1,6 milhão de empresas, com exercícios encerrados sobretudo entre 2016 e 2025.",
+    "organizations": [
+      "Instituto Nacional da Propriedade Industrial (INPI)"
+    ],
+    "tags": [
+      "contabilidade",
+      "balanço patrimonial",
+      "companhia",
+      "dívida",
+      "demonstração financeira",
+      "liquidez",
+      "rentabilidade",
+      "receita"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "35d072bc-ddf5-4975-b8ab-9a75f6d2fcfa",
+    "name": "Greenhouse Gas Reporting Program (GHGRP)",
+    "description": "O GHGRP exige a comunicação de dados de gases de efeito estufa (GEE) e outras informações relevantes de grandes fontes de emissão de GEE, fornecedores de combustíveis e gases industriais e locais de injeção de CO2 nos Estados Unidos. Aproximadamente 8.000 instalações são obrigadas a reportar as suas emissões anualmente, e os dados reportados são disponibilizados ao público em outubro de cada ano.",
+    "organizations": [
+      "U.S. Environmental Protection Agency (EPA)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "empresa",
+      "poluição"
+    ],
+    "themes": [
+      "Energia",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "3d388daa-2d20-49eb-8f55-6c561bef26b6",
+    "name": "Dados Abertos da Câmara dos Deputados",
+    "description": "Dados abertos da Câmara Federal de Deputados",
+    "organizations": [
+      "Câmara dos Deputados"
+    ],
+    "tags": [
+      "partido político"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "56ecd090-1392-474b-a99f-5bcd53450e01",
+    "name": "Dados Abertos Administrativos do Senado Federal",
+    "description": "Dados abertos administrativos do Senado Federal — despesas da CEAPS, servidores, remuneração, aposentados e pensionistas, contratações, licitações, empresas contratadas, colaboradores, suprimento de fundos e quadros de pessoal — extraídos do Serviço de Dados Abertos Administrativos (adm.senado.gov.br).",
+    "organizations": [
+      "Senado Federal"
+    ],
+    "tags": [
+      "orçamento",
+      "contrato",
+      "despesa",
+      "previdência",
+      "finanças públicas",
+      "aposentadoria",
+      "salário",
+      "transparência"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "d3874769-bcbd-4ece-a38a-157ba1021514",
+    "name": "Microdados de Despesas de Entes Subnacionais (MiDES)",
+    "description": "Microdados de compras públicas e execução orçamentária de entes subnacionais brasileiros.\r\n\r\nDados coletados de Tribunais de Contas Estaduais (TCEs) e harmonizados seguindo a metodologia descrita em Dahis, Ricca, Scot, Sales e Nascimento (2023).",
+    "organizations": [
+      "Banco Mundial"
+    ],
+    "tags": [
+      "orçamento",
+      "contrato",
+      "despesa",
+      "finanças públicas",
+      "licitação",
+      "compra",
+      "gasto",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "5c6664e6-38a4-4916-9473-72ac368bb96c",
+    "name": "Campeonatos Internacionais de Futebol",
+    "description": "Dados de competições internacionais de futebol no mundo com informações de partidas, times e jogadores de futebol.",
+    "organizations": [
+      "Transfermarkt"
+    ],
+    "tags": [
+      "champions_league",
+      "la_liga"
+    ],
+    "themes": [
+      "Esportes"
+    ]
+  },
+  {
+    "id": "c9df3aee-0e66-4a51-b5ab-b47fd3384126",
+    "name": "Setor Elétrico dos Estados Unidos (EIA-860 e EIA-923)",
+    "description": "Microdados dos formulários EIA-860 e EIA-923 da U.S. Energy Information Administration, que juntos descrevem o setor elétrico dos Estados Unidos: o inventário anual de usinas e geradores, com localização, capacidade, máquina primária, combustíveis, tecnologia de combustão e datas de entrada em operação e de aposentadoria, e a declaração mensal de geração líquida, consumo de combustível e entregas de combustível com custo entregue na usina. plant_id e utility_id são os identificadores atribuídos pela EIA e são as chaves de junção estáveis entre os dois formulários e ao longo do tempo. As tabelas trazem a microdata como declarada: onde a EIA não coletou um campo em determinado ano, a coluna fica nula em vez de ser imputada a partir de outros anos.",
+    "organizations": [
+      "Energy Information Administration (EIA)"
+    ],
+    "tags": [
+      "consumo",
+      "eletricidade",
+      "empresa",
+      "combustível",
+      "gás natural",
+      "petróleo",
+      "usina",
+      "preço"
+    ],
+    "themes": [
+      "Energia",
+      "Infraestrutura e Transportes"
+    ]
+  }
+]

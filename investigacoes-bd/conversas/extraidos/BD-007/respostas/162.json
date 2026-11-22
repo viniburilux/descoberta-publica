@@ -1,0 +1,77 @@
+{
+  "row_count": 24,
+  "rows": [
+    {
+      "id_municipio": "2900355",
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "operacoes": 970,
+      "imoveis": 402,
+      "credito": 35044123.84988491
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "MODERFROTA - PROGRAMA DE MODERNIZAÇÃO DA FROTA DE TRATORES AGRÍCOLAS E IMPL ASSOC E COLHEITADEIRAS",
+      "operacoes": 4,
+      "imoveis": 4,
+      "credito": 2669283.05
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "PRONAMP - PROGRAMA NACIONAL DE APOIO AO MÉDIO PRODUTOR RURAL",
+      "operacoes": 18,
+      "imoveis": 12,
+      "credito": 1392193.5402777775
+    },
+    {
+      "id_municipio": "2900355",
+      "programa": "FINANCIAMENTO SEM VÍNCULO A PROGRAMA ESPECÍFICO",
+      "operacoes": 10,
+      "imoveis": 8,
+      "credito": 700495.2666666666
+    },
+    {
+      "id_municipio": "2909208",
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "operacoes": 574,
+      "imoveis": 252,
+      "credito": 23057395.617499992
+    },
+    {
+      "id_municipio": "2909208",
+      "programa": "FINANCIAMENTO SEM VÍNCULO A PROGRAMA ESPECÍFICO",
+      "operacoes": 23,
+      "imoveis": 15,
+      "credito": 4536399.159
+    },
+    {
+      "id_municipio": "2909208",
+      "programa": "INOVAGRO - Programa de Incentivo à Inovação Tecnológica na Produção Agropecuária",
+      "operacoes": 1,
+      "imoveis": 1,
+      "credito": 449950.0
+    },
+    {
+      "id_municipio": "2909208",
+      "programa": "MODERFROTA - PROGRAMA DE MODERNIZAÇÃO DA FROTA DE TRATORES AGRÍCOLAS E IMPL ASSOC E COLHEITADEIRAS",
+      "operacoes": 1,
+      "imoveis": 1,
+      "credito": 255000.0
+    },
+    {
+      "id_municipio": "2918100",
+      "programa": "PRONAF - PROGRAMA NACIONAL DE FORTALECIMENTO DA AGRICULTURA FAMILIAR",
+      "operacoes": 1040,
+      "imoveis": 474,
+      "credito": 52898363.93566665
+    },
+    {
+      "id_municipio": "2918100",
+      "programa": "FINANCIAMENTO SEM VÍNCULO A PROGRAMA ESPECÍFICO",
+      "operacoes": 56,
+      "imoveis": 31,
+      "credito": 15393451.452500002
+    },
+    "... (14 more items)"
+  ],
+  "query_ref": "qr_f4cfbcb1f8b74bb0909d3e15e957909d"
+}

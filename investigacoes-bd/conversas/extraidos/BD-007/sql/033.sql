@@ -1,0 +1,1 @@
+WITH base AS (SELECT 'top20_credito' grupo, 0.0 x UNION ALL SELECT 'demais_municipios', 0.0), q AS (SELECT grupo, COUNT(*) municipios, AVG(x) media, APPROX_QUANTILES(x,100)[OFFSET(50)] mediana FROM base GROUP BY grupo) SELECT * FROM q

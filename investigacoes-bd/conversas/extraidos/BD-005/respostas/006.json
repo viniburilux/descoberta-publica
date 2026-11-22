@@ -1,0 +1,199 @@
+[
+  {
+    "id": "6adeafbc-d6d8-4a84-8d5e-7b4ffb8e0f24",
+    "name": "Registro de Empresas e Sociedades do Chile",
+    "description": "Sociedades e empresas constituídas sob o Regime Simplificado da Lei 20.659 (\"Tu Empresa en un Día\") e inscritas no Registro de Empresas e Sociedades do Chile, desde a entrada em vigor do regime em maio de 2013. Cada registro corresponde a uma sociedade identificada por seu RUT, com razão social, tipo societário, capital declarado, datas do trâmite e os domicílios tributário e social no nível de comuna. A fonte publica apenas as constituições: as modificações, dissoluções, migrações e anotações que o Registro também processa não estão incluídas.",
+    "organizations": [
+      "Registro de Empresas e Sociedades do Chile (RES)"
+    ],
+    "tags": [
+      "registro empresarial",
+      "empreendedorismo",
+      "empresa"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "5ebd8129-ae10-4ec6-bf97-8a43d0166fdb",
+    "name": "Empresas exportadoras e importadoras",
+    "description": "Cadastro de empresas que realizaram atividades de exportação ou importação durante anos específicos.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "atividade econômica",
+      "exportação",
+      "empresa",
+      "importação"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "ade43a7f-eec2-4658-8cc5-10e388c90c47",
+    "name": "Índices Financeiros de Empresas (BCE / INPI)",
+    "description": "Indicadores e índices financeiros de empresas francesas (faturamento, margem bruta, EBE, EBIT, resultado líquido, endividamento, liquidez, autonomia financeira, capacidade de autofinanciamento e prazos de estoques, clientes e fornecedores), por número SIREN e data de encerramento do exercício, calculados a partir das contas anuais depositadas no Registro Nacional do Comércio e das Sociedades (RNCS) e difundidas pelo Instituto Nacional da Propriedade Industrial (INPI). Os dados são tratados pela DNUM do Ministério do Trabalho na Base Commune Entreprise (BCE) e publicados pela Direção-Geral das Empresas (DGE) dos Ministérios Econômicos e Financeiros. Cobre cerca de 1,6 milhão de empresas, com exercícios encerrados sobretudo entre 2016 e 2025.",
+    "organizations": [
+      "Instituto Nacional da Propriedade Industrial (INPI)"
+    ],
+    "tags": [
+      "contabilidade",
+      "balanço patrimonial",
+      "companhia",
+      "dívida",
+      "demonstração financeira",
+      "liquidez",
+      "rentabilidade",
+      "receita"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+    "name": "Quadros Societários CNPJ",
+    "description": "Quadros societários e de administradores das pessoas jurídicas brasileiras.\r\n\r\n Este conjunto de dados é divulgado pela fonte original no formato de fotografias. Para cada data tem-se um retrato do universo de Cadastro Nacional das Pessoas Jurídicas (CNPJs) e seus atributos.  Com exceção da tabela de dicionários, a coluna data informa a data na qual os dados foram extraídos e disponibilizados pelo ministério da economia. \r\n\r\nPor que isso ocorre? Os atributos do CNPJ (situação cadastral; quadro societário) estão em constante mudança. A divulgação no formato de fotografias é uma forma de lidar com essa pecualiridade, uma vez que cada data reflete o estado atual do cadastro em um dado momento.\r\n\r\nComo isso afeta a análise? Em cada fotografia todos os CNPJs (ID de 14 dígitos) são repetidos. Logo,  haverá repetição de CNPJs se mais de uma data (fotografia) for selecionada.",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "firma",
+      "empresa",
+      "sócio"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "276a6fb3-078c-4746-b6bc-ea728662b8b3",
+    "name": "Vendas de Eletricidade no Varejo nos Estados Unidos (EIA-861)",
+    "description": "O lado da demanda da eletricidade nos Estados Unidos, a partir do Formulário EIA-861 da U.S. Energy Information Administration: um censo anual das distribuidoras e comercializadoras de eletricidade, com vendas, receita e número de consumidores por empresa, unidade federativa e setor de consumo (Anexo 4), as características de cada empresa e os condados que ela atende, mais o Formulário EIA-861M, que traz vendas, receita, consumidores e preço mensais por unidade federativa e setor de 1990 em diante. É o complemento de duas outras bases da EIA: us_eia_electricity, que cobre o lado da oferta de eletricidade (usinas, geradores e combustível) e junta-se a esta por utility_id, e us_eia_seds, o sistema estadual de consumo de energia de todos os combustíveis.",
+    "organizations": [
+      "Energy Information Administration (EIA)"
+    ],
+    "tags": [
+      "consumo",
+      "eletricidade",
+      "empresa",
+      "preço",
+      "receita"
+    ],
+    "themes": [
+      "Energia"
+    ]
+  },
+  {
+    "id": "5242e5cb-1c61-4190-9e5a-f439f50152c1",
+    "name": "Estatísticas Tributárias",
+    "description": "Estatísticas tributárias agregadas do Departamento de Impostos da Austrália (ATO), cobrindo pessoas físicas, empresas e o imposto sobre bens e serviços (GST). Os dados são publicados anualmente e detalhados por faixa de renda tributável, divisão industrial (ANZSIC), estado ou território e código postal. Esta versão cobre os exercícios fiscais de 2016-17 a 2023-24, e de 2017-18 a 2024-25 no caso do GST.",
+    "organizations": [
+      "Departamento de Impostos da Austrália (ATO)"
+    ],
+    "tags": [
+      "empresa",
+      "renda",
+      "desigualdade",
+      "receita",
+      "arrecadação",
+      "salário",
+      "tributo"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "67ba206f-83c0-4d29-8ff4-bf0a0a09878d",
+    "name": "Registro de Empresas da Austrália (ABR)",
+    "description": "Registro de todos os números de empresa (ABN) emitidos pelo Registro de Empresas da Austrália, administrado pelo Departamento de Impostos da Austrália (ATO). O extrato em massa é publicado semanalmente como um retrato completo: cada extraction_date é uma fotografia de todo o registro, contendo o nome da entidade, o tipo de entidade, a situação de registro do ABN e do GST, o número ASIC e a localização principal do negócio (estado e código postal). Nomes comerciais e outros nomes, além das habilitações como Beneficiária de Doações Dedutíveis (DGR), estão em tabelas filhas. Como cada retrato repete todos os ABN, selecionar mais de um extraction_date repete as entidades. Este é o análogo australiano do CNPJ brasileiro. Fonte: data.gov.au, licenciado sob CC BY 3.0 AU.",
+    "organizations": [
+      "Departamento de Impostos da Austrália (ATO)"
+    ],
+    "tags": [
+      "cnpj",
+      "empreendedorismo",
+      "Estabelecimento",
+      "empresa",
+      "governo",
+      "tributo"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "14bd1457-ffd4-4808-bf27-8795eee051f2",
+    "name": "Relatórios Regulatórios Bancários (Call Report, FR Y-9C e CRA)",
+    "description": "Os relatórios regulatórios completos do sistema bancário dos Estados Unidos: os anexos trimestrais do Call Report de todos os bancos (2009-2026), as demonstrações consolidadas FR Y-9C das holdings bancárias (1986-2026) e a divulgação anual de crédito a pequenas empresas e pequenos produtores rurais do Community Reinvestment Act (1996-2024). Aprofunda o núcleo de finanças em vez de duplicá-lo: us_fdic_bankfind traz o resumo curado da FDIC, este conjunto traz os anexos regulatórios completos que estão por baixo dele, e o arquivo do CRA por setor censitário é a contrapartida de crédito a pequenas empresas dos dados hipotecários de us_cfpb_hmda. Todos os itens são identificados pelo código do MDRM, o dicionário oficial do Federal Reserve, que acompanha o conjunto como tabela própria. O identificador RSSD é a chave de junção entre todas as tabelas deste conjunto; a ponte para us_fdic_bankfind é a coluna institution.fdic_cert_id, que carrega o certificado da FDIC.",
+    "organizations": [
+      "Conselho Federal de Exame de Instituições Financeiras (FFIEC)"
+    ],
+    "tags": [
+      "balanço patrimonial",
+      "banco",
+      "supervisão bancária",
+      "crédito",
+      "depósito",
+      "instituição financeira",
+      "empréstimo",
+      "relatório regulatório",
+      "pequena empresa"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+    "name": "Cadastros de Sanções da CGU",
+    "description": "Cadastros de sanções administrativas mantidos pela Controladoria-Geral da União (CGU) e publicados no Portal da Transparência, reunindo empresas e pessoas inidôneas, suspensas ou punidas (CEIS e CNEP), entidades privadas sem fins lucrativos impedidas (CEPIM) e acordos de leniência. Cada tabela é um retrato (snapshot) datado do respectivo cadastro, particionado pela data de extração.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "cnpj",
+      "companhia",
+      "corrupção",
+      "devedor",
+      "federal",
+      "multa",
+      "integridade",
+      "fiscalização",
+      "administração pública",
+      "licitação",
+      "sanção",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Justiça"
+    ]
+  },
+  {
+    "id": "74827951-3f2c-4f9f-b3d0-56e3aa7aeb39",
+    "name": "Comex Stat",
+    "description": "O Comex Stat um sistema para consultas e extração de dados do comércio exterior brasileiro. São divulgados mensalmente os dados detalhados das exportações e importações brasileiras, extraídas do SISCOMEX e baseados na declaração dos exportadores e importadores. A base de dados do sistema também está disponível para download.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "firma",
+      "exportação",
+      "empresa",
+      "importação",
+      "comércio",
+      "balança comercial"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

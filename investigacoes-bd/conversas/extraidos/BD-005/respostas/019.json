@@ -1,0 +1,75 @@
+{
+  "id": "9ea3af78-29b8-408a-8d8a-e78e8c61b6b5",
+  "dataset_id": "cab78c26-72df-4e0a-be83-c0a0d2126da2",
+  "gcp_id": "basedosdados.br_cgu_sancoes.ceis",
+  "name": "Cadastro de Empresas Inidôneas e Suspensas (CEIS)",
+  "description": "Cadastro de Empresas Inidôneas e Suspensas (CEIS): pessoas físicas e jurídicas que sofreram sanções restringindo o direito de participar de licitações ou de celebrar contratos com a Administração Pública. Cada linha é uma sanção, identificada por codigo_sancao. A tabela é um retrato datado do cadast... (35 more characters)",
+  "columns": [
+    {
+      "name": "abrangencia_sancao",
+      "type": "STRING",
+      "description": "Abrangência territorial ou institucional da sanção",
+      "needs_decoding": false
+    },
+    {
+      "name": "cadastro",
+      "type": "STRING",
+      "description": "Nome do cadastro de origem do registro",
+      "needs_decoding": false
+    },
+    {
+      "name": "categoria_sancao",
+      "type": "STRING",
+      "description": "Categoria da sanção aplicada",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_sancao",
+      "type": "STRING",
+      "description": "Código identificador da sanção no cadastro",
+      "needs_decoding": false
+    },
+    {
+      "name": "cpf_cnpj_sancionado",
+      "type": "STRING",
+      "description": "CPF ou CNPJ do sancionado, com dígitos preenchidos com zeros à esquerda",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_extracao",
+      "type": "DATE",
+      "description": "Data de extração do arquivo de dados, correspondente ao snapshot do cadastro",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_final_sancao",
+      "type": "DATE",
+      "description": "Data final da vigência da sanção",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_inicio_sancao",
+      "type": "DATE",
+      "description": "Data de início da vigência da sanção",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_origem_informacao",
+      "type": "DATE",
+      "description": "Data de origem da informação registrada",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_publicacao",
+      "type": "DATE",
+      "description": "Data de publicação da sanção",
+      "needs_decoding": false
+    },
+    "... (15 more items)"
+  ],
+  "partitioned_by": [
+    "data_extracao"
+  ],
+  "period_start": "2003-01-28",
+  "period_end": "2026-11-13"
+}

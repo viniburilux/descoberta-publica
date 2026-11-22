@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Unrecognized name: ano at [1:1403]\n\nLocation: None\nJob ID: c94b925c-a139-4fcb-8887-e0d61639e5b8\n"
+}

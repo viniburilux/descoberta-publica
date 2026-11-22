@@ -1,0 +1,75 @@
+{
+  "id": "79b47ad5-ac93-4ab3-80be-4cbf293e81ed",
+  "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "gcp_id": "basedosdados.br_bcb_sicor.recurso_publico_mutuario",
+  "name": "Recurso Público Mutuário",
+  "description": "Em 2023 o Banco Central do Brasil (BCB) liberou informações adicionais das operações de crédito que foram financiadas com recursos públicos. Esta tabela contém dados adicionais sobre o mutuário (tomador do empréstimo).",
+  "columns": [
+    {
+      "name": "ano_emissao",
+      "type": "INT64",
+      "description": "Ano da emissão da operação",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj",
+      "type": "STRING",
+      "description": "CNPJ do mutuário",
+      "reference_table_id": "b71e9a46-f98e-476b-a2d6-4444213a8ddc",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_basico",
+      "type": "STRING",
+      "description": "CNPJ Básico do mutuário",
+      "needs_decoding": false
+    },
+    {
+      "name": "cpf",
+      "type": "STRING",
+      "description": "CPF do mutuário",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_dap",
+      "type": "STRING",
+      "description": "Identificador da Declaração de Aptidão ao PRONAF (DAP)",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_referencia_bacen",
+      "type": "STRING",
+      "description": "Identificador único de cada operação de crédito",
+      "needs_decoding": false
+    },
+    {
+      "name": "mes_emissao",
+      "type": "INT64",
+      "description": "Mês de emissão da operação",
+      "unit": "month",
+      "needs_decoding": false
+    },
+    {
+      "name": "primeiro_mutuario",
+      "type": "STRING",
+      "description": "Esta coluna não possui um dicionário na fonte original que explica o significado dos valores. Ela esta descrita somente como \"Primeiro mutuário informado\"",
+      "needs_decoding": false
+    },
+    {
+      "name": "sexo",
+      "type": "STRING",
+      "description": "Esta coluna não possui um dicionário na fonte original que explica o significado dos valores. Ela esta descrita somente como \"Sexo do mutuário\"",
+      "needs_decoding": false
+    },
+    {
+      "name": "tipo_beneficiario",
+      "type": "STRING",
+      "description": "Tipo do Beneficiário",
+      "needs_decoding": true
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": "2013-01",
+  "period_end": "2026-10"
+}

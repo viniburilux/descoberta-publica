@@ -1,0 +1,12 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "total_pago": 146920456203.08002,
+      "linhas_pago_positivo": 35843,
+      "linhas_com_municipio": 56440,
+      "linhas": 56440
+    }
+  ],
+  "query_ref": "qr_a01fdcd3c4c34b24b37c48245c3609a8"
+}

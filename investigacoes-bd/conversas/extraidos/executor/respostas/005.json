@@ -1,0 +1,68 @@
+{
+  "id": "85548864-a953-4f04-b93d-64bf3b82e6e3",
+  "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "gcp_id": "basedosdados.br_bcb_sicor.recurso_publico_cooperado",
+  "name": "Recurso Público Cooperado",
+  "description": "Em 2023, o Banco Central do Brasil (BCB) liberou informações adicionais das operações de crédito que foram financiadas com recursos públicos. Esta tabela identifica o repasse do crédito a cada menbro de uma cooperativa, caso exista.",
+  "columns": [
+    {
+      "name": "ano_emissao",
+      "type": "INT64",
+      "description": "Ano da emissão da operação",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_basico",
+      "type": "STRING",
+      "description": "CNPJ Básico do cooperado",
+      "needs_decoding": false
+    },
+    {
+      "name": "cpf",
+      "type": "STRING",
+      "description": "CPF do cooperado",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_programa",
+      "type": "STRING",
+      "description": "Identificador do programa cujo crédito concedido está relacionado",
+      "needs_decoding": true
+    },
+    {
+      "name": "id_referencia_bacen",
+      "type": "STRING",
+      "description": "Identificador único de cada operação de crédito",
+      "needs_decoding": false
+    },
+    {
+      "name": "mes_emissao",
+      "type": "INT64",
+      "description": "Mês de emissão da operação",
+      "unit": "month",
+      "needs_decoding": false
+    },
+    {
+      "name": "numero_ordem",
+      "type": "STRING",
+      "description": "Identificador da quantidade de ordens que compõem uma operação de crédito",
+      "needs_decoding": false
+    },
+    {
+      "name": "tipo_pessoa",
+      "type": "STRING",
+      "description": "Tipo da entidade jurídica",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor_parcela",
+      "type": "FLOAT64",
+      "description": "Valor da parcela de crédito do cooperado",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": "2023-01",
+  "period_end": "2026-10"
+}

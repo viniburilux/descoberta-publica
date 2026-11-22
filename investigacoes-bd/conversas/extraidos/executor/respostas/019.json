@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Name n_imoveis not found inside c at [51:5]\n\nLocation: None\nJob ID: b92b19b0-a960-48aa-a1d9-d8edba04702a\n"
+}

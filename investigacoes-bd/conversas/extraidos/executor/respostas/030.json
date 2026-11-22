@@ -1,0 +1,42 @@
+{
+  "id": "02f435a6-a68a-4a6d-bad2-bb23ce3a4039",
+  "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "gcp_id": "basedosdados.br_bcb_sicor.fonte_recurso",
+  "name": "Fontes de recurso",
+  "description": "Catálogo das fontes de recurso do crédito rural, com descrição, vigência e o indicador de fonte pública. Combina duas tabelas de domínio da fonte original: `FonteRecursos`, com os 37 códigos, e `FonteRecursosPublicos`, com o subconjunto de 16 códigos considerados recursos públicos/controlados. O seg... (154 more characters)",
+  "columns": [
+    {
+      "name": "data_fim",
+      "type": "DATE",
+      "description": "Data de fim de vigência da fonte de recursos",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_inicio",
+      "type": "DATE",
+      "description": "Data de início de vigência da fonte de recursos",
+      "needs_decoding": false
+    },
+    {
+      "name": "descricao",
+      "type": "STRING",
+      "description": "Descrição da fonte de recursos",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_fonte_recurso",
+      "type": "STRING",
+      "description": "Identificador da fonte de recursos, sem zeros à esquerda, no mesmo formato de `operacao.id_fonte_recurso`",
+      "needs_decoding": false
+    },
+    {
+      "name": "indicador_recurso_publico",
+      "type": "STRING",
+      "description": "Indica se a fonte é classificada como pública/controlada pelo Banco Central (1 = pública, 0 = demais). É a definição que delimita quais operações aparecem nas tabelas `recurso_publico_*`",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": "2013",
+  "period_end": "2026"
+}

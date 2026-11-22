@@ -1,0 +1,87 @@
+{
+  "row_count": 243,
+  "rows": [
+    {
+      "id_municipio": "1500800",
+      "nome": "Ananindeua",
+      "cnae_2_subclasse": "4687703",
+      "descricao_subclasse": "Comércio atacadista de resíduos e sucatas metálicos",
+      "estabelecimentos": 34,
+      "vinculos_ativos": 89
+    },
+    {
+      "id_municipio": "1504208",
+      "nome": "Marabá",
+      "cnae_2_subclasse": "4687703",
+      "descricao_subclasse": "Comércio atacadista de resíduos e sucatas metálicos",
+      "estabelecimentos": 31,
+      "vinculos_ativos": 41
+    },
+    {
+      "id_municipio": "1501402",
+      "nome": "Belém",
+      "cnae_2_subclasse": "4687703",
+      "descricao_subclasse": "Comércio atacadista de resíduos e sucatas metálicos",
+      "estabelecimentos": 27,
+      "vinculos_ativos": 80
+    },
+    {
+      "id_municipio": "1505536",
+      "nome": "Parauapebas",
+      "cnae_2_subclasse": "4687703",
+      "descricao_subclasse": "Comércio atacadista de resíduos e sucatas metálicos",
+      "estabelecimentos": 25,
+      "vinculos_ativos": 51
+    },
+    {
+      "id_municipio": "1500800",
+      "nome": "Ananindeua",
+      "cnae_2_subclasse": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "estabelecimentos": 21,
+      "vinculos_ativos": 882
+    },
+    {
+      "id_municipio": "1501402",
+      "nome": "Belém",
+      "cnae_2_subclasse": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "estabelecimentos": 18,
+      "vinculos_ativos": 1215
+    },
+    {
+      "id_municipio": "1505536",
+      "nome": "Parauapebas",
+      "cnae_2_subclasse": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "estabelecimentos": 17,
+      "vinculos_ativos": 62
+    },
+    {
+      "id_municipio": "1506807",
+      "nome": "Santarém",
+      "cnae_2_subclasse": "4687703",
+      "descricao_subclasse": "Comércio atacadista de resíduos e sucatas metálicos",
+      "estabelecimentos": 13,
+      "vinculos_ativos": 75
+    },
+    {
+      "id_municipio": "1500800",
+      "nome": "Ananindeua",
+      "cnae_2_subclasse": "4687702",
+      "descricao_subclasse": "Comércio atacadista de resíduos e sucatas não metálicos, exceto de papel e papelão",
+      "estabelecimentos": 12,
+      "vinculos_ativos": 68
+    },
+    {
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "cnae_2_subclasse": "4687703",
+      "descricao_subclasse": "Comércio atacadista de resíduos e sucatas metálicos",
+      "estabelecimentos": 12,
+      "vinculos_ativos": 43
+    },
+    "... (233 more items)"
+  ],
+  "query_ref": "qr_534890f763b54cb08a57dea9890f33f2"
+}

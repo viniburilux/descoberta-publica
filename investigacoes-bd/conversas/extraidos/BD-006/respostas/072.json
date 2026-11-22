@@ -1,0 +1,77 @@
+{
+  "row_count": 14,
+  "rows": [
+    {
+      "ano_emissao": 2013,
+      "registros": 2294849,
+      "id_car_preenchido": 1,
+      "id_car_vazio": 2294848,
+      "ids_car_distintos": 1
+    },
+    {
+      "ano_emissao": 2014,
+      "registros": 2384340,
+      "id_car_preenchido": 0,
+      "id_car_vazio": 2384340,
+      "ids_car_distintos": 0
+    },
+    {
+      "ano_emissao": 2015,
+      "registros": 2185738,
+      "id_car_preenchido": 0,
+      "id_car_vazio": 2185738,
+      "ids_car_distintos": 0
+    },
+    {
+      "ano_emissao": 2016,
+      "registros": 1464939,
+      "id_car_preenchido": 8,
+      "id_car_vazio": 1464931,
+      "ids_car_distintos": 8
+    },
+    {
+      "ano_emissao": 2017,
+      "registros": 1904947,
+      "id_car_preenchido": 725,
+      "id_car_vazio": 1904222,
+      "ids_car_distintos": 478
+    },
+    {
+      "ano_emissao": 2018,
+      "registros": 1723810,
+      "id_car_preenchido": 51571,
+      "id_car_vazio": 1672239,
+      "ids_car_distintos": 30037
+    },
+    {
+      "ano_emissao": 2019,
+      "registros": 1774303,
+      "id_car_preenchido": 1680904,
+      "id_car_vazio": 93399,
+      "ids_car_distintos": 770165
+    },
+    {
+      "ano_emissao": 2020,
+      "registros": 1937982,
+      "id_car_preenchido": 1892881,
+      "id_car_vazio": 45101,
+      "ids_car_distintos": 852340
+    },
+    {
+      "ano_emissao": 2021,
+      "registros": 1918695,
+      "id_car_preenchido": 1878377,
+      "id_car_vazio": 40318,
+      "ids_car_distintos": 885663
+    },
+    {
+      "ano_emissao": 2022,
+      "registros": 1932101,
+      "id_car_preenchido": 1900197,
+      "id_car_vazio": 31904,
+      "ids_car_distintos": 903032
+    },
+    "... (4 more items)"
+  ],
+  "query_ref": "qr_d188acc709cd4b6ab35c7f39a1685f68"
+}

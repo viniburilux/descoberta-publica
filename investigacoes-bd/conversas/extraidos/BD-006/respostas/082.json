@@ -1,0 +1,87 @@
+{
+  "row_count": 50,
+  "rows": [
+    {
+      "comprimento": 41,
+      "uf_prefixo": "MA",
+      "municipio_embutido": "2101707",
+      "registros": 78,
+      "ids_distintos": 28,
+      "formato_estrutural_valido": 78
+    },
+    {
+      "comprimento": 41,
+      "uf_prefixo": "BA",
+      "municipio_embutido": "2930808",
+      "registros": 45,
+      "ids_distintos": 44,
+      "formato_estrutural_valido": 45
+    },
+    {
+      "comprimento": 41,
+      "uf_prefixo": "BA",
+      "municipio_embutido": "2902906",
+      "registros": 43,
+      "ids_distintos": 16,
+      "formato_estrutural_valido": 43
+    },
+    {
+      "comprimento": 41,
+      "uf_prefixo": "BA",
+      "municipio_embutido": "2914406",
+      "registros": 41,
+      "ids_distintos": 37,
+      "formato_estrutural_valido": 41
+    },
+    {
+      "comprimento": 41,
+      "uf_prefixo": "BA",
+      "municipio_embutido": "2914703",
+      "registros": 38,
+      "ids_distintos": 13,
+      "formato_estrutural_valido": 38
+    },
+    {
+      "comprimento": 41,
+      "uf_prefixo": "BA",
+      "municipio_embutido": "2902104",
+      "registros": 36,
+      "ids_distintos": 30,
+      "formato_estrutural_valido": 36
+    },
+    {
+      "comprimento": 41,
+      "uf_prefixo": "BA",
+      "municipio_embutido": "2905909",
+      "registros": 31,
+      "ids_distintos": 11,
+      "formato_estrutural_valido": 31
+    },
+    {
+      "comprimento": 41,
+      "uf_prefixo": "BA",
+      "municipio_embutido": "2920452",
+      "registros": 30,
+      "ids_distintos": 17,
+      "formato_estrutural_valido": 30
+    },
+    {
+      "comprimento": 41,
+      "uf_prefixo": "BA",
+      "municipio_embutido": "2902252",
+      "registros": 30,
+      "ids_distintos": 5,
+      "formato_estrutural_valido": 30
+    },
+    {
+      "comprimento": 41,
+      "uf_prefixo": "MA",
+      "municipio_embutido": "2105104",
+      "registros": 29,
+      "ids_distintos": 13,
+      "formato_estrutural_valido": 29
+    },
+    "... (40 more items)"
+  ],
+  "query_ref": "qr_09e107a17e3e402793d17f562a9b2718"
+}

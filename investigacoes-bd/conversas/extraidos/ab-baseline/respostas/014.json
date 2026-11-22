@@ -1,0 +1,22 @@
+{
+  "row_count": 4,
+  "rows": [
+    {
+      "finalidade": "Investimento",
+      "n": 1023433
+    },
+    {
+      "finalidade": "Custeio",
+      "n": 942813
+    },
+    {
+      "finalidade": "Comercialização",
+      "n": 22967
+    },
+    {
+      "finalidade": "Industrialização",
+      "n": 1732
+    }
+  ],
+  "query_ref": "qr_3c7444e0eae34638b59211583c0687b1"
+}

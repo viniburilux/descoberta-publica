@@ -1,0 +1,57 @@
+{
+  "id": "74827951-3f2c-4f9f-b3d0-56e3aa7aeb39",
+  "name": "Comex Stat",
+  "description": "O Comex Stat um sistema para consultas e extração de dados do comércio exterior brasileiro. São divulgados mensalmente os dados detalhados das exportações e importações brasileiras, extraídas do SISCOMEX e baseados na declaração dos exportadores e importadores. A base de dados do sistema também está... (26 more characters)",
+  "organizations": [
+    "Ministério da Economia (ME)"
+  ],
+  "tags": [
+    "firma",
+    "exportação",
+    "empresa",
+    "importação",
+    "comércio",
+    "balança comercial"
+  ],
+  "themes": [
+    "Economia"
+  ],
+  "tables": [
+    {
+      "id": "be952f34-2e81-4c75-a2a4-e5596663bc3a",
+      "dataset_id": "74827951-3f2c-4f9f-b3d0-56e3aa7aeb39",
+      "gcp_id": "basedosdados.br_me_comex_stat.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Comex Stat. Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "f4b08023-5530-4dc9-bced-3321e8928fd7",
+      "dataset_id": "74827951-3f2c-4f9f-b3d0-56e3aa7aeb39",
+      "gcp_id": "basedosdados.br_me_comex_stat.municipio_exportacao",
+      "name": "Município Exportação",
+      "description": "Base de dados detalhada por município da empresa exportadora e Posição do Sistema Harmonizado (SH4). Os dados de comércio exterior detalhados por município se relacionam com o domicílio fiscal da empresa que declarou a operação de exportação. O município não diz respeito ao local onde se produziu a ... (132 more characters)"
+    },
+    {
+      "id": "216ff772-0c8c-405e-8413-8a537127d766",
+      "dataset_id": "74827951-3f2c-4f9f-b3d0-56e3aa7aeb39",
+      "gcp_id": "basedosdados.br_me_comex_stat.municipio_importacao",
+      "name": "Município Importação",
+      "description": "Base de dados detalhada por município da empresa importadora e Posição do Sistema Harmonizado (SH4)"
+    },
+    {
+      "id": "527fdf2c-b079-4af2-b98c-31d7d99ed57d",
+      "dataset_id": "74827951-3f2c-4f9f-b3d0-56e3aa7aeb39",
+      "gcp_id": "basedosdados.br_me_comex_stat.ncm_exportacao",
+      "name": "NCM Exportação",
+      "description": "Base de dados detalhada de exportação por NCM."
+    },
+    {
+      "id": "04766df8-e6ba-4e06-a64b-406a61c5dd39",
+      "dataset_id": "74827951-3f2c-4f9f-b3d0-56e3aa7aeb39",
+      "gcp_id": "basedosdados.br_me_comex_stat.ncm_importacao",
+      "name": "NCM Importação",
+      "description": "Base de dados dos produtos importados pelo Brasil segundo a Nomenclatura Comum do Mercosul"
+    }
+  ],
+  "usage_guide": null
+}

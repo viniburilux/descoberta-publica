@@ -1,0 +1,38 @@
+{
+  "id": "782c5607-9f69-4e12-b0d5-aa0f1a7a94e2",
+  "name": "Banco de Dados Meteorológicos (INMET)",
+  "description": "O BDMEP abriga dados meteorológicos diários em forma digital, de séries históricas das várias estações meteorológicas convencionais da rede de estações do INMET com milhões de informações, referentes às medições diárias, de acordo com as normas técnicas internacionais da Organização Meteorológica Mu... (6 more characters)",
+  "organizations": [
+    "Instituto Nacional de Meteorologia (INMET)"
+  ],
+  "tags": [
+    "clima",
+    "meio ambiente",
+    "umidade",
+    "meteorologia",
+    "precipitação",
+    "radiação",
+    "temperatura"
+  ],
+  "themes": [
+    "Meio Ambiente",
+    "Ciência, Tecnologia e Inovação"
+  ],
+  "tables": [
+    {
+      "id": "2c7fdc3d-f2ed-4c78-84b8-d9c792a06703",
+      "dataset_id": "782c5607-9f69-4e12-b0d5-aa0f1a7a94e2",
+      "gcp_id": "basedosdados.br_inmet_bdmep.estacao",
+      "name": "Estação",
+      "description": "O BDMEP abriga dados meteorológicos diários em forma digital, de séries históricas das várias estações meteorológicas convencionais da rede de estações do INMET com milhões de informações, referentes às medições diárias, de acordo com as normas técnicas internacionais da Organização Meteorológica Mu... (6 more characters)"
+    },
+    {
+      "id": "28d16282-d100-4ea8-9dde-36c05c8f1ca2",
+      "dataset_id": "782c5607-9f69-4e12-b0d5-aa0f1a7a94e2",
+      "gcp_id": "basedosdados.br_inmet_bdmep.microdados",
+      "name": "Microdados",
+      "description": "O BDMEP abriga dados meteorológicos diários em forma digital, de séries históricas das várias estações meteorológicas convencionais da rede de estações do INMET com milhões de informações, referentes às medições diárias, de acordo com as normas técnicas internacionais da Organização Meteorológica Mu... (5 more characters)"
+    }
+  ],
+  "usage_guide": "---\ntitle: Guia de uso do BDMEP\ndescription: >-\n  Guia de uso dos Dados Metereoógicos BDMEP. Este material contém informações sobre as variáveis mais importantes, perguntas frequentes e exemplos de uso do conjunto\ndate:\n  created: \"2024-11-28T18:18:06.419Z\"\nthumbnail: \ncategories: [guia-de-uso]\nauth... (4961 more characters)"
+}

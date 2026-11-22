@@ -1,0 +1,43 @@
+{
+  "id": "5c355ed0-f7c1-471f-a8d2-6e9a97d03a29",
+  "dataset_id": "5beeec93-cbf3-43f6-9eea-9bee6a0d1683",
+  "gcp_id": "basedosdados.br_ms_sim.municipio",
+  "name": "Município",
+  "description": "Número de óbitos por ano e município de residência. Calculado a partir dos microdados. Óbitos sem município de residência informado entram com id_municipio nulo.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município de residência - IBGE 7 Dígitos (nulo se ignorado)",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "numero_obitos",
+      "type": "INT64",
+      "description": "Número de óbitos",
+      "unit": "person",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da Unidade da Federação de residência",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano",
+    "sigla_uf"
+  ],
+  "period_start": "1996",
+  "period_end": "2026"
+}

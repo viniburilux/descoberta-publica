@@ -1,0 +1,815 @@
+[
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 0,
+    "call_id": "call_OTBPhmGrYT1IN1Y3DaBse43F",
+    "nome": "search_datasets",
+    "args": {
+      "query": "meio ambiente"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 0,
+    "call_id": "call_uyBc40fzz1B2C9JnumKmgN9D",
+    "nome": "search_datasets",
+    "args": {
+      "query": "uso da terra"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 0,
+    "call_id": "call_ifR4ti0uCRxIx9yzuKqIupSL",
+    "nome": "search_datasets",
+    "args": {
+      "query": "imóveis rurais"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 0,
+    "call_id": "call_2K5MFiQxQ9hLoLDVHjAFbyh0",
+    "nome": "search_datasets",
+    "args": {
+      "query": "unidades conservação"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 0,
+    "call_id": "call_fqzTPKVPfbOgJ6d510jMDEkk",
+    "nome": "search_datasets",
+    "args": {
+      "query": "municípios territórios"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 0,
+    "call_id": "call_VQWlBtYTDH2OIfdYXVkcMjgn",
+    "nome": "search_datasets",
+    "args": {
+      "query": "monitoramento ambiental"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 0,
+    "call_id": "call_MaRXMqf44PJXCRhQWIogLXNW",
+    "nome": "search_datasets",
+    "args": {
+      "query": "atividades econômicas"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 0,
+    "call_id": "call_bOacYEtERo7UmCkPDwh1L0Q3",
+    "nome": "search_datasets",
+    "args": {
+      "query": "desmatamento"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 9,
+    "call_id": "call_5ohWydtqPSGCiGBeBY1DaCrQ",
+    "nome": "search_datasets",
+    "args": {
+      "query": "unidades conservação"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 9,
+    "call_id": "call_HEaBZYfTph3hi4saAGPYZ4do",
+    "nome": "search_datasets",
+    "args": {
+      "query": "áreas protegidas"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 9,
+    "call_id": "call_z7hR6xGaoFegCw2NIGqOUbcP",
+    "nome": "search_datasets",
+    "args": {
+      "query": "CNUC"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 9,
+    "call_id": "call_ppQL8Vbp25B76fPbIIqfm7tS",
+    "nome": "search_datasets",
+    "args": {
+      "query": "atividades econômicas território"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 9,
+    "call_id": "call_uQ3ENB9GQ1UeRnrgjW99YEgz",
+    "nome": "search_datasets",
+    "args": {
+      "query": "RAIS"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 9,
+    "call_id": "call_GbwZt2qD5wWJ3nOlBMSKMyL0",
+    "nome": "search_datasets",
+    "args": {
+      "query": "CNAE"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 16,
+    "call_id": "call_baAgt3IZpi3FZDRgLoR8VOWa",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 16,
+    "call_id": "call_3eE8PIGocEVImiAxLTmnbiII",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "37807a93-219d-45d6-b2ae-5f3f2746a035"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 16,
+    "call_id": "call_J6qpGuYtjlax7yJxKxI4yegM",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 16,
+    "call_id": "call_tnBv3z4ErflYbqYQkR69ukC1",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "e5c87240-ecce-4856-97c5-e6b84984bf42"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 16,
+    "call_id": "call_mtzhkcBTQvdLcpDpWGS5GBmh",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 16,
+    "call_id": "call_kUHLxF3sVrBPhHDT4ucr0X5c",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 16,
+    "call_id": "call_ycyG67eWgGSz7eXyVyYli2Ww",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 16,
+    "call_id": "call_g9Iyy05z1aUhS9FAHf0YNVAz",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_FFHbl2B2FmpVryOyreIg5vuM",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "0ba51523-2eb6-422c-a1bb-efc9f9e717a1"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_FECOxJHdJmobK1zzxgBJ9Nfp",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "01ced411-b26c-4890-81c9-d2d1991b9eb4"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_Si1Su8w4FQeU2aM9mZFT0YsH",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "7ade1cbd-c2b5-4d93-b12a-b3bfd255be52"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_EeCnajYNFmQuc6oxvkYfOVIh",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "3a71c300-11ce-404f-8c79-242a2c855f94"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_7LOvEaieOBA91rkcELAV8Zsf",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "8e0b42d5-b9c7-4ca3-ae66-76bcc8cb2c4b"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_FU82kad7krpj7zWidpCOG1a0",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "7731ffbf-fa80-4119-a672-863bf46ff748"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_4GAhTQwcxuyb7CfMfdoCmnXS",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "f19caeac-3098-42b0-a5ff-c13e68d1c306"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_Gu4nYibJ4d6BgPNIqmw0Tb1z",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "d7a76d45-c363-4494-826d-1580e997ebf0"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_VmbkqZ5SEioM7duU3ZBQQLII",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "a3696dc2-4dd1-4f7e-9769-6aa16a1556b8"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_x1x28Qqu0ODuiAQreE0XC8Wa",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "ea170fcb-5498-4d4c-a99b-c9b585783fff"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_gOjwNmlSnZhnjAe9wmM2ZfD6",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "1b04c5fe-854b-409a-a41a-4f6f4d22fe3e"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_8iSX27EyGnD2WahnBVwhw7VL",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "b39609b4-ffb2-4b4f-a182-47b0d160037b"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_Nu5BWjlrqcVBLHpbAj8FSUuJ",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "cc7c4c7c-7648-4af1-a75d-ea15ece8c20f"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_Ir3yMOmegtyzQz08SHII32cK",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "3880670f-eceb-47ec-802b-4579ee62ae3b"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_tCGF23YNguGveaFK9ScwKK3q",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 25,
+    "call_id": "call_n8eMJyaqqebB6Yna6bYubXGa",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "8a02c4e5-1718-41e7-8891-d0fa09265d58"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 42,
+    "call_id": "call_BIBrUUi5KO2K6Uh3UMeDVHeX",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "3e7c4d58-96ba-448e-b053-d385a829ef00"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 42,
+    "call_id": "call_ItoQWaz0R4cKkBuPIUiO7zQV",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "fc403b40-a7e1-40e7-9efe-910847b45a69"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 42,
+    "call_id": "call_huPesuahEhYIgQwOdq411f04",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "cecb702d-d4b7-45ec-adbb-719ebd5b3906"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 42,
+    "call_id": "call_tvWq0SAiJftACU2PCtJvFEpE",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "f7df4160-7a6f-4658-a287-3a73d412ed10"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 42,
+    "call_id": "call_hc1mfD5c36MbOB9ztjfWliEZ",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 48,
+    "call_id": "call_8IHC64QOSw7J2gMQ8gQuQP4s",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "86b69f96-0bfe-45da-833b-6edc9a0af213"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 48,
+    "call_id": "call_U0P9rzb0OFHAH12D9XFgNnCM",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "bd9b2960-361f-4465-be23-baaadaaf266d"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 48,
+    "call_id": "call_Vg1nGUbF4yKXgxK076sK92F6",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "1fd6598f-2dfa-4f26-94bb-0d6bd4a4c873"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 48,
+    "call_id": "call_51WO1Bq2nqCZjXGOIMT0lWyw",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "7f80781b-3b15-416c-8bb1-c1c33f324ec5"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 48,
+    "call_id": "call_aK8oaRlplPpaRLlH0yit2o6p",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "707b3dee-88a2-424d-a790-7216eb431c78"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 48,
+    "call_id": "call_JcNk3uCsgo3e88dKKAtvC094",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "d8514322-a6d4-4c7e-a4f7-3ec7860510f6"
+    }
+  },
+  {
+    "message_id": "f64e7125-6f8a-4b39-8c63-f8ff396a36f9",
+    "evento": 48,
+    "call_id": "call_BDCVmo9UrVwQgDGSZaHRb3e8",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "945d6a0b-39d0-42d7-b479-a087d5e09d64"
+    }
+  },
+  {
+    "message_id": "b073cd1e-8a92-40e1-8af5-c70ca73377a9",
+    "evento": 0,
+    "call_id": "call_vPkWPrxmdffpXOnkrmOkgGcb",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH autos AS (\n  SELECT id_auto\n  FROM `basedosdados.br_ibama_fiscalizacao.auto_infracao`\n  WHERE ano >= 1977\n    AND id_auto IS NOT NULL\n), embargos AS (\n  SELECT id_auto\n  FROM `basedosdados.br_ibama_fiscalizacao.area_embargada`\n  WHERE ano >= 1987\n    AND id_auto IS NOT NULL\n)\nSELECT\n  COUNT(*) AS total_embargos,\n  COUNTIF(a.id_auto IS NOT NULL) AS embargos_com_auto,\n  COUNTIF(a.id_auto IS NULL) AS embargos_sem_auto,\n  COUNT(DISTINCT e.id_auto) AS autos_com_embargo\nFROM embargos e\nLEFT JOIN autos a USING (id_auto)",
+      "slug": "teste_auto_embargo"
+    },
+    "arquivo_sql": "sql/001.sql"
+  },
+  {
+    "message_id": "b073cd1e-8a92-40e1-8af5-c70ca73377a9",
+    "evento": 0,
+    "call_id": "call_QbjhFk6tfsswbtoqWXyRwny8",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH mapbiomas AS (\n  SELECT id_municipio, sigla_uf, bioma, ano\n  FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe`\n  WHERE ano = 2023\n  GROUP BY id_municipio, sigla_uf, bioma, ano\n), prodes AS (\n  SELECT id_municipio, bioma, ano\n  FROM `basedosdados.br_inpe_prodes.municipio_bioma`\n  WHERE ano = 2023\n  GROUP BY id_municipio, bioma, ano\n)\nSELECT\n  COUNT(*) AS chaves_prodes,\n  COUNTIF(m.id_municipio IS NOT NULL) AS chaves_com_mapbiomas,\n  COUNTIF(m.id_municipio IS NULL) AS chaves_sem_mapbiomas\nFROM prodes p\nLEFT JOIN mapbiomas m\n  ON p.id_municipio = m.id_municipio\n AND p.bioma = m.bioma\n AND p.ano = m.ano",
+      "slug": "teste_mapbiomas_prodes"
+    },
+    "arquivo_sql": "sql/002.sql"
+  },
+  {
+    "message_id": "b073cd1e-8a92-40e1-8af5-c70ca73377a9",
+    "evento": 0,
+    "call_id": "call_xi4TDidMpjx8zK7XlWvnTSDy",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH rais AS (\n  SELECT id_municipio, sigla_uf, cnae_2_subclasse\n  FROM `basedosdados.br_me_rais.microdados_estabelecimentos`\n  WHERE ano = 2023\n    AND sigla_uf IS NOT NULL\n    AND cnae_2_subclasse IS NOT NULL\n  GROUP BY id_municipio, sigla_uf, cnae_2_subclasse\n), cnae AS (\n  SELECT subclasse\n  FROM `basedosdados.br_bd_diretorios_brasil.cnae_2`\n  GROUP BY subclasse\n)\nSELECT\n  COUNT(*) AS chaves_rais,\n  COUNTIF(c.subclasse IS NOT NULL) AS chaves_com_cnae,\n  COUNTIF(c.subclasse IS NULL) AS chaves_sem_cnae\nFROM rais r\nLEFT JOIN cnae c\n  ON r.cnae_2_subclasse = c.subclasse",
+      "slug": "teste_rais_cnae"
+    },
+    "arquivo_sql": "sql/003.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 0,
+    "call_id": "call_Yfh2Fff4Eeygerpj7dcdJCFe",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH autos AS (\n  SELECT id_auto\n  FROM `basedosdados.br_ibama_fiscalizacao.auto_infracao`\n  WHERE ano >= 1977\n), embargos AS (\n  SELECT id_embargo, id_auto, id_municipio, ano\n  FROM `basedosdados.br_ibama_fiscalizacao.area_embargada`\n  WHERE ano >= 1987\n), auto_keys AS (\n  SELECT id_auto, COUNT(*) AS n\n  FROM autos\n  WHERE id_auto IS NOT NULL\n  GROUP BY id_auto\n), embargo_keys AS (\n  SELECT id_auto, COUNT(*) AS n\n  FROM embargos\n  WHERE id_auto IS NOT NULL\n  GROUP BY id_auto\n), matched AS (\n  SELECT e.id_embargo, e.id_auto, e.id_municipio, e.ano\n  FROM embargos e\n  INNER JOIN auto_keys a USING (id_auto)\n), unmatched AS (\n  SELECT e.id_embargo, e.id_auto, e.id_municipio, e.ano\n  FROM embargos e\n  LEFT JOIN auto_keys a USING (id_auto)\n  WHERE a.id_auto IS NULL\n), metrics AS (\n  SELECT 'origem_auto_infracao_registros' AS metrica, CAST(COUNT(*) AS STRING) AS valor FROM autos\n  UNION ALL SELECT 'destino_area_embargada_registros', CAST(COUNT(*) AS STRING) FROM embargos\n  UNION ALL SELECT 'autos_id_auto_nulo', CAST(COUNTIF(id_auto IS NULL) AS STRING) FROM autos\n  UNION ALL SELECT 'embargos_id_auto_nulo', CAST(COUNTIF(id_auto IS NULL) AS STRING) FROM embargos\n  UNION ALL SELECT 'autos_id_auto_distintos', CAST(COUNT(DISTINCT id_auto) AS STRING) FROM autos WHERE id_auto IS NOT NULL\n  UNION ALL SELECT 'embargos_id_auto_distintos', CAST(COUNT(DISTINCT id_auto) AS STRING) FROM embargos WHERE id_auto IS NOT NULL\n  UNION ALL SELECT 'autos_chaves_duplicadas', CAST(COUNTIF(n > 1) AS STRING) FROM auto_keys\n  UNION ALL SELECT 'embargos_chaves_duplicadas', CAST(COUNTIF(n > 1) AS STRING) FROM embargo_keys\n  UNION ALL SELECT 'embargos_com_auto', CAST(COUNT(*) AS STRING) FROM matched\n  UNION ALL SELECT 'embargos_sem_auto', CAST(COUNT(*) AS STRING) FROM unmatched\n  UNION ALL SELECT 'embargos_com_auto_proporcao', CAST(SAFE_DIVIDE(COUNT(*), (SELECT COUNT(*) FROM embargos)) AS STRING) FROM matched\n  UNION ALL SELECT 'embargos_sem_auto_proporcao', CAST(SAFE_DIVIDE(COUNT(*), (SELECT COUNT(*) FROM embargos)) AS STRING) FROM unmatched\n  UNION ALL SELECT 'autos_com_pelo_menos_um_embargo', CAST(COUNT(DISTINCT id_auto) AS STRING) FROM matched\n)\nSELECT 'metrica' AS tipo, metrica AS item, valor, CAST(NULL AS STRING) AS id_exemplo, CAST(NULL AS STRING) AS detalhe\nFROM metrics\nUNION ALL\nSELECT 'exemplo_correspondente', 'embargo', CAST(ano AS STRING), id_embargo, id_auto\nFROM matched\nORDER BY tipo, item, id_exemplo\nLIMIT 40",
+      "slug": "avaliacao_auto_embargo"
+    },
+    "arquivo_sql": "sql/004.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 0,
+    "call_id": "call_ushUwx0ub1mFi523gv37Fn1Q",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH p AS (\n  SELECT id_municipio, bioma, ano\n  FROM `basedosdados.br_inpe_prodes.municipio_bioma`\n  WHERE ano = 2023\n), m AS (\n  SELECT id_municipio, sigla_uf, bioma, ano, id_classe, area\n  FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe`\n  WHERE ano = 2023\n), pk AS (\n  SELECT id_municipio, bioma, ano, COUNT(*) AS n\n  FROM p GROUP BY id_municipio, bioma, ano\n), mk AS (\n  SELECT id_municipio, bioma, ano, COUNT(*) AS n\n  FROM m GROUP BY id_municipio, bioma, ano\n), matched AS (\n  SELECT p.id_municipio, p.bioma, p.ano\n  FROM pk p INNER JOIN mk m USING (id_municipio, bioma, ano)\n), unmatched AS (\n  SELECT p.id_municipio, p.bioma, p.ano\n  FROM pk p LEFT JOIN mk m USING (id_municipio, bioma, ano)\n  WHERE m.id_municipio IS NULL\n), metrics AS (\n  SELECT 'prodes_registros' AS metrica, CAST(COUNT(*) AS STRING) AS valor FROM p\n  UNION ALL SELECT 'prodes_chaves_distintas', CAST(COUNT(*) AS STRING) FROM pk\n  UNION ALL SELECT 'mapbiomas_registros', CAST(COUNT(*) AS STRING) FROM m\n  UNION ALL SELECT 'mapbiomas_chaves_distintas', CAST(COUNT(*) AS STRING) FROM mk\n  UNION ALL SELECT 'prodes_chaves_nulas', CAST(COUNTIF(id_municipio IS NULL OR bioma IS NULL OR ano IS NULL) AS STRING) FROM pk\n  UNION ALL SELECT 'mapbiomas_chaves_nulas', CAST(COUNTIF(id_municipio IS NULL OR bioma IS NULL OR ano IS NULL) AS STRING) FROM mk\n  UNION ALL SELECT 'prodes_chaves_duplicadas', CAST(COUNTIF(n > 1) AS STRING) FROM pk\n  UNION ALL SELECT 'mapbiomas_chaves_duplicadas', CAST(COUNTIF(n > 1) AS STRING) FROM mk\n  UNION ALL SELECT 'prodes_chaves_com_mapbiomas', CAST(COUNT(*) AS STRING) FROM matched\n  UNION ALL SELECT 'prodes_chaves_sem_mapbiomas', CAST(COUNT(*) AS STRING) FROM unmatched\n  UNION ALL SELECT 'prodes_cobertura_com_mapbiomas', CAST(SAFE_DIVIDE(COUNT(*), (SELECT COUNT(*) FROM pk)) AS STRING) FROM matched\n  UNION ALL SELECT 'prodes_cobertura_sem_mapbiomas', CAST(SAFE_DIVIDE(COUNT(*), (SELECT COUNT(*) FROM pk)) AS STRING) FROM unmatched\n)\nSELECT 'metrica' AS tipo, metrica AS item, valor, CAST(NULL AS STRING) AS id_municipio, CAST(NULL AS STRING) AS bioma\nFROM metrics\nUNION ALL\nSELECT 'exemplo_correspondente', 'chave', CAST(ano AS STRING), id_municipio, bioma\nFROM matched\nUNION ALL\nSELECT 'exemplo_sem_correspondencia', 'chave', CAST(ano AS STRING), id_municipio, bioma\nFROM unmatched\nORDER BY tipo, item, id_municipio\nLIMIT 60",
+      "slug": "avaliacao_prodes_mapbiomas"
+    },
+    "arquivo_sql": "sql/005.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 0,
+    "call_id": "call_eaJshvtCSBP8BgMtGY5wU3uw",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH r AS (\n  SELECT id_municipio, sigla_uf, cnae_2_subclasse, ano\n  FROM `basedosdados.br_me_rais.microdados_estabelecimentos`\n  WHERE ano = 2023\n), c AS (\n  SELECT subclasse\n  FROM `basedosdados.br_bd_diretorios_brasil.cnae_2`\n), rk AS (\n  SELECT cnae_2_subclasse, COUNT(*) AS n\n  FROM r WHERE cnae_2_subclasse IS NOT NULL\n  GROUP BY cnae_2_subclasse\n), ck AS (\n  SELECT subclasse, COUNT(*) AS n\n  FROM c WHERE subclasse IS NOT NULL\n  GROUP BY subclasse\n), matched AS (\n  SELECT rk.cnae_2_subclasse, rk.n\n  FROM rk INNER JOIN ck ON rk.cnae_2_subclasse = ck.subclasse\n), unmatched AS (\n  SELECT rk.cnae_2_subclasse, rk.n\n  FROM rk LEFT JOIN ck ON rk.cnae_2_subclasse = ck.subclasse\n  WHERE ck.subclasse IS NULL\n), metrics AS (\n  SELECT 'rais_registros' AS metrica, CAST(COUNT(*) AS STRING) AS valor FROM r\n  UNION ALL SELECT 'rais_cnae_nulo', CAST(COUNTIF(cnae_2_subclasse IS NULL) AS STRING) FROM r\n  UNION ALL SELECT 'rais_cnae_distintos_nao_nulos', CAST(COUNT(*) AS STRING) FROM rk\n  UNION ALL SELECT 'diretorio_cnae_registros', CAST(COUNT(*) AS STRING) FROM c\n  UNION ALL SELECT 'diretorio_subclasses_distintas', CAST(COUNT(*) AS STRING) FROM ck\n  UNION ALL SELECT 'diretorio_subclasses_nulas', CAST(COUNTIF(subclasse IS NULL) AS STRING) FROM c\n  UNION ALL SELECT 'rais_subclasses_duplicadas', CAST(COUNTIF(n > 1) AS STRING) FROM rk\n  UNION ALL SELECT 'diretorio_subclasses_duplicadas', CAST(COUNTIF(n > 1) AS STRING) FROM ck\n  UNION ALL SELECT 'subclasses_rais_com_correspondencia', CAST(COUNT(*) AS STRING) FROM matched\n  UNION ALL SELECT 'subclasses_rais_sem_correspondencia', CAST(COUNT(*) AS STRING) FROM unmatched\n  UNION ALL SELECT 'proporcao_subclasses_rais_com_correspondencia', CAST(SAFE_DIVIDE(COUNT(*), (SELECT COUNT(*) FROM rk)) AS STRING) FROM matched\n  UNION ALL SELECT 'registros_rais_com_cnae_correspondente', CAST((SELECT COUNT(*) FROM r INNER JOIN ck ON r.cnae_2_subclasse = ck.subclasse) AS STRING)\n  UNION ALL SELECT 'registros_rais_sem_cnae_correspondente', CAST((SELECT COUNT(*) FROM r LEFT JOIN ck ON r.cnae_2_subclasse = ck.subclasse WHERE ck.subclasse IS NULL) AS STRING)\n)\nSELECT 'metrica' AS tipo, metrica AS item, valor, CAST(NULL AS STRING) AS chave, CAST(NULL AS STRING) AS detalhe\nFROM metrics\nUNION ALL\nSELECT 'exemplo_correspondente', 'subclasse', CAST(n AS STRING), cnae_2_subclasse, 'presente_no_diretorio'\nFROM matched\nUNION ALL\nSELECT 'exemplo_sem_correspondencia', 'subclasse', CAST(n AS STRING), cnae_2_subclasse, 'ausente_no_diretorio'\nFROM unmatched\nORDER BY tipo, item, chave\nLIMIT 60",
+      "slug": "avaliacao_rais_cnae"
+    },
+    "arquivo_sql": "sql/006.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 0,
+    "call_id": "call_cOfVHdMr7Tw7bJn8kZlNBEqR",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car AS (\n  SELECT id_imovel, id_municipio, sigla_uf, data_extracao\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao = '2026-08-04'\n), s AS (\n  SELECT id_car, id_referencia_bacen, numero_ordem, ano_emissao\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao = 2026\n), car_keys AS (\n  SELECT id_imovel, COUNT(*) AS n\n  FROM car WHERE id_imovel IS NOT NULL GROUP BY id_imovel\n), sicor_keys AS (\n  SELECT id_car, COUNT(*) AS n\n  FROM s WHERE id_car IS NOT NULL GROUP BY id_car\n), matched AS (\n  SELECT s.id_car, s.id_referencia_bacen, s.numero_ordem, c.id_municipio, c.sigla_uf\n  FROM s INNER JOIN car c ON s.id_car = c.id_imovel\n), unmatched AS (\n  SELECT s.id_car, s.id_referencia_bacen, s.numero_ordem\n  FROM s LEFT JOIN car c ON s.id_car = c.id_imovel\n  WHERE c.id_imovel IS NULL\n), metrics AS (\n  SELECT 'car_registros_snapshot' AS metrica, CAST(COUNT(*) AS STRING) AS valor FROM car\n  UNION ALL SELECT 'sicor_registros_2026', CAST(COUNT(*) AS STRING) FROM s\n  UNION ALL SELECT 'car_id_imovel_nulo', CAST(COUNTIF(id_imovel IS NULL) AS STRING) FROM car\n  UNION ALL SELECT 'sicor_id_car_nulo', CAST(COUNTIF(id_car IS NULL) AS STRING) FROM s\n  UNION ALL SELECT 'car_id_imovel_distintos', CAST(COUNT(*) AS STRING) FROM car_keys\n  UNION ALL SELECT 'sicor_id_car_distintos', CAST(COUNT(*) AS STRING) FROM sicor_keys\n  UNION ALL SELECT 'car_ids_duplicados', CAST(COUNTIF(n > 1) AS STRING) FROM car_keys\n  UNION ALL SELECT 'sicor_ids_duplicados', CAST(COUNTIF(n > 1) AS STRING) FROM sicor_keys\n  UNION ALL SELECT 'sicor_registros_com_car', CAST(COUNT(*) AS STRING) FROM matched\n  UNION ALL SELECT 'sicor_registros_sem_car', CAST(COUNT(*) AS STRING) FROM unmatched\n  UNION ALL SELECT 'proporcao_sicor_com_car', CAST(SAFE_DIVIDE(COUNT(*), (SELECT COUNT(*) FROM s)) AS STRING) FROM matched\n  UNION ALL SELECT 'proporcao_sicor_sem_car', CAST(SAFE_DIVIDE(COUNT(*), (SELECT COUNT(*) FROM s)) AS STRING) FROM unmatched\n  UNION ALL SELECT 'imoveis_car_com_sicor', CAST(COUNT(DISTINCT id_municipio || '|' || sigla_uf) AS STRING) FROM matched\n)\nSELECT 'metrica' AS tipo, metrica AS item, valor, CAST(NULL AS STRING) AS id_1, CAST(NULL AS STRING) AS id_2\nFROM metrics\nUNION ALL\nSELECT 'exemplo_correspondente', 'id_car_id_imovel', id_car, id_referencia_bacen\nFROM matched\nUNION ALL\nSELECT 'exemplo_sem_correspondencia', 'id_car_sem_imovel', id_car, id_referencia_bacen\nFROM unmatched\nORDER BY tipo, item, id_1\nLIMIT 60",
+      "slug": "avaliacao_sicor_car"
+    },
+    "arquivo_sql": "sql/007.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 5,
+    "call_id": "call_KsnfNZpJ72DZA6oOVLByCopd",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH autos AS (\n  SELECT id_auto FROM `basedosdados.br_ibama_fiscalizacao.auto_infracao` WHERE ano >= 1977\n), embargos AS (\n  SELECT id_embargo, id_auto, id_municipio, ano FROM `basedosdados.br_ibama_fiscalizacao.area_embargada` WHERE ano >= 1987\n), auto_keys AS (SELECT id_auto, COUNT(*) n FROM autos WHERE id_auto IS NOT NULL GROUP BY id_auto), embargo_keys AS (SELECT id_auto, COUNT(*) n FROM embargos WHERE id_auto IS NOT NULL GROUP BY id_auto),\nmatched AS (SELECT e.* FROM embargos e JOIN auto_keys a USING(id_auto)), unmatched AS (SELECT e.* FROM embargos e LEFT JOIN auto_keys a USING(id_auto) WHERE a.id_auto IS NULL),\nmetrics AS (\nSELECT 'autos_registros' item, CAST(COUNT(*) AS STRING) valor FROM autos\nUNION ALL SELECT 'embargos_registros', CAST(COUNT(*) AS STRING) FROM embargos\nUNION ALL SELECT 'autos_id_nulo', CAST(COUNTIF(id_auto IS NULL) AS STRING) FROM autos\nUNION ALL SELECT 'embargos_id_nulo', CAST(COUNTIF(id_auto IS NULL) AS STRING) FROM embargos\nUNION ALL SELECT 'autos_ids_distintos', CAST(COUNT(*) AS STRING) FROM auto_keys\nUNION ALL SELECT 'embargos_ids_distintos', CAST(COUNT(*) AS STRING) FROM embargo_keys\nUNION ALL SELECT 'autos_ids_duplicados', CAST(COUNTIF(n > 1) AS STRING) FROM auto_keys\nUNION ALL SELECT 'embargos_ids_duplicados', CAST(COUNTIF(n > 1) AS STRING) FROM embargo_keys\nUNION ALL SELECT 'embargos_com_auto', CAST(COUNT(*) AS STRING) FROM matched\nUNION ALL SELECT 'embargos_sem_auto', CAST(COUNT(*) AS STRING) FROM unmatched\nUNION ALL SELECT 'proporcao_embargos_com_auto', CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM matched),(SELECT COUNT(*) FROM embargos)) AS STRING)\nUNION ALL SELECT 'proporcao_embargos_sem_auto', CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM unmatched),(SELECT COUNT(*) FROM embargos)) AS STRING)\nUNION ALL SELECT 'autos_com_embargo', CAST(COUNT(DISTINCT id_auto) AS STRING) FROM matched)\nSELECT 1 ordem, 'metrica' tipo, item, valor, CAST(NULL AS STRING) id_1, CAST(NULL AS STRING) id_2 FROM metrics\nUNION ALL SELECT 2, 'exemplo_correspondente', 'embargo', CAST(ano AS STRING), CAST(id_embargo AS STRING), CAST(id_auto AS STRING) FROM matched QUALIFY ROW_NUMBER() OVER (ORDER BY id_embargo) <= 5\nUNION ALL SELECT 3, 'exemplo_sem_correspondencia', 'embargo', CAST(ano AS STRING), CAST(id_embargo AS STRING), CAST(id_auto AS STRING) FROM unmatched QUALIFY ROW_NUMBER() OVER (ORDER BY id_embargo) <= 5\nORDER BY ordem, item, id_1",
+      "slug": "metricas_auto_embargo"
+    },
+    "arquivo_sql": "sql/008.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 5,
+    "call_id": "call_07aU1BYq6JajmmCRN1paoI7g",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH p AS (SELECT id_municipio, bioma, ano FROM `basedosdados.br_inpe_prodes.municipio_bioma` WHERE ano=2023), m AS (SELECT id_municipio, bioma, ano FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe` WHERE ano=2023), pk AS (SELECT id_municipio,bioma,ano,COUNT(*) n FROM p GROUP BY 1,2,3), mk AS (SELECT id_municipio,bioma,ano,COUNT(*) n FROM m GROUP BY 1,2,3), matched AS (SELECT p.* FROM pk p JOIN mk m USING(id_municipio,bioma,ano)), unmatched AS (SELECT p.* FROM pk p LEFT JOIN mk m USING(id_municipio,bioma,ano) WHERE m.id_municipio IS NULL), metrics AS (\nSELECT 'prodes_registros' item, CAST(COUNT(*) AS STRING) valor FROM p\nUNION ALL SELECT 'prodes_chaves_distintas', CAST(COUNT(*) AS STRING) FROM pk\nUNION ALL SELECT 'mapbiomas_registros', CAST(COUNT(*) AS STRING) FROM m\nUNION ALL SELECT 'mapbiomas_chaves_distintas', CAST(COUNT(*) AS STRING) FROM mk\nUNION ALL SELECT 'prodes_chaves_duplicadas', CAST(COUNTIF(n>1) AS STRING) FROM pk\nUNION ALL SELECT 'mapbiomas_chaves_duplicadas', CAST(COUNTIF(n>1) AS STRING) FROM mk\nUNION ALL SELECT 'prodes_chaves_com_mapbiomas', CAST(COUNT(*) AS STRING) FROM matched\nUNION ALL SELECT 'prodes_chaves_sem_mapbiomas', CAST(COUNT(*) AS STRING) FROM unmatched\nUNION ALL SELECT 'proporcao_prodes_com_mapbiomas', CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM matched),(SELECT COUNT(*) FROM pk)) AS STRING)\nUNION ALL SELECT 'proporcao_prodes_sem_mapbiomas', CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM unmatched),(SELECT COUNT(*) FROM pk)) AS STRING))\nSELECT 1 ordem,'metrica' tipo,item,valor,CAST(NULL AS STRING) id_1,CAST(NULL AS STRING) id_2 FROM metrics\nUNION ALL SELECT 2,'exemplo_correspondente','chave',CAST(ano AS STRING),id_municipio,bioma FROM matched QUALIFY ROW_NUMBER() OVER(ORDER BY id_municipio,bioma)<=5\nUNION ALL SELECT 3,'exemplo_sem_correspondencia','chave',CAST(ano AS STRING),id_municipio,bioma FROM unmatched QUALIFY ROW_NUMBER() OVER(ORDER BY id_municipio,bioma)<=5\nORDER BY ordem,item,id_1",
+      "slug": "metricas_prodes_mapbiomas"
+    },
+    "arquivo_sql": "sql/009.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 5,
+    "call_id": "call_EBIxOdGDcXOhqarOYdQdk6cF",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH r AS (SELECT id_municipio,sigla_uf,cnae_2_subclasse FROM `basedosdados.br_me_rais.microdados_estabelecimentos` WHERE ano=2023), c AS (SELECT subclasse FROM `basedosdados.br_bd_diretorios_brasil.cnae_2`), rk AS (SELECT cnae_2_subclasse,COUNT(*) n FROM r WHERE cnae_2_subclasse IS NOT NULL GROUP BY 1), ck AS (SELECT subclasse,COUNT(*) n FROM c WHERE subclasse IS NOT NULL GROUP BY 1), matched AS (SELECT rk.* FROM rk JOIN ck ON rk.cnae_2_subclasse=ck.subclasse), unmatched AS (SELECT rk.* FROM rk LEFT JOIN ck ON rk.cnae_2_subclasse=ck.subclasse WHERE ck.subclasse IS NULL), metrics AS (\nSELECT 'rais_registros' item,CAST(COUNT(*) AS STRING) valor FROM r\nUNION ALL SELECT 'rais_cnae_nulo',CAST(COUNTIF(cnae_2_subclasse IS NULL) AS STRING) FROM r\nUNION ALL SELECT 'rais_subclasses_distintas',CAST(COUNT(*) AS STRING) FROM rk\nUNION ALL SELECT 'diretorio_registros',CAST(COUNT(*) AS STRING) FROM c\nUNION ALL SELECT 'diretorio_subclasses_distintas',CAST(COUNT(*) AS STRING) FROM ck\nUNION ALL SELECT 'rais_subclasses_duplicadas',CAST(COUNTIF(n>1) AS STRING) FROM rk\nUNION ALL SELECT 'diretorio_subclasses_duplicadas',CAST(COUNTIF(n>1) AS STRING) FROM ck\nUNION ALL SELECT 'rais_subclasses_com_diretorio',CAST(COUNT(*) AS STRING) FROM matched\nUNION ALL SELECT 'rais_subclasses_sem_diretorio',CAST(COUNT(*) AS STRING) FROM unmatched\nUNION ALL SELECT 'proporcao_subclasses_com_diretorio',CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM matched),(SELECT COUNT(*) FROM rk)) AS STRING)\nUNION ALL SELECT 'rais_registros_com_cnae',CAST((SELECT COUNT(*) FROM r JOIN ck ON r.cnae_2_subclasse=ck.subclasse) AS STRING)\nUNION ALL SELECT 'rais_registros_sem_cnae',CAST((SELECT COUNT(*) FROM r LEFT JOIN ck ON r.cnae_2_subclasse=ck.subclasse WHERE ck.subclasse IS NULL) AS STRING))\nSELECT 1 ordem,'metrica' tipo,item,valor,CAST(NULL AS STRING) id_1,CAST(NULL AS STRING) id_2 FROM metrics\nUNION ALL SELECT 2,'exemplo_correspondente','subclasse',CAST(n AS STRING),cnae_2_subclasse,'presente' FROM matched QUALIFY ROW_NUMBER() OVER(ORDER BY cnae_2_subclasse)<=5\nUNION ALL SELECT 3,'exemplo_sem_correspondencia','subclasse',CAST(n AS STRING),cnae_2_subclasse,'ausente' FROM unmatched QUALIFY ROW_NUMBER() OVER(ORDER BY cnae_2_subclasse)<=5\nORDER BY ordem,item,id_1",
+      "slug": "metricas_rais_cnae"
+    },
+    "arquivo_sql": "sql/010.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 5,
+    "call_id": "call_EMzwHcGEldPw5LBW4LZAW0Yo",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car AS (SELECT id_imovel,id_municipio,sigla_uf FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao='2026-08-04'), s AS (SELECT id_car,id_referencia_bacen,numero_ordem FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao=2026), ck AS (SELECT id_imovel,COUNT(*) n FROM car WHERE id_imovel IS NOT NULL GROUP BY 1), sk AS (SELECT id_car,COUNT(*) n FROM s WHERE id_car IS NOT NULL GROUP BY 1), matched AS (SELECT s.id_car,s.id_referencia_bacen,s.numero_ordem,c.id_municipio,c.sigla_uf FROM s JOIN car c ON s.id_car=c.id_imovel), unmatched AS (SELECT s.id_car,s.id_referencia_bacen,s.numero_ordem FROM s LEFT JOIN car c ON s.id_car=c.id_imovel WHERE c.id_imovel IS NULL), metrics AS (\nSELECT 'car_registros_snapshot' item,CAST(COUNT(*) AS STRING) valor FROM car\nUNION ALL SELECT 'sicor_registros_2026',CAST(COUNT(*) AS STRING) FROM s\nUNION ALL SELECT 'car_id_nulo',CAST(COUNTIF(id_imovel IS NULL) AS STRING) FROM car\nUNION ALL SELECT 'sicor_id_car_nulo',CAST(COUNTIF(id_car IS NULL) AS STRING) FROM s\nUNION ALL SELECT 'car_ids_distintos',CAST(COUNT(*) AS STRING) FROM ck\nUNION ALL SELECT 'sicor_ids_distintos',CAST(COUNT(*) AS STRING) FROM sk\nUNION ALL SELECT 'car_ids_duplicados',CAST(COUNTIF(n>1) AS STRING) FROM ck\nUNION ALL SELECT 'sicor_ids_duplicados',CAST(COUNTIF(n>1) AS STRING) FROM sk\nUNION ALL SELECT 'sicor_registros_com_car',CAST(COUNT(*) AS STRING) FROM matched\nUNION ALL SELECT 'sicor_registros_sem_car',CAST(COUNT(*) AS STRING) FROM unmatched\nUNION ALL SELECT 'proporcao_sicor_com_car',CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM matched),(SELECT COUNT(*) FROM s)) AS STRING)\nUNION ALL SELECT 'proporcao_sicor_sem_car',CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM unmatched),(SELECT COUNT(*) FROM s)) AS STRING))\nSELECT 1 ordem,'metrica' tipo,item,valor,CAST(NULL AS STRING) id_1,CAST(NULL AS STRING) id_2 FROM metrics\nUNION ALL SELECT 2,'exemplo_correspondente','id_car_id_imovel',id_car,id_referencia_bacen FROM matched QUALIFY ROW_NUMBER() OVER(ORDER BY id_car)<=5\nUNION ALL SELECT 3,'exemplo_sem_correspondencia','id_car_sem_imovel',id_car,id_referencia_bacen FROM unmatched WHERE id_car IS NOT NULL QUALIFY ROW_NUMBER() OVER(ORDER BY id_car)<=5\nORDER BY ordem,item,id_1",
+      "slug": "metricas_sicor_car"
+    },
+    "arquivo_sql": "sql/011.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 10,
+    "call_id": "call_xSJCNlld0HEyM9StKcoG9CdN",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH e AS (\n SELECT id_embargo,id_auto,id_municipio,ano\n FROM `basedosdados.br_ibama_fiscalizacao.area_embargada`\n WHERE ano >= 1987 AND id_auto IS NOT NULL\n), a AS (\n SELECT id_auto FROM `basedosdados.br_ibama_fiscalizacao.auto_infracao`\n WHERE ano >= 1977 AND id_auto IS NOT NULL\n GROUP BY id_auto\n)\nSELECT e.id_embargo,e.id_auto,e.id_municipio,e.ano\nFROM e LEFT JOIN a USING(id_auto)\nWHERE a.id_auto IS NULL\nORDER BY e.id_embargo\nLIMIT 10",
+      "slug": "exemplos_embargos_sem_auto"
+    },
+    "arquivo_sql": "sql/012.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 10,
+    "call_id": "call_jMNUBWU6WijRk7EbSQa0NDhP",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car AS (SELECT id_imovel,id_municipio,sigla_uf FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao='2026-08-04'), s AS (SELECT id_car,id_referencia_bacen,numero_ordem FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao=2026), ck AS (SELECT id_imovel,COUNT(*) n FROM car WHERE id_imovel IS NOT NULL GROUP BY 1), sk AS (SELECT id_car,COUNT(*) n FROM s WHERE id_car IS NOT NULL GROUP BY 1), matched AS (SELECT s.id_car,s.id_referencia_bacen,s.numero_ordem,c.id_municipio,c.sigla_uf FROM s JOIN car c ON s.id_car=c.id_imovel), unmatched AS (SELECT s.id_car,s.id_referencia_bacen,s.numero_ordem FROM s LEFT JOIN car c ON s.id_car=c.id_imovel WHERE c.id_imovel IS NULL), metrics AS (\nSELECT 'car_registros_snapshot' item,CAST(COUNT(*) AS STRING) valor FROM car\nUNION ALL SELECT 'sicor_registros_2026',CAST(COUNT(*) AS STRING) FROM s\nUNION ALL SELECT 'car_id_nulo',CAST(COUNTIF(id_imovel IS NULL) AS STRING) FROM car\nUNION ALL SELECT 'sicor_id_car_nulo',CAST(COUNTIF(id_car IS NULL) AS STRING) FROM s\nUNION ALL SELECT 'car_ids_distintos',CAST(COUNT(*) AS STRING) FROM ck\nUNION ALL SELECT 'sicor_ids_distintos',CAST(COUNT(*) AS STRING) FROM sk\nUNION ALL SELECT 'car_ids_duplicados',CAST(COUNTIF(n>1) AS STRING) FROM ck\nUNION ALL SELECT 'sicor_ids_duplicados',CAST(COUNTIF(n>1) AS STRING) FROM sk\nUNION ALL SELECT 'sicor_registros_com_car',CAST(COUNT(*) AS STRING) FROM matched\nUNION ALL SELECT 'sicor_registros_sem_car',CAST(COUNT(*) AS STRING) FROM unmatched\nUNION ALL SELECT 'proporcao_sicor_com_car',CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM matched),(SELECT COUNT(*) FROM s)) AS STRING)\nUNION ALL SELECT 'proporcao_sicor_sem_car',CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM unmatched),(SELECT COUNT(*) FROM s)) AS STRING))\nSELECT 1 ordem,'metrica' tipo,item,valor,CAST(NULL AS STRING) id_1,CAST(NULL AS STRING) id_2 FROM metrics\nUNION ALL SELECT 2,'exemplo_correspondente','id_car_id_imovel',id_car,id_referencia_bacen FROM matched QUALIFY ROW_NUMBER() OVER(ORDER BY id_car)<=5\nUNION ALL SELECT 3,'exemplo_sem_correspondencia','id_car_sem_imovel',id_car,id_referencia_bacen FROM unmatched WHERE id_car IS NOT NULL QUALIFY ROW_NUMBER() OVER(ORDER BY id_car)<=5\nORDER BY ordem,item,id_1",
+      "slug": "metricas_sicor_car_v2"
+    },
+    "arquivo_sql": "sql/013.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 13,
+    "call_id": "call_cUme0xTR4T42U1QMu1M7ztNH",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car AS (SELECT id_imovel,id_municipio,sigla_uf FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao='2026-08-04'), s AS (SELECT id_car,id_referencia_bacen,numero_ordem FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao=2026), ck AS (SELECT id_imovel,COUNT(*) n FROM car WHERE id_imovel IS NOT NULL GROUP BY 1), sk AS (SELECT id_car,COUNT(*) n FROM s WHERE id_car IS NOT NULL GROUP BY 1), matched AS (SELECT s.id_car,s.id_referencia_bacen,s.numero_ordem,c.id_municipio,c.sigla_uf FROM s JOIN car c ON s.id_car=c.id_imovel), unmatched AS (SELECT s.id_car,s.id_referencia_bacen,s.numero_ordem FROM s LEFT JOIN car c ON s.id_car=c.id_imovel WHERE c.id_imovel IS NULL), metrics AS (\nSELECT 'car_registros_snapshot' item,CAST(COUNT(*) AS STRING) valor FROM car\nUNION ALL SELECT 'sicor_registros_2026',CAST(COUNT(*) AS STRING) FROM s\nUNION ALL SELECT 'car_id_nulo',CAST(COUNTIF(id_imovel IS NULL) AS STRING) FROM car\nUNION ALL SELECT 'sicor_id_car_nulo',CAST(COUNTIF(id_car IS NULL) AS STRING) FROM s\nUNION ALL SELECT 'car_ids_distintos',CAST(COUNT(*) AS STRING) FROM ck\nUNION ALL SELECT 'sicor_ids_distintos',CAST(COUNT(*) AS STRING) FROM sk\nUNION ALL SELECT 'car_ids_duplicados',CAST(COUNTIF(n>1) AS STRING) FROM ck\nUNION ALL SELECT 'sicor_ids_duplicados',CAST(COUNTIF(n>1) AS STRING) FROM sk\nUNION ALL SELECT 'sicor_registros_com_car',CAST(COUNT(*) AS STRING) FROM matched\nUNION ALL SELECT 'sicor_registros_sem_car',CAST(COUNT(*) AS STRING) FROM unmatched\nUNION ALL SELECT 'proporcao_sicor_com_car',CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM matched),(SELECT COUNT(*) FROM s)) AS STRING)\nUNION ALL SELECT 'proporcao_sicor_sem_car',CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM unmatched),(SELECT COUNT(*) FROM s)) AS STRING))\nSELECT 1 ordem,'metrica' tipo,item,valor,CAST(NULL AS STRING) id_1,CAST(NULL AS STRING) id_2 FROM metrics\nUNION ALL SELECT 2,'exemplo_correspondente','id_car_id_imovel',CAST(NULL AS STRING),id_car,id_referencia_bacen FROM matched QUALIFY ROW_NUMBER() OVER(ORDER BY id_car)<=5\nUNION ALL SELECT 3,'exemplo_sem_correspondencia','id_car_sem_imovel',CAST(NULL AS STRING),id_car,id_referencia_bacen FROM unmatched WHERE id_car IS NOT NULL QUALIFY ROW_NUMBER() OVER(ORDER BY id_car)<=5\nORDER BY ordem,item,id_1",
+      "slug": "metricas_sicor_car_v3"
+    },
+    "arquivo_sql": "sql/014.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 15,
+    "call_id": "call_dNucoZaYUJvgDWM8CteSLX6M",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT 'car' origem, id_imovel AS id, LENGTH(id_imovel) AS tamanho\nFROM `basedosdados.br_sfb_sicar.area_imovel`\nWHERE data_extracao='2026-08-04'\n  AND id_imovel IS NOT NULL\nLIMIT 5\nUNION ALL\nSELECT 'sicor' origem, id_car AS id, LENGTH(id_car) AS tamanho\nFROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\nWHERE ano_emissao=2026\n  AND id_car IS NOT NULL\nLIMIT 5",
+      "slug": "diagnostico_ids_car_sicor"
+    },
+    "arquivo_sql": "sql/015.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 17,
+    "call_id": "call_vBifOpgPTxnqfkJABBsPgImT",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car AS (\n SELECT id_imovel AS id,LENGTH(id_imovel) tamanho FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao='2026-08-04' AND id_imovel IS NOT NULL LIMIT 5\n), sicor AS (\n SELECT id_car AS id,LENGTH(id_car) tamanho FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao=2026 AND id_car IS NOT NULL LIMIT 5\n)\nSELECT 'car' origem,id,tamanho FROM car\nUNION ALL\nSELECT 'sicor' origem,id,tamanho FROM sicor",
+      "slug": "diagnostico_ids_car_sicor_v2"
+    },
+    "arquivo_sql": "sql/016.sql"
+  },
+  {
+    "message_id": "27699485-2e29-48c9-8af1-f9e539ba2752",
+    "evento": 19,
+    "call_id": "call_I6OiyOExcvu4p97uV63jW2Dh",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car AS (\n SELECT id_imovel,id_municipio,sigla_uf,REPLACE(id_imovel,'-','') id_car_normalizado\n FROM `basedosdados.br_sfb_sicar.area_imovel`\n WHERE data_extracao='2026-08-04'\n), s AS (\n SELECT id_car,id_referencia_bacen,numero_ordem\n FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n WHERE ano_emissao=2026\n), ck AS (SELECT id_car_normalizado,COUNT(*) n FROM car WHERE id_car_normalizado IS NOT NULL GROUP BY 1), sk AS (SELECT id_car,COUNT(*) n FROM s WHERE id_car IS NOT NULL GROUP BY 1), matched AS (SELECT s.id_car,s.id_referencia_bacen,s.numero_ordem,c.id_imovel,c.id_municipio,c.sigla_uf FROM s JOIN car c ON s.id_car=c.id_car_normalizado), unmatched AS (SELECT s.id_car,s.id_referencia_bacen,s.numero_ordem FROM s LEFT JOIN car c ON s.id_car=c.id_car_normalizado WHERE c.id_imovel IS NULL), metrics AS (\nSELECT 'car_registros_snapshot' item,CAST(COUNT(*) AS STRING) valor FROM car\nUNION ALL SELECT 'sicor_registros_2026',CAST(COUNT(*) AS STRING) FROM s\nUNION ALL SELECT 'sicor_id_car_nulo',CAST(COUNTIF(id_car IS NULL) AS STRING) FROM s\nUNION ALL SELECT 'car_ids_normalizados_distintos',CAST(COUNT(*) AS STRING) FROM ck\nUNION ALL SELECT 'sicor_ids_distintos',CAST(COUNT(*) AS STRING) FROM sk\nUNION ALL SELECT 'car_ids_normalizados_duplicados',CAST(COUNTIF(n>1) AS STRING) FROM ck\nUNION ALL SELECT 'sicor_ids_duplicados',CAST(COUNTIF(n>1) AS STRING) FROM sk\nUNION ALL SELECT 'sicor_registros_com_car_normalizado',CAST(COUNT(*) AS STRING) FROM matched\nUNION ALL SELECT 'sicor_registros_sem_car_normalizado',CAST(COUNT(*) AS STRING) FROM unmatched\nUNION ALL SELECT 'proporcao_sicor_com_car_normalizado',CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM matched),(SELECT COUNT(*) FROM s)) AS STRING)\nUNION ALL SELECT 'proporcao_sicor_sem_car_normalizado',CAST(SAFE_DIVIDE((SELECT COUNT(*) FROM unmatched),(SELECT COUNT(*) FROM s)) AS STRING))\nSELECT 1 ordem,'metrica' tipo,item,valor,CAST(NULL AS STRING) id_1,CAST(NULL AS STRING) id_2 FROM metrics\nUNION ALL SELECT 2,'exemplo_correspondente','id_car_normalizado',CAST(NULL AS STRING),id_car,id_imovel FROM matched QUALIFY ROW_NUMBER() OVER(ORDER BY id_car)<=5\nUNION ALL SELECT 3,'exemplo_sem_correspondencia','id_car_normalizado',CAST(NULL AS STRING),id_car,CAST(NULL AS STRING) FROM unmatched WHERE id_car IS NOT NULL QUALIFY ROW_NUMBER() OVER(ORDER BY id_car)<=5\nORDER BY ordem,item,id_1",
+      "slug": "metricas_sicor_car_normalizado"
+    },
+    "arquivo_sql": "sql/017.sql"
+  },
+  {
+    "message_id": "6977478e-843e-4590-bbf7-e1828a0af083",
+    "evento": 0,
+    "call_id": "call_sUmMjMjNpXKtjnZHt0SvHxM2",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH prodes AS (\n  SELECT\n    id_municipio,\n    SUM(desmatado) AS desmatado_km2,\n    SUM(area_total) AS area_bioma_km2\n  FROM `basedosdados.br_inpe_prodes.municipio_bioma`\n  WHERE ano = 2023\n  GROUP BY id_municipio\n), mapbiomas AS (\n  SELECT\n    id_municipio,\n    SUM(area) AS area_mapeada_ha,\n    COUNT(DISTINCT id_classe) AS classes_presentes\n  FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe`\n  WHERE ano = 2023\n  GROUP BY id_municipio\n), pam AS (\n  SELECT\n    id_municipio,\n    SUM(quantidade_produzida) AS producao_ton,\n    SUM(valor_producao) AS valor_producao_mil_brl,\n    SUM(area_colhida) AS area_colhida_ha\n  FROM `basedosdados.br_ibge_pam.lavoura_temporaria`\n  WHERE ano = 2023\n  GROUP BY id_municipio\n)\nSELECT\n  p.id_municipio,\n  p.desmatado_km2,\n  p.area_bioma_km2,\n  m.area_mapeada_ha,\n  m.classes_presentes,\n  a.producao_ton,\n  a.valor_producao_mil_brl,\n  a.area_colhida_ha\nFROM prodes p\nJOIN mapbiomas m USING (id_municipio)\nJOIN pam a USING (id_municipio)\nORDER BY p.desmatado_km2 DESC\nLIMIT 20",
+      "slug": "cadeia_prodes_mapbiomas_pam"
+    },
+    "arquivo_sql": "sql/018.sql"
+  },
+  {
+    "message_id": "6977478e-843e-4590-bbf7-e1828a0af083",
+    "evento": 0,
+    "call_id": "call_ulOm1fze8DsyElvSvbFIVQAD",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH queimadas AS (\n  SELECT\n    id_municipio,\n    COUNT(*) AS focos,\n    SUM(potencia_radiativa_fogo) AS frp_total_mw,\n    AVG(risco_fogo) AS risco_fogo_medio,\n    SUM(precipitacao) AS precipitacao_somada\n  FROM `basedosdados.br_inpe_queimadas.microdados`\n  WHERE ano = 2023\n  GROUP BY id_municipio\n), prodes AS (\n  SELECT\n    id_municipio,\n    SUM(desmatado) AS desmatado_km2\n  FROM `basedosdados.br_inpe_prodes.municipio_bioma`\n  WHERE ano = 2023\n  GROUP BY id_municipio\n), mapbiomas AS (\n  SELECT\n    id_municipio,\n    SUM(area) AS area_mapeada_ha,\n    COUNT(DISTINCT id_classe) AS classes_presentes\n  FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe`\n  WHERE ano = 2023\n  GROUP BY id_municipio\n)\nSELECT\n  q.id_municipio,\n  q.focos,\n  q.frp_total_mw,\n  q.risco_fogo_medio,\n  q.precipitacao_somada,\n  p.desmatado_km2,\n  m.area_mapeada_ha,\n  m.classes_presentes\nFROM queimadas q\nJOIN prodes p USING (id_municipio)\nJOIN mapbiomas m USING (id_municipio)\nORDER BY q.focos DESC\nLIMIT 20",
+      "slug": "cadeia_queimadas_prodes_mapbiomas"
+    },
+    "arquivo_sql": "sql/019.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 0,
+    "call_id": "call_qkYS22bUEqJGsry2Baq8z74u",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  ano_emissao,\n  COUNT(*) AS registros,\n  COUNTIF(id_car IS NOT NULL AND TRIM(id_car) != '') AS id_car_preenchido,\n  COUNTIF(id_car IS NULL OR TRIM(id_car) = '') AS id_car_vazio,\n  COUNT(DISTINCT NULLIF(TRIM(id_car), '')) AS ids_car_distintos\nFROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\nWHERE ano_emissao BETWEEN 2013 AND 2026\nGROUP BY ano_emissao\nORDER BY ano_emissao",
+      "slug": "diagnostico_sicor_ano"
+    },
+    "arquivo_sql": "sql/020.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 0,
+    "call_id": "call_pRg0WxoSrC3XadxN0U5u22v0",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  data_extracao,\n  COUNT(*) AS registros,\n  COUNT(DISTINCT id_imovel) AS imoveis_distintos,\n  COUNT(DISTINCT sigla_uf) AS ufs\nFROM `basedosdados.br_sfb_sicar.area_imovel`\nWHERE data_extracao IS NOT NULL\nGROUP BY data_extracao\nORDER BY data_extracao",
+      "slug": "snapshots_car"
+    },
+    "arquivo_sql": "sql/021.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 0,
+    "call_id": "call_pbKxYyVUn5LPijeSkSroX0Uz",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  ano_emissao,\n  sigla_uf,\n  COUNT(*) AS registros,\n  COUNTIF(id_car IS NOT NULL AND TRIM(id_car) != '') AS id_car_preenchido,\n  COUNT(DISTINCT NULLIF(TRIM(id_car), '')) AS ids_car_distintos\nFROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\nWHERE ano_emissao BETWEEN 2013 AND 2026\nGROUP BY ano_emissao, sigla_uf\nORDER BY ano_emissao, sigla_uf",
+      "slug": "diagnostico_sicor_uf"
+    },
+    "arquivo_sql": "sql/022.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 4,
+    "call_id": "call_Ck3JoiMLdTiYGzIGbgtSsPxT",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  data_extracao,\n  sigla_uf,\n  COUNT(*) AS registros,\n  COUNT(DISTINCT id_imovel) AS imoveis_distintos\nFROM `basedosdados.br_sfb_sicar.area_imovel`\nWHERE data_extracao IS NOT NULL\nGROUP BY data_extracao, sigla_uf\nORDER BY data_extracao, sigla_uf",
+      "slug": "snapshots_car_uf"
+    },
+    "arquivo_sql": "sql/023.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 4,
+    "call_id": "call_KIfoMCKzIItJWdFK821WVE5x",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  ano_emissao,\n  LENGTH(TRIM(id_car)) AS comprimento,\n  COUNT(*) AS registros,\n  COUNTIF(REGEXP_CONTAINS(TRIM(id_car), r'^[A-Za-z]{2}[0-9]{7}[A-Fa-f0-9]{32}$')) AS formato_sem_hifen,\n  COUNTIF(REGEXP_CONTAINS(TRIM(id_car), r'^[A-Za-z]{2}-[0-9]{7}-[A-Fa-f0-9]{32}$')) AS formato_com_hifen,\n  COUNTIF(REGEXP_CONTAINS(TRIM(id_car), r'[^A-Za-z0-9]')) AS com_caractere_nao_alfanumerico\nFROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\nWHERE ano_emissao BETWEEN 2017 AND 2026\n  AND id_car IS NOT NULL\n  AND TRIM(id_car) != ''\nGROUP BY ano_emissao, comprimento\nORDER BY ano_emissao, comprimento",
+      "slug": "formato_ids_sicor"
+    },
+    "arquivo_sql": "sql/024.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 4,
+    "call_id": "call_KZrp1creeCLEraZ7NUZ5TUj6",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  ano_emissao,\n  SUBSTR(UPPER(REPLACE(TRIM(id_car), '-', '')), 1, 2) AS uf_prefixo,\n  COUNT(*) AS registros,\n  COUNT(DISTINCT REPLACE(UPPER(TRIM(id_car)), '-', '')) AS ids_distintos\nFROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\nWHERE ano_emissao BETWEEN 2019 AND 2026\n  AND id_car IS NOT NULL\n  AND TRIM(id_car) != ''\nGROUP BY ano_emissao, uf_prefixo\nORDER BY ano_emissao, uf_prefixo",
+      "slug": "prefixos_uf_sicor"
+    },
+    "arquivo_sql": "sql/025.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 8,
+    "call_id": "call_H4hg8WtQ8WscXt31ol8AvMnt",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car AS (\n  SELECT\n    data_extracao,\n    sigla_uf,\n    REPLACE(UPPER(TRIM(id_imovel)), '-', '') AS id_car_normalizado\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao IN ('2026-06-02','2026-08-01','2026-08-02','2026-08-03','2026-08-04')\n    AND id_imovel IS NOT NULL\n), car_ids AS (\n  SELECT DISTINCT id_car_normalizado\n  FROM car\n), sicor AS (\n  SELECT\n    ano_emissao,\n    SUBSTR(REPLACE(UPPER(TRIM(id_car)), '-', ''), 1, 2) AS uf_prefixo,\n    REPLACE(UPPER(TRIM(id_car)), '-', '') AS id_car_normalizado,\n    id_car\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao IN (2019, 2023, 2026)\n    AND id_car IS NOT NULL\n    AND TRIM(id_car) != ''\n), por_ano AS (\n  SELECT\n    ano_emissao,\n    COUNT(*) AS registros_id_car,\n    COUNT(DISTINCT id_car_normalizado) AS ids_distintos,\n    COUNTIF(c.id_car_normalizado IS NOT NULL) AS registros_com_algum_snapshot,\n    COUNT(DISTINCT IF(c.id_car_normalizado IS NOT NULL, s.id_car_normalizado, NULL)) AS ids_com_algum_snapshot,\n    COUNTIF(c.id_car_normalizado IS NULL) AS registros_sem_snapshot\n  FROM sicor s\n  LEFT JOIN car_ids c USING (id_car_normalizado)\n  GROUP BY ano_emissao\n), por_snapshot AS (\n  SELECT\n    s.ano_emissao,\n    c.data_extracao,\n    COUNT(*) AS registros_com_snapshot,\n    COUNT(DISTINCT s.id_car_normalizado) AS ids_com_snapshot\n  FROM sicor s\n  JOIN car c USING (id_car_normalizado)\n  GROUP BY s.ano_emissao, c.data_extracao\n)\nSELECT 'por_ano' AS tipo,\n  CAST(ano_emissao AS STRING) AS grupo,\n  CAST(registros_id_car AS STRING) AS registros_id_car,\n  CAST(ids_distintos AS STRING) AS ids_distintos,\n  CAST(registros_com_algum_snapshot AS STRING) AS registros_com_snapshot,\n  CAST(ids_com_algum_snapshot AS STRING) AS ids_com_snapshot,\n  CAST(registros_sem_snapshot AS STRING) AS registros_sem_snapshot,\n  CAST(NULL AS STRING) AS data_extracao,\n  CAST(NULL AS STRING) AS registros_snapshot\nFROM por_ano\nUNION ALL\nSELECT 'por_snapshot', CAST(ano_emissao AS STRING), CAST(NULL AS STRING), CAST(NULL AS STRING), CAST(registros_com_snapshot AS STRING), CAST(ids_com_snapshot AS STRING), CAST(NULL AS STRING), data_extracao, CAST(registros_com_snapshot AS STRING)\nFROM por_snapshot\nORDER BY tipo, grupo, data_extracao",
+      "slug": "cobertura_sicor_snapshots"
+    },
+    "arquivo_sql": "sql/026.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 10,
+    "call_id": "call_HegDzdxEiRfw06hHlY1lCKuM",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car AS (\n  SELECT data_extracao, REPLACE(UPPER(TRIM(id_imovel)), '-', '') AS id_car_normalizado\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao IN ('2026-06-02','2026-08-01','2026-08-02','2026-08-03','2026-08-04') AND id_imovel IS NOT NULL\n), car_ids AS (SELECT DISTINCT id_car_normalizado FROM car), sicor AS (\n  SELECT ano_emissao, REPLACE(UPPER(TRIM(id_car)), '-', '') AS id_car_normalizado, id_car\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao IN (2019,2023,2026) AND id_car IS NOT NULL AND TRIM(id_car) != ''\n), por_ano AS (\n  SELECT ano_emissao, COUNT(*) registros_id_car, COUNT(DISTINCT id_car_normalizado) ids_distintos, COUNTIF(c.id_car_normalizado IS NOT NULL) registros_com_snapshot, COUNT(DISTINCT IF(c.id_car_normalizado IS NOT NULL,s.id_car_normalizado,NULL)) ids_com_snapshot, COUNTIF(c.id_car_normalizado IS NULL) registros_sem_snapshot\n  FROM sicor s LEFT JOIN car_ids c USING(id_car_normalizado) GROUP BY ano_emissao\n), por_snapshot AS (\n  SELECT s.ano_emissao,c.data_extracao,COUNT(*) registros_com_snapshot,COUNT(DISTINCT s.id_car_normalizado) ids_com_snapshot\n  FROM sicor s JOIN car c USING(id_car_normalizado) GROUP BY s.ano_emissao,c.data_extracao\n)\nSELECT 'por_ano' tipo,CAST(ano_emissao AS STRING) grupo,CAST(registros_id_car AS STRING) registros_id_car,CAST(ids_distintos AS STRING) ids_distintos,CAST(registros_com_snapshot AS STRING) registros_com_snapshot,CAST(ids_com_snapshot AS STRING) ids_com_snapshot,CAST(registros_sem_snapshot AS STRING) registros_sem_snapshot,CAST(NULL AS STRING) data_extracao\nFROM por_ano\nUNION ALL\nSELECT 'por_snapshot',CAST(ano_emissao AS STRING),CAST(NULL AS STRING),CAST(NULL AS STRING),CAST(registros_com_snapshot AS STRING),CAST(ids_com_snapshot AS STRING),CAST(NULL AS STRING),CAST(data_extracao AS STRING)\nFROM por_snapshot\nORDER BY tipo,grupo,data_extracao",
+      "slug": "cobertura_sicor_snapshots_v2"
+    },
+    "arquivo_sql": "sql/027.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 12,
+    "call_id": "call_YMT0XTzCii5iZnZPoJnE3aio",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car_ids AS (\n  SELECT DISTINCT\n    SUBSTR(REPLACE(UPPER(TRIM(id_imovel)), '-', ''),1,2) AS uf_prefixo,\n    REPLACE(UPPER(TRIM(id_imovel)), '-', '') AS id_car_normalizado\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao IN ('2026-06-02','2026-08-01','2026-08-02','2026-08-03','2026-08-04')\n    AND id_imovel IS NOT NULL\n), s AS (\n  SELECT\n    ano_emissao,\n    SUBSTR(REPLACE(UPPER(TRIM(id_car)), '-', ''),1,2) AS uf_prefixo,\n    REPLACE(UPPER(TRIM(id_car)), '-', '') AS id_car_normalizado\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao IN (2019,2023,2026)\n    AND id_car IS NOT NULL AND TRIM(id_car) != ''\n), agg AS (\n  SELECT\n    ano_emissao,\n    uf_prefixo,\n    COUNT(*) AS registros_sicor,\n    COUNT(DISTINCT id_car_normalizado) AS ids_sicor,\n    COUNTIF(c.id_car_normalizado IS NOT NULL) AS registros_com_car,\n    COUNT(DISTINCT IF(c.id_car_normalizado IS NOT NULL,s.id_car_normalizado,NULL)) AS ids_com_car\n  FROM s\n  LEFT JOIN car_ids c USING(id_car_normalizado)\n  GROUP BY ano_emissao,uf_prefixo\n)\nSELECT\n  ano_emissao,\n  uf_prefixo,\n  registros_sicor,\n  ids_sicor,\n  registros_com_car,\n  ids_com_car,\n  SAFE_DIVIDE(registros_com_car,registros_sicor) AS cobertura_registros,\n  SAFE_DIVIDE(ids_com_car,ids_sicor) AS cobertura_ids\nFROM agg\nORDER BY ano_emissao, cobertura_registros, uf_prefixo",
+      "slug": "cobertura_sicor_car_uf"
+    },
+    "arquivo_sql": "sql/028.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 14,
+    "call_id": "call_LKHmKp8f6gPMnsDUcm5Sh8UI",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car_ids AS (\n  SELECT DISTINCT REPLACE(UPPER(TRIM(id_imovel)), '-', '') AS id_car_normalizado\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao IN ('2026-06-02','2026-08-01','2026-08-02','2026-08-03','2026-08-04') AND id_imovel IS NOT NULL\n), s AS (\n  SELECT ano_emissao,SUBSTR(REPLACE(UPPER(TRIM(id_car)), '-', ''),1,2) AS uf_prefixo,REPLACE(UPPER(TRIM(id_car)), '-', '') AS id_car_normalizado\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao IN (2019,2023,2026) AND id_car IS NOT NULL AND TRIM(id_car) != ''\n), agg AS (\n  SELECT s.ano_emissao,s.uf_prefixo,COUNT(*) registros_sicor,COUNT(DISTINCT s.id_car_normalizado) ids_sicor,COUNTIF(c.id_car_normalizado IS NOT NULL) registros_com_car,COUNT(DISTINCT IF(c.id_car_normalizado IS NOT NULL,s.id_car_normalizado,NULL)) ids_com_car\n  FROM s LEFT JOIN car_ids c USING(id_car_normalizado)\n  GROUP BY s.ano_emissao,s.uf_prefixo\n)\nSELECT ano_emissao,uf_prefixo,registros_sicor,ids_sicor,registros_com_car,ids_com_car,SAFE_DIVIDE(registros_com_car,registros_sicor) cobertura_registros,SAFE_DIVIDE(ids_com_car,ids_sicor) cobertura_ids\nFROM agg ORDER BY ano_emissao,cobertura_registros,uf_prefixo",
+      "slug": "cobertura_sicor_car_uf_v2"
+    },
+    "arquivo_sql": "sql/029.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 16,
+    "call_id": "call_O2QGGbkeVvTwASQqnAxtCp7m",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH operacoes AS (\n  SELECT\n    id_referencia_bacen,\n    numero_ordem,\n    SUM(area_financiada) AS area_financiada_ha,\n    SUM(valor_parcela_credito) AS credito_brl,\n    COUNT(*) AS linhas_operacao\n  FROM `basedosdados.br_bcb_sicor.operacao`\n  WHERE ano_emissao = 2026\n  GROUP BY id_referencia_bacen, numero_ordem\n), propriedades AS (\n  SELECT DISTINCT\n    id_referencia_bacen,\n    numero_ordem,\n    id_car,\n    ano_emissao\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao = 2026\n    AND id_car IS NOT NULL\n    AND TRIM(id_car) != ''\n), car AS (\n  SELECT DISTINCT\n    REPLACE(UPPER(TRIM(id_imovel)), '-', '') AS id_car_normalizado,\n    id_imovel,\n    id_municipio,\n    sigla_uf,\n    area AS area_imovel_ha\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao IN ('2026-06-02','2026-08-01','2026-08-02','2026-08-03','2026-08-04')\n), credito_imovel AS (\n  SELECT\n    p.id_car,\n    c.id_imovel,\n    c.id_municipio,\n    c.sigla_uf,\n    COUNT(DISTINCT CONCAT(p.id_referencia_bacen, '|', p.numero_ordem)) AS operacoes,\n    SUM(o.area_financiada_ha) AS area_financiada_ha,\n    SUM(o.credito_brl) AS credito_brl,\n    MAX(c.area_imovel_ha) AS area_imovel_ha\n  FROM propriedades p\n  JOIN operacoes o\n    ON p.id_referencia_bacen = o.id_referencia_bacen\n   AND p.numero_ordem = o.numero_ordem\n  JOIN car c\n    ON p.id_car = REPLACE(UPPER(TRIM(c.id_imovel)), '-', '')\n  GROUP BY p.id_car,c.id_imovel,c.id_municipio,c.sigla_uf\n), pam AS (\n  SELECT\n    id_municipio,\n    SUM(quantidade_produzida) AS producao_ton,\n    SUM(valor_producao) AS valor_producao_mil_brl,\n    SUM(area_colhida) AS area_colhida_ha\n  FROM `basedosdados.br_ibge_pam.lavoura_temporaria`\n  WHERE ano = 2024\n  GROUP BY id_municipio\n), mapbiomas AS (\n  SELECT\n    id_municipio,\n    SUM(area) AS area_mapeada_ha,\n    COUNT(DISTINCT id_classe) AS classes_presentes\n  FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe`\n  WHERE ano = 2025\n  GROUP BY id_municipio\n)\nSELECT\n  c.id_car,\n  c.id_imovel,\n  c.id_municipio,\n  c.sigla_uf,\n  c.operacoes,\n  c.area_financiada_ha,\n  c.credito_brl,\n  c.area_imovel_ha,\n  p.producao_ton,\n  p.valor_producao_mil_brl,\n  p.area_colhida_ha,\n  m.area_mapeada_ha,\n  m.classes_presentes\nFROM credito_imovel c\nLEFT JOIN pam p USING (id_municipio)\nLEFT JOIN mapbiomas m USING (id_municipio)\nORDER BY c.credito_brl DESC\nLIMIT 20",
+      "slug": "cadeia_sicor_car_territorio"
+    },
+    "arquivo_sql": "sql/030.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 18,
+    "call_id": "call_P6qRVeYApU16HEKdjYbQczIH",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car AS (\n  SELECT DISTINCT id_imovel\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao='2026-08-04' AND id_imovel IS NOT NULL\n), s AS (\n  SELECT id_car\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao=2026 AND id_car IS NOT NULL AND TRIM(id_car) != ''\n), tests AS (\n  SELECT 'literal' transformacao, s.id_car, c.id_imovel\n  FROM s LEFT JOIN car c ON s.id_car = c.id_imovel\n  UNION ALL\n  SELECT 'trim_upper', s.id_car, c.id_imovel\n  FROM s LEFT JOIN car c ON UPPER(TRIM(s.id_car)) = UPPER(TRIM(c.id_imovel))\n  UNION ALL\n  SELECT 'remove_nao_alfanumericos', s.id_car, c.id_imovel\n  FROM s LEFT JOIN car c ON REGEXP_REPLACE(UPPER(TRIM(s.id_car)), r'[^A-Z0-9]', '') = REGEXP_REPLACE(UPPER(TRIM(c.id_imovel)), r'[^A-Z0-9]', '')\n  UNION ALL\n  SELECT 'remove_hifens', s.id_car, c.id_imovel\n  FROM s LEFT JOIN car c ON REPLACE(UPPER(TRIM(s.id_car)), '-', '') = REPLACE(UPPER(TRIM(c.id_imovel)), '-', '')\n)\nSELECT\n  transformacao,\n  COUNT(*) AS registros_sicor,\n  COUNTIF(id_imovel IS NOT NULL) AS registros_correspondentes,\n  COUNT(DISTINCT IF(id_imovel IS NOT NULL,id_car,NULL)) AS ids_correspondentes,\n  SAFE_DIVIDE(COUNTIF(id_imovel IS NOT NULL),COUNT(*)) AS cobertura_registros\nFROM tests\nGROUP BY transformacao\nORDER BY transformacao",
+      "slug": "testes_normalizacao_ids"
+    },
+    "arquivo_sql": "sql/031.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 20,
+    "call_id": "call_Zghk04nMxs0DMh6NQyqPpaeM",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car_ids AS (\n  SELECT DISTINCT REPLACE(UPPER(TRIM(id_imovel)), '-', '') id_norm\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao IN ('2026-06-02','2026-08-01','2026-08-02','2026-08-03','2026-08-04') AND id_imovel IS NOT NULL\n), s AS (\n  SELECT REPLACE(UPPER(TRIM(id_car)), '-', '') id_norm\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao=2026 AND id_car IS NOT NULL AND TRIM(id_car) != ''\n), unmatched AS (\n  SELECT s.id_norm\n  FROM s LEFT JOIN car_ids c USING(id_norm)\n  WHERE c.id_norm IS NULL\n)\nSELECT\n  LENGTH(id_norm) AS comprimento,\n  SUBSTR(id_norm,1,2) AS uf_prefixo,\n  SUBSTR(id_norm,3,7) AS municipio_embutido,\n  COUNT(*) AS registros,\n  COUNT(DISTINCT id_norm) AS ids_distintos,\n  COUNTIF(REGEXP_CONTAINS(id_norm,r'^[A-Z]{2}[0-9]{7}[A-F0-9]{32}$')) AS formato_estrutural_valido\nFROM unmatched\nGROUP BY comprimento,uf_prefixo,municipio_embutido\nORDER BY registros DESC\nLIMIT 50",
+      "slug": "diagnostico_nao_correspondentes"
+    },
+    "arquivo_sql": "sql/032.sql"
+  },
+  {
+    "message_id": "abd3308c-1fbe-4801-99a8-7d324f81c41d",
+    "evento": 22,
+    "call_id": "call_Jmh1MIjEJY1Q9oo1Uo7DLXJg",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH car_municipios AS (\n  SELECT DISTINCT id_municipio\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao IN ('2026-06-02','2026-08-01','2026-08-02','2026-08-03','2026-08-04')\n    AND id_municipio IS NOT NULL\n), car_ids AS (\n  SELECT DISTINCT REPLACE(UPPER(TRIM(id_imovel)), '-', '') AS id_norm\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  WHERE data_extracao IN ('2026-06-02','2026-08-01','2026-08-02','2026-08-03','2026-08-04')\n    AND id_imovel IS NOT NULL\n), sicor_unmatched AS (\n  SELECT DISTINCT\n    REPLACE(UPPER(TRIM(s.id_car)), '-', '') AS id_norm,\n    SUBSTR(REPLACE(UPPER(TRIM(s.id_car)), '-', ''),3,7) AS id_municipio\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` s\n  LEFT JOIN car_ids c\n    ON REPLACE(UPPER(TRIM(s.id_car)), '-', '') = c.id_norm\n  WHERE s.ano_emissao = 2026\n    AND s.id_car IS NOT NULL\n    AND TRIM(s.id_car) != ''\n    AND c.id_norm IS NULL\n)\nSELECT\n  COUNT(*) AS ids_sicor_nao_encontrados,\n  COUNTIF(cm.id_municipio IS NOT NULL) AS ids_em_municipio_com_outros_car,\n  COUNTIF(cm.id_municipio IS NULL) AS ids_em_municipio_sem_car,\n  COUNT(DISTINCT id_municipio) AS municipios_dos_ids_nao_encontrados,\n  COUNT(DISTINCT IF(cm.id_municipio IS NOT NULL,id_municipio,NULL)) AS municipios_com_outros_car\nFROM sicor_unmatched u\nLEFT JOIN car_municipios cm USING(id_municipio)",
+      "slug": "diagnostico_municipio_ids_nao_encontrados"
+    },
+    "arquivo_sql": "sql/033.sql"
+  }
+]

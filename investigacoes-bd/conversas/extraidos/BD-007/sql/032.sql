@@ -1,0 +1,34 @@
+WITH
+car AS (SELECT REPLACE(id_imovel,'-','') id_car_norm,id_municipio,sigla_uf FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao>=DATE '2026-06-02' AND data_extracao<=DATE '2026-08-04' QUALIFY ROW_NUMBER() OVER(PARTITION BY REPLACE(id_imovel,'-','') ORDER BY data_extracao DESC)=1),
+pl AS (SELECT DISTINCT id_referencia_bacen,numero_ordem,REPLACE(id_car,'-','') id_car_norm FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao=2023 AND id_car IS NOT NULL AND TRIM(id_car)!=''),
+onum AS (SELECT id_referencia_bacen,numero_ordem,COUNT(*) n FROM pl GROUP BY 1,2),credit AS (SELECT c.id_municipio,SUM(op.valor_parcela_credito/onum.n) credito FROM `basedosdados.br_bcb_sicor.operacao` op JOIN onum USING(id_referencia_bacen,numero_ordem) JOIN pl USING(id_referencia_bacen,numero_ordem) JOIN car c USING(id_car_norm) WHERE op.ano_emissao=2023 GROUP BY 1),top20 AS (SELECT id_municipio,ROW_NUMBER() OVER(ORDER BY credito DESC) ranking FROM credit QUALIFY ranking<=20),
+pop AS (SELECT id_municipio,populacao FROM `basedosdados.br_ibge_populacao.municipio` WHERE ano=2023),pib AS (SELECT id_municipio,pib FROM `basedosdados.br_ibge_pib.municipio` WHERE ano=2023),va AS (SELECT id_municipio,va_agropecuaria FROM `basedosdados.br_ibge_pib.municipio` WHERE ano=2021),
+re AS (SELECT id_municipio,SUM(quantidade_vinculos_ativos) empregos_total,SUM(IF(SUBSTR(cnae_2,1,2) IN ('01','02','03'),quantidade_vinculos_ativos,0)) empregos_agro FROM `basedosdados.br_me_rais.microdados_estabelecimentos` WHERE ano=2023 GROUP BY id_municipio),
+rs AS (SELECT id_municipio,AVG(valor_remuneracao_media) remuneracao_media FROM `basedosdados.br_me_rais.microdados_vinculos` WHERE ano=2023 AND vinculo_ativo_3112='1' GROUP BY id_municipio),
+sc AS (SELECT id_municipio,SUM(IF(id_conta_bd='1.1.1.0.0.00.00.00' AND estagio_bd='Receitas Brutas Realizadas',valor,0)) receita_tributaria,SUM(IF(id_conta_bd='1.1.7.0.0.00.00.00' AND estagio_bd='Receitas Brutas Realizadas',valor,0)) transferencias FROM `basedosdados.br_me_siconfi.municipio_receitas_orcamentarias` WHERE ano=2023 GROUP BY id_municipio),
+nasc AS (SELECT id_municipio_residencia id_municipio,COUNT(*) nascidos FROM `basedosdados.br_ms_sinasc.microdados` WHERE ano=2023 GROUP BY 1),ob AS (SELECT id_municipio_residencia id_municipio,COUNT(*) obitos FROM `basedosdados.br_ms_sim.microdados` WHERE ano=2023 AND idade<1 GROUP BY 1),sa AS (SELECT n.id_municipio,SAFE_MULTIPLY(SAFE_DIVIDE(ob.obitos,n.nascidos),1000) mortalidade_infantil FROM nasc n LEFT JOIN ob USING(id_municipio)),
+idb AS (SELECT id_municipio,MAX(IF(rede='publica' AND ensino='fundamental' AND anos_escolares='iniciais (1-5)',ideb,NULL)) ideb_iniciais,MAX(IF(rede='publica' AND ensino='fundamental' AND anos_escolares='finais (6-9)',ideb,NULL)) ideb_finais FROM `basedosdados.br_inep_ideb.municipio` WHERE ano=2023 GROUP BY id_municipio),
+base AS (
+ SELECT m.id_municipio,CASE WHEN t.id_municipio IS NOT NULL THEN 'top20_credito' ELSE 'demais_municipios' END grupo,
+ SAFE_DIVIDE(c.credito,pop.populacao) credito_per_capita,SAFE_DIVIDE(pib.pib,pop.populacao) pib_per_capita,SAFE_DIVIDE(va.va_agropecuaria,pop.populacao) va_agro_per_capita,re.empregos_total, re.empregos_agro,SAFE_DIVIDE(re.empregos_agro,re.empregos_total) participacao_agro_emprego,rs.remuneracao_media,SAFE_DIVIDE(sc.receita_tributaria,pop.populacao) tributo_per_capita,SAFE_DIVIDE(sc.transferencias,pop.populacao) transferencia_per_capita,sa.mortalidade_infantil,idb.ideb_iniciais,idb.ideb_finais
+ FROM `basedosdados.br_bd_diretorios_brasil.municipio` m LEFT JOIN credit c USING(id_municipio) LEFT JOIN top20 t USING(id_municipio) LEFT JOIN pop USING(id_municipio) LEFT JOIN pib USING(id_municipio) LEFT JOIN va USING(id_municipio) LEFT JOIN re USING(id_municipio) LEFT JOIN rs USING(id_municipio) LEFT JOIN sc USING(id_municipio) LEFT JOIN sa USING(id_municipio) LEFT JOIN idb USING(id_municipio)
+),
+agg AS (
+ SELECT grupo,COUNT(*) municipios,
+ AVG(credito_per_capita) media_credito_pc, PERCENTILE_CONT(credito_per_capita,0.5) OVER(PARTITION BY grupo) mediana_credito_pc,
+ AVG(pib_per_capita) media_pib_pc, PERCENTILE_CONT(pib_per_capita,0.5) OVER(PARTITION BY grupo) mediana_pib_pc,
+ AVG(va_agro_per_capita) media_va_agro_pc, PERCENTILE_CONT(va_agro_per_capita,0.5) OVER(PARTITION BY grupo) mediana_va_agro_pc,
+ AVG(empregos_total) media_empregos_total,PERCENTILE_CONT(empregos_total,0.5) OVER(PARTITION BY grupo) mediana_empregos_total,
+ AVG(empregos_agro) media_empregos_agro,PERCENTILE_CONT(empregos_agro,0.5) OVER(PARTITION BY grupo) mediana_empregos_agro,
+ AVG(participacao_agro_emprego) media_participacao_agro,PERCENTILE_CONT(participacao_agro_emprego,0.5) OVER(PARTITION BY grupo) mediana_participacao_agro,
+ AVG(remuneracao_media) media_remuneracao,PERCENTILE_CONT(remuneracao_media,0.5) OVER(PARTITION BY grupo) mediana_remuneracao,
+ AVG(tributo_per_capita) media_tributo_pc,PERCENTILE_CONT(tributo_per_capita,0.5) OVER(PARTITION BY grupo) mediana_tributo_pc,
+ AVG(transferencia_per_capita) media_transferencia_pc,PERCENTILE_CONT(transferencia_per_capita,0.5) OVER(PARTITION BY grupo) mediana_transferencia_pc,
+ AVG(mortalidade_infantil) media_mortalidade,PERCENTILE_CONT(mortalidade_infantil,0.5) OVER(PARTITION BY grupo) mediana_mortalidade,
+ AVG(ideb_iniciais) media_ideb_iniciais,PERCENTILE_CONT(ideb_iniciais,0.5) OVER(PARTITION BY grupo) mediana_ideb_iniciais,
+ AVG(ideb_finais) media_ideb_finais,PERCENTILE_CONT(ideb_finais,0.5) OVER(PARTITION BY grupo) mediana_ideb_finais
+ FROM base GROUP BY grupo,credito_per_capita,pib_per_capita,va_agro_per_capita,empregos_total,empregos_agro,participacao_agro_emprego,remuneracao_media,tributo_per_capita,transferencia_per_capita,mortalidade_infantil,ideb_iniciais,ideb_finais
+)
+SELECT * EXCEPT(mediana_credito_pc,mediana_pib_pc,mediana_va_agro_pc,mediana_empregos_total,mediana_empregos_agro,mediana_participacao_agro,mediana_remuneracao,mediana_tributo_pc,mediana_transferencia_pc,mediana_mortalidade,mediana_ideb_iniciais,mediana_ideb_finais),
+ANY_VALUE(mediana_credito_pc) mediana_credito_pc,ANY_VALUE(mediana_pib_pc) mediana_pib_pc,ANY_VALUE(mediana_va_agro_pc) mediana_va_agro_pc,ANY_VALUE(mediana_empregos_total) mediana_empregos_total,ANY_VALUE(mediana_empregos_agro) mediana_empregos_agro,ANY_VALUE(mediana_participacao_agro) mediana_participacao_agro,ANY_VALUE(mediana_remuneracao) mediana_remuneracao,ANY_VALUE(mediana_tributo_pc) mediana_tributo_pc,ANY_VALUE(mediana_transferencia_pc) mediana_transferencia_pc,ANY_VALUE(mediana_mortalidade) mediana_mortalidade,ANY_VALUE(mediana_ideb_iniciais) mediana_ideb_iniciais,ANY_VALUE(mediana_ideb_finais) mediana_ideb_finais
+FROM agg GROUP BY grupo,municipios,media_credito_pc,media_pib_pc,media_va_agro_pc,media_empregos_total,media_empregos_agro,media_participacao_agro,media_remuneracao,media_tributo_pc,media_transferencia_pc,media_mortalidade,media_ideb_iniciais,media_ideb_finais ORDER BY grupo

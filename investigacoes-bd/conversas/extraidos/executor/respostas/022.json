@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "404 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Not found: Table basedosdados:br_bcb_sicor.recurso_publico was not found in location US\n\nLocation: None\nJob ID: 410b90dd-b669-43c4-b7da-cdfb9db08d3b\n"
+}

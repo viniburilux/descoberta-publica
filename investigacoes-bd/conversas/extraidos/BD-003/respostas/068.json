@@ -1,0 +1,18 @@
+{
+  "row_count": 3,
+  "rows": [
+    {
+      "resultado": "nao eleito",
+      "n": 12619
+    },
+    {
+      "resultado": "eleito",
+      "n": 5495
+    },
+    {
+      "resultado": "2º turno",
+      "n": 113
+    }
+  ],
+  "query_ref": "qr_24a0b91fb7ec4765aba68465fbc5f9b7"
+}

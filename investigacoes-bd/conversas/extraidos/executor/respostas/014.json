@@ -1,0 +1,158 @@
+[
+  {
+    "id": "653fb5da-c6b6-4455-9227-ef6012c25967",
+    "name": "Diretórios México",
+    "description": "Tabelas de diretório com a geografia do México segundo o INEGI: entidades federativas e municípios com seus códigos geoestatísticos oficiais, usadas como chaves estrangeiras por outros conjuntos de dados.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "Geografia",
+      "México"
+    ],
+    "themes": []
+  },
+  {
+    "id": "c527a531-db19-425a-ac64-90c180e6286c",
+    "name": "Diretórios Alemanha",
+    "description": "Diretórios de referência para a Alemanha usados nos conjuntos de dados da Base dos Dados: estados (Bundesländer), condados (Kreise), municípios (Gemeinden) com limites de 2021, distritos eleitorais (Wahlkreise) e partidos políticos.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "901f37dd-de5a-4bc2-8547-133ac1661ff7",
+    "name": "Matrizes de Vizinhança no Brasil",
+    "description": "Matrizes de vizinhança de entidades geográficas no Brasil.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "vizinhança"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "e857324e-f50d-4369-bb41-104381878cfc",
+    "name": "Diretórios Chile",
+    "description": "Tabelas de diretório com a divisão político-administrativa do Chile segundo o INE: regiões, províncias e comunas com seus códigos únicos territoriais (CUT) oficiais e a hierarquia entre eles, usadas como chaves estrangeiras por outros conjuntos de dados chilenos. A tabela de regiões traz ainda variantes de nome: nome oficial completo, sigla ISO 3166-2:CL e o ordinal romano histórico.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "divisão administrativa",
+      "código",
+      "diretório",
+      "município"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "5c9618d4-fd32-41ff-b834-61349a3bd65f",
+    "name": "Áreas Mínimas Comparáveis (AMC)",
+    "description": "As mudanças ocorridas nas áreas e limites dos municípios impedem comparações geograficamente consistentes da evolução temporal dos dados demográficos, econômicos e sociais. Para possibilitar comparações consistentes no tempo é necessário agregar os municípios em áreas mínimas comparáveis, ou seja, no menor número de municípios necessário para que a área geográfica conjunta permaneça constante ao longo do período de análise. A base contempla qualquer subperíodo arbitrário entre dois anos de censo na faixa entre o primeiro e o último censo demográfico (1872-2010). Baseia-se em material compilado recentemente pelo Instituto Brasileiro de Geografia e Estatística (IBGE).",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "diretório"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "6502fbc5-7383-4f0b-b836-dc630541f0e8",
+    "name": "Sistema de Informações de Custos do Governo Federal (SIC)",
+    "description": null,
+    "organizations": [
+      "Ministério da Fazenda (MF)"
+    ],
+    "tags": [
+      "custo",
+      "transferência"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "58414548-aadc-49b4-b1ed-1bda5bda4953",
+    "name": "Diretórios Argentina",
+    "description": "Tabelas de diretório com a divisão político-administrativa da Argentina segundo o INDEC: as 24 jurisdições, 529 departamentos, 2.315 governos locais, 3.706 aglomerados e 4.023 localidades censitárias, com seus códigos geográficos oficiais e a hierarquia entre eles, usadas como chaves estrangeiras pelos demais conjuntos de dados argentinos. A tabela de jurisdições traz ainda o nome oficial completo e a sigla ISO 3166-2:AR.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "divisão administrativa",
+      "censo",
+      "código",
+      "diretório",
+      "município"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "74827951-3f2c-4f9f-b3d0-56e3aa7aeb39",
+    "name": "Comex Stat",
+    "description": "O Comex Stat um sistema para consultas e extração de dados do comércio exterior brasileiro. São divulgados mensalmente os dados detalhados das exportações e importações brasileiras, extraídas do SISCOMEX e baseados na declaração dos exportadores e importadores. A base de dados do sistema também está disponível para download.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "firma",
+      "exportação",
+      "empresa",
+      "importação",
+      "comércio",
+      "balança comercial"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "5beeec93-cbf3-43f6-9eea-9bee6a0d1683",
+    "name": "Sistema de Informações sobre Mortalidade (SIM)",
+    "description": "O Sistema de Informações sobre Mortalidade (SIM) foi criado pelo DATASUS para a obtenção regular de dados sobre mortalidade no país. A partir da criação do SIM foi possível a captação de dados sobre mortalidade, de forma abrangente, para subsidiar as diversas esferas de gestão na saúde pública. Com base nessas informações é possível realizar análises de situação, planejamento e avaliação das ações e programas na área.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "mortalidade"
+    ],
+    "themes": [
+      "Saúde",
+      "População"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+{
+  "id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+  "name": "Eleições Brasileiras",
+  "description": "Dados de eleições brasileiras desde 1945 fornecidos pelo TSE. Inclui dados de eleitorado, candidaturas, resultados e prestação de contas",
+  "organizations": [
+    "Tribunal Superior Eleitoral (TSE)"
+  ],
+  "tags": [
+    "congresso",
+    "eleições",
+    "partido político",
+    "presidência",
+    "voto"
+  ],
+  "themes": [
+    "Política"
+  ],
+  "tables": [
+    {
+      "id": "2e204854-e453-4257-9fef-5e10f3ff1f56",
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+      "gcp_id": "basedosdados.br_tse_eleicoes.bens_candidato",
+      "name": "Bens dos Candidatos",
+      "description": "Declaração de bens de candidatos em eleições brasileiras."
+    },
+    {
+      "id": "823f0540-0034-40cc-aa68-bfe077e82cd2",
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+      "gcp_id": "basedosdados.br_tse_eleicoes.candidatos",
+      "name": "Candidatos",
+      "description": "Dados de candidatos em eleições brasileiras."
+    },
+    {
+      "id": "6b7eaa62-3a12-444f-bc3c-1a8326042f31",
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+      "gcp_id": "basedosdados.br_tse_eleicoes.certidoes_criminais",
+      "name": "Certidões Criminais",
+      "description": "Dados extraídos das certidões criminais enviadas pelos candidatos ao TSE."
+    },
+    {
+      "id": "98811854-da11-4c82-a1c0-9d88a81d4142",
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+      "gcp_id": "basedosdados.br_tse_eleicoes.despesas_candidato",
+      "name": "Despesas por Candidato",
+      "description": "Dados de despesas em campanhas eleitorais a nível de despesa."
+    },
+    {
+      "id": "391047eb-b3ef-4141-a4d1-725b29018f25",
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+      "gcp_id": "basedosdados.br_tse_eleicoes.detalhes_votacao_municipio",
+      "name": "Detalhes de Votação por Município",
+      "description": "Dados de detalhes das votações em eleições brasileiras a nível de município."
+    },
+    {
+      "id": "43012db3-d58d-4107-affc-c2b52b484c5a",
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+      "gcp_id": "basedosdados.br_tse_eleicoes.detalhes_votacao_municipio_zona",
+      "name": "Detalhes de Votação por Zona Eleitoral",
+      "description": "Dados de detalhes das votações em eleições brasileiras a nível de zona eleitoral."
+    },
+    {
+      "id": "7c639c28-b5ae-4b15-a0bd-8798d94c5929",
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+      "gcp_id": "basedosdados.br_tse_eleicoes.detalhes_votacao_secao",
+      "name": "Detalhes de Votação por Seção Eleitoral",
+      "description": "Dados de detalhes de votação em eleições brasileiras a nível de seção eleitoral."
+    },
+    {
+      "id": "9912b978-d4e6-40d8-8a83-021f69adb3db",
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+      "gcp_id": "basedosdados.br_tse_eleicoes.dicionario",
+      "name": "Dicionário",
+      "description": null
+    },
+    {
+      "id": "1522b85d-5896-4e70-846a-d4980301630c",
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+      "gcp_id": "basedosdados.br_tse_eleicoes.local_secao",
+      "name": "Local da Seção Eleitoral",
+      "description": "Geolocalização da seção de votação.\r\n\r\nTrabalho realizado por Pindorama https://pindograma.com.br/\r\n\r\nVários métodos foram utilizados para geolocalizar as urnas. Veja uma descrição da metodologia aqui: https://github.com/ipeaGIT/geobr/issues/184"
+    },
+    {
+      "id": "cf61f2a1-9118-4c6d-a5a1-105b94e4c85b",
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+      "gcp_id": "basedosdados.br_tse_eleicoes.partidos",
+      "name": "Partidos",
+      "description": "Dados de partidos em eleições brasileiras a nível de partido. ATENÇÃO: a coluna `sequencial_coligacao` identifica as linhas, mas fora isso há duplicadas por questões de erro do TSE."
+    },
+    "... (17 more items)"
+  ],
+  "usage_guide": "---\ntitle: Guia de uso dos dados de Eleições Brasileiras\ndescription: >-\n  Guia de uso dos dados de Eleições Brasileiras. Este material contém informações sobre as variáveis mais importantes, perguntas frequentes e exemplos de uso do conjunto.\ndate:\n  created: \"2024-11-28T18:18:06.419Z\"\nthumbnail: \n... (12577 more characters)"
+}

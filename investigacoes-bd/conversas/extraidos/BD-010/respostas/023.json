@@ -1,0 +1,71 @@
+{
+  "id": "1025bd03-d4ab-47ca-af8b-5735fbacb3d2",
+  "dataset_id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+  "gcp_id": "basedosdados.br_sfb_sicar.uso_restrito",
+  "name": "Uso restrito",
+  "description": "Áreas de uso restrito declaradas nos imóveis do CAR/SICAR.",
+  "columns": [
+    {
+      "name": "area",
+      "type": "FLOAT64",
+      "description": "Área do polígono do tema",
+      "unit": "hectare",
+      "needs_decoding": false
+    },
+    {
+      "name": "condicao",
+      "type": "STRING",
+      "description": "Condição atual da análise do registro no fluxo de validação pelo órgão competente",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_extracao",
+      "type": "DATE",
+      "description": "Data de disponibilização (snapshot) da base do CAR para a Unidade da Federação",
+      "needs_decoding": false
+    },
+    {
+      "name": "geometria",
+      "type": "GEOGRAPHY",
+      "description": "Geometria do polígono em coordenadas geográficas (WGS84)",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_imovel",
+      "type": "STRING",
+      "description": "Código de inscrição do imóvel no Cadastro Ambiental Rural (CAR)",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "Identificador do município (IBGE, 7 dígitos) onde se localiza o imóvel",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da Unidade da Federação onde se localiza o imóvel",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    },
+    {
+      "name": "status",
+      "type": "STRING",
+      "description": "Situação do cadastro no CAR (AT Ativo, PE Pendente, SU Suspenso, CA Cancelado)",
+      "needs_decoding": true
+    },
+    {
+      "name": "tipo",
+      "type": "STRING",
+      "description": "Tipo de área de uso restrito",
+      "needs_decoding": true
+    }
+  ],
+  "partitioned_by": [
+    "data_extracao"
+  ],
+  "period_start": "2026-06-02",
+  "period_end": "2026-08-04"
+}

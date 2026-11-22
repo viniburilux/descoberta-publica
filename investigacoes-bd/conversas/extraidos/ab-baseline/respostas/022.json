@@ -1,0 +1,36 @@
+{
+  "row_count": 3,
+  "rows": [
+    {
+      "checagem": "SNAPSHOTS",
+      "id_car_distintos": 489138,
+      "ligados_por_concat": 110816,
+      "ligados_por_replace": 378322,
+      "concat_sem_replace": null,
+      "replace_sem_concat": null,
+      "valor": null,
+      "fracao": null
+    },
+    {
+      "checagem": "NORMALIZACAO",
+      "id_car_distintos": 489145,
+      "ligados_por_concat": 489138,
+      "ligados_por_replace": 489138,
+      "concat_sem_replace": 0,
+      "replace_sem_concat": 0,
+      "valor": null,
+      "fracao": null
+    },
+    {
+      "checagem": "ESCOPO",
+      "id_car_distintos": null,
+      "ligados_por_concat": null,
+      "ligados_por_replace": null,
+      "concat_sem_replace": null,
+      "replace_sem_concat": null,
+      "valor": 52421687317.98984,
+      "fracao": 0.9212336520489502
+    }
+  ],
+  "query_ref": "qr_3cb75ce644ff4e79a756ad6bb22af7ce"
+}

@@ -1,0 +1,1 @@
+SELECT idade, COUNT(*) obitos FROM `basedosdados.br_ms_sim.microdados` WHERE ano=2023 AND idade BETWEEN 0 AND 2 GROUP BY idade ORDER BY idade

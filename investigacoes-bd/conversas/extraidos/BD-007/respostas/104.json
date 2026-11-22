@@ -1,0 +1,67 @@
+{
+  "row_count": 29,
+  "rows": [
+    {
+      "dimensao": "fonte",
+      "categoria": "POUPANÇA RURAL - EQUALIZADA - DIRECIONADA/CONTROLADA",
+      "credito": 8292043126.049396,
+      "linhas": 96554
+    },
+    {
+      "dimensao": "fonte",
+      "categoria": "OBRIGATÓRIOS - MCR 6.2 - DIRECIONADA/CONTROLADA",
+      "credito": 4730709514.888013,
+      "linhas": 98243
+    },
+    {
+      "dimensao": "fonte",
+      "categoria": "BNDES/FINAME - EQUALIZADA - DIRECIONADA/CONTROLADA",
+      "credito": 3478044157.270549,
+      "linhas": 34349
+    },
+    {
+      "dimensao": "fonte",
+      "categoria": "RECURSOS LIVRES - EQUALIZADA - LIVRE/CONTROLADA",
+      "credito": 2628182397.147562,
+      "linhas": 25995
+    },
+    {
+      "dimensao": "fonte",
+      "categoria": "FUNDO CONSTITUCIONAL DE FINANCIAMENTO DO NORDESTE (FNE) - DIRECIONADA/CONTROLADA",
+      "credito": 2319174388.824901,
+      "linhas": 42531
+    },
+    {
+      "dimensao": "fonte",
+      "categoria": "FUNDO CONSTITUCIONAL DE FINANCIAMENTO DO NORTE (FNO) - DIRECIONADA/CONTROLADA",
+      "credito": 2177238755.919197,
+      "linhas": 8019
+    },
+    {
+      "dimensao": "fonte",
+      "categoria": "LETRA DE CRÉDITO DO AGRONEGÓCIO (LCA) - EQUALIZADA - DIRECIONADA/CONTROLADA",
+      "credito": 1630260632.7878559,
+      "linhas": 17456
+    },
+    {
+      "dimensao": "fonte",
+      "categoria": "FUNDO CONSTITUCIONAL DE FINANCIAMENTO DO CENTRO-OESTE (FCO) - DIRECIONADA/CONTROLADA",
+      "credito": 837940378.6711667,
+      "linhas": 3905
+    },
+    {
+      "dimensao": "fonte",
+      "categoria": "POUPANÇA RURAL - DIRECIONADA/NÃO CONTROLADA",
+      "credito": 227982011.3385947,
+      "linhas": 3047
+    },
+    {
+      "dimensao": "fonte",
+      "categoria": "LETRA DE CRÉDITO DO AGRONEGÓCIO (LCA) - DIRECIONADA/NÃO CONTROLADA",
+      "credito": 187210583.88533804,
+      "linhas": 2475
+    },
+    "... (19 more items)"
+  ],
+  "query_ref": "qr_47d32ad69bc24077b78bc4516cb326ea"
+}

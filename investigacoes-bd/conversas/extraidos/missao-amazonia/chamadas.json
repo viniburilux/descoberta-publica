@@ -1,0 +1,688 @@
+[
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 0,
+    "call_id": "call_8b503ab049284258ac936e0c991ebd36",
+    "nome": "search_datasets",
+    "args": {
+      "query": "censo"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 0,
+    "call_id": "call_bd076eb8e4a14ca0aac0fe0d41f8dfdc",
+    "nome": "search_datasets",
+    "args": {
+      "query": "pib"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 0,
+    "call_id": "call_9dc6aa973a684541a74dcc73875d3e73",
+    "nome": "search_datasets",
+    "args": {
+      "query": "CEMPRE"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 0,
+    "call_id": "call_33ee33a8575f4375aebe081416cea5c7",
+    "nome": "search_datasets",
+    "args": {
+      "query": "RAIS"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 0,
+    "call_id": "call_efc3cedb31b341e49c5a2f20608dde02",
+    "nome": "search_datasets",
+    "args": {
+      "query": "SNIS"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 0,
+    "call_id": "call_77a2d204d0824271bc2e08f6ed91d24a",
+    "nome": "search_datasets",
+    "args": {
+      "query": "FINBRA"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 0,
+    "call_id": "call_b3938162f8c4440c9d7ab1097c686362",
+    "nome": "search_datasets",
+    "args": {
+      "query": "PNCP"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 0,
+    "call_id": "call_e293542c12e54dfb9c17674191281afd",
+    "nome": "search_datasets",
+    "args": {
+      "query": "CNPJ"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 9,
+    "call_id": "call_vn17CXq6skXEec69XcuohO0d",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "d30222ad-7a5c-4778-a1ec-f0785371d1ca"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 9,
+    "call_id": "call_pot1B6GWHHN4UETIFvOgQ7T6",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 9,
+    "call_id": "call_SYDbS7fyr31MVS8EcKROZ2ab",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "fcf025ca-8b19-4131-8e32-cee91668999f"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 9,
+    "call_id": "call_owII85P1cLmolpCyNRFPVo8I",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "3e7c4d58-96ba-448e-b053-d385a829ef00"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 9,
+    "call_id": "call_0uXUSayZXbUSMmrmGUezTitC",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "2a543ad3-3cdb-4047-9498-efe7fb8ed697"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 9,
+    "call_id": "call_cl8dyxm5JSJ7SN7zbSw2xBDl",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "5a3dec52-8740-460e-b31d-0e0347979da0"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 9,
+    "call_id": "call_B3pd9GsMNoY29jy4hhdqM4Ch",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 9,
+    "call_id": "call_3cvi5Sv2md09tK21288qFRS3",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 18,
+    "call_id": "call_4oPEvCwUoMBc8qgRT6nlvBYj",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "2a543ad8-3cdb-4047-9498-efe7fb8ed697"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 18,
+    "call_id": "call_1dvsjU3VxFJOIXJu7IT9kXns",
+    "nome": "search_datasets",
+    "args": {
+      "query": "Produto Interno Bruto"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 18,
+    "call_id": "call_9w5E9SEWIp8BfTTNWsiESAEy",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "0c279444-165b-41da-92cd-50fd7e66baa1"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 18,
+    "call_id": "call_VNFg30smrrFXk7aQeUaOjOJ9",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "86b69f96-0bfe-45da-833b-6edc9a0af213"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 18,
+    "call_id": "call_nJtVdHBKicXrc7q4MaOx1Yvg",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "dabe5ea8-3bb5-4a3e-9d5a-3c7003cd4a60"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 18,
+    "call_id": "call_Pip0CuSMvybBPDTsv12DgR2d",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "1f2cf310-77c2-45dd-8a10-d10078f1def0"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 18,
+    "call_id": "call_y8eD40FA9ulYMK6rbp4Ku9cJ",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "8d717bbb-1f20-4d0a-a4b6-9d684de43150"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 18,
+    "call_id": "call_Qd0CxChLfu7fQB2f2PskSVoH",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "1d2d5e1c-45c7-4f86-9362-821086917a79"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 18,
+    "call_id": "call_GEt37zCUByhucZ9UbPU4T9B1",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "b8432ff5-06c8-45ca-b8b6-33fceb24089d"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 28,
+    "call_id": "call_CT69bZ7qDX2WwJTiRJCBfTvi",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "fcf025ca-8b19-4131-8e2d-5ddb12492347"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 28,
+    "call_id": "call_PYHqlk0wsCvM5PCJL61hH5C0",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "df7cf198-4889-4baf-bb77-4e0e28eb90ca"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 28,
+    "call_id": "call_vsjVEzzXkigVNk8d5HyrbcF8",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "eed2b316-795d-4577-af96-f47e40cef09d"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 28,
+    "call_id": "call_4LiL9vzopD39v99fuRtuKulx",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "700c7b32-3e05-4085-b3c3-917466bba7c9"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 28,
+    "call_id": "call_qVJBgUApw6UUw272eBNfNDkQ",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "12e35a4c-829d-4ba8-86c2-8e983853d59a"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 28,
+    "call_id": "call_cXep9RGufLHC6jj9HfaqJBHI",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "8a02c4e5-1718-41e7-8891-d0fa09265d58"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 28,
+    "call_id": "call_BfKVWsQKvwjwwWyqyFUkrBsf",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 36,
+    "call_id": "call_qg6OlyjTE9w52aMNwgWDegiU",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "fbbbe77e-d234-4113-8af5-98724a956943"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 36,
+    "call_id": "call_3RaXD0zpeLdjGYLHqCrMZvBX",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano, populacao FROM `basedosdados.br_ibge_populacao.municipio` WHERE ano BETWEEN 1991 AND 2025 AND id_municipio = '1503200' ORDER BY ano",
+      "slug": "populacao_igarape_acu"
+    },
+    "arquivo_sql": "sql/001.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 36,
+    "call_id": "call_ZwmKjPxhlzk8TTv9Ou1B1icG",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT '1503200' AS id_municipio, SUM(v001) AS domicilios_total, SUM(v002) AS domicilios_permanentes, SUM(v012) AS agua_rede_geral, SUM(v016) AS banheiro_ou_sanitario, SUM(v017) AS esgoto_rede_geral_pluvial, SUM(v018) AS esgoto_fossa_septica, SUM(v019) AS esgoto_fossa_rudimentar, SUM(v035) AS lixo_coletado, SUM(v036) AS lixo_servico_limpeza, SUM(v037) AS lixo_cacamba, SUM(v038) AS lixo_queimado, SUM(v039) AS lixo_enterrado, SUM(v040) AS lixo_terreno, SUM(v041) AS lixo_rio_lago_mar, SUM(v042) AS lixo_outro FROM `basedosdados.br_ibge_censo_demografico.setor_censitario_domicilio_caracteristicas_gerais_2010` WHERE sigla_uf = 'PA' AND SUBSTR(id_setor_censitario, 1, 7) = '1503200'",
+      "slug": "domicilios_igarape_acu_2010"
+    },
+    "arquivo_sql": "sql/002.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 36,
+    "call_id": "call_tNQSZO5cKN4AaPkYaPRzSZai",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH cnae AS (SELECT subclasse, descricao_subclasse, descricao_classe, descricao_grupo, divisao FROM `basedosdados.br_bd_diretorios_brasil.cnae_2` WHERE indicador_cnae_2_0 = 1 AND (LOWER(descricao_subclasse) LIKE '%recuperação%' OR LOWER(descricao_subclasse) LIKE '%resíduo%' OR LOWER(descricao_subclasse) LIKE '%sucata%' OR LOWER(descricao_subclasse) LIKE '%coleta%' OR LOWER(descricao_subclasse) LIKE '%tratamento%' OR LOWER(descricao_subclasse) LIKE '%armazenamento%' OR LOWER(descricao_subclasse) LIKE '%transporte%')) SELECT subclasse, descricao_subclasse, descricao_classe, descricao_grupo, divisao FROM cnae ORDER BY subclasse",
+      "slug": "cnaes_reciclagem"
+    },
+    "arquivo_sql": "sql/003.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 36,
+    "call_id": "call_GVY1XE0y3gzjkM7NoN5CwUrC",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano, id_municipio, produto_interno_bruto, produto_interno_bruto_per_capita, valor_adicionado_bruto_agropecuaria, valor_adicionado_bruto_industria, valor_adicionado_bruto_servicos, valor_adicionado_bruto_administracao_defesa_educacao_saude_publica_seguridade_social FROM `basedosdados.br_ibge_pib.municipio` WHERE id_municipio = '1503200' ORDER BY ano",
+      "slug": "pib_igarape_acu"
+    },
+    "arquivo_sql": "sql/004.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 36,
+    "call_id": "call_9jgMoL8PhvQTlTXXkw6U0vVc",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT e.cnae_2_subclasse, c.descricao_subclasse, COUNT(*) AS estabelecimentos, SUM(e.quantidade_vinculos_ativos) AS vinculos_ativos FROM `basedosdados.br_me_rais.microdados_estabelecimentos` e LEFT JOIN `basedosdados.br_bd_diretorios_brasil.cnae_2` c ON e.cnae_2_subclasse = c.subclasse WHERE e.ano = 2024 AND e.sigla_uf = 'PA' AND c.indicador_cnae_2_0 = 1 AND (LOWER(c.descricao_subclasse) LIKE '%recuperação%' OR LOWER(c.descricao_subclasse) LIKE '%resíduo%' OR LOWER(c.descricao_subclasse) LIKE '%sucata%' OR LOWER(c.descricao_subclasse) LIKE '%coleta%' OR LOWER(c.descricao_subclasse) LIKE '%tratamento%' OR LOWER(c.descricao_subclasse) LIKE '%armazenamento%' OR LOWER(c.descricao_subclasse) LIKE '%transporte%') GROUP BY e.cnae_2_subclasse, c.descricao_subclasse ORDER BY estabelecimentos DESC",
+      "slug": "rais_reciclagem_para_2024"
+    },
+    "arquivo_sql": "sql/005.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 43,
+    "call_id": "call_527rU0RRS836TYmftSSELFCF",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano, id_municipio, pib, va, va_agropecuaria, va_industria, va_servicos, va_adespss FROM `basedosdados.br_ibge_pib.municipio` WHERE id_municipio = '1503200' ORDER BY ano",
+      "slug": "pib_igarape_acu"
+    },
+    "arquivo_sql": "sql/006.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 43,
+    "call_id": "call_tkcLoT7IHPRP33akiCx3NBQp",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH cnae AS (SELECT subclasse, descricao_subclasse FROM `basedosdados.br_bd_diretorios_brasil.cnae_2` WHERE subclasse IN ('3811400','3812200','3821100','3822000','3831901','3831999','3832700','3839499','3900500','4687701','4687702','4687703')) SELECT e.id_municipio, m.nome, e.cnae_2_subclasse, c.descricao_subclasse, COUNT(*) AS estabelecimentos, SUM(e.quantidade_vinculos_ativos) AS vinculos_ativos FROM `basedosdados.br_me_rais.microdados_estabelecimentos` e JOIN cnae c ON e.cnae_2_subclasse=c.subclasse LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m ON e.id_municipio=m.id_municipio WHERE e.ano=2024 AND e.sigla_uf='PA' GROUP BY e.id_municipio,m.nome,e.cnae_2_subclasse,c.descricao_subclasse ORDER BY estabelecimentos DESC, vinculos_ativos DESC",
+      "slug": "rais_reciclagem_municipios_pa"
+    },
+    "arquivo_sql": "sql/007.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 43,
+    "call_id": "call_m1IE2QaAhXk8RaIMDpI5KNFO",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH cnae AS (SELECT subclasse, descricao_subclasse FROM `basedosdados.br_bd_diretorios_brasil.cnae_2` WHERE subclasse IN ('3811400','3812200','3821100','3822000','3831901','3831999','3832700','3839499','3900500','4687701','4687702','4687703')) SELECT e.id_municipio, m.nome, e.cnae_fiscal_principal, c.descricao_subclasse, e.situacao_cadastral, COUNT(DISTINCT e.cnpj) AS estabelecimentos FROM `basedosdados.br_rf_cnpj.estabelecimentos` e JOIN cnae c ON e.cnae_fiscal_principal=c.subclasse LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m ON e.id_municipio=m.id_municipio WHERE e.data_referencia='2026-11-01' AND e.sigla_uf='PA' GROUP BY e.id_municipio,m.nome,e.cnae_fiscal_principal,c.descricao_subclasse,e.situacao_cadastral ORDER BY estabelecimentos DESC",
+      "slug": "cnpj_reciclagem_pa_2026"
+    },
+    "arquivo_sql": "sql/008.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 43,
+    "call_id": "call_tkP5iDYlChBY2mxt4RYz3Aex",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano, conta_bd, estagio_bd, SUM(valor) AS valor FROM `basedosdados.br_me_siconfi.municipio_despesas_funcao` WHERE ano BETWEEN 2022 AND 2025 AND id_municipio='1503200' AND (LOWER(conta_bd) LIKE '%saneamento%' OR LOWER(conta_bd) LIKE '%gestão ambiental%' OR LOWER(conta_bd) LIKE '%urbanismo%' OR LOWER(conta_bd) LIKE '%serviços urbanos%' OR LOWER(conta_bd) LIKE '%limpeza%') GROUP BY ano,conta_bd,estagio_bd ORDER BY ano,conta_bd,estagio_bd",
+      "slug": "fiscal_igarape_acu"
+    },
+    "arquivo_sql": "sql/009.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 43,
+    "call_id": "call_Tf7dnhcKvqfSeIfwIE3RqtUQ",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano, id_contratacao_pncp, id_municipio, nome_orgao, objeto_compra, valor_total_homologado, situacao_compra FROM `basedosdados.br_mgi_pncp.contratacao` WHERE ano BETWEEN 2021 AND 2026 AND id_municipio='1503200' AND (LOWER(objeto_compra) LIKE '%resíduo%' OR LOWER(objeto_compra) LIKE '%lixo%' OR LOWER(objeto_compra) LIKE '%limpeza%' OR LOWER(objeto_compra) LIKE '%saneamento%' OR LOWER(objeto_compra) LIKE '%coleta%') ORDER BY ano, valor_total_homologado DESC",
+      "slug": "pncp_igarape_acu_residuos"
+    },
+    "arquivo_sql": "sql/010.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 49,
+    "call_id": "call_dGnqHYEp3FI9tEcfQVigISYU",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano, indice_atendimento_total_agua, indice_atendimento_urbano_agua, indice_coleta_esgoto, indice_tratamento_esgoto, populacao_urbana, populacao_atendida_agua, populacao_atentida_esgoto, investimento_total_municipio, despesa_total_servico, quantidade_empregado FROM `basedosdados.br_mdr_snis.municipio_agua_esgoto` WHERE id_municipio='1503200' AND ano BETWEEN 2018 AND 2022 ORDER BY ano",
+      "slug": "snis_igarape_acu"
+    },
+    "arquivo_sql": "sql/011.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 49,
+    "call_id": "call_IlUYwfEJ3zP8wIjHfcm0ISIN",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano, estagio_bd, SUM(valor) AS receita_total FROM `basedosdados.br_me_siconfi.municipio_receitas_orcamentarias` WHERE id_municipio='1503200' AND ano BETWEEN 2022 AND 2025 AND LOWER(conta_bd)='receitas orçamentárias' GROUP BY ano,estagio_bd ORDER BY ano,estagio_bd",
+      "slug": "receitas_igarape_acu"
+    },
+    "arquivo_sql": "sql/012.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 49,
+    "call_id": "call_Z5Z1yMBJdPYpPQHfZuDBNxgO",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH rec AS (SELECT id_municipio, SUM(CASE WHEN cnae_2_subclasse IN ('3831901','3831999','3832700','3839499','4687701','4687702','4687703') THEN 1 ELSE 0 END) AS estabelecimentos_reciclagem, SUM(CASE WHEN cnae_2_subclasse IN ('3831901','3831999','3832700','3839499','4687701','4687702','4687703') THEN quantidade_vinculos_ativos ELSE 0 END) AS vinculos_reciclagem FROM `basedosdados.br_me_rais.microdados_estabelecimentos` WHERE ano=2024 AND sigla_uf='PA' GROUP BY id_municipio), pop AS (SELECT id_municipio,populacao FROM `basedosdados.br_ibge_populacao.municipio` WHERE ano=2024 AND sigla_uf='PA'), pib AS (SELECT id_municipio,pib FROM `basedosdados.br_ibge_pib.municipio` WHERE ano=2023) SELECT r.id_municipio,m.nome,p.populacao,pib.pib,SAFE_DIVIDE(pib.pib,p.populacao) AS pib_per_capita,r.estabelecimentos_reciclagem,r.vinculos_reciclagem FROM rec r LEFT JOIN pop p USING(id_municipio) LEFT JOIN pib USING(id_municipio) LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m USING(id_municipio) WHERE r.estabelecimentos_reciclagem>0 ORDER BY r.estabelecimentos_reciclagem DESC,r.vinculos_reciclagem DESC LIMIT 25",
+      "slug": "comparativo_reciclagem_pa"
+    },
+    "arquivo_sql": "sql/013.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 49,
+    "call_id": "call_Zs2A3i9Fnoppj6yJlcOujEY1",
+    "nome": "decode_table_values",
+    "args": {
+      "table_gcp_id": "basedosdados.br_rf_cnpj.estabelecimentos",
+      "column_name": "situacao_cadastral"
+    }
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 49,
+    "call_id": "call_NzPxN7MktanzHrJMh3Ewnvwr",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano, conta_bd, estagio_bd, SUM(valor) AS valor FROM `basedosdados.br_me_siconfi.municipio_receitas_orcamentarias` WHERE id_municipio='1503200' AND ano=2024 GROUP BY ano,conta_bd,estagio_bd ORDER BY valor DESC LIMIT 20",
+      "slug": "receitas_igarape_acu_2024"
+    },
+    "arquivo_sql": "sql/014.sql"
+  },
+  {
+    "message_id": "608d79a6-3e18-44e4-98f7-42447649e8bd",
+    "evento": 55,
+    "call_id": "call_MvmLW309Wr654n1sERx0P6cd",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT e.cnae_fiscal_principal, c.descricao_subclasse, COUNT(DISTINCT e.cnpj) AS estabelecimentos, COUNTIF(e.situacao_cadastral='2') AS ativas, COUNTIF(e.situacao_cadastral='8') AS baixadas, COUNTIF(e.situacao_cadastral='4') AS inaptas, COUNTIF(e.situacao_cadastral='3') AS suspensas FROM `basedosdados.br_rf_cnpj.estabelecimentos` e JOIN `basedosdados.br_bd_diretorios_brasil.cnae_2` c ON e.cnae_fiscal_principal=c.subclasse WHERE e.data_referencia='2026-11-01' AND e.id_municipio='1503200' AND e.cnae_fiscal_principal IN ('3811400','3812200','3821100','3822000','3831901','3831999','3832700','3839499','3900500','4687701','4687702','4687703') GROUP BY e.cnae_fiscal_principal,c.descricao_subclasse ORDER BY e.cnae_fiscal_principal",
+      "slug": "cnpj_igarape_acu_reciclagem"
+    },
+    "arquivo_sql": "sql/015.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 0,
+    "call_id": "call_GoJiQTQ1VRvdrWxA32NOPFDC",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "3dbb38d1-65af-44a3-b43a-7b088891ebc0"
+    }
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 0,
+    "call_id": "call_6W5MRHNqsE6mykN4bTZzDMgn",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "8d717bbb-1f20-4d0a-a4b6-9d684de43150"
+    }
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 0,
+    "call_id": "call_NMPXvosSdJIlST7fp9JxZ8c1",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "12e35a4c-829d-4ba8-86c2-8e983853d59a"
+    }
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 0,
+    "call_id": "call_tRUaa8RzXyA5ei6yzfBDzsOL",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT DISTINCT data_referencia FROM `basedosdados.br_rf_cnpj.estabelecimentos` WHERE data_referencia BETWEEN '2021-11-01' AND '2026-11-01' ORDER BY data_referencia",
+      "slug": "historico_fotografias_cnpj"
+    },
+    "arquivo_sql": "sql/016.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 0,
+    "call_id": "call_khDz5MF9X1Ly30czlqqKwTV2",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT cnpj, cnpj_basico, nome_fantasia, cnae_fiscal_principal, cnae_fiscal_secundaria, situacao_cadastral, data_inicio_atividade, data_referencia, id_municipio, sigla_uf FROM `basedosdados.br_rf_cnpj.estabelecimentos` WHERE data_referencia='2026-11-01' AND id_municipio='1503200' AND situacao_cadastral='2' AND cnae_fiscal_principal IN ('3811400','3832700','3839499','4687703') ORDER BY cnae_fiscal_principal,cnpj",
+      "slug": "estabelecimentos_ativos_igarape_acu"
+    },
+    "arquivo_sql": "sql/017.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 0,
+    "call_id": "call_rWO0LPnuQA5xNCPU5TZdlYZE",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT cnae_fiscal_principal, COUNT(DISTINCT cnpj) AS estabelecimentos, COUNTIF(situacao_cadastral='2') AS ativas FROM `basedosdados.br_rf_cnpj.estabelecimentos` WHERE data_referencia='2026-11-01' AND id_municipio IN ('1503200','1502400') AND cnae_fiscal_principal IN ('3811400','3812200','3821100','3822000','3831901','3831999','3832700','3839499','3900500','4687701','4687702','4687703') GROUP BY cnae_fiscal_principal ORDER BY cnae_fiscal_principal",
+      "slug": "cnpj_igarape_castanhal_cnae"
+    },
+    "arquivo_sql": "sql/018.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 7,
+    "call_id": "call_dtid6Gz3MVpF4YduLLoQy7bh",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT e.cnpj, emp.razao_social, e.nome_fantasia, e.cnae_fiscal_principal, e.cnae_fiscal_secundaria, e.situacao_cadastral, e.data_inicio_atividade, e.data_referencia, e.id_municipio, e.sigla_uf FROM `basedosdados.br_rf_cnpj.estabelecimentos` e LEFT JOIN `basedosdados.br_rf_cnpj.empresas` emp ON e.cnpj_basico=emp.cnpj_basico AND emp.data_referencia='2026-11-01' WHERE e.data_referencia='2026-11-01' AND e.id_municipio='1503200' AND e.situacao_cadastral='2' AND e.cnae_fiscal_principal IN ('3811400','3832700','3839499','4687703') ORDER BY e.cnae_fiscal_principal,e.cnpj",
+      "slug": "razao_social_igarape_acu"
+    },
+    "arquivo_sql": "sql/019.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 7,
+    "call_id": "call_90nSUm2ZVy8y102IcdwrodEG",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT e.cnae_fiscal_principal, c.descricao_subclasse, COUNT(DISTINCT e.cnpj) AS estabelecimentos, COUNTIF(e.situacao_cadastral='2') AS ativas FROM `basedosdados.br_rf_cnpj.estabelecimentos` e JOIN `basedosdados.br_bd_diretorios_brasil.cnae_2` c ON e.cnae_fiscal_principal=c.subclasse WHERE e.data_referencia='2026-11-01' AND e.id_municipio='1502400' AND e.cnae_fiscal_principal IN ('3811400','3812200','3821100','3822000','3831901','3831999','3832700','3839499','3900500','4687701','4687702','4687703') GROUP BY e.cnae_fiscal_principal,c.descricao_subclasse ORDER BY e.cnae_fiscal_principal",
+      "slug": "cnpj_castanhal_residuos"
+    },
+    "arquivo_sql": "sql/020.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 7,
+    "call_id": "call_Xs5VaISnItVPFe9mPdUW6ekK",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT subclasse, descricao_subclasse, divisao, grupo, classe FROM `basedosdados.br_bd_diretorios_brasil.cnae_2` WHERE indicador_cnae_2_0=1 AND (LOWER(descricao_subclasse) LIKE '%embalagem%' OR LOWER(descricao_subclasse) LIKE '%papelão%' OR LOWER(descricao_subclasse) LIKE '%papel%' OR LOWER(descricao_subclasse) LIKE '%plástico%' OR LOWER(descricao_subclasse) LIKE '%armazenagem%' OR LOWER(descricao_subclasse) LIKE '%transporte rodoviário de carga%') ORDER BY subclasse",
+      "slug": "cnaes_suporte_reciclagem"
+    },
+    "arquivo_sql": "sql/021.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 7,
+    "call_id": "call_4LkqanZkhAeWzGuEJpHSYifJ",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT data_referencia, COUNT(*) AS registros FROM `basedosdados.br_rf_cnpj.estabelecimentos` WHERE data_referencia IN ('2021-11-01','2022-11-01','2023-11-01','2024-11-01','2025-11-01','2026-11-01') AND id_municipio IN ('1503200','1502400') GROUP BY data_referencia ORDER BY data_referencia",
+      "slug": "cobertura_historica_cnpj_regional"
+    },
+    "arquivo_sql": "sql/022.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 12,
+    "call_id": "call_0DxCiQYQvaNlyabAPtGSCRwT",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT e.data_referencia, e.id_municipio, m.nome, e.cnae_fiscal_principal, c.descricao_subclasse, COUNT(DISTINCT e.cnpj) AS estabelecimentos, COUNTIF(e.situacao_cadastral='2') AS ativas FROM `basedosdados.br_rf_cnpj.estabelecimentos` e JOIN `basedosdados.br_bd_diretorios_brasil.cnae_2` c ON e.cnae_fiscal_principal=c.subclasse LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m ON e.id_municipio=m.id_municipio WHERE e.data_referencia IN ('2023-11-01','2024-11-01','2025-11-01','2026-11-01') AND e.id_municipio IN ('1503200','1502400') AND e.cnae_fiscal_principal IN ('3811400','3812200','3821100','3822000','3831901','3831999','3832700','3839499','3900500','4687701','4687702','4687703') GROUP BY e.data_referencia,e.id_municipio,m.nome,e.cnae_fiscal_principal,c.descricao_subclasse ORDER BY e.data_referencia,e.id_municipio,e.cnae_fiscal_principal",
+      "slug": "evolucao_cnpj_igarape_castanhal"
+    },
+    "arquivo_sql": "sql/023.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 12,
+    "call_id": "call_A9riwZxpNaNCfw0HWGihC7dG",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH base AS (SELECT ano,id_municipio,cnae_2_subclasse,quantidade_vinculos_ativos,CASE WHEN cnae_2_subclasse IN ('3811400','3812200','3821100','3822000','3831901','3831999','3832700','3839499','3900500','4687701','4687702','4687703') THEN 'direta' WHEN cnae_2_subclasse IN ('1731100','1732000','1733800','2221800','2222600','2229301','2229302','2229303','2229399','4686901','4930201','4930202') THEN 'suporte' END AS categoria FROM `basedosdados.br_me_rais.microdados_estabelecimentos` WHERE ano BETWEEN 2017 AND 2024 AND sigla_uf='PA' AND id_municipio IN ('1503200','1502400','1507409','1506609','1504406','1502905','1502301')) SELECT ano,id_municipio,m.nome,categoria,COUNT(*) AS estabelecimentos,SUM(quantidade_vinculos_ativos) AS vinculos_ativos FROM base LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m USING(id_municipio) WHERE categoria IS NOT NULL GROUP BY ano,id_municipio,m.nome,categoria ORDER BY ano,id_municipio,categoria",
+      "slug": "rais_regional_2017_2024"
+    },
+    "arquivo_sql": "sql/024.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 12,
+    "call_id": "call_VnNtdVH98zyEB52Yew5TaBgd",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano,id_municipio,m.nome,conta_bd,conta,estagio_bd,SUM(valor) AS valor FROM `basedosdados.br_me_siconfi.municipio_despesas_funcao` d LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m USING(id_municipio) WHERE ano BETWEEN 2022 AND 2025 AND id_municipio IN ('1503200','1502400') AND (LOWER(conta_bd) LIKE '%saneamento%' OR LOWER(conta_bd) LIKE '%serviços urbanos%' OR LOWER(conta_bd) LIKE '%gestão ambiental%' OR LOWER(conta_bd) LIKE '%limpeza%' OR LOWER(conta) LIKE '%resíduo%' OR LOWER(conta) LIKE '%lixo%') GROUP BY ano,id_municipio,m.nome,conta_bd,conta,estagio_bd ORDER BY ano,id_municipio,conta_bd,estagio_bd",
+      "slug": "despesas_funcao_igarape_castanhal"
+    },
+    "arquivo_sql": "sql/025.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 12,
+    "call_id": "call_BcFcQxMYJtv3cKAe4eyarX41",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano,id_municipio,m.nome,conta_bd,conta,estagio_bd,SUM(valor) AS valor FROM `basedosdados.br_me_siconfi.municipio_despesas_orcamentarias` d LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m USING(id_municipio) WHERE ano BETWEEN 2022 AND 2025 AND id_municipio IN ('1503200','1502400') AND (LOWER(conta_bd) LIKE '%limpeza%' OR LOWER(conta_bd) LIKE '%resíduo%' OR LOWER(conta_bd) LIKE '%lixo%' OR LOWER(conta_bd) LIKE '%coleta%' OR LOWER(conta_bd) LIKE '%transporte%' OR LOWER(conta_bd) LIKE '%terceiros%') GROUP BY ano,id_municipio,m.nome,conta_bd,conta,estagio_bd ORDER BY ano,id_municipio,conta_bd,estagio_bd",
+      "slug": "despesas_orcamentarias_residuos"
+    },
+    "arquivo_sql": "sql/026.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 12,
+    "call_id": "call_WT8yTAWSJ82tNxtudvDBpG4o",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano,id_municipio,nome_orgao,objeto_contrato,id_fornecedor,nome_fornecedor,valor_inicial,valor_acumulado,valor_global,data_assinatura,data_vigencia_inicio,data_vigencia_fim,tipo_contrato FROM `basedosdados.br_mgi_pncp.contrato` WHERE ano BETWEEN 2021 AND 2026 AND id_municipio IN ('1503200','1502400') AND (LOWER(objeto_contrato) LIKE '%lixo%' OR LOWER(objeto_contrato) LIKE '%resíduo%' OR LOWER(objeto_contrato) LIKE '%limpeza%' OR LOWER(objeto_contrato) LIKE '%coleta%' OR LOWER(objeto_contrato) LIKE '%triagem%' OR LOWER(objeto_contrato) LIKE '%prensa%' OR LOWER(objeto_contrato) LIKE '%triturador%' OR LOWER(objeto_contrato) LIKE '%ambiental%') ORDER BY ano,id_municipio,data_assinatura",
+      "slug": "contratos_residuos_igarape_castanhal"
+    },
+    "arquivo_sql": "sql/027.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 12,
+    "call_id": "call_7InDgx6u1A8mv3LcMZjmXZiq",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH c AS (SELECT ano,id_municipio,id_fornecedor,nome_fornecedor,SUM(COALESCE(valor_acumulado,valor_global,valor_inicial,0)) AS valor_registrado,COUNT(*) AS registros FROM `basedosdados.br_mgi_pncp.contrato` WHERE ano BETWEEN 2021 AND 2026 AND id_municipio IN ('1503200','1502400') AND (LOWER(objeto_contrato) LIKE '%lixo%' OR LOWER(objeto_contrato) LIKE '%resíduo%' OR LOWER(objeto_contrato) LIKE '%limpeza%' OR LOWER(objeto_contrato) LIKE '%coleta%' OR LOWER(objeto_contrato) LIKE '%triagem%' OR LOWER(objeto_contrato) LIKE '%prensa%' OR LOWER(objeto_contrato) LIKE '%triturador%' OR LOWER(objeto_contrato) LIKE '%ambiental%') GROUP BY ano,id_municipio,id_fornecedor,nome_fornecedor) SELECT id_fornecedor,nome_fornecedor,COUNT(DISTINCT id_municipio) AS municipios,ARRAY_AGG(DISTINCT id_municipio) AS ids_municipios,SUM(valor_registrado) AS valor_registrado,SUM(registros) AS registros FROM c GROUP BY id_fornecedor,nome_fornecedor HAVING COUNT(DISTINCT id_municipio)>1 ORDER BY valor_registrado DESC",
+      "slug": "fornecedores_multimunicipais_residuos"
+    },
+    "arquivo_sql": "sql/028.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 19,
+    "call_id": "call_sjrCI0QOpQpXVHugDxA2MAM8",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano,id_municipio,nome_orgao,objeto_contrato,id_fornecedor,nome_fornecedor,valor_inicial,valor_acumulado,valor_global,data_assinatura,data_vigencia_inicio,data_vigencia_fim,tipo_contrato FROM `basedosdados.br_mgi_pncp.contrato` WHERE ano BETWEEN 2021 AND 2026 AND id_municipio IN ('1503200','1502400') AND (LOWER(objeto_contrato) LIKE '%lixo%' OR LOWER(objeto_contrato) LIKE '%resíduo%' OR LOWER(objeto_contrato) LIKE '%coleta seletiva%' OR LOWER(objeto_contrato) LIKE '%triagem%' OR LOWER(objeto_contrato) LIKE '%prensa%' OR LOWER(objeto_contrato) LIKE '%triturador%' OR LOWER(objeto_contrato) LIKE '%destinação final%') ORDER BY ano,id_municipio,data_assinatura",
+      "slug": "contratos_especificos_residuos"
+    },
+    "arquivo_sql": "sql/029.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 19,
+    "call_id": "call_0TSRxQQoHHiTS3eZglhD6baL",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano,id_municipio,nome_orgao,objeto_compra,cnpj_orgao,valor_total_estimado,valor_total_homologado,data_publicacao,situacao_compra FROM `basedosdados.br_mgi_pncp.contratacao` WHERE ano BETWEEN 2021 AND 2026 AND id_municipio IN ('1503200','1502400') AND (LOWER(objeto_compra) LIKE '%lixo%' OR LOWER(objeto_compra) LIKE '%resíduo%' OR LOWER(objeto_compra) LIKE '%coleta seletiva%' OR LOWER(objeto_compra) LIKE '%triagem%' OR LOWER(objeto_compra) LIKE '%prensa%' OR LOWER(objeto_compra) LIKE '%triturador%' OR LOWER(objeto_compra) LIKE '%destinação final%') ORDER BY ano,id_municipio,data_publicacao",
+      "slug": "contratacoes_especificas_residuos"
+    },
+    "arquivo_sql": "sql/030.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 19,
+    "call_id": "call_3xBuwsJ4UN7IXxYcq0SGQfg8",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH b AS (SELECT ano,id_municipio,CASE WHEN cnae_2_subclasse IN ('3811400','3812200','3821100','3822000','3831901','3831999','3832700','3839499','3900500','4687701','4687702','4687703') THEN 'direta' WHEN cnae_2_subclasse IN ('1731100','1732000','1733800','2221800','2222600','2229301','2229302','2229303','2229399','4686901','4930201','4930202') THEN 'suporte' END categoria,COUNT(*) est,SUM(quantidade_vinculos_ativos) vinc FROM `basedosdados.br_me_rais.microdados_estabelecimentos` WHERE ano BETWEEN 2017 AND 2024 AND sigla_uf='PA' AND id_municipio IN ('1503200','1502400','1507409','1506609','1504406','1502905','1502301') GROUP BY ano,id_municipio,categoria) SELECT ano,SUM(IF(id_municipio='1503200' AND categoria='direta',est,0)) AS igarape_direta_est,SUM(IF(id_municipio='1503200' AND categoria='direta',vinc,0)) AS igarape_direta_vinc,SUM(IF(id_municipio='1502400' AND categoria='direta',est,0)) AS castanhal_direta_est,SUM(IF(id_municipio='1502400' AND categoria='direta',vinc,0)) AS castanhal_direta_vinc,SUM(IF(id_municipio='1502400' AND categoria='suporte',est,0)) AS castanhal_suporte_est,SUM(IF(id_municipio='1502400' AND categoria='suporte',vinc,0)) AS castanhal_suporte_vinc FROM b GROUP BY ano ORDER BY ano",
+      "slug": "serie_rais_igarape_castanhal"
+    },
+    "arquivo_sql": "sql/031.sql"
+  },
+  {
+    "message_id": "3c59297f-2868-4965-a9c2-5187d7b9873b",
+    "evento": 19,
+    "call_id": "call_uiPJ7EEjvwgGm0cBSlWoFKs8",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano,id_municipio,m.nome,SUM(valor) AS despesas_empenhadas_funcoes FROM `basedosdados.br_me_siconfi.municipio_despesas_funcao` d LEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m USING(id_municipio) WHERE ano BETWEEN 2022 AND 2025 AND id_municipio IN ('1503200','1502400') AND estagio_bd='Despesas Empenhadas' GROUP BY ano,id_municipio,m.nome ORDER BY ano,id_municipio",
+      "slug": "despesas_totais_funcoes_regional"
+    },
+    "arquivo_sql": "sql/032.sql"
+  }
+]

@@ -1,0 +1,208 @@
+[
+  {
+    "id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+    "name": "Cadastro Ambiental Rural (CAR)",
+    "description": "Dados públicos do Cadastro Ambiental Rural (CAR), registro eletrônico nacional obrigatório dos imóveis rurais brasileiros, mantido no Sistema Nacional de Cadastro Ambiental Rural (SICAR) pelo Serviço Florestal Brasileiro. Inclui o perímetro dos imóveis e as feições ambientais declaradas — Área de Preservação Permanente (APP), Reserva Legal, vegetação nativa, hidrografia, área consolidada, uso restrito, servidão administrativa e pousio — com geometria em coordenadas geográficas (WGS84). Os dados são organizados como snapshots empilhados por data de disponibilização por Unidade da Federação.",
+    "organizations": [
+      "Serviço Florestal Brasileiro"
+    ],
+    "tags": [
+      "agropecuária",
+      "atividade econômica",
+      "licenciamento ambiental",
+      "gestão ambiental",
+      "uso da terra",
+      "sicar"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "37807a93-219d-45d6-b2ae-5f3f2746a035",
+    "name": "Cadastro de Imóveis Rurais (CAFIR)",
+    "description": "É o cadastro de imóveis rurais, administrado pela Secretaria Especial da Receita Federal do Brasil (RFB), do qual constarão as informações relativas ao imóvel rural, seu titular e, se for o caso, seus condôminos e compossuidores. Ao imóvel rural cadastrado no Cafir será atribuído o código do imóvel no Cadastro Imobiliário Brasileiro (CIB).",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "agropecuária",
+      "propriedade",
+      "imóvel"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "b909ebe0-7f89-4942-b9e7-63d3481af968",
+    "name": "Índice de Preços de Imóveis (FHFA HPI)",
+    "description": "Índices de preços de imóveis residenciais dos Estados Unidos calculados pela FHFA pelo método de vendas repetidas, a partir de hipotecas adquiridas ou garantidas por Fannie Mae e Freddie Mac. Inclui as séries mensais e trimestrais oficiais para o país, as divisões censitárias, os estados e as áreas metropolitanas, e os índices anuais em desenvolvimento para CBSAs, condados, ZIP Codes de três e cinco dígitos e setores censitários. Cobertura de 1975 em diante.",
+    "organizations": [
+      "Agência Federal de Financiamento Habitacional (FHFA) Americana"
+    ],
+    "tags": [
+      "habitação",
+      "hipoteca",
+      "preço",
+      "índice de preços",
+      "imóvel"
+    ],
+    "themes": [
+      "Economia",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "31b3c007-7bdc-46e3-ada8-c73c6c9aa97a",
+    "name": "Registros de Empréstimos Hipotecários (HMDA)",
+    "description": "Registros ao nível de empréstimo/solicitação de crédito hipotecário nos Estados Unidos, coletados sob o Home Mortgage Disclosure Act (HMDA) e publicados pelo CFPB/FFIEC. Inclui características do empréstimo, do imóvel, do solicitante e geografia (setor censitário). Dados modificados pelo órgão para proteger a privacidade.",
+    "organizations": [
+      "Consumer Financial Protection Bureau (CFPB)"
+    ],
+    "tags": [
+      "banco",
+      "crédito",
+      "demografia",
+      "crédito justo",
+      "habitação",
+      "empréstimo",
+      "hipoteca",
+      "imóveis"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "c634880c-3e8e-4edf-805c-2c1018128571",
+    "name": "Preços de Imóveis Residenciais (BIS)",
+    "description": "Estatísticas de preços de imóveis residenciais compiladas pelo Bank for International Settlements (BIS), a partir de seu conjunto selecionado (WS_SPP): índices nominais e reais (deflacionados por preços ao consumidor) na base comum 2010 = 100 e suas variações percentuais interanuais, em frequência trimestral, para 57 economias, com diversas séries iniciando nas décadas de 1960 e 1970. Os índices nacionais subjacentes diferem em método, cobertura e qualidade, de modo que os níveis não são comparáveis entre países — apenas as taxas de crescimento e os índices rebaseados são. Distribuído sob os Termos de Uso Permitido de Estatísticas do BIS, com atribuição obrigatória.",
+    "organizations": [
+      "Bank for International Settlements (BIS)"
+    ],
+    "tags": [
+      "moradia",
+      "habitação",
+      "preço",
+      "índice de preços",
+      "propriedade",
+      "imóvel"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "05f1b96d-883b-4202-a4bd-40379c5d326a",
+    "name": "Cadastro do IPTU na cidade de São Paulo",
+    "description": "O Geosampa disponibiliza a base completa do cadastro imobiliário fiscal relativo ao IPTU (Imposto Predial e Territorial Urbano) da cidade. São mais de 85 milhões de registros e 21,5 GB de informações sobre os imóveis de São Paulo.\r\nA publicação da base do IPTU representa um avanço significativo nas ações de transparência da Prefeitura ao garantir o acesso livre e a reutilização das informações pelos cidadãos, e permitir a elaboração de estudos, análises e cruzamento com outros dados, fundamentais para analisar os aspectos territoriais e sócio-econômicos da Cidade.",
+    "organizations": [
+      "Geoportal de Informações e Mapas da Cidade de São Paulo"
+    ],
+    "tags": [
+      "imóvel",
+      "aluguel"
+    ],
+    "themes": [
+      "Economia",
+      "Infraestrutura e Transportes",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "c39d5d74-7f15-42b6-b200-e152d4da79c0",
+    "name": "Pesquisa de Alvarás de Construção (BPS)",
+    "description": "Contagens mensais e anuais de edificações, unidades habitacionais e valor de construção de novas residências privadas autorizadas por alvarás de construção nos Estados Unidos, desde 1980. Os dados são publicados por jurisdição emissora de alvarás, condado, área estatística metropolitana e estado, separados por tipo de edificação (1 unidade, 2 unidades, 3 a 4 unidades e 5 ou mais unidades). As estimativas incluem imputação para jurisdições que não responderam à pesquisa, e as tabelas trazem também os valores apenas reportados.",
+    "organizations": [
+      "U.S. Census Bureau"
+    ],
+    "tags": [
+      "alvará de construção",
+      "construção",
+      "habitação",
+      "imóvel",
+      "regulação"
+    ],
+    "themes": [
+      "Economia",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "f7df4160-7a6f-4658-a287-3a73d412ed10",
+    "name": "Pesquisa Pecuária Municipal (PPM)",
+    "description": "A Pesquisa da Pecuária Municipal fornece informações sobre os efetivos da pecuária existentes no município na data de referência do levantamento, bem como a produção de origem animal, e o valor da produção durante o ano de referência. Os efetivos incluem bovinos, suínos, matrizes de suínos, galináceos, galinhas, codornas, equinos, bubalinos, caprinos e ovinos. A produção de origem animal, por sua vez, contempla a produção de leite, ovos de galinha, ovos de codorna, mel, lã bruta e casulos do bicho-da-seda; as quantidades de vacas ordenhadas e ovinos tosquiados; e a aquicultura, que engloba as produções da piscicultura, carcinocultura e malacocultura.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "animal",
+      "produção aquicultura",
+      "desmatamento",
+      "gestão ambiental",
+      "fazenda",
+      "peixe",
+      "alimento",
+      "alimentação",
+      "ovos de galinha",
+      "rebanho",
+      "rebanhos",
+      "mel de abelha",
+      "uso da terra",
+      "larvas",
+      "vacas ordenhadas",
+      "produção",
+      "propriedade",
+      "proteína",
+      "imóvel",
+      "camarão",
+      "solo",
+      "sustentabilidade"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia"
+    ]
+  },
+  {
+    "id": "02bcdee1-b52e-44b4-8e08-345655b0b902",
+    "name": "Índices de Preços e Inflação (Austrália)",
+    "description": "Índices de preços da Austrália publicados pelo Instituto Australiano de Estatística, abrangendo o tema Índices de Preços e Inflação. Reúne o Índice de Preços ao Consumidor (antigo catálogo 6401.0, trimestral desde o terceiro trimestre de 1948 e mensal desde 2017), o Índice de Preços de Salários (6345.0), os Índices de Preços ao Produtor (6427.0), os Índices de Preços do Comércio Internacional (6457.0), os Índices Selecionados de Custo de Vida (6467.0) e o Valor Total das Residências (6432.0). Há uma tabela por publicação, cada uma identificada pelo código de série temporal do ABS.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "custo de vida",
+      "moradia",
+      "habitação",
+      "inflação",
+      "preço",
+      "índice de preços",
+      "salário",
+      "comércio"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "d43cd943-e279-4ab0-b843-323fb979b5c9",
+    "name": "Diretórios da Austrália",
+    "description": "Diretórios de unidades geográficas e administrativas da Austrália, baseados no Australian Statistical Geography Standard (ASGS) do Australian Bureau of Statistics (ABS), nas edições de 2016 e 2021. Inclui estados e territórios, áreas estatísticas (SA1 a SA4), Greater Capital City Statistical Areas (GCCSA), áreas de governo local (LGA), áreas postais, subúrbios e localidades, divisões eleitorais federais e estaduais, além de tabelas de correspondência entre as edições de 2016 e 2021.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Organização Territorial"
+    ]
+  }
+]

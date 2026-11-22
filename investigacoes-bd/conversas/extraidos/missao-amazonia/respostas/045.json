@@ -1,0 +1,67 @@
+{
+  "row_count": 20,
+  "rows": [
+    {
+      "ano": 2024,
+      "conta_bd": "TOTAL DAS RECEITAS (III) = (I + II)",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "valor": 146571070.66
+    },
+    {
+      "ano": 2024,
+      "conta_bd": "Receitas Orçamentárias",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "valor": 146571070.66
+    },
+    {
+      "ano": 2024,
+      "conta_bd": "Receitas Correntes",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "valor": 144077134.36
+    },
+    {
+      "ano": 2024,
+      "conta_bd": "Transferências Correntes",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "valor": 131027152.57
+    },
+    {
+      "ano": 2024,
+      "conta_bd": "Transferências da União e de suas Entidades",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "valor": 92334635.19
+    },
+    {
+      "ano": 2024,
+      "conta_bd": "Transferências Decorrentes de Participação na Receita da União",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "valor": 42208948.22
+    },
+    {
+      "ano": 2024,
+      "conta_bd": "Cota-Parte do Fundo de Participação dos Municípios - FPM",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "valor": 42109470.03
+    },
+    {
+      "ano": 2024,
+      "conta_bd": "Cota-Parte do Fundo de Participação dos Municípios - FPM - Cota Mensal",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "valor": 38856638.58
+    },
+    {
+      "ano": 2024,
+      "conta_bd": "Transferências de Recursos do Sistema Único de Saúde - SUS",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "valor": 24466565.5
+    },
+    {
+      "ano": 2024,
+      "conta_bd": "Transferências de Recursos do Sistema Único de Saúde - SUS - Repasses Fundo a Fundo - Bloco de Manutenção das Ações e Serviços Públicos de Saúde",
+      "estagio_bd": "Receitas Brutas Realizadas",
+      "valor": 24057824.7
+    },
+    "... (10 more items)"
+  ],
+  "query_ref": "qr_1ba08f3cff6a4a3780f9f0ed76113573"
+}

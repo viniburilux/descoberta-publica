@@ -1,0 +1,77 @@
+{
+  "id": "b71e9a46-f98e-476b-a2d6-4444213a8ddc",
+  "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+  "gcp_id": "basedosdados.br_bd_diretorios_brasil.empresa",
+  "name": "Empresa",
+  "description": "A tabela apresenta informações do Cadastro Nacional da Pessoa Jurídica (CNPJ), que é um banco de dados administrado pela Secretaria Especial da Receita Federal do Brasil (RFB). Esse cadastro armazena detalhes cadastrais de pessoas jurídicas e outras entidades relevantes para as administrações tribut... (76 more characters)",
+  "columns": [
+    {
+      "name": "bairro",
+      "type": "STRING",
+      "description": "Bairro",
+      "needs_decoding": false
+    },
+    {
+      "name": "capital_social",
+      "type": "FLOAT64",
+      "description": "Capital Social",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "cep",
+      "type": "STRING",
+      "description": "CEP",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_fiscal_principal",
+      "type": "STRING",
+      "description": "CNAE Fiscal Principal",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_fiscal_secundaria",
+      "type": "STRING",
+      "description": "CNAEs Fiscais Secundárias",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj",
+      "type": "STRING",
+      "description": "CNPJ",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_basico",
+      "type": "STRING",
+      "description": "CNPJ Básico (8 primeiros dígitos)",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_dv",
+      "type": "STRING",
+      "description": "CNPJ Dígito Verificador",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_ordem",
+      "type": "STRING",
+      "description": "CNPJ Ordem",
+      "needs_decoding": false
+    },
+    {
+      "name": "complemento",
+      "type": "STRING",
+      "description": "Complemento",
+      "needs_decoding": false
+    },
+    "... (22 more items)"
+  ],
+  "partitioned_by": [
+    "id_municipio",
+    "sigla_uf"
+  ],
+  "period_start": "2021-11",
+  "period_end": "2025-12"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+  "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+  "gcp_id": "basedosdados.br_bd_diretorios_brasil.uf",
+  "name": "UF",
+  "description": "Diretório listando informações do IBGE sobre unidades da federação brasileiras.",
+  "columns": [
+    {
+      "name": "id_uf",
+      "type": "STRING",
+      "description": "ID Unidade da Federação - IBGE",
+      "needs_decoding": false
+    },
+    {
+      "name": "nome",
+      "type": "STRING",
+      "description": "Unidade da Federação",
+      "needs_decoding": false
+    },
+    {
+      "name": "regiao",
+      "type": "STRING",
+      "description": "Região",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla",
+      "type": "STRING",
+      "description": "Sigla da Unidade da Federação",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": null,
+  "period_end": null
+}

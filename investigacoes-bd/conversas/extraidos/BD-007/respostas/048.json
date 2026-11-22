@@ -1,0 +1,24 @@
+{
+  "row_count": 2,
+  "rows": [
+    {
+      "grupo_area": "area_financiada_acima_100pct",
+      "imoveis": 138033,
+      "imoveis_com_prodes": 138033,
+      "imoveis_em_municipio_com_aumento_prodes": 109032,
+      "media_desmatamento_municipal_km2": 23.37169227648462,
+      "desmatamento_municipal_repetido_km2": 3226064.8000000436,
+      "taxa_municipio_com_aumento_prodes": 0.7898980678533394
+    },
+    {
+      "grupo_area": "demais_imoveis",
+      "imoveis": 789742,
+      "imoveis_com_prodes": 789742,
+      "imoveis_em_municipio_com_aumento_prodes": 728392,
+      "media_desmatamento_municipal_km2": 27.966153123425098,
+      "desmatamento_municipal_repetido_km2": 22086045.700001076,
+      "taxa_municipio_com_aumento_prodes": 0.9223164020654847
+    }
+  ],
+  "query_ref": "qr_2ab58249a619417e94ddaf656d08a7c7"
+}

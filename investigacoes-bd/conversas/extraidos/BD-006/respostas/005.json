@@ -1,0 +1,223 @@
+[
+  {
+    "id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+    "name": "MapBiomas Estatísticas",
+    "description": "Mapeamento anual da cobertura e uso da terra do Brasil produzido pelo Projeto MapBiomas a partir da classificação automática de imagens de satélite no Google Earth Engine. Os dados desta versão vêm da Coleção 11, publicada em agosto de 2026, que cobre 1985 a 2025 em resolução de 30 metros. Distribuído sob licença CC BY 4.0, com a referência exigida pela fonte: \"Projeto MapBiomas – Coleção 11 da Série Anual de Mapas de Cobertura e Uso da Terra do Brasil, acessado em 24 de setembro de 2026 através do link: https://brasil.mapbiomas.org/downloads/estatisticas/\".",
+    "organizations": [
+      "MapBiomas"
+    ],
+    "tags": [
+      "desmatamento",
+      "uso da terra"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "fc403b40-a7e1-40e7-9efe-910847b45a69",
+    "name": "Pesquisa Agrícola Municipal (PAM)",
+    "description": "A pesquisa Produção Agrícola Municipal - PAM investiga, anualmente, os principais produtos das lavouras temporárias e permanentes do País, que se caracterizam não só pela grande importância econômica que possuem na pauta de exportações, como também por sua relevância social, componentes que são da cesta básica do brasileiro.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "feijão",
+      "cultivo",
+      "alimento",
+      "alimentação",
+      "fruticultura",
+      "uso da terra",
+      "comida",
+      "arroz",
+      "soja",
+      "água"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "9a22474f-a763-4431-8e3d-667908a1c7ab",
+    "name": "Emissões de gases de efeito estufa no Brasil",
+    "description": "O Sistema de Estimativas de Emissões e Remoções de Gases de Efeito Estufa (SEEG) é uma iniciativa do Observatório do Clima que compreende a produção de estimativas anuais das emissões de gases de efeito estufa (GEE) no Brasil, documentos analíticos sobre a evolução das emissões e um portal na internet para disponibilização de forma simples e clara dos métodos e dados do sistema.\r\n\r\nSão avaliados todos os cinco setores que são fontes de emissões – Agropecuária, Energia, Mudanças de Uso da Terra, Processos Industriais e Resíduos com o mesmo grau de detalhamento contido nos inventários de emissões.",
+    "organizations": [
+      "Sistema de Estimativas de Emissões e Remoções de Gases de Efeito Estufa (SEEG)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "efeito estufa"
+    ],
+    "themes": [
+      "Energia",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+    "name": "Cadastro Ambiental Rural (CAR)",
+    "description": "Dados públicos do Cadastro Ambiental Rural (CAR), registro eletrônico nacional obrigatório dos imóveis rurais brasileiros, mantido no Sistema Nacional de Cadastro Ambiental Rural (SICAR) pelo Serviço Florestal Brasileiro. Inclui o perímetro dos imóveis e as feições ambientais declaradas — Área de Preservação Permanente (APP), Reserva Legal, vegetação nativa, hidrografia, área consolidada, uso restrito, servidão administrativa e pousio — com geometria em coordenadas geográficas (WGS84). Os dados são organizados como snapshots empilhados por data de disponibilização por Unidade da Federação.",
+    "organizations": [
+      "Serviço Florestal Brasileiro"
+    ],
+    "tags": [
+      "agropecuária",
+      "atividade econômica",
+      "licenciamento ambiental",
+      "gestão ambiental",
+      "uso da terra",
+      "sicar"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "e5c87240-ecce-4856-97c5-e6b84984bf42",
+    "name": "Desmatamento PRODES",
+    "description": "O projeto PRODES realiza o monitoramento por satélites do desmatamento por corte raso na Amazônia Legal e produz, desde 1988, as taxas anuais de desmatamento na região, que são usadas pelo governo brasileiro para o estabelecimento de políticas públicas. As taxas anuais são estimadas a partir dos incrementos de desmatamento identificados em cada imagem de satélite que cobre a Amazônia Legal. A primeira apresentação dos dados é realizada para dezembro de cada ano, na forma de estimativa. Os dados consolidados são apresentados no primeiro semestre do ano seguinte.\r\n\r\nResultados recentes, a partir de análises realizadas com especialistas independentes, indicam nível de precisão próximo a 95%.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "conservação",
+      "desmatamento",
+      "uso da terra"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "08a1546e-251f-4546-9fe0-b1e6ab2b203d",
+    "name": "Censo 2022",
+    "description": "Conhecer em detalhe como é e como vive o nosso povo é de extrema importância para o governo e para a sociedade. Os resultados obtidos através da realização do Censo Demográfico permitem traçar um retrato abrangente e fiel do País.\r\n\r\nO Censo Demográfico produz informações atualizadas e precisas, que são fundamentais para o desenvolvimento e implementação de políticas públicas e para a realização de investimentos, tanto do governo quanto da iniciativa privada. Além disso, uma sociedade que conhece a si mesma pode executar, com eficácia, ações imediatas e planejar com segurança o seu futuro.\r\n\r\nRetratar o Brasil que está entrando numa nova década é um desafio para o IBGE. Qual é o tamanho da população brasileira? Em que condições vive? Como se distribui no Território Nacional? Qual é o nível de escolaridade de nossas crianças e jovens? Quais as condições de emprego e renda da população? Estas e muitas outras perguntas serão respondidas pelo Censo Demográfico que o IBGE realiza em 2022.\r\n\r\n-------\r\n\r\n* Incluímos nas tabelas disponibilizadas pelo sistema Sidra a numeração correspondente à tabela original, ela se encontra no início do título de cada tabela. Ex: 1209 - População, por grupos de idade, onde 1209 representa o número dessa tabela no sistema Sidra.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "idade",
+      "demografia",
+      "desenvolvimento",
+      "habitação",
+      "terra indígena",
+      "casamento",
+      "quilombola",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde",
+      "População",
+      "Religião",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "f7df4160-7a6f-4658-a287-3a73d412ed10",
+    "name": "Pesquisa Pecuária Municipal (PPM)",
+    "description": "A Pesquisa da Pecuária Municipal fornece informações sobre os efetivos da pecuária existentes no município na data de referência do levantamento, bem como a produção de origem animal, e o valor da produção durante o ano de referência. Os efetivos incluem bovinos, suínos, matrizes de suínos, galináceos, galinhas, codornas, equinos, bubalinos, caprinos e ovinos. A produção de origem animal, por sua vez, contempla a produção de leite, ovos de galinha, ovos de codorna, mel, lã bruta e casulos do bicho-da-seda; as quantidades de vacas ordenhadas e ovinos tosquiados; e a aquicultura, que engloba as produções da piscicultura, carcinocultura e malacocultura.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "animal",
+      "produção aquicultura",
+      "desmatamento",
+      "gestão ambiental",
+      "fazenda",
+      "peixe",
+      "alimento",
+      "alimentação",
+      "ovos de galinha",
+      "rebanho",
+      "rebanhos",
+      "mel de abelha",
+      "uso da terra",
+      "larvas",
+      "vacas ordenhadas",
+      "produção",
+      "propriedade",
+      "proteína",
+      "imóvel",
+      "camarão",
+      "solo",
+      "sustentabilidade"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia"
+    ]
+  },
+  {
+    "id": "544c9d22-97b7-479a-8eca-94762840b465",
+    "name": "Microdados do Sistema de Operações do Crédito Rural e do Proagro (Sicor)",
+    "description": "Este conjunto de dados consolida as informações do SICOR (Sistema de Operações do Crédito Rural e do Proagro), registrando o ciclo completo das operações de crédito rural no Brasil, desde a contratação até o saldo devedor e a espacialização das áreas financiadas.\r\n\r\n  O conjunto possui diversas tabelas de microdados, organizadas por eixos temáticos:\r\n\r\n   * Operação: Cada linha representa uma operação de crédito rural e seus atributos cadastrais (valores contratados, finalidade, programa, etc.).\r\n   * Saldo: Cada linha representa o saldo devedor mensal de uma operação, permitindo o acompanhamento da evolução da dívida ao longo do tempo.\r\n   * Liberação: Cada linha registra um evento de desembolso (repasse financeiro) associado a uma operação contratada.\r\n   * Recurso Público (Mutuário, Cooperado e Propriedade): Tabelas que detalham os beneficiários (pessoas físicas ou jurídicas), membros de cooperativas e as propriedades rurais envolvidas em operações que utilizam subsídios ou fontes de recurso públicas.\r\n   * Gleba: Cada linha contém a delimitação geográfica (polígonos e coordenadas) das áreas onde o recurso do crédito rural é aplicado.\r\n\r\n\r\n  A tabela que relaciona todas as demais é a microdados_operacao. O vínculo entre as tabelas é realizado através da combinação das colunas id_referencia_bacen e numero_ordem. Uma única operação registrada na tabela mestre pode possuir múltiplos registros de saldo mensais, diversas parcelas de liberação e diferentes glebas ou beneficiários associados.\r\n\r\n\r\n  Diferente de bases estáticas, o SICOR é atualizado mensalmente pelas instituições  financeiras. Para garantir a consistência temporal e o permissionamento dos dados, as tabelas utilizam as colunas ano_emissao e mes_emissao como chaves de particionamento e filtro principal.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "agropecuária",
+      "crédito",
+      "gestão ambiental",
+      "uso da terra",
+      "rural"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "47d27153-ac97-4d5f-a168-ec27cb1d968f",
+    "name": "Censo de População e Habitação do Chile",
+    "description": "Microdados do Censo de População e Vivienda 2024 do Chile, com uma tabela por unidade de observação (pessoa, lar e domicílio), acompanhados das duas bases agregadas que o INE publica com geometria: manzana-entidade e zona-localidade, cada uma com 189 variáveis de população, lares e domicílios. Os microdados são geocodificados apenas até a comuna, por controle de divulgação estatística, e portanto não se cruzam com as bases agregadas. O INE proíbe o uso dos dados para reidentificar pessoas.",
+    "organizations": [
+      "Instituto Nacional de Estatísticas do Chile (INE)"
+    ],
+    "tags": [
+      "censo",
+      "demografia",
+      "família",
+      "habitação",
+      "migração",
+      "saneamento",
+      "urbanização"
+    ],
+    "themes": [
+      "População",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  }
+]

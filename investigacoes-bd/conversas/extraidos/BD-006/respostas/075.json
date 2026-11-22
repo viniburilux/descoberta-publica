@@ -1,0 +1,67 @@
+{
+  "row_count": 234,
+  "rows": [
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "AC",
+      "registros": 2904,
+      "ids_distintos": 1281
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "AL",
+      "registros": 35143,
+      "ids_distintos": 18010
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "AM",
+      "registros": 383,
+      "ids_distintos": 184
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "AP",
+      "registros": 41,
+      "ids_distintos": 23
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "BA",
+      "registros": 210195,
+      "ids_distintos": 99449
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "CE",
+      "registros": 100400,
+      "ids_distintos": 38860
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "DF",
+      "registros": 143,
+      "ids_distintos": 90
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "ES",
+      "registros": 21489,
+      "ids_distintos": 9778
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "GO",
+      "registros": 32314,
+      "ids_distintos": 15323
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "MA",
+      "registros": 74081,
+      "ids_distintos": 33405
+    },
+    "... (224 more items)"
+  ],
+  "query_ref": "qr_702477db7f134d8aa1a8a640ae8059f4"
+}

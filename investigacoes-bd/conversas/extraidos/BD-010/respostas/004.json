@@ -1,0 +1,182 @@
+[
+  {
+    "id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+    "name": "MapBiomas Estatísticas",
+    "description": "Mapeamento anual da cobertura e uso da terra do Brasil produzido pelo Projeto MapBiomas a partir da classificação automática de imagens de satélite no Google Earth Engine. Os dados desta versão vêm da Coleção 11, publicada em agosto de 2026, que cobre 1985 a 2025 em resolução de 30 metros. Distribuído sob licença CC BY 4.0, com a referência exigida pela fonte: \"Projeto MapBiomas – Coleção 11 da Série Anual de Mapas de Cobertura e Uso da Terra do Brasil, acessado em 24 de setembro de 2026 através do link: https://brasil.mapbiomas.org/downloads/estatisticas/\".",
+    "organizations": [
+      "MapBiomas"
+    ],
+    "tags": [
+      "desmatamento",
+      "uso da terra"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+    "name": "Dados Geográficos Brasileiros (geobr)",
+    "description": "O geobr é um pacote R que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples, disponíveis em várias escalas geográficas e por vários anos.",
+    "organizations": [
+      "Instituto de Pesquisa Econômica Aplicada (ipea)"
+    ],
+    "tags": [
+      "amazônia",
+      "hospital",
+      "mapa",
+      "desastre natural",
+      "área protegida",
+      "escola"
+    ],
+    "themes": [
+      "Educação",
+      "Saúde",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "e2b91efc-b8e8-429d-95d2-66a88c902f9f",
+    "name": "Tabelas Estatísticas do Banco Central da Austrália",
+    "description": "Séries temporais macroeconômicas e financeiras publicadas nas tabelas estatísticas do Banco da Reserva da Austrália (RBA), incluindo a taxa básica de juros (cash rate), taxas de juros de mercado e de empréstimo, agregados monetários e de crédito, taxas de câmbio e estatísticas do sistema bancário. Os dados são organizados em formato longo, com uma linha por tabela estatística, série e data, e acompanhados de um catálogo de metadados por série e do registro das quebras estruturais documentadas pelo RBA. A cobertura vai de 1922 até o presente, com séries diárias, semanais, mensais, trimestrais, semestrais e anuais. Inclui apenas as séries cujas fontes são publicadas sob licença CC BY 4.0 (RBA, APRA e ABS).",
+    "organizations": [
+      "Banco da Reserva da Austrália (RBA)"
+    ],
+    "tags": [
+      "banco",
+      "banco central",
+      "crédito",
+      "câmbio",
+      "taxa de juros",
+      "política monetária",
+      "dinheiro"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "ea7293fb-cff1-4de3-ba08-71ea526550fe",
+    "name": "Estatísticas do Poder Judiciário",
+    "description": "Principal fonte das estatísticas oficiais do Poder Judiciário, anualmente, desde 2004, o Relatório Justiça em Números divulga a realidade dos tribunais brasileiros, com muitos detalhamentos da estrutura e litigiosidade, além dos indicadores e das análises essenciais para subsidiar a Gestão Judiciária brasileira.",
+    "organizations": [
+      "Conselho Nacional de Justiça (CNJ)"
+    ],
+    "tags": [
+      "judiciário"
+    ],
+    "themes": [
+      "Justiça"
+    ]
+  },
+  {
+    "id": "b0164aa7-1cbe-455c-8776-23de5022f4e8",
+    "name": "OCDE: estatísticas globais de receita",
+    "description": "Receitas tributárias e não tributárias por categoria da classificação da OCDE, nível de governo, país e ano, do Banco de Dados Global de Estatísticas de Receita da OCDE. Aplica a metodologia de Estatísticas de Receita da OCDE a 146 economias da OCDE e não pertencentes à OCDE entre 1990 e 2024, expressando cada categoria como percentagem do PIB, percentagem da receita do mesmo nível de governo, percentagem da categoria de imposto superior, em moeda nacional e em dólares dos Estados Unidos. A classificação de impostos é hierárquica: use a categoria superior para evitar dupla contagem ao somar categorias.",
+    "organizations": [
+      "Organization for Economic Cooperation and Development (OECD)"
+    ],
+    "tags": [
+      "governo",
+      "finanças públicas",
+      "receita",
+      "arrecadação",
+      "tributo",
+      "taxação",
+      "imposto"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "7034496c-fee0-48f9-8fbd-244c3e7c30ec",
+    "name": "Estatísticas Agropecuárias dos EUA (USDA NASS)",
+    "description": "Estatísticas agrícolas do Serviço Nacional de Estatísticas Agrícolas (NASS) do Departamento de Agricultura dos Estados Unidos (USDA), a partir da base QuickStats. Cobre produção, produtividade, área, preços recebidos, estoques e inventário de culturas e pecuária, além do Censo Agropecuário quinquenal, nos níveis nacional, estadual, de distrito agrícola e de condado. Esta é uma seleção curada de commodities de alto valor; não confundir com o conjunto world_usda_agriculture, que é o produto internacional de oferta e demanda (USDA FAS PSD).",
+    "organizations": [
+      "Departamento de Agricultura dos EUA"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "milho",
+      "colheita",
+      "pecuária",
+      "preço",
+      "produção",
+      "soja",
+      "trigo"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia"
+    ]
+  },
+  {
+    "id": "84bb75ae-5955-4bbe-8bb6-2d644cae0cee",
+    "name": "Estatística Bancária (ESTBAN)",
+    "description": "O arquivo Saldos Estban por município é gerado mensalmente com a informação da Estatística Bancária Mensal (Código documento 4500), contemplando a posição mensal dos saldos das principais rubricas de balancetes dos bancos comerciais e dos bancos múltiplos com carteira comercial, por município. Ele é disponibilizado 60 (sessenta) dias após a data-base do documento, com exceção da data-base de dezembro, que é disponibilizado em 90 (noventa) dias após o seu encerramento, conforme estabelece o Comunicado 20.467, de 04 de janeiro de 2011. Sua atualização é mensal, e abrange os últimos 6 (seis) meses publicados.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "banco central",
+      "crédito",
+      "atividade econômica"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "f5645e91-5964-447e-9cf5-0674513b16f1",
+    "name": "Estatísticas Vitais dos Estados Unidos (NCHS)",
+    "description": "Microdados de estatísticas vitais dos Estados Unidos publicados pelo National Center for Health Statistics (NCHS), com um registro por nascimento e um registro por óbito ocorridos no país entre 1968 e 2024. A tabela birth vem do arquivo público de natalidade e a tabela death do arquivo público de causas múltiplas de morte. Contagens exigem excluir residence_status igual a 4 (residentes no exterior) e, para nascimentos, ponderar por record_weight; com esses dois ajustes os totais reproduzem exatamente as estatísticas publicadas pelo NCHS. Geografia sub-nacional existe apenas até 2004: os arquivos públicos não trazem unidade federativa de residência a partir de 2005. Codificações de raça, escolaridade e causa básica mudaram ao longo da série e são publicadas em colunas separadas por era, sem harmonização entre elas. Os arquivos são de uso público, mas o NCHS os distribui sob um acordo de uso que restringe o uso a fins estatísticos e proíbe qualquer tentativa de identificar indivíduos.",
+    "organizations": [
+      "Centers for Disease Control and Prevention (CDC)"
+    ],
+    "tags": [
+      "nascimento",
+      "óbito",
+      "demografia",
+      "epidemiologia",
+      "mortalidade",
+      "gravidez"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "3bec6821-a336-4b96-95b0-e187bb1159fd",
+    "name": "Criminalidade em Nova Gales do Sul (BOCSAR)",
+    "description": "Incidentes criminais registrados, supostos infratores e estatísticas de custódia para o estado de Nova Gales do Sul, Austrália, publicados pelo Departamento de Estatísticas e Pesquisa Criminal de Nova Gales do Sul (BOCSAR). Inclui contagens mensais de incidentes por tipo de crime em diferentes níveis geográficos (estado, área estatística, área de governo local, código postal e subúrbio), contagens diárias de incidentes, supostos infratores processados pela polícia, e população, entradas e saídas de custódia de adultos e jovens.",
+    "organizations": [
+      "Departamento de Estatísticas e Pesquisa Criminal de Nova Gales do Sul (BOCSAR)"
+    ],
+    "tags": [],
+    "themes": [
+      "Segurança, Crime, Violência, e Conflito"
+    ]
+  },
+  {
+    "id": "386927a4-4ee8-4975-8ff3-beece3474942",
+    "name": "Sinopses Estatísticas da Educação Básica",
+    "description": "As Sinopses Estatísticas do Inep correspondem a um conjunto de tabelas com dados recolhidos por suas pesquisas estatísticas, avaliações e exames. Elaborada anualmente pela Diretoria de Estatísticas Educacionais (Deed), a Sinopse Estatística traz um resumo dos principais dados coletados no Censo Escolar da Educação Básica.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação básica",
+      "indicadores educacionais",
+      "matrícula",
+      "aprendizagem",
+      "escola",
+      "aluno"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  }
+]

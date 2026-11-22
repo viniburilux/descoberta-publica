@@ -1,0 +1,80 @@
+{
+  "id": "a3696dc2-4dd1-4f7e-9769-6aa16a1556b8",
+  "dataset_id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9",
+  "gcp_id": "basedosdados.br_inpe_queimadas.microdados",
+  "name": "Microdados",
+  "description": "Microdados do banco de dados do INPE sobre queimadas",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano de referência da passagem do satélite segundo o fuso horário de Greenwich (GMT).",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "bioma",
+      "type": "STRING",
+      "description": "Nome do Bioma.",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_hora",
+      "type": "DATETIME",
+      "description": "Coluna agregada de data e hora da passagem do satélite o fuso horário de Greenwich (GMT).",
+      "needs_decoding": false
+    },
+    {
+      "name": "dias_sem_chuva",
+      "type": "FLOAT64",
+      "description": "Número de dias sem chuva até a detecção do foco.",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "Identificação do Município.",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "latitude",
+      "type": "FLOAT64",
+      "description": "Latitude do centro do píxel de fogo ativo apresentada em unidade de graus decimais.",
+      "needs_decoding": false
+    },
+    {
+      "name": "longitude",
+      "type": "FLOAT64",
+      "description": "Longitude do centro do píxel de fogo ativo apresentada em unidade de graus decimais",
+      "needs_decoding": false
+    },
+    {
+      "name": "mes",
+      "type": "INT64",
+      "description": "Mês de referência da passagem do satélite segundo o fuso horário de Greenwich (GMT).",
+      "unit": "month",
+      "needs_decoding": false
+    },
+    {
+      "name": "potencia_radiativa_fogo",
+      "type": "FLOAT64",
+      "description": "Fire Radiative Power, MW (megawatts).",
+      "unit": "megawatt",
+      "needs_decoding": false
+    },
+    {
+      "name": "precipitacao",
+      "type": "FLOAT64",
+      "description": "Valor da precipitação acumulada no dia até o momento da detecção do foco.",
+      "needs_decoding": false
+    },
+    "... (3 more items)"
+  ],
+  "partitioned_by": [
+    "ano",
+    "mes"
+  ],
+  "period_start": "2003-01",
+  "period_end": "2026-05"
+}

@@ -12,15 +12,17 @@ Inventário territorial → join literal com cobertura zero → normalização �
 
 ## A. Material bruto recuperado
 
-Código, consultas, contagens, documentos e resultados originais no pacote abaixo. Os dois exports de conversa do pacote de reconciliação somam 14 mensagens; a recuperação das sessões completas está em andamento.
-
-Último vestígio da sessão: `c3e3f115-4ee9-48ca-a0f6-46daa03b50a5`, chatbot da BD.
+- [BD-006: JSON de 12 mensagens](../conversas/BD-006_c3e3f115-4ee9-48ca-a0f6-46daa03b50a5.json) · [leitura cronológica](../conversas/extraidos/BD-006/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/BD-006/)
 
 ## B. Consultas e código
 
-[Código Python](../originais/bd_reconciliation/source/) · [SQLs originais](../originais/bd_reconciliation/outputs/sql/) · [Guia de reprodução](../REPRODUZIR.md).
+33 consultas SQL extraídas das conversas. Chamadas e respostas originais, com identificadores e argumentos, estão nas pastas ligadas acima. Os SQLs estão separados em `sql/` dentro de cada pasta.
+
+[Código da reconciliação](../originais/bd_reconciliation/source/) · [21 SQLs parametrizados](../originais/bd_reconciliation/outputs/sql/) · [Reprodução local](../REPRODUZIR.md).
 
 ## C. Resultados e arquivos
+
+9 tabelas CSV das linhas registradas nas respostas do chatbot; respostas completas e índices com a consulta e a mensagem de origem.
 
 - [Config SICOR × CAR](../originais/bd_reconciliation/configs/relationships/sicor_car.json)
 - [6 SQLs originais](../originais/bd_reconciliation/outputs/sql/sicor_car/)
@@ -37,9 +39,10 @@ Tutorial técnico e caso de uso BD sobre normalização de chaves territoriais.
 
 ## F. Pendências e próximo passo
 
+Os exports nativos apenas referenciados em `downloads-referenciados.json` ainda não foram baixados neste lote. As respostas e linhas registradas já estão nos arquivos extraídos.
+
 Reexecutar a suíte SICOR × CAR no recorte desejado e comparar o relatório com as contagens registradas.
 
-Pendente: integrar a conversa completa com suas perguntas, respostas e chamadas originais.
 
 ## G. Pacote de trabalho
 

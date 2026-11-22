@@ -1,0 +1,194 @@
+[
+  {
+    "id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+    "name": "MapBiomas Estatísticas",
+    "description": "Mapeamento anual da cobertura e uso da terra do Brasil produzido pelo Projeto MapBiomas a partir da classificação automática de imagens de satélite no Google Earth Engine. Os dados desta versão vêm da Coleção 11, publicada em agosto de 2026, que cobre 1985 a 2025 em resolução de 30 metros. Distribuído sob licença CC BY 4.0, com a referência exigida pela fonte: \"Projeto MapBiomas – Coleção 11 da Série Anual de Mapas de Cobertura e Uso da Terra do Brasil, acessado em 24 de setembro de 2026 através do link: https://brasil.mapbiomas.org/downloads/estatisticas/\".",
+    "organizations": [
+      "MapBiomas"
+    ],
+    "tags": [
+      "desmatamento",
+      "uso da terra"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+    "name": "Dados Geográficos Brasileiros (geobr)",
+    "description": "O geobr é um pacote R que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples, disponíveis em várias escalas geográficas e por vários anos.",
+    "organizations": [
+      "Instituto de Pesquisa Econômica Aplicada (ipea)"
+    ],
+    "tags": [
+      "amazônia",
+      "hospital",
+      "mapa",
+      "desastre natural",
+      "área protegida",
+      "escola"
+    ],
+    "themes": [
+      "Educação",
+      "Saúde",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9",
+    "name": "Banco de Dados de Queimadas",
+    "description": "Ocorrência do Fogo na Vegetação é o tema deste portal, http://queimadas.dgi.inpe.br/queimadas, desenvolvido no INPE, Instituto Nacional de Pesquisas Espaciais. Ele inclui o monitoramento operacional de focos de queimadas e de incêndios florestais detectados por satélites, e o cálculo e previsão do risco de fogo da vegetação.\r\n\r\nOs dados para a América do Sul e a Central, África e Europa, são atualizados a cada três horas, todos os dias do ano. O acesso às informações é livre, e no navegador internet usado, deve estar desbloqueada a carga das janelas \"pop up\" para acesso a várias figuras, tabelas e gráficos.\r\n\r\nUsuários que necessitam de focos com maior frequência temporal ou monitoramento em áreas específicas deverão consultar as \"Perguntas Frequentes\"\r\n\r\nAs informações neste portal estão divididas em blocos:\r\n\r\n- \"Situação Atual\", é a \"Sala de Situação\" do Portal, e fornece para os últimos dois dias os resultados relevantes do monitoramento de focos de queima de vegetação feito pelo INPE em imagens satélites. Vários itens nos títulos das figuras e tabelas podem ser selecionados, alterando as apresentações gráficas conforme as preferências espaciais e temporais do usuário. Passando o mouse sobre os títulos e figuras serão indicadas as opções ativas.\r\n- \"SIG Focos-Geral\", permite visualizar os focos em um Sistema de Informação Geográfica, com opções de períodos, regiões de interesse, satélites, planos de informação (p.ex. desmatamento, hidrografia, estradas), etc., além da exportação dos dados em formatos txt, html, shp e kmz.\r\n- \"SIG Focos-Áreas Protegidas\", Semelhante ao item anterior, mas dedicado à ocorrência do fogo em Áreas de Preservação, como Parques, Florestas, Reservas Biológicas municipais, estaduais e nacionais, e Terras Indígenas.\r\n- \"Situação nas Áreas Protegidas\", que contém o último relatório de focos detectados nas áreas de preservação, incluindo links que os mostram já inseridos no SIG do monitoramento.\r\n- \"Relatório Atual\", contém o último resumo do monitoramento de queimadas em formato pdf, que poderá ser salvo pelo usuário para análise detalhada dos dados. A opção \"Receber por E-Mail\" leva ao cadastro do usuário, onde se define individualmente o conteúdo dos relatórios e mensagens de alerta que serão recebidos automaticamente por E-Mail.\r\n- \"Risco de Fogo\", que apresenta o Risco de Fogo da vegetação estimado no presente, e suas previsões futuras (diárias, semanais e mensais), bem como o \"fogograma\" para qualquer local selecionado com o mouse nos mapas.\r\n- \"Meu Cadastro\", onde o usuário define e configura individualmente os produtos que deseja receber em seu E-Mail, como alertas de ocorrência de focos em áreas de preservação, boletins pdf diários com tabelas, gráficos e mapas de estados e países de interesse, e mensagens operacionais.\r\n- \"Outros Produtos\", com links a produtos adicionais gerados por este sistema de Queimadas e Incêndios, destacando-se: mapas mensais de focos em formato .gif com animações; mapas Meteorológicos (precipitação, temperatura, umidade do ar, ventos); detecções dos vários satélites utilizados; estimativas de concentrações e trajetórias dos poluentes emitidos; localização dos satélites utilizados, uma coletânea de dados anteriores e área de download, e; acesso a uma antiga versão da página do monitoramento de focos.\r\n- \"Links Relacionados\", com indicações de acesso ao Boletim do Ibama de Monitoramento de Queimadas e Incêndios, ao texto publicado mensalmente no Boletim Climanálise, a uma coleção de mais de 500 páginas com matérias, fotos, vídeos e sites diversos sobre queimadas e incêndios florestais, à composição da equipe deste trabalho, e aos agradecimentos.\r\n- \"Notícias e Destaques\", com informações, notícias e links de destaque na ocorrência do fogo na vegetação, e não restritas apenas à detecção de focos com satélites.\r\n- \"Aviso\", com informações operacionais indicando novidades, falhas e detalhes relevantes na geração dos produtos do monitoramento do fogo na vegetação.\r\n\r\nO INPE também gera outros produtos de queimadas que não são divulgados neste portal, atendendo necessidades individuais de usuários que optam em fazer o próprio processamento dos dados brutos enviados pelo INPE; um exemplo destes é o caso do PrevFogo/Ibama. Para receber em tempo quase-real as coordenadas geográficas dos focos e desenvolver sua própria base de aplicações, contatar queimadas@inpe.br.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "ar",
+      "queimada",
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "fogo",
+      "floresta",
+      "incêndio"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "1e6d3f07-cf38-4149-9c09-1c4f39ee6b0b",
+    "name": "Catalogação Oceanos",
+    "description": "Catalogação Oceanos  é uma catalogação de livros, autores, editoras e jurados que participam, desde 2015, do Oceanos – Prêmio de Literatura em Língua Portuguesa.\r\n\r\nO projeto tem como objetivo fazer com que escritores, pesquisadores, agentes do mundo editorial e público em geral compreendam melhor as proximidades entre as diversas literaturas em língua portuguesa.\r\n\r\nOutro objetivo por trás desse levantamento é possibilitar que o próprio Prêmio Oceanos reflita sobre seus mecanismos e processos, tornando-se mais democrático a cada ano.",
+    "organizations": [
+      "Prêmio Oceanos"
+    ],
+    "tags": [
+      "prêmio",
+      "livro",
+      "biblioteca",
+      "literatura",
+      "poesia",
+      "escritor"
+    ],
+    "themes": [
+      "Cultura e Arte"
+    ]
+  },
+  {
+    "id": "474eb2ab-3909-454b-8a3a-c07769cea44b",
+    "name": "Pesquisa Internacional de Competências de Adultos (PIAAC)",
+    "description": "Microdados da Pesquisa Internacional de Competências de Adultos (PIAAC) da OCDE, que mede letramento, numeramento e resolução de problemas em adultos de 16 a 65 anos. Reúne os arquivos de uso público dos dois ciclos: 35 arquivos internacionais do Ciclo 1, coletados em três rodadas entre 2011 e 2017, e 30 arquivos do Ciclo 2, coletados entre setembro de 2022 e agosto de 2023. Cada ciclo é dividido em uma tabela por respondente e uma tabela longa de respostas por item.",
+    "organizations": [
+      "Organization for Economic Cooperation and Development (OECD)"
+    ],
+    "tags": [
+      "avaliação da educação",
+      "emprego",
+      "renda",
+      "aprendizagem",
+      "alfabetização",
+      "ocupação",
+      "escolaridade",
+      "habilidade"
+    ],
+    "themes": [
+      "Economia",
+      "Educação"
+    ]
+  },
+  {
+    "id": "5c9618d4-fd32-41ff-b834-61349a3bd65f",
+    "name": "Áreas Mínimas Comparáveis (AMC)",
+    "description": "As mudanças ocorridas nas áreas e limites dos municípios impedem comparações geograficamente consistentes da evolução temporal dos dados demográficos, econômicos e sociais. Para possibilitar comparações consistentes no tempo é necessário agregar os municípios em áreas mínimas comparáveis, ou seja, no menor número de municípios necessário para que a área geográfica conjunta permaneça constante ao longo do período de análise. A base contempla qualquer subperíodo arbitrário entre dois anos de censo na faixa entre o primeiro e o último censo demográfico (1872-2010). Baseia-se em material compilado recentemente pelo Instituto Brasileiro de Geografia e Estatística (IBGE).",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "diretório"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "91d3736d-3821-4373-8bd9-15fb14940c4d",
+    "name": "Arquivo Nacional de Endereços Geocodificados (G-NAF)",
+    "description": "O Arquivo Nacional de Endereços Geocodificados (G-NAF) é o índice autoritativo de endereços físicos da Austrália, com aproximadamente 15,9 milhões de endereços geocodificados em latitude e longitude, mantido pela Geoscape Australia e distribuído trimestralmente via data.gov.au. Cada release trimestral é empilhado por snapshot_date para preservar o histórico completo; o snapshot atual é 2026-05-01. Atribuição: G-NAF © Geoscape Australia licenciado pela Commonwealth of Australia sob o Open Geo-coded National Address File (G-NAF) End User Licence Agreement; os dados abertos do G-NAF não devem ser usados para gerar ou compilar endereços para envio de correspondência, a menos que o usuário tenha verificado, por meio de fonte secundária, que cada endereço é capaz de receber correspondência. A tabela address_detail inclui 1.004.575 endereços com confidence = -1 (que não constam mais em nenhuma fonte contribuidora); filtrar confidence != '-1' reproduz a contagem oficial da Geoscape de 15.901.249 endereços.",
+    "organizations": [
+      "Geoscape Australia"
+    ],
+    "tags": [
+      "Endereço",
+      "GPS"
+    ],
+    "themes": [
+      "Infraestrutura e Transportes",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "d4bc397b-926f-471f-b336-b4d3b33e2488",
+    "name": "Supply Chain",
+    "description": "Trase is at the forefront of a data-driven revolution in supply chain sustainability, drawing on vast sets of production, trade and customs data, for the first time laying bare the flows of globally traded commodities at scales that are directly relevant to decision-making. Its pioneering approach to data analysis and visualization provides full coverage of the export routes and buyers responsible for all production and trade, and the associated sustainability risks, of a given commodity.\r\n\r\nThe supply chain mapping at the core of Trase balances scale and data resolution. It builds on an enhanced form of material flow analysis called Spatially Explicit Information on Production to Consumption Systems (SEI-PCS) originally developed by Godar et al. 2015. \r\n\r\nIt systematically links individual supply chain actors to specific, subnational production regions, and the sustainability risks and investment opportunities associated with those regions. It identifies the individual companies that export, ship and import a given traded commodity  and\r\nIt covers all of the exports of a given commodity from a given country of production.",
+    "organizations": [
+      "Transparent Supply Chains for Sustainable Economies (TRASE)"
+    ],
+    "tags": [
+      "agropecuária",
+      "firma",
+      "desmatamento",
+      "exportação",
+      "empresa",
+      "importação",
+      "pecuária",
+      "comércio"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia",
+      "Infraestrutura e Transportes"
+    ]
+  },
+  {
+    "id": "84bb75ae-5955-4bbe-8bb6-2d644cae0cee",
+    "name": "Estatística Bancária (ESTBAN)",
+    "description": "O arquivo Saldos Estban por município é gerado mensalmente com a informação da Estatística Bancária Mensal (Código documento 4500), contemplando a posição mensal dos saldos das principais rubricas de balancetes dos bancos comerciais e dos bancos múltiplos com carteira comercial, por município. Ele é disponibilizado 60 (sessenta) dias após a data-base do documento, com exceção da data-base de dezembro, que é disponibilizado em 90 (noventa) dias após o seu encerramento, conforme estabelece o Comunicado 20.467, de 04 de janeiro de 2011. Sua atualização é mensal, e abrange os últimos 6 (seis) meses publicados.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "banco central",
+      "crédito",
+      "atividade econômica"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "7f6f7de2-f4e9-467c-a8c4-a66a6559803d",
+    "name": "Sistema Nacional de Estatísticas de Segurança Pública (SINESP VDE)",
+    "description": "Dados Nacionais de Segurança Pública coletados pelo SINESP VDE (Validador de Dados Estatísticos), sistema em que os Gestores Estaduais de Estatística dos 26 estados e do Distrito Federal informam mensalmente os indicadores definidos pela Resolução nº 6 do ConSinesp e pela Portaria nº 229, de 10 de dezembro de 2018. Cobre 31 tipos de ocorrência desde 2015, dos quais 11 são divulgados por município e os demais apenas por unidade da federação. Os dados refletem o nível de alimentação e consolidação de cada UF na data da extração e podem ser revistos após a publicação.",
+    "organizations": [
+      "Ministério da Justiça e Segurança Pública (MJ)"
+    ],
+    "tags": [
+      "crime",
+      "droga",
+      "feminicídio",
+      "Homicídio",
+      "polícia",
+      "estupro",
+      "roubo",
+      "Segurança pública",
+      "Vítimas",
+      "arma"
+    ],
+    "themes": [
+      "Justiça",
+      "Segurança, Crime, Violência, e Conflito"
+    ]
+  }
+]

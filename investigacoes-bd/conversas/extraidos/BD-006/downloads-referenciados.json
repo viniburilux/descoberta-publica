@@ -1,0 +1,288 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_7b381f10c59a4e3b8b67a11deef54426",
+    "slug": "teste_rais_cnae",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5233839668a545b08314446e274b1f7d",
+    "slug": "teste_mapbiomas_prodes",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_6cdff61d39694033a0e6a86908d5f5a1",
+    "slug": "teste_auto_embargo",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_d7a7f7fc91c34c99863c9bde60ff460c",
+    "slug": "avaliacao_prodes_mapbiomas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_85897d4b62624895af5f14125ebe94bd",
+    "slug": "avaliacao_auto_embargo",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_e2ea1b70288e467f8369d9d8ad8aedc0",
+    "slug": "metricas_auto_embargo",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_69e07b057db64ffbab9d0f9350c511ec",
+    "slug": "exemplos_embargos_sem_auto",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_c461858ab97b4a3eaa1ad963f6c1586a",
+    "slug": "diagnostico_ids_car_sicor_v2",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5d88593d64a44b19a7c71e4ba639a8de",
+    "slug": "avaliacao_rais_cnae",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_9c3e6700125d429c854d2246a5806f1b",
+    "slug": "metricas_prodes_mapbiomas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_448a592c7a5e4190aceea87bda324103",
+    "slug": "metricas_rais_cnae",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_0d733479dcef4749ba67c15e9d2196c9",
+    "slug": "metricas_sicor_car_v3",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_fe68bdc9483846618d8426506c53dab1",
+    "slug": "metricas_sicor_car_normalizado",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_0597f1f926714a60baf5f79cc0a0ec04",
+    "slug": "cadeia_prodes_mapbiomas_pam",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_f564acbeeb0e4c2d9a77941c2ad39233",
+    "slug": "cadeia_queimadas_prodes_mapbiomas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_d188acc709cd4b6ab35c7f39a1685f68",
+    "slug": "diagnostico_sicor_ano",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_8ca2aa13f273471eb0c53331a6b27030",
+    "slug": "formato_ids_sicor",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_4b9a699513b84b97a66e7aadf89bbc3c",
+    "slug": "cobertura_sicor_snapshots_v2",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_f4105b3fb8114961aa860d25aa256cd0",
+    "slug": "cadeia_sicor_car_territorio",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_09e107a17e3e402793d17f562a9b2718",
+    "slug": "diagnostico_nao_correspondentes",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_b15be046d7484103986494d392341df9",
+    "slug": "snapshots_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_2c81c572c87e4a6f8f37e40211aef910",
+    "slug": "snapshots_car_uf",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_702477db7f134d8aa1a8a640ae8059f4",
+    "slug": "prefixos_uf_sicor",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_7bd5661403704795b7795a36226c2c81",
+    "slug": "cobertura_sicor_car_uf_v2",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_1ce527543c8a4c009391067e9880e53c",
+    "slug": "testes_normalizacao_ids",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_6231e31d695d43e7a19aec973a414263",
+    "slug": "diagnostico_municipio_ids_nao_encontrados",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

@@ -15,21 +15,20 @@ Reconhecimento da infraestrutura → teste emendas × internações → Pearson 
 
 ## A. Material bruto recuperado
 
-A recuperação da conversa completa e dos exports desta frente está em andamento.
-
-Último vestígio da sessão: `4bbb1362-4dfb-47c1-a70a-61886d7a151b`, chatbot da BD.
+- [BD-003: JSON de 12 mensagens](../conversas/BD-003_4bbb1362-4dfb-47c1-a70a-61886d7a151b.json) · [leitura cronológica](../conversas/extraidos/BD-003/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/BD-003/)
 
 ## B. Consultas e código
 
-SQL e chamadas da sessão ainda não recuperados como arquivos nesta frente.
+21 consultas SQL extraídas das conversas. Chamadas e respostas originais, com identificadores e argumentos, estão nas pastas ligadas acima. Os SQLs estão separados em `sql/` dentro de cada pasta.
 
 ## C. Resultados e arquivos
 
-Resultados ainda registrados na ficha e no vestígio da sessão; os exports correspondentes aguardam recuperação.
+14 tabelas CSV das linhas registradas nas respostas do chatbot; respostas completas e índices com a consulta e a mensagem de origem.
+
 
 ## D. Reprodutibilidade
 
-Aguardando os arquivos da sessão para executar a reprodução.
+Abra a leitura cronológica para seguir perguntas, chamadas e respostas na ordem. Os SQLs separados podem ser reexecutados no executor BD.
 
 ## E. Destinos possíveis
 
@@ -37,10 +36,13 @@ Artigo e protocolo de benchmark Text-to-SQL; relato técnico do teste emendas ×
 
 ## F. Pendências e próximo passo
 
-Recuperar o log da sessão e os materiais dos cinco modelos; montar a tabela de consultas, erros, correções e resultados.
+Os exports nativos apenas referenciados em `downloads-referenciados.json` ainda não foram baixados neste lote. As respostas e linhas registradas já estão nos arquivos extraídos.
 
-Pendente: integrar a conversa completa com suas perguntas, respostas e chamadas originais.
+Log BD, 21 SQLs e resultados recuperados. Faltam os materiais dos outros quatro modelos para a tabela comparativa do benchmark.
+
 
 ## G. Pacote de trabalho
+
+[Baixar o material recuperado (ZIP)](../pacotes/BD-003-material-recuperado-2026-11-22.zip). Versão 22/11/2026.
 
 [Todos os materiais desta frente](#c-resultados-e-arquivos) · [Painel das 12 investigações](../PAINEL.md) · [Manifesto de arquivos e SHA-256](../manifesto-originais.json).

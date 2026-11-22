@@ -1,0 +1,27 @@
+[
+  {
+    "nome_coluna": "id_esfera",
+    "chave": "D",
+    "valor": "Distrital"
+  },
+  {
+    "nome_coluna": "id_esfera",
+    "chave": "E",
+    "valor": "Estadual"
+  },
+  {
+    "nome_coluna": "id_esfera",
+    "chave": "F",
+    "valor": "Federal"
+  },
+  {
+    "nome_coluna": "id_esfera",
+    "chave": "M",
+    "valor": "Municipal"
+  },
+  {
+    "nome_coluna": "id_esfera",
+    "chave": "N",
+    "valor": "Não se aplica"
+  }
+]

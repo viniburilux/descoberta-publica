@@ -1,0 +1,74 @@
+{
+  "id": "fbbbe77e-d234-4113-8af5-98724a956943",
+  "dataset_id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+  "gcp_id": "basedosdados.br_ibge_pib.municipio",
+  "name": "Município",
+  "description": "Produto Interno Bruto (PIB) municipal a preços correntes",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "impostos_liquidos",
+      "type": "INT64",
+      "description": "Impostos, líquidos de subsídios, sobre produtos a preços correntes",
+      "needs_decoding": false
+    },
+    {
+      "name": "pib",
+      "type": "INT64",
+      "description": "Produto Interno Bruto a preços correntes",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "va",
+      "type": "INT64",
+      "description": "Valor adicionado bruto a preços correntes total",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "va_adespss",
+      "type": "INT64",
+      "description": "Valor adicionado bruto a preços correntes da administração, defesa, educação e saúde públicas e seguridade social",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "va_agropecuaria",
+      "type": "INT64",
+      "description": "Valor adicionado bruto a preços correntes da agropecuária",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "va_industria",
+      "type": "INT64",
+      "description": "Valor adicionado bruto a preços correntes da indústria",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "va_servicos",
+      "type": "INT64",
+      "description": "Valor adicionado bruto a preços correntes dos serviços, exclusive administração, defesa, educação e saúde públicas e seguridade social",
+      "unit": "brl",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": "2002",
+  "period_end": "2023"
+}

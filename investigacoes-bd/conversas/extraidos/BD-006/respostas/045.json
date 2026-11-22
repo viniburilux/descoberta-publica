@@ -1,0 +1,60 @@
+{
+  "id": "7f80781b-3b15-416c-8bb1-c1c33f324ec5",
+  "dataset_id": "cecb702d-d4b7-45ec-adbb-719ebd5b3906",
+  "gcp_id": "basedosdados.br_ibge_pevs.producao_extracao_vegetal",
+  "name": "Produção e Valor da Extração Vegetal",
+  "description": "Quantidade produzida e valor da produção na extração vegetal, por tipo de produto extrativo",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município IBGE 7 dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "produto",
+      "type": "STRING",
+      "description": "Nome produto",
+      "needs_decoding": false
+    },
+    {
+      "name": "quantidade",
+      "type": "INT64",
+      "description": "Quantidade da produção",
+      "needs_decoding": false
+    },
+    {
+      "name": "tipo_produto",
+      "type": "STRING",
+      "description": "Tipo do produto",
+      "needs_decoding": false
+    },
+    {
+      "name": "unidade",
+      "type": "STRING",
+      "description": "Unidade de medida do produto",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor",
+      "type": "FLOAT64",
+      "description": "Valor da produção",
+      "unit": "1000 * brl",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano",
+    "id_municipio"
+  ],
+  "period_start": "1986",
+  "period_end": "2024"
+}

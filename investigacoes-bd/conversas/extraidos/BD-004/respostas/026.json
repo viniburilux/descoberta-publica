@@ -1,0 +1,78 @@
+{
+  "id": "80359f9a-8189-4693-bdf7-ebf7be0d2fff",
+  "dataset_id": "48ccef51-8207-40ee-af5b-134c8ac3fb8c",
+  "gcp_id": "basedosdados.br_ms_sinasc.microdados",
+  "name": "Microdados",
+  "description": "Microdados de Nascidos Vivos a nível municipal considerando a localidade de ocorrência a partir de 1994",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "apgar1",
+      "type": "INT64",
+      "description": "Valor do Índice de Apgar, medido no 1º minuto de vida",
+      "needs_decoding": false
+    },
+    {
+      "name": "apgar5",
+      "type": "INT64",
+      "description": "Valor do Índice de Apgar, medido no 5º minuto de vida",
+      "needs_decoding": false
+    },
+    {
+      "name": "cartorio",
+      "type": "STRING",
+      "description": "Identificação do cartório",
+      "needs_decoding": false
+    },
+    {
+      "name": "cesarea_antes_parto",
+      "type": "STRING",
+      "description": "Cesárea ocorreu antes do trabalho de parto iniciar",
+      "needs_decoding": true
+    },
+    {
+      "name": "classificacao_pre_natal",
+      "type": "STRING",
+      "description": "Códigos de classificação de adequação ao pré natal, gerado pelo sistema",
+      "needs_decoding": true
+    },
+    {
+      "name": "codigo_anomalia",
+      "type": "STRING",
+      "description": "Descrição de anomalia congênita",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_estabelecimento",
+      "type": "STRING",
+      "description": "Código do Cadastro Nacional de estabelecimento onde ocorreu o nascimento",
+      "needs_decoding": false
+    },
+    {
+      "name": "dado_preliminar",
+      "type": "STRING",
+      "description": "Indica se o registro vem da versão preliminar da fonte, ainda sujeita a revisão (1), ou da versão definitiva (0)",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_cadastro",
+      "type": "DATE",
+      "description": "Data da declaração do nascido vivo no sistema",
+      "unit": "day",
+      "needs_decoding": false
+    },
+    "... (57 more items)"
+  ],
+  "partitioned_by": [
+    "ano",
+    "sigla_uf"
+  ],
+  "period_start": "1994",
+  "period_end": "2026"
+}

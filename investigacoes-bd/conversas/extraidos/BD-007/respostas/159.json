@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Syntax error: Expected \")\" or \",\" but got identifier \"id_municipio\" at [1:53]\n\nLocation: None\nJob ID: 6411917e-e87e-42d3-9cd1-68ff5e6b2290\n"
+}

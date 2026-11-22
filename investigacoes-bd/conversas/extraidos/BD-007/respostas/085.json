@@ -1,0 +1,56 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "ano": 2023,
+      "linhas": 5570,
+      "com_agro": 0
+    },
+    {
+      "ano": 2022,
+      "linhas": 5570,
+      "com_agro": 0
+    },
+    {
+      "ano": 2021,
+      "linhas": 5570,
+      "com_agro": 5570
+    },
+    {
+      "ano": 2020,
+      "linhas": 5570,
+      "com_agro": 5570
+    },
+    {
+      "ano": 2019,
+      "linhas": 5570,
+      "com_agro": 5570
+    },
+    {
+      "ano": 2018,
+      "linhas": 5570,
+      "com_agro": 5570
+    },
+    {
+      "ano": 2017,
+      "linhas": 5570,
+      "com_agro": 5570
+    },
+    {
+      "ano": 2016,
+      "linhas": 5570,
+      "com_agro": 5570
+    },
+    {
+      "ano": 2015,
+      "linhas": 5570,
+      "com_agro": 5570
+    },
+    {
+      "ano": 2014,
+      "linhas": 5570,
+      "com_agro": 5570
+    }
+  ],
+  "query_ref": "qr_5fdc4ea9bbd24718b7a1cc2f775e26a9"
+}

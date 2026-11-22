@@ -1,0 +1,15 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "data_referencia": "2026-11-01",
+      "registros": 28671796,
+      "documentos_cpf_11": 0,
+      "documentos_cnpj_14": 0,
+      "documentos_mascarados": 27906977,
+      "representantes_cpf_11": 0,
+      "representantes_mascarados": 770502
+    }
+  ],
+  "query_ref": "qr_1ced2ba686914221a4f00562ebc05c5f"
+}

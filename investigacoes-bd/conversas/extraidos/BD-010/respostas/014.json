@@ -1,0 +1,197 @@
+[
+  {
+    "id": "51ee8a6c-e410-4fc2-b2a4-e778c5b1ef3d",
+    "name": "Estimativas de custos da operação do Sistema Interligado Nacional (SIN) e outros subssistemas",
+    "description": "A organização temática 'Estimativas Custos' permite um retrato dos custos operação do Sistema Interligado Nacional (SIN)  e demais subssitemas de energia com diferentes metodologias e unidades de tempo utilizadas.",
+    "organizations": [
+      "Operador Nacional do Sistema Elétrico (ONS)"
+    ],
+    "tags": [
+      "eletricidade",
+      "avaliação",
+      "hidrelétrica"
+    ],
+    "themes": [
+      "Energia",
+      "Infraestrutura e Transportes"
+    ]
+  },
+  {
+    "id": "e5c87240-ecce-4856-97c5-e6b84984bf42",
+    "name": "Desmatamento PRODES",
+    "description": "O projeto PRODES realiza o monitoramento por satélites do desmatamento por corte raso na Amazônia Legal e produz, desde 1988, as taxas anuais de desmatamento na região, que são usadas pelo governo brasileiro para o estabelecimento de políticas públicas. As taxas anuais são estimadas a partir dos incrementos de desmatamento identificados em cada imagem de satélite que cobre a Amazônia Legal. A primeira apresentação dos dados é realizada para dezembro de cada ano, na forma de estimativa. Os dados consolidados são apresentados no primeiro semestre do ano seguinte.\r\n\r\nResultados recentes, a partir de análises realizadas com especialistas independentes, indicam nível de precisão próximo a 95%.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "conservação",
+      "desmatamento",
+      "uso da terra"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "08a1546e-251f-4546-9fe0-b1e6ab2b203d",
+    "name": "Censo 2022",
+    "description": "Conhecer em detalhe como é e como vive o nosso povo é de extrema importância para o governo e para a sociedade. Os resultados obtidos através da realização do Censo Demográfico permitem traçar um retrato abrangente e fiel do País.\r\n\r\nO Censo Demográfico produz informações atualizadas e precisas, que são fundamentais para o desenvolvimento e implementação de políticas públicas e para a realização de investimentos, tanto do governo quanto da iniciativa privada. Além disso, uma sociedade que conhece a si mesma pode executar, com eficácia, ações imediatas e planejar com segurança o seu futuro.\r\n\r\nRetratar o Brasil que está entrando numa nova década é um desafio para o IBGE. Qual é o tamanho da população brasileira? Em que condições vive? Como se distribui no Território Nacional? Qual é o nível de escolaridade de nossas crianças e jovens? Quais as condições de emprego e renda da população? Estas e muitas outras perguntas serão respondidas pelo Censo Demográfico que o IBGE realiza em 2022.\r\n\r\n-------\r\n\r\n* Incluímos nas tabelas disponibilizadas pelo sistema Sidra a numeração correspondente à tabela original, ela se encontra no início do título de cada tabela. Ex: 1209 - População, por grupos de idade, onde 1209 representa o número dessa tabela no sistema Sidra.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "idade",
+      "demografia",
+      "desenvolvimento",
+      "habitação",
+      "terra indígena",
+      "casamento",
+      "quilombola",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde",
+      "População",
+      "Religião",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "2907eff4-e542-4b76-9942-4b98aed54d1d",
+    "name": "OpenFEMA: desastres, assistência federal e seguro de inundação",
+    "description": "Conjunto de dados abertos da Agência Federal de Gestão de Emergências dos Estados Unidos (FEMA), publicado pelo programa OpenFEMA. Reúne as declarações de desastre emitidas sob o Stafford Act desde 1953, com uma linha por área designada; os projetos financiados pelo programa Public Assistance desde 1998, com os valores federais obrigados; e os arquivos redigidos do National Flood Insurance Program, com 2,7 milhões de sinistros desde 1970 e 74,3 milhões de apólices desde 2009, incluindo data da perda, cobertura contratada, valores pagos, prêmio, zona de inundação e localização aproximada. Os dados não são de domínio público: seu uso é regido pelos termos do OpenFEMA, que o restringem a pesquisa estatística ou registro de referência e proíbem a reidentificação.",
+    "organizations": [
+      "Agência Federal de Gestão de Emergências (FEMA) dos Estados Unidos"
+    ],
+    "tags": [
+      "auxílio",
+      "mudancas climáticas",
+      "indenização",
+      "desastre",
+      "federal",
+      "inundação",
+      "habitação",
+      "seguro",
+      "desastre natural",
+      "propriedade",
+      "risco"
+    ],
+    "themes": [
+      "Economia",
+      "Meio Ambiente",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "1eeb071e-cfe0-4a32-a664-8e86fcb49971",
+    "name": "Recenseamento Geral do Império do Brasil de 1872",
+    "description": "O censo demográfico do Brasil de 1872 foi a primeira operação censitária realizada em território brasileiro, à época imperial.\n\nForam recenseados todos os moradores em domicílios (chamados de \"fogo\") particulares e coletivos e que se encontravam nele na data de referência do censo que foi o dia 1º de agosto de 1872. A distribuição da população se fez segundo a cor, o sexo, o estado de livres ou escravos, o estado civil, a nacionalidade, a ocupação e a religião.\n\nOs dados vêm do banco Pop-72, digitalizado e corrigido pelo Núcleo de Pesquisa em História Econômica e Demográfica (NPHED) do Cedeplar/UFMG, e cobrem 1.440 paróquias em 21 províncias. Cada quadro do recenseamento é publicado em duas versões, a original de 1872 e a corrigida pelo NPHED, em três níveis geográficos: paróquia, município e província. As tabelas corrigidas reproduzem os totais nacionais canônicos de 9.930.478 pessoas, das quais 1.510.806 escravizadas; as originais somam 9.952.948 e preservam os erros aritméticos da publicação de 1872, documentados no relatório crítico do NPHED.",
+    "organizations": [
+      "Universidade Federal de Minas Gerais (UFMG)"
+    ],
+    "tags": [
+      "idade",
+      "censo",
+      "demografia",
+      "império",
+      "alfabetização",
+      "migração",
+      "ocupação",
+      "escravidão"
+    ],
+    "themes": [
+      "História",
+      "População"
+    ]
+  },
+  {
+    "id": "3e4c67f4-25c5-4652-8582-7d7d45a4beb5",
+    "name": "The Worldwide Bureaucracy Indicators (WWBI)",
+    "description": "The Worldwide Bureaucracy Indicators (WWBI) database is a unique cross-national dataset on public sector employment and wages that aims to fill an information gap, thereby helping researchers, development practitioners, and policymakers gain a better understanding of the personnel dimensions of state capability, the footprint of the public sector within the overall labor market, and the fiscal implications of the public sector wage bill",
+    "organizations": [
+      "Banco Mundial"
+    ],
+    "tags": [
+      "finanças públicas",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "60de97a5-aae7-4cda-871f-b314b497d768",
+    "name": "Justiça em Números (DataJud)",
+    "description": "Painel estatístico do Poder Judiciário brasileiro publicado anualmente pelo Conselho Nacional de Justiça no relatório Justiça em Números, com o DataJud como base de dados de origem desde 2022. Reúne 1.305 indicadores por tribunal e ano de referência entre 2009 e 2025, cobrindo 99 tribunais de todos os ramos de justiça, entre eles casos novos, casos pendentes, taxa de congestionamento, índice de atendimento à demanda e IPC-Jus, discriminados por grau e fase processual. Inclui também os atributos cadastrais de cada tribunal e o dicionário de códigos dos indicadores.",
+    "organizations": [
+      "Conselho Nacional de Justiça (CNJ)"
+    ],
+    "tags": [
+      "burocracia",
+      "congestionamento",
+      "julgamento",
+      "judiciário",
+      "lei",
+      "magistrado",
+      "produtividade"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Justiça"
+    ]
+  },
+  {
+    "id": "4481c8ca-cb59-4fe5-9d41-8766f66d4bfa",
+    "name": "Sistema Integrado de Dados sobre Educação Pós-secundária (IPEDS)",
+    "description": "O Sistema Integrado de Dados sobre Educação Pós-secundária (IPEDS) é o principal programa de coleta de dados sobre educação pós-secundária do National Center for Education Statistics (NCES) dos Estados Unidos. Consiste em pesquisas anuais em nível de instituição aplicadas a todas as instituições pós-secundárias americanas, cobrindo matrículas, admissões, conclusões de cursos, mensalidades, auxílio financeiro, taxas de graduação, pessoal, salários, bibliotecas e finanças. A série harmonizada cobre o período de 1997 a 2024. Os dados foram limpos e harmonizados utilizando o pipeline de código aberto de Paul Goldsmith-Pinkham (https://github.com/paulgp/ipeds-database).",
+    "organizations": [
+      "Departamento de Educação dos Estados Unidos"
+    ],
+    "tags": [],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "c861330e-bca2-474d-9073-bc70744a1b23",
+    "name": "Campeonatos de Futebol",
+    "description": "Dados de competições de futebol no mundo com informações de partidas, times e jogadores de futebol.\r\n\r\nA tabela do Brasileirão Série A inclui dados desde 2003 com detalhes como número de gols, estádio, árbitro, técnicos, e mais. Para detalhes de código e análises, ver nosso Github.",
+    "organizations": [
+      "Transfermarkt"
+    ],
+    "tags": [
+      "brasileirão",
+      "champions_league",
+      "la_liga",
+      "premier_league",
+      "futebol",
+      "copa do mundo"
+    ],
+    "themes": [
+      "Esportes"
+    ]
+  },
+  {
+    "id": "1e6d3f07-cf38-4149-9c09-1c4f39ee6b0b",
+    "name": "Catalogação Oceanos",
+    "description": "Catalogação Oceanos  é uma catalogação de livros, autores, editoras e jurados que participam, desde 2015, do Oceanos – Prêmio de Literatura em Língua Portuguesa.\r\n\r\nO projeto tem como objetivo fazer com que escritores, pesquisadores, agentes do mundo editorial e público em geral compreendam melhor as proximidades entre as diversas literaturas em língua portuguesa.\r\n\r\nOutro objetivo por trás desse levantamento é possibilitar que o próprio Prêmio Oceanos reflita sobre seus mecanismos e processos, tornando-se mais democrático a cada ano.",
+    "organizations": [
+      "Prêmio Oceanos"
+    ],
+    "tags": [
+      "prêmio",
+      "livro",
+      "biblioteca",
+      "literatura",
+      "poesia",
+      "escritor"
+    ],
+    "themes": [
+      "Cultura e Arte"
+    ]
+  }
+]

@@ -1,0 +1,77 @@
+{
+  "row_count": 18,
+  "rows": [
+    {
+      "id_imovel": "BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "condicao": "Aguardando analise",
+      "n_geometrias": 1
+    },
+    {
+      "id_imovel": "BA-2902005-876B8A8CE62D40119A8446C4262A5AC7",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "condicao": "Aguardando analise",
+      "n_geometrias": 1
+    },
+    {
+      "id_imovel": "BA-2913705-C31099AB04E24F15B9941AAAF17DC244",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "condicao": "Aguardando analise",
+      "n_geometrias": 1
+    },
+    {
+      "id_imovel": "BA-2916500-9222A7C0C77E4E019B498875C6578189",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "condicao": "Aguardando analise",
+      "n_geometrias": 1
+    },
+    {
+      "id_imovel": "BA-2921401-9177991E4861442EACFE3ACDDC06DB91",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "condicao": "Aguardando analise",
+      "n_geometrias": 1
+    },
+    {
+      "id_imovel": "BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "condicao": "Aguardando analise",
+      "n_geometrias": 1
+    },
+    {
+      "id_imovel": "BA-2928109-0F43ABB998F5484394BAA55A4964A2BD",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "condicao": "Aguardando analise",
+      "n_geometrias": 1
+    },
+    {
+      "id_imovel": "BA-2929057-2483416C90F94058B15FED07A5FE9FB7",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "condicao": "Aguardando analise",
+      "n_geometrias": 1
+    },
+    {
+      "id_imovel": "BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "condicao": "Aguardando analise",
+      "n_geometrias": 1
+    },
+    {
+      "id_imovel": "BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB",
+      "tabela": "reserva_legal",
+      "data_extracao": "2026-08-02",
+      "condicao": "Aguardando analise",
+      "n_geometrias": 1
+    },
+    "... (8 more items)"
+  ],
+  "query_ref": "qr_6fc95181a24d4720b132f71451144784"
+}

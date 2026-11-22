@@ -1,0 +1,77 @@
+{
+  "id": "b8432ff5-06c8-45ca-b8b6-33fceb24089d",
+  "dataset_id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+  "gcp_id": "basedosdados.br_rf_cnpj.estabelecimentos",
+  "name": "Estabelecimentos",
+  "description": "Estabelecimentos",
+  "columns": [
+    {
+      "name": "bairro",
+      "type": "STRING",
+      "description": "Bairro",
+      "needs_decoding": false
+    },
+    {
+      "name": "cep",
+      "type": "STRING",
+      "description": "CEP",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_fiscal_principal",
+      "type": "STRING",
+      "description": "CNAE Fiscal Principal",
+      "reference_table_id": "8a02c4e5-1718-41e7-8891-d0fa09265d58",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_fiscal_secundaria",
+      "type": "STRING",
+      "description": "CNAEs Fiscais Secundárias",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj",
+      "type": "STRING",
+      "description": "CNPJ",
+      "reference_table_id": "b71e9a46-f98e-476b-a2d6-4444213a8ddc",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_basico",
+      "type": "STRING",
+      "description": "CNPJ Básico (8 primeiros dígitos)",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_dv",
+      "type": "STRING",
+      "description": "CNPJ Dígito Verificador",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_ordem",
+      "type": "STRING",
+      "description": "CNPJ Ordem",
+      "needs_decoding": false
+    },
+    {
+      "name": "complemento",
+      "type": "STRING",
+      "description": "Complemento",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_inicio_atividade",
+      "type": "DATE",
+      "description": "Data de Início da Atividade",
+      "needs_decoding": false
+    },
+    "... (24 more items)"
+  ],
+  "partitioned_by": [
+    "data_referencia"
+  ],
+  "period_start": "2021-11",
+  "period_end": "2026-11-01"
+}

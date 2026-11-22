@@ -1,0 +1,97 @@
+{
+  "row_count": 36,
+  "rows": [
+    {
+      "id_municipio": "2900355",
+      "instituicao": "BCO DO BRASIL S.A.",
+      "segmento": "BANCO PÚBLICO",
+      "operacoes": 758,
+      "imoveis": 322,
+      "credito": 33625978.3451627,
+      "anos": 8
+    },
+    {
+      "id_municipio": "2900355",
+      "instituicao": "BANCO CNH INDUSTRIAL CAPITAL S.A",
+      "segmento": "BANCO PRIVADO",
+      "operacoes": 3,
+      "imoveis": 3,
+      "credito": 2602983.05,
+      "anos": 2
+    },
+    {
+      "id_municipio": "2900355",
+      "instituicao": "BCO DO NORDESTE DO BRASIL S.A.",
+      "segmento": "BANCO PÚBLICO",
+      "operacoes": 222,
+      "imoveis": 104,
+      "credito": 2290728.4816666665,
+      "anos": 8
+    },
+    {
+      "id_municipio": "2900355",
+      "instituicao": "BCO DO EST. DE SE S.A.",
+      "segmento": "BANCO PÚBLICO",
+      "operacoes": 9,
+      "imoveis": 5,
+      "credito": 711810.4199999999,
+      "anos": 5
+    },
+    {
+      "id_municipio": "2900355",
+      "instituicao": "BCO DE LAGE LANDEN BRASIL S.A.",
+      "segmento": "BANCO PRIVADO",
+      "operacoes": 7,
+      "imoveis": 3,
+      "credito": 439766.95,
+      "anos": 3
+    },
+    {
+      "id_municipio": "2900355",
+      "instituicao": "CAIXA ECONOMICA FEDERAL",
+      "segmento": "BANCO PÚBLICO",
+      "operacoes": 1,
+      "imoveis": 1,
+      "credito": 84428.46,
+      "anos": 1
+    },
+    {
+      "id_municipio": "2900355",
+      "instituicao": "COOP CRESOL UNIAO DOS VALES",
+      "segmento": "COOPERATIVA DE CRÉDITO",
+      "operacoes": 2,
+      "imoveis": 1,
+      "credito": 50400.0,
+      "anos": 1
+    },
+    {
+      "id_municipio": "2909208",
+      "instituicao": "BCO DO BRASIL S.A.",
+      "segmento": "BANCO PÚBLICO",
+      "operacoes": 255,
+      "imoveis": 138,
+      "credito": 17728568.115000002,
+      "anos": 8
+    },
+    {
+      "id_municipio": "2909208",
+      "instituicao": "BCO DO NORDESTE DO BRASIL S.A.",
+      "segmento": "BANCO PÚBLICO",
+      "operacoes": 314,
+      "imoveis": 123,
+      "credito": 6708019.789,
+      "anos": 8
+    },
+    {
+      "id_municipio": "2909208",
+      "instituicao": "CAIXA ECONOMICA FEDERAL",
+      "segmento": "BANCO PÚBLICO",
+      "operacoes": 14,
+      "imoveis": 13,
+      "credito": 1615660.7724999995,
+      "anos": 4
+    },
+    "... (26 more items)"
+  ],
+  "query_ref": "qr_a57af266a9b04e7e8cb2dc786f2fa29d"
+}

@@ -1,0 +1,203 @@
+[
+  {
+    "id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9",
+    "name": "Banco de Dados de Queimadas",
+    "description": "Ocorrência do Fogo na Vegetação é o tema deste portal, http://queimadas.dgi.inpe.br/queimadas, desenvolvido no INPE, Instituto Nacional de Pesquisas Espaciais. Ele inclui o monitoramento operacional de focos de queimadas e de incêndios florestais detectados por satélites, e o cálculo e previsão do risco de fogo da vegetação.\r\n\r\nOs dados para a América do Sul e a Central, África e Europa, são atualizados a cada três horas, todos os dias do ano. O acesso às informações é livre, e no navegador internet usado, deve estar desbloqueada a carga das janelas \"pop up\" para acesso a várias figuras, tabelas e gráficos.\r\n\r\nUsuários que necessitam de focos com maior frequência temporal ou monitoramento em áreas específicas deverão consultar as \"Perguntas Frequentes\"\r\n\r\nAs informações neste portal estão divididas em blocos:\r\n\r\n- \"Situação Atual\", é a \"Sala de Situação\" do Portal, e fornece para os últimos dois dias os resultados relevantes do monitoramento de focos de queima de vegetação feito pelo INPE em imagens satélites. Vários itens nos títulos das figuras e tabelas podem ser selecionados, alterando as apresentações gráficas conforme as preferências espaciais e temporais do usuário. Passando o mouse sobre os títulos e figuras serão indicadas as opções ativas.\r\n- \"SIG Focos-Geral\", permite visualizar os focos em um Sistema de Informação Geográfica, com opções de períodos, regiões de interesse, satélites, planos de informação (p.ex. desmatamento, hidrografia, estradas), etc., além da exportação dos dados em formatos txt, html, shp e kmz.\r\n- \"SIG Focos-Áreas Protegidas\", Semelhante ao item anterior, mas dedicado à ocorrência do fogo em Áreas de Preservação, como Parques, Florestas, Reservas Biológicas municipais, estaduais e nacionais, e Terras Indígenas.\r\n- \"Situação nas Áreas Protegidas\", que contém o último relatório de focos detectados nas áreas de preservação, incluindo links que os mostram já inseridos no SIG do monitoramento.\r\n- \"Relatório Atual\", contém o último resumo do monitoramento de queimadas em formato pdf, que poderá ser salvo pelo usuário para análise detalhada dos dados. A opção \"Receber por E-Mail\" leva ao cadastro do usuário, onde se define individualmente o conteúdo dos relatórios e mensagens de alerta que serão recebidos automaticamente por E-Mail.\r\n- \"Risco de Fogo\", que apresenta o Risco de Fogo da vegetação estimado no presente, e suas previsões futuras (diárias, semanais e mensais), bem como o \"fogograma\" para qualquer local selecionado com o mouse nos mapas.\r\n- \"Meu Cadastro\", onde o usuário define e configura individualmente os produtos que deseja receber em seu E-Mail, como alertas de ocorrência de focos em áreas de preservação, boletins pdf diários com tabelas, gráficos e mapas de estados e países de interesse, e mensagens operacionais.\r\n- \"Outros Produtos\", com links a produtos adicionais gerados por este sistema de Queimadas e Incêndios, destacando-se: mapas mensais de focos em formato .gif com animações; mapas Meteorológicos (precipitação, temperatura, umidade do ar, ventos); detecções dos vários satélites utilizados; estimativas de concentrações e trajetórias dos poluentes emitidos; localização dos satélites utilizados, uma coletânea de dados anteriores e área de download, e; acesso a uma antiga versão da página do monitoramento de focos.\r\n- \"Links Relacionados\", com indicações de acesso ao Boletim do Ibama de Monitoramento de Queimadas e Incêndios, ao texto publicado mensalmente no Boletim Climanálise, a uma coleção de mais de 500 páginas com matérias, fotos, vídeos e sites diversos sobre queimadas e incêndios florestais, à composição da equipe deste trabalho, e aos agradecimentos.\r\n- \"Notícias e Destaques\", com informações, notícias e links de destaque na ocorrência do fogo na vegetação, e não restritas apenas à detecção de focos com satélites.\r\n- \"Aviso\", com informações operacionais indicando novidades, falhas e detalhes relevantes na geração dos produtos do monitoramento do fogo na vegetação.\r\n\r\nO INPE também gera outros produtos de queimadas que não são divulgados neste portal, atendendo necessidades individuais de usuários que optam em fazer o próprio processamento dos dados brutos enviados pelo INPE; um exemplo destes é o caso do PrevFogo/Ibama. Para receber em tempo quase-real as coordenadas geográficas dos focos e desenvolver sua própria base de aplicações, contatar queimadas@inpe.br.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "ar",
+      "queimada",
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "fogo",
+      "floresta",
+      "incêndio"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+    "name": "Dados Geográficos Brasileiros (geobr)",
+    "description": "O geobr é um pacote R que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples, disponíveis em várias escalas geográficas e por vários anos.",
+    "organizations": [
+      "Instituto de Pesquisa Econômica Aplicada (ipea)"
+    ],
+    "tags": [
+      "amazônia",
+      "hospital",
+      "mapa",
+      "desastre natural",
+      "área protegida",
+      "escola"
+    ],
+    "themes": [
+      "Educação",
+      "Saúde",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "d43cd943-e279-4ab0-b843-323fb979b5c9",
+    "name": "Diretórios da Austrália",
+    "description": "Diretórios de unidades geográficas e administrativas da Austrália, baseados no Australian Statistical Geography Standard (ASGS) do Australian Bureau of Statistics (ABS), nas edições de 2016 e 2021. Inclui estados e territórios, áreas estatísticas (SA1 a SA4), Greater Capital City Statistical Areas (GCCSA), áreas de governo local (LGA), áreas postais, subúrbios e localidades, divisões eleitorais federais e estaduais, além de tabelas de correspondência entre as edições de 2016 e 2021.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "08a1546e-251f-4546-9fe0-b1e6ab2b203d",
+    "name": "Censo 2022",
+    "description": "Conhecer em detalhe como é e como vive o nosso povo é de extrema importância para o governo e para a sociedade. Os resultados obtidos através da realização do Censo Demográfico permitem traçar um retrato abrangente e fiel do País.\r\n\r\nO Censo Demográfico produz informações atualizadas e precisas, que são fundamentais para o desenvolvimento e implementação de políticas públicas e para a realização de investimentos, tanto do governo quanto da iniciativa privada. Além disso, uma sociedade que conhece a si mesma pode executar, com eficácia, ações imediatas e planejar com segurança o seu futuro.\r\n\r\nRetratar o Brasil que está entrando numa nova década é um desafio para o IBGE. Qual é o tamanho da população brasileira? Em que condições vive? Como se distribui no Território Nacional? Qual é o nível de escolaridade de nossas crianças e jovens? Quais as condições de emprego e renda da população? Estas e muitas outras perguntas serão respondidas pelo Censo Demográfico que o IBGE realiza em 2022.\r\n\r\n-------\r\n\r\n* Incluímos nas tabelas disponibilizadas pelo sistema Sidra a numeração correspondente à tabela original, ela se encontra no início do título de cada tabela. Ex: 1209 - População, por grupos de idade, onde 1209 representa o número dessa tabela no sistema Sidra.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "idade",
+      "demografia",
+      "desenvolvimento",
+      "habitação",
+      "terra indígena",
+      "casamento",
+      "quilombola",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde",
+      "População",
+      "Religião",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "8af7f0e9-c0a9-40ca-bd1a-9abe94c96973",
+    "name": "Emprego, Desemprego e Rotatividade do Trabalho (CES, LAUS, JOLTS)",
+    "description": "Os três principais programas de emprego do Bureau of Labor Statistics dos Estados Unidos, publicados como séries temporais mensais. O Current Employment Statistics (CES) mede emprego em folha de pagamento, horas e salários por setor de atividade, em nível nacional e por estado e área metropolitana. O Local Area Unemployment Statistics (LAUS) estima força de trabalho, emprego, desemprego e taxa de desemprego para estados, condados, áreas metropolitanas e demais áreas locais. O Job Openings and Labor Turnover Survey (JOLTS) mede vagas abertas, contratações, pedidos de demissão e dispensas. Cada tabela identifica o ajuste sazonal como dimensão e cobre de 1939 (CES), 1976 (LAUS) e 2000 (JOLTS) até o presente.",
+    "organizations": [
+      "Centro de Estatísticas Laborais (BLS) dos Estados Unidos"
+    ],
+    "tags": [
+      "demissão",
+      "atividade econômica",
+      "emprego",
+      "Estabelecimento",
+      "vagas abertas",
+      "trabalho",
+      "rotatividade do trabalho",
+      "salário",
+      "desemprego",
+      "carga horária"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "e337ceda-5333-4418-ab0b-c3335f80fe0f",
+    "name": "Beneficiários do OASDI e do SSI por estado e condado",
+    "description": "Número de beneficiários e valor dos benefícios pagos pelos dois principais programas de transferência de renda dos Estados Unidos, por condado e por estado, em dezembro de cada ano. O OASDI (Old-Age, Survivors, and Disability Insurance) é o seguro social contributivo de aposentadoria, pensão por morte e invalidez, coberto desde 1999 e detalhado por tipo de benefício, faixa etária e sexo. O SSI (Supplemental Security Income) é o benefício assistencial não contributivo, coberto desde 1998 e detalhado por categoria de elegibilidade, faixa etária e recebimento simultâneo de OASDI. Os dados vêm dos arquivos de série temporal achatada publicados pelo Office of Retirement and Disability Policy da SSA.",
+    "organizations": [
+      "Administração da Previdência Social dos Estados Unidos"
+    ],
+    "tags": [
+      "auxílio",
+      "terceira idade",
+      "renda",
+      "aposentadoria",
+      "assistência social",
+      "previdência social",
+      "transferência"
+    ],
+    "themes": [
+      "Economia",
+      "População"
+    ]
+  },
+  {
+    "id": "033c3cb9-01f9-4c52-8f69-902b54297ac3",
+    "name": "Banco de Dados Mundial de Desigualdade (WID)",
+    "description": "Séries históricas de distribuição de renda e riqueza compiladas pelo World Inequality Lab, cobrindo 1800 a 2025 para 410 áreas geográficas entre países, unidades subnacionais e agregados regionais, inclusive o mundo. Reúne agregados macroeconômicos das contas nacionais e medidas distribucionais por percentil, entre participações, limiares, médias e índices de Gini, construídos segundo as diretrizes de Contas Nacionais Distributivas (DINA). A unidade de cada série, sua fonte primária e seu método de construção estão na tabela series.",
+    "organizations": [
+      "World Inequality Lab (WIL)"
+    ],
+    "tags": [
+      "pib",
+      "renda",
+      "desigualdade",
+      "riqueza"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "9641ec65-0915-45cc-ace4-14684e8a3bf6",
+    "name": "Perfis da Comunidade do Censo (Austrália)",
+    "description": "Perfis da Comunidade do Censo de População e Habitação da Austrália, publicados pelo Australian Bureau of Statistics (ABS), nas edições de 2011, 2016 e 2021. Inclui o General Community Profile (GCP) e o Time Series Profile (TSP), em formato longo (uma célula por linha), para todos os níveis geográficos do ASGS — do nível nacional às Statistical Areas Level 1 (SA1) —, com características de pessoas, famílias e domicílios. As descrições, tabelas e unidades das células estão catalogadas na tabela auxiliary_info.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [],
+    "themes": [
+      "Educação",
+      "População",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "2907eff4-e542-4b76-9942-4b98aed54d1d",
+    "name": "OpenFEMA: desastres, assistência federal e seguro de inundação",
+    "description": "Conjunto de dados abertos da Agência Federal de Gestão de Emergências dos Estados Unidos (FEMA), publicado pelo programa OpenFEMA. Reúne as declarações de desastre emitidas sob o Stafford Act desde 1953, com uma linha por área designada; os projetos financiados pelo programa Public Assistance desde 1998, com os valores federais obrigados; e os arquivos redigidos do National Flood Insurance Program, com 2,7 milhões de sinistros desde 1970 e 74,3 milhões de apólices desde 2009, incluindo data da perda, cobertura contratada, valores pagos, prêmio, zona de inundação e localização aproximada. Os dados não são de domínio público: seu uso é regido pelos termos do OpenFEMA, que o restringem a pesquisa estatística ou registro de referência e proíbem a reidentificação.",
+    "organizations": [
+      "Agência Federal de Gestão de Emergências (FEMA) dos Estados Unidos"
+    ],
+    "tags": [
+      "auxílio",
+      "mudancas climáticas",
+      "indenização",
+      "desastre",
+      "federal",
+      "inundação",
+      "habitação",
+      "seguro",
+      "desastre natural",
+      "propriedade",
+      "risco"
+    ],
+    "themes": [
+      "Economia",
+      "Meio Ambiente",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "332a9a40-4898-4b21-a38d-b89ff41c8c96",
+    "name": "Estatísticas de Emprego e Salários por Ocupação (OEWS)",
+    "description": "Estimativas de emprego e salários do programa Occupational Employment and Wage Statistics (OEWS) do Bureau of Labor Statistics dos Estados Unidos, produzidas anualmente a partir de uma pesquisa semestral com estabelecimentos não agrícolas. Cobre cerca de 800 ocupações da Standard Occupational Classification (SOC) e reporta emprego, salário médio e os percentis 10, 25, 50, 75 e 90 em base horária e anual. As estimativas por área geográfica (nacional, estadual, territorial, metropolitana e não metropolitana) e por setor de atividade (NAICS) referem-se a maio de cada ano, de 2003 a 2025. As estimativas do OEWS não são desenhadas como série temporal: definições ocupacionais, setoriais e de área, além dos métodos de estimação, mudam ao longo do período.",
+    "organizations": [
+      "Centro de Estatísticas Laborais (BLS) dos Estados Unidos"
+    ],
+    "tags": [
+      "emprego",
+      "renda",
+      "trabalho",
+      "ocupação",
+      "salário"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

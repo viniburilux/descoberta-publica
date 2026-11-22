@@ -1,0 +1,15 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "data_extracao_a": "2026-08-03",
+      "data_extracao_b": "2026-08-03",
+      "area_rl_a_ha": 623.050325,
+      "area_rl_b_ha": 653.350278,
+      "area_intersecao_ha": 583.743544,
+      "percentual_sobre_a": 93.691235,
+      "percentual_sobre_b": 89.346184
+    }
+  ],
+  "query_ref": "qr_1ee7ef9ef95b4dd1be736754d1cee346"
+}

@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Column id_imovel in USING clause not found on right side of join at [1:384]\n\nLocation: None\nJob ID: 7389acee-cb26-435c-a75d-82c3f25f7bd4\n"
+}

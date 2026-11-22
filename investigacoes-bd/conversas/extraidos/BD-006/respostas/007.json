@@ -1,0 +1,194 @@
+[
+  {
+    "id": "2b9606d2-27c3-4015-9eca-82cf356b5c25",
+    "name": "Lista da Fauna e Flora ameaçados de extinção",
+    "description": "A tabela contém o anexo da portaria lançada pelo Ministério do Meio Ambiente das espécies da fauna e flora brasileira ameaçadas ou em extinção",
+    "organizations": [
+      "Ministério do Meio Ambiente (MMA)"
+    ],
+    "tags": [
+      "extinção",
+      "fauna",
+      "flora",
+      "natureza",
+      "ameaçada"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "218ae306-29ac-4a83-836d-95bfdb9683fe",
+    "name": "Pesquisa de Informações Básicas Municipais (MUNIC)",
+    "description": "Efetua, periodicamente, um levantamento pormenorizado de informações sobre a estrutura, a dinâmica e o funcionamento das instituições públicas municipais, tendo como unidade de investigação o município e, como informante principal, a prefeitura, por meio dos diversos setores que a compõem.\r\n\r\nA Pesquisa de Informações Básicas Municipais - MUNIC teve início em 1999, extensiva à totalidade dos municípios do País. Os temas e questões abordados em seu questionário básico são levantados regularmente e visam responder às necessidades de informação da sociedade e do Estado brasileiro, com vistas à consolidação de uma base de dados estatísticos e cadastrais atualizados e que proporcionem um conjunto relevante de indicadores de avaliação e monitoramento dos quadros institucional e administrativo das municipalidades. Usualmente, a MUNIC traz um caderno suplementar que contempla temas específicos, de forma mais detalhada, em um esforço permanente de atualização da pesquisa. A partir de 2005, o bloco sobre características básicas dos gestores, presente no questionário básico, passou a ser investigado a cada quadriênio, sempre nos anos que marcam o início das administrações eleitas no ano anterior.\r\n\r\nA pesquisa fornece informações variadas sobre a gestão pública municipal, incluindo a legislação vigente e os instrumentos de planejamento existentes nessa esfera da administração, especialmente aqueles discriminados no Estatuto da Cidade e que, junto com o Plano Diretor, têm por meta regular o uso e a ocupação do solo urbano; organização das prefeituras; composição do quadro de pessoal por vínculo empregatício das prefeituras, tanto na administração direta quanto na indireta; recursos financeiros utilizados para a gestão; políticas públicas setoriais no âmbito das áreas pesquisadas (habitação, transporte, agropecuária, meio ambiente etc.), entre outros aspectos.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "governança",
+      "governo",
+      "informação",
+      "lei",
+      "administração pública",
+      "sistema"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15",
+    "name": "Fiscalização Ambiental",
+    "description": "Registros de fiscalização ambiental do Ibama: autos de infração lavrados desde 1977 e termos de embargo desde 1987, com o enquadramento, o valor da multa, a situação do débito, a área embargada e a localização declarada. Os dados são publicados diariamente no portal de dados abertos do Ibama e reproduzem os sistemas Sifisc e Sicafi.",
+    "organizations": [
+      "Ibama"
+    ],
+    "tags": [
+      "desmatamento",
+      "embargo",
+      "fauna",
+      "multa",
+      "flora",
+      "infração",
+      "fiscalização",
+      "sanção"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "782c5607-9f69-4e12-b0d5-aa0f1a7a94e2",
+    "name": "Banco de Dados Meteorológicos (INMET)",
+    "description": "O BDMEP abriga dados meteorológicos diários em forma digital, de séries históricas das várias estações meteorológicas convencionais da rede de estações do INMET com milhões de informações, referentes às medições diárias, de acordo com as normas técnicas internacionais da Organização Meteorológica Mundial.",
+    "organizations": [
+      "Instituto Nacional de Meteorologia (INMET)"
+    ],
+    "tags": [
+      "clima",
+      "meio ambiente",
+      "umidade",
+      "meteorologia",
+      "precipitação",
+      "radiação",
+      "temperatura"
+    ],
+    "themes": [
+      "Meio Ambiente",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+    "name": "Cadastro Ambiental Rural (CAR)",
+    "description": "Dados públicos do Cadastro Ambiental Rural (CAR), registro eletrônico nacional obrigatório dos imóveis rurais brasileiros, mantido no Sistema Nacional de Cadastro Ambiental Rural (SICAR) pelo Serviço Florestal Brasileiro. Inclui o perímetro dos imóveis e as feições ambientais declaradas — Área de Preservação Permanente (APP), Reserva Legal, vegetação nativa, hidrografia, área consolidada, uso restrito, servidão administrativa e pousio — com geometria em coordenadas geográficas (WGS84). Os dados são organizados como snapshots empilhados por data de disponibilização por Unidade da Federação.",
+    "organizations": [
+      "Serviço Florestal Brasileiro"
+    ],
+    "tags": [
+      "agropecuária",
+      "atividade econômica",
+      "licenciamento ambiental",
+      "gestão ambiental",
+      "uso da terra",
+      "sicar"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "aa3ab348-3184-4baa-a0f9-e90465854e0e",
+    "name": "Índice de Efetividade da Gestão Municipal (IEGM)",
+    "description": null,
+    "organizations": [
+      "Tribunal de Contas do Estado do Rio de Janeiro (TCE-RJ)"
+    ],
+    "tags": [
+      "gestão",
+      "município"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "58b92117-9974-4b4e-9cdb-48bc4458ccad",
+    "name": "Inventário Nacional de Gases de Efeito Estufa (Austrália)",
+    "description": "Inventário Nacional de Gases de Efeito Estufa da Austrália, das Contas Nacionais de Gases de Efeito Estufa do Departamento de Mudança Climática, Energia, Meio Ambiente e Água (DCCEEW). Emissões por ano fiscal, jurisdição (Austrália e cada estado e território), setor e gás na base contábil UNFCCC/Paris (GWP AR5 de 100 anos), em gigagramas, desde 1989-90. Três tabelas trazem o mesmo inventário sob a hierarquia de categorias da UNFCCC, a classificação por setor econômico ANZSIC e as emissões de Escopo 2 (eletricidade indireta). As projeções anuais de emissões serão adicionadas posteriormente.",
+    "organizations": [
+      "Departamento de Mudança Climática, Energia, Meio Ambiente e Água (DCCEEW)"
+    ],
+    "tags": [
+      "carbono",
+      "clima",
+      "emissões",
+      "gases de efeito estufa"
+    ],
+    "themes": [
+      "Energia",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "b8e72d64-5416-4a6e-a796-b47a0a600ddc",
+    "name": "SinPatinhas",
+    "description": "É um sistema inovador desenvolvido pelo Governo Federal para gerenciar e monitorar a política pública de controle populacional de animais. Focado em iniciativas de castração e microchipagem, o sistema permite o cadastro de animais, o acompanhamento detalhado dos procedimentos realizados e a geração de relatórios abrangentes. Tem por objetivo centralizar as informações sobre cães e gatos e seus tutores, em conformidade com a Lei nº 15.046, de 17 de dezembro de 2024, e com o Decreto Federal nº 12.439, de 17 de abril de 2025, que regulamenta a criação do Cadastro Nacional de Animais Domésticos. Inclui dados de identificação, endereço e contato dos responsáveis e de seus animais, além de detalhes dos animais, como espécie, raça, idade, vacinas e doenças, representando um avanço significativo no combate aos maus-tratos e no controle de zoonoses. Permite o cadastro de animais que se destinam à companhia ou são criados como de estimação.",
+    "organizations": [
+      "Ministério do Meio Ambiente (MMA)"
+    ],
+    "tags": [
+      "animal",
+      "gestão ambiental",
+      "PET"
+    ],
+    "themes": [
+      "Meio Ambiente",
+      "População"
+    ]
+  },
+  {
+    "id": "1e3aa290-c25a-4a06-9ff9-b1ee481e615b",
+    "name": "Inventário de Liberações Tóxicas (TRI)",
+    "description": "O Toxics Release Inventory (TRI) é o inventário anual da Agência de Proteção Ambiental dos Estados Unidos (EPA) sobre liberações no meio ambiente, transferências para fora do local e gestão de resíduos de mais de 700 substâncias químicas tóxicas, declaradas por cerca de 21 mil instalações industriais e federais sob a seção 313 do EPCRA. O conjunto traz uma tabela de instalações por ano, uma dimensão de produtos químicos, uma linha por formulário entregue (instalação, produto químico e ano) com os totais calculados pela EPA e as quantidades de resíduo relacionado à produção, e o detalhe em formato longo das liberações e transferências por categoria do Form R, de 1987 até o presente. Todas as quantidades estão em libras, com o valor original em gramas preservado para dioxinas.",
+    "organizations": [
+      "U.S. Environmental Protection Agency (EPA)"
+    ],
+    "tags": [
+      "produto químico",
+      "companhia",
+      "emissão",
+      "gestão ambiental",
+      "Estabelecimento",
+      "poluição",
+      "reciclagem",
+      "regulação",
+      "resíduo"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "cecb702d-d4b7-45ec-adbb-719ebd5b3906",
+    "name": "Produção da Extração Vegetal e da Silvicultura (PEVS)",
+    "description": "Investiga informações sobre a quantidade e o valor da produção decorrente dos processos de exploração dos recursos vegetais nativos e dos maciços florestais plantados, tendo como unidade de coleta o município. A área total existente e a área colhida de cultivos florestais também são objetos da pesquisa",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "desmatamento",
+      "exportação",
+      "floresta",
+      "colheita",
+      "plantação"
+    ],
+    "themes": [
+      "Economia",
+      "Meio Ambiente"
+    ]
+  }
+]

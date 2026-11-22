@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "Query exceeds the 10GB processing limit. Filter by partitioned columns."
+}

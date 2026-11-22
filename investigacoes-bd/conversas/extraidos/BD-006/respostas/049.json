@@ -1,0 +1,78 @@
+{
+  "id": "1fd6598f-2dfa-4f26-94bb-0d6bd4a4c873",
+  "dataset_id": "fc403b40-a7e1-40e7-9efe-910847b45a69",
+  "gcp_id": "basedosdados.br_ibge_pam.lavoura_temporaria",
+  "name": "Lavouras Temporárias",
+  "description": "A tabela de lavouras temporárias apresenta dados de cada município brasileiro, desagregado por ano e por produto. Há um conjunto de produtos que são classificados como lavouras temporárias, entre eles: alho, arroz, feijão, mandioca, melancia, melão, tomate, cana-de-açúcar. No total, tem-se diferente... (326 more characters)",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "area_colhida",
+      "type": "INT64",
+      "description": "Área colhida",
+      "unit": "ha",
+      "needs_decoding": false
+    },
+    {
+      "name": "area_plantada",
+      "type": "INT64",
+      "description": "Área destinada à colheita",
+      "unit": "ha",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município IBGE 7 dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "produto",
+      "type": "STRING",
+      "description": "Produto",
+      "needs_decoding": false
+    },
+    {
+      "name": "quantidade_produzida",
+      "type": "FLOAT64",
+      "description": "Quantidade da produção",
+      "unit": "ton",
+      "needs_decoding": false
+    },
+    {
+      "name": "rendimento_medio_producao",
+      "type": "FLOAT64",
+      "description": "Rendimento médio da produção",
+      "unit": "kg / ha",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da Unidade da Federação",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor_producao",
+      "type": "FLOAT64",
+      "description": "Valor da produção",
+      "unit": "1000 * brl",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano",
+    "id_municipio",
+    "sigla_uf"
+  ],
+  "period_start": "1974",
+  "period_end": "2024"
+}

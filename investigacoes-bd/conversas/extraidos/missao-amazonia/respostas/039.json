@@ -1,0 +1,107 @@
+{
+  "row_count": 22,
+  "rows": [
+    {
+      "ano": 2002,
+      "id_municipio": "1503200",
+      "pib": 62751000,
+      "va": 60465000,
+      "va_agropecuaria": 17599000,
+      "va_industria": 5304000,
+      "va_servicos": 13230000,
+      "va_adespss": 24332000
+    },
+    {
+      "ano": 2003,
+      "id_municipio": "1503200",
+      "pib": 64300000,
+      "va": 60755000,
+      "va_agropecuaria": 14579000,
+      "va_industria": 5119000,
+      "va_servicos": 14810000,
+      "va_adespss": 26247000
+    },
+    {
+      "ano": 2004,
+      "id_municipio": "1503200",
+      "pib": 75488000,
+      "va": 71590000,
+      "va_agropecuaria": 16173000,
+      "va_industria": 7731000,
+      "va_servicos": 18036000,
+      "va_adespss": 29651000
+    },
+    {
+      "ano": 2005,
+      "id_municipio": "1503200",
+      "pib": 74906000,
+      "va": 70728000,
+      "va_agropecuaria": 14806000,
+      "va_industria": 5612000,
+      "va_servicos": 18643000,
+      "va_adespss": 31666000
+    },
+    {
+      "ano": 2006,
+      "id_municipio": "1503200",
+      "pib": 88331000,
+      "va": 84300000,
+      "va_agropecuaria": 17077000,
+      "va_industria": 6522000,
+      "va_servicos": 25683000,
+      "va_adespss": 35018000
+    },
+    {
+      "ano": 2007,
+      "id_municipio": "1503200",
+      "pib": 97506000,
+      "va": 93732000,
+      "va_agropecuaria": 25375000,
+      "va_industria": 5942000,
+      "va_servicos": 24536000,
+      "va_adespss": 37879000
+    },
+    {
+      "ano": 2008,
+      "id_municipio": "1503200",
+      "pib": 106706000,
+      "va": 102150000,
+      "va_agropecuaria": 21387000,
+      "va_industria": 8324000,
+      "va_servicos": 26460000,
+      "va_adespss": 45979000
+    },
+    {
+      "ano": 2009,
+      "id_municipio": "1503200",
+      "pib": 121151000,
+      "va": 115793000,
+      "va_agropecuaria": 22593000,
+      "va_industria": 7609000,
+      "va_servicos": 32395000,
+      "va_adespss": 53196000
+    },
+    {
+      "ano": 2010,
+      "id_municipio": "1503200",
+      "pib": 136819000,
+      "va": 130901000,
+      "va_agropecuaria": 29074000,
+      "va_industria": 9353000,
+      "va_servicos": 34388000,
+      "va_adespss": 58087000
+    },
+    {
+      "ano": 2011,
+      "id_municipio": "1503200",
+      "pib": 206187000,
+      "va": 191238000,
+      "va_agropecuaria": 44431000,
+      "va_industria": 31295000,
+      "va_servicos": 46268000,
+      "va_adespss": 69245000
+    },
+    "... (12 more items)"
+  ],
+  "query_ref": "qr_bf1b25c2eba948099efd639e4a18cd48"
+}

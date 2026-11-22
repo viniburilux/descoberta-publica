@@ -1,0 +1,84 @@
+{
+  "row_count": 6,
+  "rows": [
+    {
+      "grupo": "vizinho",
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "id_municipio": "1506187",
+      "sigla_uf": "PA",
+      "id_embargo": "127471",
+      "ano": 2006,
+      "area_ha": 725.0,
+      "data_desembargo": null,
+      "situacao_desembargo": "Não informado como desembargado",
+      "embargo_anterior_2023": true,
+      "ponto_embargo_dentro_do_car": true
+    },
+    {
+      "grupo": "vizinho",
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "id_municipio": "1506187",
+      "sigla_uf": "PA",
+      "id_embargo": "824790",
+      "ano": 2010,
+      "area_ha": 8.2873,
+      "data_desembargo": null,
+      "situacao_desembargo": "Não informado como desembargado",
+      "embargo_anterior_2023": true,
+      "ponto_embargo_dentro_do_car": true
+    },
+    {
+      "grupo": "vizinho",
+      "id_imovel": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "id_municipio": "1506187",
+      "sigla_uf": "PA",
+      "id_embargo": "836171",
+      "ano": 2012,
+      "area_ha": 376.2529,
+      "data_desembargo": null,
+      "situacao_desembargo": "Não informado como desembargado",
+      "embargo_anterior_2023": true,
+      "ponto_embargo_dentro_do_car": true
+    },
+    {
+      "grupo": "vizinho",
+      "id_imovel": "PA-1506187-48EDE9CDCF3947959921871671228876",
+      "id_municipio": "1506187",
+      "sigla_uf": "PA",
+      "id_embargo": "127471",
+      "ano": 2006,
+      "area_ha": 725.0,
+      "data_desembargo": null,
+      "situacao_desembargo": "Não informado como desembargado",
+      "embargo_anterior_2023": true,
+      "ponto_embargo_dentro_do_car": true
+    },
+    {
+      "grupo": "vizinho",
+      "id_imovel": "PA-1506187-48EDE9CDCF3947959921871671228876",
+      "id_municipio": "1506187",
+      "sigla_uf": "PA",
+      "id_embargo": "824790",
+      "ano": 2010,
+      "area_ha": 8.2873,
+      "data_desembargo": null,
+      "situacao_desembargo": "Não informado como desembargado",
+      "embargo_anterior_2023": true,
+      "ponto_embargo_dentro_do_car": true
+    },
+    {
+      "grupo": "vizinho",
+      "id_imovel": "PA-1506187-48EDE9CDCF3947959921871671228876",
+      "id_municipio": "1506187",
+      "sigla_uf": "PA",
+      "id_embargo": "836171",
+      "ano": 2012,
+      "area_ha": 376.2529,
+      "data_desembargo": null,
+      "situacao_desembargo": "Não informado como desembargado",
+      "embargo_anterior_2023": true,
+      "ponto_embargo_dentro_do_car": true
+    }
+  ],
+  "query_ref": "qr_6359ffc25a994b48bb04e29fee33f9c7"
+}

@@ -1,0 +1,67 @@
+{
+  "row_count": 20,
+  "rows": [
+    {
+      "nome_municipio": "São Desidério",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 622569134.4799999,
+      "numero_operacoes": 346
+    },
+    {
+      "nome_municipio": "Formosa do Rio Preto",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 608774769.405,
+      "numero_operacoes": 307
+    },
+    {
+      "nome_municipio": "Baixa Grande do Ribeiro",
+      "sigla_uf": "PI",
+      "valor_financiado_rateado": 454559140.79499996,
+      "numero_operacoes": 378
+    },
+    {
+      "nome_municipio": "Jaborandi",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 432586031.72999996,
+      "numero_operacoes": 1177
+    },
+    {
+      "nome_municipio": "Porto Velho",
+      "sigla_uf": "RO",
+      "valor_financiado_rateado": 419375752.1788268,
+      "numero_operacoes": 2675
+    },
+    {
+      "nome_municipio": "Rio Verde",
+      "sigla_uf": "GO",
+      "valor_financiado_rateado": 402235557.78000003,
+      "numero_operacoes": 629
+    },
+    {
+      "nome_municipio": "Barreiras",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 381402353.5100001,
+      "numero_operacoes": 285
+    },
+    {
+      "nome_municipio": "Água Boa",
+      "sigla_uf": "MT",
+      "valor_financiado_rateado": 370386495.5849999,
+      "numero_operacoes": 269
+    },
+    {
+      "nome_municipio": "Correntina",
+      "sigla_uf": "BA",
+      "valor_financiado_rateado": 342498621.4999999,
+      "numero_operacoes": 1666
+    },
+    {
+      "nome_municipio": "Paragominas",
+      "sigla_uf": "PA",
+      "valor_financiado_rateado": 327753084.03709537,
+      "numero_operacoes": 255
+    },
+    "... (10 more items)"
+  ],
+  "query_ref": "qr_5e34b6be957341219a566e53023b0ee0"
+}

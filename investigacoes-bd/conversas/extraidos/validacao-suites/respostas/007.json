@@ -1,0 +1,16 @@
+{
+  "row_count": 2,
+  "rows": [
+    {
+      "lado": "left",
+      "registros": 11768420,
+      "chave_vazia": 0
+    },
+    {
+      "lado": "right",
+      "registros": 1356,
+      "chave_vazia": 0
+    }
+  ],
+  "query_ref": "qr_69ef908a403e47169779df9e5b5a8fc3"
+}

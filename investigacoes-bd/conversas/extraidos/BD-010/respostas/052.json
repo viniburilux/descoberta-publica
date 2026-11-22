@@ -1,0 +1,87 @@
+{
+  "row_count": 13,
+  "rows": [
+    {
+      "id_imovel": "BA-2901601-2D6EA3618F4A48BF87E2EB78992B2968",
+      "data_extracao": "2026-08-02",
+      "area_rl_ha": 0.000108,
+      "area_imovel_ha": 0.0001,
+      "area_intersecao_ha": 0.000108,
+      "percentual_rl_intersecta_imovel": 100.0
+    },
+    {
+      "id_imovel": "BA-2902005-876B8A8CE62D40119A8446C4262A5AC7",
+      "data_extracao": "2026-08-02",
+      "area_rl_ha": 0.0001,
+      "area_imovel_ha": 0.0001,
+      "area_intersecao_ha": 0.0001,
+      "percentual_rl_intersecta_imovel": 100.0
+    },
+    {
+      "id_imovel": "BA-2913705-C31099AB04E24F15B9941AAAF17DC244",
+      "data_extracao": "2026-08-02",
+      "area_rl_ha": 6.6e-05,
+      "area_imovel_ha": 0.0001,
+      "area_intersecao_ha": 6.6e-05,
+      "percentual_rl_intersecta_imovel": 100.0
+    },
+    {
+      "id_imovel": "BA-2916500-9222A7C0C77E4E019B498875C6578189",
+      "data_extracao": "2026-08-02",
+      "area_rl_ha": 0.000107,
+      "area_imovel_ha": 0.0001,
+      "area_intersecao_ha": 0.000107,
+      "percentual_rl_intersecta_imovel": 100.0
+    },
+    {
+      "id_imovel": "BA-2921401-9177991E4861442EACFE3ACDDC06DB91",
+      "data_extracao": "2026-08-02",
+      "area_rl_ha": 0.000121,
+      "area_imovel_ha": 0.0001,
+      "area_intersecao_ha": 0.000121,
+      "percentual_rl_intersecta_imovel": 100.0
+    },
+    {
+      "id_imovel": "BA-2926509-E3BCDCD3078C4BADBC80D0166EACCAF6",
+      "data_extracao": "2026-08-02",
+      "area_rl_ha": 0.000137,
+      "area_imovel_ha": 0.0001,
+      "area_intersecao_ha": 0.000137,
+      "percentual_rl_intersecta_imovel": 100.0
+    },
+    {
+      "id_imovel": "BA-2928109-0F43ABB998F5484394BAA55A4964A2BD",
+      "data_extracao": "2026-08-02",
+      "area_rl_ha": 0.000181,
+      "area_imovel_ha": 0.0002,
+      "area_intersecao_ha": 0.000181,
+      "percentual_rl_intersecta_imovel": 100.0
+    },
+    {
+      "id_imovel": "BA-2929057-2483416C90F94058B15FED07A5FE9FB7",
+      "data_extracao": "2026-08-02",
+      "area_rl_ha": 0.000106,
+      "area_imovel_ha": 0.0001,
+      "area_intersecao_ha": 0.000106,
+      "percentual_rl_intersecta_imovel": 100.0
+    },
+    {
+      "id_imovel": "BA-2929057-3DE9EF4059BE416EBC88EAAE603F1B5F",
+      "data_extracao": "2026-08-02",
+      "area_rl_ha": 0.000148,
+      "area_imovel_ha": 0.0001,
+      "area_intersecao_ha": 0.000148,
+      "percentual_rl_intersecta_imovel": 100.0
+    },
+    {
+      "id_imovel": "BA-2929057-60EC867CE3FF4AEAA712CD4AE3992CCB",
+      "data_extracao": "2026-08-02",
+      "area_rl_ha": 0.000162,
+      "area_imovel_ha": 0.0002,
+      "area_intersecao_ha": 0.000162,
+      "percentual_rl_intersecta_imovel": 100.0
+    },
+    "... (3 more items)"
+  ],
+  "query_ref": "qr_5c4b50633eab4deb8ff55c9ba0ba810e"
+}

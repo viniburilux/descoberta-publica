@@ -1,0 +1,87 @@
+{
+  "row_count": 20,
+  "rows": [
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "mapbiomas_chaves_distintas",
+      "valor": "6474",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "mapbiomas_chaves_duplicadas",
+      "valor": "6465",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "mapbiomas_registros",
+      "valor": "77405",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "prodes_chaves_com_mapbiomas",
+      "valor": "6437",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "prodes_chaves_distintas",
+      "valor": "6536",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "prodes_chaves_duplicadas",
+      "valor": "0",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "prodes_chaves_sem_mapbiomas",
+      "valor": "99",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "prodes_registros",
+      "valor": "6536",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "proporcao_prodes_com_mapbiomas",
+      "valor": "0.98485312117503065",
+      "id_1": null,
+      "id_2": null
+    },
+    {
+      "ordem": 1,
+      "tipo": "metrica",
+      "item": "proporcao_prodes_sem_mapbiomas",
+      "valor": "0.0151468788249694",
+      "id_1": null,
+      "id_2": null
+    },
+    "... (10 more items)"
+  ],
+  "query_ref": "qr_9c3e6700125d429c854d2246a5806f1b"
+}

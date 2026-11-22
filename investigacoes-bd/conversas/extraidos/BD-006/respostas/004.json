@@ -1,0 +1,200 @@
+[
+  {
+    "id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+    "name": "Dados Geográficos Brasileiros (geobr)",
+    "description": "O geobr é um pacote R que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples, disponíveis em várias escalas geográficas e por vários anos.",
+    "organizations": [
+      "Instituto de Pesquisa Econômica Aplicada (ipea)"
+    ],
+    "tags": [
+      "amazônia",
+      "hospital",
+      "mapa",
+      "desastre natural",
+      "área protegida",
+      "escola"
+    ],
+    "themes": [
+      "Educação",
+      "Saúde",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "5ee80380-83fd-4e13-b145-437cb227a087",
+    "name": "Levantamento Nacional de Informações Penitenciárias (SISDEPEN/Infopen)",
+    "description": "Dados semestrais do sistema prisional brasileiro, reportados por estabelecimento pelas administrações penitenciárias estaduais e federal, cobrindo os 19 ciclos do SISDEPEN de 2016/2 a 2025/2. Contém a capacidade declarada por regime, a população prisional por situação processual, regime, esfera da justiça e sexo, e o perfil sociodemográfico por faixa etária, raça ou cor, estado civil e escolaridade. As quatro características sociodemográficas são marginais independentes, cruzadas apenas com sexo: a fonte não publica tabulação cruzada entre elas. A fonte publica apenas respostas validadas, de modo que a tabela cobertura reconstrói quantos estabelecimentos eram esperados em cada estado e semestre e registra a não resposta de item, que varia de 0% a 38% entre estados. A série histórica do Infopen de 2005 a 2015 não está incluída porque o host em que era publicada saiu do ar.",
+    "organizations": [
+      "Ministério da Justiça e Segurança Pública (MJ)"
+    ],
+    "tags": [
+      "crime",
+      "prisão",
+      "encarceramento",
+      "Segurança pública"
+    ],
+    "themes": [
+      "Justiça",
+      "População",
+      "Segurança, Crime, Violência, e Conflito"
+    ]
+  },
+  {
+    "id": "1add7eaa-39ef-4731-914b-fc396f071c81",
+    "name": "Eleições na Alemanha (GERDA)",
+    "description": "Resultados eleitorais alemães harmonizados pelo projeto GERDA (Heddesheimer, Hilbig, Sichart e Wiedemann, 2025), em formato longo por partido. Abrange eleições federais (Bundestag), estaduais (Landtag), municipais, para conselhos de condado (Kreistag) e europeias nos níveis de município, condado e distrito eleitoral (Wahlkreis), incluindo versões harmonizadas para limites municipais fixos de 2021, 2023 e 2025.",
+    "organizations": [
+      "Nature"
+    ],
+    "tags": [
+      "congresso",
+      "eleições",
+      "partido político"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "c57b568a-94ae-43b4-80e7-2595550480bf",
+    "name": "Observações Meteorológicas e Séries Climatológicas (Météo-France)",
+    "description": "Observações meteorológicas de superfície e estatísticas climatológicas do serviço meteorológico nacional da França. Reúne o arquivo SYNOP, com medições a cada três horas desde 1996 nas 190 estações de reporte internacional, e o arquivo climatológico completo, com séries diárias desde 1786 e mensais desde 1688 para os mais de 14 mil postos da rede, cobrindo precipitação, temperatura, vento, umidade, insolação, radiação e neve. Inclui ainda as normais climatológicas de 1991 a 2020 com os recordes absolutos de cada posto, e os cadastros das estações com coordenadas, altitude e período de operação.",
+    "organizations": [
+      "Météo-France"
+    ],
+    "tags": [
+      "clima",
+      "mudancas climáticas",
+      "umidade",
+      "meteorologia",
+      "precipitação",
+      "temperatura",
+      "vento"
+    ],
+    "themes": [
+      "Meio Ambiente",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "276a6fb3-078c-4746-b6bc-ea728662b8b3",
+    "name": "Vendas de Eletricidade no Varejo nos Estados Unidos (EIA-861)",
+    "description": "O lado da demanda da eletricidade nos Estados Unidos, a partir do Formulário EIA-861 da U.S. Energy Information Administration: um censo anual das distribuidoras e comercializadoras de eletricidade, com vendas, receita e número de consumidores por empresa, unidade federativa e setor de consumo (Anexo 4), as características de cada empresa e os condados que ela atende, mais o Formulário EIA-861M, que traz vendas, receita, consumidores e preço mensais por unidade federativa e setor de 1990 em diante. É o complemento de duas outras bases da EIA: us_eia_electricity, que cobre o lado da oferta de eletricidade (usinas, geradores e combustível) e junta-se a esta por utility_id, e us_eia_seds, o sistema estadual de consumo de energia de todos os combustíveis.",
+    "organizations": [
+      "Energy Information Administration (EIA)"
+    ],
+    "tags": [
+      "consumo",
+      "eletricidade",
+      "empresa",
+      "preço",
+      "receita"
+    ],
+    "themes": [
+      "Energia"
+    ]
+  },
+  {
+    "id": "821b85cd-1256-47f8-8db2-d5dddf1d0638",
+    "name": "Censo de Governos (CoG)",
+    "description": "O Censo de Governos mede a estrutura, o emprego e as finanças de todos os governos estaduais e locais dos Estados Unidos. O conjunto reúne os três componentes do programa: a lista de unidades de governo dos levantamentos de 1997 a 2025, o emprego e a folha de pagamento por categoria funcional de 1992 a 2024, e receita, despesa, dívida e ativos por item financeiro dos exercícios de 1967 a 2018. As três famílias usam identificadores distintos, preservados nas colunas government_id e government_id_govs.",
+    "organizations": [
+      "U.S. Census Bureau"
+    ],
+    "tags": [
+      "dívida",
+      "emprego",
+      "despesa",
+      "administração pública",
+      "finanças públicas",
+      "servidor",
+      "receita",
+      "salário",
+      "tributo"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "4186e805-0fcf-446a-b689-204921100160",
+    "name": "Pesquisas de Despesas do Consumidor (CE)",
+    "description": "Despesas, renda e características das unidades de consumo dos Estados Unidos, das Pesquisas de Despesas do Consumidor do Bureau of Labor Statistics, coletadas pelo Census Bureau em duas pesquisas: uma Pesquisa de Entrevista trimestral para compras grandes e recorrentes e uma Pesquisa de Diário de duas semanas para compras pequenas e frequentes. Inclui as estimativas anuais publicadas por grupo demográfico desde 1984 e os microdados de uso público desde 1996, com pesos finais e de replicação. A CE é a fonte dos pesos de despesa do Índice de Preços ao Consumidor.",
+    "organizations": [
+      "Centro de Estatísticas Laborais (BLS) dos Estados Unidos"
+    ],
+    "tags": [
+      "consumo",
+      "custo de vida",
+      "despesa",
+      "família",
+      "renda",
+      "desigualdade",
+      "pobreza",
+      "gasto",
+      "riqueza"
+    ],
+    "themes": [
+      "Economia",
+      "População"
+    ]
+  },
+  {
+    "id": "033c3cb9-01f9-4c52-8f69-902b54297ac3",
+    "name": "Banco de Dados Mundial de Desigualdade (WID)",
+    "description": "Séries históricas de distribuição de renda e riqueza compiladas pelo World Inequality Lab, cobrindo 1800 a 2025 para 410 áreas geográficas entre países, unidades subnacionais e agregados regionais, inclusive o mundo. Reúne agregados macroeconômicos das contas nacionais e medidas distribucionais por percentil, entre participações, limiares, médias e índices de Gini, construídos segundo as diretrizes de Contas Nacionais Distributivas (DINA). A unidade de cada série, sua fonte primária e seu método de construção estão na tabela series.",
+    "organizations": [
+      "World Inequality Lab (WIL)"
+    ],
+    "tags": [
+      "pib",
+      "renda",
+      "desigualdade",
+      "riqueza"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "4aa6290b-b35b-43bf-9a11-348aed4a5716",
+    "name": "Dados Econômicos do Federal Reserve de St. Louis (FRED)",
+    "description": "Séries temporais econômicas dos Estados Unidos publicadas pelo FRED, do Federal Reserve de St. Louis. O conjunto cobre o subconjunto de livre redistribuição, originado em agências públicas federais dos EUA (Federal Reserve, BLS, BEA, Census, Tesouro e OMB): taxas de juros, preços, emprego, moeda e produto. Inclui uma tabela longa de observações (série, data, valor) e um catálogo de metadados das séries.",
+    "organizations": [
+      "Federal Reserve Bank of St. Louis (FRED)"
+    ],
+    "tags": [
+      "banco central",
+      "atividade econômica",
+      "emprego",
+      "câmbio",
+      "finanças",
+      "pib",
+      "inflação",
+      "taxa de juros",
+      "política monetária",
+      "recessão"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "84bb75ae-5955-4bbe-8bb6-2d644cae0cee",
+    "name": "Estatística Bancária (ESTBAN)",
+    "description": "O arquivo Saldos Estban por município é gerado mensalmente com a informação da Estatística Bancária Mensal (Código documento 4500), contemplando a posição mensal dos saldos das principais rubricas de balancetes dos bancos comerciais e dos bancos múltiplos com carteira comercial, por município. Ele é disponibilizado 60 (sessenta) dias após a data-base do documento, com exceção da data-base de dezembro, que é disponibilizado em 90 (noventa) dias após o seu encerramento, conforme estabelece o Comunicado 20.467, de 04 de janeiro de 2011. Sua atualização é mensal, e abrange os últimos 6 (seis) meses publicados.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "banco central",
+      "crédito",
+      "atividade econômica"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

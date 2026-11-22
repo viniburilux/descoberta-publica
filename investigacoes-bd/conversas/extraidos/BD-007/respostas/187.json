@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Syntax error: Illegal input character \"\\303\" at [1:987]\n\nLocation: None\nJob ID: bf343486-8215-4d4e-9c2f-38565c5eeaff\n"
+}

@@ -1,0 +1,57 @@
+{
+  "row_count": 26,
+  "rows": [
+    {
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Agricultura",
+      "linhas": 16575
+    },
+    {
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Mosaico de Usos",
+      "linhas": 6448
+    },
+    {
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Pastagem",
+      "linhas": 6341
+    },
+    {
+      "nivel_1": "Agropecuária",
+      "nivel_2": "Silvicultura",
+      "linhas": 4248
+    },
+    {
+      "nivel_1": "Corpo d'Água",
+      "nivel_2": "Aquicultura",
+      "linhas": 733
+    },
+    {
+      "nivel_1": "Corpo d'Água",
+      "nivel_2": "Rio, Lago e Oceano",
+      "linhas": 6405
+    },
+    {
+      "nivel_1": "Floresta",
+      "nivel_2": "Floresta Alagável",
+      "linhas": 592
+    },
+    {
+      "nivel_1": "Floresta",
+      "nivel_2": "Formação Florestal",
+      "linhas": 6430
+    },
+    {
+      "nivel_1": "Floresta",
+      "nivel_2": "Formação Savânica",
+      "linhas": 4141
+    },
+    {
+      "nivel_1": "Floresta",
+      "nivel_2": "Mangue",
+      "linhas": 307
+    },
+    "... (16 more items)"
+  ],
+  "query_ref": "qr_59014226ab3b4a96ad956f971ea2dee0"
+}

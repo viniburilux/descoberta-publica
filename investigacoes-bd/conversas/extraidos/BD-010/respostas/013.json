@@ -1,0 +1,183 @@
+[
+  {
+    "id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+    "name": "Cadastro Ambiental Rural (CAR)",
+    "description": "Dados públicos do Cadastro Ambiental Rural (CAR), registro eletrônico nacional obrigatório dos imóveis rurais brasileiros, mantido no Sistema Nacional de Cadastro Ambiental Rural (SICAR) pelo Serviço Florestal Brasileiro. Inclui o perímetro dos imóveis e as feições ambientais declaradas — Área de Preservação Permanente (APP), Reserva Legal, vegetação nativa, hidrografia, área consolidada, uso restrito, servidão administrativa e pousio — com geometria em coordenadas geográficas (WGS84). Os dados são organizados como snapshots empilhados por data de disponibilização por Unidade da Federação.",
+    "organizations": [
+      "Serviço Florestal Brasileiro"
+    ],
+    "tags": [
+      "agropecuária",
+      "atividade econômica",
+      "licenciamento ambiental",
+      "gestão ambiental",
+      "uso da terra",
+      "sicar"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "2cc0b275-d02a-413a-8769-7ce2785d86ae",
+    "name": "Cobertura da Atenção Básica",
+    "description": "Cobertura populacional estimada de equipes de saúde da família (eSF) e de equipes de Atenção Básica (eAB) utilizada para o monitoramento do acesso aos serviços de Atenção Básica, com vistas ao fortalecimento do planejamento do Sistema Único de Saúde (SUS).",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "município",
+      "atenção básica",
+      "sus"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "d0b61e1c-2ff2-43e7-b32f-5a054ba9b688",
+    "name": "Sistema de Vigilância Alimentar e Nutricional (SISVAN)",
+    "description": "A Vigilância Alimentar e Nutricional (VAN) nos serviços de saúde da Atenção Básica inclui a avaliação antropométrica (medidas corporais) e do consumo alimentar",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "alimentação",
+      "segurança alimentar",
+      "saúde",
+      "nutrição",
+      "atenção básica"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "61d592ca-5aec-4f66-b8eb-f7b894a29b66",
+    "name": "Estatísticas de Trânsito no Brasil (SENATRAN)",
+    "description": "Estatísticas de trânsito produzidas pela Secretaria Nacional de Trânsito (SENATRAN) a partir dos registros nacionais que administra. Contém a frota de veículos por município, estado, tipo e combustível, com dados mensais desde 2003, extraída do Registro Nacional de Veículos Automotores (RENAVAM). Anteriormente publicado sob o nome do extinto Departamento Nacional de Trânsito (DENATRAN).",
+    "organizations": [
+      "Secretaria Nacional de Trânsito (SENATRAN)"
+    ],
+    "tags": [
+      "ônibus",
+      "carro",
+      "moto",
+      "tráfego",
+      "caminhão",
+      "veículo"
+    ],
+    "themes": [
+      "Infraestrutura e Transportes"
+    ]
+  },
+  {
+    "id": "7397326f-f2ad-4b32-acac-c62f7c18989e",
+    "name": "State of Data Science Brazil",
+    "description": "Pesquisa realizada através de um questionário online e reune indicadores relacionados a perfil demográfico, formação, atuação no setor, remuneração, rotatividade e fatores de satisfação no ambiente de trabalho, incluindo o impacto do trabalho remoto nas preferências profissionais dos respondentes de todo o Brasil. A amostra reflete a visão de variados papéis de atuação em empresas, como os de analista de dados, cientista de dados e engenheiro de dados, bem como diferentes perfis de experiência profissional, incluindo analistas júnior, pleno, sênior e gestores.",
+    "organizations": [
+      "Datahackers"
+    ],
+    "tags": [
+      "carreira",
+      "emprego",
+      "dados abertos",
+      "programação",
+      "salário"
+    ],
+    "themes": [
+      "Economia",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "445f17b5-e781-4ee1-8bcf-f6ef3996724b",
+    "name": "Relatórios de Custos de Hospitais (HCRIS)",
+    "description": "Relatórios anuais de custos do Medicare apresentados por todos os hospitais certificados pelo Medicare nos Estados Unidos, do exercício fiscal de 1996 em diante, extraídos do Healthcare Cost Report Information System (HCRIS) da CMS. Cada relatório declara receitas, despesas, cobranças, leitos, altas, atendimento filantrópico e não remunerado e o balanço patrimonial da instituição. O conjunto é publicado em duas camadas: a forma bruta do formulário, em que cada célula declarada é uma linha, e uma camada tratada com as medidas nomeadas de uso corrente, cada uma rastreável até a planilha, linha e coluna de origem.",
+    "organizations": [
+      "Centers for Medicare & Medicaid Services (CMS)"
+    ],
+    "tags": [
+      "contabilidade",
+      "balanço patrimonial",
+      "demonstração financeira",
+      "Estabelecimentos de saúde",
+      "hospital",
+      "medicare",
+      "atendimento não remunerado"
+    ],
+    "themes": [
+      "Economia",
+      "Saúde"
+    ]
+  },
+  {
+    "id": "a0b692a3-1132-4cdf-8334-7ff47c66f59a",
+    "name": "Painel Estatístico de Pessoal",
+    "description": "O Painel Estatístico de Pessoal – PEP, concentra as informações de pessoal do Poder Executivo Federal, sendo disponibilizados os dados históricos do antigo Boletim Estatístico de Pessoal.",
+    "organizations": [
+      "Ministério do Planejamento"
+    ],
+    "tags": [
+      "administração pública"
+    ],
+    "themes": [
+      "Economia",
+      "Política"
+    ]
+  },
+  {
+    "id": "ee74ea14-728e-4583-ba9e-9d49990b1396",
+    "name": "Common Core of Data (CCD)",
+    "description": "O Common Core of Data (CCD) é o censo anual das escolas públicas de ensino primário e secundário dos Estados Unidos, conduzido pelo National Center for Education Statistics (NCES) do Departamento de Educação. Cobre o universo de escolas, distritos escolares e agências estaduais de educação, com matrícula por série, raça e sexo, pessoal em equivalente de tempo integral, características das escolas e, a partir do levantamento F-33 do Census Bureau, receitas e despesas dos distritos escolares. Os dados abrangem os anos letivos de 1986-87 a 2024-25 e são publicados de forma harmonizada pelo Education Data Portal do Urban Institute, que padroniza nomes de variáveis, categorias de raça e série e códigos de ausência ao longo de toda a série.",
+    "organizations": [
+      "Departamento de Educação dos Estados Unidos"
+    ],
+    "tags": [
+      "educação básica",
+      "indicadores educacionais",
+      "matrícula",
+      "finanças públicas",
+      "escola",
+      "aluno",
+      "docente"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "10e96562-3b2a-44e2-b6f9-0472f80993df",
+    "name": "Cartão de Pagamento do Governo Federal",
+    "description": "O Cartão de Pagamento do Governo Federal (CPGF) é um meio de pagamento utilizado pelo governo que funciona de forma similar ao cartão de crédito que utilizamos em nosso dia a dia, porém dentro de limites e regras específicas. O governo utiliza o CPGF para pagamentos de despesas próprias, que possam ser enquadradas como suprimento de fundos.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "crédito",
+      "governo",
+      "compra"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "bfb12041-c56e-49c0-abbc-0ea59c13c8f7",
+    "name": "Administradores de Carteira",
+    "description": "Dados Cadastrais de Administradores de Carteira da CVM.",
+    "organizations": [
+      "Comissão de Valores Mobiliários (CVM)"
+    ],
+    "tags": [
+      "investimento"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

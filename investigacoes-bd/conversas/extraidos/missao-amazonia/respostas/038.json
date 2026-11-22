@@ -1,0 +1,77 @@
+{
+  "row_count": 77,
+  "rows": [
+    {
+      "subclasse": "0220903",
+      "descricao_subclasse": "Coleta de castanha-do-pará em florestas nativas",
+      "descricao_classe": "Produção florestal - florestas nativas",
+      "descricao_grupo": "Produção florestal - florestas nativas",
+      "divisao": "02"
+    },
+    {
+      "subclasse": "0220904",
+      "descricao_subclasse": "Coleta de látex em florestas nativas",
+      "descricao_classe": "Produção florestal - florestas nativas",
+      "descricao_grupo": "Produção florestal - florestas nativas",
+      "divisao": "02"
+    },
+    {
+      "subclasse": "0220905",
+      "descricao_subclasse": "Coleta de palmito em florestas nativas",
+      "descricao_classe": "Produção florestal - florestas nativas",
+      "descricao_grupo": "Produção florestal - florestas nativas",
+      "divisao": "02"
+    },
+    {
+      "subclasse": "0220999",
+      "descricao_subclasse": "Coleta de produtos não madeireiros não especificados anteriormente em florestas nativas",
+      "descricao_classe": "Produção florestal - florestas nativas",
+      "descricao_grupo": "Produção florestal - florestas nativas",
+      "divisao": "02"
+    },
+    {
+      "subclasse": "0311603",
+      "descricao_subclasse": "Coleta de outros produtos marinhos",
+      "descricao_classe": "Pesca em água salgada",
+      "descricao_grupo": "Pesca",
+      "divisao": "03"
+    },
+    {
+      "subclasse": "0312403",
+      "descricao_subclasse": "Coleta de outros produtos aquáticos de água doce",
+      "descricao_classe": "Pesca em água doce",
+      "descricao_grupo": "Pesca",
+      "divisao": "03"
+    },
+    {
+      "subclasse": "0892403",
+      "descricao_subclasse": "Refino e outros tratamentos do sal",
+      "descricao_classe": "Extração e refino de sal marinho e sal-gema",
+      "descricao_grupo": "Extração de outros minerais não metálicos",
+      "divisao": "08"
+    },
+    {
+      "subclasse": "2539000",
+      "descricao_subclasse": "Serviços de usinagem, solda, tratamento e revestimento em metais",
+      "descricao_classe": "Serviços de usinagem, solda, tratamento e revestimento em metais",
+      "descricao_grupo": "Forjaria, estamparia, metalurgia do pó e serviços de tratamento de metais",
+      "divisao": "25"
+    },
+    {
+      "subclasse": "2822401",
+      "descricao_subclasse": "Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de pessoas, peças e acessórios",
+      "descricao_classe": "Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de cargas e pessoas",
+      "descricao_grupo": "Fabricação de máquinas e equipamentos de uso geral",
+      "divisao": "28"
+    },
+    {
+      "subclasse": "2822402",
+      "descricao_subclasse": "Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de cargas, peças e acessórios",
+      "descricao_classe": "Fabricação de máquinas, equipamentos e aparelhos para transporte e elevação de cargas e pessoas",
+      "descricao_grupo": "Fabricação de máquinas e equipamentos de uso geral",
+      "divisao": "28"
+    },
+    "... (67 more items)"
+  ],
+  "query_ref": "qr_21159b52838d46698c161fb42636ebe0"
+}

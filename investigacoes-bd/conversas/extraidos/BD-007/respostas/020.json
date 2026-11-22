@@ -1,0 +1,107 @@
+{
+  "row_count": 28,
+  "rows": [
+    {
+      "recorte": "Brasil",
+      "municipios": 5392,
+      "operacoes": 1320587,
+      "imoveis": 927775,
+      "credito": 126664440247.86311,
+      "area_financiada": 19550628.3422223,
+      "area_car": 378595684.91902584,
+      "razao_area": 0.0516398604659316
+    },
+    {
+      "recorte": "RS",
+      "municipios": 493,
+      "operacoes": 236986,
+      "imoveis": 181276,
+      "credito": 23267885334.000004,
+      "area_financiada": 3621821.6700000027,
+      "area_car": 19309074.172914017,
+      "razao_area": 0.18757096469599494
+    },
+    {
+      "recorte": "PR",
+      "municipios": 396,
+      "operacoes": 136531,
+      "imoveis": 107415,
+      "credito": 16489907800.718344,
+      "area_financiada": 2314352.5172222243,
+      "area_car": 32751581.12892799,
+      "razao_area": 0.07066384087264908
+    },
+    {
+      "recorte": "MG",
+      "municipios": 834,
+      "operacoes": 127402,
+      "imoveis": 86545,
+      "credito": 13842424472.176668,
+      "area_financiada": 1412034.2049999996,
+      "area_car": 20225335.01395334,
+      "razao_area": 0.06981512069025535
+    },
+    {
+      "recorte": "MT",
+      "municipios": 141,
+      "operacoes": 18945,
+      "imoveis": 14801,
+      "credito": 9677292022.875002,
+      "area_financiada": 1677765.289999999,
+      "area_car": 12007232.772650482,
+      "razao_area": 0.1397295548247832
+    },
+    {
+      "recorte": "SC",
+      "municipios": 288,
+      "operacoes": 85396,
+      "imoveis": 60779,
+      "credito": 7895354474.390002,
+      "area_financiada": 497495.9600000001,
+      "area_car": 3108979.2424008953,
+      "razao_area": 0.16001906774257232
+    },
+    {
+      "recorte": "GO",
+      "municipios": 243,
+      "operacoes": 20336,
+      "imoveis": 14803,
+      "credito": 7797088610.670002,
+      "area_financiada": 1466309.0783333338,
+      "area_car": 18575304.39374391,
+      "razao_area": 0.07893862987392987
+    },
+    {
+      "recorte": "BA",
+      "municipios": 405,
+      "operacoes": 165012,
+      "imoveis": 125120,
+      "credito": 7304905471.559988,
+      "area_financiada": 1093978.7516666672,
+      "area_car": 12507467.271609407,
+      "razao_area": 0.08746604951346786
+    },
+    {
+      "recorte": "MS",
+      "municipios": 79,
+      "operacoes": 11821,
+      "imoveis": 7401,
+      "credito": 4629359172.333333,
+      "area_financiada": 1223631.0033333336,
+      "area_car": 27748212.167479053,
+      "razao_area": 0.04409765198377109
+    },
+    {
+      "recorte": "SP",
+      "municipios": 590,
+      "operacoes": 18138,
+      "imoveis": 13711,
+      "credito": 4559537349.450003,
+      "area_financiada": 352166.7100000001,
+      "area_car": 5244193.089879605,
+      "razao_area": 0.06715365051672517
+    },
+    "... (18 more items)"
+  ],
+  "query_ref": "qr_ae0a347e30154a55ae588a11420cfb6c"
+}

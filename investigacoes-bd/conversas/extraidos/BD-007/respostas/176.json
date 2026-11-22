@@ -1,0 +1,16 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "operacoes": 247,
+      "operacoes_com_varios_documentos": 4,
+      "max_documentos_por_operacao": 2,
+      "max_proprietarios_por_operacao": 2,
+      "max_mutuarios_por_operacao": 1,
+      "documentos": 128,
+      "max_operacoes_por_documento": 6,
+      "max_anos_por_documento": 4
+    }
+  ],
+  "query_ref": "qr_12848c0e4ac24e478702531915d82a87"
+}

@@ -1,0 +1,183 @@
+[
+  {
+    "id": "eaa16880-e668-4865-980c-240b6117c46e",
+    "name": "Comércio Internacional e Complexidade Econômica (BACI e Atlas)",
+    "description": "Fluxos bilaterais de comércio internacional de mercadorias por produto, ano, exportador e importador, e indicadores de complexidade econômica. As tabelas em Sistema Harmonizado (SH6) vêm do BACI, do CEPII, que harmoniza as declarações do UN COMTRADE e cobre 1995-2024. As tabelas em CUCI/SITC revisão 2 e os índices de complexidade (ICE e ICP) vêm do Atlas of Economic Complexity, do Harvard Growth Lab, e cobrem 1962-2024. As duas origens usam metodologias de limpeza distintas e não devem ser combinadas em uma única série.",
+    "organizations": [
+      "Centre d'Etudes Prospectives et d'Informations Internationales (CEPII)",
+      "Harvard University"
+    ],
+    "tags": [
+      "complexidade econômica",
+      "exportação",
+      "importação",
+      "comércio"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "0c3d7825-7bad-42a1-ac2b-14d0ed609edf",
+    "name": "Diretórios de Comércio Internacional",
+    "description": "Diretórios de referência para classificações de comércio internacional de mercadorias, incluindo o Sistema Harmonizado (SH) e a Classificação Uniforme para o Comércio Internacional (CUCI/SITC), usados como chaves estrangeiras por conjuntos de dados de comércio.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "74827951-3f2c-4f9f-b3d0-56e3aa7aeb39",
+    "name": "Comex Stat",
+    "description": "O Comex Stat um sistema para consultas e extração de dados do comércio exterior brasileiro. São divulgados mensalmente os dados detalhados das exportações e importações brasileiras, extraídas do SISCOMEX e baseados na declaração dos exportadores e importadores. A base de dados do sistema também está disponível para download.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "firma",
+      "exportação",
+      "empresa",
+      "importação",
+      "comércio",
+      "balança comercial"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "02bcdee1-b52e-44b4-8e08-345655b0b902",
+    "name": "Índices de Preços e Inflação (Austrália)",
+    "description": "Índices de preços da Austrália publicados pelo Instituto Australiano de Estatística, abrangendo o tema Índices de Preços e Inflação. Reúne o Índice de Preços ao Consumidor (antigo catálogo 6401.0, trimestral desde o terceiro trimestre de 1948 e mensal desde 2017), o Índice de Preços de Salários (6345.0), os Índices de Preços ao Produtor (6427.0), os Índices de Preços do Comércio Internacional (6457.0), os Índices Selecionados de Custo de Vida (6467.0) e o Valor Total das Residências (6432.0). Há uma tabela por publicação, cada uma identificada pelo código de série temporal do ABS.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "custo de vida",
+      "moradia",
+      "habitação",
+      "inflação",
+      "preço",
+      "índice de preços",
+      "salário",
+      "comércio"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "84bb75ae-5955-4bbe-8bb6-2d644cae0cee",
+    "name": "Estatística Bancária (ESTBAN)",
+    "description": "O arquivo Saldos Estban por município é gerado mensalmente com a informação da Estatística Bancária Mensal (Código documento 4500), contemplando a posição mensal dos saldos das principais rubricas de balancetes dos bancos comerciais e dos bancos múltiplos com carteira comercial, por município. Ele é disponibilizado 60 (sessenta) dias após a data-base do documento, com exceção da data-base de dezembro, que é disponibilizado em 90 (noventa) dias após o seu encerramento, conforme estabelece o Comunicado 20.467, de 04 de janeiro de 2011. Sua atualização é mensal, e abrange os últimos 6 (seis) meses publicados.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "banco central",
+      "crédito",
+      "atividade econômica"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "67ba206f-83c0-4d29-8ff4-bf0a0a09878d",
+    "name": "Registro de Empresas da Austrália (ABR)",
+    "description": "Registro de todos os números de empresa (ABN) emitidos pelo Registro de Empresas da Austrália, administrado pelo Departamento de Impostos da Austrália (ATO). O extrato em massa é publicado semanalmente como um retrato completo: cada extraction_date é uma fotografia de todo o registro, contendo o nome da entidade, o tipo de entidade, a situação de registro do ABN e do GST, o número ASIC e a localização principal do negócio (estado e código postal). Nomes comerciais e outros nomes, além das habilitações como Beneficiária de Doações Dedutíveis (DGR), estão em tabelas filhas. Como cada retrato repete todos os ABN, selecionar mais de um extraction_date repete as entidades. Este é o análogo australiano do CNPJ brasileiro. Fonte: data.gov.au, licenciado sob CC BY 3.0 AU.",
+    "organizations": [
+      "Departamento de Impostos da Austrália (ATO)"
+    ],
+    "tags": [
+      "cnpj",
+      "empreendedorismo",
+      "Estabelecimento",
+      "empresa",
+      "governo",
+      "tributo"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "3e31e540-81ba-4665-9e72-3f81c176adad",
+    "name": "Consumo de energia elétrica no Brasil",
+    "description": "Dados mensais do consumo de energia elétrica na rede (MWh) em nível nacional e separado por classes.",
+    "organizations": [
+      "Ministério de Minas e Energia (MME)"
+    ],
+    "tags": [
+      "consumo",
+      "eletricidade"
+    ],
+    "themes": [
+      "Energia"
+    ]
+  },
+  {
+    "id": "ade43a7f-eec2-4658-8cc5-10e388c90c47",
+    "name": "Índices Financeiros de Empresas (BCE / INPI)",
+    "description": "Indicadores e índices financeiros de empresas francesas (faturamento, margem bruta, EBE, EBIT, resultado líquido, endividamento, liquidez, autonomia financeira, capacidade de autofinanciamento e prazos de estoques, clientes e fornecedores), por número SIREN e data de encerramento do exercício, calculados a partir das contas anuais depositadas no Registro Nacional do Comércio e das Sociedades (RNCS) e difundidas pelo Instituto Nacional da Propriedade Industrial (INPI). Os dados são tratados pela DNUM do Ministério do Trabalho na Base Commune Entreprise (BCE) e publicados pela Direção-Geral das Empresas (DGE) dos Ministérios Econômicos e Financeiros. Cobre cerca de 1,6 milhão de empresas, com exercícios encerrados sobretudo entre 2016 e 2025.",
+    "organizations": [
+      "Instituto Nacional da Propriedade Industrial (INPI)"
+    ],
+    "tags": [
+      "contabilidade",
+      "balanço patrimonial",
+      "companhia",
+      "dívida",
+      "demonstração financeira",
+      "liquidez",
+      "rentabilidade",
+      "receita"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "5ebd8129-ae10-4ec6-bf97-8a43d0166fdb",
+    "name": "Empresas exportadoras e importadoras",
+    "description": "Cadastro de empresas que realizaram atividades de exportação ou importação durante anos específicos.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "atividade econômica",
+      "exportação",
+      "empresa",
+      "importação"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "1ba59664-c373-4a61-9e32-cee91668999f",
+    "name": "Contas Econômicas dos Estados Unidos (BEA)",
+    "description": "Contas econômicas dos Estados Unidos publicadas pelo Bureau of Economic Analysis (BEA), do Departamento de Comércio, obtidas pela API REST da BEA. Cobre as Contas Nacionais de Renda e Produto (NIPA: PIB, renda pessoal, consumo), o PIB por indústria e as contas regionais por estado, condado e área metropolitana, em formato longo (tabela, linha, período, valor).",
+    "organizations": [
+      "Bureau of Economic Analysis (BEA)"
+    ],
+    "tags": [
+      "consumo",
+      "atividade econômica",
+      "emprego",
+      "finanças",
+      "pib",
+      "renda",
+      "inflação"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  }
+]

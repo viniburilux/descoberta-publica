@@ -1,0 +1,117 @@
+{
+  "row_count": 60,
+  "rows": [
+    {
+      "tipo": "ano_2025",
+      "municipio": "Mata de São João",
+      "id_municipio": "2921005",
+      "populacao_2025": 44962,
+      "qtd": 348,
+      "qtd_h": 135,
+      "val_h": 175286175.98999998,
+      "val_e": 315796858.96999997,
+      "val_h_percapita": 3898.5404561629816
+    },
+    {
+      "tipo": "ano_2025",
+      "municipio": "Salvador",
+      "id_municipio": "2927408",
+      "populacao_2025": 2564204,
+      "qtd": 302,
+      "qtd_h": 208,
+      "val_h": 134002916.94999997,
+      "val_e": 273075940.94,
+      "val_h_percapita": 52.25907024168123
+    },
+    {
+      "tipo": "ano_2025",
+      "municipio": "Vitória da Conquista",
+      "id_municipio": "2933307",
+      "populacao_2025": 396613,
+      "qtd": 30,
+      "qtd_h": 4,
+      "val_h": 59953698.63,
+      "val_e": 227175541.26,
+      "val_h_percapita": 151.16422968989923
+    },
+    {
+      "tipo": "ano_2025",
+      "municipio": "Porto Seguro",
+      "id_municipio": "2925303",
+      "populacao_2025": 182630,
+      "qtd": 285,
+      "qtd_h": 285,
+      "val_h": 33543282.75,
+      "val_e": 41581440.879999995,
+      "val_h_percapita": 183.6679776049937
+    },
+    {
+      "tipo": "ano_2025",
+      "municipio": "Feira de Santana",
+      "id_municipio": "2910800",
+      "populacao_2025": 660806,
+      "qtd": 203,
+      "qtd_h": 199,
+      "val_h": 15393314.25,
+      "val_e": 20762392.34,
+      "val_h_percapita": 23.294755571226652
+    },
+    {
+      "tipo": "ano_2025",
+      "municipio": "Guanambi",
+      "id_municipio": "2911709",
+      "populacao_2025": 93488,
+      "qtd": 76,
+      "qtd_h": 72,
+      "val_h": 13029087.51,
+      "val_e": 14501082.170000002,
+      "val_h_percapita": 139.3664161175766
+    },
+    {
+      "tipo": "ano_2025",
+      "municipio": "Cruz das Almas",
+      "id_municipio": "2909802",
+      "populacao_2025": 63326,
+      "qtd": 46,
+      "qtd_h": 41,
+      "val_h": 12535691.21,
+      "val_e": 16566329.58,
+      "val_h_percapita": 197.9548875659287
+    },
+    {
+      "tipo": "ano_2025",
+      "municipio": "Senhor do Bonfim",
+      "id_municipio": "2930105",
+      "populacao_2025": 78090,
+      "qtd": 49,
+      "qtd_h": 44,
+      "val_h": 12314932.82,
+      "val_e": 13988130.010000002,
+      "val_h_percapita": 157.70179049814317
+    },
+    {
+      "tipo": "ano_2025",
+      "municipio": "Paulo Afonso",
+      "id_municipio": "2924009",
+      "populacao_2025": 119418,
+      "qtd": 84,
+      "qtd_h": 56,
+      "val_h": 12091378.09,
+      "val_e": 17400037.1,
+      "val_h_percapita": 101.25255899445645
+    },
+    {
+      "tipo": "ano_2025",
+      "municipio": "Barreiras",
+      "id_municipio": "2903201",
+      "populacao_2025": 171634,
+      "qtd": 59,
+      "qtd_h": 54,
+      "val_h": 11496637.72,
+      "val_e": 12254345.8,
+      "val_h_percapita": 66.98345153058253
+    },
+    "... (50 more items)"
+  ],
+  "query_ref": "qr_05de8c595dd04df5bde038255df98bcf"
+}

@@ -1,0 +1,107 @@
+{
+  "row_count": 18,
+  "rows": [
+    {
+      "tipo": "por_ano",
+      "grupo": "2019",
+      "registros_id_car": "1680904",
+      "ids_distintos": "770165",
+      "registros_com_snapshot": "1680881",
+      "ids_com_snapshot": "770154",
+      "registros_sem_snapshot": "23",
+      "data_extracao": null
+    },
+    {
+      "tipo": "por_ano",
+      "grupo": "2023",
+      "registros_id_car": "2028517",
+      "ids_distintos": "927784",
+      "registros_com_snapshot": "2028504",
+      "ids_com_snapshot": "927775",
+      "registros_sem_snapshot": "13",
+      "data_extracao": null
+    },
+    {
+      "tipo": "por_ano",
+      "grupo": "2026",
+      "registros_id_car": "1839880",
+      "ids_distintos": "812394",
+      "registros_com_snapshot": "1834500",
+      "ids_com_snapshot": "809136",
+      "registros_sem_snapshot": "5380",
+      "data_extracao": null
+    },
+    {
+      "tipo": "por_snapshot",
+      "grupo": "2019",
+      "registros_id_car": null,
+      "ids_distintos": null,
+      "registros_com_snapshot": "35515",
+      "ids_com_snapshot": "15312",
+      "registros_sem_snapshot": null,
+      "data_extracao": "2026-06-02"
+    },
+    {
+      "tipo": "por_snapshot",
+      "grupo": "2019",
+      "registros_id_car": null,
+      "ids_distintos": null,
+      "registros_com_snapshot": "631434",
+      "ids_com_snapshot": "287633",
+      "registros_sem_snapshot": null,
+      "data_extracao": "2026-08-01"
+    },
+    {
+      "tipo": "por_snapshot",
+      "grupo": "2019",
+      "registros_id_car": null,
+      "ids_distintos": null,
+      "registros_com_snapshot": "614554",
+      "ids_com_snapshot": "278456",
+      "registros_sem_snapshot": null,
+      "data_extracao": "2026-08-02"
+    },
+    {
+      "tipo": "por_snapshot",
+      "grupo": "2019",
+      "registros_id_car": null,
+      "ids_distintos": null,
+      "registros_com_snapshot": "102704",
+      "ids_com_snapshot": "44150",
+      "registros_sem_snapshot": null,
+      "data_extracao": "2026-08-03"
+    },
+    {
+      "tipo": "por_snapshot",
+      "grupo": "2019",
+      "registros_id_car": null,
+      "ids_distintos": null,
+      "registros_com_snapshot": "309457",
+      "ids_com_snapshot": "144603",
+      "registros_sem_snapshot": null,
+      "data_extracao": "2026-08-04"
+    },
+    {
+      "tipo": "por_snapshot",
+      "grupo": "2023",
+      "registros_id_car": null,
+      "ids_distintos": null,
+      "registros_com_snapshot": "32111",
+      "ids_com_snapshot": "13711",
+      "registros_sem_snapshot": null,
+      "data_extracao": "2026-06-02"
+    },
+    {
+      "tipo": "por_snapshot",
+      "grupo": "2023",
+      "registros_id_car": null,
+      "ids_distintos": null,
+      "registros_com_snapshot": "764415",
+      "ids_com_snapshot": "345811",
+      "registros_sem_snapshot": null,
+      "data_extracao": "2026-08-01"
+    },
+    "... (8 more items)"
+  ],
+  "query_ref": "qr_4b9a699513b84b97a66e7aadf89bbc3c"
+}

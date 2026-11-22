@@ -1,0 +1,23 @@
+[
+  {
+    "id": "5ea1e5dc-152c-4fc4-bf6a-fbe35eea9269",
+    "name": "Estatísticas do Ensino Superior da Austrália",
+    "description": "Coleções estatísticas nacionais de ensino superior da Austrália, publicadas pelo Departamento de Educação: matrículas, carga de estudo (EFTSL) e conclusões de curso de 2016 a 2024, pessoal empregado pelas instituições de 2018 a 2025, e candidaturas e ofertas de vaga na graduação de 2010 a 2025. Inclui indicadores de equidade, evasão, retenção e taxas de conclusão por coorte. Os valores das tabelas derivadas das pivot tables são perturbados na origem, exceto totais gerais.",
+    "organizations": [
+      "Departamento de Educação da Austrália (DoE)"
+    ],
+    "tags": [
+      "indicadores educacionais",
+      "matrícula",
+      "educação superior",
+      "desigualdade",
+      "abandono_escolar",
+      "aluno",
+      "docente",
+      "universidade"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  }
+]

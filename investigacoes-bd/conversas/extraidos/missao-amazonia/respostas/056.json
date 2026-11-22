@@ -1,0 +1,77 @@
+{
+  "row_count": 29,
+  "rows": [
+    {
+      "subclasse": "1710900",
+      "descricao_subclasse": "Fabricação de celulose e outras pastas para a fabricação de papel",
+      "divisao": "17",
+      "grupo": "171",
+      "classe": "17109"
+    },
+    {
+      "subclasse": "1721400",
+      "descricao_subclasse": "Fabricação de papel",
+      "divisao": "17",
+      "grupo": "172",
+      "classe": "17214"
+    },
+    {
+      "subclasse": "1722200",
+      "descricao_subclasse": "Fabricação de cartolina e papel-cartão",
+      "divisao": "17",
+      "grupo": "172",
+      "classe": "17222"
+    },
+    {
+      "subclasse": "1731100",
+      "descricao_subclasse": "Fabricação de embalagens de papel",
+      "divisao": "17",
+      "grupo": "173",
+      "classe": "17311"
+    },
+    {
+      "subclasse": "1732000",
+      "descricao_subclasse": "Fabricação de embalagens de cartolina e papel-cartão",
+      "divisao": "17",
+      "grupo": "173",
+      "classe": "17320"
+    },
+    {
+      "subclasse": "1733800",
+      "descricao_subclasse": "Fabricação de chapas e de embalagens de papelão ondulado",
+      "divisao": "17",
+      "grupo": "173",
+      "classe": "17338"
+    },
+    {
+      "subclasse": "1741902",
+      "descricao_subclasse": "Fabricação de produtos de papel, cartolina, papel-cartão e papelão ondulado para uso comercial e de escritório",
+      "divisao": "17",
+      "grupo": "174",
+      "classe": "17419"
+    },
+    {
+      "subclasse": "1742799",
+      "descricao_subclasse": "Fabricação de produtos de papel para uso doméstico e higiênico-sanitário não especificados anteriormente",
+      "divisao": "17",
+      "grupo": "174",
+      "classe": "17427"
+    },
+    {
+      "subclasse": "1749400",
+      "descricao_subclasse": "Fabricação de produtos de pastas celulósicas, papel, cartolina, papel-cartão e papelão ondulado não especificados anteriormente",
+      "divisao": "17",
+      "grupo": "174",
+      "classe": "17494"
+    },
+    {
+      "subclasse": "2221800",
+      "descricao_subclasse": "Fabricação de laminados planos e tubulares de material plástico",
+      "divisao": "22",
+      "grupo": "222",
+      "classe": "22218"
+    },
+    "... (19 more items)"
+  ],
+  "query_ref": "qr_4726ab41c5994bb2a726edc28c5ca7a3"
+}

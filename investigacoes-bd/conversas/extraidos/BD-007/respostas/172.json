@@ -1,0 +1,126 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "id_imovel": "BA-2929701-3438EBE3EC1C4160B13A7DC99112E048",
+      "area": 0.0026,
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "tipo": "IRU",
+      "mutuarios": 16,
+      "operacoes": 35,
+      "anos": 6,
+      "primeiro_ano": 2019,
+      "ultimo_ano": 2024
+    },
+    {
+      "id_imovel": "BA-2929701-0DF1CFBE9CAB4CCCA93F01D10BCC6F75",
+      "area": 0.0041,
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "tipo": "IRU",
+      "mutuarios": 2,
+      "operacoes": 6,
+      "anos": 3,
+      "primeiro_ano": 2019,
+      "ultimo_ano": 2024
+    },
+    {
+      "id_imovel": "BA-2929701-C187263A8E304C49BDD0198886E8C497",
+      "area": 0.0051,
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "tipo": "IRU",
+      "mutuarios": 2,
+      "operacoes": 6,
+      "anos": 2,
+      "primeiro_ano": 2020,
+      "ultimo_ano": 2022
+    },
+    {
+      "id_imovel": "BA-2929701-3BD8F6BC72E445C99396152FC0747154",
+      "area": 0.0022,
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "tipo": "IRU",
+      "mutuarios": 2,
+      "operacoes": 5,
+      "anos": 4,
+      "primeiro_ano": 2019,
+      "ultimo_ano": 2024
+    },
+    {
+      "id_imovel": "BA-2929701-EE4ED2B643644E8AA5E6D1FB6CD871F4",
+      "area": 0.0085,
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "tipo": "IRU",
+      "mutuarios": 2,
+      "operacoes": 3,
+      "anos": 3,
+      "primeiro_ano": 2021,
+      "ultimo_ano": 2025
+    },
+    {
+      "id_imovel": "BA-2929701-A3588093E16A4C08B2DB36354477A8FC",
+      "area": 0.0011,
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "tipo": "IRU",
+      "mutuarios": 2,
+      "operacoes": 3,
+      "anos": 3,
+      "primeiro_ano": 2019,
+      "ultimo_ano": 2024
+    },
+    {
+      "id_imovel": "BA-2929701-991624F7AD2346F0AF0E491404225D0B",
+      "area": 0.0119,
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "tipo": "IRU",
+      "mutuarios": 2,
+      "operacoes": 2,
+      "anos": 2,
+      "primeiro_ano": 2020,
+      "ultimo_ano": 2021
+    },
+    {
+      "id_imovel": "BA-2929701-D100CB380D9942158F26B620B58A9029",
+      "area": 0.0041,
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "tipo": "IRU",
+      "mutuarios": 2,
+      "operacoes": 2,
+      "anos": 1,
+      "primeiro_ano": 2022,
+      "ultimo_ano": 2022
+    },
+    {
+      "id_imovel": "BA-2929701-69B6BA97D3C84DB49FA6ABA4F8224559",
+      "area": 0.0926,
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "tipo": "IRU",
+      "mutuarios": 2,
+      "operacoes": 2,
+      "anos": 1,
+      "primeiro_ano": 2022,
+      "ultimo_ano": 2022
+    },
+    {
+      "id_imovel": "BA-2929701-E7BBB3850876443A8E60BFC4BFD91BD6",
+      "area": 0.0011,
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "tipo": "IRU",
+      "mutuarios": 2,
+      "operacoes": 2,
+      "anos": 1,
+      "primeiro_ano": 2022,
+      "ultimo_ano": 2022
+    }
+  ],
+  "query_ref": "qr_c74104b930834d09bfb89ab35585c981"
+}

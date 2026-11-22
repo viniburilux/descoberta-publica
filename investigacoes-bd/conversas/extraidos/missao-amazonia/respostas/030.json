@@ -1,0 +1,83 @@
+{
+  "id": "df7cf198-4889-4baf-bb77-4e0e28eb90ca",
+  "dataset_id": "2a543ad8-3cdb-4047-9498-efe7fb8ed697",
+  "gcp_id": "basedosdados.br_mdr_snis.municipio_agua_esgoto",
+  "name": "Serviços de Água e Esgoto nos Municípios",
+  "description": "Esta tabela contém informações e indicadores consolidados por município dos serviços de água e esgoto, fornecendo um panorama detalhado do histórico e do estado da arte do saneamento básico no Brasil. Atenção! Este dataset não representa o conjunto total de dados disponíveis no SNIS. Para detalhes s... (126 more characters)",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "arrecadacao_total",
+      "type": "FLOAT64",
+      "description": "FN006 - Arrecadação total",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "consumo_eletrico_sistemas_agua",
+      "type": "FLOAT64",
+      "description": "AG028 - Consumo total de energia elétrica nos sistemas de água",
+      "unit": "megawatt/hour/year",
+      "needs_decoding": false
+    },
+    {
+      "name": "consumo_eletrico_sistemas_esgoto",
+      "type": "FLOAT64",
+      "description": "ES028 - Consumo total de energia elétrica nos sistemas de esgotos",
+      "unit": "megawatt/hour/year",
+      "needs_decoding": false
+    },
+    {
+      "name": "credito_areceber",
+      "type": "FLOAT64",
+      "description": "FN008 - Créditos de contas a receber",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "despesa_agua_importada",
+      "type": "FLOAT64",
+      "description": "FN020 - Despesa com água importada (bruta ou tratada)",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "despesa_amortizacao_divida",
+      "type": "FLOAT64",
+      "description": "FN034 - Despesas com amortizações do serviço da dívida",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "despesa_ativo",
+      "type": "FLOAT64",
+      "description": "FN019 - Despesas com depreciação, amortização do ativo diferido e provisão para devedores duvidosos",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "despesa_capitalizavel_estado",
+      "type": "FLOAT64",
+      "description": "FN051 - Despesas capitalizáveis realizadas pelo estado",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "despesa_capitalizavel_municipio",
+      "type": "FLOAT64",
+      "description": "FN041 - Despesas capitalizáveis realizadas pelo(s) município(s)",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    "... (90 more items)"
+  ],
+  "partitioned_by": [],
+  "period_start": "1995",
+  "period_end": "2022"
+}

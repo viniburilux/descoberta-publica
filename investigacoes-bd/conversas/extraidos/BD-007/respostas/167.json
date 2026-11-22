@@ -1,0 +1,42 @@
+{
+  "row_count": 6,
+  "rows": [
+    {
+      "id_municipio": "2900355",
+      "operacoes_mistas": 246,
+      "operacoes_com_micro_e_maior": 246,
+      "referencias_com_micro_e_maior": 244
+    },
+    {
+      "id_municipio": "2909208",
+      "operacoes_mistas": 49,
+      "operacoes_com_micro_e_maior": 49,
+      "referencias_com_micro_e_maior": 47
+    },
+    {
+      "id_municipio": "2918100",
+      "operacoes_mistas": 79,
+      "operacoes_com_micro_e_maior": 79,
+      "referencias_com_micro_e_maior": 76
+    },
+    {
+      "id_municipio": "2926509",
+      "operacoes_mistas": 14,
+      "operacoes_com_micro_e_maior": 14,
+      "referencias_com_micro_e_maior": 14
+    },
+    {
+      "id_municipio": "2929701",
+      "operacoes_mistas": 15,
+      "operacoes_com_micro_e_maior": 15,
+      "referencias_com_micro_e_maior": 15
+    },
+    {
+      "id_municipio": "2930766",
+      "operacoes_mistas": 49,
+      "operacoes_com_micro_e_maior": 49,
+      "referencias_com_micro_e_maior": 44
+    }
+  ],
+  "query_ref": "qr_5a8043d93c2c4a44a39904408596e4bb"
+}

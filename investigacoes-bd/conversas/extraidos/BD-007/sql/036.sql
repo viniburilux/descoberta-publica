@@ -1,0 +1,1 @@
+SELECT finalidade,COUNT(*) linhas FROM `basedosdados.br_bcb_sicor.empreendimento` GROUP BY finalidade ORDER BY linhas DESC

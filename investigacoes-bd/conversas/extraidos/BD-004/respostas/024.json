@@ -1,0 +1,77 @@
+{
+  "id": "6c8bb045-e3da-4d17-bcd2-b66f3892da7e",
+  "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+  "gcp_id": "basedosdados.br_ms_cnes.leito",
+  "name": "Leito",
+  "description": "Esta tabela apresenta o catálogo de quantidade e tipos de leitos presentes nos estabelecimentos de saúde.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_estabelecimento_cnes",
+      "type": "STRING",
+      "description": "ID Estabelecimento - CNES",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município IBGE - 7 Dígitos",
+      "needs_decoding": false
+    },
+    {
+      "name": "mes",
+      "type": "INT64",
+      "description": "Mês",
+      "unit": "month",
+      "needs_decoding": false
+    },
+    {
+      "name": "quantidade_contratado",
+      "type": "INT64",
+      "description": "Quantidade de leitos contratados",
+      "needs_decoding": false
+    },
+    {
+      "name": "quantidade_sus",
+      "type": "INT64",
+      "description": "Quantidade de leitos para o SUS",
+      "needs_decoding": false
+    },
+    {
+      "name": "quantidade_total",
+      "type": "INT64",
+      "description": "Quantidade de leitos existentes",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da Unidade da Federação",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    },
+    {
+      "name": "tipo_especialidade_leito",
+      "type": "STRING",
+      "description": "Especialidade do leito",
+      "needs_decoding": true
+    },
+    {
+      "name": "tipo_leito",
+      "type": "STRING",
+      "description": "Tipo do leito",
+      "needs_decoding": true
+    }
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "2005-10",
+  "period_end": "2026-10"
+}

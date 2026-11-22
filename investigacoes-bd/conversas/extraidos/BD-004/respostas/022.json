@@ -1,0 +1,83 @@
+{
+  "id": "2245875f-d1ef-490d-be29-4f8fb2191335",
+  "dataset_id": "562b56a3-0b01-4735-a049-eeac5681f056",
+  "gcp_id": "basedosdados.br_me_caged.microdados_movimentacao",
+  "name": "Microdados de Movimentações",
+  "description": "Contém dados de movimentações declaradas dentro do prazo com competência de declaração.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "categoria",
+      "type": "STRING",
+      "description": "Categoria de trabalhador",
+      "needs_decoding": true
+    },
+    {
+      "name": "cbo_2002",
+      "type": "STRING",
+      "description": "Classificação Brasileira de Ocupações (CBO) - 2002",
+      "reference_table_id": "c2e3f3aa-5e92-407c-897d-0892f56985a2",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_2_secao",
+      "type": "STRING",
+      "description": "Classificação Nacional de Atividades Econômicas (CNAE 2.0 - Seção)",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnae_2_subclasse",
+      "type": "STRING",
+      "description": "Subclasse do Código Nacional de Atividades Econômicas 2.0",
+      "reference_table_id": "8a02c4e5-1718-41e7-8891-d0fa09265d58",
+      "needs_decoding": false
+    },
+    {
+      "name": "grau_instrucao",
+      "type": "STRING",
+      "description": "Grau de instrução ou escolaridade",
+      "needs_decoding": true
+    },
+    {
+      "name": "horas_contratuais",
+      "type": "INT64",
+      "description": "Horas contratuais",
+      "unit": "hour",
+      "needs_decoding": false
+    },
+    {
+      "name": "idade",
+      "type": "INT64",
+      "description": "Idade do trabalhador",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "indicador_aprendiz",
+      "type": "STRING",
+      "description": "Indicador de trabalhador aprendiz",
+      "needs_decoding": true
+    },
+    "... (15 more items)"
+  ],
+  "partitioned_by": [
+    "ano",
+    "mes",
+    "sigla_uf"
+  ],
+  "period_start": "2020-01",
+  "period_end": "2026-09"
+}

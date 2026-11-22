@@ -1,0 +1,13 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "linhas_receita": 2107,
+      "doadores_distintos": 1589,
+      "cnpjs_doadores_distintos": 58,
+      "cpfs_doadores_distintos": 1531,
+      "valor_total_receitas": 106560636.99000007
+    }
+  ],
+  "query_ref": "qr_6b97463eebab4c57bfb743a78396b866"
+}

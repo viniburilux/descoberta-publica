@@ -1,0 +1,1 @@
+SELECT ano, ensino, rede, anos_escolares, COUNT(*) AS linhas, COUNTIF(ideb IS NOT NULL) AS com_ideb FROM `basedosdados.br_inep_ideb.municipio` WHERE ano>=2021 GROUP BY ano,ensino,rede,anos_escolares ORDER BY ano DESC,ensino,rede,anos_escolares

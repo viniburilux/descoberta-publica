@@ -1,0 +1,87 @@
+{
+  "row_count": 20,
+  "rows": [
+    {
+      "id_municipio": "1100072",
+      "nome": "Corumbiara",
+      "sigla_uf": "RO",
+      "credito_excesso": 207082765.5027747,
+      "credito_total": 258604253.1077857,
+      "percentual_credito_excesso": 0.8007709193261529
+    },
+    {
+      "id_municipio": "4103024",
+      "nome": "Boa Esperança do Iguaçu",
+      "sigla_uf": "PR",
+      "credito_excesso": 46100703.2442262,
+      "credito_total": 61209839.68100001,
+      "percentual_credito_excesso": 0.7531583726486414
+    },
+    {
+      "id_municipio": "3162401",
+      "nome": "São João da Ponte",
+      "sigla_uf": "MG",
+      "credito_excesso": 68818419.645,
+      "credito_total": 96287733.92,
+      "percentual_credito_excesso": 0.7147163698148438
+    },
+    {
+      "id_municipio": "4128609",
+      "nome": "Verê",
+      "sigla_uf": "PR",
+      "credito_excesso": 129270945.18445235,
+      "credito_total": 183567913.39333332,
+      "percentual_credito_excesso": 0.7042131862525552
+    },
+    {
+      "id_municipio": "4111209",
+      "nome": "Itapejara d'Oeste",
+      "sigla_uf": "PR",
+      "credito_excesso": 73559851.43385714,
+      "credito_total": 107522913.22833328,
+      "percentual_credito_excesso": 0.6841318675736312
+    },
+    {
+      "id_municipio": "4106571",
+      "nome": "Cruzeiro do Iguaçu",
+      "sigla_uf": "PR",
+      "credito_excesso": 38828821.71166667,
+      "credito_total": 56861224.989999995,
+      "percentual_credito_excesso": 0.6828699472882509
+    },
+    {
+      "id_municipio": "4107207",
+      "nome": "Dois Vizinhos",
+      "sigla_uf": "PR",
+      "credito_excesso": 139058586.3984127,
+      "credito_total": 205105665.67622226,
+      "percentual_credito_excesso": 0.6779851055793319
+    },
+    {
+      "id_municipio": "4126355",
+      "nome": "Serranópolis do Iguaçu",
+      "sigla_uf": "PR",
+      "credito_excesso": 60022412.86683333,
+      "credito_total": 92406747.87333329,
+      "percentual_credito_excesso": 0.6495457772100058
+    },
+    {
+      "id_municipio": "4112751",
+      "nome": "Jesuítas",
+      "sigla_uf": "PR",
+      "credito_excesso": 35240433.646416664,
+      "credito_total": 54926435.13499999,
+      "percentual_credito_excesso": 0.6415933158560458
+    },
+    {
+      "id_municipio": "4119806",
+      "nome": "Planalto",
+      "sigla_uf": "PR",
+      "credito_excesso": 79660365.60968652,
+      "credito_total": 125956409.53875,
+      "percentual_credito_excesso": 0.6324439216821223
+    },
+    "... (10 more items)"
+  ],
+  "query_ref": "qr_eeb8181b62af45839bb2b71991ae3360"
+}

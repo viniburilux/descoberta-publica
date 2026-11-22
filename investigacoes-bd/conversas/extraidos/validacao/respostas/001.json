@@ -1,0 +1,14 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "ano": 2023,
+      "registros_left": 6536,
+      "chaves_distintas_left": 6536,
+      "registros_correspondentes": 6437,
+      "chaves_correspondentes": 6437,
+      "registros_sem_correspondencia": 99
+    }
+  ],
+  "query_ref": "qr_a98d50fbca4b42f098e1cea8a1c19fe2"
+}

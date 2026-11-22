@@ -1,0 +1,49 @@
+{
+  "row_count": 5571,
+  "rows": [
+    {
+      "id_municipio": "1100015",
+      "nome": "Alta Floresta D'Oeste"
+    },
+    {
+      "id_municipio": "1100023",
+      "nome": "Ariquemes"
+    },
+    {
+      "id_municipio": "1100031",
+      "nome": "Cabixi"
+    },
+    {
+      "id_municipio": "1100049",
+      "nome": "Cacoal"
+    },
+    {
+      "id_municipio": "1100056",
+      "nome": "Cerejeiras"
+    },
+    {
+      "id_municipio": "1100064",
+      "nome": "Colorado do Oeste"
+    },
+    {
+      "id_municipio": "1100072",
+      "nome": "Corumbiara"
+    },
+    {
+      "id_municipio": "1100080",
+      "nome": "Costa Marques"
+    },
+    {
+      "id_municipio": "1100098",
+      "nome": "Espigão D'Oeste"
+    },
+    {
+      "id_municipio": "1100106",
+      "nome": "Guajará-Mirim"
+    },
+    "... (990 more items)"
+  ],
+  "truncated": true,
+  "truncation_note": "Only the first 1000 of 5571 rows are shown here to keep the context small. The full result can still be downloaded from the interface.",
+  "query_ref": "qr_0454ef447a7a4f19a728c259c9de78ae"
+}

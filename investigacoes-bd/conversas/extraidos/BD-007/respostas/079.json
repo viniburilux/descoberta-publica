@@ -1,0 +1,47 @@
+{
+  "row_count": 21,
+  "rows": [
+    {
+      "idade": 0.0,
+      "obitos": 7360
+    },
+    {
+      "idade": 0.01,
+      "obitos": 5199
+    },
+    {
+      "idade": 0.02,
+      "obitos": 2295
+    },
+    {
+      "idade": 0.03,
+      "obitos": 1073
+    },
+    {
+      "idade": 0.04,
+      "obitos": 1030
+    },
+    {
+      "idade": 0.05,
+      "obitos": 870
+    },
+    {
+      "idade": 0.06,
+      "obitos": 504
+    },
+    {
+      "idade": 0.07,
+      "obitos": 615
+    },
+    {
+      "idade": 0.08,
+      "obitos": 3511
+    },
+    {
+      "idade": 0.17,
+      "obitos": 1703
+    },
+    "... (11 more items)"
+  ],
+  "query_ref": "qr_2653fca7db1f48289c35b79eca5ee7c3"
+}

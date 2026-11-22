@@ -1,0 +1,31 @@
+{
+  "id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9",
+  "name": "Banco de Dados de Queimadas",
+  "description": "Ocorrência do Fogo na Vegetação é o tema deste portal, http://queimadas.dgi.inpe.br/queimadas, desenvolvido no INPE, Instituto Nacional de Pesquisas Espaciais. Ele inclui o monitoramento operacional de focos de queimadas e de incêndios florestais detectados por satélites, e o cálculo e previsão do r... (4096 more characters)",
+  "organizations": [
+    "Instituto Nacional de Pesquisas Espaciais (INPE)"
+  ],
+  "tags": [
+    "ar",
+    "queimada",
+    "mudancas climáticas",
+    "CO2",
+    "emissão",
+    "fogo",
+    "floresta",
+    "incêndio"
+  ],
+  "themes": [
+    "Meio Ambiente"
+  ],
+  "tables": [
+    {
+      "id": "a3696dc2-4dd1-4f7e-9769-6aa16a1556b8",
+      "dataset_id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9",
+      "gcp_id": "basedosdados.br_inpe_queimadas.microdados",
+      "name": "Microdados",
+      "description": "Microdados do banco de dados do INPE sobre queimadas"
+    }
+  ],
+  "usage_guide": null
+}

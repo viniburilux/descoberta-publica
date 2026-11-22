@@ -1,0 +1,337 @@
+{
+  "row_count": 25,
+  "rows": [
+    {
+      "municipio": "Porto Seguro",
+      "ano": 2026,
+      "valor_total_homologado": 11722.5,
+      "qtd": 73,
+      "exemplos": [
+        {
+          "id_contratacao_pncp": "13635016000112-1-000002/2026",
+          "data_publicacao": "2026-01-02",
+          "objeto_compra": "CONTRATAÇÃO  PROVENIENTE  DO  CREDENCIAMENTO  Nº  002/2025  DO CANTOR  DAVI  LIMA  PARA  APRESENTAÇÃO  ARTÍSTICA  MUSICAL  NO DIA  03  DE  JANEIRO  DE  2026  NO  BAIRRO  MIRANTE  CARAVELAS  NO MUNICÍPIO  DE  PORTO  SEGURO-BA,  EM  COMEMORAÇÃO  AO PROJETO  VERÃO  2026  DE  PORTO  SEGURO,  EM  CONFORM... (138 more characters)"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000030/2026",
+          "data_publicacao": "2026-01-29",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2025 DO CANTOR NATO MILLER PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO  DIA 02 DE FEVEREIRO DE 2026 NO DISTRITO DE CARAÍVA NO MUNICÍPIO DE PORTO SEGURO - BA, EM COMOEMORAÇÃO DOS \"FESTEJOS DE IEMANJÁ 2026\" EM CONFORMIDADE COM O CALENDÁRIO DE EVENTOS DA SECR... (85 more characters)"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000050/2026",
+          "data_publicacao": "2026-02-12",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2025 DO CANTOR BENÉ LIMA PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO DIA 13 DE FEVEREIRO DE 2026, NA PASSARELA DA CULTURA, NO MUNICIPIO DE PORTO SEGURO-BA, EM COMEMORAÇÃO DO “CARNAVAL 2026”, EM CONFORMIDADE COM O CALENDÁRIO DE EVENTOS DA SECRETARIA MUNICIP... (68 more characters)"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000070/2026",
+          "data_publicacao": "2026-02-12",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2025 DA CANTORA KARINE RAMOS PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO DIA 16 DE FEVEREIRO DE 2026, NO DISTRITO DE ARRAIAL D’AJUDA, NO MUNICIPIO DE PORTO SEGURO-BA, EM COMEMORAÇÃO DO “CARNAVAL 2026”, EM CONFORMIDADE COM O CALENDÁRIO DE EVENTOS DA SECRETA... (79 more characters)"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000051/2026",
+          "data_publicacao": "2026-02-12",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2025 DO CANTOR PAULINHO ALCANTARA PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO DIA 14 DE FEVEREIRO DE 2026, NA PASSARELA DA CULTURA, NO MUNICIPIO DE PORTO SEGURO-BA, EM COMEMORAÇÃO DO “CARNAVAL 2026”, EM CONFORMIDADE COM O CALENDÁRIO DE EVENTOS DA SECRETARI... (77 more characters)"
+        }
+      ]
+    },
+    {
+      "municipio": "Porto Seguro",
+      "ano": 2024,
+      "valor_total_homologado": 11690.0,
+      "qtd": 54,
+      "exemplos": [
+        {
+          "id_contratacao_pncp": "13635016000112-1-000108/2024",
+          "data_publicacao": "2024-06-14",
+          "objeto_compra": "contratação, proveniente do Credenciamento nº 002/2024 da banda “MAICON MENDONÇA E BANDA”, para apresentação no dia 15 DE JUNHO DE 2024, NO BAIRRO CAMPINHO, EM COMEMORAÇÃO DOS “FESTEJOS DE SÃO JOÃO 2024, QUE ACONTECERÁ NO PERÍODO DE 12 DE JUNHO A 13 JULHO DE 2024"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000107/2024",
+          "data_publicacao": "2024-06-14",
+          "objeto_compra": "contratação, proveniente do Credenciamento nº 002/2024 da banda “BANDA SABOR DE HORTELÃ”, para apresentação no dia 15 DE JUNHO DE 2024, NO BAIRRO COQUEIRO ALTO, EM COMEMORAÇÃO DOS “FESTEJOS DE SÃO JOÃO 2024, QUE ACONTECERÁ NO PERÍODO DE 12 DE JUNHO A 13 JULHO DE 2024"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000110/2024",
+          "data_publicacao": "2024-06-14",
+          "objeto_compra": "contratação de CONTRATAÇÃO DO CANTOR JP PAIXÃO, PROVINIENTE DO CREDENCIAMENTO Nº 002/2024, PARA APRESENTAÇÃO NO DIA 15 DE JUNHO DE 2024, NO BAIRRO CAMPINHO, EM COMEMORAÇÃO DOS “FESTEJOS DE SÃO JOÃO 2024, QUE ACONTECERÁ NO PERÍODO DE 12 DE JUNHO A 13 JULHO DE 2024"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000109/2024",
+          "data_publicacao": "2024-06-14",
+          "objeto_compra": "contratação, proveniente do Credenciamento nº 002/2024 da banda “CHARLINHO ALVES” , para apresentação no dia 15 DE JUNHO DE 2024, NO BAIRRO CAMPINHO, EM COMEMORAÇÃO DOS “FESTEJOS DE SÃO JOÃO 2024, QUE ACONTECERÁ NO PERÍODO DE 12 DE JUNHO A 13 JULHO DE 2024"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000137/2024",
+          "data_publicacao": "2024-06-21",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2024 DA BANDA “VIROU BAHIA”, NO DIA 23/06/2024 NA PASSARELA DO CULTURA, EM COMEMORAÇÃO DOS “FESTEJOS DE SÃO JOÃO 2024, QUE ACONTECERÁ NO PERÍODO DE 12 DE JUNHO A 13 JULHO DE 2024, NO MUNICÍPIO DE PORTO SEGURO/BA."
+        }
+      ]
+    },
+    {
+      "municipio": "Feira de Santana",
+      "ano": 2024,
+      "valor_total_homologado": 25000.0,
+      "qtd": 42,
+      "exemplos": [
+        {
+          "id_contratacao_pncp": "14043574000151-1-000056/2024",
+          "data_publicacao": "2024-04-18",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO DJALMA FERREIRA NO DIA 19/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA-BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000058/2024",
+          "data_publicacao": "2024-04-18",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO GABRIELA MORAES NO DIA 18/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA-BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000042/2024",
+          "data_publicacao": "2024-04-18",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA  ATRAÇÃO GABRIELA MORAES NO DIA 14/04/2024, NO EVENTO ESQUENTA MICARETA DE HUMILDES 2024 ,EM HUMILDES  DISTRITO DE FEIRA  DE SANTANA-BA- SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000077/2024",
+          "data_publicacao": "2024-04-21",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO LUXO OSTENTAÇÃO O DIA 20/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA-BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000116/2024",
+          "data_publicacao": "2024-04-22",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO GRUPO CULTURAL QUIXABEIRA DA MATINHA O DIA 19/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA - BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        }
+      ]
+    },
+    {
+      "municipio": "Feira de Santana",
+      "ano": 2025,
+      "valor_total_homologado": 20000.0,
+      "qtd": 42,
+      "exemplos": [
+        {
+          "id_contratacao_pncp": "14043574000151-1-000112/2025",
+          "data_publicacao": "2025-05-20",
+          "objeto_compra": "APRESENTAÇÃO ARTÍSTICA DA ATRAÇÃO KIONDA NO EVENTO MICARETA 2025, NO CIRCUITO MANECA FERREIRA, NO DIA 03/05/2025 - SHOW EM TRIO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000060/2025",
+          "data_publicacao": "2025-05-20",
+          "objeto_compra": "APRESENTAÇÃO ARTÍSTICA DA ATRAÇÃO MÁRCIA PORTO NO EVENTO  MICARETA 2025 NO DIA 03/05/2025 EM FEIRA DE SANTANA-BA-SHOW NO TRIO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS"
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000090/2025",
+          "data_publicacao": "2025-05-20",
+          "objeto_compra": "APRESENTAÇÃO ARTÍSTICA DA ATRAÇÃO JOHN ROBERT NO EVENTO  MICARETA 2025 NO DIA 01/05/2025 - SHOW EM TRIO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000127/2025",
+          "data_publicacao": "2025-05-20",
+          "objeto_compra": "APRESENTAÇÃO ARTÍSTICA DA ATRAÇÃO THIACHIKA EVENTO MICARETA 2025 NO DIA 02/05/2025 - SHOW EM TRIO COM DURAÇÃO DE APROXIMADAMENTE 90 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000103/2025",
+          "data_publicacao": "2025-05-20",
+          "objeto_compra": "APRESENTAÇÃO ARTÍSTICA DA ATRAÇÃO BALANÇO GOSTOSO NO EVENTO MICARETA 2025 NO DIA 01/05 DE 2025 NO PRANCHÃO -SHOW EM TRIO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        }
+      ]
+    },
+    {
+      "municipio": "Porto Seguro",
+      "ano": 2026,
+      "valor_total_homologado": 6440.0,
+      "qtd": 39,
+      "exemplos": [
+        {
+          "id_contratacao_pncp": "13635016000112-1-000001/2026",
+          "data_publicacao": "2026-01-02",
+          "objeto_compra": "CONTRATAÇÃO  PROVENIENTE  DO  CREDENCIAMENTO  Nº  002/2025  DO CANTOR  JHEREMIAS  BARBOSA  A  VOZ  PARA  APRESENTAÇÃO  ARTÍSTICA \nMUSICAL  NO  DIA  03  DE  JANEIRO  DE  2026  NO  BAIRRO  MIRANTE CARAVELAS  NO  MUNICÍPIO  DE  PORTO  SEGURO-BA,  EM  COMEMORAÇÃO  AO \nPROJETO  VERÃO  2026  DE  PORTO  SE... (152 more characters)"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000010/2026",
+          "data_publicacao": "2026-01-16",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2025 DA BANDA FORRÓ LASCADO PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO DIA 17 DE JANEIRO DE 2026 NO DISTRITO ARRAIAL D’AJUDA, NO MUNICÍPIO DE PORTO SEGURO-BA, EM COMEMORAÇÃO DO “PROJETO VERÃO 2026”, EM CONFORMIDADE COM O CALENDÁRIO DE EVENTOS DA SECRETARI... (77 more characters)"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000008/2026",
+          "data_publicacao": "2026-01-16",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2025 DO GRUPO OS TRÊS DA VILA PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO DIA 20 DE JANEIRO DE 2026 NO DISTRITO CARAÍVA, NO MUNICÍPIO DE PORTO SEGURO-BA, EM COMEMORAÇÃO DOS FESTEJOS DE SÃO SEBASTIÃO 2026, EM CONFORMIDADE COM O CALENDÁRIO DE EVENTOS DA SECR... (82 more characters)"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000052/2026",
+          "data_publicacao": "2026-02-12",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2025 DO GRUPO AFRICANIDADE PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO DIA 15 DE FEVEREIRO DE 2026, NA PASSARELA DA CULTURA, NO MUNICIPIO DE PORTO SEGURO-BA, EM COMEMORAÇÃO DO “CARNAVAL 2026”, EM CONFORMIDADE COM O CALENDÁRIO DE EVENTOS DA SECRETARIA MUNIC... (70 more characters)"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000053/2026",
+          "data_publicacao": "2026-02-12",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2025 DA BANDA AUDIO BOX PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO DIA 16 DE FEVEREIRO DE 2026, NA PASSARELA DA CULTURA, NO MUNICIPIO DE PORTO SEGURO-BA, EM COMEMORAÇÃO DO “CARNAVAL 2026”, EM CONFORMIDADE COM O CALENDÁRIO DE EVENTOS DA SECRETARIA MUNICIPA... (67 more characters)"
+        }
+      ]
+    },
+    {
+      "municipio": "Feira de Santana",
+      "ano": 2024,
+      "valor_total_homologado": 20000.0,
+      "qtd": 35,
+      "exemplos": [
+        {
+          "id_contratacao_pncp": "14043574000151-1-000021/2024",
+          "data_publicacao": "2024-04-18",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL  DA  ATRAÇÃO MAZINHO VENTURINY E BANDA  DIA 06/04/2024, NO EVENTO 2ª CAVALGADA DA FAZENDA PIMENTA,NO POVOADO DOS MORRRINHOS NO DISTRITO DE JAGUARA   DE FEIRA DE SANTANA-BA- SHOW NO PALCO  COM DURAÇÃO DE APROXIMADAMENTE 90 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000027/2024",
+          "data_publicacao": "2024-04-18",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO WILSINHO KRAYCHETE  NO DIA 20/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA-BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000016/2024",
+          "data_publicacao": "2024-04-18",
+          "objeto_compra": "APRESENTAÇÃO POCKET SHOW MUSICAL  DA  ATRAÇÃO FÁBIO AQUINO   DIA 30/03/2024, NO EVENTO  SABÁDO DE ALELUIA  2024,  EM JAGUARA DISTRITO DE FEIRA DE SANTANA-BA - SHOW NO PALCO COM DURAÇÃO DE APROXIMADAMENTE 90 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000078/2024",
+          "data_publicacao": "2024-04-21",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO OS BAMBAS DO NORDESTE NO DIA 19/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA-BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000113/2024",
+          "data_publicacao": "2024-04-22",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO JEAN SANTANA O DIA 20/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA - BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        }
+      ]
+    },
+    {
+      "municipio": "Porto Seguro",
+      "ano": 2025,
+      "valor_total_homologado": 11690.0,
+      "qtd": 33,
+      "exemplos": [
+        {
+          "id_contratacao_pncp": "13635016000112-1-000012/2025",
+          "data_publicacao": "2025-01-30",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2024 DA CANTORA THAYS BAHIA PARA APRESENTAÇÃO ARTÍSTICA MUSICAL, EM COMEMORAÇÃO AOS “FESTEJOS DE YEMANJA, NO DIA 02 DE FEVEREIRO DE 2025, EM PALCO MONTADO NO DISTRITO DE ARRAIAL D’AJUDA, MUNICÍPIO DE PORTO SEGURO, COM PRESENÇA ILIMITADA DE PÚBLICO"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000035/2025",
+          "data_publicacao": "2025-02-21",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2024 DO CANTOR DAVI LIMA PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO DIA 03 DE MARÇO DE 2025, EM PALCO MONTADO NA NOVA TARIFA DOS PESCADORES, NO MUNICIPIO DE PORTO SEGURO, EM COMEMORAÇÃO DOS EVENTOS DO PROJETO VERÃO 2025 E O CARNAVAL DE PORTO SEGURO, QUE F... (112 more characters)"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000041/2025",
+          "data_publicacao": "2025-02-21",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2024 DA CANTORA GIL LIMA E BANDA, PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO DIA 02 DE MARÇO DE 2025, NA PRAÇA DO BAIRRO VILA JARDIM, NO MUNICIPIO DE PORTO SEGURO, EM COMEMORAÇÃO DOS EVENTOS DO PROJETO VERÃO DE 2025 E DO CARNAVAL DE PORTO SEGURO, QUE FAZE... (108 more characters)"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000032/2025",
+          "data_publicacao": "2025-02-21",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2024 DA CANTORA ZENE QUEIROZ PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO DIA 04 DE MARÇO DE 2025, EM PALCO MONTADO NA IGREJA NOSSA SENHORA DO BRASIL, NA PASSARELA DA CULTURA, NO MUNICIPIO DE PORTO SEGURO, EM COMEMORAÇÃO DOS EVENTOS DO PROJETO VERÁ 2025 E O... (143 more characters)"
+        },
+        {
+          "id_contratacao_pncp": "13635016000112-1-000054/2025",
+          "data_publicacao": "2025-02-24",
+          "objeto_compra": "CONTRATAÇÃO PROVENIENTE DO CREDENCIAMENTO Nº 002/2024 DO CANTOR LUCIANO LUCCI LASKA DE PAU, PARA APRESENTAÇÃO ARTÍSTICA MUSICAL NO DIA 28 DE FEVEREIRO DE 2025, EM PALCO MONTADO NA IGREJA NOSSA SENHORA DO BRASIL, NO MUNICIPIO DE PORTO SEGURO, EM COMEMORAÇÃO DOS EVENTOS DO PROJETO VERÁ 2025 E O CARNAV... (136 more characters)"
+        }
+      ]
+    },
+    {
+      "municipio": "Feira de Santana",
+      "ano": 2024,
+      "valor_total_homologado": 15000.0,
+      "qtd": 31,
+      "exemplos": [
+        {
+          "id_contratacao_pncp": "14043574000151-1-000069/2024",
+          "data_publicacao": "2024-04-21",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO BANDA DELIRIU´S DO OLHAR NO DIA 18/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA-BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000098/2024",
+          "data_publicacao": "2024-04-22",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO BALANÇO GOSTOSO NO EVENTO MICARETA 2024, NO DIA 18/04/2024 - SHOW NO PALCO CHARLES ALBERT NA KALILÂNDIA COM DURAÇÃO DE APROXIMADAMENTE 90 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000112/2024",
+          "data_publicacao": "2024-04-22",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO SOUND MARÉ NO DIA 19/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA-BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000099/2024",
+          "data_publicacao": "2024-04-22",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL  DA  ATRAÇÃO BANDA  KATUKADA DIA 20/04/2024, NO EVENTO  MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA -FEIRA DE SANTANA-BA- SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000156/2024",
+          "data_publicacao": "2024-04-23",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO AUDACIA PURA NO DIA 19/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA - BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        }
+      ]
+    },
+    {
+      "municipio": "Feira de Santana",
+      "ano": 2024,
+      "valor_total_homologado": 50000.0,
+      "qtd": 30,
+      "exemplos": [
+        {
+          "id_contratacao_pncp": "14043574000151-1-000034/2024",
+          "data_publicacao": "2024-04-18",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO FILHOS DE JORGE  NO DIA 18/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA-BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000050/2024",
+          "data_publicacao": "2024-04-18",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL  DA  ATRAÇÃO KART LOVE 20/04/2024, NO EVENTO  MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA -FEIRA DE SANTANA-BA- SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000052/2024",
+          "data_publicacao": "2024-04-18",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO COMPANHIA DO PAGODE  NO DIA 20/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA-BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000062/2024",
+          "data_publicacao": "2024-04-18",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO SWING DO T10 NO DIA 21/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA-BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000072/2024",
+          "data_publicacao": "2024-04-21",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO DIONORINA NO EVENTO MICARETA 2024, NO DIA 20/04/2024 - SHOW NO PALCO JOTA MORBECK COM DURAÇÃO DE APROXIMADAMENTE 90 MINUTOS."
+        }
+      ]
+    },
+    {
+      "municipio": "Feira de Santana",
+      "ano": 2024,
+      "valor_total_homologado": 30000.0,
+      "qtd": 30,
+      "exemplos": [
+        {
+          "id_contratacao_pncp": "14043574000151-1-000045/2024",
+          "data_publicacao": "2024-04-18",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA  ATRAÇÃO O MAESTRO NO DIA 14/04/2024, NO EVENTO ESQUENTA MICARETA DE HUMILDES 2024 ,EM HUMILDES  DISTRITO DE FEIRA  DE SANTANA - BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000074/2024",
+          "data_publicacao": "2024-04-21",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL  DA  ATRAÇÃO VIOLA  DE DOZE DIA 21/04/2024, NO EVENTO  MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA -FEIRA DE SANTANA-BA- SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000081/2024",
+          "data_publicacao": "2024-04-21",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO ALLAN FERNANDES NO DIA 19/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA-BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000085/2024",
+          "data_publicacao": "2024-04-22",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO JOVEM DEX O DIA 19/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA - BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        },
+        {
+          "id_contratacao_pncp": "14043574000151-1-000093/2024",
+          "data_publicacao": "2024-04-22",
+          "objeto_compra": "APRESENTAÇÃO COM SHOW MUSICAL DA ATRAÇÃO GALEGUINHO SPA O DIA 19/04/2024, NO EVENTO MICARETA 2024 NO CIRCUÍTO MANECA FERREIRA - FEIRA DE SANTANA - BA - SHOW EM TRIO ELÉTRICO COM DURAÇÃO DE APROXIMADAMENTE 180 MINUTOS."
+        }
+      ]
+    },
+    "... (15 more items)"
+  ],
+  "query_ref": "qr_3fb5492e16554f17ba4764fe62e5a688"
+}

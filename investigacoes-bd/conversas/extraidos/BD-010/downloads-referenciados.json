@@ -1,0 +1,189 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_372bc61e97bd4e9691772dec9ba07cb8",
+    "slug": "resultado_sql_exato",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_2cf5d00b98934fe9830993ad0f623062",
+    "slug": "detalhamento_ids_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ba750b4b1cf7419b833f83092325cbf6",
+    "slug": "micros_acima_cem_porcento",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_4c5953b5b8184660a31eb5dc8ed2a416",
+    "slug": "sao_felix_do_coribe_mapbiomas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ebbe840b083e443095dd1416112492d4",
+    "slug": "rondon_do_para_mapbiomas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_63118b767f4e4803afff7b6317a2b740",
+    "slug": "amostra_dicionario_sicar",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_2414a526774a4da1b34b896e56ddbbf2",
+    "slug": "consulta_imoveis_snapshot_recente_corrigida",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5143e79e701748aaa9b009797db716c9",
+    "slug": "consulta_imoveis_ultimo_snapshot_disponivel",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_be70f39a50a44eb0b8b25ca7bf4f2d11",
+    "slug": "consulta_imoveis_snapshot_recente",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_caf550dd81ce42759f509892df29871f",
+    "slug": "datas_snapshot_ids_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_a0f46b173b294f7fb4708a95b2b103c1",
+    "slug": "controle_qualidade_novos_imoveis",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_0f550ef6ff9c4d1ea4ac15d8518e2ad6",
+    "slug": "areas_ambientais_declaradas_corrigido",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_6fc95181a24d4720b132f71451144784",
+    "slug": "condicoes_ambientais",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_42392f05cc50451ea531e3f354c1965f",
+    "slug": "ms_app_intersecao_imovel",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_e1ec5fdf95464e97b7b6af7cac408594",
+    "slug": "verificar_formato_id_app",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_1ee7ef9ef95b4dd1be736754d1cee346",
+    "slug": "intersecao_rl_dois_cars",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5c4b50633eab4deb8ff55c9ba0ba810e",
+    "slug": "micros_rl_intersecao_imovel_corrigido",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

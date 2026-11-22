@@ -1,0 +1,28 @@
+{
+  "row_count": 2,
+  "rows": [
+    {
+      "grupo_area": "area_financiada_acima_100pct",
+      "imoveis": 138029,
+      "imoveis_com_embargo": 595,
+      "imoveis_com_embargo_ativo": 427,
+      "imoveis_com_historico_pre_2023": 435,
+      "credito_alocado": 26732255997.24884,
+      "area_financiada": 6469900.312622219,
+      "area_embargada_associada": 67266.69099999999,
+      "taxa_embargo": 0.004310688333611053
+    },
+    {
+      "grupo_area": "demais_imoveis",
+      "imoveis": 789746,
+      "imoveis_com_embargo": 2909,
+      "imoveis_com_embargo_ativo": 1964,
+      "imoveis_com_historico_pre_2023": 2030,
+      "credito_alocado": 99932184250.61334,
+      "area_financiada": 13080728.029598212,
+      "area_embargada_associada": 622180.1588000008,
+      "taxa_embargo": 0.0036834627842369573
+    }
+  ],
+  "query_ref": "qr_92bad73ccd4243d591157dda55fc0189"
+}

@@ -1,0 +1,77 @@
+{
+  "row_count": 20,
+  "rows": [
+    {
+      "produto": "BOVINOS",
+      "imoveis": 37525,
+      "operacoes": 67648,
+      "credito": 7235954973.033079,
+      "area_financiada": 2612455.2846959163
+    },
+    {
+      "produto": "SOJA",
+      "imoveis": 73115,
+      "operacoes": 55416,
+      "credito": 5897317914.530079,
+      "area_financiada": 1318840.7076699403
+    },
+    {
+      "produto": "MILHO",
+      "imoveis": 37282,
+      "operacoes": 33029,
+      "credito": 2687266172.1056175,
+      "area_financiada": 581990.0596714952
+    },
+    {
+      "produto": "TRIGO",
+      "imoveis": 44433,
+      "operacoes": 33751,
+      "credito": 2163184762.891058,
+      "area_financiada": 555803.0661410257
+    },
+    {
+      "produto": "CORREÇÃO INTENSIVA DO SOLO",
+      "imoveis": 6416,
+      "operacoes": 4921,
+      "credito": 1270026516.8003805,
+      "area_financiada": 384341.55472186144
+    },
+    {
+      "produto": "MÁQUINAS E IMPLEMENTOS",
+      "imoveis": 5287,
+      "operacoes": 5680,
+      "credito": 832586314.5172698,
+      "area_financiada": 32866.45401727357
+    },
+    {
+      "produto": "Terraços, Porteiras, Mata-burros, Currais, Cochos, Cercas",
+      "imoveis": 10136,
+      "operacoes": 11584,
+      "credito": 741664591.3675,
+      "area_financiada": 248630.14569047617
+    },
+    {
+      "produto": "TRATOR",
+      "imoveis": 2643,
+      "operacoes": 2747,
+      "credito": 605211718.8004029,
+      "area_financiada": 12906.147722222218
+    },
+    {
+      "produto": "PASTAGEM",
+      "imoveis": 4890,
+      "operacoes": 6062,
+      "credito": 508271363.1229525,
+      "area_financiada": 159863.81930952377
+    },
+    {
+      "produto": "CAFÉ",
+      "imoveis": 2537,
+      "operacoes": 4767,
+      "credito": 490746753.15359527,
+      "area_financiada": 23597.432515873024
+    },
+    "... (10 more items)"
+  ],
+  "query_ref": "qr_0640d3d60b0e4767b730802ec224347f"
+}

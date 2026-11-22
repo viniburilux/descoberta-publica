@@ -1,0 +1,1 @@
+SELECT DISTINCT nome_coluna, id_tabela FROM `basedosdados.br_bcb_sicor.dicionario` WHERE LOWER(nome_coluna) LIKE '%invest%' OR LOWER(valor) LIKE '%invest%' ORDER BY nome_coluna, id_tabela

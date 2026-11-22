@@ -1,0 +1,1 @@
+SELECT COUNT(*) linhas, COUNTIF(va_agropecuaria IS NOT NULL) com_agro, COUNTIF(pib IS NOT NULL) com_pib FROM `basedosdados.br_ibge_pib.municipio` WHERE ano=2023

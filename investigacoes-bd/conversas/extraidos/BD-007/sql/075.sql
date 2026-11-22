@@ -1,0 +1,1 @@
+SELECT ano_emissao,COUNT(*) linhas FROM `basedosdados.br_bcb_sicor.operacao` WHERE ano_emissao BETWEEN 2013 AND 2026 GROUP BY ano_emissao ORDER BY ano_emissao

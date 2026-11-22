@@ -1,0 +1,48 @@
+{
+  "id": "707b3dee-88a2-424d-a790-7216eb431c78",
+  "dataset_id": "f7df4160-7a6f-4658-a287-3a73d412ed10",
+  "gcp_id": "basedosdados.br_ibge_ppm.efetivo_rebanhos",
+  "name": "Efetivo dos Rebanhos",
+  "description": "Efetivo dos rebanhos (cabeça), por tipo de rebanho.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município IBGE 7 dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "quantidade",
+      "type": "INT64",
+      "description": "Quantidade de animais",
+      "needs_decoding": false
+    },
+    {
+      "name": "sigla_uf",
+      "type": "STRING",
+      "description": "Sigla da Unidade da Federação",
+      "reference_table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245",
+      "needs_decoding": false
+    },
+    {
+      "name": "tipo_rebanho",
+      "type": "STRING",
+      "description": "Tipo de rebanho. Galináceos - galinhas está contida em Galináceos - total, e Suíno - matrizes de suínos, publicada desde 2013, está contida em Suíno - total; somar a quantidade sem filtrar a categoria conta esses animais duas vezes",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano",
+    "sigla_uf"
+  ],
+  "period_start": "1974",
+  "period_end": "2025"
+}

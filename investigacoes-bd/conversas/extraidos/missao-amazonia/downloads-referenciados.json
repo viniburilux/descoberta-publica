@@ -1,0 +1,310 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_1266079c6e224961ad2a12f7fbf22688",
+    "slug": "populacao_igarape_acu",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_bf1b25c2eba948099efd639e4a18cd48",
+    "slug": "pib_igarape_acu",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_1ba08f3cff6a4a3780f9f0ed76113573",
+    "slug": "receitas_igarape_acu_2024",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_9e6a179ab8b1483587d6aa8882a8a7d9",
+    "slug": "rais_reciclagem_para_2024",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ae0d902cc3884e4091211785aeb1b50e",
+    "slug": "domicilios_igarape_acu_2010",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_21159b52838d46698c161fb42636ebe0",
+    "slug": "cnaes_reciclagem",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_14a8216e392e448282300fd35eadf2d2",
+    "slug": "fiscal_igarape_acu",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_83fd7453695a40beb064c5e58239f956",
+    "slug": "cnpj_reciclagem_pa_2026",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_edef1f97dea64016af515e7a59b545f8",
+    "slug": "pncp_igarape_acu_residuos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_534890f763b54cb08a57dea9890f33f2",
+    "slug": "rais_reciclagem_municipios_pa",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_e035f3e0bcdc4eedb13e1149d111b429",
+    "slug": "receitas_igarape_acu",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_8560fb1aa96547ca8fa4be2bc061e9e2",
+    "slug": "comparativo_reciclagem_pa",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_4c3fb5d7a8734d1291a10682e92d53e5",
+    "slug": "cnpj_igarape_acu_reciclagem",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_f6a9f43bab284d46b0c709978030a4dd",
+    "slug": "cnpj_igarape_castanhal_cnae",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_4726ab41c5994bb2a726edc28c5ca7a3",
+    "slug": "cnaes_suporte_reciclagem",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_7f66e474cc014866a72a2a5482f97162",
+    "slug": "cnpj_castanhal_residuos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_4667fc620a5b469b8d28344320ad31b7",
+    "slug": "despesas_funcao_igarape_castanhal",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_7681cbad85594caa9fb37ac34076624d",
+    "slug": "rais_regional_2017_2024",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_1045c1f82f624dd9975435444363ec3f",
+    "slug": "evolucao_cnpj_igarape_castanhal",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_9577d6fade2d4292b6b1976ff4e0930b",
+    "slug": "contratos_especificos_residuos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ea68d725e8f9419dbe0975ea995e09d2",
+    "slug": "contratacoes_especificas_residuos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5c8c7485808643b480b44c696ba1bdbf",
+    "slug": "estabelecimentos_ativos_igarape_acu",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ce7f2201c7a449d180e8983dd7f9479e",
+    "slug": "cobertura_historica_cnpj_regional",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_337f6d57189a4dc88ea78ae02a6da1cb",
+    "slug": "razao_social_igarape_acu",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_c274d05e14c14727b49874faf71678bb",
+    "slug": "despesas_orcamentarias_residuos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_c0247870a720404e98500de508b976d9",
+    "slug": "contratos_residuos_igarape_castanhal",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_bbc03fed8d1a430dabc12e16a2f10089",
+    "slug": "despesas_totais_funcoes_regional",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_a5daeefe4c0e42a5b87b66bcd2f91836",
+    "slug": "serie_rais_igarape_castanhal",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

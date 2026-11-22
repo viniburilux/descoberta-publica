@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Column 8 in UNION ALL has incompatible types: STRING, DATE at [54:1]\n\nLocation: None\nJob ID: 6bd3cbfd-57fa-4c83-b66d-2a0d1a1ea6b4\n"
+}

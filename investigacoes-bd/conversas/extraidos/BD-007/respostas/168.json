@@ -1,0 +1,97 @@
+{
+  "row_count": 60,
+  "rows": [
+    {
+      "id_municipio": "2900355",
+      "produto": "MILHO",
+      "finalidade": "Custeio",
+      "operacoes": 603,
+      "imoveis": 284,
+      "credito": 25480217.470162697,
+      "rn": 1
+    },
+    {
+      "id_municipio": "2900355",
+      "produto": "BOVINOS",
+      "finalidade": "Investimento",
+      "operacoes": 118,
+      "imoveis": 82,
+      "credito": 3390425.0,
+      "rn": 2
+    },
+    {
+      "id_municipio": "2900355",
+      "produto": "COLHEITADEIRAS, COLHEDEIRAS E ARRANCADEIRAS",
+      "finalidade": "Investimento",
+      "operacoes": 4,
+      "imoveis": 3,
+      "credito": 2525900.0,
+      "rn": 3
+    },
+    {
+      "id_municipio": "2900355",
+      "produto": "TRATOR",
+      "finalidade": "Investimento",
+      "operacoes": 10,
+      "imoveis": 11,
+      "credito": 1799578.165,
+      "rn": 4
+    },
+    {
+      "id_municipio": "2900355",
+      "produto": "MÁQUINAS E IMPLEMENTOS",
+      "finalidade": "Investimento",
+      "operacoes": 32,
+      "imoveis": 26,
+      "credito": 1696396.65,
+      "rn": 5
+    },
+    {
+      "id_municipio": "2900355",
+      "produto": "BOVINOS",
+      "finalidade": "Custeio",
+      "operacoes": 40,
+      "imoveis": 24,
+      "credito": 1595645.39,
+      "rn": 6
+    },
+    {
+      "id_municipio": "2900355",
+      "produto": "ARMAZÉM, DEPÓSITO, SILO, GALPÃO, PAIOL, ESTUFA E INSTALAÇÕES CONGÊNERES",
+      "finalidade": "Investimento",
+      "operacoes": 15,
+      "imoveis": 15,
+      "credito": 1442910.56,
+      "rn": 7
+    },
+    {
+      "id_municipio": "2900355",
+      "produto": "OVINOS",
+      "finalidade": "Investimento",
+      "operacoes": 101,
+      "imoveis": 65,
+      "credito": 583767.0,
+      "rn": 8
+    },
+    {
+      "id_municipio": "2900355",
+      "produto": "FEIJÃO",
+      "finalidade": "Custeio",
+      "operacoes": 37,
+      "imoveis": 39,
+      "credito": 486792.20166666666,
+      "rn": 9
+    },
+    {
+      "id_municipio": "2900355",
+      "produto": "Terraços, Porteiras, Mata-burros, Currais, Cochos, Cercas",
+      "finalidade": "Investimento",
+      "operacoes": 22,
+      "imoveis": 21,
+      "credito": 346394.69999999995,
+      "rn": 10
+    },
+    "... (50 more items)"
+  ],
+  "query_ref": "qr_795c00b7c2aa4fbb9c4341b5a53a0296"
+}

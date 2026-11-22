@@ -1,0 +1,182 @@
+[
+  {
+    "id": "eef764df-bde8-4905-b115-6fc23b6ba9d6",
+    "name": "Eleições Brasileiras",
+    "description": "Dados de eleições brasileiras desde 1945 fornecidos pelo TSE. Inclui dados de eleitorado, candidaturas, resultados e prestação de contas",
+    "organizations": [
+      "Tribunal Superior Eleitoral (TSE)"
+    ],
+    "tags": [
+      "congresso",
+      "eleições",
+      "partido político",
+      "presidência",
+      "voto"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "1a7197ab-87fe-4039-8504-59407b3ec067",
+    "name": "Eleições Globais em Pequenas Áreas (SAGE)",
+    "description": "Retornos eleitorais geocodificados e padronizados no menor nível publicado por cada autoridade eleitoral (tipicamente a seção eleitoral), para eleições legislativas de câmara baixa e presidenciais em 110 países, de 1948 a 2026. O conjunto reúne cerca de 10 bilhões de votos em mais de 8 milhões de unidades eleitorais, com identificadores de partido e candidato harmonizados (Party Facts) e coordenadas geográficas.",
+    "organizations": [],
+    "tags": [
+      "eleições",
+      "sistema eleitoral",
+      "partido político",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "e68b1cfd-ca29-4bdc-b687-424d9c59760e",
+    "name": "Filiação Partidária",
+    "description": "Relação de pessoas filiadas a partidos políticos no Brasil.",
+    "organizations": [
+      "Tribunal Superior Eleitoral (TSE)"
+    ],
+    "tags": [
+      "eleições",
+      "partido político"
+    ],
+    "themes": [
+      "Política"
+    ]
+  },
+  {
+    "id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+    "name": "Censo Escolar",
+    "description": "O Censo Escolar é o principal instrumento de coleta de informações da educação básica e a mais importante pesquisa estatística educacional brasileira. É coordenado pelo Inep e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação e com a participação de todas as escolas públicas e privadas do país.\r\n\r\nEle abrange as diferentes etapas e modalidades da educação básica e profissional:\r\n- Ensino regular (educação infantil, ensino fundamental e médio);\r\n- Educação especial – modalidade substitutiva;\r\n- Educação de Jovens e Adultos (EJA);\r\n- Educação profissional (cursos técnicos e cursos de formação inicial continuada ou qualificação profissional).\r\n\r\nA coleta de dados das escolas tem caráter declaratório e é dividida em duas etapas. A primeira etapa consiste no preenchimento da Matrícula Inicial, quando ocorre a coleta de informações sobre os estabelecimentos de ensino, gestores, turmas, alunos e profissionais escolares em sala de aula. A segunda etapa ocorre com o preenchimento de informações sobre a Situação do Aluno, e considera os dados sobre o movimento e rendimento escolar dos alunos, ao final do ano letivo.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "indicadores educacionais",
+      "desigualdade",
+      "escola",
+      "escolas",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "fc7e9d13-714d-42c1-8986-bd2a3108e208",
+    "name": "Reservatórios Brasileiros",
+    "description": "Dados operativos dos reservatórios do Brasil, disponibilizados pela Agência Nacional de Águas (ANA).",
+    "organizations": [
+      "Agência Nacional de Águas (ANA)"
+    ],
+    "tags": [
+      "eletricidade",
+      "reservatório",
+      "água"
+    ],
+    "themes": [
+      "Energia",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "6b687e32-32bb-4dd6-ac8b-7dfa011ac619",
+    "name": "Cadastro Ambiental Rural (CAR)",
+    "description": "Dados públicos do Cadastro Ambiental Rural (CAR), registro eletrônico nacional obrigatório dos imóveis rurais brasileiros, mantido no Sistema Nacional de Cadastro Ambiental Rural (SICAR) pelo Serviço Florestal Brasileiro. Inclui o perímetro dos imóveis e as feições ambientais declaradas — Área de Preservação Permanente (APP), Reserva Legal, vegetação nativa, hidrografia, área consolidada, uso restrito, servidão administrativa e pousio — com geometria em coordenadas geográficas (WGS84). Os dados são organizados como snapshots empilhados por data de disponibilização por Unidade da Federação.",
+    "organizations": [
+      "Serviço Florestal Brasileiro"
+    ],
+    "tags": [
+      "agropecuária",
+      "atividade econômica",
+      "licenciamento ambiental",
+      "gestão ambiental",
+      "uso da terra",
+      "sicar"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "fc403b40-a7e1-40e7-9efe-910847b45a69",
+    "name": "Pesquisa Agrícola Municipal (PAM)",
+    "description": "A pesquisa Produção Agrícola Municipal - PAM investiga, anualmente, os principais produtos das lavouras temporárias e permanentes do País, que se caracterizam não só pela grande importância econômica que possuem na pauta de exportações, como também por sua relevância social, componentes que são da cesta básica do brasileiro.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "feijão",
+      "cultivo",
+      "alimento",
+      "alimentação",
+      "fruticultura",
+      "uso da terra",
+      "comida",
+      "arroz",
+      "soja",
+      "água"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "e083c9a2-1cee-4342-bedc-535cbad6f3cd",
+    "name": "Sistema de Avaliação da Educação Básica (Saeb)",
+    "description": "O Sistema de Avaliação da Educação Básica (Saeb) é um conjunto de avaliações externas em larga escala que permite ao Inep realizar um diagnóstico da educação básica brasileira e de fatores que podem interferir no desempenho do estudante. Desde 1995, a avaliação bienal busca fornecer um panorama da Educação Básica e sofreu algumas mudanças metodológicas para aprimoramento. Juntamente com outros indicadores, as notas do SAEB estruturam a nota do Índice de Desenvolvimento da Educação Básica (Ideb). Por meio de testes e questionários, aplicados a cada dois anos na rede pública e em uma amostra da rede privada, o Saeb reflete os níveis de aprendizagem demonstrados pelos estudantes avaliados, explicando esses resultados a partir de uma série de informações contextuais. Avalia as séries: 5º ano, 9º ano e 3º ano do EM. Em 2019, tem o 2º ano do E.F.\r\n\r\nEm 2021 houve um novo recorte adicionado, uma separação entre capital e não capital. A Base dos dados decidiu não incluir esse recorte para melhor compatibilização com os anos anteriores.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "avaliação",
+      "aprendizagem",
+      "ensino fundamental",
+      "ensino médio"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "63f1218f-c446-4835-b746-f109a338e3a1",
+    "name": "Indicadores Educacionais",
+    "description": "Os indicadores educacionais atribuem valor estatístico à qualidade do ensino, atendo-se não somente ao desempenho dos alunos mas também ao contexto econômico e social em que as escolas estão inseridas. Eles são úteis principalmente para o monitoramento dos sistemas educacionais, considerando o acesso, a permanência e a aprendizagem de todos os alunos. Dessa forma, contribuem para a criação de políticas públicas voltadas para a melhoria da qualidade da educação e dos serviços oferecidos à sociedade pela escola.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação básica",
+      "creche",
+      "educação superior",
+      "ensino médio"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "65dd99e9-42d6-44f1-ab1c-6560cd16dde8",
+    "name": "Orçamento Público",
+    "description": "Orçamento e execução da despesa do Governo Federal brasileiro, publicados pelo Portal da Transparência da Controladoria-Geral da União. Cobre os orçamentos fiscal e da seguridade social, com dotação inicial e autorizada e os valores empenhado e realizado, detalhados pela classificação institucional (órgão, unidade orçamentária), funcional-programática (função, subfunção, programa, ação) e pela natureza da despesa (categoria econômica, grupo, elemento).",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "orçamento",
+      "governo"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  }
+]

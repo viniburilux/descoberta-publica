@@ -1,0 +1,170 @@
+[
+  {
+    "id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5",
+    "name": "Censo Escolar",
+    "description": "O Censo Escolar é o principal instrumento de coleta de informações da educação básica e a mais importante pesquisa estatística educacional brasileira. É coordenado pelo Inep e realizado em regime de colaboração entre as secretarias estaduais e municipais de educação e com a participação de todas as escolas públicas e privadas do país.\r\n\r\nEle abrange as diferentes etapas e modalidades da educação básica e profissional:\r\n- Ensino regular (educação infantil, ensino fundamental e médio);\r\n- Educação especial – modalidade substitutiva;\r\n- Educação de Jovens e Adultos (EJA);\r\n- Educação profissional (cursos técnicos e cursos de formação inicial continuada ou qualificação profissional).\r\n\r\nA coleta de dados das escolas tem caráter declaratório e é dividida em duas etapas. A primeira etapa consiste no preenchimento da Matrícula Inicial, quando ocorre a coleta de informações sobre os estabelecimentos de ensino, gestores, turmas, alunos e profissionais escolares em sala de aula. A segunda etapa ocorre com o preenchimento de informações sobre a Situação do Aluno, e considera os dados sobre o movimento e rendimento escolar dos alunos, ao final do ano letivo.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "indicadores educacionais",
+      "desigualdade",
+      "escola",
+      "escolas",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "63f1218f-c446-4835-b746-f109a338e3a1",
+    "name": "Indicadores Educacionais",
+    "description": "Os indicadores educacionais atribuem valor estatístico à qualidade do ensino, atendo-se não somente ao desempenho dos alunos mas também ao contexto econômico e social em que as escolas estão inseridas. Eles são úteis principalmente para o monitoramento dos sistemas educacionais, considerando o acesso, a permanência e a aprendizagem de todos os alunos. Dessa forma, contribuem para a criação de políticas públicas voltadas para a melhoria da qualidade da educação e dos serviços oferecidos à sociedade pela escola.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação básica",
+      "creche",
+      "educação superior",
+      "ensino médio"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "a3b57cca-ff80-4bf2-8bac-c145109e06a7",
+    "name": "Censo da Educação Superior",
+    "description": "O Censo da Educação Superior, realizado anualmente pelo Inep, é o instrumento de pesquisa mais completo do Brasil sobre as instituições de educação superior (IES) que ofertam cursos de graduação e sequencias de formação específica, além de seus alunos e docentes. Essa coleta tem como objetivo de oferecer à comunidade acadêmica e à sociedade em geral informações detalhadas sobre a situação e as grandes tendências do setor.\r\n\r\nO Censo da Educação Superior reúne informações sobre as instituições de ensino superior, seus cursos de graduação presencial ou a distância, cursos sequenciais, vagas oferecidas, inscrições, matrículas, ingressantes e concluintes e informações sobre docentes nas diferentes formas de organização acadêmica e categoria administrativa.\r\n\r\nOs dados são coletados a partir do preenchimento dos questionários, por parte das Instituições de Ensino Superior e por importação de dados do Sistema e-MEC. Durante o período de preenchimento do questionário, os pesquisadores institucionais (PIs) podem fazer, a qualquer momento, alterações ou inclusões necessárias nos dados das respectivas instituições. Após esse período, o Inep verifica a consistência das informações coletadas. O sistema do Censo é então reaberto para conferência e validação dos dados pelas IES.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação superior"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "073a39d4-89cf-4068-b1e8-34ed0d9c0b72",
+    "name": "Avaliação da Alfabetização",
+    "description": "O Compromisso Nacional Criança Alfabetizada é uma iniciativa que mobiliza União, estados, Distrito Federal e municípios para garantir o direito de toda criança brasileira à alfabetização. A meta é assegurar que todos os estudantes estejam alfabetizados até o final do 2º ano do ensino fundamental — com atenção especial também à recomposição das aprendizagens dos anos iniciais.\r\n\r\nO Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira (Inep) realizou, em 2023, a Pesquisa Alfabetiza Brasil, que definiu o ponto de corte de 743 pontos na escala de proficiência do Saeb para a Alfabetização como aquele a partir do qual uma criança pode ser considerada alfabetizada. A partir da definição do padrão nacional de alfabetização, foi criado o Indicador Criança Alfabetizada, que indica o percentual de estudantes que já atingiram esse resultado.\r\n\r\nO compromisso propôs, aos entes federados, metas anuais do percentual de estudantes alfabetizados ao final do 2º ano do ensino fundamental, de forma que, até 2030, todas as crianças alcancem esse resultado.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação básica",
+      "criança",
+      "educação",
+      "alfabetização",
+      "política pública"
+    ],
+    "themes": [
+      "Educação",
+      "Política"
+    ]
+  },
+  {
+    "id": "e083c9a2-1cee-4342-bedc-535cbad6f3cd",
+    "name": "Sistema de Avaliação da Educação Básica (Saeb)",
+    "description": "O Sistema de Avaliação da Educação Básica (Saeb) é um conjunto de avaliações externas em larga escala que permite ao Inep realizar um diagnóstico da educação básica brasileira e de fatores que podem interferir no desempenho do estudante. Desde 1995, a avaliação bienal busca fornecer um panorama da Educação Básica e sofreu algumas mudanças metodológicas para aprimoramento. Juntamente com outros indicadores, as notas do SAEB estruturam a nota do Índice de Desenvolvimento da Educação Básica (Ideb). Por meio de testes e questionários, aplicados a cada dois anos na rede pública e em uma amostra da rede privada, o Saeb reflete os níveis de aprendizagem demonstrados pelos estudantes avaliados, explicando esses resultados a partir de uma série de informações contextuais. Avalia as séries: 5º ano, 9º ano e 3º ano do EM. Em 2019, tem o 2º ano do E.F.\r\n\r\nEm 2021 houve um novo recorte adicionado, uma separação entre capital e não capital. A Base dos dados decidiu não incluir esse recorte para melhor compatibilização com os anos anteriores.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "avaliação",
+      "aprendizagem",
+      "ensino fundamental",
+      "ensino médio"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "96eab476-5d30-459b-82be-f888d4d0d6b9",
+    "name": "Índice de Desenvolvimento da Educação Básica (Ideb)",
+    "description": "O Índice de Desenvolvimento da Educação Básica (Ideb) foi criado em 2007 e reúne, em um só indicador, os resultados de dois conceitos igualmente importantes para a qualidade da educação: o fluxo escolar e as médias de desempenho nas avaliações.\r\n\r\nEle é calculado a partir dos dados sobre aprovação escolar, obtidos no Censo Escolar, e das médias de desempenho nas avaliações do Inep, o Sistema de Avaliação da Educação Básica (Saeb) – para as unidades da federação e para o país, e a Prova Brasil – para os municípios.\r\n\r\nO Ideb agrega ao enfoque pedagógico dos resultados das avaliações em larga escala do Inep a possibilidade de resultados sintéticos, facilmente assimiláveis, e que permitem traçar metas de qualidade educacional para os sistemas. O índice varia de zero a 10 e a combinação entre fluxo e aprendizagem tem o mérito de equilibrar as duas dimensões: se um sistema de ensino retiver seus alunos para obter resultados de melhor qualidade no Saeb ou Prova Brasil, o fator fluxo será alterado, indicando a necessidade de melhoria do sistema. Se, ao contrário, o sistema apressar a aprovação do aluno sem qualidade, o resultado das avaliações indicará igualmente a necessidade de melhoria do sistema.\r\n\r\nO Ideb também é importante por ser condutor de política pública em prol da qualidade da educação. É a ferramenta para acompanhamento das metas de qualidade do Plano de Desenvolvimento da Educação (PDE) para a educação básica, que tem estabelecido, como meta, que em 2022 o Ideb do Brasil seja 6,0 – média que corresponde a um sistema educacional de qualidade comparável a dos países desenvolvidos.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação básica",
+      "avaliação",
+      "exame",
+      "ensino médio"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "386927a4-4ee8-4975-8ff3-beece3474942",
+    "name": "Sinopses Estatísticas da Educação Básica",
+    "description": "As Sinopses Estatísticas do Inep correspondem a um conjunto de tabelas com dados recolhidos por suas pesquisas estatísticas, avaliações e exames. Elaborada anualmente pela Diretoria de Estatísticas Educacionais (Deed), a Sinopse Estatística traz um resumo dos principais dados coletados no Censo Escolar da Educação Básica.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "educação básica",
+      "indicadores educacionais",
+      "matrícula",
+      "aprendizagem",
+      "escola",
+      "aluno"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "3e9c8804-c31c-4f48-9a45-d67f1c21a859",
+    "name": "Exame Nacional do Ensino Médio (Enem)",
+    "description": "O Exame Nacional do Ensino Médio (Enem) foi criado em 1998, com o objetivo de avaliar o desempenho dos estudantes concluintes do ensino médio. A partir de 2004, a prova passou a ser utilizada como ferramenta para ingresso em instituições do ensino superior e, em 2010, com sua inclusão no Sistema de Seleção Unificada (Sisu), foi reconhecido como o maior e mais completo exame educacional do Brasil.\r\n\r\nAo longo de sua criação, o Enem acabou substituindo o tradicional vestibular realizado por faculdades e universidades nacionais, tornando-se hoje ferramenta para concessão de bolsas de estudo parciais e integrais em faculdades particulares, através do Programa Universidade Para Todos (Prouni).",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "exame",
+      "ensino médio",
+      "prova"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "653fb5da-c6b6-4455-9227-ef6012c25967",
+    "name": "Diretórios México",
+    "description": "Tabelas de diretório com a geografia do México segundo o INEGI: entidades federativas e municípios com seus códigos geoestatísticos oficiais, usadas como chaves estrangeiras por outros conjuntos de dados.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "Geografia",
+      "México"
+    ],
+    "themes": []
+  }
+]

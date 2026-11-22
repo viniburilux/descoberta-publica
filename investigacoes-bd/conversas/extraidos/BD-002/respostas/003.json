@@ -1,0 +1,77 @@
+[
+  {
+    "id": "3e7c4d58-96ba-448e-b053-d385a829ef00",
+    "name": "Relação Anual de Informações Sociais (RAIS)",
+    "description": "A Relação Anual de Informações Sociais (RAIS) é um relatório de informações socioeconômicas solicitado pela Secretaria de Trabalho do Ministério da Economia brasileiro às pessoas jurídicas e outros empregadores anualmente. Foi instituída pelo Decreto nº 76.900, de 23 de dezembro de 1975.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "emprego",
+      "trabalho"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "562b56a3-0b01-4735-a049-eeac5681f056",
+    "name": "Cadastro Geral de Empregados e Desempregados (CAGED)",
+    "description": "O Cadastro Geral de Empregados e Desempregados – CAGED, instituído pela Lei nº 4.923, em 23 de dezembro de 1965, constitui fonte de informação de âmbito nacional e de periodicidade mensal. Foi criado como instrumento de acompanhamento e de fiscalização do processo de admissão e de dispensa de trabalhadores regidos pela CLT, com o objetivo de assistir os desempregados e de apoiar medidas contra o desemprego.\r\n\r\nO CAGED é um Registro Administrativo, e, inicialmente, objetivou gerir e controlar a concessão do auxílio-desemprego. A partir de 1986, passou a ser utilizado como suporte ao pagamento do seguro desemprego e, mais recentemente, tornou-se, também, um relevante instrumento à reciclagem profissional e à recolocação do trabalhador no mercado de trabalho e, ainda, um importante subsídio para a fiscalização.\r\n\r\nDevido à crescente demanda por dados conjunturais do mercado de trabalho e à necessidade deste Ministério em contar com estatísticas mais completas, mais consistentes e mais ágeis, foram implementadas expressivas alterações ao sistema – Lei nº 4.923/65. Como decorrência dos substanciais avanços, pôde-se construir, a partir de 1983, o índice mensal de emprego, a taxa de rotatividade e a flutuação da mão-de-obra (admitidos / desligados).\r\n\r\nOs aperfeiçoamentos ocorridos no sistema CAGED e também na metodologia de tratamento dos dados tornaram esse registro administrativo uma das principais fontes de informações estatísticas sobre o mercado de trabalho conjuntural. O CAGED apresenta desagregações idênticas às da RAIS, em termos geográficos, setoriais e ocupacionais, possibilitando a realização de estudos que indicam as tendências mais atuais. No espectro conjuntural, é a única fonte de informação com tal nível de desagregação, sendo, portanto, imprescindível para o balizamento das intervenções dos formuladores de políticas na esfera do mercado de trabalho, aumentando a eficácia e eficiência das políticas de emprego que possibilitam o aumento do número e da qualidade de postos de trabalho e, por conseguinte, a redução da desigualdade social.\r\n\r\nA qualidade das informações do CAGED vem apresentando significativa melhora. Concorreu para esse fato a implantação da Portaria nº 561/2001 que determinou a extinção da declaração do CAGED em formulário padrão a partir da competência de novembro de 2001. Esta medida teve um impacto positivo na qualidade, uma vez que as informações declaradas, em meios eletrônicos, passam por um processo de críticas. Ademais, a implantação da recepção do CAGED, via Internet, possibilitou, também, um ganho na tempestividade.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "firma",
+      "emprego",
+      "empresa",
+      "trabalho"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "34c17d70-036c-4345-88ba-be09e0a9dec0",
+    "name": "Global Historical Climatology Network - Daily (GHCN-Daily)",
+    "description": "Observações meteorológicas diárias de superfície de 132.501 estações em todo o mundo, compiladas pelo NOAA National Centers for Environmental Information a partir de mais de trinta fontes nacionais e internacionais. A série cobre de 1763 a 2026 e reúne 144 elementos, entre eles temperatura máxima e mínima, precipitação, queda de neve e profundidade de neve. Cada observação carrega sinalizadores de medição, qualidade e fonte; um sinalizador de qualidade não nulo indica que o valor reprovou no controle de qualidade do NCEI. Não confundir com o produto nClimGrid, que é a versão interpolada em grade de 5 km para os Estados Unidos continentais.",
+    "organizations": [
+      "National Oceanic and Atmospheric Administration (NOAA)"
+    ],
+    "tags": [
+      "clima",
+      "mudancas climáticas",
+      "umidade",
+      "meteorologia",
+      "precipitação",
+      "chuva",
+      "temperatura",
+      "vento"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "def294fe-6ab5-4665-bd22-23120828186d",
+    "name": "Storm Events Database",
+    "description": "O Storm Events Database reúne os registros que dão origem à publicação oficial NOAA Storm Data, documentando (1) a ocorrência de tempestades e outros fenômenos meteorológicos de intensidade suficiente para causar mortes, ferimentos, danos materiais relevantes ou interrupção do comércio, (2) fenômenos raros e incomuns que atraem atenção da imprensa, e (3) outros eventos significativos, como recordes de temperatura ou precipitação registrados em conexão com outro evento. A base cobre de janeiro de 1950 a maio de 2026, conforme inserida pelo Serviço Nacional de Meteorologia (NWS) da NOAA, e é atualizada mensalmente. A cobertura por tipo de evento não é uniforme ao longo do período: apenas tornados são registrados de 1950 a 1954; tornado, vento de tempestade e granizo de 1955 a 1995; e o conjunto completo de tipos somente a partir de 1996. O NCEI reformatou os dados e padronizou os tipos de evento, mas não alterou valores de localização, mortes, ferimentos, danos ou narrativas. Complementa o conjunto OpenFEMA: aqui está o evento meteorológico tal como observado pelo serviço de meteorologia, ali a decisão administrativa de declarar desastre e o auxílio pago em decorrência dela.",
+    "organizations": [
+      "National Oceanic and Atmospheric Administration (NOAA)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "seca",
+      "inundação",
+      "furacão",
+      "meteorologia",
+      "desastre natural",
+      "chuva",
+      "tempestade",
+      "tornado"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  }
+]

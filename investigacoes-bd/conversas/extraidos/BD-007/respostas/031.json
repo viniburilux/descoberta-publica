@@ -1,0 +1,214 @@
+[
+  {
+    "id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9",
+    "name": "Banco de Dados de Queimadas",
+    "description": "Ocorrência do Fogo na Vegetação é o tema deste portal, http://queimadas.dgi.inpe.br/queimadas, desenvolvido no INPE, Instituto Nacional de Pesquisas Espaciais. Ele inclui o monitoramento operacional de focos de queimadas e de incêndios florestais detectados por satélites, e o cálculo e previsão do risco de fogo da vegetação.\r\n\r\nOs dados para a América do Sul e a Central, África e Europa, são atualizados a cada três horas, todos os dias do ano. O acesso às informações é livre, e no navegador internet usado, deve estar desbloqueada a carga das janelas \"pop up\" para acesso a várias figuras, tabelas e gráficos.\r\n\r\nUsuários que necessitam de focos com maior frequência temporal ou monitoramento em áreas específicas deverão consultar as \"Perguntas Frequentes\"\r\n\r\nAs informações neste portal estão divididas em blocos:\r\n\r\n- \"Situação Atual\", é a \"Sala de Situação\" do Portal, e fornece para os últimos dois dias os resultados relevantes do monitoramento de focos de queima de vegetação feito pelo INPE em imagens satélites. Vários itens nos títulos das figuras e tabelas podem ser selecionados, alterando as apresentações gráficas conforme as preferências espaciais e temporais do usuário. Passando o mouse sobre os títulos e figuras serão indicadas as opções ativas.\r\n- \"SIG Focos-Geral\", permite visualizar os focos em um Sistema de Informação Geográfica, com opções de períodos, regiões de interesse, satélites, planos de informação (p.ex. desmatamento, hidrografia, estradas), etc., além da exportação dos dados em formatos txt, html, shp e kmz.\r\n- \"SIG Focos-Áreas Protegidas\", Semelhante ao item anterior, mas dedicado à ocorrência do fogo em Áreas de Preservação, como Parques, Florestas, Reservas Biológicas municipais, estaduais e nacionais, e Terras Indígenas.\r\n- \"Situação nas Áreas Protegidas\", que contém o último relatório de focos detectados nas áreas de preservação, incluindo links que os mostram já inseridos no SIG do monitoramento.\r\n- \"Relatório Atual\", contém o último resumo do monitoramento de queimadas em formato pdf, que poderá ser salvo pelo usuário para análise detalhada dos dados. A opção \"Receber por E-Mail\" leva ao cadastro do usuário, onde se define individualmente o conteúdo dos relatórios e mensagens de alerta que serão recebidos automaticamente por E-Mail.\r\n- \"Risco de Fogo\", que apresenta o Risco de Fogo da vegetação estimado no presente, e suas previsões futuras (diárias, semanais e mensais), bem como o \"fogograma\" para qualquer local selecionado com o mouse nos mapas.\r\n- \"Meu Cadastro\", onde o usuário define e configura individualmente os produtos que deseja receber em seu E-Mail, como alertas de ocorrência de focos em áreas de preservação, boletins pdf diários com tabelas, gráficos e mapas de estados e países de interesse, e mensagens operacionais.\r\n- \"Outros Produtos\", com links a produtos adicionais gerados por este sistema de Queimadas e Incêndios, destacando-se: mapas mensais de focos em formato .gif com animações; mapas Meteorológicos (precipitação, temperatura, umidade do ar, ventos); detecções dos vários satélites utilizados; estimativas de concentrações e trajetórias dos poluentes emitidos; localização dos satélites utilizados, uma coletânea de dados anteriores e área de download, e; acesso a uma antiga versão da página do monitoramento de focos.\r\n- \"Links Relacionados\", com indicações de acesso ao Boletim do Ibama de Monitoramento de Queimadas e Incêndios, ao texto publicado mensalmente no Boletim Climanálise, a uma coleção de mais de 500 páginas com matérias, fotos, vídeos e sites diversos sobre queimadas e incêndios florestais, à composição da equipe deste trabalho, e aos agradecimentos.\r\n- \"Notícias e Destaques\", com informações, notícias e links de destaque na ocorrência do fogo na vegetação, e não restritas apenas à detecção de focos com satélites.\r\n- \"Aviso\", com informações operacionais indicando novidades, falhas e detalhes relevantes na geração dos produtos do monitoramento do fogo na vegetação.\r\n\r\nO INPE também gera outros produtos de queimadas que não são divulgados neste portal, atendendo necessidades individuais de usuários que optam em fazer o próprio processamento dos dados brutos enviados pelo INPE; um exemplo destes é o caso do PrevFogo/Ibama. Para receber em tempo quase-real as coordenadas geográficas dos focos e desenvolver sua própria base de aplicações, contatar queimadas@inpe.br.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "ar",
+      "queimada",
+      "mudancas climáticas",
+      "CO2",
+      "emissão",
+      "fogo",
+      "floresta",
+      "incêndio"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "11b867be-e626-4da7-9dad-f5dd930c67fe",
+    "name": "Observatório da Criança e do Adolescente",
+    "description": "O Observatório da Criança e do Adolescente é um espaço virtual que possibilita a consulta, em um mesmo lugar, dos principais indicadores sociais relacionados direta e indiretamente à infância e adolescência no Brasil. Seu objetivo é organizar as informações e facilitar o acesso a bases de dados de diversas fontes púbicas e privadas sobre população, qualidade de vida e bem-estar de crianças e adolescentes com idades ente zero e 18 anos, permitindo uma análise da evolução das principais políticas, dos desafios e das desigualdades regionais. Destina-se a formadores de opinião, representantes da sociedade civil, pesquisadores, gestores públicos e quaisquer pessoas que queiram, a partir de um simples mecanismo de busca online, conhecer a realidade e os problemas sociais que mais afetam as crianças e os adolescentes no país.",
+    "organizations": [
+      "Fundação Abrinq"
+    ],
+    "tags": [
+      "adolescente",
+      "proposição",
+      "criança",
+      "congresso",
+      "educação",
+      "saúde",
+      "desigualdade",
+      "lei",
+      "legislação",
+      "regulação"
+    ],
+    "themes": [
+      "Educação",
+      "Governo e Finanças Públicas",
+      "Saúde",
+      "População",
+      "Segurança, Crime, Violência, e Conflito"
+    ]
+  },
+  {
+    "id": "d255b082-9f60-422e-85b4-f38fefcd8a98",
+    "name": "População: Estimativas e Projeções (Austrália)",
+    "description": "Estimativas e projeções da população australiana publicadas pelo Australian Bureau of Statistics (ABS), reunindo três produtos: a população residente estimada trimestral da Austrália e dos estados e territórios, com os componentes da variação populacional, desde 1981 (antigo catálogo 3101.0); a população residente estimada anual por área estatística de nível 2 (SA2) e por área de governo local (LGA), desde 2001 (antigo catálogo 3218.0); e as projeções populacionais por idade simples e sexo até 2071, nas séries alta, média e baixa (antigo catálogo 3222.0). Inclui ainda a população residente estimada anual por idade simples e sexo desde 1971.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "idade",
+      "nascimento",
+      "óbito",
+      "demografia",
+      "fertilidade",
+      "migração",
+      "mortalidade",
+      "projeção"
+    ],
+    "themes": [
+      "População"
+    ]
+  },
+  {
+    "id": "e5c87240-ecce-4856-97c5-e6b84984bf42",
+    "name": "Desmatamento PRODES",
+    "description": "O projeto PRODES realiza o monitoramento por satélites do desmatamento por corte raso na Amazônia Legal e produz, desde 1988, as taxas anuais de desmatamento na região, que são usadas pelo governo brasileiro para o estabelecimento de políticas públicas. As taxas anuais são estimadas a partir dos incrementos de desmatamento identificados em cada imagem de satélite que cobre a Amazônia Legal. A primeira apresentação dos dados é realizada para dezembro de cada ano, na forma de estimativa. Os dados consolidados são apresentados no primeiro semestre do ano seguinte.\r\n\r\nResultados recentes, a partir de análises realizadas com especialistas independentes, indicam nível de precisão próximo a 95%.",
+    "organizations": [
+      "Instituto Nacional de Pesquisas Espaciais (INPE)"
+    ],
+    "tags": [
+      "mudancas climáticas",
+      "conservação",
+      "desmatamento",
+      "uso da terra"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "51ee8a6c-e410-4fc2-b2a4-e778c5b1ef3d",
+    "name": "Estimativas de custos da operação do Sistema Interligado Nacional (SIN) e outros subssistemas",
+    "description": "A organização temática 'Estimativas Custos' permite um retrato dos custos operação do Sistema Interligado Nacional (SIN)  e demais subssitemas de energia com diferentes metodologias e unidades de tempo utilizadas.",
+    "organizations": [
+      "Operador Nacional do Sistema Elétrico (ONS)"
+    ],
+    "tags": [
+      "eletricidade",
+      "avaliação",
+      "hidrelétrica"
+    ],
+    "themes": [
+      "Energia",
+      "Infraestrutura e Transportes"
+    ]
+  },
+  {
+    "id": "3f7c078a-008e-407f-bbc7-45153d9a9b5e",
+    "name": "Pontualidade de Voos Domésticos",
+    "description": "Desempenho de pontualidade de cada voo doméstico regular dos Estados Unidos reportado ao Bureau of Transportation Statistics, uma linha por voo programado desde outubro de 1987. Traz a empresa aérea que reportou o voo, os aeroportos de origem e destino, os horários programados e efetivos de partida e chegada, os atrasos em minutos, cancelamentos, desvios e a atribuição do atraso a causas como empresa aérea, clima, sistema nacional de espaço aéreo, segurança e atraso da aeronave no trecho anterior. As causas do atraso são reportadas a partir de junho de 2003 e as colunas de desvio a partir de 2008.",
+    "organizations": [
+      "Departamento de Estatísticas de Transporte (BTS) dos Estados Unidos"
+    ],
+    "tags": [
+      "avião",
+      "aeroporto",
+      "tráfego aéreo",
+      "aviação",
+      "atraso",
+      "voo"
+    ],
+    "themes": [
+      "Infraestrutura e Transportes"
+    ]
+  },
+  {
+    "id": "2907eff4-e542-4b76-9942-4b98aed54d1d",
+    "name": "OpenFEMA: desastres, assistência federal e seguro de inundação",
+    "description": "Conjunto de dados abertos da Agência Federal de Gestão de Emergências dos Estados Unidos (FEMA), publicado pelo programa OpenFEMA. Reúne as declarações de desastre emitidas sob o Stafford Act desde 1953, com uma linha por área designada; os projetos financiados pelo programa Public Assistance desde 1998, com os valores federais obrigados; e os arquivos redigidos do National Flood Insurance Program, com 2,7 milhões de sinistros desde 1970 e 74,3 milhões de apólices desde 2009, incluindo data da perda, cobertura contratada, valores pagos, prêmio, zona de inundação e localização aproximada. Os dados não são de domínio público: seu uso é regido pelos termos do OpenFEMA, que o restringem a pesquisa estatística ou registro de referência e proíbem a reidentificação.",
+    "organizations": [
+      "Agência Federal de Gestão de Emergências (FEMA) dos Estados Unidos"
+    ],
+    "tags": [
+      "auxílio",
+      "mudancas climáticas",
+      "indenização",
+      "desastre",
+      "federal",
+      "inundação",
+      "habitação",
+      "seguro",
+      "desastre natural",
+      "propriedade",
+      "risco"
+    ],
+    "themes": [
+      "Economia",
+      "Meio Ambiente",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "54e9609c-dfb8-4ae4-b59a-5af4575874e7",
+    "name": "HydroSHEDS",
+    "description": "‍A base de dados HydroSHEDS oferece um conjunto de camadas de dados digitais globais para apoiar a investigação e as aplicações hidroecológicas em todo o mundo",
+    "organizations": [
+      "World Wide Fund"
+    ],
+    "tags": [
+      "cartografia",
+      "lago",
+      "mapa",
+      "relevo",
+      "água",
+      "hidrovia"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+    "name": "Compras públicas",
+    "description": "Compras públicas brasileiras registradas no Compras.gov.br, abrangendo os dois regimes de contratação: as contratações realizadas sob a Lei 14.133/2021 e divulgadas no PNCP, de 2021 em diante, e as licitações e contratações diretas sob a Lei 8.666/1993, de 1997 a 2025. Inclui itens, resultados, atas de registro de preços, contratos e os cadastros de órgãos, unidades compradoras, fornecedores e catálogos de materiais e serviços. Apesar do nome do portal, cobre os três níveis de governo: 43% das contratações são federais, 31% estaduais e 25% municipais.",
+    "organizations": [
+      "Ministério da Gestão e da Inovação em Serviços Públicos"
+    ],
+    "tags": [
+      "companhia",
+      "contrato",
+      "preço",
+      "administração pública",
+      "licitação",
+      "compra",
+      "gasto",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "89377572-9821-4ada-9973-f4e8bb3ba129",
+    "name": "U.S. Crime Data Explorer (CDE)",
+    "description": "O Crime Data Explorer, uma ferramenta de dados interativa on-line, é considerada a porta de entrada digital do Programa Uniform Crime Reporting (UCR) do FBI. O CDE permite que a aplicação da lei e o público acessem, visualizem e entendam mais facilmente as enormes quantidades de dados da UCR atualmente coletados e publicados pelo Programa de UCR do FBI.",
+    "organizations": [
+      "Federal Bureau of Investigation (FBI)"
+    ],
+    "tags": [
+      "assalto",
+      "crime",
+      "crime de ódio",
+      "homicídio",
+      "prisão",
+      "polícia",
+      "roubo",
+      "violência",
+      "arma"
+    ],
+    "themes": [
+      "Justiça",
+      "Segurança, Crime, Violência, e Conflito"
+    ]
+  }
+]

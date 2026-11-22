@@ -1,0 +1,92 @@
+{
+  "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+  "name": "Diretórios Brasileiros",
+  "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+  "organizations": [
+    "Base dos Dados"
+  ],
+  "tags": [
+    "diretório",
+    "municípios",
+    "escolas"
+  ],
+  "themes": [
+    "Educação",
+    "Ciência, Tecnologia e Inovação",
+    "Organização Territorial"
+  ],
+  "tables": [
+    {
+      "id": "0a2d8187-f936-437d-89db-b4eb3a7e1735",
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+      "gcp_id": "basedosdados.br_bd_diretorios_brasil.area_conhecimento",
+      "name": "Área do Conhecimento",
+      "description": "Diretório de áreas de conhecimento segundo a Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)"
+    },
+    {
+      "id": "144ec13d-2e4f-4361-8f51-dd6f26917c46",
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+      "gcp_id": "basedosdados.br_bd_diretorios_brasil.cbo_1994",
+      "name": "CBO 1994",
+      "description": "Diretório da Classificação Brasileira de Ocupações 1994."
+    },
+    {
+      "id": "c2e3f3aa-5e92-407c-897d-0892f56985a2",
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+      "gcp_id": "basedosdados.br_bd_diretorios_brasil.cbo_2002",
+      "name": "CBO 2002",
+      "description": "Diretório da Classificação Brasileira de Ocupações (CBO) 2002."
+    },
+    {
+      "id": "566ed7f2-db5f-4ac3-bfce-b579137c993c",
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+      "gcp_id": "basedosdados.br_bd_diretorios_brasil.cep",
+      "name": "CEP",
+      "description": "O diretório de CEPs foi construído a partir do cadastro de endereços do Censo 2022 publicado pelo IBGE.\r\n\r\nA base de dados apresenta alguns erros, especialmente nos CEPs centrais, como praças que são marcos zero de cidades. Esses erros ocorrem pois frequentemente quando o coletor de dados desconhece... (669 more characters)"
+    },
+    {
+      "id": "cb11b295-4ecc-49cc-b60a-c1162d456872",
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+      "gcp_id": "basedosdados.br_bd_diretorios_brasil.cid_10",
+      "name": "CID 10",
+      "description": "Diretório da Classificação Internacional de Doenças (CID) 10.\r\n\r\nOriginal em http://www.datasus.gov.br/cid10/V2008/cid10.htm."
+    },
+    {
+      "id": "24dc5e30-d3e0-41e3-b0d4-ac29e955c2c6",
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+      "gcp_id": "basedosdados.br_bd_diretorios_brasil.cid_9",
+      "name": "CID 9",
+      "description": "Diretório da Classificação Internacional de Doenças (CID) 9."
+    },
+    {
+      "id": "81df4cce-b54c-4abd-9ec9-248bdf155770",
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+      "gcp_id": "basedosdados.br_bd_diretorios_brasil.cnae_1",
+      "name": "CNAE 1",
+      "description": "Diretório da Classificação Nacional de Atividades Econômicas 1.0."
+    },
+    {
+      "id": "8a02c4e5-1718-41e7-8891-d0fa09265d58",
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+      "gcp_id": "basedosdados.br_bd_diretorios_brasil.cnae_2",
+      "name": "CNAE 2",
+      "description": "Diretório da Classificação Nacional de Atividades Econômicas 2.0, 2.1, 2.2 e 2.3. Para facilitar o uso das diferentes versões da CNAE criamos uma tabela única variáveis para identificar a presença ou não da subclasse da CNAE numa dada versão."
+    },
+    {
+      "id": "8999bb26-1184-46d5-8e8b-fac1cac85d3f",
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+      "gcp_id": "basedosdados.br_bd_diretorios_brasil.curso_superior",
+      "name": "Curso Superior",
+      "description": "A tabela contém dados de cursos do ensino superior no Brasil, desde seu código do INEP até a área onde o curso se insere"
+    },
+    {
+      "id": "ea8900e5-f247-46f5-af64-eb120d439962",
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+      "gcp_id": "basedosdados.br_bd_diretorios_brasil.distrito_1991",
+      "name": "Distrito 1991",
+      "description": "Diretório de distritos de 1991"
+    },
+    "... (14 more items)"
+  ],
+  "usage_guide": null
+}

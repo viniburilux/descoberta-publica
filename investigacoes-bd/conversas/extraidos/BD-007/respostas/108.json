@@ -1,0 +1,22 @@
+[
+  {
+    "nome_coluna": "status",
+    "chave": "AT",
+    "valor": "Ativo"
+  },
+  {
+    "nome_coluna": "status",
+    "chave": "CA",
+    "valor": "Cancelado"
+  },
+  {
+    "nome_coluna": "status",
+    "chave": "PE",
+    "valor": "Pendente"
+  },
+  {
+    "nome_coluna": "status",
+    "chave": "SU",
+    "valor": "Suspenso"
+  }
+]

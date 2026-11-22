@@ -1,0 +1,66 @@
+{
+  "id": "4982d705-2f02-4f85-b5d3-24e7279a3e18",
+  "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "gcp_id": "basedosdados.br_bcb_sicor.recurso_publico_complemento_operacao",
+  "name": "Recurso Público Complemento Operação",
+  "description": "Em 2023 o Banco Central do Brasil (BCB) liberou informações adicionais das operações de crédito que foram financiadas com recursos públicos. Esta tabela contém dados adicionais dos contratos de crédito.",
+  "columns": [
+    {
+      "name": "ano_emissao",
+      "type": "INT64",
+      "description": "Ano da emissão da operação",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_agencia",
+      "type": "STRING",
+      "description": "CNPJ da agência bancária responsável pela concessão do empréstimo",
+      "reference_table_id": "b71e9a46-f98e-476b-a2d6-4444213a8ddc",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID município IBGE 7 dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_referencia_bacen",
+      "type": "STRING",
+      "description": "Identificador único de cada operação de crédito",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_referencia_bacen_efetivo",
+      "type": "STRING",
+      "description": "Identificador único de cada operação de crédito explícito",
+      "needs_decoding": false
+    },
+    {
+      "name": "mes_emissao",
+      "type": "INT64",
+      "description": "Mês de emissão da operação",
+      "unit": "month",
+      "needs_decoding": false
+    },
+    {
+      "name": "numero_cedula",
+      "type": "STRING",
+      "description": "Número da Operação",
+      "needs_decoding": false
+    },
+    {
+      "name": "numero_ordem",
+      "type": "STRING",
+      "description": "Identificador da quantidade de ordens que compõem uma operação de crédito",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano_emissao"
+  ],
+  "period_start": "2013-01",
+  "period_end": "2026-10"
+}

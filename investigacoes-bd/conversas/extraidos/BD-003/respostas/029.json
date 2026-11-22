@@ -1,0 +1,66 @@
+{
+  "id": "cb11b295-4ecc-49cc-b60a-c1162d456872",
+  "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+  "gcp_id": "basedosdados.br_bd_diretorios_brasil.cid_10",
+  "name": "CID 10",
+  "description": "Diretório da Classificação Internacional de Doenças (CID) 10.\r\n\r\nOriginal em http://www.datasus.gov.br/cid10/V2008/cid10.htm.",
+  "columns": [
+    {
+      "name": "capitulo",
+      "type": "STRING",
+      "description": "Capítulo da CID-10",
+      "needs_decoding": false
+    },
+    {
+      "name": "categoria",
+      "type": "STRING",
+      "description": "Categoria da CID-10",
+      "needs_decoding": false
+    },
+    {
+      "name": "causa_overdose",
+      "type": "INT64",
+      "description": "Causa - Overdose (Categorias F10 F11 F12 F14 F16 F19 T40 T41 T42 T43 T44 T45 T46 T47 T48 T49 T50 X42 X43 X44 X45 X46 X47 X48 X49 X60 X61 X62 X63 X64 X65 X66 X67 X68 X69 Y12 Y13 Y14 Y15 Y16 Y49 Y50 Y51 Z64 Z65)",
+      "needs_decoding": false
+    },
+    {
+      "name": "causa_violencia",
+      "type": "INT64",
+      "description": "Causa - Violência (Categorias W32 W33 W34 X85 X86 X87 X88 X89 X90 X91 X92 X93 X94 X95 X96 X97 X98 X99 Y00 Y01 Y02 Y03 Y04 Y05 Y06 Y07 Y08 Y09 Y10 Y11 Y12 Y13 Y14 Y15 Y16 Y17 Y18 Y19 Y20 Y21 Y22 Y23 Y24 Y25 Y26 Y27 Y28 Y29 Y30 Y31 Y32 Y33 Y34 Y35 Y87 Y89)",
+      "needs_decoding": false
+    },
+    {
+      "name": "descricao_capitulo",
+      "type": "STRING",
+      "description": "Descrição do Capítulo da CID-10",
+      "needs_decoding": false
+    },
+    {
+      "name": "descricao_categoria",
+      "type": "STRING",
+      "description": "Descrição da Categoria da CID-10",
+      "needs_decoding": false
+    },
+    {
+      "name": "descricao_subcategoria",
+      "type": "STRING",
+      "description": "Descrição da Subcategoria da CID-10",
+      "needs_decoding": false
+    },
+    {
+      "name": "indicador_registro_ativo",
+      "type": "INT64",
+      "description": "Indicador de que o código CID-10 está ativo",
+      "needs_decoding": false
+    },
+    {
+      "name": "subcategoria",
+      "type": "STRING",
+      "description": "Subcategoria da CID-10",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": null,
+  "period_end": null
+}

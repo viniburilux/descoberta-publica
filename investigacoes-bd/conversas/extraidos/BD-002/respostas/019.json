@@ -1,0 +1,77 @@
+{
+  "id": "700c7b32-3e05-4085-b3c3-917466bba7c9",
+  "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811",
+  "gcp_id": "basedosdados.br_mgi_pncp.contratacao",
+  "name": "Contratação",
+  "description": "Contratações públicas (licitações, dispensas e inexigibilidades) divulgadas no Portal Nacional de Contratações Públicas, abrangendo os três níveis de governo. Uma linha por contratação, identificada pelo número de controle no PNCP.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano de publicação do registro no PNCP",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano_compra",
+      "type": "INT64",
+      "description": "Ano da compra atribuído pelo órgão contratante",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_orgao",
+      "type": "STRING",
+      "description": "CNPJ do órgão ou entidade contratante",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_orgao_subrogado",
+      "type": "STRING",
+      "description": "CNPJ do órgão sub-rogado, quando a competência foi transferida",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_amparo_legal",
+      "type": "STRING",
+      "description": "Código do amparo legal invocado para a contratação",
+      "needs_decoding": true
+    },
+    {
+      "name": "codigo_unidade",
+      "type": "STRING",
+      "description": "Código da unidade administrativa responsável dentro do órgão",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_unidade_subrogada",
+      "type": "STRING",
+      "description": "Código da unidade administrativa sub-rogada",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_abertura_proposta",
+      "type": "DATE",
+      "description": "Data de abertura do recebimento de propostas",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_atualizacao",
+      "type": "DATE",
+      "description": "Data da última atualização global do registro no PNCP",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_encerramento_proposta",
+      "type": "DATE",
+      "description": "Data de encerramento do recebimento de propostas",
+      "needs_decoding": false
+    },
+    "... (30 more items)"
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "2021-08-10",
+  "period_end": "2026-09-23"
+}

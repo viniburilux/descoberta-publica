@@ -1,0 +1,67 @@
+{
+  "row_count": 27,
+  "rows": [
+    {
+      "data_extracao": "2026-06-02",
+      "sigla_uf": "SP",
+      "registros": 468571,
+      "imoveis_distintos": 467240
+    },
+    {
+      "data_extracao": "2026-08-01",
+      "sigla_uf": "CE",
+      "registros": 407932,
+      "imoveis_distintos": 407902
+    },
+    {
+      "data_extracao": "2026-08-01",
+      "sigla_uf": "MT",
+      "registros": 217912,
+      "imoveis_distintos": 217267
+    },
+    {
+      "data_extracao": "2026-08-01",
+      "sigla_uf": "PE",
+      "registros": 433648,
+      "imoveis_distintos": 433610
+    },
+    {
+      "data_extracao": "2026-08-01",
+      "sigla_uf": "PI",
+      "registros": 335100,
+      "imoveis_distintos": 335077
+    },
+    {
+      "data_extracao": "2026-08-01",
+      "sigla_uf": "RJ",
+      "registros": 68870,
+      "imoveis_distintos": 68846
+    },
+    {
+      "data_extracao": "2026-08-01",
+      "sigla_uf": "RN",
+      "registros": 117001,
+      "imoveis_distintos": 116995
+    },
+    {
+      "data_extracao": "2026-08-01",
+      "sigla_uf": "RS",
+      "registros": 673957,
+      "imoveis_distintos": 673936
+    },
+    {
+      "data_extracao": "2026-08-02",
+      "sigla_uf": "AC",
+      "registros": 62065,
+      "imoveis_distintos": 62065
+    },
+    {
+      "data_extracao": "2026-08-02",
+      "sigla_uf": "AP",
+      "registros": 17693,
+      "imoveis_distintos": 17689
+    },
+    "... (17 more items)"
+  ],
+  "query_ref": "qr_2c81c572c87e4a6f8f37e40211aef910"
+}

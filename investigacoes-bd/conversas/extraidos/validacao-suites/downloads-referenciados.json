@@ -1,0 +1,189 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_36fb3322f59b4456a7662a1a8df16253",
+    "slug": "01_chaves_nulas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_78b5e2b77fc04dc8948ab4e05eba74e1",
+    "slug": "03_transformacoes",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_da8da48b64e84032a5be0664b2a81b4d",
+    "slug": "06_estrutura",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_8dfa9a59856643aea5efec779a05233f",
+    "slug": "05_residuos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_48fac946696945ccaa0145f3f4d07e0b",
+    "slug": "02_duplicidade",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_633ce0ad7b9e441ba1ced39fda253748",
+    "slug": "02_duplicidade_rais_cnae",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_fa03d0d162304f31b0e4b77d984f8ba3",
+    "slug": "05_residuos_rais_cnae",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_69ef908a403e47169779df9e5b5a8fc3",
+    "slug": "01_chaves_nulas_rais_cnae",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_6e7209ab689644b8abc7692bf9ea0ca1",
+    "slug": "03_transformacoes_rais_cnae",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_802c6540ee1049749f944f1eda8fd12b",
+    "slug": "03_transformacoes_ibama_autos_embargos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_6006e2b683604c27a396ef462a449365",
+    "slug": "05_residuos_ibama_autos_embargos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_175fba619f8c48c7a258ab771890d57f",
+    "slug": "02_duplicidade_ibama_autos_embargos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_4effff192e124b76918b273cafdde30e",
+    "slug": "01_chaves_nulas_ibama_autos_embargos",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_dca944b3bb5842f08c2d77c3d685ba25",
+    "slug": "03_transformacoes_prodes_mapbiomas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_b0d09c710463479d9d7257b810ac86df",
+    "slug": "01_chaves_nulas_prodes_mapbiomas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_a465abf248214f4483fe9613ac8a234f",
+    "slug": "02_duplicidade_prodes_mapbiomas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_c631b6d14c4647e790d6be02bf900a28",
+    "slug": "05_residuos_prodes_mapbiomas",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

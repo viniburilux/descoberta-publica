@@ -1,0 +1,750 @@
+[
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 0,
+    "call_id": "call_pDkNCNARCDomfss88fxRZohe",
+    "nome": "search_datasets",
+    "args": {
+      "query": "censo"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 0,
+    "call_id": "call_mUm8l78wP5ruEIE5QPVw4GI6",
+    "nome": "search_datasets",
+    "args": {
+      "query": "saude"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 0,
+    "call_id": "call_vxqJ5Kltb0QKbML2kvYFIOyD",
+    "nome": "search_datasets",
+    "args": {
+      "query": "educacao"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 0,
+    "call_id": "call_icvpXK0IxbXWPgDN9xCLYMVZ",
+    "nome": "search_datasets",
+    "args": {
+      "query": "economia"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 0,
+    "call_id": "call_18kJMwBINNLPR2ATdHVPlu22",
+    "nome": "search_datasets",
+    "args": {
+      "query": "financas"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 0,
+    "call_id": "call_bMScZu2riynLYRPRZViWtL5Q",
+    "nome": "search_datasets",
+    "args": {
+      "query": "eleicoes"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 0,
+    "call_id": "call_jRoaSmGx3pp7f5KI6A2rNk20",
+    "nome": "search_datasets",
+    "args": {
+      "query": "trabalho"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 0,
+    "call_id": "call_bXd0P5T2qs6Qq6HW00S8gz9N",
+    "nome": "search_datasets",
+    "args": {
+      "query": "empresas"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 0,
+    "call_id": "call_flJMTUUFNezLIjEP1obWCAPX",
+    "nome": "search_datasets",
+    "args": {
+      "query": "contratacoes"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 0,
+    "call_id": "call_A86nl7rrP2plURM0MVVwgXTZ",
+    "nome": "search_datasets",
+    "args": {
+      "query": "territorio"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 11,
+    "call_id": "call_8E2Fh3MxCplt9yUhTy048rKP",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "d30222ad-7a5c-4778-a1ec-f0785371d1ca"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 11,
+    "call_id": "call_enDVov40ajUJYZzTkqmGATO1",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "b8e8bd62-4eb9-42f9-8fbd-244c3e7c30ec"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 11,
+    "call_id": "call_88omLvPZ9UvNrlhEp1aZlPc0",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 11,
+    "call_id": "call_erx1x1ISpms1mBUXiXbaw1qu",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "562b56a3-0b01-4735-a049-eeac5681f056"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 11,
+    "call_id": "call_Da8PtG1usKI9pCUKNtvo2iaH",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 11,
+    "call_id": "call_UI75O7moC0QL2YBcTebJr2FZ",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23e3a1"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 11,
+    "call_id": "call_FEEoG72edPAKtEJwavmHLFtF",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c"
+    }
+  },
+  {
+    "message_id": "ff637225-6897-49cc-8948-468f47332ef3",
+    "evento": 11,
+    "call_id": "call_LHHCG7h38MPOypMtTQw9JfTq",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "fcf025ca-8b19-4131-8e2d-5ddb12492347"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 0,
+    "call_id": "call_LkU6p33ZsFNDwmSWva76UDjJ",
+    "nome": "search_datasets",
+    "args": {
+      "query": "emendas"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 0,
+    "call_id": "call_ohxqjdyg0Y2mljoxJfHvOcG1",
+    "nome": "search_datasets",
+    "args": {
+      "query": "internacoes"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 0,
+    "call_id": "call_NXYfrKPccT8uIdykuFjIms6F",
+    "nome": "search_datasets",
+    "args": {
+      "query": "DATASUS"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 0,
+    "call_id": "call_q80EHLd2x8nIPHjBemhEcTIe",
+    "nome": "search_datasets",
+    "args": {
+      "query": "doencas"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 0,
+    "call_id": "call_OMgsZ66anh5EP8YmnpGn5RjP",
+    "nome": "search_datasets",
+    "args": {
+      "query": "Nordeste"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 6,
+    "call_id": "call_KahOhULzW3tQB4TClUGYAz18",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "257e000c-1685-418a-88d9-4908ccef2840"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 6,
+    "call_id": "call_DmEVHUNuoidifvJqLYGAC2sF",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "ff933265-8b61-4458-877a-173b3f38102b"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 6,
+    "call_id": "call_13JHWhNxlPmw0my7qCKb94L3",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 6,
+    "call_id": "call_jGWvTypPNmM18IZF5wx8P40c",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "d30222ad-7a5c-4778-a1ec-f0785371d1ca"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 11,
+    "call_id": "call_Tcj6Ky4E0ycOfBAocfPDCn9c",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "f116068d-b65d-4d04-9bcb-368e70062c4b"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 11,
+    "call_id": "call_z2v7BEoBnwuQyJJ4cMPV2cEs",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "74f616d0-933c-4198-9f8e-00858eff807d"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 11,
+    "call_id": "call_n4NT0f2uyvAkQ1vW4nXOBamN",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 11,
+    "call_id": "call_bIr2TP2tXFdWR84DHWBqM1Vb",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "cb11b295-4ecc-49cc-b60a-c1162d456872"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 16,
+    "call_id": "call_Csct3r8eTtMxIGuwfNSYdN9v",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "0c279444-165b-41da-92cd-50fd7e66baa1"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 18,
+    "call_id": "call_EycJunxsQ1MSxeawRvTPn1hO",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH municipios_ne AS (\n  SELECT id_municipio\n  FROM `basedosdados.br_bd_diretorios_brasil.municipio`\n  WHERE nome_regiao = 'Nordeste'\n),\nanos AS (\n  SELECT ano FROM UNNEST(GENERATE_ARRAY(2018, 2025)) AS ano\n),\nbase_municipio_ano AS (\n  SELECT m.id_municipio, a.ano\n  FROM municipios_ne m\n  CROSS JOIN anos a\n),\nemendas AS (\n  SELECT\n    SAFE_CAST(id_municipio_gasto AS STRING) AS id_municipio,\n    ano_emenda AS ano,\n    SUM(COALESCE(valor_pago, 0)) AS emendas_pagas\n  FROM `basedosdados.br_cgu_emendas_parlamentares.microdados`\n  WHERE ano_emenda BETWEEN 2018 AND 2025\n    AND id_municipio_gasto IS NOT NULL\n  GROUP BY 1, 2\n),\ninternacoes AS (\n  SELECT\n    id_municipio_paciente AS id_municipio,\n    ano,\n    COUNT(*) AS internacoes_hidricas\n  FROM `basedosdados.br_ms_sih.aihs_reduzidas`\n  WHERE ano BETWEEN 2018 AND 2025\n    AND mes BETWEEN 1 AND 12\n    AND sigla_uf IN ('AL','BA','CE','MA','PB','PE','PI','RN','SE')\n    -- Proxy restrito: diagnósticos principais A00-A09, doenças infecciosas intestinais.\n    AND cid_principal_categoria IN ('A00','A01','A02','A03','A04','A05','A06','A07','A08','A09')\n    AND id_municipio_paciente IN (SELECT id_municipio FROM municipios_ne)\n  GROUP BY 1, 2\n),\npopulacao AS (\n  SELECT id_municipio, ano, populacao\n  FROM `basedosdados.br_ibge_populacao.municipio`\n  WHERE ano BETWEEN 2018 AND 2025\n    AND sigla_uf IN ('AL','BA','CE','MA','PB','PE','PI','RN','SE')\n),\npainel AS (\n  SELECT\n    b.id_municipio,\n    b.ano,\n    COALESCE(e.emendas_pagas, 0) AS emendas_pagas,\n    COALESCE(i.internacoes_hidricas, 0) AS internacoes_hidricas,\n    p.populacao,\n    SAFE_DIVIDE(COALESCE(i.internacoes_hidricas, 0) * 100000.0, p.populacao) AS taxa_internacoes_100k\n  FROM base_municipio_ano b\n  LEFT JOIN emendas e USING (id_municipio, ano)\n  LEFT JOIN internacoes i USING (id_municipio, ano)\n  LEFT JOIN populacao p USING (id_municipio, ano)\n  WHERE p.populacao IS NOT NULL\n),\ncom_lag AS (\n  SELECT\n    *,\n    LEAD(taxa_internacoes_100k) OVER (PARTITION BY id_municipio ORDER BY ano) AS taxa_internacoes_ano_seguinte\n  FROM painel\n)\nSELECT 'pooled_contemporanea' AS analise, CAST(NULL AS INT64) AS ano, COUNT(*) AS observacoes, CORR(emendas_pagas, taxa_internacoes_100k) AS correlacao_pearson\nFROM painel\nUNION ALL\nSELECT 'pooled_defasagem_emendas_1_ano', CAST(NULL AS INT64), COUNTIF(taxa_internacoes_ano_seguinte IS NOT NULL), CORR(emendas_pagas, taxa_internacoes_ano_seguinte)\nFROM com_lag\nUNION ALL\nSELECT 'por_ano', ano, COUNT(*) AS observacoes, CORR(emendas_pagas, taxa_internacoes_100k)\nFROM painel\nGROUP BY ano\nORDER BY analise, ano",
+      "slug": "correlacao_emendas_doencas_hidricas"
+    },
+    "arquivo_sql": "sql/001.sql"
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 20,
+    "call_id": "call_FJAMKaeGYwAFXwn1eJM0AmKK",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH municipios_ne AS (\n  SELECT id_municipio\n  FROM `basedosdados.br_bd_diretorios_brasil.municipio`\n  WHERE nome_regiao = 'Nordeste'\n),\nanos AS (\n  SELECT ano FROM UNNEST(GENERATE_ARRAY(2018, 2025)) AS ano\n),\nbase_municipio_ano AS (\n  SELECT m.id_municipio, a.ano\n  FROM municipios_ne m\n  CROSS JOIN anos a\n),\nemendas AS (\n  SELECT\n    CAST(id_municipio_gasto AS STRING) AS id_municipio,\n    ano_emenda AS ano,\n    SUM(COALESCE(valor_pago, 0)) AS emendas_pagas\n  FROM `basedosdados.br_cgu_emendas_parlamentares.microdados`\n  WHERE ano_emenda BETWEEN 2018 AND 2025\n    AND id_municipio_gasto IS NOT NULL\n  GROUP BY 1, 2\n),\ninternacoes AS (\n  SELECT\n    id_municipio_paciente AS id_municipio,\n    ano,\n    COUNT(*) AS internacoes_hidricas\n  FROM `basedosdados.br_ms_sih.aihs_reduzidas`\n  WHERE ano BETWEEN 2018 AND 2025\n    AND mes BETWEEN 1 AND 12\n    AND sigla_uf IN ('AL','BA','CE','MA','PB','PE','PI','RN','SE')\n    -- Proxy restrito: diagnósticos principais A00-A09, doenças infecciosas intestinais.\n    AND CAST(cid_principal_categoria AS STRING) IN ('A00','A01','A02','A03','A04','A05','A06','A07','A08','A09')\n    AND id_municipio_paciente IN (SELECT id_municipio FROM municipios_ne)\n  GROUP BY 1, 2\n),\npopulacao AS (\n  SELECT id_municipio, ano, populacao\n  FROM `basedosdados.br_ibge_populacao.municipio`\n  WHERE ano BETWEEN 2018 AND 2025\n    AND sigla_uf IN ('AL','BA','CE','MA','PB','PE','PI','RN','SE')\n),\npainel AS (\n  SELECT\n    b.id_municipio,\n    b.ano,\n    COALESCE(e.emendas_pagas, 0) AS emendas_pagas,\n    COALESCE(i.internacoes_hidricas, 0) AS internacoes_hidricas,\n    p.populacao,\n    SAFE_DIVIDE(COALESCE(i.internacoes_hidricas, 0) * 100000.0, p.populacao) AS taxa_internacoes_100k\n  FROM base_municipio_ano b\n  LEFT JOIN emendas e USING (id_municipio, ano)\n  LEFT JOIN internacoes i USING (id_municipio, ano)\n  LEFT JOIN populacao p USING (id_municipio, ano)\n  WHERE p.populacao IS NOT NULL\n),\ncom_lag AS (\n  SELECT\n    *,\n    LEAD(taxa_internacoes_100k) OVER (PARTITION BY id_municipio ORDER BY ano) AS taxa_internacoes_ano_seguinte\n  FROM painel\n)\nSELECT 'pooled_contemporanea' AS analise, CAST(NULL AS INT64) AS ano, COUNT(*) AS observacoes, CORR(emendas_pagas, taxa_internacoes_100k) AS correlacao_pearson\nFROM painel\nUNION ALL\nSELECT 'pooled_defasagem_emendas_1_ano', CAST(NULL AS INT64), COUNTIF(taxa_internacoes_ano_seguinte IS NOT NULL), CORR(emendas_pagas, taxa_internacoes_ano_seguinte)\nFROM com_lag\nUNION ALL\nSELECT 'por_ano', ano, COUNT(*) AS observacoes, CORR(emendas_pagas, taxa_internacoes_100k)\nFROM painel\nGROUP BY ano\nORDER BY analise, ano",
+      "slug": "correlacao_emendas_doencas_hidricas_v2"
+    },
+    "arquivo_sql": "sql/002.sql"
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 22,
+    "call_id": "call_0g1D70bCyB6XLKY9jWuCYmIU",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "00cec87b-0f49-4aef-aa50-8d64336bd245"
+    }
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 24,
+    "call_id": "call_qCaNHRrrkMd7XJ6yDEQWMiB9",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT sigla_uf, COUNT(*) AS n\nFROM `basedosdados.br_ms_sih.aihs_reduzidas`\nWHERE ano = 2025 AND mes = 1\nGROUP BY sigla_uf\nORDER BY sigla_uf",
+      "slug": "valores_uf_sih"
+    },
+    "arquivo_sql": "sql/003.sql"
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 26,
+    "call_id": "call_2wyANvKrgfZlAxOXYvy4yRsu",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH municipios_ne AS (\n  SELECT id_municipio\n  FROM `basedosdados.br_bd_diretorios_brasil.municipio`\n  WHERE nome_regiao = 'Nordeste'\n),\nanos AS (\n  SELECT ano FROM UNNEST(GENERATE_ARRAY(2018, 2025)) AS ano\n),\nbase_municipio_ano AS (\n  SELECT m.id_municipio, a.ano\n  FROM municipios_ne m\n  CROSS JOIN anos a\n),\nemendas AS (\n  SELECT\n    CAST(id_municipio_gasto AS STRING) AS id_municipio,\n    ano_emenda AS ano,\n    SUM(COALESCE(valor_pago, 0)) AS emendas_pagas\n  FROM `basedosdados.br_cgu_emendas_parlamentares.microdados`\n  WHERE ano_emenda BETWEEN 2018 AND 2025\n    AND id_municipio_gasto IS NOT NULL\n  GROUP BY 1, 2\n),\ninternacoes AS (\n  SELECT\n    id_municipio_paciente AS id_municipio,\n    ano,\n    COUNT(*) AS internacoes_hidricas\n  FROM `basedosdados.br_ms_sih.aihs_reduzidas`\n  WHERE ano BETWEEN 2018 AND 2025\n    AND mes BETWEEN 1 AND 12\n    -- A coluna sigla_uf aparece nula na tabela; ano e mês filtram as partições.\n    AND CAST(cid_principal_categoria AS STRING) IN ('A00','A01','A02','A03','A04','A05','A06','A07','A08','A09')\n    AND id_municipio_paciente IN (SELECT id_municipio FROM municipios_ne)\n  GROUP BY 1, 2\n),\npopulacao AS (\n  SELECT id_municipio, ano, populacao\n  FROM `basedosdados.br_ibge_populacao.municipio`\n  WHERE ano BETWEEN 2018 AND 2025\n),\npainel AS (\n  SELECT\n    b.id_municipio,\n    b.ano,\n    COALESCE(e.emendas_pagas, 0) AS emendas_pagas,\n    COALESCE(i.internacoes_hidricas, 0) AS internacoes_hidricas,\n    p.populacao,\n    SAFE_DIVIDE(COALESCE(i.internacoes_hidricas, 0) * 100000.0, p.populacao) AS taxa_internacoes_100k\n  FROM base_municipio_ano b\n  LEFT JOIN emendas e USING (id_municipio, ano)\n  LEFT JOIN internacoes i USING (id_municipio, ano)\n  LEFT JOIN populacao p USING (id_municipio, ano)\n  WHERE p.populacao IS NOT NULL\n),\ncom_lag AS (\n  SELECT\n    *,\n    LEAD(taxa_internacoes_100k) OVER (PARTITION BY id_municipio ORDER BY ano) AS taxa_internacoes_ano_seguinte\n  FROM painel\n)\nSELECT 'pooled_contemporanea' AS analise, CAST(NULL AS INT64) AS ano, COUNT(*) AS observacoes, CORR(emendas_pagas, taxa_internacoes_100k) AS correlacao_pearson\nFROM painel\nUNION ALL\nSELECT 'pooled_defasagem_emendas_1_ano', CAST(NULL AS INT64), COUNTIF(taxa_internacoes_ano_seguinte IS NOT NULL), CORR(emendas_pagas, taxa_internacoes_ano_seguinte)\nFROM com_lag\nUNION ALL\nSELECT 'por_ano', ano, COUNT(*) AS observacoes, CORR(emendas_pagas, taxa_internacoes_100k)\nFROM painel\nGROUP BY ano\nORDER BY analise, ano",
+      "slug": "correlacao_emendas_doencas_hidricas_final"
+    },
+    "arquivo_sql": "sql/004.sql"
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 28,
+    "call_id": "call_V3jwK6KnWJlPDbyJNpztb6WV",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT CAST(cid_principal_categoria AS STRING) AS cid, COUNT(*) AS n\nFROM `basedosdados.br_ms_sih.aihs_reduzidas`\nWHERE ano = 2025 AND mes = 1\nGROUP BY cid\nORDER BY n DESC\nLIMIT 30",
+      "slug": "categorias_cid_sih"
+    },
+    "arquivo_sql": "sql/005.sql"
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 30,
+    "call_id": "call_q0Kg0POE0DAmD7WG8MzOks0t",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  SUM(COALESCE(valor_pago,0)) AS total_pago,\n  COUNTIF(COALESCE(valor_pago,0) > 0) AS linhas_pago_positivo,\n  COUNTIF(id_municipio_gasto IS NOT NULL) AS linhas_com_municipio,\n  COUNT(*) AS linhas\nFROM `basedosdados.br_cgu_emendas_parlamentares.microdados`\nWHERE ano_emenda BETWEEN 2018 AND 2025",
+      "slug": "validacao_emendas_municipios"
+    },
+    "arquivo_sql": "sql/006.sql"
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 32,
+    "call_id": "call_HEyqnvDTWSRkB4Tdm2SDl98Q",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT CAST(id_municipio_gasto AS STRING) AS id_municipio_gasto, sigla_uf_gasto, COUNT(*) AS n\nFROM `basedosdados.br_cgu_emendas_parlamentares.microdados`\nWHERE ano_emenda BETWEEN 2018 AND 2025\n  AND id_municipio_gasto IS NOT NULL\nGROUP BY 1,2\nORDER BY n DESC\nLIMIT 20",
+      "slug": "amostra_codigos_emendas"
+    },
+    "arquivo_sql": "sql/007.sql"
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 34,
+    "call_id": "call_I40XFA120Pv25dnWyaLNu5cK",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  COUNTIF(REGEXP_CONTAINS(id_municipio_gasto, r'^[0-9]+$')) AS numericos,\n  COUNTIF(NOT REGEXP_CONTAINS(id_municipio_gasto, r'^[0-9]+$')) AS nao_numericos,\n  MIN(LENGTH(id_municipio_gasto)) AS min_tamanho,\n  MAX(LENGTH(id_municipio_gasto)) AS max_tamanho\nFROM `basedosdados.br_cgu_emendas_parlamentares.microdados`\nWHERE ano_emenda BETWEEN 2018 AND 2025\n  AND id_municipio_gasto IS NOT NULL",
+      "slug": "validacao_codigos_municipio_emendas"
+    },
+    "arquivo_sql": "sql/008.sql"
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 36,
+    "call_id": "call_zJEAagbc3sNuYMlUIaW8MNg8",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  COUNT(*) AS emendas_numericas,\n  COUNTIF(m.id_municipio IS NOT NULL) AS municipios_ne_joinados,\n  SUM(COALESCE(e.valor_pago,0)) AS valor_pago_ne\nFROM `basedosdados.br_cgu_emendas_parlamentares.microdados` e\nLEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m\n  ON e.id_municipio_gasto = m.id_municipio\n AND m.nome_regiao = 'Nordeste'\nWHERE e.ano_emenda BETWEEN 2018 AND 2025\n  AND REGEXP_CONTAINS(e.id_municipio_gasto, r'^[0-9]+$')",
+      "slug": "validacao_join_emendas_ne"
+    },
+    "arquivo_sql": "sql/009.sql"
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 38,
+    "call_id": "call_sVgP5swrqnFyamgbjvF6zUAi",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  COUNT(*) AS internacoes_a00_a09,\n  COUNTIF(m.id_municipio IS NOT NULL) AS com_municipio_ne,\n  COUNT(DISTINCT id_municipio_paciente) AS municipios_distintos\nFROM `basedosdados.br_ms_sih.aihs_reduzidas` s\nLEFT JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m\n  ON s.id_municipio_paciente = m.id_municipio\n AND m.nome_regiao = 'Nordeste'\nWHERE ano = 2025 AND mes = 1\n  AND CAST(cid_principal_categoria AS STRING) IN ('A00','A01','A02','A03','A04','A05','A06','A07','A08','A09')",
+      "slug": "validacao_internacoes_hidricas"
+    },
+    "arquivo_sql": "sql/010.sql"
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 40,
+    "call_id": "call_g0SEbCLpW7v0mhNpVzv9Zkq0",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT id_municipio_paciente, sigla_uf, COUNT(*) AS n\nFROM `basedosdados.br_ms_sih.aihs_reduzidas`\nWHERE ano = 2025 AND mes = 1\n  AND CAST(cid_principal_categoria AS STRING) = 'A09'\nGROUP BY 1,2\nORDER BY n DESC\nLIMIT 20",
+      "slug": "amostra_municipios_sih"
+    },
+    "arquivo_sql": "sql/011.sql"
+  },
+  {
+    "message_id": "7767aaf7-084a-4845-b51b-cb3c5a59a62e",
+    "evento": 42,
+    "call_id": "call_qSaxcVWjHtjBzzwVEdvG9Dec",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH municipios_ne AS (\n  SELECT id_municipio, id_municipio_6\n  FROM `basedosdados.br_bd_diretorios_brasil.municipio`\n  WHERE nome_regiao = 'Nordeste'\n),\nanos AS (\n  SELECT ano FROM UNNEST(GENERATE_ARRAY(2018, 2025)) AS ano\n),\nbase_municipio_ano AS (\n  SELECT m.id_municipio, a.ano\n  FROM municipios_ne m\n  CROSS JOIN anos a\n),\nemendas AS (\n  SELECT\n    e.id_municipio_gasto AS id_municipio,\n    e.ano_emenda AS ano,\n    SUM(COALESCE(e.valor_pago, 0)) AS emendas_pagas\n  FROM `basedosdados.br_cgu_emendas_parlamentares.microdados` e\n  INNER JOIN municipios_ne m ON e.id_municipio_gasto = m.id_municipio\n  WHERE e.ano_emenda BETWEEN 2018 AND 2025\n    AND REGEXP_CONTAINS(e.id_municipio_gasto, r'^[0-9]+$')\n  GROUP BY 1, 2\n),\ninternacoes AS (\n  SELECT\n    m.id_municipio,\n    s.ano,\n    COUNT(*) AS internacoes_hidricas\n  FROM `basedosdados.br_ms_sih.aihs_reduzidas` s\n  INNER JOIN municipios_ne m ON s.id_municipio_paciente = m.id_municipio_6\n  WHERE s.ano BETWEEN 2018 AND 2025\n    AND s.mes BETWEEN 1 AND 12\n    -- Proxy restrito: diagnósticos principais A00-A09, doenças infecciosas intestinais.\n    AND CAST(s.cid_principal_categoria AS STRING) IN ('A00','A01','A02','A03','A04','A05','A06','A07','A08','A09')\n  GROUP BY 1, 2\n),\npopulacao AS (\n  SELECT id_municipio, ano, populacao\n  FROM `basedosdados.br_ibge_populacao.municipio`\n  WHERE ano BETWEEN 2018 AND 2025\n),\npainel AS (\n  SELECT\n    b.id_municipio,\n    b.ano,\n    COALESCE(e.emendas_pagas, 0) AS emendas_pagas,\n    COALESCE(i.internacoes_hidricas, 0) AS internacoes_hidricas,\n    p.populacao,\n    SAFE_DIVIDE(COALESCE(i.internacoes_hidricas, 0) * 100000.0, p.populacao) AS taxa_internacoes_100k\n  FROM base_municipio_ano b\n  LEFT JOIN emendas e USING (id_municipio, ano)\n  LEFT JOIN internacoes i USING (id_municipio, ano)\n  LEFT JOIN populacao p USING (id_municipio, ano)\n  WHERE p.populacao IS NOT NULL\n),\ncom_lag AS (\n  SELECT\n    *,\n    LEAD(taxa_internacoes_100k) OVER (PARTITION BY id_municipio ORDER BY ano) AS taxa_internacoes_ano_seguinte\n  FROM painel\n)\nSELECT 'pooled_contemporanea' AS analise, CAST(NULL AS INT64) AS ano, COUNT(*) AS observacoes, CORR(emendas_pagas, taxa_internacoes_100k) AS correlacao_pearson\nFROM painel\nUNION ALL\nSELECT 'pooled_defasagem_emendas_1_ano', CAST(NULL AS INT64), COUNTIF(taxa_internacoes_ano_seguinte IS NOT NULL), CORR(emendas_pagas, taxa_internacoes_ano_seguinte)\nFROM com_lag\nUNION ALL\nSELECT 'por_ano', ano, COUNT(*) AS observacoes, CORR(emendas_pagas, taxa_internacoes_100k)\nFROM painel\nGROUP BY ano\nORDER BY analise, ano",
+      "slug": "correlacao_emendas_doencas_hidricas_corrigida"
+    },
+    "arquivo_sql": "sql/012.sql"
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 0,
+    "call_id": "call_j6KyZ8FpQ4tNgfcAq1AXS8h9",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23e8e82ee"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 0,
+    "call_id": "call_JOKETBunYb4HjTgrbxnXpkpM",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 0,
+    "call_id": "call_gbvNo5rui3krkshURKYFtfSS",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 0,
+    "call_id": "call_6r7gA0PJyhs6IQTK4Z7Lu3p7",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 5,
+    "call_id": "call_ClVUr5YV0vh5M2fvKtx23jSC",
+    "nome": "search_datasets",
+    "args": {
+      "query": "eleicoes brasileiras"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 7,
+    "call_id": "call_q8sY5M8IeSNJJwefW9ybfEEQ",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 9,
+    "call_id": "call_GPnEw2QkmzlXVqMQoFMZHJlS",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "9b07b4ba-f6c1-4df8-9c30-6ee92b8258a5"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 9,
+    "call_id": "call_WjWGyu9wrsdtru6CVZK2bRvT",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "823f0540-0034-40cc-aa68-bfe077e82cd2"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 9,
+    "call_id": "call_espHiV3djyIIjyengqzABLnF",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "16e2c1a4-2444-4bf3-a268-4d20db9c9e95"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 9,
+    "call_id": "call_lFWbQ8mnVX9f8TP1eCJMGkrM",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "12e35a4c-829d-4ba8-86c2-8e983853d59a"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 9,
+    "call_id": "call_85k1cSZo4lGrJWFxdYc1PvBa",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "700c7b32-3e05-4085-b3c3-917466bba7c9"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 9,
+    "call_id": "call_sXp3skCVCe5KLQiS2gmd3Ia4",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "f7bf63e6-dc55-4953-acf6-4db7fc99f1f7"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 9,
+    "call_id": "call_phLwOtip1wSYhDnv8mIVCfqN",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "3dbb38d1-65af-44a3-b43a-7b088891ebc0"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 17,
+    "call_id": "call_UEU2dUbSiG1ahqaPIEZjPBiP",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  ano,\n  COUNT(*) AS registros_contrato,\n  COUNTIF(valor_global IS NOT NULL) AS contratos_com_valor,\n  SUM(COALESCE(valor_global, 0)) AS soma_valor_global\nFROM `basedosdados.br_mgi_pncp.contrato`\nWHERE ano IN (2021, 2022, 2025, 2026)\nGROUP BY ano\nORDER BY ano",
+      "slug": "cobertura_pncp_periodos"
+    },
+    "arquivo_sql": "sql/013.sql"
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 19,
+    "call_id": "call_jFv7F5NnJKMQ6ZjCJv8T1dQW",
+    "nome": "decode_table_values",
+    "args": {
+      "table_gcp_id": "basedosdados.br_mgi_pncp.contrato",
+      "column_name": "id_esfera"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 19,
+    "call_id": "call_IMrAyI5cGv7SDXX6ePyw1miG",
+    "nome": "decode_table_values",
+    "args": {
+      "table_gcp_id": "basedosdados.br_mgi_pncp.contrato",
+      "column_name": "id_poder"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 19,
+    "call_id": "call_VWOvQ98ycujQkONPNneepDPx",
+    "nome": "decode_table_values",
+    "args": {
+      "table_gcp_id": "basedosdados.br_mgi_pncp.contratacao",
+      "column_name": "id_modalidade"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 19,
+    "call_id": "call_UvdcqBYq9bRJd83hL6z3zbht",
+    "nome": "decode_table_values",
+    "args": {
+      "table_gcp_id": "basedosdados.br_mgi_pncp.contrato",
+      "column_name": "id_tipo_contrato"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 19,
+    "call_id": "call_5ms2qtgy6s3LTpCpkLgwiJA0",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT ano, tipo_eleicao, cargo, situacao, COUNT(*) AS n\nFROM `basedosdados.br_tse_eleicoes.candidatos`\nWHERE ano = 2020\n  AND cargo = 'Prefeito'\nGROUP BY ano, tipo_eleicao, cargo, situacao\nORDER BY tipo_eleicao, situacao",
+      "slug": "valores_eleicao_2020"
+    },
+    "arquivo_sql": "sql/014.sql"
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 25,
+    "call_id": "call_ZeEoRsPQzgvcquNlLb9kNWji",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT cargo, tipo_eleicao, situacao, COUNT(*) AS n\nFROM `basedosdados.br_tse_eleicoes.candidatos`\nWHERE ano = 2020\nGROUP BY cargo, tipo_eleicao, situacao\nORDER BY n DESC\nLIMIT 30",
+      "slug": "valores_candidatos_2020"
+    },
+    "arquivo_sql": "sql/015.sql"
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 27,
+    "call_id": "call_hqp5j9Ijm7q3FhKUSVke0HgN",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT resultado, COUNT(*) AS n\nFROM `basedosdados.br_tse_eleicoes.resultados_candidato`\nWHERE ano = 2020 AND cargo = 'prefeito' AND tipo_eleicao = 'eleicao ordinaria'\nGROUP BY resultado ORDER BY n DESC",
+      "slug": "resultados_prefeito_2020"
+    },
+    "arquivo_sql": "sql/016.sql"
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 27,
+    "call_id": "call_ST9hmGrBXclrPvODp1iOx2dj",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT tipo_doador_orig, natureza_receita, COUNT(*) AS n, SUM(valor_receita) AS valor\nFROM `basedosdados.br_tse_eleicoes.receitas_candidato`\nWHERE ano = 2020\n  AND id_municipio IN (SELECT id_municipio FROM `basedosdados.br_bd_diretorios_brasil.municipio` WHERE capital_uf = 1)\nGROUP BY tipo_doador_orig, natureza_receita\nORDER BY n DESC\nLIMIT 30",
+      "slug": "tipos_doadores_2020_capitais"
+    },
+    "arquivo_sql": "sql/017.sql"
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 27,
+    "call_id": "call_1uX4yBlfb6ceKUT4bzOLRisp",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "4f99de2e-72bc-4597-9cde-1a2c1befedb5"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 27,
+    "call_id": "call_HgsSaiexC8xQfCDuDFd6aXKz",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "f8ea6a04-dd5f-4a8b-9bd4-8556a905e809"
+    }
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 32,
+    "call_id": "call_7PjLRf3a163LarIsuxSBzBfs",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  COUNT(*) AS total,\n  COUNTIF(REGEXP_CONTAINS(cpf_cnpj_doador, r'^[0-9]{11}$')) AS cpf_11_digitos,\n  COUNTIF(REGEXP_CONTAINS(cpf_cnpj_doador, r'^[0-9]{14}$')) AS cnpj_14_digitos,\n  COUNTIF(cpf_cnpj_doador IS NULL) AS nulos\nFROM `basedosdados.br_tse_eleicoes.receitas_candidato`\nWHERE ano = 2020",
+      "slug": "formato_doadores_2020"
+    },
+    "arquivo_sql": "sql/018.sql"
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 32,
+    "call_id": "call_4UW2gMVPKHirQm18yv1rB5Aj",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  data_referencia,\n  COUNT(*) AS registros,\n  COUNTIF(REGEXP_CONTAINS(documento, r'^[0-9]{11}$')) AS documentos_cpf_11,\n  COUNTIF(REGEXP_CONTAINS(documento, r'^[0-9]{14}$')) AS documentos_cnpj_14,\n  COUNTIF(REGEXP_CONTAINS(documento, r'\\*')) AS documentos_mascarados,\n  COUNTIF(REGEXP_CONTAINS(cpf_representante_legal, r'^[0-9]{11}$')) AS representantes_cpf_11,\n  COUNTIF(REGEXP_CONTAINS(cpf_representante_legal, r'\\*')) AS representantes_mascarados\nFROM `basedosdados.br_rf_cnpj.socios`\nWHERE data_referencia IN ('2021-11-01','2026-11-01')\nGROUP BY data_referencia\nORDER BY data_referencia",
+      "slug": "formato_qsa_cpfs"
+    },
+    "arquivo_sql": "sql/019.sql"
+  },
+  {
+    "message_id": "97201777-8303-4d11-97a7-005e049987bc",
+    "evento": 32,
+    "call_id": "call_MI3yKJ4HNuXuNHiUiHY3uuaL",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "SELECT\n  COUNT(*) AS receitas,\n  COUNTIF(cpf_cnpj_doador IS NOT NULL) AS doadores_preenchidos,\n  COUNTIF(REGEXP_CONTAINS(cpf_cnpj_doador, r'^[0-9]{11}$')) AS cpfs_11_digitos,\n  COUNTIF(REGEXP_CONTAINS(cpf_cnpj_doador, r'^[0-9]{14}$')) AS cnpjs_14_digitos,\n  SUM(valor_receita) AS valor\nFROM `basedosdados.br_tse_eleicoes.receitas_candidato`\nWHERE ano = 2020\n  AND id_municipio IN (SELECT id_municipio FROM `basedosdados.br_bd_diretorios_brasil.municipio` WHERE capital_uf = 1)\n  AND cargo = 'prefeito'",
+      "slug": "doacoes_prefeitos_capitais_2020"
+    },
+    "arquivo_sql": "sql/020.sql"
+  },
+  {
+    "message_id": "fb79a2b0-3860-481c-aa5d-f03fb2eca5ed",
+    "evento": 0,
+    "call_id": "call_2IUWFHCQk9HQL7Hv0TFxRRJQ",
+    "nome": "search_datasets",
+    "args": {
+      "query": "CNPJ"
+    }
+  },
+  {
+    "message_id": "fb79a2b0-3860-481c-aa5d-f03fb2eca5ed",
+    "evento": 0,
+    "call_id": "call_zbR97Ybjwt2AR1gHd4Daw5Z2",
+    "nome": "search_datasets",
+    "args": {
+      "query": "Receita Federal"
+    }
+  },
+  {
+    "message_id": "fb79a2b0-3860-481c-aa5d-f03fb2eca5ed",
+    "evento": 0,
+    "call_id": "call_tcyXybgB8GxettVykyhxxNPB",
+    "nome": "search_datasets",
+    "args": {
+      "query": "empresas brasileiras"
+    }
+  },
+  {
+    "message_id": "fb79a2b0-3860-481c-aa5d-f03fb2eca5ed",
+    "evento": 0,
+    "call_id": "call_Sxh4VLcOiSR39uwKCvFp5uUq",
+    "nome": "search_datasets",
+    "args": {
+      "query": "socios"
+    }
+  },
+  {
+    "message_id": "fb79a2b0-3860-481c-aa5d-f03fb2eca5ed",
+    "evento": 0,
+    "call_id": "call_TGmGByok109EGtTp6lmtCLRb",
+    "nome": "search_datasets",
+    "args": {
+      "query": "fornecedores"
+    }
+  },
+  {
+    "message_id": "fb79a2b0-3860-481c-aa5d-f03fb2eca5ed",
+    "evento": 6,
+    "call_id": "call_iIsZKWfta2Rem8BdAVJwCYWf",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "WITH vencedores AS (\n  SELECT DISTINCT r.id_municipio, r.sequencial_candidato\n  FROM `basedosdados.br_tse_eleicoes.resultados_candidato` r\n  INNER JOIN `basedosdados.br_bd_diretorios_brasil.municipio` m USING (id_municipio)\n  WHERE r.ano = 2020\n    AND r.tipo_eleicao = 'eleicao ordinaria'\n    AND r.cargo = 'prefeito'\n    AND r.resultado = 'eleito'\n    AND m.capital_uf = 1\n),\nreceitas AS (\n  SELECT DISTINCT\n    x.cpf_cnpj_doador,\n    x.nome_doador,\n    x.sequencial_candidato,\n    x.id_municipio,\n    x.valor_receita\n  FROM `basedosdados.br_tse_eleicoes.receitas_candidato` x\n  INNER JOIN vencedores v\n    ON x.id_municipio = v.id_municipio\n   AND x.sequencial_candidato = v.sequencial_candidato\n  WHERE x.ano = 2020\n)\nSELECT\n  COUNT(*) AS linhas_receita,\n  COUNT(DISTINCT cpf_cnpj_doador) AS doadores_distintos,\n  COUNT(DISTINCT IF(REGEXP_CONTAINS(cpf_cnpj_doador, r'^[0-9]{14}$'), cpf_cnpj_doador, NULL)) AS cnpjs_doadores_distintos,\n  COUNT(DISTINCT IF(REGEXP_CONTAINS(cpf_cnpj_doador, r'^[0-9]{11}$'), cpf_cnpj_doador, NULL)) AS cpfs_doadores_distintos,\n  SUM(valor_receita) AS valor_total_receitas\nFROM receitas",
+      "slug": "doadores_vencedores_capitais_2020"
+    },
+    "arquivo_sql": "sql/021.sql"
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "id": "901f37dd-de5a-4bc2-8547-133ac1661ff7",
+    "name": "Matrizes de Vizinhança no Brasil",
+    "description": "Matrizes de vizinhança de entidades geográficas no Brasil.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "vizinhança"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "08a1546e-251f-4546-9fe0-b1e6ab2b203d",
+    "name": "Censo 2022",
+    "description": "Conhecer em detalhe como é e como vive o nosso povo é de extrema importância para o governo e para a sociedade. Os resultados obtidos através da realização do Censo Demográfico permitem traçar um retrato abrangente e fiel do País.\r\n\r\nO Censo Demográfico produz informações atualizadas e precisas, que são fundamentais para o desenvolvimento e implementação de políticas públicas e para a realização de investimentos, tanto do governo quanto da iniciativa privada. Além disso, uma sociedade que conhece a si mesma pode executar, com eficácia, ações imediatas e planejar com segurança o seu futuro.\r\n\r\nRetratar o Brasil que está entrando numa nova década é um desafio para o IBGE. Qual é o tamanho da população brasileira? Em que condições vive? Como se distribui no Território Nacional? Qual é o nível de escolaridade de nossas crianças e jovens? Quais as condições de emprego e renda da população? Estas e muitas outras perguntas serão respondidas pelo Censo Demográfico que o IBGE realiza em 2022.\r\n\r\n-------\r\n\r\n* Incluímos nas tabelas disponibilizadas pelo sistema Sidra a numeração correspondente à tabela original, ela se encontra no início do título de cada tabela. Ex: 1209 - População, por grupos de idade, onde 1209 representa o número dessa tabela no sistema Sidra.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "idade",
+      "demografia",
+      "desenvolvimento",
+      "habitação",
+      "terra indígena",
+      "casamento",
+      "quilombola",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde",
+      "População",
+      "Religião",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "5c9618d4-fd32-41ff-b834-61349a3bd65f",
+    "name": "Áreas Mínimas Comparáveis (AMC)",
+    "description": "As mudanças ocorridas nas áreas e limites dos municípios impedem comparações geograficamente consistentes da evolução temporal dos dados demográficos, econômicos e sociais. Para possibilitar comparações consistentes no tempo é necessário agregar os municípios em áreas mínimas comparáveis, ou seja, no menor número de municípios necessário para que a área geográfica conjunta permaneça constante ao longo do período de análise. A base contempla qualquer subperíodo arbitrário entre dois anos de censo na faixa entre o primeiro e o último censo demográfico (1872-2010). Baseia-se em material compilado recentemente pelo Instituto Brasileiro de Geografia e Estatística (IBGE).",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "diretório"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "c527a531-db19-425a-ac64-90c180e6286c",
+    "name": "Diretórios Alemanha",
+    "description": "Diretórios de referência para a Alemanha usados nos conjuntos de dados da Base dos Dados: estados (Bundesländer), condados (Kreise), municípios (Gemeinden) com limites de 2021, distritos eleitorais (Wahlkreise) e partidos políticos.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "ad45c5dc-ecc6-43db-ae2c-45d71939e7c5",
+    "name": "Índice Brasileiro de Conectividade",
+    "description": "Dados da Anatel referente ao Índice de Brasileiro de Conectividade, também conhecido como IBC. A agência oferece análises sobre os diferentes aspectos relacionados à conectividades dos municípios e das UFs brasileiras, considerando capacidade da infraestrutura instalada, cobertura de 4G e 5G, além de competitividade na área de conectividade.",
+    "organizations": [
+      "Agência Nacional de Telecomunicações (Anatel)"
+    ],
+    "tags": [
+      "cidades",
+      "concorrência",
+      "competitividade",
+      "governo",
+      "internet",
+      "celular",
+      "município",
+      "desempenho",
+      "desenvolvimento urbano"
+    ],
+    "themes": [
+      "Jornalismo e Comunicação",
+      "Governo e Finanças Públicas",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "e857324e-f50d-4369-bb41-104381878cfc",
+    "name": "Diretórios Chile",
+    "description": "Tabelas de diretório com a divisão político-administrativa do Chile segundo o INE: regiões, províncias e comunas com seus códigos únicos territoriais (CUT) oficiais e a hierarquia entre eles, usadas como chaves estrangeiras por outros conjuntos de dados chilenos. A tabela de regiões traz ainda variantes de nome: nome oficial completo, sigla ISO 3166-2:CL e o ordinal romano histórico.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "divisão administrativa",
+      "código",
+      "diretório",
+      "município"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "9b27a7d8-c310-42d8-a312-631588ad4ba0",
+    "name": "Cadastro do IPTU na cidade de Belo Horizonte",
+    "description": "Dados referente ao cadastro do IPTU na cidade de Belo Horizonte",
+    "organizations": [
+      "Secretaria Municipal de Fazenda de Belo Horizonte"
+    ],
+    "tags": [
+      "CEP",
+      "árvore",
+      "água"
+    ],
+    "themes": [
+      "Economia",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "1eeb071e-cfe0-4a32-a664-8e86fcb49971",
+    "name": "Recenseamento Geral do Império do Brasil de 1872",
+    "description": "O censo demográfico do Brasil de 1872 foi a primeira operação censitária realizada em território brasileiro, à época imperial.\n\nForam recenseados todos os moradores em domicílios (chamados de \"fogo\") particulares e coletivos e que se encontravam nele na data de referência do censo que foi o dia 1º de agosto de 1872. A distribuição da população se fez segundo a cor, o sexo, o estado de livres ou escravos, o estado civil, a nacionalidade, a ocupação e a religião.\n\nOs dados vêm do banco Pop-72, digitalizado e corrigido pelo Núcleo de Pesquisa em História Econômica e Demográfica (NPHED) do Cedeplar/UFMG, e cobrem 1.440 paróquias em 21 províncias. Cada quadro do recenseamento é publicado em duas versões, a original de 1872 e a corrigida pelo NPHED, em três níveis geográficos: paróquia, município e província. As tabelas corrigidas reproduzem os totais nacionais canônicos de 9.930.478 pessoas, das quais 1.510.806 escravizadas; as originais somam 9.952.948 e preservam os erros aritméticos da publicação de 1872, documentados no relatório crítico do NPHED.",
+    "organizations": [
+      "Universidade Federal de Minas Gerais (UFMG)"
+    ],
+    "tags": [
+      "idade",
+      "censo",
+      "demografia",
+      "império",
+      "alfabetização",
+      "migração",
+      "ocupação",
+      "escravidão"
+    ],
+    "themes": [
+      "História",
+      "População"
+    ]
+  },
+  {
+    "id": "ab4af450-6b41-412e-b7cb-ec7030646c3d",
+    "name": "Resultado da Arrecadação Federal",
+    "description": "Dados da arrecadação de impostos e contribuições federais administrados pela Secretaria Especial da Receita Federal do Brasil (RFB).",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "receita",
+      "arrecadação"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  }
+]

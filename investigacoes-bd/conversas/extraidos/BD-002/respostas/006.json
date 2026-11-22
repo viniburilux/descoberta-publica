@@ -1,0 +1,45 @@
+[
+  {
+    "id": "81d89c04-120e-4b7d-aae0-41428f199811",
+    "name": "Portal Nacional de Contratações Públicas (PNCP)",
+    "description": "Contratações públicas divulgadas no Portal Nacional de Contratações Públicas (PNCP), instituído pela Lei 14.133/2021 para a divulgação centralizada e obrigatória dos atos de contratação de todos os entes federativos. Abrange os três níveis de governo — federal, estadual e municipal — com contratações (licitações, dispensas e inexigibilidades), contratos e empenhos, atas de registro de preços e instrumentos de cobrança, a partir de 2021.",
+    "organizations": [
+      "Ministério da Gestão e da Inovação em Serviços Públicos"
+    ],
+    "tags": [
+      "contrato",
+      "despesa",
+      "administração pública",
+      "finanças públicas",
+      "licitação",
+      "compra",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+    "name": "Compras públicas",
+    "description": "Compras públicas brasileiras registradas no Compras.gov.br, abrangendo os dois regimes de contratação: as contratações realizadas sob a Lei 14.133/2021 e divulgadas no PNCP, de 2021 em diante, e as licitações e contratações diretas sob a Lei 8.666/1993, de 1997 a 2025. Inclui itens, resultados, atas de registro de preços, contratos e os cadastros de órgãos, unidades compradoras, fornecedores e catálogos de materiais e serviços. Apesar do nome do portal, cobre os três níveis de governo: 43% das contratações são federais, 31% estaduais e 25% municipais.",
+    "organizations": [
+      "Ministério da Gestão e da Inovação em Serviços Públicos"
+    ],
+    "tags": [
+      "companhia",
+      "contrato",
+      "preço",
+      "administração pública",
+      "licitação",
+      "compra",
+      "gasto",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  }
+]

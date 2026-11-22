@@ -1,0 +1,81 @@
+{
+  "id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+  "name": "MapBiomas Estatísticas",
+  "description": "Mapeamento anual da cobertura e uso da terra do Brasil produzido pelo Projeto MapBiomas a partir da classificação automática de imagens de satélite no Google Earth Engine. Os dados desta versão vêm da Coleção 11, publicada em agosto de 2026, que cobre 1985 a 2025 em resolução de 30 metros. Distribuí... (264 more characters)",
+  "organizations": [
+    "MapBiomas"
+  ],
+  "tags": [
+    "desmatamento",
+    "uso da terra"
+  ],
+  "themes": [
+    "Meio Ambiente"
+  ],
+  "tables": [
+    {
+      "id": "160cdb9e-7856-493c-b03d-b652a345e05e",
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+      "gcp_id": "basedosdados.br_mapbiomas_estatisticas.classe",
+      "name": "Dicionário de classes da legenda",
+      "description": "Legenda hierárquica de cobertura e uso da terra da Coleção 11 do MapBiomas, com os rótulos dos quatro níveis em português, inglês e espanhol. Os rótulos em espanhol são tradução da Base dos Dados, já que o MapBiomas Brasil não publica legenda nesse idioma."
+    },
+    {
+      "id": "8e0b42d5-b9c7-4ca3-ae66-76bcc8cb2c4b",
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+      "gcp_id": "basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe",
+      "name": "Cobertura e uso da terra por município",
+      "description": "Área, em hectares, de cada classe de cobertura e uso da terra por município, bioma e ano, na Coleção 11 do MapBiomas (mapeamento anual em resolução de 30 metros, 1985 a 2025). Municípios que se estendem por mais de um bioma aparecem em uma linha por bioma."
+    },
+    {
+      "id": "7731ffbf-fa80-4119-a672-863bf46ff748",
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+      "gcp_id": "basedosdados.br_mapbiomas_estatisticas.cobertura_uf_classe",
+      "name": "Cobertura e uso da terra por unidade da federação",
+      "description": "Área, em hectares, de cada classe de cobertura e uso da terra por unidade da federação, bioma e ano, na Coleção 11 do MapBiomas. Agregada a partir da tabela municipal."
+    },
+    {
+      "id": "b84391a7-7935-4e0d-83d3-0b1eafd2b795",
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+      "gcp_id": "basedosdados.br_mapbiomas_estatisticas.transicao_municipio_de_para_anual",
+      "name": "Transição Município De Para Anual",
+      "description": "Tabela sem fonte: o MapBiomas publica matrizes de transição apenas por bioma e estado, nunca por município, em nenhuma coleção. Mantida em under_review, sem dados, até que seja removida do backend."
+    },
+    {
+      "id": "aebc7f5b-2dce-47aa-918a-68a8a1cb7129",
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+      "gcp_id": "basedosdados.br_mapbiomas_estatisticas.transicao_municipio_de_para_decenal",
+      "name": "Transição Município De Para Decenal",
+      "description": "Tabela sem fonte: o MapBiomas publica matrizes de transição apenas por bioma e estado, nunca por município, em nenhuma coleção. Mantida em under_review, sem dados, até que seja removida do backend."
+    },
+    {
+      "id": "43e8c5fc-46b8-409a-9b07-f2d07059e62e",
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+      "gcp_id": "basedosdados.br_mapbiomas_estatisticas.transicao_municipio_de_para_quinquenal",
+      "name": "Transição Município De Para Quinquenal",
+      "description": "Tabela sem fonte: o MapBiomas publica matrizes de transição apenas por bioma e estado, nunca por município, em nenhuma coleção. Mantida em under_review, sem dados, até que seja removida do backend."
+    },
+    {
+      "id": "f19caeac-3098-42b0-a5ff-c13e68d1c306",
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+      "gcp_id": "basedosdados.br_mapbiomas_estatisticas.transicao_uf_de_para_anual",
+      "name": "Transições anuais de cobertura e uso da terra por unidade da federação",
+      "description": "Área, em hectares, que passou de cada classe de cobertura e uso da terra para cada outra classe, por unidade da federação e bioma, entre anos consecutivos de 1985 a 2025."
+    },
+    {
+      "id": "fbc40028-9591-4067-baa4-742f7703cbd1",
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+      "gcp_id": "basedosdados.br_mapbiomas_estatisticas.transicao_uf_de_para_decenal",
+      "name": "Transições decenais de cobertura e uso da terra por unidade da federação",
+      "description": "Área, em hectares, que passou de cada classe de cobertura e uso da terra para cada outra classe, por unidade da federação e bioma, em períodos de dez anos de 1990 a 2020."
+    },
+    {
+      "id": "1edd1c5c-86d7-44ce-8234-de04b3fbeb57",
+      "dataset_id": "ac963ae2-b7a4-4505-8537-fc146ee4f4c7",
+      "gcp_id": "basedosdados.br_mapbiomas_estatisticas.transicao_uf_de_para_quinquenal",
+      "name": "Transições quinquenais de cobertura e uso da terra por unidade da federação",
+      "description": "Área, em hectares, que passou de cada classe de cobertura e uso da terra para cada outra classe, por unidade da federação e bioma, em períodos de cinco anos de 1985 a 2025."
+    }
+  ],
+  "usage_guide": null
+}

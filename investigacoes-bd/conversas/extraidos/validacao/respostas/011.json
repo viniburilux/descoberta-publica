@@ -1,0 +1,13 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "embargos_registros": 116332,
+      "embargos_id_auto_vazio": 19979,
+      "embargos_com_auto": 96293,
+      "embargos_sem_auto": 60,
+      "autos_distintos_referenciados": 94546
+    }
+  ],
+  "query_ref": "qr_944d51b839eb4cf29158105df146df19"
+}

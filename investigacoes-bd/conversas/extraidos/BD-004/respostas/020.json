@@ -1,0 +1,77 @@
+{
+  "id": "0b47cff1-46dc-4240-a9f1-19543afb6437",
+  "dataset_id": "96eab476-5d30-459b-82be-f888d4d0d6b9",
+  "gcp_id": "basedosdados.br_inep_ideb.escola",
+  "name": "Escola",
+  "description": "Dados do Ideb agregados para o Brasil a nível de escola-ano.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "anos_escolares",
+      "type": "STRING",
+      "description": "Anos Escolares",
+      "needs_decoding": false
+    },
+    {
+      "name": "ensino",
+      "type": "STRING",
+      "description": "Tipo de Ensino",
+      "needs_decoding": false
+    },
+    {
+      "name": "ideb",
+      "type": "FLOAT64",
+      "description": "IDEB (Média Padronizada x Indicador de rendimento)",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_escola",
+      "type": "STRING",
+      "description": "ID Escola - INEP",
+      "reference_table_id": "29bcfdae-bd8b-4659-9a90-033abef9bfae",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "indicador_rendimento",
+      "type": "FLOAT64",
+      "description": "Indicador de Rendimento",
+      "unit": "percent",
+      "needs_decoding": false
+    },
+    {
+      "name": "nota_saeb_lingua_portuguesa",
+      "type": "FLOAT64",
+      "description": "Nota SAEB - Língua Portuguesa",
+      "needs_decoding": false
+    },
+    {
+      "name": "nota_saeb_matematica",
+      "type": "FLOAT64",
+      "description": "Nota SAEB - Matemática",
+      "needs_decoding": false
+    },
+    {
+      "name": "nota_saeb_media_padronizada",
+      "type": "FLOAT64",
+      "description": "Nota SAEB - Média Padronizada",
+      "needs_decoding": false
+    },
+    "... (4 more items)"
+  ],
+  "partitioned_by": [],
+  "period_start": "2005",
+  "period_end": "2025"
+}

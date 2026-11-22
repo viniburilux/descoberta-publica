@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Syntax error: Expected end of input but got keyword UNION at [6:1]\n\nLocation: None\nJob ID: b64a5fb2-4f62-4fc8-bc89-0140395792f2\n"
+}

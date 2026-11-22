@@ -1,0 +1,80 @@
+{
+  "id": "e8ee3373-0f3d-4617-849c-c730970a819e",
+  "dataset_id": "a3b57cca-ff80-4bf2-8bac-c145109e06a7",
+  "gcp_id": "basedosdados.br_inep_censo_educacao_superior.ies",
+  "name": "Instituição de Ensino Superior",
+  "description": "Dados a nível de instituição de ensino superior (IES).",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano de referência do Censo da Educação Superior",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "bairro",
+      "type": "STRING",
+      "description": "Bairro",
+      "needs_decoding": false
+    },
+    {
+      "name": "cep",
+      "type": "STRING",
+      "description": "CEP",
+      "reference_table_id": "566ed7f2-db5f-4ac3-bfce-b579137c993c",
+      "needs_decoding": false
+    },
+    {
+      "name": "complemento",
+      "type": "STRING",
+      "description": "Complemento do endereço",
+      "needs_decoding": false
+    },
+    {
+      "name": "endereco",
+      "type": "STRING",
+      "description": "Endereço da sede administrativa/reitoria da IES",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_ies",
+      "type": "STRING",
+      "description": "Código único de identificação da IES",
+      "reference_table_id": "9c8ed04c-d617-4b5b-9e0c-ea4f9a945f04",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_mantenedora",
+      "type": "STRING",
+      "description": "Código único de identificação da mantenedora da IES",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município da sede administrativa ou reitoria da IES - IBGE 7 Dígitos",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "indicador_biblioteca_acesso_outras_bases",
+      "type": "BOOLEAN",
+      "description": "Informa se as bibliotecas da IES têm acesso a outras bases de dados licenciadas ou compradas",
+      "needs_decoding": false
+    },
+    {
+      "name": "indicador_biblioteca_acesso_portal_capes",
+      "type": "BOOLEAN",
+      "description": "Informa se as bibliotecas da IES têm acesso ao portal Capes de periódicos",
+      "needs_decoding": false
+    },
+    "... (63 more items)"
+  ],
+  "partitioned_by": [
+    "ano",
+    "sigla_uf"
+  ],
+  "period_start": "2009",
+  "period_end": "2024"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "28d16282-d100-4ea8-9dde-36c05c8f1ca2",
+  "dataset_id": "782c5607-9f69-4e12-b0d5-aa0f1a7a94e2",
+  "gcp_id": "basedosdados.br_inmet_bdmep.microdados",
+  "name": "Microdados",
+  "description": "O BDMEP abriga dados meteorológicos diários em forma digital, de séries históricas das várias estações meteorológicas convencionais da rede de estações do INMET com milhões de informações, referentes às medições diárias, de acordo com as normas técnicas internacionais da Organização Meteorológica Mu... (5 more characters)",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "data",
+      "type": "DATE",
+      "description": "Data",
+      "needs_decoding": false
+    },
+    {
+      "name": "hora",
+      "type": "TIME",
+      "description": "Hora (UTC)",
+      "unit": "",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_estacao",
+      "type": "STRING",
+      "description": "ID da estação meteorológica",
+      "needs_decoding": false
+    },
+    {
+      "name": "mes",
+      "type": "INT64",
+      "description": "Mês",
+      "unit": "month",
+      "needs_decoding": false
+    },
+    {
+      "name": "precipitacao_total",
+      "type": "FLOAT64",
+      "description": "Precipitação total, horária",
+      "unit": "",
+      "needs_decoding": false
+    },
+    {
+      "name": "pressao_atm_hora",
+      "type": "FLOAT64",
+      "description": "Pressão atmosférica ao nível da estação, horária",
+      "unit": "",
+      "needs_decoding": false
+    },
+    {
+      "name": "pressao_atm_max",
+      "type": "FLOAT64",
+      "description": "Pressão atmosférica máxima ao nível da estação, na hora anterior",
+      "unit": "",
+      "needs_decoding": false
+    },
+    {
+      "name": "pressao_atm_min",
+      "type": "FLOAT64",
+      "description": "Pressão atmosférica mínima ao nível da estação, na hora anterior",
+      "unit": "",
+      "needs_decoding": false
+    },
+    {
+      "name": "radiacao_global",
+      "type": "FLOAT64",
+      "description": "Radiação global",
+      "unit": "",
+      "needs_decoding": false
+    },
+    "... (12 more items)"
+  ],
+  "partitioned_by": [
+    "ano",
+    "id_estacao"
+  ],
+  "period_start": "2000-05",
+  "period_end": "2026-10-31"
+}

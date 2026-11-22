@@ -1,0 +1,127 @@
+[
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "",
+    "valor": "Não se aplica"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "1",
+    "valor": "Convencional - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "10",
+    "valor": "Pecuária Extensiva"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "11",
+    "valor": "Pecuária Semi-intensiva"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "12",
+    "valor": "Pecuária Intensiva"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "13",
+    "valor": "Pecuária Confinamento"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "14",
+    "valor": "Agroecológica - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "15",
+    "valor": "CULTIVO PROTEGIDO"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "16",
+    "valor": "Criação em Tanques Escavados"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "18",
+    "valor": "Criação em Tanques Redes/Fluxo Contínuo"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "2",
+    "valor": "Plantio Direto - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "20",
+    "valor": "Substrato"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "21",
+    "valor": "Criação em áreas marinhas delimitadas"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "22",
+    "valor": "Criação em ranário"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "25",
+    "valor": "Cultivo/manejo em floresta pública"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "26",
+    "valor": "Adicional 10% referente ao MCR 3-2-6"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "27",
+    "valor": "Manejo Florestal Sustentável"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "28",
+    "valor": "Proteção contra granizo"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "3",
+    "valor": "Cultivo Mínimo"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "4",
+    "valor": "No Toco - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "5",
+    "valor": "Pré-Germinado"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "6",
+    "valor": "Estufa - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "7",
+    "valor": "Em Galpão - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "8",
+    "valor": "Hidroponia"
+  },
+  {
+    "nome_coluna": "id_tipo_cultivo",
+    "chave": "9",
+    "valor": "Extrativismo - ENCERRADO"
+  }
+]

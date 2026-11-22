@@ -1,0 +1,77 @@
+{
+  "id": "60d2d4e4-60aa-405d-b47c-d58a6ca9960d",
+  "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811",
+  "gcp_id": "basedosdados.br_mgi_pncp.ata_registro_preco",
+  "name": "Ata de Registro de Preços",
+  "description": "Atas de registro de preços divulgadas no Portal Nacional de Contratações Públicas. Uma linha por ata, identificada pelo número de controle no PNCP.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano de publicação do registro no PNCP",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano_ata",
+      "type": "INT64",
+      "description": "Ano da ata de registro de preços",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_orgao",
+      "type": "STRING",
+      "description": "CNPJ do órgão ou entidade responsável pela ata",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_orgao_subrogado",
+      "type": "STRING",
+      "description": "CNPJ do órgão sub-rogado responsável pela ata",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_unidade",
+      "type": "STRING",
+      "description": "Código da unidade administrativa responsável pela ata",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_unidade_subrogada",
+      "type": "STRING",
+      "description": "Código da unidade administrativa sub-rogada",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_assinatura",
+      "type": "DATE",
+      "description": "Data de assinatura da ata",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_atualizacao",
+      "type": "DATE",
+      "description": "Data da última atualização global do registro no PNCP",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_cancelamento",
+      "type": "DATE",
+      "description": "Data de cancelamento da ata",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_publicacao",
+      "type": "DATE",
+      "description": "Data de publicação do registro no PNCP",
+      "needs_decoding": false
+    },
+    "... (12 more items)"
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "2022-07-25",
+  "period_end": "2026-09-22"
+}

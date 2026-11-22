@@ -1,0 +1,62 @@
+{
+  "id": "562b56a3-0b01-4735-a049-eeac5681f056",
+  "name": "Cadastro Geral de Empregados e Desempregados (CAGED)",
+  "description": "O Cadastro Geral de Empregados e Desempregados – CAGED, instituído pela Lei nº 4.923, em 23 de dezembro de 1965, constitui fonte de informação de âmbito nacional e de periodicidade mensal. Foi criado como instrumento de acompanhamento e de fiscalização do processo de admissão e de dispensa de trabal... (2295 more characters)",
+  "organizations": [
+    "Ministério da Economia (ME)"
+  ],
+  "tags": [
+    "firma",
+    "emprego",
+    "empresa",
+    "trabalho"
+  ],
+  "themes": [
+    "Economia"
+  ],
+  "tables": [
+    {
+      "id": "b6f74dbb-311a-4c16-b7a9-4e8d6d7caa4b",
+      "dataset_id": "562b56a3-0b01-4735-a049-eeac5681f056",
+      "gcp_id": "basedosdados.br_me_caged.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Cadastro Geral de Empregados e Desempregados (CAGED). Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "95106d6f-e36e-4fed-b8e9-99c41cd99ecf",
+      "dataset_id": "562b56a3-0b01-4735-a049-eeac5681f056",
+      "gcp_id": "basedosdados.br_me_caged.microdados_antigos",
+      "name": "Microdados Antigos",
+      "description": "Microdados públicos do CAGED (2007-2019)"
+    },
+    {
+      "id": "2b92a156-ab5f-4d55-8575-ee7751484ea6",
+      "dataset_id": "562b56a3-0b01-4735-a049-eeac5681f056",
+      "gcp_id": "basedosdados.br_me_caged.microdados_antigos_ajustes",
+      "name": "Microdados Antigos de Ajustes",
+      "description": "Microdados públicos de ajuste do CAGED (2007-2019)"
+    },
+    {
+      "id": "2245875f-d1ef-490d-be29-4f8fb2191335",
+      "dataset_id": "562b56a3-0b01-4735-a049-eeac5681f056",
+      "gcp_id": "basedosdados.br_me_caged.microdados_movimentacao",
+      "name": "Microdados de Movimentações",
+      "description": "Contém dados de movimentações declaradas dentro do prazo com competência de declaração."
+    },
+    {
+      "id": "f0fa3d45-ef23-4fa3-940e-a9bb19975433",
+      "dataset_id": "562b56a3-0b01-4735-a049-eeac5681f056",
+      "gcp_id": "basedosdados.br_me_caged.microdados_movimentacao_excluida",
+      "name": "Microdados de Movimentações Excluídas",
+      "description": "Contém dados de movimentações excluídas com competência de declaração."
+    },
+    {
+      "id": "55547cad-3e88-4f7c-b27f-726b2b9b0b47",
+      "dataset_id": "562b56a3-0b01-4735-a049-eeac5681f056",
+      "gcp_id": "basedosdados.br_me_caged.microdados_movimentacao_fora_prazo",
+      "name": "Microdados de Movimentações Fora do Prazo",
+      "description": "Contém dados de movimentações declaradas fora do prazo com competência de declaração."
+    }
+  ],
+  "usage_guide": "---\ntitle: Guia de uso do CAGED\ndescription: >-\n  Guia de uso do Cadastro Geral de Empregados e Desempregados (CAGED). Este material contém informações sobre as variáveis mais importantes, perguntas frequentes e exemplos de uso do conjunto.\ndate:\n  created: \"2024-11-28T18:18:06.419Z\"\nthumbnail:\ncate... (8169 more characters)"
+}

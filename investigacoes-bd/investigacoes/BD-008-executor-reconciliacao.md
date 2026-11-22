@@ -12,15 +12,18 @@ Inspeção de valor e chaves → snapshot por imóvel → classificação do rec
 
 ## A. Material bruto recuperado
 
-Código, consultas, contagens, documentos e resultados originais no pacote abaixo. Os dois exports de conversa do pacote de reconciliação somam 14 mensagens; a recuperação das sessões completas está em andamento.
-
-Último vestígio da sessão: `35bbb638-d45b-425b-8d06-3b463679a9e4`, chatbot da BD.
+- [executor: JSON de 22 mensagens](../conversas/executor_35bbb638-d45b-425b-8d06-3b463679a9e4.json) · [leitura cronológica](../conversas/extraidos/executor/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/executor/)
+- [validacao: JSON de 10 mensagens](../conversas/validacao_5d4bd8d9-338c-4330-9ea0-74230674b27a.json) · [leitura cronológica](../conversas/extraidos/validacao/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/validacao/)
 
 ## B. Consultas e código
 
-[Código Python](../originais/bd_reconciliation/source/) · [SQLs originais](../originais/bd_reconciliation/outputs/sql/) · [Guia de reprodução](../REPRODUZIR.md).
+22 consultas SQL extraídas das conversas. Chamadas e respostas originais, com identificadores e argumentos, estão nas pastas ligadas acima. Os SQLs estão separados em `sql/` dentro de cada pasta.
+
+[Código da reconciliação](../originais/bd_reconciliation/source/) · [21 SQLs parametrizados](../originais/bd_reconciliation/outputs/sql/) · [Reprodução local](../REPRODUZIR.md).
 
 ## C. Resultados e arquivos
+
+8 tabelas CSV das linhas registradas nas respostas do chatbot; respostas completas e índices com a consulta e a mensagem de origem.
 
 - [Dossiê T7 original](../originais/bd_reconciliation/docs/dossie_t7.md)
 - [Validação no chatbot](../originais/bd_reconciliation/outputs/runs/2026-11-19/validacao_real_chatbot.md)
@@ -38,9 +41,10 @@ Dossiê técnico reproduzível do rateio municipal do crédito rural.
 
 ## F. Pendências e próximo passo
 
+Os exports nativos apenas referenciados em `downloads-referenciados.json` ainda não foram baixados neste lote. As respostas e linhas registradas já estão nos arquivos extraídos.
+
 Reexecutar o SQL do dossiê no executor BD e guardar os novos exports em uma pasta de execução datada.
 
-Pendente: integrar a conversa completa com suas perguntas, respostas e chamadas originais.
 
 ## G. Pacote de trabalho
 

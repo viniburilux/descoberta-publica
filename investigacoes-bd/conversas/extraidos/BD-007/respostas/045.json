@@ -1,0 +1,97 @@
+{
+  "row_count": 15,
+  "rows": [
+    {
+      "id_municipio": "1100205",
+      "nome": "Porto Velho",
+      "sigla_uf": "RO",
+      "imoveis_com_embargo": 96,
+      "credito_alocado": 77899695.93376623,
+      "area_financiada": 14598.187792207791,
+      "area_embargada": 4990.460599999999
+    },
+    {
+      "id_municipio": "2928901",
+      "nome": "São Desidério",
+      "sigla_uf": "BA",
+      "imoveis_com_embargo": 73,
+      "credito_alocado": 216034240.98757577,
+      "area_financiada": 26854.101060606063,
+      "area_embargada": 32363.061999999998
+    },
+    {
+      "id_municipio": "4104501",
+      "nome": "Capanema",
+      "sigla_uf": "PR",
+      "imoveis_com_embargo": 70,
+      "credito_alocado": 10289328.683166666,
+      "area_financiada": 1976.6998333333333,
+      "area_embargada": 61.2407
+    },
+    {
+      "id_municipio": "1100338",
+      "nome": "Nova Mamoré",
+      "sigla_uf": "RO",
+      "imoveis_com_embargo": 44,
+      "credito_alocado": 29143522.909999996,
+      "area_financiada": 5327.110000000001,
+      "area_embargada": 545.6862
+    },
+    {
+      "id_municipio": "2911105",
+      "nome": "Formosa do Rio Preto",
+      "sigla_uf": "BA",
+      "imoveis_com_embargo": 38,
+      "credito_alocado": 85099654.62499999,
+      "area_financiada": 15092.349166666667,
+      "area_embargada": 7604.1314
+    },
+    {
+      "id_municipio": "1505486",
+      "nome": "Pacajá",
+      "sigla_uf": "PA",
+      "imoveis_com_embargo": 34,
+      "credito_alocado": 12965321.909999996,
+      "area_financiada": 3472.3646666666664,
+      "area_embargada": 829.875
+    },
+    {
+      "id_municipio": "2917359",
+      "nome": "Jaborandi",
+      "sigla_uf": "BA",
+      "imoveis_com_embargo": 33,
+      "credito_alocado": 74667739.44999999,
+      "area_financiada": 12457.736666666668,
+      "area_embargada": 2361.7398000000003
+    },
+    {
+      "id_municipio": "1200302",
+      "nome": "Feijó",
+      "sigla_uf": "AC",
+      "imoveis_com_embargo": 32,
+      "credito_alocado": 3222323.75,
+      "area_financiada": 2324.7500000000005,
+      "area_embargada": 1234.5819
+    },
+    {
+      "id_municipio": "2903201",
+      "nome": "Barreiras",
+      "sigla_uf": "BA",
+      "imoveis_com_embargo": 31,
+      "credito_alocado": 46888953.02,
+      "area_financiada": 7313.529285714286,
+      "area_embargada": 8745.5558
+    },
+    {
+      "id_municipio": "1200013",
+      "nome": "Acrelândia",
+      "sigla_uf": "AC",
+      "imoveis_com_embargo": 29,
+      "credito_alocado": 4411133.941388889,
+      "area_financiada": 1786.5011111111112,
+      "area_embargada": 214.33479999999997
+    },
+    "... (5 more items)"
+  ],
+  "query_ref": "qr_8fba9b45db014923af41160a23093eeb"
+}

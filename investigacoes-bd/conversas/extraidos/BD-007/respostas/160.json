@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Column cnpj_basico in USING clause not found on left side of join at [1:1642]\n\nLocation: None\nJob ID: 3206a314-daf8-4141-b790-9ac9dfeb342f\n"
+}

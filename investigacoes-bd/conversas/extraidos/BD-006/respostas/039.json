@@ -1,0 +1,36 @@
+{
+  "id": "cecb702d-d4b7-45ec-adbb-719ebd5b3906",
+  "name": "Produção da Extração Vegetal e da Silvicultura (PEVS)",
+  "description": "Investiga informações sobre a quantidade e o valor da produção decorrente dos processos de exploração dos recursos vegetais nativos e dos maciços florestais plantados, tendo como unidade de coleta o município. A área total existente e a área colhida de cultivos florestais também são objetos da pesqu... (3 more characters)",
+  "organizations": [
+    "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+  ],
+  "tags": [
+    "desmatamento",
+    "exportação",
+    "floresta",
+    "colheita",
+    "plantação"
+  ],
+  "themes": [
+    "Economia",
+    "Meio Ambiente"
+  ],
+  "tables": [
+    {
+      "id": "7f80781b-3b15-416c-8bb1-c1c33f324ec5",
+      "dataset_id": "cecb702d-d4b7-45ec-adbb-719ebd5b3906",
+      "gcp_id": "basedosdados.br_ibge_pevs.producao_extracao_vegetal",
+      "name": "Produção e Valor da Extração Vegetal",
+      "description": "Quantidade produzida e valor da produção na extração vegetal, por tipo de produto extrativo"
+    },
+    {
+      "id": "02760502-2886-422d-a4fc-b5e9109d2d12",
+      "dataset_id": "cecb702d-d4b7-45ec-adbb-719ebd5b3906",
+      "gcp_id": "basedosdados.br_ibge_pevs.producao_silvicultura",
+      "name": "Produção e Valor da Sivicultura",
+      "description": "Quantidade produzida e valor da produção na silvicultura, por tipo de produto da silvicultura"
+    }
+  ],
+  "usage_guide": null
+}

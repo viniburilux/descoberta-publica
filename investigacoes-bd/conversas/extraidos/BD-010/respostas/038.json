@@ -1,0 +1,17 @@
+[
+  {
+    "nome_coluna": "tipo",
+    "chave": "ARL_APROVADA_NAO_AVERBADA",
+    "valor": "Reserva Legal aprovada e não averbada"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "ARL_AVERBADA",
+    "valor": "Reserva Legal averbada"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "ARL_PROPOSTA",
+    "valor": "Reserva Legal proposta"
+  }
+]

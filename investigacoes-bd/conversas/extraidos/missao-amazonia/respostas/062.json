@@ -1,0 +1,87 @@
+{
+  "row_count": 80,
+  "rows": [
+    {
+      "ano": 2017,
+      "id_municipio": "1502301",
+      "nome": "Capitão Poço",
+      "categoria": "suporte",
+      "estabelecimentos": 1,
+      "vinculos_ativos": 2
+    },
+    {
+      "ano": 2017,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "categoria": "direta",
+      "estabelecimentos": 15,
+      "vinculos_ativos": 49
+    },
+    {
+      "ano": 2017,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "categoria": "suporte",
+      "estabelecimentos": 122,
+      "vinculos_ativos": 915
+    },
+    {
+      "ano": 2017,
+      "id_municipio": "1503200",
+      "nome": "Igarapé-Açu",
+      "categoria": "suporte",
+      "estabelecimentos": 1,
+      "vinculos_ativos": 0
+    },
+    {
+      "ano": 2017,
+      "id_municipio": "1506609",
+      "nome": "Santa Maria do Pará",
+      "categoria": "direta",
+      "estabelecimentos": 1,
+      "vinculos_ativos": 1
+    },
+    {
+      "ano": 2017,
+      "id_municipio": "1506609",
+      "nome": "Santa Maria do Pará",
+      "categoria": "suporte",
+      "estabelecimentos": 3,
+      "vinculos_ativos": 8
+    },
+    {
+      "ano": 2018,
+      "id_municipio": "1502301",
+      "nome": "Capitão Poço",
+      "categoria": "suporte",
+      "estabelecimentos": 1,
+      "vinculos_ativos": 8
+    },
+    {
+      "ano": 2018,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "categoria": "direta",
+      "estabelecimentos": 11,
+      "vinculos_ativos": 57
+    },
+    {
+      "ano": 2018,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "categoria": "suporte",
+      "estabelecimentos": 130,
+      "vinculos_ativos": 1218
+    },
+    {
+      "ano": 2018,
+      "id_municipio": "1502905",
+      "nome": "Curuçá",
+      "categoria": "direta",
+      "estabelecimentos": 1,
+      "vinculos_ativos": 4
+    },
+    "... (70 more items)"
+  ],
+  "query_ref": "qr_7681cbad85594caa9fb37ac34076624d"
+}

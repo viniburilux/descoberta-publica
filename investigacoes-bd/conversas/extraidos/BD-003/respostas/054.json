@@ -1,0 +1,70 @@
+{
+  "id": "3dbb38d1-65af-44a3-b43a-7b088891ebc0",
+  "dataset_id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+  "gcp_id": "basedosdados.br_rf_cnpj.empresas",
+  "name": "Empresas",
+  "description": "Empresas",
+  "columns": [
+    {
+      "name": "capital_social",
+      "type": "FLOAT64",
+      "description": "Capital Social",
+      "unit": "brl",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_basico",
+      "type": "STRING",
+      "description": "CNPJ Básico",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_modificacao",
+      "type": "DATE",
+      "description": "Data de Modificação",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_referencia",
+      "type": "DATE",
+      "description": "Data de referência (ano-mês) do dado.",
+      "needs_decoding": false
+    },
+    {
+      "name": "ente_federativo",
+      "type": "STRING",
+      "description": "Ente Federativo",
+      "needs_decoding": false
+    },
+    {
+      "name": "natureza_juridica",
+      "type": "STRING",
+      "description": "Natureza Jurídica",
+      "reference_table_id": "f74e4b5e-fbbd-44cb-97e9-4cfe7a3ccc50",
+      "needs_decoding": false
+    },
+    {
+      "name": "porte",
+      "type": "STRING",
+      "description": "Porte",
+      "needs_decoding": true
+    },
+    {
+      "name": "qualificacao_responsavel",
+      "type": "STRING",
+      "description": "Qualificação do/a Responsável",
+      "needs_decoding": true
+    },
+    {
+      "name": "razao_social",
+      "type": "STRING",
+      "description": "Razão Social",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "data_referencia"
+  ],
+  "period_start": "2021-11",
+  "period_end": "2026-11-01"
+}

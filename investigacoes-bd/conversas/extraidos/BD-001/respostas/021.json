@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Name categoria in GROUP BY clause is ambiguous; it may refer to multiple columns in the SELECT-list at [19:377]\n\nLocation: None\nJob ID: 76170e07-28c5-4c2d-abe3-e30b92f8c420\n"
+}

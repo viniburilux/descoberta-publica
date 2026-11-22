@@ -1,0 +1,31 @@
+{
+  "id": "a3b57cca-ff80-4bf2-8bac-c145109e06a7",
+  "name": "Censo da Educação Superior",
+  "description": "O Censo da Educação Superior, realizado anualmente pelo Inep, é o instrumento de pesquisa mais completo do Brasil sobre as instituições de educação superior (IES) que ofertam cursos de graduação e sequencias de formação específica, além de seus alunos e docentes. Essa coleta tem como objetivo de ofe... (985 more characters)",
+  "organizations": [
+    "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+  ],
+  "tags": [
+    "educação superior"
+  ],
+  "themes": [
+    "Educação"
+  ],
+  "tables": [
+    {
+      "id": "03f7e043-9ea1-47f9-9e77-f55dfe449381",
+      "dataset_id": "a3b57cca-ff80-4bf2-8bac-c145109e06a7",
+      "gcp_id": "basedosdados.br_inep_censo_educacao_superior.curso",
+      "name": "Curso",
+      "description": "Dados a nível de curso."
+    },
+    {
+      "id": "e8ee3373-0f3d-4617-849c-c730970a819e",
+      "dataset_id": "a3b57cca-ff80-4bf2-8bac-c145109e06a7",
+      "gcp_id": "basedosdados.br_inep_censo_educacao_superior.ies",
+      "name": "Instituição de Ensino Superior",
+      "description": "Dados a nível de instituição de ensino superior (IES)."
+    }
+  ],
+  "usage_guide": null
+}

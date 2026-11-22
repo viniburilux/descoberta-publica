@@ -1,0 +1,78 @@
+{
+  "row_count": 8,
+  "rows": [
+    {
+      "ano": 2017,
+      "igarape_direta_est": 0,
+      "igarape_direta_vinc": 0,
+      "castanhal_direta_est": 15,
+      "castanhal_direta_vinc": 49,
+      "castanhal_suporte_est": 122,
+      "castanhal_suporte_vinc": 915
+    },
+    {
+      "ano": 2018,
+      "igarape_direta_est": 1,
+      "igarape_direta_vinc": 0,
+      "castanhal_direta_est": 11,
+      "castanhal_direta_vinc": 57,
+      "castanhal_suporte_est": 130,
+      "castanhal_suporte_vinc": 1218
+    },
+    {
+      "ano": 2019,
+      "igarape_direta_est": 0,
+      "igarape_direta_vinc": 0,
+      "castanhal_direta_est": 12,
+      "castanhal_direta_vinc": 58,
+      "castanhal_suporte_est": 149,
+      "castanhal_suporte_vinc": 1305
+    },
+    {
+      "ano": 2020,
+      "igarape_direta_est": 1,
+      "igarape_direta_vinc": 0,
+      "castanhal_direta_est": 14,
+      "castanhal_direta_vinc": 63,
+      "castanhal_suporte_est": 163,
+      "castanhal_suporte_vinc": 1490
+    },
+    {
+      "ano": 2021,
+      "igarape_direta_est": 0,
+      "igarape_direta_vinc": 0,
+      "castanhal_direta_est": 20,
+      "castanhal_direta_vinc": 94,
+      "castanhal_suporte_est": 158,
+      "castanhal_suporte_vinc": 1355
+    },
+    {
+      "ano": 2022,
+      "igarape_direta_est": 0,
+      "igarape_direta_vinc": 0,
+      "castanhal_direta_est": 23,
+      "castanhal_direta_vinc": 105,
+      "castanhal_suporte_est": 170,
+      "castanhal_suporte_vinc": 1589
+    },
+    {
+      "ano": 2023,
+      "igarape_direta_est": 2,
+      "igarape_direta_vinc": 0,
+      "castanhal_direta_est": 28,
+      "castanhal_direta_vinc": 118,
+      "castanhal_suporte_est": 240,
+      "castanhal_suporte_vinc": 1687
+    },
+    {
+      "ano": 2024,
+      "igarape_direta_est": 3,
+      "igarape_direta_vinc": 0,
+      "castanhal_direta_est": 34,
+      "castanhal_direta_vinc": 138,
+      "castanhal_suporte_est": 261,
+      "castanhal_suporte_vinc": 1751
+    }
+  ],
+  "query_ref": "qr_a5daeefe4c0e42a5b87b66bcd2f91836"
+}

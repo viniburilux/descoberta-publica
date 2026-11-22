@@ -1,0 +1,17 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "cnpj_agencia": "07237373030207",
+      "cnpj": "07237373030207",
+      "nome_fantasia": "BANCO DO NORDESTE DO BRASIL S/A",
+      "id_municipio": "2930501",
+      "sigla_uf": "BA",
+      "logradouro": "LUIZ NOGUEIRA",
+      "numero": "235",
+      "bairro": "CENTRO",
+      "ordens": 61
+    }
+  ],
+  "query_ref": "qr_af576d0840d547cc8765c34a5f7e3dd5"
+}

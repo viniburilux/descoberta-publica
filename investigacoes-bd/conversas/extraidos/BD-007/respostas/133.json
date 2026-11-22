@@ -1,0 +1,69 @@
+{
+  "row_count": 7,
+  "rows": [
+    {
+      "alvo_id": "BA-2929057-C5D11EE026A64399A6EF36764E8739E9",
+      "vizinho_id": "BA-2929057-43362B5DD011494FA6B0EE05C2761D93",
+      "alvo_area_ha": 0.0001,
+      "vizinho_area_ha": 1519.5312,
+      "alvo_100pct_dentro": true,
+      "intersecao_ha": 6.034312022243948e-05,
+      "percentual_alvo_na_intersecao": 100.0
+    },
+    {
+      "alvo_id": "PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98",
+      "vizinho_id": "PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56",
+      "alvo_area_ha": 0.0009,
+      "vizinho_area_ha": 1350.2239,
+      "alvo_100pct_dentro": true,
+      "intersecao_ha": 0.0009021076630986737,
+      "percentual_alvo_na_intersecao": 100.0
+    },
+    {
+      "alvo_id": "PA-1506187-CEAD1A3AC3E14F5DB2FC0B93E54E7E98",
+      "vizinho_id": "PA-1506187-48EDE9CDCF3947959921871671228876",
+      "alvo_area_ha": 0.0009,
+      "vizinho_area_ha": 1288.0856,
+      "alvo_100pct_dentro": true,
+      "intersecao_ha": 0.0009021076630986737,
+      "percentual_alvo_na_intersecao": 100.0
+    },
+    {
+      "alvo_id": "PA-1506187-94551B72659E427F961D2F62CEBA7392",
+      "vizinho_id": "PA-1506187-878F5B604D8E471F8DE7F692F7F7288C",
+      "alvo_area_ha": 0.0001,
+      "vizinho_area_ha": 51.7557,
+      "alvo_100pct_dentro": false,
+      "intersecao_ha": 2.8280901824994815e-05,
+      "percentual_alvo_na_intersecao": 28.78665582946731
+    },
+    {
+      "alvo_id": "MS-5006606-4693892971CF47B4B2684C3A94950BEE",
+      "vizinho_id": "MS-5006606-9F4376C099A342D2899444A8DB7FADE6",
+      "alvo_area_ha": 0.0001,
+      "vizinho_area_ha": 504.4833,
+      "alvo_100pct_dentro": true,
+      "intersecao_ha": 5.762028905670007e-05,
+      "percentual_alvo_na_intersecao": 100.0
+    },
+    {
+      "alvo_id": "MS-5006606-4693892971CF47B4B2684C3A94950BEE",
+      "vizinho_id": "MS-5006606-F52D5261C8504529A0FC680C01132DA2",
+      "alvo_area_ha": 0.0001,
+      "vizinho_area_ha": 195.7855,
+      "alvo_100pct_dentro": true,
+      "intersecao_ha": 5.762028905670007e-05,
+      "percentual_alvo_na_intersecao": 100.0
+    },
+    {
+      "alvo_id": "BA-2921401-9177991E4861442EACFE3ACDDC06DB91",
+      "vizinho_id": "BA-2921401-0F05B7015F404007905C0A598A258AF4",
+      "alvo_area_ha": 0.0001,
+      "vizinho_area_ha": 26.582,
+      "alvo_100pct_dentro": false,
+      "intersecao_ha": 0.0,
+      "percentual_alvo_na_intersecao": 0.0
+    }
+  ],
+  "query_ref": "qr_03e7a92063544d1e8f0aa0d8ef829e4f"
+}

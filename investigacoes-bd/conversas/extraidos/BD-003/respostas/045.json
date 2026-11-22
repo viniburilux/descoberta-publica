@@ -1,0 +1,66 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "analise": "pooled_contemporanea",
+      "ano": null,
+      "observacoes": 14352,
+      "correlacao_pearson": -0.008498809177655015
+    },
+    {
+      "analise": "pooled_defasagem_emendas_1_ano",
+      "ano": null,
+      "observacoes": 12558,
+      "correlacao_pearson": -0.010176190351482026
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2018,
+      "observacoes": 1794,
+      "correlacao_pearson": 0.007478889542550394
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2019,
+      "observacoes": 1794,
+      "correlacao_pearson": -0.010463943168027656
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2020,
+      "observacoes": 1794,
+      "correlacao_pearson": -0.0018046150940269905
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2021,
+      "observacoes": 1794,
+      "correlacao_pearson": -0.006221540999477804
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2022,
+      "observacoes": 1794,
+      "correlacao_pearson": -0.008373652181971182
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2023,
+      "observacoes": 1794,
+      "correlacao_pearson": -0.014476492267643417
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2024,
+      "observacoes": 1794,
+      "correlacao_pearson": -0.015242668736346885
+    },
+    {
+      "analise": "por_ano",
+      "ano": 2025,
+      "observacoes": 1794,
+      "correlacao_pearson": -0.008160578272396418
+    }
+  ],
+  "query_ref": "qr_41a65bbe10df4389863a805cd601d0fc"
+}

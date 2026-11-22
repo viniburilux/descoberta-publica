@@ -1,0 +1,54 @@
+{
+  "row_count": 8,
+  "rows": [
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "despesas_empenhadas_funcoes": 1953514349.78
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1503200",
+      "nome": "Igarapé-Açu",
+      "despesas_empenhadas_funcoes": 320729946.81
+    },
+    {
+      "ano": 2023,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "despesas_empenhadas_funcoes": 2232854295.95
+    },
+    {
+      "ano": 2023,
+      "id_municipio": "1503200",
+      "nome": "Igarapé-Açu",
+      "despesas_empenhadas_funcoes": 352436500.53000003
+    },
+    {
+      "ano": 2024,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "despesas_empenhadas_funcoes": 2323489678.42
+    },
+    {
+      "ano": 2024,
+      "id_municipio": "1503200",
+      "nome": "Igarapé-Açu",
+      "despesas_empenhadas_funcoes": 429865151.00999993
+    },
+    {
+      "ano": 2025,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "despesas_empenhadas_funcoes": 2797717245.4799995
+    },
+    {
+      "ano": 2025,
+      "id_municipio": "1503200",
+      "nome": "Igarapé-Açu",
+      "despesas_empenhadas_funcoes": 478503877.11
+    }
+  ],
+  "query_ref": "qr_bbc03fed8d1a430dabc12e16a2f10089"
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "nome_coluna": "tipo",
+    "chave": "AST",
+    "valor": "Assentamento de Reforma Agrária"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "IRU",
+    "valor": "Imóvel Rural"
+  },
+  {
+    "nome_coluna": "tipo",
+    "chave": "PCT",
+    "valor": "Povos e Comunidades Tradicionais"
+  }
+]

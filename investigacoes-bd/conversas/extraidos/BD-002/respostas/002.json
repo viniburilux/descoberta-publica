@@ -1,0 +1,169 @@
+[
+  {
+    "id": "d30222ad-7a5c-4778-a1ec-f0785371d1ca",
+    "name": "População Brasileira",
+    "description": "Fornece estimativas do total da população dos Municípios e das Unidades da Federação brasileiras, com data de referência em 1o de julho, para o ano calendário corrente\r\n\r\nOs dados vem de estimativas de população feitas pelo IBGE, exceto em anos de Censo ou contagem. Dados de município estão atualizados pelo censo 2022.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "demografia",
+      "fertilidade"
+    ],
+    "themes": [
+      "População"
+    ]
+  },
+  {
+    "id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+    "name": "Dados Geográficos Brasileiros (geobr)",
+    "description": "O geobr é um pacote R que permite que os usuários acessem facilmente os shapefiles do Instituto Brasileiro de Geografia e Estatística (IBGE) e outros conjuntos oficiais de dados espaciais do Brasil. O pacote inclui uma ampla variedade de conjuntos de dados geográficos como recursos simples, disponíveis em várias escalas geográficas e por vários anos.",
+    "organizations": [
+      "Instituto de Pesquisa Econômica Aplicada (ipea)"
+    ],
+    "tags": [
+      "amazônia",
+      "hospital",
+      "mapa",
+      "desastre natural",
+      "área protegida",
+      "escola"
+    ],
+    "themes": [
+      "Educação",
+      "Saúde",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "ea4d07ca-e779-4d77-bcfa-b0fd5ebea828",
+    "name": "Índice Nacional de Preços ao Consumidor Amplo (IPCA)",
+    "description": "Índice Nacional de Preços ao Consumidor Amplo - IPCA é produzido pelo IBGE desde dezembro de 1979. O IPCA é utilizado como indicador oficial do País desde 1985 para corrigir salários, aluguéis, taxa de câmbio, poupança, entre outros. São divulgados os índices gerais, por grupos de produtos, subgrupos, itens e subitens, para as regiões pesquisadas, além do agregado Brasil.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "inflação",
+      "preço"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+    "name": "Produto Interno Bruto (PIB)",
+    "description": "O PIB permite identificar as áreas de geração de renda, produzindo informações que captam as especifidades do País. Disponibilizamos o PIB por Município, Unidade da Federação e para o País.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "pib",
+      "crescimento",
+      "renda"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "92945390-3b20-40e7-b71b-f6b58f3dc754",
+    "name": "Índice Nacional de Preços ao Consumidor (INPC)",
+    "description": "Índice Nacional de Preços ao Consumidor (INPC)",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "inflação",
+      "preço"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "a7d9442f-a591-477e-82a1-bcf780ccd0dc",
+    "name": "Índice Nacional de Preços ao Consumidor Amplo 15 (IPCA-15)",
+    "description": "Com divulgação na Internet iniciada em maio de 2000, o Índice Nacional de Preços ao Consumidor Amplo 15 – IPCA-15 difere do Índice Nacional de Preços ao Consumidor Amplo – IPCA, apenas no período de coleta que abrange, em geral, do dia 16 do mês anterior ao 15 do mês de referência e na abrangência geográfica.\r\n\r\nAtualmente a população-objetivo do IPCA-15 abrange as famílias com rendimentos de 1 a 40 salários mínimos, qualquer que seja a fonte. residentes em 11 áreas urbanas das regiões de abrangência do SNIPC, as quais são: regiões metropolitanas de Belém, Fortaleza, Recife, Salvador, Belo Horizonte, Rio de Janeiro, São Paulo, Curitiba, Porto Alegre, além do Distrito Federal e do município de Goiânia.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "inflação",
+      "preço"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "218ae306-29ac-4a83-836d-95bfdb9683fe",
+    "name": "Pesquisa de Informações Básicas Municipais (MUNIC)",
+    "description": "Efetua, periodicamente, um levantamento pormenorizado de informações sobre a estrutura, a dinâmica e o funcionamento das instituições públicas municipais, tendo como unidade de investigação o município e, como informante principal, a prefeitura, por meio dos diversos setores que a compõem.\r\n\r\nA Pesquisa de Informações Básicas Municipais - MUNIC teve início em 1999, extensiva à totalidade dos municípios do País. Os temas e questões abordados em seu questionário básico são levantados regularmente e visam responder às necessidades de informação da sociedade e do Estado brasileiro, com vistas à consolidação de uma base de dados estatísticos e cadastrais atualizados e que proporcionem um conjunto relevante de indicadores de avaliação e monitoramento dos quadros institucional e administrativo das municipalidades. Usualmente, a MUNIC traz um caderno suplementar que contempla temas específicos, de forma mais detalhada, em um esforço permanente de atualização da pesquisa. A partir de 2005, o bloco sobre características básicas dos gestores, presente no questionário básico, passou a ser investigado a cada quadriênio, sempre nos anos que marcam o início das administrações eleitas no ano anterior.\r\n\r\nA pesquisa fornece informações variadas sobre a gestão pública municipal, incluindo a legislação vigente e os instrumentos de planejamento existentes nessa esfera da administração, especialmente aqueles discriminados no Estatuto da Cidade e que, junto com o Plano Diretor, têm por meta regular o uso e a ocupação do solo urbano; organização das prefeituras; composição do quadro de pessoal por vínculo empregatício das prefeituras, tanto na administração direta quanto na indireta; recursos financeiros utilizados para a gestão; políticas públicas setoriais no âmbito das áreas pesquisadas (habitação, transporte, agropecuária, meio ambiente etc.), entre outros aspectos.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "governança",
+      "governo",
+      "informação",
+      "lei",
+      "administração pública",
+      "sistema"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "86bac6cc-575f-4289-a857-13f3f52c9a1d",
+    "name": "Pesquisa Nacional de Saúde (PNS)",
+    "description": "A Pesquisa Nacional de Saúde (PNS) é um inquérito de base domiciliar e âmbito nacional, realizada pelo Ministério da Saúde (MS) em parceria com o Instituto Brasileiro de Geografia e Estatística (IBGE), nos anos de 2013 e 2019.\r\nA população pesquisada corresponde aos moradores de domicílios particulares permanentes do Brasil, exceto os localizados nos setores censitários especiais (compostos por aglomerados subnormais; quartéis, bases militares etc.; alojamento, acampamentos etc.; embarcações, barcos, navios etc.; aldeia indígena; penitenciárias, colônias penais, presídios, cadeias etc.; asilos, orfanatos, conventos, hospitais etc.; e assentamentos rurais).",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "saúde",
+      "saúde mental",
+      "política pública"
+    ],
+    "themes": [
+      "Saúde",
+      "População"
+    ]
+  },
+  {
+    "id": "5c9618d4-fd32-41ff-b834-61349a3bd65f",
+    "name": "Áreas Mínimas Comparáveis (AMC)",
+    "description": "As mudanças ocorridas nas áreas e limites dos municípios impedem comparações geograficamente consistentes da evolução temporal dos dados demográficos, econômicos e sociais. Para possibilitar comparações consistentes no tempo é necessário agregar os municípios em áreas mínimas comparáveis, ou seja, no menor número de municípios necessário para que a área geográfica conjunta permaneça constante ao longo do período de análise. A base contempla qualquer subperíodo arbitrário entre dois anos de censo na faixa entre o primeiro e o último censo demográfico (1872-2010). Baseia-se em material compilado recentemente pelo Instituto Brasileiro de Geografia e Estatística (IBGE).",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "diretório"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  }
+]

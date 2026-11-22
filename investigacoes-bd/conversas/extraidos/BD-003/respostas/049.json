@@ -1,0 +1,96 @@
+{
+  "id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+  "name": "Compras públicas",
+  "description": "Compras públicas brasileiras registradas no Compras.gov.br, abrangendo os dois regimes de contratação: as contratações realizadas sob a Lei 14.133/2021 e divulgadas no PNCP, de 2021 em diante, e as licitações e contratações diretas sob a Lei 8.666/1993, de 1997 a 2025. Inclui itens, resultados, atas... (257 more characters)",
+  "organizations": [
+    "Ministério da Gestão e da Inovação em Serviços Públicos"
+  ],
+  "tags": [
+    "companhia",
+    "contrato",
+    "preço",
+    "administração pública",
+    "licitação",
+    "compra",
+    "gasto",
+    "transparência"
+  ],
+  "themes": [
+    "Economia",
+    "Governo e Finanças Públicas"
+  ],
+  "tables": [
+    {
+      "id": "2b2fc3a1-7367-4e0e-bede-d42dfabaa712",
+      "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+      "gcp_id": "basedosdados.br_mgi_compras_publicas.ata_registro_preco",
+      "name": "Ata de registro de preços",
+      "description": "Atas de registro de preços firmadas a partir de contratações da Lei 14.133/2021. Uma linha por ata, no estado mais recente informado pela fonte. A fonte não atribui número de controle no PNCP a 0,68% das atas, portanto a chave é o par id_compra e numero_ata_registro_preco"
+    },
+    {
+      "id": "9f785c62-2e1c-413a-9aa2-1b1f09a6615f",
+      "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+      "gcp_id": "basedosdados.br_mgi_compras_publicas.ata_registro_preco_item",
+      "name": "Ata de registro de preços - Item",
+      "description": "Itens das atas de registro de preços, com o fornecedor registrado, o preço unitário e o limite de adesão. Uma linha por fornecedor classificado em cada item, no estado mais recente informado pela fonte"
+    },
+    {
+      "id": "f85b5d4f-b02e-4e63-9e20-0128e01501f1",
+      "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+      "gcp_id": "basedosdados.br_mgi_compras_publicas.catalogo_material",
+      "name": "Catálogo - Materiais",
+      "description": "Catálogo de Materiais (CATMAT), com a hierarquia de grupo, classe e padrão descritivo. Uma linha por item de material"
+    },
+    {
+      "id": "094ba9b9-3544-4947-af8a-f34310c0624e",
+      "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+      "gcp_id": "basedosdados.br_mgi_compras_publicas.catalogo_servico",
+      "name": "Catálogo - Serviços",
+      "description": "Catálogo de Serviços (CATSER), com a hierarquia de seção, divisão, grupo e classe. Uma linha por item de serviço"
+    },
+    {
+      "id": "f8ea6a04-dd5f-4a8b-9bd4-8556a905e809",
+      "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+      "gcp_id": "basedosdados.br_mgi_compras_publicas.compra_sem_licitacao",
+      "name": "Contratação direta",
+      "description": "Dispensas e inexigibilidades de licitação sob a Lei 8.666/1993, de 1997 a 2024. Uma linha por contratação direta, com fundamento legal e justificativa"
+    },
+    {
+      "id": "439d955e-fc28-4b42-9b69-74db8b4f6b66",
+      "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+      "gcp_id": "basedosdados.br_mgi_compras_publicas.compra_sem_licitacao_item",
+      "name": "Contratação direta - Item",
+      "description": "Itens das dispensas e inexigibilidades de licitação sob a Lei 8.666/1993. Uma linha por item, com fornecedor vencedor e valor estimado"
+    },
+    {
+      "id": "3923feb7-64ef-41cc-96cd-0b9f835f1d4b",
+      "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+      "gcp_id": "basedosdados.br_mgi_compras_publicas.contratacao",
+      "name": "Contratação",
+      "description": "Contratações públicas realizadas sob a Lei 14.133/2021 e divulgadas no PNCP por meio do Compras.gov.br, de 2021 em diante. Uma linha por contratação, cobrindo os três níveis de governo"
+    },
+    {
+      "id": "6850df00-c99c-4ca6-9d60-1b10a36a46e9",
+      "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+      "gcp_id": "basedosdados.br_mgi_compras_publicas.contratacao_item",
+      "name": "Contratação - Item",
+      "description": "Itens das contratações realizadas sob a Lei 14.133/2021. Uma linha por item, com quantidade, valor estimado e, quando já apurado, o resultado"
+    },
+    {
+      "id": "3434e332-7fbf-494f-ac4d-2423754b827f",
+      "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+      "gcp_id": "basedosdados.br_mgi_compras_publicas.contratacao_item_resultado",
+      "name": "Contratação - Item - Resultado",
+      "description": "Resultados dos itens das contratações da Lei 14.133/2021. Uma linha por fornecedor classificado em cada item, com quantidade e valor homologados"
+    },
+    {
+      "id": "4f99de2e-72bc-4597-9cde-1a2c1befedb5",
+      "dataset_id": "575420d8-dcf3-496a-9e69-38b25d7c0b9d",
+      "gcp_id": "basedosdados.br_mgi_compras_publicas.contrato",
+      "name": "Contrato",
+      "description": "Contratos administrativos registrados no SIASG, de 2010 em diante. Uma linha por contrato, com vigência, fornecedor e valores. Uma unidade gestora reutiliza o número do contrato entre contratações, de modo que a chave inclui a compra de origem; cerca de 0,3% das chaves ainda se repetem com conteúdo ... (65 more characters)"
+    },
+    "... (11 more items)"
+  ],
+  "usage_guide": null
+}

@@ -1,0 +1,1 @@
+SELECT id_embargo,geometria FROM `basedosdados.br_ibama_fiscalizacao.area_embargada` WHERE ano=2023 LIMIT 1

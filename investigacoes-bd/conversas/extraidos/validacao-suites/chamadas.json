@@ -1,0 +1,189 @@
+[
+  {
+    "message_id": "36eafbb0-5cee-4c2c-8140-1fadf777605b",
+    "evento": 0,
+    "call_id": "call_XaYv27CXPATnUhvdKbFv35Zr",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 01_chaves_nulas | sicor_car\nWITH l AS (\n  SELECT COUNT(*) AS registros,\n         COUNTIF(id_car IS NULL OR TRIM(CAST(id_car AS STRING)) = '') AS chave_vazia\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\n  WHERE ano_emissao IN (2019, 2023, 2026)\n), r AS (\n  SELECT COUNT(*) AS registros,\n         COUNTIF(id_imovel IS NULL OR TRIM(CAST(id_imovel AS STRING)) = '') AS chave_vazia\n  FROM `basedosdados.br_sfb_sicar.area_imovel`\n  \n)\nSELECT 'left' AS lado, registros, chave_vazia FROM l\nUNION ALL\nSELECT 'right', registros, chave_vazia FROM r;",
+      "slug": "01_chaves_nulas"
+    },
+    "arquivo_sql": "sql/001.sql"
+  },
+  {
+    "message_id": "36eafbb0-5cee-4c2c-8140-1fadf777605b",
+    "evento": 0,
+    "call_id": "call_qnMvwFPQUDvT9EyXO5zsLosz",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 02_duplicidade | sicor_car\nWITH l AS (\n  SELECT COUNT(*) AS registros, COUNT(DISTINCT id_car) AS chaves_distintas\n  FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao IN (2019, 2023, 2026)\n), r AS (\n  SELECT COUNT(*) AS registros, COUNT(DISTINCT id_imovel) AS chaves_distintas\n  FROM `basedosdados.br_sfb_sicar.area_imovel` \n)\nSELECT 'left' AS lado, registros, chaves_distintas,\n       registros - chaves_distintas AS chaves_repetidas FROM l\nUNION ALL\nSELECT 'right', registros, chaves_distintas,\n       registros - chaves_distintas FROM r;",
+      "slug": "02_duplicidade"
+    },
+    "arquivo_sql": "sql/002.sql"
+  },
+  {
+    "message_id": "36eafbb0-5cee-4c2c-8140-1fadf777605b",
+    "evento": 0,
+    "call_id": "call_BdWElS2bYpPOxIdd01yiJNDU",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 03_transformacoes | sicor_car\nSELECT 'literal' AS transformacao,\n  COUNT(*) AS registros_left,\n  COUNTIF(r.__k IS NOT NULL) AS registros_correspondentes,\n  COUNT(DISTINCT IF(r.__k IS NOT NULL, l.__k, NULL)) AS ids_correspondentes\nFROM (SELECT TRIM(id_car) AS __k FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao IN (2019, 2023, 2026)) l\nLEFT JOIN (SELECT DISTINCT TRIM(id_imovel) AS __k FROM `basedosdados.br_sfb_sicar.area_imovel` ) r\nUSING (__k)\nUNION ALL\nSELECT 'normalizado' AS transformacao,\n  COUNT(*) AS registros_left,\n  COUNTIF(r.__k IS NOT NULL) AS registros_correspondentes,\n  COUNT(DISTINCT IF(r.__k IS NOT NULL, l.__k, NULL)) AS ids_correspondentes\nFROM (SELECT REPLACE(UPPER(TRIM(id_car)), '-', '') AS __k FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao IN (2019, 2023, 2026)) l\nLEFT JOIN (SELECT DISTINCT REPLACE(UPPER(TRIM(id_imovel)), '-', '') AS __k FROM `basedosdados.br_sfb_sicar.area_imovel` ) r\nUSING (__k);",
+      "slug": "03_transformacoes"
+    },
+    "arquivo_sql": "sql/003.sql"
+  },
+  {
+    "message_id": "36eafbb0-5cee-4c2c-8140-1fadf777605b",
+    "evento": 0,
+    "call_id": "call_CKgcJ394LUZzCrrEeI0EeSCA",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 05_residuos | sicor_car | amostra e contagem dos nao correspondentes\nWITH l AS (\n  SELECT DISTINCT REPLACE(UPPER(TRIM(id_car)), '-', '') AS __k FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao IN (2019, 2023, 2026)\n), r AS (\n  SELECT DISTINCT REPLACE(UPPER(TRIM(id_imovel)), '-', '') AS __k FROM `basedosdados.br_sfb_sicar.area_imovel` \n)\nSELECT COUNT(*) AS ids_left_sem_correspondencia\nFROM l LEFT JOIN r USING (__k)\nWHERE r.__k IS NULL;",
+      "slug": "05_residuos"
+    },
+    "arquivo_sql": "sql/004.sql"
+  },
+  {
+    "message_id": "36eafbb0-5cee-4c2c-8140-1fadf777605b",
+    "evento": 0,
+    "call_id": "call_qFJjquxmGRY9JPoQZZYhP8iD",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 06_estrutura | sicor_car | checagem estrutural da chave normalizada\nSELECT\n  LENGTH(REPLACE(UPPER(TRIM(id_car)), '-', '')) AS comprimento,\n  COUNTIF(REGEXP_CONTAINS(REPLACE(UPPER(TRIM(id_car)), '-', ''), r'^[A-Za-z]{2}[0-9]{7}[A-Fa-f0-9]{32}$')) AS formato_valido,\n  COUNT(*) AS registros,\n  SUBSTR(REPLACE(UPPER(TRIM(id_car)), '-', ''), 1, 2) AS uf_prefixo,\n  SUBSTR(REPLACE(UPPER(TRIM(id_car)), '-', ''), 3, 7) AS municipio_embutido\nFROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade`\nWHERE ano_emissao IN (2019, 2023, 2026)\nGROUP BY comprimento, uf_prefixo, municipio_embutido\nORDER BY registros DESC;",
+      "slug": "06_estrutura"
+    },
+    "arquivo_sql": "sql/005.sql"
+  },
+  {
+    "message_id": "6a727c68-751c-4ab5-9b83-961bfea32f9d",
+    "evento": 0,
+    "call_id": "call_4xreuKX4l1vp2j7fFrNx2czx",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 01_chaves_nulas | rais_cnae\nWITH l AS (\n  SELECT COUNT(*) AS registros,\n         COUNTIF(cnae_2_subclasse IS NULL OR TRIM(CAST(cnae_2_subclasse AS STRING)) = '') AS chave_vazia\n  FROM `basedosdados.br_me_rais.microdados_estabelecimentos`\n  WHERE ano IN (2023)\n), r AS (\n  SELECT COUNT(*) AS registros,\n         COUNTIF(subclasse IS NULL OR TRIM(CAST(subclasse AS STRING)) = '') AS chave_vazia\n  FROM `basedosdados.br_bd_diretorios_brasil.cnae_2`\n  \n)\nSELECT 'left' AS lado, registros, chave_vazia FROM l\nUNION ALL\nSELECT 'right', registros, chave_vazia FROM r;",
+      "slug": "01_chaves_nulas_rais_cnae"
+    },
+    "arquivo_sql": "sql/006.sql"
+  },
+  {
+    "message_id": "6a727c68-751c-4ab5-9b83-961bfea32f9d",
+    "evento": 0,
+    "call_id": "call_xlcVDqzO6EPoesDgVwaeZ0GL",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 02_duplicidade | rais_cnae\nWITH l AS (\n  SELECT COUNT(*) AS registros, COUNT(DISTINCT cnae_2_subclasse) AS chaves_distintas\n  FROM `basedosdados.br_me_rais.microdados_estabelecimentos` WHERE ano IN (2023)\n), r AS (\n  SELECT COUNT(*) AS registros, COUNT(DISTINCT subclasse) AS chaves_distintas\n  FROM `basedosdados.br_bd_diretorios_brasil.cnae_2` \n)\nSELECT 'left' AS lado, registros, chaves_distintas,\n       registros - chaves_distintas AS chaves_repetidas FROM l\nUNION ALL\nSELECT 'right', registros, chaves_distintas,\n       registros - chaves_distintas FROM r;",
+      "slug": "02_duplicidade_rais_cnae"
+    },
+    "arquivo_sql": "sql/007.sql"
+  },
+  {
+    "message_id": "6a727c68-751c-4ab5-9b83-961bfea32f9d",
+    "evento": 0,
+    "call_id": "call_mAmaBauVpRu6QIMkOVMyHmYB",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 03_transformacoes | rais_cnae\nSELECT 'literal' AS transformacao,\n  COUNT(*) AS registros_left,\n  COUNTIF(r.__k IS NOT NULL) AS registros_correspondentes,\n  COUNT(DISTINCT IF(r.__k IS NOT NULL, l.__k, NULL)) AS ids_correspondentes\nFROM (SELECT cnae_2_subclasse AS __k FROM `basedosdados.br_me_rais.microdados_estabelecimentos` WHERE ano IN (2023)) l\nLEFT JOIN (SELECT DISTINCT subclasse AS __k FROM `basedosdados.br_bd_diretorios_brasil.cnae_2` ) r\nUSING (__k);",
+      "slug": "03_transformacoes_rais_cnae"
+    },
+    "arquivo_sql": "sql/008.sql"
+  },
+  {
+    "message_id": "6a727c68-751c-4ab5-9b83-961bfea32f9d",
+    "evento": 0,
+    "call_id": "call_ED9YbpvzFtFNeO53S2IvASgs",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 05_residuos | rais_cnae | amostra e contagem dos nao correspondentes\nWITH l AS (\n  SELECT DISTINCT cnae_2_subclasse AS __k FROM `basedosdados.br_me_rais.microdados_estabelecimentos` WHERE ano IN (2023)\n), r AS (\n  SELECT DISTINCT subclasse AS __k FROM `basedosdados.br_bd_diretorios_brasil.cnae_2` \n)\nSELECT COUNT(*) AS ids_left_sem_correspondencia\nFROM l LEFT JOIN r USING (__k)\nWHERE r.__k IS NULL;",
+      "slug": "05_residuos_rais_cnae"
+    },
+    "arquivo_sql": "sql/009.sql"
+  },
+  {
+    "message_id": "7d705c55-41a1-4d66-aed6-a44ee7c53e68",
+    "evento": 0,
+    "call_id": "call_S0PK0OIDyfjL4vrWdSnBfEis",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 01_chaves_nulas | ibama_autos_embargos\nWITH l AS (\n  SELECT COUNT(*) AS registros,\n         COUNTIF(id_auto IS NULL OR TRIM(CAST(id_auto AS STRING)) = '') AS chave_vazia\n  FROM `basedosdados.br_ibama_fiscalizacao.auto_infracao`\n  WHERE ano >= 1977\n), r AS (\n  SELECT COUNT(*) AS registros,\n         COUNTIF(id_auto IS NULL OR TRIM(CAST(id_auto AS STRING)) = '') AS chave_vazia\n  FROM `basedosdados.br_ibama_fiscalizacao.area_embargada`\n  \n)\nSELECT 'left' AS lado, registros, chave_vazia FROM l\nUNION ALL\nSELECT 'right', registros, chave_vazia FROM r;",
+      "slug": "01_chaves_nulas_ibama_autos_embargos"
+    },
+    "arquivo_sql": "sql/010.sql"
+  },
+  {
+    "message_id": "7d705c55-41a1-4d66-aed6-a44ee7c53e68",
+    "evento": 0,
+    "call_id": "call_AzEL7jKU4IroOScF7f3iSzEO",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 02_duplicidade | ibama_autos_embargos\nWITH l AS (\n  SELECT COUNT(*) AS registros, COUNT(DISTINCT id_auto) AS chaves_distintas\n  FROM `basedosdados.br_ibama_fiscalizacao.auto_infracao` WHERE ano >= 1977\n), r AS (\n  SELECT COUNT(*) AS registros, COUNT(DISTINCT id_auto) AS chaves_distintas\n  FROM `basedosdados.br_ibama_fiscalizacao.area_embargada` \n)\nSELECT 'left' AS lado, registros, chaves_distintas,\n       registros - chaves_distintas AS chaves_repetidas FROM l\nUNION ALL\nSELECT 'right', registros, chaves_distintas,\n       registros - chaves_distintas FROM r;",
+      "slug": "02_duplicidade_ibama_autos_embargos"
+    },
+    "arquivo_sql": "sql/011.sql"
+  },
+  {
+    "message_id": "7d705c55-41a1-4d66-aed6-a44ee7c53e68",
+    "evento": 0,
+    "call_id": "call_K3UMCZ9hNuijM0L1iANsiOz0",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 03_transformacoes | ibama_autos_embargos\nSELECT 'literal' AS transformacao,\n  COUNT(*) AS registros_left,\n  COUNTIF(r.__k IS NOT NULL) AS registros_correspondentes,\n  COUNT(DISTINCT IF(r.__k IS NOT NULL, l.__k, NULL)) AS ids_correspondentes\nFROM (SELECT id_auto AS __k FROM `basedosdados.br_ibama_fiscalizacao.auto_infracao` WHERE ano >= 1977) l\nLEFT JOIN (SELECT DISTINCT id_auto AS __k FROM `basedosdados.br_ibama_fiscalizacao.area_embargada` ) r\nUSING (__k);",
+      "slug": "03_transformacoes_ibama_autos_embargos"
+    },
+    "arquivo_sql": "sql/012.sql"
+  },
+  {
+    "message_id": "7d705c55-41a1-4d66-aed6-a44ee7c53e68",
+    "evento": 0,
+    "call_id": "call_RmEdBRO19dVWNU3raIHnCQ5S",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 05_residuos | ibama_autos_embargos | amostra e contagem dos nao correspondentes\nWITH l AS (\n  SELECT DISTINCT id_auto AS __k FROM `basedosdados.br_ibama_fiscalizacao.auto_infracao` WHERE ano >= 1977\n), r AS (\n  SELECT DISTINCT id_auto AS __k FROM `basedosdados.br_ibama_fiscalizacao.area_embargada` \n)\nSELECT COUNT(*) AS ids_left_sem_correspondencia\nFROM l LEFT JOIN r USING (__k)\nWHERE r.__k IS NULL;",
+      "slug": "05_residuos_ibama_autos_embargos"
+    },
+    "arquivo_sql": "sql/013.sql"
+  },
+  {
+    "message_id": "eaaf23f4-d3ba-453e-8742-15373e9a3249",
+    "evento": 0,
+    "call_id": "call_5vmIS6Q7c6OSAjkNZLfflItt",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 01_chaves_nulas | prodes_mapbiomas\nWITH l AS (\n  SELECT COUNT(*) AS registros,\n         COUNTIF(CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING)) IS NULL OR TRIM(CAST(CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING)) AS STRING)) = '') AS chave_vazia\n  FROM `basedosdados.br_inpe_prodes.municipio_bioma`\n  WHERE ano IN (2023)\n), r AS (\n  SELECT COUNT(*) AS registros,\n         COUNTIF(CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING)) IS NULL OR TRIM(CAST(CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING)) AS STRING)) = '') AS chave_vazia\n  FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe`\n  WHERE ano IN (2023)\n)\nSELECT 'left' AS lado, registros, chave_vazia FROM l\nUNION ALL\nSELECT 'right', registros, chave_vazia FROM r;",
+      "slug": "01_chaves_nulas_prodes_mapbiomas"
+    },
+    "arquivo_sql": "sql/014.sql"
+  },
+  {
+    "message_id": "eaaf23f4-d3ba-453e-8742-15373e9a3249",
+    "evento": 0,
+    "call_id": "call_c6UTbJuWzIOUdixK6zjDRiYO",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 02_duplicidade | prodes_mapbiomas\nWITH l AS (\n  SELECT COUNT(*) AS registros, COUNT(DISTINCT CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING))) AS chaves_distintas\n  FROM `basedosdados.br_inpe_prodes.municipio_bioma` WHERE ano IN (2023)\n), r AS (\n  SELECT COUNT(*) AS registros, COUNT(DISTINCT CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING))) AS chaves_distintas\n  FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe` WHERE ano IN (2023)\n)\nSELECT 'left' AS lado, registros, chaves_distintas,\n       registros - chaves_distintas AS chaves_repetidas FROM l\nUNION ALL\nSELECT 'right', registros, chaves_distintas,\n       registros - chaves_distintas FROM r;",
+      "slug": "02_duplicidade_prodes_mapbiomas"
+    },
+    "arquivo_sql": "sql/015.sql"
+  },
+  {
+    "message_id": "eaaf23f4-d3ba-453e-8742-15373e9a3249",
+    "evento": 0,
+    "call_id": "call_mDGyrr3tnPUjHFtrdsOSytOM",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 03_transformacoes | prodes_mapbiomas\nSELECT 'literal' AS transformacao,\n  COUNT(*) AS registros_left,\n  COUNTIF(r.__k IS NOT NULL) AS registros_correspondentes,\n  COUNT(DISTINCT IF(r.__k IS NOT NULL, l.__k, NULL)) AS ids_correspondentes\nFROM (SELECT CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING)) AS __k FROM `basedosdados.br_inpe_prodes.municipio_bioma` WHERE ano IN (2023)) l\nLEFT JOIN (SELECT DISTINCT CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING)) AS __k FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe` WHERE ano IN (2023)) r\nUSING (__k);",
+      "slug": "03_transformacoes_prodes_mapbiomas"
+    },
+    "arquivo_sql": "sql/016.sql"
+  },
+  {
+    "message_id": "eaaf23f4-d3ba-453e-8742-15373e9a3249",
+    "evento": 0,
+    "call_id": "call_szdsJHw0G8wJmydZrlmsr4Sk",
+    "nome": "execute_bigquery_sql",
+    "args": {
+      "sql_query": "-- 05_residuos | prodes_mapbiomas | amostra e contagem dos nao correspondentes\nWITH l AS (\n  SELECT DISTINCT CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING)) AS __k FROM `basedosdados.br_inpe_prodes.municipio_bioma` WHERE ano IN (2023)\n), r AS (\n  SELECT DISTINCT CONCAT(id_municipio, '|', bioma, '|', CAST(ano AS STRING)) AS __k FROM `basedosdados.br_mapbiomas_estatisticas.cobertura_municipio_classe` WHERE ano IN (2023)\n)\nSELECT COUNT(*) AS ids_left_sem_correspondencia\nFROM l LEFT JOIN r USING (__k)\nWHERE r.__k IS NULL;",
+      "slug": "05_residuos_prodes_mapbiomas"
+    },
+    "arquivo_sql": "sql/017.sql"
+  }
+]

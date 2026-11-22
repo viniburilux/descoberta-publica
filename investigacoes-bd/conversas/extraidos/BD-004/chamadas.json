@@ -1,0 +1,299 @@
+[
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 0,
+    "call_id": "call_wbBqJq9iA06nsCIFTBmmJcxr",
+    "nome": "search_datasets",
+    "args": {
+      "query": "censo"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 0,
+    "call_id": "call_LWpCiYeyRBlgLNrSxoH9C7HN",
+    "nome": "search_datasets",
+    "args": {
+      "query": "educação"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 0,
+    "call_id": "call_V6b0ziLvXbjmF3PZavpfZIEr",
+    "nome": "search_datasets",
+    "args": {
+      "query": "saúde"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 0,
+    "call_id": "call_56lIgMkuWZTgDFFYP2C97MS2",
+    "nome": "search_datasets",
+    "args": {
+      "query": "trabalho"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 0,
+    "call_id": "call_BA84822xNe3mtJn8a8GkxuqI",
+    "nome": "search_datasets",
+    "args": {
+      "query": "eleições"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 0,
+    "call_id": "call_eC5QVwpE9qvNJ2Wfvl290ViV",
+    "nome": "search_datasets",
+    "args": {
+      "query": "clima"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_IwMt5jtJZr4XQ2Lm42qU1eCr",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_nJp1xUsrR83xWbHGvw3Ld2ca",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "dae21af4-4b6a-42f4-b94a-4c2061ea9de5"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_JHf5Ywoike1BICUtHFuTYnKu",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "96eab476-5d30-459b-82be-f888d4d0d6b9"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_fNFmJDDpK2ZoKX4GjdaK5GvX",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "3e7c4d58-96ba-448e-b053-d385a829ef00"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_xBlpFl9TuAeLTvL0HxiIzeQR",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "562b56a3-0b01-4735-a049-eeac5681f056"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_1I6Kq0ZPi8ofDfrVjMqJdgMz",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_Bjql2GCvi8IwguG5e8dsOzta",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "ff933265-8b61-4458-877a-173b3f38102b"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_3uwgUsjX52dAonjgdTCR1rA0",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "48ccef51-8207-40ee-af5b-134c8ac3fb8c"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_hTVg5upU2nOiVmhFPHPHHEOG",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "eef764df-bde8-4905-b115-6fc23b6ba9d6"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_d1quPxQseuJ1bZZcmNdAhedh",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "e5c87240-ecce-4856-97c5-e6b84984bf42"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_6E0UMNFEj0PshJD9BpjCbV2x",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "f06f3cdc-b539-409b-b311-1ff8878fb8d9"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 7,
+    "call_id": "call_Ym3uunnpSmUKbGqi2XxmJExB",
+    "nome": "get_dataset_details",
+    "args": {
+      "dataset_id": "782c5607-9f69-4e12-b0d5-aa0f1a7a94e2"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_udBzMfreme4jlzC4kTmlH0gt",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "15e428cb-cce2-41f8-aec5-066d685b5bd5"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_cCbuSdhECxQ82tyP23fkHH7V",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "8873f899-fdca-4ae4-808a-cdaaa1735d6a"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_io5VzcAGGFVHlf3T50HtDxaz",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "0b47cff1-46dc-4240-a9f1-19543afb6437"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_Dbu4nuiH2hCBPntlUcjw56dq",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "86b69f96-0bfe-45da-833b-6edc9a0af213"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_1sfvDWNChhPPDMvtLPnKewpx",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "2245875f-d1ef-490d-be29-4f8fb2191335"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_hRNxLkIjvTvyQVRTfEKqmu97",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "72505728-8867-4b6f-8afd-b732de55854e"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_0TP0RB7rODNlj6cG2UkGdEWJ",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "6c8bb045-e3da-4d17-bcd2-b66f3892da7e"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_OBEYYYAkSoDQgb3BpUl3sjOh",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "74f616d0-933c-4198-9f8e-00858eff807d"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_5DdoOj5uTRwyTtikus0Dlrd1",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "80359f9a-8189-4693-bdf7-ebf7be0d2fff"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_ci1Q3BmuokhYpBZ4vFGcXgml",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "74197311-35e3-4800-88ea-e0eec2b1b764"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_UVN9trzVsQY1GF3CkdVNxuST",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "a742f6e9-7d04-4b91-88d7-fa6cc17914a3"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_dbRaY9LWW3GnGz8dZF8Low5r",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "d7a76d45-c363-4494-826d-1580e997ebf0"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_ej9iPg9iuvWkWhEmklxoXoro",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "a3696dc2-4dd1-4f7e-9769-6aa16a1556b8"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_wjwLyBoGzDim4mX3BAN576x3",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "28d16282-d100-4ea8-9dde-36c05c8f1ca2"
+    }
+  },
+  {
+    "message_id": "b1823808-7ab1-412e-9ebd-a0416b1b23bb",
+    "evento": 20,
+    "call_id": "call_2EeBwvfuLLedXvHtNvJf6xQc",
+    "nome": "get_table_details",
+    "args": {
+      "table_id": "2c7fdc3d-f2ed-4c78-84b8-d9c792a06703"
+    }
+  }
+]

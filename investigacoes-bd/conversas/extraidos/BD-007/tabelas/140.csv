@@ -1,0 +1,7 @@
+grupo,id_imovel,id_municipio,sigla_uf,id_embargo,ano,area_ha,data_desembargo,situacao_desembargo,embargo_anterior_2023,ponto_embargo_dentro_do_car
+vizinho,PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56,1506187,PA,127471,2006,725.0,,Não informado como desembargado,True,True
+vizinho,PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56,1506187,PA,824790,2010,8.2873,,Não informado como desembargado,True,True
+vizinho,PA-1506187-3F4B7241FA0D4F60B91CCE115953FD56,1506187,PA,836171,2012,376.2529,,Não informado como desembargado,True,True
+vizinho,PA-1506187-48EDE9CDCF3947959921871671228876,1506187,PA,127471,2006,725.0,,Não informado como desembargado,True,True
+vizinho,PA-1506187-48EDE9CDCF3947959921871671228876,1506187,PA,824790,2010,8.2873,,Não informado como desembargado,True,True
+vizinho,PA-1506187-48EDE9CDCF3947959921871671228876,1506187,PA,836171,2012,376.2529,,Não informado como desembargado,True,True

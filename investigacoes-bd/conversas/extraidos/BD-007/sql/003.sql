@@ -1,0 +1,1 @@
+SELECT ano_emissao, COUNT(*) AS linhas, COUNTIF(id_car IS NOT NULL AND TRIM(id_car) != '') AS com_car, COUNT(DISTINCT id_referencia_bacen) AS refs, COUNT(DISTINCT CONCAT(id_referencia_bacen,'|',numero_ordem)) AS chaves FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao = 2023 GROUP BY ano_emissao

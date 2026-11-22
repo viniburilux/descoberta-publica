@@ -1,0 +1,107 @@
+{
+  "row_count": 20,
+  "rows": [
+    {
+      "id_municipio": "1507300",
+      "desmatado_km2": 21299.1,
+      "area_bioma_km2": 84191.64412,
+      "area_mapeada_ha": 8421265.401253082,
+      "classes_presentes": 16,
+      "producao_ton": 102792.0,
+      "valor_producao_mil_brl": 189078.0,
+      "area_colhida_ha": 16049
+    },
+    {
+      "id_municipio": "5007109",
+      "desmatado_km2": 14114.0,
+      "area_bioma_km2": 17291.94146,
+      "area_mapeada_ha": 1731520.830713618,
+      "classes_presentes": 12,
+      "producao_ton": 122815.0,
+      "valor_producao_mil_brl": 248783.0,
+      "area_colhida_ha": 33369
+    },
+    {
+      "id_municipio": "1100205",
+      "desmatado_km2": 12327.7,
+      "area_bioma_km2": 34090.35627,
+      "area_mapeada_ha": 3407764.759488143,
+      "classes_presentes": 15,
+      "producao_ton": 425731.0,
+      "valor_producao_mil_brl": 892347.0,
+      "area_colhida_ha": 84711
+    },
+    {
+      "id_municipio": "1500602",
+      "desmatado_km2": 12224.2,
+      "area_bioma_km2": 159482.27399,
+      "area_mapeada_ha": 15953322.145276207,
+      "classes_presentes": 15,
+      "producao_ton": 132110.0,
+      "valor_producao_mil_brl": 224998.0,
+      "area_colhida_ha": 29057
+    },
+    {
+      "id_municipio": "5106307",
+      "desmatado_km2": 9534.599999999999,
+      "area_bioma_km2": 24183.37302,
+      "area_mapeada_ha": 2412736.5868455903,
+      "classes_presentes": 17,
+      "producao_ton": 2194230.0,
+      "valor_producao_mil_brl": 3961756.0,
+      "area_colhida_ha": 523250
+    },
+    {
+      "id_municipio": "2928901",
+      "desmatado_km2": 9001.2,
+      "area_bioma_km2": 14999.90291,
+      "area_mapeada_ha": 1515865.8283591955,
+      "classes_presentes": 16,
+      "producao_ton": 3223826.0,
+      "valor_producao_mil_brl": 7750905.0,
+      "area_colhida_ha": 687513
+    },
+    {
+      "id_municipio": "1504208",
+      "desmatado_km2": 8926.8,
+      "area_bioma_km2": 15053.68988,
+      "area_mapeada_ha": 1512782.0038374218,
+      "classes_presentes": 16,
+      "producao_ton": 111120.0,
+      "valor_producao_mil_brl": 141207.0,
+      "area_colhida_ha": 13430
+    },
+    {
+      "id_municipio": "1505502",
+      "desmatado_km2": 8898.1,
+      "area_bioma_km2": 19323.72785,
+      "area_mapeada_ha": 1934252.854023933,
+      "classes_presentes": 17,
+      "producao_ton": 998448.0,
+      "valor_producao_mil_brl": 2031354.0,
+      "area_colhida_ha": 319584
+    },
+    {
+      "id_municipio": "1505064",
+      "desmatado_km2": 8820.3,
+      "area_bioma_km2": 15328.63809,
+      "area_mapeada_ha": 1539871.8158228802,
+      "classes_presentes": 14,
+      "producao_ton": 40.0,
+      "valor_producao_mil_brl": 56.0,
+      "area_colhida_ha": 25
+    },
+    {
+      "id_municipio": "5003207",
+      "desmatado_km2": 8649.6,
+      "area_bioma_km2": 64903.46466,
+      "area_mapeada_ha": 6441035.588085384,
+      "classes_presentes": 17,
+      "producao_ton": 21015.0,
+      "valor_producao_mil_brl": 32670.0,
+      "area_colhida_ha": 4783
+    },
+    "... (10 more items)"
+  ],
+  "query_ref": "qr_0597f1f926714a60baf5f79cc0a0ec04"
+}

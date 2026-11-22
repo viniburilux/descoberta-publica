@@ -1,0 +1,195 @@
+[
+  {
+    "id": "544c9d22-97b7-479a-8eca-94762840b465",
+    "name": "Microdados do Sistema de Operações do Crédito Rural e do Proagro (Sicor)",
+    "description": "Este conjunto de dados consolida as informações do SICOR (Sistema de Operações do Crédito Rural e do Proagro), registrando o ciclo completo das operações de crédito rural no Brasil, desde a contratação até o saldo devedor e a espacialização das áreas financiadas.\r\n\r\n  O conjunto possui diversas tabelas de microdados, organizadas por eixos temáticos:\r\n\r\n   * Operação: Cada linha representa uma operação de crédito rural e seus atributos cadastrais (valores contratados, finalidade, programa, etc.).\r\n   * Saldo: Cada linha representa o saldo devedor mensal de uma operação, permitindo o acompanhamento da evolução da dívida ao longo do tempo.\r\n   * Liberação: Cada linha registra um evento de desembolso (repasse financeiro) associado a uma operação contratada.\r\n   * Recurso Público (Mutuário, Cooperado e Propriedade): Tabelas que detalham os beneficiários (pessoas físicas ou jurídicas), membros de cooperativas e as propriedades rurais envolvidas em operações que utilizam subsídios ou fontes de recurso públicas.\r\n   * Gleba: Cada linha contém a delimitação geográfica (polígonos e coordenadas) das áreas onde o recurso do crédito rural é aplicado.\r\n\r\n\r\n  A tabela que relaciona todas as demais é a microdados_operacao. O vínculo entre as tabelas é realizado através da combinação das colunas id_referencia_bacen e numero_ordem. Uma única operação registrada na tabela mestre pode possuir múltiplos registros de saldo mensais, diversas parcelas de liberação e diferentes glebas ou beneficiários associados.\r\n\r\n\r\n  Diferente de bases estáticas, o SICOR é atualizado mensalmente pelas instituições  financeiras. Para garantir a consistência temporal e o permissionamento dos dados, as tabelas utilizam as colunas ano_emissao e mes_emissao como chaves de particionamento e filtro principal.",
+    "organizations": [
+      "Banco Central do Brasil (BCB)"
+    ],
+    "tags": [
+      "agropecuária",
+      "crédito",
+      "gestão ambiental",
+      "uso da terra",
+      "rural"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Economia",
+      "Meio Ambiente",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "fb16e4a2-2c0d-4663-bc93-abd59913ca1c",
+    "name": "Portal de Dados Abertos (dados.gov)",
+    "description": "Dados publicados pelo governo federal e por governos locais para realizar pesquisas, desenvolver aplicativos e criar novos serviços. Nesse conjunto de dados temos a lista de organizações, conjuntos e recursos do site https://dados.gov.br/ além de algumas informações de uso como número de seguidores e de downloads",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "governança",
+      "governo",
+      "conhecimento",
+      "dados abertos",
+      "portal",
+      "transparência"
+    ],
+    "themes": [
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "43cba610-415a-4c0a-958f-4c57d82c2f0f",
+    "name": "Bolsas e Auxílios Pagos pelo CNPq",
+    "description": "O CNPq concede bolsas para a formação de recursos humanos no campo da pesquisa científica e tecnológica, em universidades, institutos de pesquisa, centros tecnológicos e de formação profissional, tanto no Brasil como no exterior.\r\n\r\nAlém de promover a formação de recursos humanos em áreas estratégicas para o desenvolvimento nacional, o CNPq aporta recursos financeiros para a implementação de projetos, programas e redes de Pesquisa e Desenvolvimento (P&D), diretamente ou em parceria com os Estados da Federação.\r\n\r\nO CNPq investe, ainda, em ações de divulgação científica e tecnológica com apoio financeiro à editoração e publicação de periódicos, à promoção de eventos científicos e à participação de estudantes e pesquisadores nos principais congressos e eventos nacionais e internacionais na área de ciência e tecnologia.\r\n\r\nPúblico Alvo: Jovens de ensino médio e superior, em nível de pós-graduação, interessados em atuar na pesquisa cientifica, e especialistas para atuarem em Pesquisa e Desenvolvimento (P&D) nas empresas e centros tecnológicos.\r\n\r\nModalidades de bolsas: O CNPq oferece varias modalidades de bolsas de formação e fomento a pesquisa, a alunos de ensino médio, graduação, pós-graduação, recém-doutores e pesquisadores já experientes do País e do exterior. As bolsas são concedidas diretamente pelo CNPq ou por instituições de ensino e pesquisa para as quais o CNPq destina quotas de bolsas.",
+    "organizations": [
+      "Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq)"
+    ],
+    "tags": [
+      "doutorado",
+      "PhD",
+      "pós-doutorado",
+      "bolsa"
+    ],
+    "themes": [
+      "Educação",
+      "Governo e Finanças Públicas",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "500604b8-ce93-433d-9ae0-ca53ad862cd6",
+    "name": "Programa de Fiscalização em Entes Federativos (FEF)",
+    "description": "O Programa de Fiscalização em Entes Federativos faz parte do aprimoramento dos instrumentos e processos de trabalho da Controladoria-Geral da União (CGU). Desde agosto de 2015, um novo método de controle está sendo aplicado na avaliação dos recursos públicos federais repassados a estados, municípios e Distrito Federal.\r\n\r\nA iniciativa incorporou o antigo Programa de Fiscalização por Sorteios Públicos, sendo que, agora, o programa possui três formas de seleção de entes: Censo, Matriz de Vulnerabilidade e Sorteios. Nesse contexto, já foram fiscalizados cerca de 2,5 mil municípios brasileiros desde 2003, englobando recursos públicos federais superiores ao montante de R$ 30 bilhões. \r\n\r\nQuando é utilizado o Censo, a fiscalização verifica a regularidade da aplicação dos recursos em todos os entes da amostragem. Já a Matriz agrega inteligência da informação, por meio da análise de indicadores, para identificar vulnerabilidades (situações locais críticas) e selecionar de forma analítica os entes a serem fiscalizados em determinada região. A metodologia de Sorteios permanece aleatória, ao incorporar as ações do antigo Programa de Fiscalização por Sorteios Públicos.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "auditoria",
+      "corrupção"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Justiça",
+      "Segurança, Crime, Violência, e Conflito"
+    ]
+  },
+  {
+    "id": "60aaf560-d82a-42b9-bf86-155d18b8c5bf",
+    "name": "Estatísticas de Ciência e Engenharia do NCSES (HERD e SED)",
+    "description": "Dois levantamentos do National Center for Science and Engineering Statistics (NCSES), a agência estatística federal dentro da National Science Foundation dos Estados Unidos. O Higher Education Research and Development Survey (HERD) é um censo anual das faculdades e universidades americanas que gastam ao menos US$ 150 mil em pesquisa e desenvolvimento orçado separadamente; aqui estão seus arquivos de uso público em nível de instituição para os anos fiscais de 1972 a 2024, incluindo o levantamento anterior, o Survey of R&D Expenditures at Universities and Colleges, com despesas por campo de pesquisa, fonte de recursos e agência federal financiadora, além das contagens de pessoal de pesquisa. O Survey of Earned Doctorates (SED) é um censo anual, realizado desde o ano acadêmico de 1958, de todos os que recebem um doutorado de pesquisa de uma instituição americana credenciada; aqui estão suas tabelas agregadas publicadas, já que os registros individuais são de uso restrito. As instituições do HERD carregam o UNITID do IPEDS, o que liga este conjunto a us_ed_ipeds e us_ed_college_scorecard; com us_nih_reporter, os três descrevem uma mesma cadeia: o financiamento federal que entra, o gasto em pesquisa que a instituição realiza e os pesquisadores que o sistema forma.",
+    "organizations": [
+      "National Science Foundation (NSF)"
+    ],
+    "tags": [
+      "doutorado",
+      "financiamento",
+      "renda",
+      "trabalho",
+      "pesquisa",
+      "salário",
+      "universidade"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "218ae306-29ac-4a83-836d-95bfdb9683fe",
+    "name": "Pesquisa de Informações Básicas Municipais (MUNIC)",
+    "description": "Efetua, periodicamente, um levantamento pormenorizado de informações sobre a estrutura, a dinâmica e o funcionamento das instituições públicas municipais, tendo como unidade de investigação o município e, como informante principal, a prefeitura, por meio dos diversos setores que a compõem.\r\n\r\nA Pesquisa de Informações Básicas Municipais - MUNIC teve início em 1999, extensiva à totalidade dos municípios do País. Os temas e questões abordados em seu questionário básico são levantados regularmente e visam responder às necessidades de informação da sociedade e do Estado brasileiro, com vistas à consolidação de uma base de dados estatísticos e cadastrais atualizados e que proporcionem um conjunto relevante de indicadores de avaliação e monitoramento dos quadros institucional e administrativo das municipalidades. Usualmente, a MUNIC traz um caderno suplementar que contempla temas específicos, de forma mais detalhada, em um esforço permanente de atualização da pesquisa. A partir de 2005, o bloco sobre características básicas dos gestores, presente no questionário básico, passou a ser investigado a cada quadriênio, sempre nos anos que marcam o início das administrações eleitas no ano anterior.\r\n\r\nA pesquisa fornece informações variadas sobre a gestão pública municipal, incluindo a legislação vigente e os instrumentos de planejamento existentes nessa esfera da administração, especialmente aqueles discriminados no Estatuto da Cidade e que, junto com o Plano Diretor, têm por meta regular o uso e a ocupação do solo urbano; organização das prefeituras; composição do quadro de pessoal por vínculo empregatício das prefeituras, tanto na administração direta quanto na indireta; recursos financeiros utilizados para a gestão; políticas públicas setoriais no âmbito das áreas pesquisadas (habitação, transporte, agropecuária, meio ambiente etc.), entre outros aspectos.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "governança",
+      "governo",
+      "informação",
+      "lei",
+      "administração pública",
+      "sistema"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "78145ea0-20a8-42fe-b165-e1e3d9fcb313",
+    "name": "Sistema Integrado de Administração de Pessoal (Siape)",
+    "description": null,
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "administração",
+      "executivo",
+      "federal",
+      "recursos humanos"
+    ],
+    "themes": [
+      "Economia",
+      "Política"
+    ]
+  },
+  {
+    "id": "453b23e9-1251-4b84-9d0c-1b7bbe2b3228",
+    "name": "Pesquisa de Informações Básicas Estaduais (ESTADIC)",
+    "description": "A Pesquisa de Informações Básicas Estaduais - ESTADIC é um levantamento pormenorizado de registros administrativos sobre a estrutura, a dinâmica e o funcionamento das instituições públicas estaduais.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "informação",
+      "administração pública",
+      "sistema"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "257e000c-1685-418a-88d9-4908ccef2840",
+    "name": "Emendas Parlamentares",
+    "description": "Dados do Portal da Transparência com as Emendas Parlamentares. \r\n\r\nEmendas parlamentares entende-se os recursos do orçamento público legalmente indicados pelos membros do Congresso Nacional e das Assembleias Legislativas estaduais para finalidades públicas, geralmente relacionada ao interesse temático e eleitoral de cada parlamentar.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "congresso",
+      "parlamento",
+      "gasto"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "d3874769-bcbd-4ece-a38a-157ba1021514",
+    "name": "Microdados de Despesas de Entes Subnacionais (MiDES)",
+    "description": "Microdados de compras públicas e execução orçamentária de entes subnacionais brasileiros.\r\n\r\nDados coletados de Tribunais de Contas Estaduais (TCEs) e harmonizados seguindo a metodologia descrita em Dahis, Ricca, Scot, Sales e Nascimento (2023).",
+    "organizations": [
+      "Banco Mundial"
+    ],
+    "tags": [
+      "orçamento",
+      "contrato",
+      "despesa",
+      "finanças públicas",
+      "licitação",
+      "compra",
+      "gasto",
+      "transparência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  }
+]

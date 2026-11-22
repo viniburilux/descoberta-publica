@@ -1,0 +1,194 @@
+[
+  {
+    "id": "c6dd2df8-b92b-4cd6-a7e1-1ac1ed24c44d",
+    "name": "OECD Public Finance Dataset",
+    "description": null,
+    "organizations": [
+      "Organization for Economic Cooperation and Development (OECD)"
+    ],
+    "tags": [
+      "despesa",
+      "política fiscal",
+      "finanças públicas",
+      "arrecadação",
+      "taxação",
+      "imposto"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "bb123ab5-1142-4530-8ccd-d681b6c4108e",
+    "name": "Financiamento Chinês Global para o Desenvolvimento (AidData GCDF 3.0)",
+    "description": "Registros a nível de projeto/atividade do financiamento oficial chinês para o desenvolvimento — empréstimos e doações de instituições do setor oficial da China a 165 países de baixa e média renda entre 2000 e 2021. Compilado pela AidData (William & Mary) na versão 3.0 do Global Chinese Development Finance Dataset, segundo a metodologia TUFF 3.0. Cobre 20.985 projetos/atividades.",
+    "organizations": [
+      "William & Mary"
+    ],
+    "tags": [
+      "China",
+      "crédito",
+      "dívida",
+      "desenvolvimento",
+      "governo",
+      "infraestrutura",
+      "ajuda internacional",
+      "empréstimo",
+      "finanças públicas"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "3ee33c3c-d8f9-4088-aee3-d34ee1efc0ae",
+    "name": "Estoque da Dívida Pública",
+    "description": null,
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "banco central",
+      "dívida",
+      "finanças",
+      "governo",
+      "administração pública"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "821b85cd-1256-47f8-8db2-d5dddf1d0638",
+    "name": "Censo de Governos (CoG)",
+    "description": "O Censo de Governos mede a estrutura, o emprego e as finanças de todos os governos estaduais e locais dos Estados Unidos. O conjunto reúne os três componentes do programa: a lista de unidades de governo dos levantamentos de 1997 a 2025, o emprego e a folha de pagamento por categoria funcional de 1992 a 2024, e receita, despesa, dívida e ativos por item financeiro dos exercícios de 1967 a 2018. As três famílias usam identificadores distintos, preservados nas colunas government_id e government_id_govs.",
+    "organizations": [
+      "U.S. Census Bureau"
+    ],
+    "tags": [
+      "dívida",
+      "emprego",
+      "despesa",
+      "administração pública",
+      "finanças públicas",
+      "servidor",
+      "receita",
+      "salário",
+      "tributo"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "c11e373a-da2f-41a7-811d-3ba305e070cf",
+    "name": "Orçamento do Estado de São Paulo",
+    "description": "Disponibilização de informações da execução orçamentária e financeira dos órgãos e entidades da Administração Direta e Indireta do Estado a partir de 2010, com detalhamento das despesas empenhadas, liquidadas e pagas, do ano e de restos a pagar, incluídas as intra-orçamentárias.",
+    "organizations": [
+      "Governo de São Paulo"
+    ],
+    "tags": [
+      "orçamento",
+      "finanças",
+      "receita",
+      "gasto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "3e4c67f4-25c5-4652-8582-7d7d45a4beb5",
+    "name": "The Worldwide Bureaucracy Indicators (WWBI)",
+    "description": "The Worldwide Bureaucracy Indicators (WWBI) database is a unique cross-national dataset on public sector employment and wages that aims to fill an information gap, thereby helping researchers, development practitioners, and policymakers gain a better understanding of the personnel dimensions of state capability, the footprint of the public sector within the overall labor market, and the fiscal implications of the public sector wage bill",
+    "organizations": [
+      "Banco Mundial"
+    ],
+    "tags": [
+      "finanças públicas",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "d99b8f79-f4bb-497c-9135-4faa01c9d685",
+    "name": "The Global Survey of Public Servants Global Indicator Data Set",
+    "description": "The Global Survey of Public Servants Consortium has collected surveys of public servants across the world.  To maximize their usefulness to the global community while ensuring confidentiality of responses, we have released a twenty-one-country dataset that averages responses at the institution-level (the GSPS `Global Indicator Data Set').",
+    "organizations": [
+      "Global Survey of Public Servants Consortium"
+    ],
+    "tags": [
+      "cargo comissionado",
+      "burocracia",
+      "governo",
+      "instituições",
+      "administração pública",
+      "finanças públicas",
+      "política pública",
+      "servidor",
+      "salário"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "4481c8ca-cb59-4fe5-9d41-8766f66d4bfa",
+    "name": "Sistema Integrado de Dados sobre Educação Pós-secundária (IPEDS)",
+    "description": "O Sistema Integrado de Dados sobre Educação Pós-secundária (IPEDS) é o principal programa de coleta de dados sobre educação pós-secundária do National Center for Education Statistics (NCES) dos Estados Unidos. Consiste em pesquisas anuais em nível de instituição aplicadas a todas as instituições pós-secundárias americanas, cobrindo matrículas, admissões, conclusões de cursos, mensalidades, auxílio financeiro, taxas de graduação, pessoal, salários, bibliotecas e finanças. A série harmonizada cobre o período de 1997 a 2024. Os dados foram limpos e harmonizados utilizando o pipeline de código aberto de Paul Goldsmith-Pinkham (https://github.com/paulgp/ipeds-database).",
+    "organizations": [
+      "Departamento de Educação dos Estados Unidos"
+    ],
+    "tags": [],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "aaf69fe2-3ac6-4d8b-8c4f-db464095f986",
+    "name": "Sistema de Contas Nacionais (Austrália)",
+    "description": "Séries temporais do Sistema Australiano de Contas Nacionais (catálogo 5204.0 do ABS), as contas nacionais anuais compiladas pelo Australian Bureau of Statistics. Abrange produto interno bruto, contas de renda, capital, financeiras e de balanço patrimonial por setor e indústria, além de medidas de produtividade e estoque de capital, a partir do ano fiscal de 1959-60. Está organizado como um dicionário de séries e uma tabela de observações no formato longo, identificados pelo código de série do ABS.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "dívida",
+      "finanças",
+      "política fiscal",
+      "gasto"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "fb693f9b-9e74-4b5a-8ef6-7ab4ae7b1e2c",
+    "name": "Demonstrações Financeiras de Companhias Abertas (SEC EDGAR)",
+    "description": "Dados numéricos das demonstrações financeiras principais de todas as companhias que protocolam documentos na Securities and Exchange Commission (SEC) dos Estados Unidos, extraídos das submissões em XBRL e publicados nos Financial Statement Data Sets trimestrais. Cobre balanço patrimonial, demonstração de resultado, fluxo de caixa, mutações do patrimônio líquido e resultado abrangente, de abril de 2009 a junho de 2026. As quatro tabelas espelham os arquivos de origem: submissões, fatos numéricos, marcadores da taxonomia XBRL e apresentação das linhas das demonstrações.",
+    "organizations": [
+      "Comissão de Valores Mobiliários dos Estados Unidos (SEC)"
+    ],
+    "tags": [
+      "contabilidade",
+      "atividade econômica",
+      "finanças",
+      "demonstração financeira",
+      "empresa",
+      "investimento",
+      "regulação"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  }
+]

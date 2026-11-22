@@ -1,0 +1,1 @@
+SELECT conta_bd, id_conta_bd, estagio_bd, COUNT(*) AS linhas FROM `basedosdados.br_me_siconfi.municipio_receitas_orcamentarias` WHERE ano=2023 GROUP BY conta_bd,id_conta_bd,estagio_bd ORDER BY conta_bd,estagio_bd

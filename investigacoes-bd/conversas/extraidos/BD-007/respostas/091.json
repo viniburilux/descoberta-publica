@@ -1,0 +1,187 @@
+[
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "100",
+    "valor": "TESOURO NACIONAL - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "201",
+    "valor": "OBRIGATÓRIOS - MCR 6.2 - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "202",
+    "valor": "EXIGIBILIDADE ADICIONAL DOS RECURSOS À VISTA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "222",
+    "valor": "Exigibilidade Adicional dos Recursos à Vista - Resolução 5030 ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "225",
+    "valor": "Exigibilidade Adicional dos Recursos à Vista - Resolução 5087 - ENCERRADO"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "226",
+    "valor": "Exigibilidade Adicional dos Recursos à Vista - Resolução 5157"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "250",
+    "valor": "FACULDADE DE APLICAÇÃO - COMPULSÓRIO"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "260",
+    "valor": "COMPULSÓRIO SOBRE RECURSOS À VISTA - REFORÇO DO INVESTIMENTO (CIRC 3.745)"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "300",
+    "valor": "POUPANÇA RURAL - EQUALIZADA - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "301",
+    "valor": "POUPANÇA RURAL - CONTROLADOS - CONDIÇÕES MCR 6.2"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "302",
+    "valor": "POUPANÇA RURAL - CONTROLADOS - FATOR DE PONDERAÇÃO"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "303",
+    "valor": "POUPANÇA RURAL - DIRECIONADA/NÃO CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "304",
+    "valor": "EXIGIBILIDADE ADICIONAL DA POUPANÇA RURAL"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "402",
+    "valor": "RECURSOS LIVRES - LIVRE/NÃO CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "403",
+    "valor": "RECURSOS LIVRES - EQUALIZADA - LIVRE/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "405",
+    "valor": "FUNDO DE COMMODITIES"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "430",
+    "valor": "LETRA DE CRÉDITO DO AGRONEGÓCIO (LCA) - DIRECIONADA/NÃO CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "431",
+    "valor": "LETRA DE CRÉDITO DO AGRONEGÓCIO (LCA) - EQUALIZADA - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "440",
+    "valor": "LETRA DE CRÉDITO DO AGRONEGÓCIO (LCA) - TAXA FAVORECIDA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "450",
+    "valor": "INSTR HIBRIDO CAPITAL DÍVIDA-IHCD (Lei 12.793/2013 - Art. 6º) - EQUALIZÁVEL"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "451",
+    "valor": "INSTR HIBRIDO CAPITAL DÍVIDA-IHCD (Lei 12.793/2013 - Art. 6º) - DIRECIONADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "501",
+    "valor": "FUNDO CONSTITUCIONAL DE FINANCIAMENTO DO NORTE (FNO) - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "502",
+    "valor": "FUNDO CONSTITUCIONAL DE FINANCIAMENTO DO NORDESTE (FNE) - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "503",
+    "valor": "FUNDO CONSTITUCIONAL DE FINANCIAMENTO DO CENTRO-OESTE (FCO) - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "505",
+    "valor": "BNDES/FINAME - EQUALIZADA - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "506",
+    "valor": "BNDES - LIVRE/NÃO CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "507",
+    "valor": "INCRA - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "520",
+    "valor": "FUNDO DE TERRAS E DA REFORMA AGRÁRIA - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "600",
+    "valor": "GOVERNOS E FUNDOS ESTADUAIS OU MUNICIPAIS - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "650",
+    "valor": "FAT - FUNDO DE AMPARO AO TRABALHADOR - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "680",
+    "valor": "PIS/PASEP"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "800",
+    "valor": "FUNCAFE - FUNDO DE DEFESA DA ECONOMIA CAFEEIRA - DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "850",
+    "valor": "CAPTAÇÃO EXTERNA - LIVRE/NÃO CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "900",
+    "valor": "ATIVIDADE NÃO FINANCIADA ENQUADRADA NO PROAGRO (MCR 16.8)"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "910",
+    "valor": "FUNDO NACIONAL SOBRE MUDANÇA (FUNDO CLIMA) - RES CMN 5.130/2024"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "911",
+    "valor": "FUNDO DE DESENVOLVIMENTO CIENTÍFICO E TECNOLÓGICO (FNDCT) - MP 1374 – DIRECIONADA/CONTROLADA"
+  },
+  {
+    "nome_coluna": "id_fonte_recurso",
+    "chave": "990",
+    "valor": "OUTRAS FONTES DE RECURSOS NÃO ESPECIFICADAS"
+  }
+]

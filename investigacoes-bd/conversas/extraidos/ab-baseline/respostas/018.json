@@ -1,0 +1,46 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "origem": "car",
+      "valor": "MG-3120102-8C32CD3146524EF9B624E275069A11EF"
+    },
+    {
+      "origem": "car",
+      "valor": "MG-3117108-56251BA883384051A00C739864D178D5"
+    },
+    {
+      "origem": "car",
+      "valor": "MG-3104304-CFAB1EF2C3854C50972B7B3791F29849"
+    },
+    {
+      "origem": "car",
+      "valor": "MG-3164001-259295D357CE4B3399B78F7DDA9ADA7F"
+    },
+    {
+      "origem": "car",
+      "valor": "MG-3114402-55CA02BC7B5E4DA8BB6C0E6C8AB0202D"
+    },
+    {
+      "origem": "sicor",
+      "valor": "PR411140728D9D6752F73413A9C17823216A12FA9"
+    },
+    {
+      "origem": "sicor",
+      "valor": "SC420410300F4D828C26B47FEA118982BED178007"
+    },
+    {
+      "origem": "sicor",
+      "valor": "BA29257583136A8204BBB40DC8C9B1DBA2B7DD48C"
+    },
+    {
+      "origem": "sicor",
+      "valor": "PE2601508BA5C61DC4E7A4EB9B7F8BA31DB16FF21"
+    },
+    {
+      "origem": "sicor",
+      "valor": "MG313250352201703183C42EBB4359546EA0591D7"
+    }
+  ],
+  "query_ref": "qr_80b10b809b804318a1263cdf411249fb"
+}

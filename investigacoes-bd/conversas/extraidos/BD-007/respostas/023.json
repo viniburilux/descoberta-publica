@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Column name id_imovel is ambiguous at [16:9]\n\nLocation: None\nJob ID: 53a1eb98-c798-436f-9c1d-71b414329883\n"
+}

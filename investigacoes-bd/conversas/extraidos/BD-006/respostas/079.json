@@ -1,0 +1,107 @@
+{
+  "row_count": 81,
+  "rows": [
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "DF",
+      "registros_sicor": 143,
+      "ids_sicor": 90,
+      "registros_com_car": 141,
+      "ids_com_car": 89,
+      "cobertura_registros": 0.986013986013986,
+      "cobertura_ids": 0.9888888888888889
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "PE",
+      "registros_sicor": 88612,
+      "ids_sicor": 40044,
+      "registros_com_car": 88603,
+      "ids_com_car": 40041,
+      "cobertura_registros": 0.9998984336207286,
+      "cobertura_ids": 0.9999250824093497
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "GO",
+      "registros_sicor": 32314,
+      "ids_sicor": 15323,
+      "registros_com_car": 32312,
+      "ids_com_car": 15322,
+      "cobertura_registros": 0.9999381073219038,
+      "cobertura_ids": 0.9999347386282059
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "PR",
+      "registros_sicor": 222584,
+      "ids_sicor": 94693,
+      "registros_com_car": 222578,
+      "ids_com_car": 94690,
+      "cobertura_registros": 0.999973043884556,
+      "cobertura_ids": 0.9999683186719187
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "MG",
+      "registros_sicor": 164486,
+      "ids_sicor": 75150,
+      "registros_com_car": 164483,
+      "ids_com_car": 75148,
+      "cobertura_registros": 0.9999817613657089,
+      "cobertura_ids": 0.999973386560213
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "PB",
+      "registros_sicor": 60550,
+      "ids_sicor": 26357,
+      "registros_com_car": 60549,
+      "ids_com_car": 26356,
+      "cobertura_registros": 0.9999834847233691,
+      "cobertura_ids": 0.9999620594149562
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "AC",
+      "registros_sicor": 2904,
+      "ids_sicor": 1281,
+      "registros_com_car": 2904,
+      "ids_com_car": 1281,
+      "cobertura_registros": 1.0,
+      "cobertura_ids": 1.0
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "AL",
+      "registros_sicor": 35143,
+      "ids_sicor": 18010,
+      "registros_com_car": 35143,
+      "ids_com_car": 18010,
+      "cobertura_registros": 1.0,
+      "cobertura_ids": 1.0
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "AM",
+      "registros_sicor": 383,
+      "ids_sicor": 184,
+      "registros_com_car": 383,
+      "ids_com_car": 184,
+      "cobertura_registros": 1.0,
+      "cobertura_ids": 1.0
+    },
+    {
+      "ano_emissao": 2019,
+      "uf_prefixo": "AP",
+      "registros_sicor": 41,
+      "ids_sicor": 23,
+      "registros_com_car": 41,
+      "ids_com_car": 23,
+      "cobertura_registros": 1.0,
+      "cobertura_ids": 1.0
+    },
+    "... (71 more items)"
+  ],
+  "query_ref": "qr_7bd5661403704795b7795a36226c2c81"
+}

@@ -1,0 +1,77 @@
+{
+  "row_count": 20,
+  "rows": [
+    {
+      "id_tabela": "servidao_administrativa",
+      "nome_coluna": "status",
+      "chave": "AT",
+      "cobertura_temporal": "",
+      "valor": "Ativo"
+    },
+    {
+      "id_tabela": "app",
+      "nome_coluna": "status",
+      "chave": "AT",
+      "cobertura_temporal": "",
+      "valor": "Ativo"
+    },
+    {
+      "id_tabela": "area_imovel",
+      "nome_coluna": "status",
+      "chave": "AT",
+      "cobertura_temporal": "",
+      "valor": "Ativo"
+    },
+    {
+      "id_tabela": "reserva_legal",
+      "nome_coluna": "status",
+      "chave": "AT",
+      "cobertura_temporal": "",
+      "valor": "Ativo"
+    },
+    {
+      "id_tabela": "hidrografia",
+      "nome_coluna": "status",
+      "chave": "AT",
+      "cobertura_temporal": "",
+      "valor": "Ativo"
+    },
+    {
+      "id_tabela": "area_consolidada",
+      "nome_coluna": "status",
+      "chave": "AT",
+      "cobertura_temporal": "",
+      "valor": "Ativo"
+    },
+    {
+      "id_tabela": "area_pousio",
+      "nome_coluna": "status",
+      "chave": "AT",
+      "cobertura_temporal": "",
+      "valor": "Ativo"
+    },
+    {
+      "id_tabela": "vegetacao_nativa",
+      "nome_coluna": "status",
+      "chave": "AT",
+      "cobertura_temporal": "",
+      "valor": "Ativo"
+    },
+    {
+      "id_tabela": "uso_restrito",
+      "nome_coluna": "status",
+      "chave": "AT",
+      "cobertura_temporal": "",
+      "valor": "Ativo"
+    },
+    {
+      "id_tabela": "app",
+      "nome_coluna": "status",
+      "chave": "CA",
+      "cobertura_temporal": "",
+      "valor": "Cancelado"
+    },
+    "... (10 more items)"
+  ],
+  "query_ref": "qr_63118b767f4e4803afff7b6317a2b740"
+}

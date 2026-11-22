@@ -1,0 +1,75 @@
+{
+  "id": "f7bf63e6-dc55-4953-acf6-4db7fc99f1f7",
+  "dataset_id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+  "gcp_id": "basedosdados.br_rf_cnpj.socios",
+  "name": "Sócios",
+  "description": "Sócios",
+  "columns": [
+    {
+      "name": "cnpj_basico",
+      "type": "STRING",
+      "description": "CNPJ básico",
+      "needs_decoding": false
+    },
+    {
+      "name": "cpf_representante_legal",
+      "type": "STRING",
+      "description": "CPF do Representante Legal",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_entrada_sociedade",
+      "type": "DATE",
+      "description": "Data de Entrada na Sociedade",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_modificacao",
+      "type": "DATE",
+      "description": "Data de Modificação",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_referencia",
+      "type": "DATE",
+      "description": "Data de referência (ano-mês) do dado.",
+      "needs_decoding": false
+    },
+    {
+      "name": "documento",
+      "type": "STRING",
+      "description": "Documento (CPF mascarado ou CNPJ)",
+      "needs_decoding": false
+    },
+    {
+      "name": "faixa_etaria",
+      "type": "STRING",
+      "description": "Faixa Etária",
+      "needs_decoding": true
+    },
+    {
+      "name": "id_pais",
+      "type": "STRING",
+      "description": "ID País",
+      "needs_decoding": true
+    },
+    {
+      "name": "nome",
+      "type": "STRING",
+      "description": "Nome",
+      "needs_decoding": false
+    },
+    {
+      "name": "nome_representante_legal",
+      "type": "STRING",
+      "description": "Nome do Representante Legal",
+      "needs_decoding": false
+    },
+    "... (3 more items)"
+  ],
+  "partitioned_by": [
+    "data_referencia"
+  ],
+  "period_start": "2021-11",
+  "period_end": "2026-11-01"
+}

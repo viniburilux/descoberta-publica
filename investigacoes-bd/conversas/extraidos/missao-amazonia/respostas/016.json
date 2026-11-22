@@ -1,0 +1,92 @@
+{
+  "id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+  "name": "Censo Demográfico",
+  "description": "O Censo Demográfico é a mais complexa operação estatística realizada por um país, sobretudo quando ele tem dimensões continentais como o Brasil, com 8.510.417,77 km², distribuídos em um território heterogêneo, muitas vezes de difícil acesso, composto por 27 Unidades da Federação e 5.570 municípios e... (685 more characters)",
+  "organizations": [
+    "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+  ],
+  "tags": [
+    "demografia"
+  ],
+  "themes": [
+    "Economia",
+    "Educação",
+    "Saúde",
+    "População",
+    "Religião"
+  ],
+  "tables": [
+    {
+      "id": "c51be276-2748-4e1c-b042-9741dd658e81",
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+      "gcp_id": "basedosdados.br_ibge_censo_demografico.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Censo Demográfico. Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "5645c1d7-9749-4b9a-b6d2-7f1b5d43038a",
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+      "gcp_id": "basedosdados.br_ibge_censo_demografico.microdados_domicilio_1970",
+      "name": "Microdados Domicílio 1970",
+      "description": "Microdados de domicílios para o ano 1970."
+    },
+    {
+      "id": "06cd0c3c-8f40-4691-ab1f-fac6cdeead37",
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+      "gcp_id": "basedosdados.br_ibge_censo_demografico.microdados_domicilio_1980",
+      "name": "Microdados Domicílio 1980",
+      "description": "Microdados da amostra de 25% de domicílios em 1980."
+    },
+    {
+      "id": "3412b17a-9a17-4904-90cb-c0a37efc8238",
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+      "gcp_id": "basedosdados.br_ibge_censo_demografico.microdados_domicilio_1991",
+      "name": "Microdados Domicílio 1991",
+      "description": "Microdados da amostra de 25% de domicílios em 1991."
+    },
+    {
+      "id": "14ab191c-cf5f-43a0-be5c-31bee6018c86",
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+      "gcp_id": "basedosdados.br_ibge_censo_demografico.microdados_domicilio_2000",
+      "name": "Microdados Domicílio 2000",
+      "description": "Microdados da amostra de 10% de domicílios em 2000."
+    },
+    {
+      "id": "06165a90-ac0b-4811-9cfa-45bb2e7d47fa",
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+      "gcp_id": "basedosdados.br_ibge_censo_demografico.microdados_domicilio_2010",
+      "name": "Microdados Domicílio 2010",
+      "description": "Microdados da amostra de 10% de domicílios em 2010.\r\n\r\nOs arquivos auxiliares aos dados (e.g. dicionários, instrumentos de coleta) estão disponíveis em https://storage.googleapis.com/basedosdados/auxiliary_files/br_ibge_censo_demografico.zip."
+    },
+    {
+      "id": "370f78fd-9ab0-4311-b87c-12fbc1c048f9",
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+      "gcp_id": "basedosdados.br_ibge_censo_demografico.microdados_domicilio_2022",
+      "name": "Microdados Domicílio 2022",
+      "description": "Microdados da amostra do Censo Demográfico 2022 (arquivo de acesso público): um registro por domicílio. A geografia máxima é a Unidade da Federação. Contém apenas registros com risco de revelação abaixo de 20%, em subamostra de 50% dos domicílios com fração amostral de 100%, com idade em grupos quin... (49 more characters)"
+    },
+    {
+      "id": "311a49ad-b26b-4f3e-81bf-c5868404c680",
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+      "gcp_id": "basedosdados.br_ibge_censo_demografico.microdados_familia_2022",
+      "name": "Microdados Família 2022",
+      "description": "Microdados da amostra do Censo Demográfico 2022 (arquivo de acesso público): um registro por família. A geografia máxima é a Unidade da Federação. Contém apenas registros com risco de revelação abaixo de 20%, em subamostra de 50% dos domicílios com fração amostral de 100%, com idade em grupos quinqu... (47 more characters)"
+    },
+    {
+      "id": "197bd69f-d0ef-45fb-b6d1-64b43b8a6f8f",
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+      "gcp_id": "basedosdados.br_ibge_censo_demografico.microdados_mortalidade_2022",
+      "name": "Microdados Mortalidade 2022",
+      "description": "Microdados da amostra do Censo Demográfico 2022 (arquivo de acesso público): um registro por óbito de morador reportado no domicílio. A geografia máxima é a Unidade da Federação. Contém apenas registros com risco de revelação abaixo de 20%, em subamostra de 50% dos domicílios com fração amostral de ... (79 more characters)"
+    },
+    {
+      "id": "424629b9-af7d-40b2-9d7b-e9984edd7bb5",
+      "dataset_id": "b8e8bd62-4eb9-42f9-9ffa-b5cca093f58e",
+      "gcp_id": "basedosdados.br_ibge_censo_demografico.microdados_pessoa_1970",
+      "name": "Microdados Pessoa 1970",
+      "description": "Microdados da amostra de 25% de pessoas em 1970."
+    },
+    "... (27 more items)"
+  ],
+  "usage_guide": null
+}

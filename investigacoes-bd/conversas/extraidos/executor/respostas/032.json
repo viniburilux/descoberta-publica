@@ -1,0 +1,16 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "linhas_totais": 2129134,
+      "chaves_distintas": 2129134,
+      "chaves_repetidas": 0,
+      "linhas_em_chaves_repetidas": 0,
+      "chaves_repetidas_com_valor_diferente": 0,
+      "total_valor_parcela_credito": 406395533265.6209,
+      "total_valor_recurso_publico": 121133688453.84955,
+      "linhas_sem_classificacao_da_fonte": 0
+    }
+  ],
+  "query_ref": "qr_ceaa9c22dcb44642a51e9f76d7c4afab"
+}

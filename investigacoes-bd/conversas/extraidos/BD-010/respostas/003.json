@@ -1,0 +1,11 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "micros_gt100": 4624,
+      "valor_micros_gt100": 542158616.6764054,
+      "imoveis_gt100": 76721
+    }
+  ],
+  "query_ref": "qr_ba750b4b1cf7419b833f83092325cbf6"
+}

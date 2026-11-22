@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Name id_imovel not found inside p at [1:684]\n\nLocation: None\nJob ID: a4d4051f-b23e-482c-802e-34f5c5f3b1c6\n"
+}

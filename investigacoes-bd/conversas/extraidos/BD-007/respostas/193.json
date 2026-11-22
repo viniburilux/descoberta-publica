@@ -1,0 +1,19 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "id_imovel": "BA-2929701-3438EBE3EC1C4160B13A7DC99112E048",
+      "area": 0.0026,
+      "area_geometria_ha": 0.0026008549152582916,
+      "latitude": -11.692807278421766,
+      "longitude": -38.552043309950285,
+      "status": "AT",
+      "condicao": "Aguardando analise",
+      "tipo": "IRU",
+      "data_criacao": "2016-09-05",
+      "data_atualizacao": "2022-11-13",
+      "data_extracao": "2026-08-02"
+    }
+  ],
+  "query_ref": "qr_4130684d157b43e3bab0c08ceb4c23a6"
+}

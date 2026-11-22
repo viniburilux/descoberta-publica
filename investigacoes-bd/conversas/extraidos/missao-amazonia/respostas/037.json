@@ -1,0 +1,24 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "id_municipio": "1503200",
+      "domicilios_total": 9158,
+      "domicilios_permanentes": 9118,
+      "agua_rede_geral": 6594,
+      "banheiro_ou_sanitario": 8966,
+      "esgoto_rede_geral_pluvial": 80,
+      "esgoto_fossa_septica": 76,
+      "esgoto_fossa_rudimentar": 6283,
+      "lixo_coletado": 5981,
+      "lixo_servico_limpeza": 5667,
+      "lixo_cacamba": 314,
+      "lixo_queimado": 2611,
+      "lixo_enterrado": 227,
+      "lixo_terreno": 254,
+      "lixo_rio_lago_mar": 12,
+      "lixo_outro": 33
+    }
+  ],
+  "query_ref": "qr_ae0d902cc3884e4091211785aeb1b50e"
+}

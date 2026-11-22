@@ -1,0 +1,62 @@
+[
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "1",
+    "valor": "Contrato (termo inicial)"
+  },
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "10",
+    "valor": "Acordo de Cooperação Técnica (ACT)"
+  },
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "11",
+    "valor": "Termo de Compromisso"
+  },
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "12",
+    "valor": "Carta Contrato"
+  },
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "2",
+    "valor": "Comodato"
+  },
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "3",
+    "valor": "Arrendamento"
+  },
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "4",
+    "valor": "Concessão"
+  },
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "5",
+    "valor": "Termo de Adesão"
+  },
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "6",
+    "valor": "Convênio"
+  },
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "7",
+    "valor": "Empenho"
+  },
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "8",
+    "valor": "Outros"
+  },
+  {
+    "nome_coluna": "id_tipo_contrato",
+    "chave": "9",
+    "valor": "Termo de Execução Descentralizada (TED)"
+  }
+]

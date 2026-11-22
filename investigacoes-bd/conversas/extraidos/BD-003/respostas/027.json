@@ -1,0 +1,27 @@
+{
+  "id": "257e000c-1685-418a-88d9-4908ccef2840",
+  "name": "Emendas Parlamentares",
+  "description": "Dados do Portal da Transparência com as Emendas Parlamentares. \r\n\r\nEmendas parlamentares entende-se os recursos do orçamento público legalmente indicados pelos membros do Congresso Nacional e das Assembleias Legislativas estaduais para finalidades públicas, geralmente relacionada ao interesse temáti... (35 more characters)",
+  "organizations": [
+    "Controladoria Geral da União (CGU)"
+  ],
+  "tags": [
+    "congresso",
+    "parlamento",
+    "gasto"
+  ],
+  "themes": [
+    "Economia",
+    "Governo e Finanças Públicas"
+  ],
+  "tables": [
+    {
+      "id": "f116068d-b65d-4d04-9bcb-368e70062c4b",
+      "dataset_id": "257e000c-1685-418a-88d9-4908ccef2840",
+      "gcp_id": "basedosdados.br_cgu_emendas_parlamentares.microdados",
+      "name": "Microdados",
+      "description": "Emenda parlamentar é um instrumento que o Congresso Nacional pode utilizar na fase de apreciação legislativa para influir no processo de elaboração do orçamento anual. Tais emendas podem acrescentar, suprimir ou modificar determinados itens (rubricas) do projeto de lei orçamentária enviado pelo Exec... (6 more characters)"
+    }
+  ],
+  "usage_guide": null
+}

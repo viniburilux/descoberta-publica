@@ -1,0 +1,12 @@
+{
+  "row_count": 1,
+  "rows": [
+    {
+      "imoveis_financiados": 927775,
+      "imoveis_com_embargo_mesmo_documento": 5510,
+      "imoveis_com_embargo_documento_municipio": 3545,
+      "documentos_embargados_que_aparecem_no_sicor": 3771
+    }
+  ],
+  "query_ref": "qr_54cdafc32b5542f5a0f41283b73fc8d4"
+}

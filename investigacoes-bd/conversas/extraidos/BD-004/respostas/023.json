@@ -1,0 +1,79 @@
+{
+  "id": "72505728-8867-4b6f-8afd-b732de55854e",
+  "dataset_id": "354d6d98-bc09-4e22-a58a-e4eac3a5283c",
+  "gcp_id": "basedosdados.br_ms_cnes.estabelecimento",
+  "name": "Estabelecimento",
+  "description": "A tabela fornece informações sobre a gestão e operação dos estabelecimentos de saúde brasileiros.",
+  "columns": [
+    {
+      "name": "agencia",
+      "type": "STRING",
+      "description": "Código da agência",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano_atualizacao",
+      "type": "INT64",
+      "description": "Ano de atualização da informação pelo estabelecimento",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano_avaliacao_pnass",
+      "type": "INT64",
+      "description": "Ano da avaliação PNASS",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "banco",
+      "type": "STRING",
+      "description": "Código do banco",
+      "needs_decoding": false
+    },
+    {
+      "name": "cep",
+      "type": "STRING",
+      "description": "Código do CEP",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_mantenedora",
+      "type": "STRING",
+      "description": "CNPJ da mantenedora",
+      "reference_table_id": "b71e9a46-f98e-476b-a2d6-4444213a8ddc",
+      "needs_decoding": false
+    },
+    {
+      "name": "conta_corrente",
+      "type": "STRING",
+      "description": "Código da conta corrente",
+      "needs_decoding": false
+    },
+    {
+      "name": "cpf_cnpj",
+      "type": "STRING",
+      "description": "CPF, caso pessoa física ou CNPJ, caso pessoa jurídica",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_expedicao_alvara",
+      "type": "DATE",
+      "description": "Data da expedição do alvará",
+      "needs_decoding": false
+    },
+    "... (90 more items)"
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "2005-08",
+  "period_end": "2026-10"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "dea823a5-cad7-4014-b77c-4aa33b3b0541",
+  "dataset_id": "5beeec93-cbf3-43f6-9eea-9bee6a0d1683",
+  "gcp_id": "basedosdados.br_ms_sim.microdados",
+  "name": "Microdados",
+  "description": "Microdados do Sistema de Informações sobre Mortalidade (SIM) do Ministério da Saúde.",
+  "columns": [
+    {
+      "name": "acidente_trabalho",
+      "type": "STRING",
+      "description": "Acidente de Trabalho",
+      "needs_decoding": false
+    },
+    {
+      "name": "alt_causa",
+      "type": "STRING",
+      "description": "Alt. Causa",
+      "reference_table_id": "cb11b295-4ecc-49cc-b60a-c1162d456872",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "assistencia_medica",
+      "type": "STRING",
+      "description": "Assistência Médica",
+      "needs_decoding": false
+    },
+    {
+      "name": "atestado",
+      "type": "STRING",
+      "description": "CIDs Informados no Atestado",
+      "needs_decoding": false
+    },
+    {
+      "name": "atestante",
+      "type": "STRING",
+      "description": "Indica se o médico que assina atendeu o paciente",
+      "needs_decoding": false
+    },
+    {
+      "name": "causa_basica",
+      "type": "STRING",
+      "description": "Causa Básica (CID-10)",
+      "reference_table_id": "cb11b295-4ecc-49cc-b60a-c1162d456872",
+      "needs_decoding": false
+    },
+    {
+      "name": "causa_basica_original",
+      "type": "STRING",
+      "description": "Causa Básica Original",
+      "reference_table_id": "cb11b295-4ecc-49cc-b60a-c1162d456872",
+      "needs_decoding": false
+    },
+    {
+      "name": "causa_basica_pre",
+      "type": "STRING",
+      "description": "Causa Básica Informada Antes da Resseleção",
+      "reference_table_id": "cb11b295-4ecc-49cc-b60a-c1162d456872",
+      "needs_decoding": false
+    },
+    {
+      "name": "causa_materna",
+      "type": "STRING",
+      "description": "Causa Externa Associada a uma Causa Materna",
+      "reference_table_id": "cb11b295-4ecc-49cc-b60a-c1162d456872",
+      "needs_decoding": false
+    },
+    "... (84 more items)"
+  ],
+  "partitioned_by": [
+    "ano",
+    "sigla_uf"
+  ],
+  "period_start": "1996",
+  "period_end": "2026"
+}

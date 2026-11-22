@@ -1,0 +1,101 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_2f5dbd93bd2340dba65b058a7ddac146",
+    "slug": "dicionario_credito_investimento",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_96e00d4f26e248b1bdae01d3952b321f",
+    "slug": "diagnostico_credito_publico_2022",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_3c7444e0eae34638b59211583c0687b1",
+    "slug": "finalidades_credito_2022",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_dfb385d14bff4076b6ea37513b184862",
+    "slug": "diagnostico_match_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_80b10b809b804318a1263cdf411249fb",
+    "slug": "amostras_ids_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ad59b56adc5f4767af14e68856439077",
+    "slug": "validacao_normalizacao_car",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_01e43f9b69974561817b9f07be43b56b",
+    "slug": "diagnostico_match_car_normalizado",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_0dd52f11f77b443fabfe61dad3df8f87",
+    "slug": "credito_investimento_publico_municipios_2022_corrigido",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_3cb75ce644ff4e79a756ad6bb22af7ce",
+    "slug": "checagens_rigor_credito_2022",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

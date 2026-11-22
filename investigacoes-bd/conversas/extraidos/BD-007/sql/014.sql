@@ -1,0 +1,1 @@
+SELECT ano, COUNT(*) AS embargos, COUNTIF(cpf_cnpj_embargado IS NOT NULL AND TRIM(cpf_cnpj_embargado) != '') AS com_documento, COUNTIF(id_municipio IS NOT NULL) AS com_municipio FROM `basedosdados.br_ibama_fiscalizacao.area_embargada` WHERE ano BETWEEN 1987 AND 2026 GROUP BY ano ORDER BY ano

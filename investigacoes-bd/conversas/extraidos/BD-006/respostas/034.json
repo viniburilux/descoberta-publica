@@ -1,0 +1,39 @@
+{
+  "id": "3880670f-eceb-47ec-802b-4579ee62ae3b",
+  "dataset_id": "49ace9c8-ae2d-454b-bed9-9b9492a3a642",
+  "gcp_id": "basedosdados.br_geobr_mapas.bioma",
+  "name": "Bioma",
+  "description": "Polígonos de todos o biomas presentes no território brasileiro e área costeira.\r\n\r\nOs dados de 2019 estão na estala 1:250.000. Os dados de 2004 estão na escala\r\n1:5.000.000.\r\n\r\nDados originais do IBGE. Saiba mais em https://www.ibge.gov.br/apps/biomas/",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "geometria",
+      "type": "GEOGRAPHY",
+      "description": "Geometria",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_bioma",
+      "type": "STRING",
+      "description": "Código do bioma",
+      "needs_decoding": false
+    },
+    {
+      "name": "nome_bioma",
+      "type": "STRING",
+      "description": "Nome do bioma",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "2004",
+  "period_end": "2019"
+}

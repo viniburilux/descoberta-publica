@@ -1,0 +1,57 @@
+{
+  "row_count": 71,
+  "rows": [
+    {
+      "nome_coluna": "id_fonte_recurso",
+      "chave": "100",
+      "valor": "TESOURO NACIONAL - DIRECIONADA/CONTROLADA"
+    },
+    {
+      "nome_coluna": "id_fonte_recurso",
+      "chave": "201",
+      "valor": "OBRIGATÓRIOS - MCR 6.2 - DIRECIONADA/CONTROLADA"
+    },
+    {
+      "nome_coluna": "id_fonte_recurso",
+      "chave": "202",
+      "valor": "EXIGIBILIDADE ADICIONAL DOS RECURSOS À VISTA"
+    },
+    {
+      "nome_coluna": "id_fonte_recurso",
+      "chave": "222",
+      "valor": "Exigibilidade Adicional dos Recursos à Vista - Resolução 5030 ENCERRADO"
+    },
+    {
+      "nome_coluna": "id_fonte_recurso",
+      "chave": "225",
+      "valor": "Exigibilidade Adicional dos Recursos à Vista - Resolução 5087 - ENCERRADO"
+    },
+    {
+      "nome_coluna": "id_fonte_recurso",
+      "chave": "226",
+      "valor": "Exigibilidade Adicional dos Recursos à Vista - Resolução 5157"
+    },
+    {
+      "nome_coluna": "id_fonte_recurso",
+      "chave": "250",
+      "valor": "FACULDADE DE APLICAÇÃO - COMPULSÓRIO"
+    },
+    {
+      "nome_coluna": "id_fonte_recurso",
+      "chave": "260",
+      "valor": "COMPULSÓRIO SOBRE RECURSOS À VISTA - REFORÇO DO INVESTIMENTO (CIRC 3.745)"
+    },
+    {
+      "nome_coluna": "id_fonte_recurso",
+      "chave": "300",
+      "valor": "POUPANÇA RURAL - EQUALIZADA - DIRECIONADA/CONTROLADA"
+    },
+    {
+      "nome_coluna": "id_fonte_recurso",
+      "chave": "301",
+      "valor": "POUPANÇA RURAL - CONTROLADOS - CONDIÇÕES MCR 6.2"
+    },
+    "... (61 more items)"
+  ],
+  "query_ref": "qr_2f5dbd93bd2340dba65b058a7ddac146"
+}

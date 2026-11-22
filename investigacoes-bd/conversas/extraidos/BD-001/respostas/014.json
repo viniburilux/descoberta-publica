@@ -1,0 +1,184 @@
+[
+  {
+    "id": "d30222ad-7a5c-4778-a1ec-f0785371d1ca",
+    "name": "População Brasileira",
+    "description": "Fornece estimativas do total da população dos Municípios e das Unidades da Federação brasileiras, com data de referência em 1o de julho, para o ano calendário corrente\r\n\r\nOs dados vem de estimativas de população feitas pelo IBGE, exceto em anos de Censo ou contagem. Dados de município estão atualizados pelo censo 2022.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "demografia",
+      "fertilidade"
+    ],
+    "themes": [
+      "População"
+    ]
+  },
+  {
+    "id": "94d7844b-3061-4a8e-9010-00633f1f9a02",
+    "name": "Projeções da População Mundial (World Population Prospects)",
+    "description": "Estimativas oficiais (1950–2023) e projeções da variante média (2024–2100) de população e indicadores demográficos para 237 países e áreas, produzidas pela Divisão de População das Nações Unidas (revisão de 2024). Inclui população por idade e sexo, fecundidade, mortalidade e migração internacional.",
+    "organizations": [
+      "Organização das Nações Unidas (ONU)"
+    ],
+    "tags": [
+      "demografia",
+      "fertilidade",
+      "expectativa de vida",
+      "mortalidade"
+    ],
+    "themes": [
+      "População"
+    ]
+  },
+  {
+    "id": "1e2b9a88-9dc7-4f0e-a3a5-e8d2a13869bf",
+    "name": "População Brasileira",
+    "description": "População brasileira estimada em divisões por sexo e grupos de idade.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [],
+    "themes": [
+      "População"
+    ]
+  },
+  {
+    "id": "9fa532fb-5681-4903-b99d-01dc45fd527a",
+    "name": "Pesquisa Nacional por Amostra de Domicílios Contínua (PNAD-C)",
+    "description": "A Pesquisa Nacional por Amostra de Domicílios Contínua, PNAD Contínua, é uma pesquisa realizada pelo IBGE com o objetivo de produzir continuamente informações sobre mercado de trabalho, associadas a características demográficas e educacionais. Periodicamente, são analisados temas adicionais permanentes, como trabalho infantil e outras formas de trabalho, fecundidade e migração, e suplementares, selecionados segundo necessidade, relativos ao desenvolvimento socioeconômico do país.A pesquisa fornece informações mensais para um conjunto restrito de indicadores relativos à força de trabalho, trimestral para os indicadores de força de trabalho, anual para temas permanentes e adicionais sobre força e trabalho e variável para temas suplementares. As informações mensais são representativas apenas em nível nacional e as demais têm representatividade para os níveis geográficos: Brasil, Grandes Regiões, Unidades da Federação, 20 Regiões Metropolitanas que contêm Municípios das Capitais, Municípios das Capitais e Região Integrada de Desenvolvimento da Grande Teresina. A cada trimestre, são investigados cerca de 211.000 domicílios inseridos em aproximadamente 16.000 setores censitários de 3.500 municípios.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "emprego",
+      "informalidade",
+      "trabalho",
+      "ocupação"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde",
+      "População"
+    ]
+  },
+  {
+    "id": "d255b082-9f60-422e-85b4-f38fefcd8a98",
+    "name": "População: Estimativas e Projeções (Austrália)",
+    "description": "Estimativas e projeções da população australiana publicadas pelo Australian Bureau of Statistics (ABS), reunindo três produtos: a população residente estimada trimestral da Austrália e dos estados e territórios, com os componentes da variação populacional, desde 1981 (antigo catálogo 3101.0); a população residente estimada anual por área estatística de nível 2 (SA2) e por área de governo local (LGA), desde 2001 (antigo catálogo 3218.0); e as projeções populacionais por idade simples e sexo até 2071, nas séries alta, média e baixa (antigo catálogo 3222.0). Inclui ainda a população residente estimada anual por idade simples e sexo desde 1971.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "idade",
+      "nascimento",
+      "óbito",
+      "demografia",
+      "fertilidade",
+      "migração",
+      "mortalidade",
+      "projeção"
+    ],
+    "themes": [
+      "População"
+    ]
+  },
+  {
+    "id": "1eeb071e-cfe0-4a32-a664-8e86fcb49971",
+    "name": "Recenseamento Geral do Império do Brasil de 1872",
+    "description": "O censo demográfico do Brasil de 1872 foi a primeira operação censitária realizada em território brasileiro, à época imperial.\n\nForam recenseados todos os moradores em domicílios (chamados de \"fogo\") particulares e coletivos e que se encontravam nele na data de referência do censo que foi o dia 1º de agosto de 1872. A distribuição da população se fez segundo a cor, o sexo, o estado de livres ou escravos, o estado civil, a nacionalidade, a ocupação e a religião.\n\nOs dados vêm do banco Pop-72, digitalizado e corrigido pelo Núcleo de Pesquisa em História Econômica e Demográfica (NPHED) do Cedeplar/UFMG, e cobrem 1.440 paróquias em 21 províncias. Cada quadro do recenseamento é publicado em duas versões, a original de 1872 e a corrigida pelo NPHED, em três níveis geográficos: paróquia, município e província. As tabelas corrigidas reproduzem os totais nacionais canônicos de 9.930.478 pessoas, das quais 1.510.806 escravizadas; as originais somam 9.952.948 e preservam os erros aritméticos da publicação de 1872, documentados no relatório crítico do NPHED.",
+    "organizations": [
+      "Universidade Federal de Minas Gerais (UFMG)"
+    ],
+    "tags": [
+      "idade",
+      "censo",
+      "demografia",
+      "império",
+      "alfabetização",
+      "migração",
+      "ocupação",
+      "escravidão"
+    ],
+    "themes": [
+      "História",
+      "População"
+    ]
+  },
+  {
+    "id": "47d27153-ac97-4d5f-a168-ec27cb1d968f",
+    "name": "Censo de População e Habitação do Chile",
+    "description": "Microdados do Censo de População e Vivienda 2024 do Chile, com uma tabela por unidade de observação (pessoa, lar e domicílio), acompanhados das duas bases agregadas que o INE publica com geometria: manzana-entidade e zona-localidade, cada uma com 189 variáveis de população, lares e domicílios. Os microdados são geocodificados apenas até a comuna, por controle de divulgação estatística, e portanto não se cruzam com as bases agregadas. O INE proíbe o uso dos dados para reidentificar pessoas.",
+    "organizations": [
+      "Instituto Nacional de Estatísticas do Chile (INE)"
+    ],
+    "tags": [
+      "censo",
+      "demografia",
+      "família",
+      "habitação",
+      "migração",
+      "saneamento",
+      "urbanização"
+    ],
+    "themes": [
+      "População",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "5ee80380-83fd-4e13-b145-437cb227a087",
+    "name": "Levantamento Nacional de Informações Penitenciárias (SISDEPEN/Infopen)",
+    "description": "Dados semestrais do sistema prisional brasileiro, reportados por estabelecimento pelas administrações penitenciárias estaduais e federal, cobrindo os 19 ciclos do SISDEPEN de 2016/2 a 2025/2. Contém a capacidade declarada por regime, a população prisional por situação processual, regime, esfera da justiça e sexo, e o perfil sociodemográfico por faixa etária, raça ou cor, estado civil e escolaridade. As quatro características sociodemográficas são marginais independentes, cruzadas apenas com sexo: a fonte não publica tabulação cruzada entre elas. A fonte publica apenas respostas validadas, de modo que a tabela cobertura reconstrói quantos estabelecimentos eram esperados em cada estado e semestre e registra a não resposta de item, que varia de 0% a 38% entre estados. A série histórica do Infopen de 2005 a 2015 não está incluída porque o host em que era publicada saiu do ar.",
+    "organizations": [
+      "Ministério da Justiça e Segurança Pública (MJ)"
+    ],
+    "tags": [
+      "crime",
+      "prisão",
+      "encarceramento",
+      "Segurança pública"
+    ],
+    "themes": [
+      "Justiça",
+      "População",
+      "Segurança, Crime, Violência, e Conflito"
+    ]
+  },
+  {
+    "id": "e337ceda-5333-4418-ab0b-c3335f80fe0f",
+    "name": "Beneficiários do OASDI e do SSI por estado e condado",
+    "description": "Número de beneficiários e valor dos benefícios pagos pelos dois principais programas de transferência de renda dos Estados Unidos, por condado e por estado, em dezembro de cada ano. O OASDI (Old-Age, Survivors, and Disability Insurance) é o seguro social contributivo de aposentadoria, pensão por morte e invalidez, coberto desde 1999 e detalhado por tipo de benefício, faixa etária e sexo. O SSI (Supplemental Security Income) é o benefício assistencial não contributivo, coberto desde 1998 e detalhado por categoria de elegibilidade, faixa etária e recebimento simultâneo de OASDI. Os dados vêm dos arquivos de série temporal achatada publicados pelo Office of Retirement and Disability Policy da SSA.",
+    "organizations": [
+      "Administração da Previdência Social dos Estados Unidos"
+    ],
+    "tags": [
+      "auxílio",
+      "terceira idade",
+      "renda",
+      "aposentadoria",
+      "assistência social",
+      "previdência social",
+      "transferência"
+    ],
+    "themes": [
+      "Economia",
+      "População"
+    ]
+  },
+  {
+    "id": "703f9f0d-caee-4b47-b900-46b1dea2c33c",
+    "name": "Nomes no Brasil",
+    "description": "No Brasil, de acordo com o Censo Demográfico 2010, existem cerca de 200 milhões de habitantes com mais de 130 mil nomes diferentes.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "nome"
+    ],
+    "themes": [
+      "População"
+    ]
+  }
+]

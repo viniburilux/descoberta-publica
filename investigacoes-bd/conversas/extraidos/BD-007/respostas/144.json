@@ -1,0 +1,70 @@
+{
+  "row_count": 8,
+  "rows": [
+    {
+      "ano_emissao": 2019,
+      "operacoes": 16,
+      "linhas": 16,
+      "credito": 4107294.95,
+      "produtos": "BOVINOS, COLHEITADEIRAS, COLHEDEIRAS E ARRANCADEIRAS, CORREÇÃO INTENSIVA DO SOLO, MÁQUINAS E IMPLEMENTOS, SOJA, TRIGO",
+      "finalidades": "Custeio, Investimento"
+    },
+    {
+      "ano_emissao": 2020,
+      "operacoes": 17,
+      "linhas": 18,
+      "credito": 3198151.3,
+      "produtos": "BOVINOS, Construção/Recuperação Barragem/Tanque, sistemas captação de água, MILHO, SOJA, TRIGO",
+      "finalidades": "Custeio, Investimento"
+    },
+    {
+      "ano_emissao": 2021,
+      "operacoes": 16,
+      "linhas": 19,
+      "credito": 5404636.279999999,
+      "produtos": "BOVINOS, MILHO, PASTAGEM, SOJA, TRATOR, TRIGO, Terraços, Porteiras, Mata-burros, Currais, Cochos, Cercas",
+      "finalidades": "Custeio, Investimento"
+    },
+    {
+      "ano_emissao": 2022,
+      "operacoes": 16,
+      "linhas": 17,
+      "credito": 2113288.24,
+      "produtos": "BOVINOS, CANOLA, MILHO, SOJA, TRIGO",
+      "finalidades": "Custeio, Investimento"
+    },
+    {
+      "ano_emissao": 2023,
+      "operacoes": 36,
+      "linhas": 40,
+      "credito": 24100091.93,
+      "produtos": "Aquisição de caixas d'água, lonas, toldos, campânulas, BOVINOS, CORREÇÃO INTENSIVA DO SOLO, Implantação de tecnologias de energia renovável, ambiental e pequenas aplicações hidroenergéticas, LAGO ARTIFICIAL, TANQUE, BARREIROS, CANAIS, RESERV.ÁGUA POTAVEL, MILHO, MÁQUINAS E IMPLEMENTOS, PASTAGEM, SOJ... (75 more characters)",
+      "finalidades": "Custeio, Investimento"
+    },
+    {
+      "ano_emissao": 2024,
+      "operacoes": 14,
+      "linhas": 18,
+      "credito": 7237734.890000001,
+      "produtos": "BOVINOS, CORREÇÃO INTENSIVA DO SOLO, IRRIGAÇÃO, MILHO, PASTAGEM, Perfuração Poço, Cacimba/Cisterna, SOJA, TRIGO, Terraços, Porteiras, Mata-burros, Currais, Cochos, Cercas",
+      "finalidades": "Custeio, Investimento"
+    },
+    {
+      "ano_emissao": 2025,
+      "operacoes": 5,
+      "linhas": 5,
+      "credito": 2602497.7600000002,
+      "produtos": "BOVINOS, MILHO, Terraços, Porteiras, Mata-burros, Currais, Cochos, Cercas",
+      "finalidades": "Custeio, Investimento"
+    },
+    {
+      "ano_emissao": 2026,
+      "operacoes": 2,
+      "linhas": 2,
+      "credito": 449100.0,
+      "produtos": "CAMINHÕES, REBOQUES, SEMIREBOQUES, CAÇAMBAS E CABINES",
+      "finalidades": "Investimento"
+    }
+  ],
+  "query_ref": "qr_9cddbd06c64e4c309190a1473ec320d6"
+}

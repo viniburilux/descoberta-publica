@@ -1,0 +1,179 @@
+[
+  {
+    "id": "e43f0d5b-43cf-4bfb-8d90-c38a4e0d7c4f",
+    "name": "Quadros Societários CNPJ",
+    "description": "Quadros societários e de administradores das pessoas jurídicas brasileiras.\r\n\r\n Este conjunto de dados é divulgado pela fonte original no formato de fotografias. Para cada data tem-se um retrato do universo de Cadastro Nacional das Pessoas Jurídicas (CNPJs) e seus atributos.  Com exceção da tabela de dicionários, a coluna data informa a data na qual os dados foram extraídos e disponibilizados pelo ministério da economia. \r\n\r\nPor que isso ocorre? Os atributos do CNPJ (situação cadastral; quadro societário) estão em constante mudança. A divulgação no formato de fotografias é uma forma de lidar com essa pecualiridade, uma vez que cada data reflete o estado atual do cadastro em um dado momento.\r\n\r\nComo isso afeta a análise? Em cada fotografia todos os CNPJs (ID de 14 dígitos) são repetidos. Logo,  haverá repetição de CNPJs se mais de uma data (fotografia) for selecionada.",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "firma",
+      "empresa",
+      "sócio"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "3e9c8804-c31c-4f48-9a45-d67f1c21a859",
+    "name": "Exame Nacional do Ensino Médio (Enem)",
+    "description": "O Exame Nacional do Ensino Médio (Enem) foi criado em 1998, com o objetivo de avaliar o desempenho dos estudantes concluintes do ensino médio. A partir de 2004, a prova passou a ser utilizada como ferramenta para ingresso em instituições do ensino superior e, em 2010, com sua inclusão no Sistema de Seleção Unificada (Sisu), foi reconhecido como o maior e mais completo exame educacional do Brasil.\r\n\r\nAo longo de sua criação, o Enem acabou substituindo o tradicional vestibular realizado por faculdades e universidades nacionais, tornando-se hoje ferramenta para concessão de bolsas de estudo parciais e integrais em faculdades particulares, através do Programa Universidade Para Todos (Prouni).",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "exame",
+      "ensino médio",
+      "prova"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  },
+  {
+    "id": "bff9bdbd-d15e-45f1-83dc-a2ea3f1ee340",
+    "name": "Indicador Nível Socioeconômico (INSE)",
+    "description": "O Indicador de Nível Socioeconômico (Inse), construído pela Diretoria de Avaliação da Educação Básica (Daeb), com base nos resultados do questionário do(a) aluno(a) do Saeb (Inse do Saeb), tem como objetivo contextualizar resultados obtidos em avaliações e exames aplicados por este Instituto no âmbito da educação básica.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "nível socioeconômico"
+    ],
+    "themes": [
+      "Economia",
+      "Educação"
+    ]
+  },
+  {
+    "id": "59af2af4-56e7-4793-bbdb-72e0255e96ee",
+    "name": "Índice de Nível Socieconômico (INSE) por Escola do Estado de São Paulo (SP)",
+    "description": "Calculado a partir dos questionários do SARESP, o INSE considera as seguintes variáveis:\r\n\r\n- Grau de escolaridade dos pais;\r\n- Posse de bens de consumo duráveis na residência;\r\n- Renda familiar.",
+    "organizations": [
+      "Secretaria de Educação de São Paulo"
+    ],
+    "tags": [
+      "indicadores educacionais",
+      "desigualdade",
+      "pobreza",
+      "indicadores socioeconômicos",
+      "riqueza"
+    ],
+    "themes": [
+      "Economia",
+      "Educação"
+    ]
+  },
+  {
+    "id": "1dd6317a-8e79-4a67-bb78-bc5fef214b4d",
+    "name": "Atlas de Vulnerabilidade Social (AVS)",
+    "description": "A plataforma oferece um panorama da vulnerabilidade e da exclusão social dos municípios e estados. Sua relevância vem justamente da capacidade de fornecer informações sobre a unidade político-administrativa mais próxima do cotidiano dos cidadãos, o município. Além disso, o AVS permite conhecer as desigualdades a nível intramunicipal das diversas espacialidades de uma mesma região metropolitana",
+    "organizations": [
+      "Instituto de Pesquisa Econômica Aplicada (ipea)"
+    ],
+    "tags": [
+      "adolescente",
+      "índice de desenvolvimento humano",
+      "renda",
+      "trabalho",
+      "expectativa de vida",
+      "alfabetização",
+      "longevidade",
+      "município",
+      "gravidez",
+      "ensino fundamental",
+      "escolaridade",
+      "escolas",
+      "ensino médio",
+      "esgoto",
+      "nível socioeconômico",
+      "ensino",
+      "água"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Governo e Finanças Públicas",
+      "Política",
+      "População"
+    ]
+  },
+  {
+    "id": "3e7c4d58-96ba-448e-b053-d385a829ef00",
+    "name": "Relação Anual de Informações Sociais (RAIS)",
+    "description": "A Relação Anual de Informações Sociais (RAIS) é um relatório de informações socioeconômicas solicitado pela Secretaria de Trabalho do Ministério da Economia brasileiro às pessoas jurídicas e outros empregadores anualmente. Foi instituída pelo Decreto nº 76.900, de 23 de dezembro de 1975.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "emprego",
+      "trabalho"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "3e4c67f4-25c5-4652-8582-7d7d45a4beb5",
+    "name": "The Worldwide Bureaucracy Indicators (WWBI)",
+    "description": "The Worldwide Bureaucracy Indicators (WWBI) database is a unique cross-national dataset on public sector employment and wages that aims to fill an information gap, thereby helping researchers, development practitioners, and policymakers gain a better understanding of the personnel dimensions of state capability, the footprint of the public sector within the overall labor market, and the fiscal implications of the public sector wage bill",
+    "organizations": [
+      "Banco Mundial"
+    ],
+    "tags": [
+      "finanças públicas",
+      "indicadores socioeconômicos"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "6adeafbc-d6d8-4a84-8d5e-7b4ffb8e0f24",
+    "name": "Registro de Empresas e Sociedades do Chile",
+    "description": "Sociedades e empresas constituídas sob o Regime Simplificado da Lei 20.659 (\"Tu Empresa en un Día\") e inscritas no Registro de Empresas e Sociedades do Chile, desde a entrada em vigor do regime em maio de 2013. Cada registro corresponde a uma sociedade identificada por seu RUT, com razão social, tipo societário, capital declarado, datas do trâmite e os domicílios tributário e social no nível de comuna. A fonte publica apenas as constituições: as modificações, dissoluções, migrações e anotações que o Registro também processa não estão incluídas.",
+    "organizations": [
+      "Registro de Empresas e Sociedades do Chile (RES)"
+    ],
+    "tags": [
+      "registro empresarial",
+      "empreendedorismo",
+      "empresa"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "fd0ba961-d93e-4d94-aac8-96c95671a22a",
+    "name": "Current Population Survey (CPS)",
+    "description": "Current Population Survey (CPS) do United States Census Bureau e do Bureau of Labor Statistics: pesquisa domiciliar mensal que produz as estatísticas oficiais de força de trabalho dos Estados Unidos. As tabelas reproduzem os extratos harmonizados do CEPR (CEPR Uniform Data Extracts), executando os programas do CEPR sobre os microdados públicos de origem, de modo que nomes e códigos de variáveis são consistentes ao longo de toda a série. Inclui o extrato mensal básico (1994-2019), os grupos de rotação de saída com rendimentos (1979-2019) e o suplemento anual socioeconômico ASEC/March (2014-2018).",
+    "organizations": [
+      "U.S. Census Bureau"
+    ],
+    "tags": [],
+    "themes": [
+      "Economia",
+      "População"
+    ]
+  },
+  {
+    "id": "e083c9a2-1cee-4342-bedc-535cbad6f3cd",
+    "name": "Sistema de Avaliação da Educação Básica (Saeb)",
+    "description": "O Sistema de Avaliação da Educação Básica (Saeb) é um conjunto de avaliações externas em larga escala que permite ao Inep realizar um diagnóstico da educação básica brasileira e de fatores que podem interferir no desempenho do estudante. Desde 1995, a avaliação bienal busca fornecer um panorama da Educação Básica e sofreu algumas mudanças metodológicas para aprimoramento. Juntamente com outros indicadores, as notas do SAEB estruturam a nota do Índice de Desenvolvimento da Educação Básica (Ideb). Por meio de testes e questionários, aplicados a cada dois anos na rede pública e em uma amostra da rede privada, o Saeb reflete os níveis de aprendizagem demonstrados pelos estudantes avaliados, explicando esses resultados a partir de uma série de informações contextuais. Avalia as séries: 5º ano, 9º ano e 3º ano do EM. Em 2019, tem o 2º ano do E.F.\r\n\r\nEm 2021 houve um novo recorte adicionado, uma separação entre capital e não capital. A Base dos dados decidiu não incluir esse recorte para melhor compatibilização com os anos anteriores.",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "avaliação",
+      "aprendizagem",
+      "ensino fundamental",
+      "ensino médio"
+    ],
+    "themes": [
+      "Educação"
+    ]
+  }
+]

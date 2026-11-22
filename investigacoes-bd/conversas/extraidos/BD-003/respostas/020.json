@@ -1,0 +1,170 @@
+[
+  {
+    "id": "ff933265-8b61-4458-877a-173b3f38102b",
+    "name": "Sistema de Informações Hospitalares do SUS (SIH/SUS)",
+    "description": "O SIH/SUS, ou Sistema de Informações Hospitalares do Sistema Único de Saúde, é um banco de dados que abrange todos os hospitais que utilizam o SUS, gerido pela Secretaria de Atenção Especializada à Saúde, do Ministério da Saúde. Esse sistema coleta informações sobre internações hospitalares, incluindo dados sobre o paciente, o diagnóstico, os procedimentos realizados e os valores pagos. O SIH/SUS é fundamental para o acompanhamento e gestão dos serviços hospitalares, além de ser uma importante ferramenta para a produção de estatísticas de saúde e a realização de pesquisas.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "saúde",
+      "hospital",
+      "internação",
+      "sus"
+    ],
+    "themes": [
+      "Saúde",
+      "População"
+    ]
+  },
+  {
+    "id": "5c6664e6-38a4-4916-9473-72ac368bb96c",
+    "name": "Campeonatos Internacionais de Futebol",
+    "description": "Dados de competições internacionais de futebol no mundo com informações de partidas, times e jogadores de futebol.",
+    "organizations": [
+      "Transfermarkt"
+    ],
+    "tags": [
+      "champions_league",
+      "la_liga"
+    ],
+    "themes": [
+      "Esportes"
+    ]
+  },
+  {
+    "id": "0c3d7825-7bad-42a1-ac2b-14d0ed609edf",
+    "name": "Diretórios de Comércio Internacional",
+    "description": "Diretórios de referência para classificações de comércio internacional de mercadorias, incluindo o Sistema Harmonizado (SH) e a Classificação Uniforme para o Comércio Internacional (CUCI/SITC), usados como chaves estrangeiras por conjuntos de dados de comércio.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "afc7c3a1-8691-4f3b-8566-bdce90f1100d",
+    "name": "Diretórios Mundiais",
+    "description": "Diretórios cobrindo entidades internacionais.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "47b33369-1d57-4131-b5de-d32bfc7c67c1",
+    "name": "Bolsas - Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)",
+    "description": "Divulgação das atividades de fomento a bolsas de estudos no Brasil e no exterior de programas de mobilidade internacional registradas em sistemas de pagamentos informatizados da Capes. O acervo de dados disponibilizado apresenta possibilidade de recortes por variáveis geográficas, perfil dos bolsistas, áreas de conhecimento e evolução dos valores pagos ao longo da série histórica.",
+    "organizations": [
+      "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)"
+    ],
+    "tags": [
+      "conhecimento",
+      "pesquisa",
+      "bolsa",
+      "ensino",
+      "universidade"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "782c5607-9f69-4e12-b0d5-aa0f1a7a94e2",
+    "name": "Banco de Dados Meteorológicos (INMET)",
+    "description": "O BDMEP abriga dados meteorológicos diários em forma digital, de séries históricas das várias estações meteorológicas convencionais da rede de estações do INMET com milhões de informações, referentes às medições diárias, de acordo com as normas técnicas internacionais da Organização Meteorológica Mundial.",
+    "organizations": [
+      "Instituto Nacional de Meteorologia (INMET)"
+    ],
+    "tags": [
+      "clima",
+      "meio ambiente",
+      "umidade",
+      "meteorologia",
+      "precipitação",
+      "radiação",
+      "temperatura"
+    ],
+    "themes": [
+      "Meio Ambiente",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "c990253a-8e63-4880-9d45-bca2559aa8e3",
+    "name": "Penn World Tables (PWT)",
+    "description": "Os dados da Penn World Table (versão 10.0) tratam sobre renda, produção, insumos e produtividade. A base fornece contas de paridade do poder de compra e renda nacional convertidas a preços internacionais para 183 países de 1950 a 2019.",
+    "organizations": [
+      "University of Groningen"
+    ],
+    "tags": [],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "94d7844b-3061-4a8e-9010-00633f1f9a02",
+    "name": "Projeções da População Mundial (World Population Prospects)",
+    "description": "Estimativas oficiais (1950–2023) e projeções da variante média (2024–2100) de população e indicadores demográficos para 237 países e áreas, produzidas pela Divisão de População das Nações Unidas (revisão de 2024). Inclui população por idade e sexo, fecundidade, mortalidade e migração internacional.",
+    "organizations": [
+      "Organização das Nações Unidas (ONU)"
+    ],
+    "tags": [
+      "demografia",
+      "fertilidade",
+      "expectativa de vida",
+      "mortalidade"
+    ],
+    "themes": [
+      "População"
+    ]
+  },
+  {
+    "id": "ee4a450d-f3ca-4d77-993b-10ea798b8508",
+    "name": "Copa do Mundo FIFA de Futebol Feminino",
+    "description": "A Copa do Mundo de Futebol Feminino da FIFA acontece a cada quatro anos e conta com a participação de 32 nações competindo em âmbito internacional.  Coletamos informações do site oficial da FIFA sobre cada partida disputada.",
+    "organizations": [
+      "FIFA"
+    ],
+    "tags": [
+      "campeonato",
+      "copa",
+      "feminino",
+      "futebol"
+    ],
+    "themes": [
+      "Esportes"
+    ]
+  },
+  {
+    "id": "474eb2ab-3909-454b-8a3a-c07769cea44b",
+    "name": "Pesquisa Internacional de Competências de Adultos (PIAAC)",
+    "description": "Microdados da Pesquisa Internacional de Competências de Adultos (PIAAC) da OCDE, que mede letramento, numeramento e resolução de problemas em adultos de 16 a 65 anos. Reúne os arquivos de uso público dos dois ciclos: 35 arquivos internacionais do Ciclo 1, coletados em três rodadas entre 2011 e 2017, e 30 arquivos do Ciclo 2, coletados entre setembro de 2022 e agosto de 2023. Cada ciclo é dividido em uma tabela por respondente e uma tabela longa de respostas por item.",
+    "organizations": [
+      "Organization for Economic Cooperation and Development (OECD)"
+    ],
+    "tags": [
+      "avaliação da educação",
+      "emprego",
+      "renda",
+      "aprendizagem",
+      "alfabetização",
+      "ocupação",
+      "escolaridade",
+      "habilidade"
+    ],
+    "themes": [
+      "Economia",
+      "Educação"
+    ]
+  }
+]

@@ -1,0 +1,82 @@
+{
+  "id": "74f616d0-933c-4198-9f8e-00858eff807d",
+  "dataset_id": "ff933265-8b61-4458-877a-173b3f38102b",
+  "gcp_id": "basedosdados.br_ms_sih.aihs_reduzidas",
+  "name": "AIH's Reduzidas",
+  "description": "Movimento de AIH - Arquivos Reduzidos\r\n\r\nÉ importante destacar que, embora os metadados sugiram que o nível de observação da tabela é dado pelo conjunto das variáveis id_aih e sequencia, essa tabela apresenta uma inconsistência ao tratar das observações em que a coluna indicador_id_aih, que serve pa... (209 more characters)",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano de processamento da AIH, no formato aaaa",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "carater_internacao",
+      "type": "STRING",
+      "description": "Caráter da internação.",
+      "needs_decoding": true
+    },
+    {
+      "name": "cbo_2002_paciente",
+      "type": "STRING",
+      "description": "Ocupação do paciente, segundo a Classificação Brasileira de Ocupações – CBO.",
+      "reference_table_id": "c2e3f3aa-5e92-407c-897d-0892f56985a2",
+      "needs_decoding": false
+    },
+    {
+      "name": "cep_paciente",
+      "type": "STRING",
+      "description": "CEP do paciente.",
+      "needs_decoding": false
+    },
+    {
+      "name": "cid_causa_categoria",
+      "type": "STRING",
+      "description": "Categoria do CID de causa.",
+      "needs_decoding": false
+    },
+    {
+      "name": "cid_causa_subcategoria",
+      "type": "STRING",
+      "description": "Subcategoria do CID de causa.",
+      "reference_table_id": "cb11b295-4ecc-49cc-b60a-c1162d456872",
+      "needs_decoding": false
+    },
+    {
+      "name": "cid_diagnostico_secundario_1_categoria",
+      "type": "STRING",
+      "description": "Categoria do CID do Diagnóstico secundário 1.",
+      "needs_decoding": false
+    },
+    {
+      "name": "cid_diagnostico_secundario_1_subcategoria",
+      "type": "STRING",
+      "description": "Subcategoria do CID do Diagnóstico secundário 1.",
+      "reference_table_id": "cb11b295-4ecc-49cc-b60a-c1162d456872",
+      "needs_decoding": false
+    },
+    {
+      "name": "cid_diagnostico_secundario_2_categoria",
+      "type": "STRING",
+      "description": "Categoria do CID do Diagnóstico secundário 2.",
+      "needs_decoding": false
+    },
+    {
+      "name": "cid_diagnostico_secundario_2_subcategoria",
+      "type": "STRING",
+      "description": "Subcategoria do CID do Diagnóstico secundário 2.",
+      "reference_table_id": "cb11b295-4ecc-49cc-b60a-c1162d456872",
+      "needs_decoding": false
+    },
+    "... (90 more items)"
+  ],
+  "partitioned_by": [
+    "ano",
+    "mes",
+    "sigla_uf"
+  ],
+  "period_start": "2008-01",
+  "period_end": "2026-07"
+}

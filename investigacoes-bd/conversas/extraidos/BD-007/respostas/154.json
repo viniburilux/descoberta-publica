@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "400 POST https://bigquery.googleapis.com/bigquery/v2/projects/basedosdados/jobs?prettyPrint=false: Unrecognized name: id_referencia_bacen at [1:1040]\n\nLocation: None\nJob ID: 4b3da4df-aeaa-46a0-a6d5-a90bfbccf496\n"
+}

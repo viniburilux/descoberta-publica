@@ -1,0 +1,73 @@
+{
+  "id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+  "dataset_id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+  "gcp_id": "basedosdados.br_bd_diretorios_brasil.municipio",
+  "name": "Município",
+  "description": "Diretório ligando diversos códigos institucionais de municípios brasileiros: IBGE, Receita Federal, TSE, BCB, regiões, comarcas, região de saúde, etc.",
+  "columns": [
+    {
+      "name": "amazonia_legal",
+      "type": "INT64",
+      "description": "Indicador se o município faz parte da Amazônia Legal",
+      "needs_decoding": false
+    },
+    {
+      "name": "capital_uf",
+      "type": "INT64",
+      "description": "Município é a Capital da Unidade da Federação",
+      "needs_decoding": false
+    },
+    {
+      "name": "centroide",
+      "type": "GEOGRAPHY",
+      "description": "Centroide do município",
+      "needs_decoding": false
+    },
+    {
+      "name": "ddd",
+      "type": "STRING",
+      "description": "Código de Discagem Direta a Distância (DDD)",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_comarca",
+      "type": "STRING",
+      "description": "ID Sede Comarca",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_mesorregiao",
+      "type": "STRING",
+      "description": "ID Mesorregião - IBGE",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_microrregiao",
+      "type": "STRING",
+      "description": "ID Microrregião - IBGE",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "ID Município - IBGE 7 Dígitos",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio_6",
+      "type": "STRING",
+      "description": "ID Município - IBGE 6 Dígitos",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio_bcb",
+      "type": "STRING",
+      "description": "ID Município - Banco Central do Brasil (BCB)",
+      "needs_decoding": false
+    },
+    "... (17 more items)"
+  ],
+  "partitioned_by": [],
+  "period_start": null,
+  "period_end": null
+}

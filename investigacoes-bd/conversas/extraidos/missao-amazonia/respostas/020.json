@@ -1,0 +1,81 @@
+{
+  "id": "dabe5ea8-3bb5-4a3e-9d5a-3c7003cd4a60",
+  "dataset_id": "3e7c4d58-96ba-448e-b053-d385a829ef00",
+  "gcp_id": "basedosdados.br_me_rais.microdados_vinculos",
+  "name": "Microdados Vínculos",
+  "description": "Microdados públicos dos vínculos de emprego na RAIS. Base desidentificada, isto é, que não inclui identificadores únicos de linha. Cada linha representa um vínculo - por isso indicamos este como nível de observação mesmo que não conste como coluna.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano_chegada_brasil",
+      "type": "INT64",
+      "description": "Ano de Chegada no Brasil",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "bairros_fortaleza",
+      "type": "STRING",
+      "description": "Bairros em Fortaleza",
+      "needs_decoding": true
+    },
+    {
+      "name": "bairros_rj",
+      "type": "STRING",
+      "description": "Bairros no Rio de Janeiro",
+      "needs_decoding": false
+    },
+    {
+      "name": "bairros_sp",
+      "type": "STRING",
+      "description": "Bairros em São Paulo",
+      "needs_decoding": true
+    },
+    {
+      "name": "causa_desligamento_1",
+      "type": "STRING",
+      "description": "Causa 1 do Desligamento",
+      "needs_decoding": true
+    },
+    {
+      "name": "causa_desligamento_2",
+      "type": "STRING",
+      "description": "Causa 2 do Desligamento",
+      "needs_decoding": true
+    },
+    {
+      "name": "causa_desligamento_3",
+      "type": "STRING",
+      "description": "Causa 3 do Desligamento",
+      "needs_decoding": true
+    },
+    {
+      "name": "cbo_1994",
+      "type": "STRING",
+      "description": "Classificação Brasileira de Ocupações (CBO) 1994",
+      "reference_table_id": "144ec13d-2e4f-4361-8f51-dd6f26917c46",
+      "needs_decoding": false
+    },
+    {
+      "name": "cbo_2002",
+      "type": "STRING",
+      "description": "Classificação Brasileira de Ocupações (CBO) 2002",
+      "reference_table_id": "c2e3f3aa-5e92-407c-897d-0892f56985a2",
+      "needs_decoding": false
+    },
+    "... (57 more items)"
+  ],
+  "partitioned_by": [
+    "ano",
+    "id_municipio",
+    "sigla_uf"
+  ],
+  "period_start": "1985",
+  "period_end": "2025"
+}

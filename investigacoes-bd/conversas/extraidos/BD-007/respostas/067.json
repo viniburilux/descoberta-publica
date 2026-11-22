@@ -1,0 +1,185 @@
+[
+  {
+    "id": "48ccef51-8207-40ee-af5b-134c8ac3fb8c",
+    "name": "Nascidos Vivos (SINASC)",
+    "description": "Os dados disponíveis são oriundos do Sistema de Informações sobre Nascidos Vivos (SINASC)  elaborado pelo Departamento de Informática do SUS (DATASUS). O SINASC é gerido pelo Departamento de Análise de Situação de Saúde, da Secretaria de Vigilância em Saúde, em conjunto com as Secretarias Estaduais e Municipais de Saúde.\r\n\r\nAs Secretarias de Saúde coletam as Declarações de Nascidos Vivos (DN) nos estabelecimentos de saúde e nos cartórios (para partos domiciliares) e entram, no SINASC, as informações nelas contidas.\r\n\r\nDe uma maneira geral, as Secretarias Estaduais de Saúde enviam a sua Base de Dados para o Ministério da Saúde, quando consideram a coleta completa. O MS só pode considerar a Base Nacional completa quando todas as UF enviaram seus dados. A partir daí, é feita a consolidação, inclusive com a redistribuição dos dados pelo local de residência, a qual é a forma tradicional de apresentar os dados de Nascidos Vivos. Eventualmente, são feitas algumas correções nas informações.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "adolescente",
+      "nascimento",
+      "exame",
+      "fertilidade",
+      "gravidez",
+      "pré-natal"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "e4f44946-b89f-4733-93e8-26b3ef0ab778",
+    "name": "Sistema de Imunizações",
+    "description": "Dados acerca dos boletins de doses aplicadas de vacina coletados pelo Sistema de Avaliação do Programa de Imunizações (API) a nivel estadual e disponibilizados a nivel nacional após compatibilização.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "imunização",
+      "vacina"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "f51134c2-5ab9-4bbc-882f-f1034603147a",
+    "name": "Sistema de Informação de Agravos de Notificação (SINAN)",
+    "description": "O Sistema de Informação de Agravos de Notificação (SINAN) tem como objetivo coletar, transmitir e disseminar dados gerados rotineiramente pelo Sistema de Vigilância Epidemiológica das três esferas de governo, através de uma rede informatizada, para apoiar o processo de investigação e dar subsídios à análise das informações de vigilância epidemiológica das doenças e agravos de notificação compulsória.\r\n\r\nO sistema foi desenvolvido pelo Departamento de Informática do SUS (DATASUS) para ser operacionalizado da Unidade de Saúde até a Secretaria Estadual de Saúde, porém caso o município não disponha de microcomputadores nas suas unidades, o mesmo pode ser operacionalizado a partir das Secretarias Municipais de Saúde (SMS), das Regionais de Saúde e da Secretaria Estadual de Saúde. O sistema é alimentado semanalmente em 52 semanas, de acordo com o calendário epidemiológico do ano. Em consequência, quando não houver a ocorrência de algum caso de doença ou agravo de notificação compulsória em alguma unidade de saúde, a SMS deve fazer uma notificação negativa para cada unidade nessa situação.",
+    "organizations": [
+      "Ministério da Saúde (MS)"
+    ],
+    "tags": [
+      "óbito",
+      "doença",
+      "epidemiologia",
+      "mortalidade",
+      "acidente de trabalho"
+    ],
+    "themes": [
+      "Saúde"
+    ]
+  },
+  {
+    "id": "34c17d70-036c-4345-88ba-be09e0a9dec0",
+    "name": "Global Historical Climatology Network - Daily (GHCN-Daily)",
+    "description": "Observações meteorológicas diárias de superfície de 132.501 estações em todo o mundo, compiladas pelo NOAA National Centers for Environmental Information a partir de mais de trinta fontes nacionais e internacionais. A série cobre de 1763 a 2026 e reúne 144 elementos, entre eles temperatura máxima e mínima, precipitação, queda de neve e profundidade de neve. Cada observação carrega sinalizadores de medição, qualidade e fonte; um sinalizador de qualidade não nulo indica que o valor reprovou no controle de qualidade do NCEI. Não confundir com o produto nClimGrid, que é a versão interpolada em grade de 5 km para os Estados Unidos continentais.",
+    "organizations": [
+      "National Oceanic and Atmospheric Administration (NOAA)"
+    ],
+    "tags": [
+      "clima",
+      "mudancas climáticas",
+      "umidade",
+      "meteorologia",
+      "precipitação",
+      "chuva",
+      "temperatura",
+      "vento"
+    ],
+    "themes": [
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "fcb40f26-0d15-463f-b5fe-e69d5f0affe1",
+    "name": "Avaliação da Operação do Sistema Interligado Nacional (SIN) e outros subssistemas",
+    "description": "A organização temática Avaliação da Operação permite um retrato da operação das usinas em todo território nacional. São apresentados dados cadastrais das usinas, dos reservatórios e da sua contribuição para o Sistema Interligado Nacional (SIN) e demais subssistemas",
+    "organizations": [
+      "Operador Nacional do Sistema Elétrico (ONS)"
+    ],
+    "tags": [
+      "eletricidade",
+      "avaliação",
+      "hidrelétrica"
+    ],
+    "themes": [
+      "Energia",
+      "Infraestrutura e Transportes"
+    ]
+  },
+  {
+    "id": "d3c86a88-d9a4-4fc0-bdec-08ab61e8f63c",
+    "name": "Acessos de telefonia móvel no Brasil",
+    "description": "Dados da Anatel referente a dados móveis, também conhecido como Serviço Móvel Pessoal (SMP). A agência oferece análises preliminares sobre os dados numa perspectiva geral no próprio site de dowloand dos microdados.",
+    "organizations": [
+      "Agência Nacional de Telecomunicações (Anatel)"
+    ],
+    "tags": [
+      "internet",
+      "celular",
+      "telefone"
+    ],
+    "themes": [
+      "Jornalismo e Comunicação",
+      "Infraestrutura e Transportes",
+      "Ciência, Tecnologia e Inovação"
+    ]
+  },
+  {
+    "id": "51ee8a6c-e410-4fc2-b2a4-e778c5b1ef3d",
+    "name": "Estimativas de custos da operação do Sistema Interligado Nacional (SIN) e outros subssistemas",
+    "description": "A organização temática 'Estimativas Custos' permite um retrato dos custos operação do Sistema Interligado Nacional (SIN)  e demais subssitemas de energia com diferentes metodologias e unidades de tempo utilizadas.",
+    "organizations": [
+      "Operador Nacional do Sistema Elétrico (ONS)"
+    ],
+    "tags": [
+      "eletricidade",
+      "avaliação",
+      "hidrelétrica"
+    ],
+    "themes": [
+      "Energia",
+      "Infraestrutura e Transportes"
+    ]
+  },
+  {
+    "id": "d8a9dda3-a160-45f1-ac52-cbf793e6f722",
+    "name": "Índice de Preços ao Produtor",
+    "description": "O Índice de Preços ao Produtor - IPP, cujo âmbito são as indústrias extrativas e de transformação, tem como principal objetivo mensurar a mudança média dos preços de venda recebidos pelos produtores domésticos de bens e serviços, bem como sua evolução ao longo do tempo, sinalizando as tendências inflacionárias de curto prazo no País.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "inflação",
+      "preço",
+      "produção"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "f8ab4a9d-7457-4f5f-8a50-9eec334e9abe",
+    "name": "Educação Especial",
+    "description": "A Educação Especial é a “modalidade de educação escolar oferecida preferencialmente na rede regular de ensino, para educandos com deficiência, transtornos globais do desenvolvimento e altas habilidades ou superdotação” (Redação dada pela Lei nº 12.796/2013, art.58, que alterou a LDB). Nesse conjunto, estão reunidos os dados da Sinopse Estatística da Educação Básica referentes à Educação Especial, e pedidos LAI com informações complementares sobre Educação Especial",
+    "organizations": [
+      "Instituto Nacional de Estudos e Pesquisas Educacionais (Inep)"
+    ],
+    "tags": [
+      "acessibilidade",
+      "aprovação",
+      "alfabetização",
+      "abandono_escolar"
+    ],
+    "themes": [
+      "Diversidade e Inclusão",
+      "Educação"
+    ]
+  },
+  {
+    "id": "7f6f7de2-f4e9-467c-a8c4-a66a6559803d",
+    "name": "Sistema Nacional de Estatísticas de Segurança Pública (SINESP VDE)",
+    "description": "Dados Nacionais de Segurança Pública coletados pelo SINESP VDE (Validador de Dados Estatísticos), sistema em que os Gestores Estaduais de Estatística dos 26 estados e do Distrito Federal informam mensalmente os indicadores definidos pela Resolução nº 6 do ConSinesp e pela Portaria nº 229, de 10 de dezembro de 2018. Cobre 31 tipos de ocorrência desde 2015, dos quais 11 são divulgados por município e os demais apenas por unidade da federação. Os dados refletem o nível de alimentação e consolidação de cada UF na data da extração e podem ser revistos após a publicação.",
+    "organizations": [
+      "Ministério da Justiça e Segurança Pública (MJ)"
+    ],
+    "tags": [
+      "crime",
+      "droga",
+      "feminicídio",
+      "Homicídio",
+      "polícia",
+      "estupro",
+      "roubo",
+      "Segurança pública",
+      "Vítimas",
+      "arma"
+    ],
+    "themes": [
+      "Justiça",
+      "Segurança, Crime, Violência, e Conflito"
+    ]
+  }
+]

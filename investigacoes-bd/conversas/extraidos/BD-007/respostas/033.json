@@ -1,0 +1,45 @@
+{
+  "id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15",
+  "name": "Fiscalização Ambiental",
+  "description": "Registros de fiscalização ambiental do Ibama: autos de infração lavrados desde 1977 e termos de embargo desde 1987, com o enquadramento, o valor da multa, a situação do débito, a área embargada e a localização declarada. Os dados são publicados diariamente no portal de dados abertos do Ibama e repro... (34 more characters)",
+  "organizations": [
+    "Ibama"
+  ],
+  "tags": [
+    "desmatamento",
+    "embargo",
+    "fauna",
+    "multa",
+    "flora",
+    "infração",
+    "fiscalização",
+    "sanção"
+  ],
+  "themes": [
+    "Meio Ambiente"
+  ],
+  "tables": [
+    {
+      "id": "1b04c5fe-854b-409a-a41a-4f6f4d22fe3e",
+      "dataset_id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15",
+      "gcp_id": "basedosdados.br_ibama_fiscalizacao.area_embargada",
+      "name": "Áreas embargadas",
+      "description": "Termos de embargo lavrados pelo Ibama, com a área embargada, o tipo de área, a situação de desembargo e a ligação com o auto de infração que os originou. Uma linha por termo de embargo."
+    },
+    {
+      "id": "ea170fcb-5498-4d4c-a99b-c9b585783fff",
+      "dataset_id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15",
+      "gcp_id": "basedosdados.br_ibama_fiscalizacao.auto_infracao",
+      "name": "Autos de infração",
+      "description": "Autos de infração ambiental lavrados pelo Ibama, com o bem tutelado atingido, o valor da multa, a situação do débito e a localização declarada. Uma linha por auto de infração. A situação do débito e a moeda vêm da série de multas ambientais distribuídas por bens tutelados (Sicafi)."
+    },
+    {
+      "id": "f540b1dd-6230-4a33-871c-1758f270daa1",
+      "dataset_id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15",
+      "gcp_id": "basedosdados.br_ibama_fiscalizacao.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário dos códigos usados nas colunas categóricas de br_ibama_fiscalizacao."
+    }
+  ],
+  "usage_guide": null
+}

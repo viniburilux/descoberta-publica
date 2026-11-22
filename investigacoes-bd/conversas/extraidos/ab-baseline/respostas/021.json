@@ -1,0 +1,87 @@
+{
+  "row_count": 11,
+  "rows": [
+    {
+      "tipo_resultado": "TOP_10",
+      "posicao": 1,
+      "municipio": "São Desidério",
+      "valor_credito": 393801386.41666675,
+      "numero_municipios": 5241,
+      "total_geral": 48292622454.52001
+    },
+    {
+      "tipo_resultado": "TOP_10",
+      "posicao": 2,
+      "municipio": "Porto Velho",
+      "valor_credito": 270615633.12000024,
+      "numero_municipios": 5241,
+      "total_geral": 48292622454.52001
+    },
+    {
+      "tipo_resultado": "TOP_10",
+      "posicao": 3,
+      "municipio": "Baixa Grande do Ribeiro",
+      "valor_credito": 260903326.23000002,
+      "numero_municipios": 5241,
+      "total_geral": 48292622454.52001
+    },
+    {
+      "tipo_resultado": "TOP_10",
+      "posicao": 4,
+      "municipio": "Balsas",
+      "valor_credito": 236806119.74,
+      "numero_municipios": 5241,
+      "total_geral": 48292622454.52001
+    },
+    {
+      "tipo_resultado": "TOP_10",
+      "posicao": 5,
+      "municipio": "Formosa do Rio Preto",
+      "valor_credito": 234891521.8433334,
+      "numero_municipios": 5241,
+      "total_geral": 48292622454.52001
+    },
+    {
+      "tipo_resultado": "TOP_10",
+      "posicao": 6,
+      "municipio": "Rio Verde",
+      "valor_credito": 227489363.01999995,
+      "numero_municipios": 5241,
+      "total_geral": 48292622454.52001
+    },
+    {
+      "tipo_resultado": "TOP_10",
+      "posicao": 7,
+      "municipio": "Correntina",
+      "valor_credito": 221584893.51,
+      "numero_municipios": 5241,
+      "total_geral": 48292622454.52001
+    },
+    {
+      "tipo_resultado": "TOP_10",
+      "posicao": 8,
+      "municipio": "Cristalina",
+      "valor_credito": 207349073.10000002,
+      "numero_municipios": 5241,
+      "total_geral": 48292622454.52001
+    },
+    {
+      "tipo_resultado": "TOP_10",
+      "posicao": 9,
+      "municipio": "Sorriso",
+      "valor_credito": 203616479.99,
+      "numero_municipios": 5241,
+      "total_geral": 48292622454.52001
+    },
+    {
+      "tipo_resultado": "TOP_10",
+      "posicao": 10,
+      "municipio": "Jaborandi",
+      "valor_credito": 196808906.7,
+      "numero_municipios": 5241,
+      "total_geral": 48292622454.52001
+    },
+    "... (1 more items)"
+  ],
+  "query_ref": "qr_0dd52f11f77b443fabfe61dad3df8f87"
+}

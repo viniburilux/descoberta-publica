@@ -1,0 +1,76 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "id_referencia_bacen": "516267991",
+      "numero_ordem": "3",
+      "id_municipio": "2311959",
+      "valor_parcela_credito": 20000.0,
+      "n_imoveis": 1
+    },
+    {
+      "id_referencia_bacen": "515623017",
+      "numero_ordem": "1",
+      "id_municipio": "2105922",
+      "valor_parcela_credito": 6000.0,
+      "n_imoveis": 1
+    },
+    {
+      "id_referencia_bacen": "516546312",
+      "numero_ordem": "1",
+      "id_municipio": "4309159",
+      "valor_parcela_credito": 13910.0,
+      "n_imoveis": 1
+    },
+    {
+      "id_referencia_bacen": "516739011",
+      "numero_ordem": "1",
+      "id_municipio": "4307450",
+      "valor_parcela_credito": 128591.45,
+      "n_imoveis": 4
+    },
+    {
+      "id_referencia_bacen": "516739011",
+      "numero_ordem": "1",
+      "id_municipio": "4307450",
+      "valor_parcela_credito": 128591.45,
+      "n_imoveis": 4
+    },
+    {
+      "id_referencia_bacen": "516739011",
+      "numero_ordem": "1",
+      "id_municipio": "4307450",
+      "valor_parcela_credito": 128591.45,
+      "n_imoveis": 4
+    },
+    {
+      "id_referencia_bacen": "516739011",
+      "numero_ordem": "1",
+      "id_municipio": "4307450",
+      "valor_parcela_credito": 128591.45,
+      "n_imoveis": 4
+    },
+    {
+      "id_referencia_bacen": "516885170",
+      "numero_ordem": "1",
+      "id_municipio": "3146008",
+      "valor_parcela_credito": 200016.0,
+      "n_imoveis": 1
+    },
+    {
+      "id_referencia_bacen": "516608411",
+      "numero_ordem": "1",
+      "id_municipio": "2615201",
+      "valor_parcela_credito": 10000.0,
+      "n_imoveis": 1
+    },
+    {
+      "id_referencia_bacen": "516287237",
+      "numero_ordem": "1",
+      "id_municipio": "4302006",
+      "valor_parcela_credito": 39041.84,
+      "n_imoveis": 2
+    }
+  ],
+  "query_ref": "qr_b941825b4eed49308bc109cd03190b77"
+}

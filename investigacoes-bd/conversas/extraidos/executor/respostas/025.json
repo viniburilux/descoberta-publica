@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "message": "The result is too large to chart (over 1 MB of data). Aggregate or summarize it in SQL first, then chart the smaller result."
+}

@@ -1,0 +1,47 @@
+{
+  "row_count": 33,
+  "rows": [
+    {
+      "produto": "Sorgo (em grão)",
+      "linhas": 5563
+    },
+    {
+      "produto": "Trigo (em grão)",
+      "linhas": 5563
+    },
+    {
+      "produto": "Abacaxi*",
+      "linhas": 5563
+    },
+    {
+      "produto": "Fumo (em folha)",
+      "linhas": 5563
+    },
+    {
+      "produto": "Batata-inglesa",
+      "linhas": 5563
+    },
+    {
+      "produto": "Batata-doce",
+      "linhas": 5563
+    },
+    {
+      "produto": "Cana para forragem",
+      "linhas": 5563
+    },
+    {
+      "produto": "Tomate",
+      "linhas": 5563
+    },
+    {
+      "produto": "Juta (fibra)",
+      "linhas": 5563
+    },
+    {
+      "produto": "Cebola",
+      "linhas": 5563
+    },
+    "... (23 more items)"
+  ],
+  "query_ref": "qr_241e087ce49f482da0f97919aef6f65c"
+}

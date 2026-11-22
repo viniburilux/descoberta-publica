@@ -1,0 +1,1 @@
+SELECT produto, COUNT(*) AS linhas FROM `basedosdados.br_ibge_pam.lavoura_temporaria` WHERE ano = 2023 GROUP BY produto ORDER BY linhas DESC

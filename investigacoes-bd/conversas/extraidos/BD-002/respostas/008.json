@@ -1,0 +1,228 @@
+[
+  {
+    "id": "5a10c9e5-8674-484b-ae96-8e2d8b15590c",
+    "name": "Leis Municipais de Feira de Santana (BA)",
+    "description": "Essa base de dados contém as leis municipais de Feira de Santana (BA).",
+    "organizations": [
+      "Câmara Municipal de Feira de Santana (BA)"
+    ],
+    "tags": [
+      "lei",
+      "legislação",
+      "legislativo"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "218ae306-29ac-4a83-836d-95bfdb9683fe",
+    "name": "Pesquisa de Informações Básicas Municipais (MUNIC)",
+    "description": "Efetua, periodicamente, um levantamento pormenorizado de informações sobre a estrutura, a dinâmica e o funcionamento das instituições públicas municipais, tendo como unidade de investigação o município e, como informante principal, a prefeitura, por meio dos diversos setores que a compõem.\r\n\r\nA Pesquisa de Informações Básicas Municipais - MUNIC teve início em 1999, extensiva à totalidade dos municípios do País. Os temas e questões abordados em seu questionário básico são levantados regularmente e visam responder às necessidades de informação da sociedade e do Estado brasileiro, com vistas à consolidação de uma base de dados estatísticos e cadastrais atualizados e que proporcionem um conjunto relevante de indicadores de avaliação e monitoramento dos quadros institucional e administrativo das municipalidades. Usualmente, a MUNIC traz um caderno suplementar que contempla temas específicos, de forma mais detalhada, em um esforço permanente de atualização da pesquisa. A partir de 2005, o bloco sobre características básicas dos gestores, presente no questionário básico, passou a ser investigado a cada quadriênio, sempre nos anos que marcam o início das administrações eleitas no ano anterior.\r\n\r\nA pesquisa fornece informações variadas sobre a gestão pública municipal, incluindo a legislação vigente e os instrumentos de planejamento existentes nessa esfera da administração, especialmente aqueles discriminados no Estatuto da Cidade e que, junto com o Plano Diretor, têm por meta regular o uso e a ocupação do solo urbano; organização das prefeituras; composição do quadro de pessoal por vínculo empregatício das prefeituras, tanto na administração direta quanto na indireta; recursos financeiros utilizados para a gestão; políticas públicas setoriais no âmbito das áreas pesquisadas (habitação, transporte, agropecuária, meio ambiente etc.), entre outros aspectos.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "governança",
+      "governo",
+      "informação",
+      "lei",
+      "administração pública",
+      "sistema"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "ad45c5dc-ecc6-43db-ae2c-45d71939e7c5",
+    "name": "Índice Brasileiro de Conectividade",
+    "description": "Dados da Anatel referente ao Índice de Brasileiro de Conectividade, também conhecido como IBC. A agência oferece análises sobre os diferentes aspectos relacionados à conectividades dos municípios e das UFs brasileiras, considerando capacidade da infraestrutura instalada, cobertura de 4G e 5G, além de competitividade na área de conectividade.",
+    "organizations": [
+      "Agência Nacional de Telecomunicações (Anatel)"
+    ],
+    "tags": [
+      "cidades",
+      "concorrência",
+      "competitividade",
+      "governo",
+      "internet",
+      "celular",
+      "município",
+      "desempenho",
+      "desenvolvimento urbano"
+    ],
+    "themes": [
+      "Jornalismo e Comunicação",
+      "Governo e Finanças Públicas",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "50d7bd73-dce6-41a5-adf0-66a50d10b501",
+    "name": "Japanese Municipal Elections Dataset (JMED)",
+    "description": "O Japanese Municipal Elections Dataset (JMED), elaborado por Charles T. McClean na Yale University, reúne 223.561 candidaturas em 21.111 eleições para assembleias municipais e prefeituras em 2.027 municípios do Japão de 2005 a 2025. Cada candidatura traz nome, idade, sexo, partido, situação de incumbência, votos e resultado, além do comparecimento e das eleições sem disputa. Um conjunto complementar registra as fusões, incorporações, desmembramentos e mudanças de nome, código e limites dos municípios no período.",
+    "organizations": [
+      "Yale University"
+    ],
+    "tags": [
+      "candidatura",
+      "eleições",
+      "gênero",
+      "município",
+      "partido político",
+      "representatividade",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "9295564a-ca3d-42d6-9a71-fe5f4c1a0182",
+    "name": "Indicadores do SIOPE",
+    "description": "Indicadores legais e educacionais calculados pelo FNDE a partir das declarações bimestrais de estados, Distrito Federal e municípios no SIOPE, o Sistema de Informações sobre Orçamentos Públicos em Educação. Cobrem a aplicação mínima em manutenção e desenvolvimento do ensino (MDE), os percentuais do FUNDEB, o investimento por aluno e o resultado do exercício do ente. Uma linha por ente federado, bimestre e indicador.",
+    "organizations": [
+      "Fundo Nacional de Desenvolvimento da Educação"
+    ],
+    "tags": [
+      "educação básica",
+      "orçamento",
+      "despesa",
+      "FUNDEB",
+      "finanças públicas",
+      "docente",
+      "transferência"
+    ],
+    "themes": [
+      "Economia",
+      "Educação"
+    ]
+  },
+  {
+    "id": "58677007-0c88-4ce3-befa-8ea4a78534c6",
+    "name": "Eleições de Queensland",
+    "description": "Resultados e finanças declaradas das eleições estaduais e municipais de Queensland, na Austrália, publicados pela Comissão Eleitoral de Queensland (ECQ). Cobre 54 eventos eleitorais de 2020 a 2026 até o nível do local de votação, e doações, despesas eleitorais e declarações periódicas registradas no Electronic Disclosure System de 2013 a 2026. As tabelas de declaração são publicadas sob CC BY 4.0; para os dados de resultados a ECQ não publica licença de reuso, e eles são reproduzidos como registro público.",
+    "organizations": [
+      "Comissão Eleitoral de Queensland"
+    ],
+    "tags": [
+      "financiamento de campanha",
+      "candidatura",
+      "doação",
+      "eleições",
+      "sistema eleitoral",
+      "despesa",
+      "partido político",
+      "transparência",
+      "voto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+    "name": "Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro (SICONFI)",
+    "description": "O Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro (Siconfi) foi desenvolvido como um instrumento para, dentre outros objetivos, facilitar a produção e análise de informações contábeis e fiscais, padronizar os mecanismos de consolidação e aumentar a qualidade e confiabilidade das informações contábeis, financeiras e de estatísticas fiscais recebidas dos municípios, estados, Distrito Federal e União. \r\nA base abrange os dados do Finbra, que vão de 1989 até 2012, e do SICONFI, que vão até o dado mais recente disponível",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "orçamento",
+      "despesa",
+      "fiscalização",
+      "finanças públicas",
+      "finanças públicas",
+      "receita",
+      "gasto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "10e96562-3b2a-44e2-b6f9-0472f80993df",
+    "name": "Cartão de Pagamento do Governo Federal",
+    "description": "O Cartão de Pagamento do Governo Federal (CPGF) é um meio de pagamento utilizado pelo governo que funciona de forma similar ao cartão de crédito que utilizamos em nosso dia a dia, porém dentro de limites e regras específicas. O governo utiliza o CPGF para pagamentos de despesas próprias, que possam ser enquadradas como suprimento de fundos.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "crédito",
+      "governo",
+      "compra"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "1dd6317a-8e79-4a67-bb78-bc5fef214b4d",
+    "name": "Atlas de Vulnerabilidade Social (AVS)",
+    "description": "A plataforma oferece um panorama da vulnerabilidade e da exclusão social dos municípios e estados. Sua relevância vem justamente da capacidade de fornecer informações sobre a unidade político-administrativa mais próxima do cotidiano dos cidadãos, o município. Além disso, o AVS permite conhecer as desigualdades a nível intramunicipal das diversas espacialidades de uma mesma região metropolitana",
+    "organizations": [
+      "Instituto de Pesquisa Econômica Aplicada (ipea)"
+    ],
+    "tags": [
+      "adolescente",
+      "índice de desenvolvimento humano",
+      "renda",
+      "trabalho",
+      "expectativa de vida",
+      "alfabetização",
+      "longevidade",
+      "município",
+      "gravidez",
+      "ensino fundamental",
+      "escolaridade",
+      "escolas",
+      "ensino médio",
+      "esgoto",
+      "nível socioeconômico",
+      "ensino",
+      "água"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Governo e Finanças Públicas",
+      "Política",
+      "População"
+    ]
+  },
+  {
+    "id": "11b867be-e626-4da7-9dad-f5dd930c67fe",
+    "name": "Observatório da Criança e do Adolescente",
+    "description": "O Observatório da Criança e do Adolescente é um espaço virtual que possibilita a consulta, em um mesmo lugar, dos principais indicadores sociais relacionados direta e indiretamente à infância e adolescência no Brasil. Seu objetivo é organizar as informações e facilitar o acesso a bases de dados de diversas fontes púbicas e privadas sobre população, qualidade de vida e bem-estar de crianças e adolescentes com idades ente zero e 18 anos, permitindo uma análise da evolução das principais políticas, dos desafios e das desigualdades regionais. Destina-se a formadores de opinião, representantes da sociedade civil, pesquisadores, gestores públicos e quaisquer pessoas que queiram, a partir de um simples mecanismo de busca online, conhecer a realidade e os problemas sociais que mais afetam as crianças e os adolescentes no país.",
+    "organizations": [
+      "Fundação Abrinq"
+    ],
+    "tags": [
+      "adolescente",
+      "proposição",
+      "criança",
+      "congresso",
+      "educação",
+      "saúde",
+      "desigualdade",
+      "lei",
+      "legislação",
+      "regulação"
+    ],
+    "themes": [
+      "Educação",
+      "Governo e Finanças Públicas",
+      "Saúde",
+      "População",
+      "Segurança, Crime, Violência, e Conflito"
+    ]
+  }
+]

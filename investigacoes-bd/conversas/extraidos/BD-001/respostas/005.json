@@ -1,0 +1,42 @@
+{
+  "id": "6400b27e-fd3f-4dbb-82ad-c636faf39629",
+  "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811",
+  "gcp_id": "basedosdados.br_mgi_pncp.dicionario",
+  "name": "Dicionário",
+  "description": "Dicionário de valores codificados das demais tabelas do conjunto, com o significado de cada chave por tabela e coluna.",
+  "columns": [
+    {
+      "name": "chave",
+      "type": "STRING",
+      "description": "Valor codificado presente na coluna",
+      "needs_decoding": false
+    },
+    {
+      "name": "cobertura_temporal",
+      "type": "STRING",
+      "description": "Cobertura temporal da chave",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_tabela",
+      "type": "STRING",
+      "description": "Nome da tabela à qual a chave se refere",
+      "needs_decoding": false
+    },
+    {
+      "name": "nome_coluna",
+      "type": "STRING",
+      "description": "Nome da coluna à qual a chave se refere",
+      "needs_decoding": false
+    },
+    {
+      "name": "valor",
+      "type": "STRING",
+      "description": "Significado da chave codificada",
+      "needs_decoding": false
+    }
+  ],
+  "partitioned_by": [],
+  "period_start": null,
+  "period_end": null
+}

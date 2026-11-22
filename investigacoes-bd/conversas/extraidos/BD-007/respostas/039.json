@@ -1,0 +1,77 @@
+{
+  "id": "1b04c5fe-854b-409a-a41a-4f6f4d22fe3e",
+  "dataset_id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15",
+  "gcp_id": "basedosdados.br_ibama_fiscalizacao.area_embargada",
+  "name": "Áreas embargadas",
+  "description": "Termos de embargo lavrados pelo Ibama, com a área embargada, o tipo de área, a situação de desembargo e a ligação com o auto de infração que os originou. Uma linha por termo de embargo.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano do termo de embargo",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "area_ha",
+      "type": "FLOAT64",
+      "description": "Área embargada",
+      "unit": "hectare",
+      "needs_decoding": false
+    },
+    {
+      "name": "cpf_cnpj_embargado",
+      "type": "STRING",
+      "description": "CPF ou CNPJ do embargado somente dígitos",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_desembargo",
+      "type": "DATE",
+      "description": "Data do desembargo da área",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_embargo",
+      "type": "DATE",
+      "description": "Data do embargo",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_extracao",
+      "type": "DATE",
+      "description": "Data da extração do arquivo publicado pelo Ibama",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_ultima_alteracao",
+      "type": "DATE",
+      "description": "Data da última alteração do registro no sistema do Ibama",
+      "needs_decoding": false
+    },
+    {
+      "name": "geometria",
+      "type": "GEOGRAPHY",
+      "description": "Polígono da área embargada",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_auto",
+      "type": "STRING",
+      "description": "Identificador do auto de infração que originou o embargo",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_embargo",
+      "type": "STRING",
+      "description": "Identificador único do termo de embargo no sistema do Ibama",
+      "needs_decoding": false
+    },
+    "... (13 more items)"
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "1987",
+  "period_end": "2026"
+}

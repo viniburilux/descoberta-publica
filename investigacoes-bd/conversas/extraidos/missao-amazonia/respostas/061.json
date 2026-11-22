@@ -1,0 +1,97 @@
+{
+  "row_count": 80,
+  "rows": [
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Outros Serviços de Terceiros - Pessoa Física",
+      "conta": "Outros Serviços de Terceiros - Pessoa Física",
+      "estagio_bd": "Despesas Empenhadas",
+      "valor": 12302754.53
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Outros Serviços de Terceiros - Pessoa Física",
+      "conta": "Outros Serviços de Terceiros - Pessoa Física",
+      "estagio_bd": "Despesas Liquidadas",
+      "valor": 11963348.3
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Outros Serviços de Terceiros - Pessoa Física",
+      "conta": "Outros Serviços de Terceiros - Pessoa Física",
+      "estagio_bd": "Despesas Pagas",
+      "valor": 11596282.58
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Outros Serviços de Terceiros - Pessoa Física",
+      "conta": "Outros Serviços de Terceiros - Pessoa Física",
+      "estagio_bd": "Inscrição de Restos a Pagar Não Processados",
+      "valor": 339406.23
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Outros Serviços de Terceiros - Pessoa Física",
+      "conta": "Outros Serviços de Terceiros - Pessoa Física",
+      "estagio_bd": "Inscrição de Restos a Pagar Processados",
+      "valor": 367065.72
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Outros Serviços de Terceiros - Pessoa Jurídica",
+      "conta": "Outros Serviços de Terceiros - Pessoa Jurídica",
+      "estagio_bd": "Despesas Empenhadas",
+      "valor": 120583287.13
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Outros Serviços de Terceiros - Pessoa Jurídica",
+      "conta": "Outros Serviços de Terceiros - Pessoa Jurídica",
+      "estagio_bd": "Despesas Liquidadas",
+      "valor": 109729729.7
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Outros Serviços de Terceiros - Pessoa Jurídica",
+      "conta": "Outros Serviços de Terceiros - Pessoa Jurídica",
+      "estagio_bd": "Despesas Pagas",
+      "valor": 103911262.2
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Outros Serviços de Terceiros - Pessoa Jurídica",
+      "conta": "Outros Serviços de Terceiros - Pessoa Jurídica",
+      "estagio_bd": "Inscrição de Restos a Pagar Não Processados",
+      "valor": 10853557.43
+    },
+    {
+      "ano": 2022,
+      "id_municipio": "1502400",
+      "nome": "Castanhal",
+      "conta_bd": "Outros Serviços de Terceiros - Pessoa Jurídica",
+      "conta": "Outros Serviços de Terceiros - Pessoa Jurídica",
+      "estagio_bd": "Inscrição de Restos a Pagar Processados",
+      "valor": 5818467.5
+    },
+    "... (70 more items)"
+  ],
+  "query_ref": "qr_c274d05e14c14727b49874faf71678bb"
+}

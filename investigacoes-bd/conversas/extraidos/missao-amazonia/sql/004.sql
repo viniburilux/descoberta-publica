@@ -1,0 +1,1 @@
+SELECT ano, id_municipio, produto_interno_bruto, produto_interno_bruto_per_capita, valor_adicionado_bruto_agropecuaria, valor_adicionado_bruto_industria, valor_adicionado_bruto_servicos, valor_adicionado_bruto_administracao_defesa_educacao_saude_publica_seguridade_social FROM `basedosdados.br_ibge_pib.municipio` WHERE id_municipio = '1503200' ORDER BY ano

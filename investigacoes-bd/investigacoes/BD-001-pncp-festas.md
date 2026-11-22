@@ -12,21 +12,20 @@ Abertura PNCP → busca por festas e eventos → comparação dos valores → se
 
 ## A. Material bruto recuperado
 
-A recuperação da conversa completa e dos exports desta frente está em andamento.
-
-Último vestígio da sessão: `43f64dd9-d0fe-416c-a599-a5e2a28e1918`, chatbot da BD.
+- [BD-001: JSON de 20 mensagens](../conversas/BD-001_43f64dd9-d0fe-416c-a599-a5e2a28e1918.json) · [leitura cronológica](../conversas/extraidos/BD-001/mensagens.md) · [SQL, chamadas e respostas](../conversas/extraidos/BD-001/)
 
 ## B. Consultas e código
 
-SQL e chamadas da sessão ainda não recuperados como arquivos nesta frente.
+18 consultas SQL extraídas das conversas. Chamadas e respostas originais, com identificadores e argumentos, estão nas pastas ligadas acima. Os SQLs estão separados em `sql/` dentro de cada pasta.
 
 ## C. Resultados e arquivos
 
-Resultados ainda registrados na ficha e no vestígio da sessão; os exports correspondentes aguardam recuperação.
+5 tabelas CSV das linhas registradas nas respostas do chatbot; respostas completas e índices com a consulta e a mensagem de origem.
+
 
 ## D. Reprodutibilidade
 
-Aguardando os arquivos da sessão para executar a reprodução.
+Abra a leitura cronológica para seguir perguntas, chamadas e respostas na ordem. Os SQLs separados podem ser reexecutados no executor BD.
 
 ## E. Destinos possíveis
 
@@ -34,10 +33,13 @@ Pauta QPI sobre Alcobaça, Lafaiete Coutinho, Palmas de Monte Alto, Porto Seguro
 
 ## F. Pendências e próximo passo
 
-Recuperar a lista de candidatos e o SQL da sessão; montar uma tabela por contratação com o link do ato no PNCP.
+Os exports nativos apenas referenciados em `downloads-referenciados.json` ainda não foram baixados neste lote. As respostas e linhas registradas já estão nos arquivos extraídos.
 
-Pendente: integrar a conversa completa com suas perguntas, respostas e chamadas originais.
+Usar os candidatos, os 18 SQLs e as tabelas recuperadas para montar a pauta por contratação e ligar cada caso ao ato no PNCP.
+
 
 ## G. Pacote de trabalho
+
+[Baixar o material recuperado (ZIP)](../pacotes/BD-001-material-recuperado-2026-11-22.zip). Versão 22/11/2026.
 
 [Todos os materiais desta frente](#c-resultados-e-arquivos) · [Painel das 12 investigações](../PAINEL.md) · [Manifesto de arquivos e SHA-256](../manifesto-originais.json).

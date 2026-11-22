@@ -1,0 +1,36 @@
+{
+  "row_count": 5,
+  "rows": [
+    {
+      "data_extracao": "2026-06-02",
+      "registros": 468571,
+      "imoveis_distintos": 467240,
+      "ufs": 1
+    },
+    {
+      "data_extracao": "2026-08-01",
+      "registros": 2254420,
+      "imoveis_distintos": 2253633,
+      "ufs": 7
+    },
+    {
+      "data_extracao": "2026-08-02",
+      "registros": 2819155,
+      "imoveis_distintos": 2816838,
+      "ufs": 7
+    },
+    {
+      "data_extracao": "2026-08-03",
+      "registros": 1154162,
+      "imoveis_distintos": 1143295,
+      "ufs": 7
+    },
+    {
+      "data_extracao": "2026-08-04",
+      "registros": 1788278,
+      "imoveis_distintos": 1786880,
+      "ufs": 5
+    }
+  ],
+  "query_ref": "qr_b15be046d7484103986494d392341df9"
+}

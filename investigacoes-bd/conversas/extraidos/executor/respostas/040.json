@@ -1,0 +1,37 @@
+{
+  "row_count": 16,
+  "rows": [
+    {
+      "id_fonte_recurso": "100"
+    },
+    {
+      "id_fonte_recurso": "300"
+    },
+    {
+      "id_fonte_recurso": "403"
+    },
+    {
+      "id_fonte_recurso": "431"
+    },
+    {
+      "id_fonte_recurso": "450"
+    },
+    {
+      "id_fonte_recurso": "501"
+    },
+    {
+      "id_fonte_recurso": "502"
+    },
+    {
+      "id_fonte_recurso": "503"
+    },
+    {
+      "id_fonte_recurso": "505"
+    },
+    {
+      "id_fonte_recurso": "507"
+    },
+    "... (6 more items)"
+  ],
+  "query_ref": "qr_471a06425f90478b9c9b66fe8a751f2a"
+}

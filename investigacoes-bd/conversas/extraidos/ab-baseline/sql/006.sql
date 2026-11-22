@@ -1,0 +1,1 @@
+WITH p AS (SELECT DISTINCT id_car FROM `basedosdados.br_bcb_sicor.recurso_publico_propriedade` WHERE ano_emissao=2022 AND id_car IS NOT NULL LIMIT 5), c AS (SELECT id_imovel FROM `basedosdados.br_sfb_sicar.area_imovel` WHERE data_extracao BETWEEN '2026-06-02' AND '2026-08-04' LIMIT 5) SELECT 'sicor' AS origem, id_car AS valor FROM p UNION ALL SELECT 'car', id_imovel FROM c

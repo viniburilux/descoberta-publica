@@ -1,0 +1,28 @@
+[
+  {
+    "id": "fc403b40-a7e1-40e7-9efe-910847b45a69",
+    "name": "Pesquisa Agrícola Municipal (PAM)",
+    "description": "A pesquisa Produção Agrícola Municipal - PAM investiga, anualmente, os principais produtos das lavouras temporárias e permanentes do País, que se caracterizam não só pela grande importância econômica que possuem na pauta de exportações, como também por sua relevância social, componentes que são da cesta básica do brasileiro.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "produtividade agrícola",
+      "agropecuária",
+      "feijão",
+      "cultivo",
+      "alimento",
+      "alimentação",
+      "fruticultura",
+      "uso da terra",
+      "comida",
+      "arroz",
+      "soja",
+      "água"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente"
+    ]
+  }
+]

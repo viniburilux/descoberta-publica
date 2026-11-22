@@ -1,0 +1,60 @@
+{
+  "row_count": 6,
+  "rows": [
+    {
+      "ano_emissao": 2019,
+      "operacoes": 5,
+      "linhas": 11,
+      "credito": 25000.0,
+      "area_financiada": 231.0,
+      "produtos": "ADUBAÇÃO INTENSIVA DO SOLO, AVICULTURA, Aquisição de caixas d'água, lonas, toldos, campânulas, BOVINOS, CERCAS, ARAMADOS, TELHAS, TELAS PARA SOMBREAMENTO E COBERTURAS DE SOLO, IRRIGAÇÃO",
+      "finalidades": "Investimento"
+    },
+    {
+      "ano_emissao": 2020,
+      "operacoes": 14,
+      "linhas": 25,
+      "credito": 66055.0,
+      "area_financiada": 0.0,
+      "produtos": "AGROINDÚSTRIA, AVICULTURA, Aquisição de caixas d'água, lonas, toldos, campânulas, BOVINOS, IRRIGAÇÃO/LIXIVIAÇÃO (GOTEJADOR, ASPERSOR, NEBULIZADOR, EXAUSTOR, VENTILADOR, MANGUEIRAS, CANAIS ET), Instalações para Aves, Suínos e Coelhos, Terraços, Porteiras, Mata-burros, Currais, Cochos, Cercas",
+      "finalidades": "Investimento"
+    },
+    {
+      "ano_emissao": 2021,
+      "operacoes": 5,
+      "linhas": 7,
+      "credito": 25000.0,
+      "area_financiada": 2.0,
+      "produtos": "AVICULTURA, BOVINOS, Instalações para Aves, Suínos e Coelhos, PASTAGEM, PROTEÇÃO DO SOLO, Terraços, Porteiras, Mata-burros, Currais, Cochos, Cercas",
+      "finalidades": "Investimento"
+    },
+    {
+      "ano_emissao": 2022,
+      "operacoes": 8,
+      "linhas": 13,
+      "credito": 42396.0,
+      "area_financiada": 0.0,
+      "produtos": "AVICULTURA, Aquisição de caixas d'água, lonas, toldos, campânulas, IRRIGAÇÃO, Instalações para Aves, Suínos e Coelhos, SUÍNOS, Terraços, Porteiras, Mata-burros, Currais, Cochos, Cercas",
+      "finalidades": "Investimento"
+    },
+    {
+      "ano_emissao": 2023,
+      "operacoes": 2,
+      "linhas": 3,
+      "credito": 12000.0,
+      "area_financiada": 0.0,
+      "produtos": "AVICULTURA, BOVINOS, Instalações para Aves, Suínos e Coelhos",
+      "finalidades": "Investimento"
+    },
+    {
+      "ano_emissao": 2024,
+      "operacoes": 1,
+      "linhas": 2,
+      "credito": 6000.0,
+      "area_financiada": 0.0,
+      "produtos": "AVICULTURA, Instalações para Aves, Suínos e Coelhos",
+      "finalidades": "Investimento"
+    }
+  ],
+  "query_ref": "qr_f94bf47afbc442af9ee2b8579f488bb9"
+}

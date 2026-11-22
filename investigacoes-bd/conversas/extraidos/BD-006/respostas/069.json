@@ -1,0 +1,107 @@
+{
+  "row_count": 20,
+  "rows": [
+    {
+      "id_municipio": "1500602",
+      "focos": 121894,
+      "frp_total_mw": 6877991.4000000125,
+      "risco_fogo_medio": -0.46285673484816553,
+      "precipitacao_somada": 106649.45000000054,
+      "desmatado_km2": 12224.2,
+      "area_mapeada_ha": 15953322.145276207,
+      "classes_presentes": 15
+    },
+    {
+      "id_municipio": "5106505",
+      "focos": 107247,
+      "frp_total_mw": 8663544.500000015,
+      "risco_fogo_medio": -32.773989454528476,
+      "precipitacao_somada": 96213.69999999818,
+      "desmatado_km2": 3309.8,
+      "area_mapeada_ha": 1701365.2582355589,
+      "classes_presentes": 17
+    },
+    {
+      "id_municipio": "5003207",
+      "focos": 99423,
+      "frp_total_mw": 7202726.500000003,
+      "risco_fogo_medio": -8.94424452203833,
+      "precipitacao_somada": 130607.60999999972,
+      "desmatado_km2": 8649.6,
+      "area_mapeada_ha": 6441035.588085384,
+      "classes_presentes": 17
+    },
+    {
+      "id_municipio": "1300144",
+      "focos": 67443,
+      "frp_total_mw": 4384659.199999988,
+      "risco_fogo_medio": -0.2857381221178316,
+      "precipitacao_somada": 173773.45999999988,
+      "desmatado_km2": 4450.5,
+      "area_mapeada_ha": 5424055.753471681,
+      "classes_presentes": 12
+    },
+    {
+      "id_municipio": "1100205",
+      "focos": 66423,
+      "frp_total_mw": 3560160.3999999957,
+      "risco_fogo_medio": -3.7652450158958866,
+      "precipitacao_somada": 161397.88000000018,
+      "desmatado_km2": 12327.7,
+      "area_mapeada_ha": 3407764.759488143,
+      "classes_presentes": 15
+    },
+    {
+      "id_municipio": "1507300",
+      "focos": 65425,
+      "frp_total_mw": 2574646.3999999925,
+      "risco_fogo_medio": -0.5151007105344454,
+      "precipitacao_somada": 81169.90000000045,
+      "desmatado_km2": 21299.1,
+      "area_mapeada_ha": 8421265.401253082,
+      "classes_presentes": 16
+    },
+    {
+      "id_municipio": "1302405",
+      "focos": 65106,
+      "frp_total_mw": 3306173.7000000053,
+      "risco_fogo_medio": 0.23100362058740895,
+      "precipitacao_somada": 134905.7400000006,
+      "desmatado_km2": 6866.3,
+      "area_mapeada_ha": 6826255.909496921,
+      "classes_presentes": 15
+    },
+    {
+      "id_municipio": "1505809",
+      "focos": 61551,
+      "frp_total_mw": 2392217.4000000013,
+      "risco_fogo_medio": -3.0356751164836644,
+      "precipitacao_somada": 25561.419999999947,
+      "desmatado_km2": 3381.4,
+      "area_mapeada_ha": 2538626.1652411562,
+      "classes_presentes": 13
+    },
+    {
+      "id_municipio": "1303304",
+      "focos": 47769,
+      "frp_total_mw": 2673036.1000000006,
+      "risco_fogo_medio": -4.077137717009979,
+      "precipitacao_somada": 109769.77999999974,
+      "desmatado_km2": 2437.7,
+      "area_mapeada_ha": 4117905.8882979183,
+      "classes_presentes": 14
+    },
+    {
+      "id_municipio": "5101605",
+      "focos": 42925,
+      "frp_total_mw": 2874462.099999999,
+      "risco_fogo_medio": -0.2521715830187819,
+      "precipitacao_somada": 60374.820000000436,
+      "desmatado_km2": 1389.5,
+      "area_mapeada_ha": 1137490.4142981775,
+      "classes_presentes": 14
+    },
+    "... (10 more items)"
+  ],
+  "query_ref": "qr_f564acbeeb0e4c2d9a77941c2ad39233"
+}

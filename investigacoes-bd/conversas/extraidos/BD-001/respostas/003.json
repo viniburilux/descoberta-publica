@@ -1,0 +1,77 @@
+{
+  "id": "45efca02-8a15-4dbc-8cb3-da3ad7af73a9",
+  "dataset_id": "81d89c04-120e-4b7d-aae0-41428f199811",
+  "gcp_id": "basedosdados.br_mgi_pncp.instrumento_cobranca",
+  "name": "Instrumento de Cobrança",
+  "description": "Instrumentos de cobrança (notas fiscais e faturas) vinculados a contratos divulgados no Portal Nacional de Contratações Públicas. Uma linha por instrumento de cobrança dentro de um contrato.",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano de publicação do registro no PNCP",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "ano_contrato",
+      "type": "INT64",
+      "description": "Ano do contrato ao qual o instrumento de cobrança está vinculado",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "chave_nfe",
+      "type": "STRING",
+      "description": "Chave de acesso da nota fiscal eletrônica associada",
+      "needs_decoding": false
+    },
+    {
+      "name": "cnpj_orgao",
+      "type": "STRING",
+      "description": "CNPJ do órgão ou entidade ao qual o instrumento de cobrança se refere",
+      "needs_decoding": false
+    },
+    {
+      "name": "codigo_orgao_destinatario_nfe",
+      "type": "STRING",
+      "description": "Código do órgão destinatário da nota fiscal eletrônica",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_atualizacao",
+      "type": "DATE",
+      "description": "Data da última atualização do instrumento de cobrança no PNCP",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_emissao",
+      "type": "DATE",
+      "description": "Data de emissão do documento de cobrança",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_inclusao",
+      "type": "DATE",
+      "description": "Data de inclusão do instrumento de cobrança no PNCP",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_contrato_pncp",
+      "type": "STRING",
+      "description": "Número de controle no PNCP do contrato ao qual o instrumento de cobrança se vincula",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_emitente_nfe",
+      "type": "STRING",
+      "description": "Número de inscrição do emitente da nota fiscal eletrônica",
+      "needs_decoding": false
+    },
+    "... (13 more items)"
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "2021-12-07",
+  "period_end": "2026-09-22"
+}

@@ -1,0 +1,49 @@
+{
+  "row_count": 5380,
+  "rows": [
+    {
+      "id_municipio": "2600500",
+      "valor_financiado_rateado": 24254656.049999997
+    },
+    {
+      "id_municipio": "3170529",
+      "valor_financiado_rateado": 14873610.4
+    },
+    {
+      "id_municipio": "2102705",
+      "valor_financiado_rateado": 6541148.8
+    },
+    {
+      "id_municipio": "4123006",
+      "valor_financiado_rateado": 83465844.28999992
+    },
+    {
+      "id_municipio": "2303956",
+      "valor_financiado_rateado": 11415651.17
+    },
+    {
+      "id_municipio": "4108320",
+      "valor_financiado_rateado": 23681245.20000001
+    },
+    {
+      "id_municipio": "2305357",
+      "valor_financiado_rateado": 1845769.19
+    },
+    {
+      "id_municipio": "4311239",
+      "valor_financiado_rateado": 6526451.2200000025
+    },
+    {
+      "id_municipio": "3505351",
+      "valor_financiado_rateado": 4110313.7
+    },
+    {
+      "id_municipio": "5104526",
+      "valor_financiado_rateado": 116677264.75000004
+    },
+    "... (990 more items)"
+  ],
+  "truncated": true,
+  "truncation_note": "Only the first 1000 of 5380 rows are shown here to keep the context small. The full result can still be downloaded from the interface.",
+  "query_ref": "qr_8a918dd1cb4d4495b6711a3945f81131"
+}

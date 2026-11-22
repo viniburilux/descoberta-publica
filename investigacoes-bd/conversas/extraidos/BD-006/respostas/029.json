@@ -1,0 +1,77 @@
+{
+  "id": "ea170fcb-5498-4d4c-a99b-c9b585783fff",
+  "dataset_id": "7e01700d-1f9a-4be6-8ec6-85b7c2c6cf15",
+  "gcp_id": "basedosdados.br_ibama_fiscalizacao.auto_infracao",
+  "name": "Autos de infração",
+  "description": "Autos de infração ambiental lavrados pelo Ibama, com o bem tutelado atingido, o valor da multa, a situação do débito e a localização declarada. Uma linha por auto de infração. A situação do débito e a moeda vêm da série de multas ambientais distribuídas por bens tutelados (Sicafi).",
+  "columns": [
+    {
+      "name": "ano",
+      "type": "INT64",
+      "description": "Ano da lavratura do auto de infração",
+      "unit": "year",
+      "needs_decoding": false
+    },
+    {
+      "name": "cpf_cnpj_infrator",
+      "type": "STRING",
+      "description": "CPF ou CNPJ do autuado somente dígitos",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_auto",
+      "type": "DATE",
+      "description": "Data da lavratura do auto de infração",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_extracao",
+      "type": "DATE",
+      "description": "Data da extração do arquivo publicado pelo Ibama",
+      "needs_decoding": false
+    },
+    {
+      "name": "data_ultima_alteracao",
+      "type": "DATE",
+      "description": "Data da última alteração do registro no sistema do Ibama",
+      "needs_decoding": false
+    },
+    {
+      "name": "gravidade",
+      "type": "STRING",
+      "description": "Gravidade atribuída à infração",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_auto",
+      "type": "STRING",
+      "description": "Identificador único do auto de infração no sistema do Ibama",
+      "needs_decoding": false
+    },
+    {
+      "name": "id_municipio",
+      "type": "STRING",
+      "description": "Identificador IBGE de 7 dígitos do município onde a infração foi registrada",
+      "reference_table_id": "dffb65ac-9df9-4151-94bf-88c45bfcb056",
+      "needs_decoding": false
+    },
+    {
+      "name": "indicador_cancelado",
+      "type": "STRING",
+      "description": "Indica se o auto de infração foi cancelado",
+      "needs_decoding": true
+    },
+    {
+      "name": "indicador_coordenada_valida",
+      "type": "STRING",
+      "description": "Indica se o ponto publicado cai dentro do polígono do município declarado",
+      "needs_decoding": false
+    },
+    "... (13 more items)"
+  ],
+  "partitioned_by": [
+    "ano"
+  ],
+  "period_start": "1977",
+  "period_end": "2026"
+}

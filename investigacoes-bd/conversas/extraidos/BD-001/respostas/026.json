@@ -1,0 +1,97 @@
+{
+  "row_count": 25,
+  "rows": [
+    {
+      "tipo": "categoria",
+      "ano": null,
+      "categoria": "Artistas, bandas e músicos",
+      "qtd": 6922,
+      "qtd_h": 3165,
+      "val_h": 356652479.49,
+      "val_e": 1152715262.68
+    },
+    {
+      "tipo": "categoria",
+      "ano": null,
+      "categoria": "Estrutura e apoio para eventos",
+      "qtd": 404,
+      "qtd_h": 173,
+      "val_h": 189391693.67000002,
+      "val_e": 554292750.9700001
+    },
+    {
+      "tipo": "categoria",
+      "ano": null,
+      "categoria": "Festas populares e comemorações",
+      "qtd": 12471,
+      "qtd_h": 4942,
+      "val_h": 1370507836.1199996,
+      "val_e": 163305224453.91006
+    },
+    {
+      "tipo": "ano",
+      "ano": "2022",
+      "categoria": "Shows, festivais e produção de eventos",
+      "qtd": 2,
+      "qtd_h": 1,
+      "val_h": 8700.0,
+      "val_e": 0.0
+    },
+    {
+      "tipo": "ano",
+      "ano": "2025",
+      "categoria": "Artistas, bandas e músicos",
+      "qtd": 2682,
+      "qtd_h": 1305,
+      "val_h": 134970963.97,
+      "val_e": 438183470.9500001
+    },
+    {
+      "tipo": "ano",
+      "ano": "2025",
+      "categoria": "Shows, festivais e produção de eventos",
+      "qtd": 475,
+      "qtd_h": 257,
+      "val_h": 28613366.44999999,
+      "val_e": 72085638.66999999
+    },
+    {
+      "tipo": "ano",
+      "ano": "2024",
+      "categoria": "Shows, festivais e produção de eventos",
+      "qtd": 486,
+      "qtd_h": 338,
+      "val_h": 22235106.22,
+      "val_e": 41782065.91
+    },
+    {
+      "tipo": "ano",
+      "ano": "2022",
+      "categoria": "Artistas, bandas e músicos",
+      "qtd": 24,
+      "qtd_h": 11,
+      "val_h": 1511494.0699999998,
+      "val_e": 2483815.41
+    },
+    {
+      "tipo": "ano",
+      "ano": "2025",
+      "categoria": "Estrutura e apoio para eventos",
+      "qtd": 176,
+      "qtd_h": 70,
+      "val_h": 92759969.83000001,
+      "val_e": 280726124.11
+    },
+    {
+      "tipo": "ano",
+      "ano": "2024",
+      "categoria": "Festas populares e comemorações",
+      "qtd": 3861,
+      "qtd_h": 1500,
+      "val_h": 489404590.08,
+      "val_e": 160847557503.24997
+    },
+    "... (15 more items)"
+  ],
+  "query_ref": "qr_50f206208e454235b85292945096fce4"
+}

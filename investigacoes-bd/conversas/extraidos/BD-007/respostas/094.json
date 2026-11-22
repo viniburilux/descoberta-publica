@@ -1,0 +1,46 @@
+{
+  "row_count": 4,
+  "rows": [
+    {
+      "faixa": "micro-registro (<1 ha)",
+      "imoveis": 5251,
+      "credito_alocado": 663175964.9493902,
+      "area_financiada": 118763.06632900433,
+      "area_car": 1531.2625000000003,
+      "razao_agregada": 77.55892038693842,
+      "razao_media_imovel": 6642.078389510861,
+      "operacoes_media": 1.7013902113883073
+    },
+    {
+      "faixa": "pequeno (até 4 módulos fiscais)",
+      "imoveis": 129650,
+      "credito_alocado": 20509461179.57837,
+      "area_financiada": 4583429.580841305,
+      "area_car": 2637156.927600002,
+      "razao_agregada": 1.7380192785920205,
+      "razao_media_imovel": 2.0730539261263092,
+      "operacoes_media": 2.2082221365214023
+    },
+    {
+      "faixa": "médio (demais)",
+      "imoveis": 2922,
+      "credito_alocado": 4045506751.5838027,
+      "area_financiada": 1175335.854449102,
+      "area_car": 786910.078,
+      "razao_agregada": 1.4936088471967721,
+      "razao_media_imovel": 1.4915485306491678,
+      "operacoes_media": 2.8189596167008903
+    },
+    {
+      "faixa": "grande (>1.000 ha)",
+      "imoveis": 211,
+      "credito_alocado": 1519034192.4707816,
+      "area_financiada": 592255.903002801,
+      "area_car": 411964.19950000005,
+      "razao_agregada": 1.437639250501914,
+      "razao_media_imovel": 1.4537724361513684,
+      "operacoes_media": 3.545023696682464
+    }
+  ],
+  "query_ref": "qr_09146767598840ed974652cb35762e98"
+}

@@ -1,0 +1,87 @@
+{
+  "row_count": 952,
+  "rows": [
+    {
+      "id_municipio": "1508100",
+      "nome": "Tucuruí",
+      "cnae_fiscal_principal": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "situacao_cadastral": "8",
+      "estabelecimentos": 155
+    },
+    {
+      "id_municipio": "1501402",
+      "nome": "Belém",
+      "cnae_fiscal_principal": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "situacao_cadastral": "8",
+      "estabelecimentos": 117
+    },
+    {
+      "id_municipio": "1501402",
+      "nome": "Belém",
+      "cnae_fiscal_principal": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "situacao_cadastral": "4",
+      "estabelecimentos": 84
+    },
+    {
+      "id_municipio": "1501402",
+      "nome": "Belém",
+      "cnae_fiscal_principal": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "situacao_cadastral": "2",
+      "estabelecimentos": 75
+    },
+    {
+      "id_municipio": "1503606",
+      "nome": "Itaituba",
+      "cnae_fiscal_principal": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "situacao_cadastral": "2",
+      "estabelecimentos": 61
+    },
+    {
+      "id_municipio": "1500800",
+      "nome": "Ananindeua",
+      "cnae_fiscal_principal": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "situacao_cadastral": "2",
+      "estabelecimentos": 58
+    },
+    {
+      "id_municipio": "1501402",
+      "nome": "Belém",
+      "cnae_fiscal_principal": "3831901",
+      "descricao_subclasse": "Recuperação de sucatas de alumínio",
+      "situacao_cadastral": "2",
+      "estabelecimentos": 51
+    },
+    {
+      "id_municipio": "1505064",
+      "nome": "Novo Repartimento",
+      "cnae_fiscal_principal": "3811400",
+      "descricao_subclasse": "Coleta de resíduos não perigosos",
+      "situacao_cadastral": "4",
+      "estabelecimentos": 47
+    },
+    {
+      "id_municipio": "1501402",
+      "nome": "Belém",
+      "cnae_fiscal_principal": "3831999",
+      "descricao_subclasse": "Recuperação de materiais metálicos, exceto alumínio",
+      "situacao_cadastral": "8",
+      "estabelecimentos": 36
+    },
+    {
+      "id_municipio": "1500800",
+      "nome": "Ananindeua",
+      "cnae_fiscal_principal": "4687703",
+      "descricao_subclasse": "Comércio atacadista de resíduos e sucatas metálicos",
+      "situacao_cadastral": "2",
+      "estabelecimentos": 36
+    },
+    "... (942 more items)"
+  ],
+  "query_ref": "qr_83fd7453695a40beb064c5e58239f956"
+}

@@ -1,0 +1,97 @@
+{
+  "row_count": 30,
+  "rows": [
+    {
+      "id_municipio": "2930766",
+      "nome": "Sítio do Quinto",
+      "sigla_uf": "BA",
+      "micro_imoveis": 249,
+      "credito_micro": 35055289.714999996,
+      "credito_total": 198769339.27333328,
+      "participacao_micro": 0.17636165538989132
+    },
+    {
+      "id_municipio": "2918100",
+      "nome": "Jeremoabo",
+      "sigla_uf": "BA",
+      "micro_imoveis": 492,
+      "credito_micro": 73292056.03316666,
+      "credito_total": 467960557.27250016,
+      "participacao_micro": 0.15662015717809236
+    },
+    {
+      "id_municipio": "3129608",
+      "nome": "Ibiaí",
+      "sigla_uf": "MG",
+      "micro_imoveis": 3,
+      "credito_micro": 12002105.23,
+      "credito_total": 84020547.22,
+      "participacao_micro": 0.14284726328398697
+    },
+    {
+      "id_municipio": "2929701",
+      "nome": "Sátiro Dias",
+      "sigla_uf": "BA",
+      "micro_imoveis": 106,
+      "credito_micro": 18343707.143333334,
+      "credito_total": 139359897.45500004,
+      "participacao_micro": 0.13162830540440518
+    },
+    {
+      "id_municipio": "4306072",
+      "nome": "Cristal do Sul",
+      "sigla_uf": "RS",
+      "micro_imoveis": 65,
+      "credito_micro": 29479312.421654772,
+      "credito_total": 229591484.98833326,
+      "participacao_micro": 0.12839897970585787
+    },
+    {
+      "id_municipio": "2926509",
+      "nome": "Ribeira do Amparo",
+      "sigla_uf": "BA",
+      "micro_imoveis": 90,
+      "credito_micro": 10672899.810000002,
+      "credito_total": 106440433.27333336,
+      "participacao_micro": 0.10027110452089728
+    },
+    {
+      "id_municipio": "2105922",
+      "nome": "Lagoa do Mato",
+      "sigla_uf": "MA",
+      "micro_imoveis": 4,
+      "credito_micro": 13375161.25,
+      "credito_total": 141486621.4,
+      "participacao_micro": 0.09453304572300714
+    },
+    {
+      "id_municipio": "5102686",
+      "nome": "Campos de Júlio",
+      "sigla_uf": "MT",
+      "micro_imoveis": 5,
+      "credito_micro": 67114229.45,
+      "credito_total": 723619879.4200001,
+      "participacao_micro": 0.09274790723520998
+    },
+    {
+      "id_municipio": "2909208",
+      "nome": "Coronel João Sá",
+      "sigla_uf": "BA",
+      "micro_imoveis": 263,
+      "credito_micro": 28298744.7765,
+      "credito_total": 306668618.661,
+      "participacao_micro": 0.09227792820817515
+    },
+    {
+      "id_municipio": "2900355",
+      "nome": "Adustina",
+      "sigla_uf": "BA",
+      "micro_imoveis": 415,
+      "credito_micro": 39806095.70682937,
+      "credito_total": 442288428.13,
+      "participacao_micro": 0.09000031014858324
+    },
+    "... (20 more items)"
+  ],
+  "query_ref": "qr_c4df9aa4e6f74229a031c89a213c6294"
+}

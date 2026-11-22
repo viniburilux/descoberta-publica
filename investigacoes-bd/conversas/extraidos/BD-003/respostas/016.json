@@ -1,0 +1,75 @@
+{
+  "id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+  "name": "Produto Interno Bruto (PIB)",
+  "description": "O PIB permite identificar as áreas de geração de renda, produzindo informações que captam as especifidades do País. Disponibilizamos o PIB por Município, Unidade da Federação e para o País.",
+  "organizations": [
+    "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+  ],
+  "tags": [
+    "pib",
+    "crescimento",
+    "renda"
+  ],
+  "themes": [
+    "Economia"
+  ],
+  "tables": [
+    {
+      "id": "83f016c9-33e5-4d1f-afbd-c066a1651c7b",
+      "dataset_id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+      "gcp_id": "basedosdados.br_ibge_pib.brasil_antigo",
+      "name": "Brasil (Antigo)",
+      "description": "Produto Interno Bruto (PIB) do Brasil a preços base de 2002. Série encerrada do IBGE. Tabela 21 do SIDRA."
+    },
+    {
+      "id": "125a57d6-b68e-4bb3-8648-19b6fd6d0ef8",
+      "dataset_id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+      "gcp_id": "basedosdados.br_ibge_pib.contas_nacionais",
+      "name": "Contas Nacionais",
+      "description": "Contas Nacionais Trimestrais de todos os setores da economia brasileira, que somados geram o PIB brasileiro"
+    },
+    {
+      "id": "a5e13468-e1e4-4125-92e6-89d3b9c85e18",
+      "dataset_id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+      "gcp_id": "basedosdados.br_ibge_pib.gini",
+      "name": "Índice de Gini",
+      "description": "Índice de Gini do produto interno bruto a preços correntes e do valor adicionado bruto a preços correntes por atividade econômica"
+    },
+    {
+      "id": "fbbbe77e-d234-4113-8af5-98724a956943",
+      "dataset_id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+      "gcp_id": "basedosdados.br_ibge_pib.municipio",
+      "name": "Município",
+      "description": "Produto Interno Bruto (PIB) municipal a preços correntes"
+    },
+    {
+      "id": "6477d2b0-5517-46fe-a22d-6f8577fe191c",
+      "dataset_id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+      "gcp_id": "basedosdados.br_ibge_pib.municipio_antigo",
+      "name": "Município (Antigo)",
+      "description": "Produto Interno Bruto (PIB) municipal a preços base de 2002. Série encerrada do IBGE. Tabela 21 do SIDRA."
+    },
+    {
+      "id": "8f89ac9c-651c-4dd2-8420-54bf072b9527",
+      "dataset_id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+      "gcp_id": "basedosdados.br_ibge_pib.regiao_antigo",
+      "name": "Região (Antigo)",
+      "description": "Produto Interno Bruto (PIB) de regiões a preços base de 2002. Série encerrada do IBGE. Tabela 21 do SIDRA."
+    },
+    {
+      "id": "93007431-7ce9-42ee-8740-8c2274d345ad",
+      "dataset_id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+      "gcp_id": "basedosdados.br_ibge_pib.uf",
+      "name": "UF",
+      "description": "Produto Interno Bruto (PIB) estadual a preços correntes. Tabela 5938 do SIDRA - Referência 2010."
+    },
+    {
+      "id": "feb091bb-0931-45b9-b276-13c1fb8c9b08",
+      "dataset_id": "fcf025ca-8b19-4131-8e2d-5ddb12492347",
+      "gcp_id": "basedosdados.br_ibge_pib.uf_antigo",
+      "name": "UF (Antigo)",
+      "description": "Produto Interno Bruto (PIB) de UFs a preços base de 2002. Série encerrada do IBGE. Tabela 21 do SIDRA."
+    }
+  ],
+  "usage_guide": null
+}

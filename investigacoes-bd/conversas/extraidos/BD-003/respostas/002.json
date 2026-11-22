@@ -1,0 +1,182 @@
+[
+  {
+    "id": "05f1b96d-883b-4202-a4bd-40379c5d326a",
+    "name": "Cadastro do IPTU na cidade de São Paulo",
+    "description": "O Geosampa disponibiliza a base completa do cadastro imobiliário fiscal relativo ao IPTU (Imposto Predial e Territorial Urbano) da cidade. São mais de 85 milhões de registros e 21,5 GB de informações sobre os imóveis de São Paulo.\r\nA publicação da base do IPTU representa um avanço significativo nas ações de transparência da Prefeitura ao garantir o acesso livre e a reutilização das informações pelos cidadãos, e permitir a elaboração de estudos, análises e cruzamento com outros dados, fundamentais para analisar os aspectos territoriais e sócio-econômicos da Cidade.",
+    "organizations": [
+      "Geoportal de Informações e Mapas da Cidade de São Paulo"
+    ],
+    "tags": [
+      "imóvel",
+      "aluguel"
+    ],
+    "themes": [
+      "Economia",
+      "Infraestrutura e Transportes",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "e857324e-f50d-4369-bb41-104381878cfc",
+    "name": "Diretórios Chile",
+    "description": "Tabelas de diretório com a divisão político-administrativa do Chile segundo o INE: regiões, províncias e comunas com seus códigos únicos territoriais (CUT) oficiais e a hierarquia entre eles, usadas como chaves estrangeiras por outros conjuntos de dados chilenos. A tabela de regiões traz ainda variantes de nome: nome oficial completo, sigla ISO 3166-2:CL e o ordinal romano histórico.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "divisão administrativa",
+      "código",
+      "diretório",
+      "município"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "276a6fb3-078c-4746-b6bc-ea728662b8b3",
+    "name": "Vendas de Eletricidade no Varejo nos Estados Unidos (EIA-861)",
+    "description": "O lado da demanda da eletricidade nos Estados Unidos, a partir do Formulário EIA-861 da U.S. Energy Information Administration: um censo anual das distribuidoras e comercializadoras de eletricidade, com vendas, receita e número de consumidores por empresa, unidade federativa e setor de consumo (Anexo 4), as características de cada empresa e os condados que ela atende, mais o Formulário EIA-861M, que traz vendas, receita, consumidores e preço mensais por unidade federativa e setor de 1990 em diante. É o complemento de duas outras bases da EIA: us_eia_electricity, que cobre o lado da oferta de eletricidade (usinas, geradores e combustível) e junta-se a esta por utility_id, e us_eia_seds, o sistema estadual de consumo de energia de todos os combustíveis.",
+    "organizations": [
+      "Energy Information Administration (EIA)"
+    ],
+    "tags": [
+      "consumo",
+      "eletricidade",
+      "empresa",
+      "preço",
+      "receita"
+    ],
+    "themes": [
+      "Energia"
+    ]
+  },
+  {
+    "id": "5242e5cb-1c61-4190-9e5a-f439f50152c1",
+    "name": "Estatísticas Tributárias",
+    "description": "Estatísticas tributárias agregadas do Departamento de Impostos da Austrália (ATO), cobrindo pessoas físicas, empresas e o imposto sobre bens e serviços (GST). Os dados são publicados anualmente e detalhados por faixa de renda tributável, divisão industrial (ANZSIC), estado ou território e código postal. Esta versão cobre os exercícios fiscais de 2016-17 a 2023-24, e de 2017-18 a 2024-25 no caso do GST.",
+    "organizations": [
+      "Departamento de Impostos da Austrália (ATO)"
+    ],
+    "tags": [
+      "empresa",
+      "renda",
+      "desigualdade",
+      "receita",
+      "arrecadação",
+      "salário",
+      "tributo"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "901f37dd-de5a-4bc2-8547-133ac1661ff7",
+    "name": "Matrizes de Vizinhança no Brasil",
+    "description": "Matrizes de vizinhança de entidades geográficas no Brasil.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "vizinhança"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "51d46dd6-b158-4952-8407-e69bc8e050d6",
+    "name": "Força de Trabalho (Austrália)",
+    "description": "Estatísticas da força de trabalho australiana produzidas pelo Australian Bureau of Statistics, reunindo a publicação mensal Labour Force, Australia (catálogo 6202.0) desde fevereiro de 1978 e os cubos trimestrais e mensais da publicação encerrada Labour Force, Australia, Detailed (catálogo 6291.0.55.001) desde novembro de 1984. Abrange emprego, desemprego, participação, horas trabalhadas, posição na ocupação, subutilização da força de trabalho, indústria (ANZSIC 2006), ocupação (ANZSCO 2013), tempo no trabalho atual e duração da procura por trabalho, para a Austrália e os estados e territórios.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "atividade econômica",
+      "emprego",
+      "trabalho",
+      "ocupação",
+      "pesquisa",
+      "desemprego",
+      "carga horária"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "058e7a36-6608-414e-a9b7-89c42e0504d2",
+    "name": "Diretórios Índia",
+    "description": "Diretórios de entidades da Índia para padronizar identificadores em conjuntos de dados sobre o país.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "População"
+    ]
+  },
+  {
+    "id": "108fd306-ab78-4849-bafe-13a41759a076",
+    "name": "Cadastro do IPTU na cidade de Fortaleza",
+    "description": "Dados referentes ao cadastro do IPTU na cidade de Fortaleza",
+    "organizations": [
+      "Secretaria Municipal das Finanças de Fortaleza"
+    ],
+    "tags": [
+      "acessibilidade",
+      "CEP",
+      "árvore",
+      "água"
+    ],
+    "themes": [
+      "Economia",
+      "Infraestrutura e Transportes",
+      "População",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "9b27a7d8-c310-42d8-a312-631588ad4ba0",
+    "name": "Cadastro do IPTU na cidade de Belo Horizonte",
+    "description": "Dados referente ao cadastro do IPTU na cidade de Belo Horizonte",
+    "organizations": [
+      "Secretaria Municipal de Fazenda de Belo Horizonte"
+    ],
+    "tags": [
+      "CEP",
+      "árvore",
+      "água"
+    ],
+    "themes": [
+      "Economia",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "d255b082-9f60-422e-85b4-f38fefcd8a98",
+    "name": "População: Estimativas e Projeções (Austrália)",
+    "description": "Estimativas e projeções da população australiana publicadas pelo Australian Bureau of Statistics (ABS), reunindo três produtos: a população residente estimada trimestral da Austrália e dos estados e territórios, com os componentes da variação populacional, desde 1981 (antigo catálogo 3101.0); a população residente estimada anual por área estatística de nível 2 (SA2) e por área de governo local (LGA), desde 2001 (antigo catálogo 3218.0); e as projeções populacionais por idade simples e sexo até 2071, nas séries alta, média e baixa (antigo catálogo 3222.0). Inclui ainda a população residente estimada anual por idade simples e sexo desde 1971.",
+    "organizations": [
+      "Instituto Australiano de Estatística (ABS)"
+    ],
+    "tags": [
+      "idade",
+      "nascimento",
+      "óbito",
+      "demografia",
+      "fertilidade",
+      "migração",
+      "mortalidade",
+      "projeção"
+    ],
+    "themes": [
+      "População"
+    ]
+  }
+]

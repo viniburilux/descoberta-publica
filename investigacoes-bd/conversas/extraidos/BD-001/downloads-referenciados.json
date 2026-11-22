@@ -1,0 +1,134 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_4c390c4f65a74966a42d87cd2122dcab",
+    "slug": "gastos_festividades_correntina_2025",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_71331d7e41134c3698cc234559032db8",
+    "slug": "todos_segmentos_festivos_correntina_2025",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_b288a408f14f44fcab1dae689fb4e13e",
+    "slug": "verificar_modalidades_correntina_2025",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_27d3ca06e5534b8686a959d691ab81d8",
+    "slug": "detalhes_festividades_correntina_2025",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_ad5074eadebf41168c132d67667dd4bb",
+    "slug": "gastos_eventos_bahia_2025",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_11b2bd7589bb4c22ad80504aa1bdadab",
+    "slug": "exploracao_festas_bahia_2021_2026",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_50f206208e454235b85292945096fce4",
+    "slug": "totais_festas_bahia_refinados",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_877421e79328445c979d6b973275ea5e",
+    "slug": "municipios_maior_quantidade_festas_bahia",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_19b72cac122a4ddcb78128187fe0a039",
+    "slug": "exploracao_tematicas_festas_bahia_2021_2026",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_05de8c595dd04df5bde038255df98bcf",
+    "slug": "municipios_festas_bahia_refinados",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_5ea9dc46a53a45d888a0fe06645942fc",
+    "slug": "anomalias_valores_eventos_bahia",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_3fb5492e16554f17ba4764fe62e5a688",
+    "slug": "valores_repetidos_eventos_bahia",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

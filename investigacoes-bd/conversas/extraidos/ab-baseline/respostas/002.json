@@ -1,0 +1,95 @@
+{
+  "id": "544c9d22-97b7-479a-8eca-94762840b465",
+  "name": "Microdados do Sistema de Operações do Crédito Rural e do Proagro (Sicor)",
+  "description": "Este conjunto de dados consolida as informações do SICOR (Sistema de Operações do Crédito Rural e do Proagro), registrando o ciclo completo das operações de crédito rural no Brasil, desde a contratação até o saldo devedor e a espacialização das áreas financiadas.\r\n\r\n  O conjunto possui diversas tabe... (1494 more characters)",
+  "organizations": [
+    "Banco Central do Brasil (BCB)"
+  ],
+  "tags": [
+    "agropecuária",
+    "crédito",
+    "gestão ambiental",
+    "uso da terra",
+    "rural"
+  ],
+  "themes": [
+    "Agropecuária",
+    "Economia",
+    "Meio Ambiente",
+    "Organização Territorial"
+  ],
+  "tables": [
+    {
+      "id": "4668b727-c4fb-43da-bf9b-d6543a579df9",
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+      "gcp_id": "basedosdados.br_bcb_sicor.dicionario",
+      "name": "Dicionário",
+      "description": "Dicionário para tradução dos códigos das tabelas do do conjunto Microdados do Sistema de Operações do Crédito Rural e do Proagro (Sicor). Para códigos definidos por outras instituições, como id_municipio ou cnaes, buscar por diretórios"
+    },
+    {
+      "id": "e2d5dcc5-270e-4a8b-8d55-0227fd46c10f",
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+      "gcp_id": "basedosdados.br_bcb_sicor.empreendimento",
+      "name": "Empreendimento",
+      "description": "A tabela de empreendimentos é um catálogo do que foi e do que é financiado. Recomenda-se que ela seja utilizada em conjunto com os microdadados de operações de crédito (microdados_operacao) para se ter uma visão completa dos produtos, atividades e demais atributos da operação de crédito que foram al... (20 more characters)"
+    },
+    {
+      "id": "02f435a6-a68a-4a6d-bad2-bb23ce3a4039",
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+      "gcp_id": "basedosdados.br_bcb_sicor.fonte_recurso",
+      "name": "Fontes de recurso",
+      "description": "Catálogo das fontes de recurso do crédito rural, com descrição, vigência e o indicador de fonte pública. Combina duas tabelas de domínio da fonte original: `FonteRecursos`, com os 37 códigos, e `FonteRecursosPublicos`, com o subconjunto de 16 códigos considerados recursos públicos/controlados. O seg... (154 more characters)"
+    },
+    {
+      "id": "9125d2bc-0495-499d-ab85-0de3f9d060b9",
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+      "gcp_id": "basedosdados.br_bcb_sicor.instituicao_financeira",
+      "name": "Instituições financeiras",
+      "description": "Diretório das instituições financeiras que operam no Sicor, com CNPJ básico, nome e segmento. É a tabela que permite separar o crédito rural por credor — banco público, banco privado, cooperativa de crédito, banco de desenvolvimento e demais segmentos —, cruzando `cnpj_basico` com `operacao.cnpj_bas... (234 more characters)"
+    },
+    {
+      "id": "0cd43cfb-5593-4ea8-b36e-5f9fd27e49dc",
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+      "gcp_id": "basedosdados.br_bcb_sicor.liberacao",
+      "name": "Liberação",
+      "description": "Apresenta o registro dos recursos liberados pelas instituições financeiras no decorrer de uma operação de crédito. A liberação obedece o cronograma de liberação de recursos estipulado no ato da assinatura do contrato que formaliza a operação de crédito rural. Por meio desta base é possível descobrir... (252 more characters)"
+    },
+    {
+      "id": "d8514322-a6d4-4c7e-a4f7-3ec7860510f6",
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+      "gcp_id": "basedosdados.br_bcb_sicor.operacao",
+      "name": "Operação",
+      "description": "A tabela de Operações contém os microdados das contratações de crédito de cada estado brasileiro. Nela, estão presentes principais informações (categoria de produtor; fonte de recursos; instituição credora; produto financiado e etc)\r\ndas mais de 23 milhôes de operações de crédito rural registradas n... (257 more characters)"
+    },
+    {
+      "id": "870f8da2-fb2c-47b9-9602-37cb1d874d4c",
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+      "gcp_id": "basedosdados.br_bcb_sicor.operacoes_desclassificadas",
+      "name": "Operações Desclassificadas",
+      "description": "Esta tabela contém dados de operações de crédito rural que foram desclassificas por não cumprimento de obrigações do mutuário."
+    },
+    {
+      "id": "0063e2ef-5918-4150-a0e6-142a4ed55e31",
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+      "gcp_id": "basedosdados.br_bcb_sicor.proagro_complemento_cop",
+      "name": "Proagro: complemento dos comunicados de perdas",
+      "description": "Complemento de `proagro_cop`, com a identificação da empresa periciadora e do perito responsável pela vistoria da perda. A fonte publica os dois arquivos com o mesmo número de linhas (1.004.175) e o manual do BCB marca a relação como 1..1. Exceções nos testes — a chave declarada (`id_referencia_bace... (367 more characters)"
+    },
+    {
+      "id": "f78f00ee-d39f-4444-85cc-05832ddb7615",
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+      "gcp_id": "basedosdados.br_bcb_sicor.proagro_complemento_rcp",
+      "name": "Proagro: complemento dos requerimentos de cobertura",
+      "description": "Complemento de `proagro_rcp`, com a identificação da empresa periciadora e do perito. Tem o mesmo número de linhas do arquivo básico (846.510) e o manual do BCB marca a relação como 1..1. Ao contrário de `proagro_complemento_cop`, aqui o identificador da periciadora só aparece com comprimentos válid... (342 more characters)"
+    },
+    {
+      "id": "0d5d7889-8a6e-4102-af07-f0a4dc24d2d9",
+      "dataset_id": "544c9d22-97b7-479a-8eca-94762840b465",
+      "gcp_id": "basedosdados.br_bcb_sicor.proagro_cop",
+      "name": "Proagro: comunicados de ocorrência de perdas (COP)",
+      "description": "Comunicados de Ocorrência de Perdas (COP) do Proagro — o registro em que o produtor avisa a instituição financeira de que houve perda na lavoura amparada. É o primeiro passo do fluxo do Proagro, seguido do requerimento de cobertura (`proagro_rcp`), do julgamento (`proagro_sumula_julgamento`) e do pa... (724 more characters)"
+    },
+    "... (10 more items)"
+  ],
+  "usage_guide": null
+}

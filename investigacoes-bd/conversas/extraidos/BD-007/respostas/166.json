@@ -1,0 +1,54 @@
+{
+  "row_count": 6,
+  "rows": [
+    {
+      "id_municipio": "2900355",
+      "imoveis_micro": 415,
+      "imoveis_repetidos_em_varios_anos": 245,
+      "max_anos_por_imovel": 7,
+      "primeiro_ano_micro": 2019,
+      "ultimo_ano_micro": 2026
+    },
+    {
+      "id_municipio": "2909208",
+      "imoveis_micro": 263,
+      "imoveis_repetidos_em_varios_anos": 125,
+      "max_anos_por_imovel": 7,
+      "primeiro_ano_micro": 2018,
+      "ultimo_ano_micro": 2026
+    },
+    {
+      "id_municipio": "2918100",
+      "imoveis_micro": 492,
+      "imoveis_repetidos_em_varios_anos": 245,
+      "max_anos_por_imovel": 8,
+      "primeiro_ano_micro": 2019,
+      "ultimo_ano_micro": 2026
+    },
+    {
+      "id_municipio": "2926509",
+      "imoveis_micro": 90,
+      "imoveis_repetidos_em_varios_anos": 31,
+      "max_anos_por_imovel": 5,
+      "primeiro_ano_micro": 2019,
+      "ultimo_ano_micro": 2026
+    },
+    {
+      "id_municipio": "2929701",
+      "imoveis_micro": 106,
+      "imoveis_repetidos_em_varios_anos": 53,
+      "max_anos_por_imovel": 6,
+      "primeiro_ano_micro": 2019,
+      "ultimo_ano_micro": 2026
+    },
+    {
+      "id_municipio": "2930766",
+      "imoveis_micro": 249,
+      "imoveis_repetidos_em_varios_anos": 116,
+      "max_anos_por_imovel": 6,
+      "primeiro_ano_micro": 2018,
+      "ultimo_ano_micro": 2026
+    }
+  ],
+  "query_ref": "qr_08889c212980437fb2cb64cf0eb4563e"
+}

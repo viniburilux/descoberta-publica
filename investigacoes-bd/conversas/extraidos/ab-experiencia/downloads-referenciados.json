@@ -1,0 +1,35 @@
+[
+  {
+    "type": "query_result",
+    "query_ref": "qr_08f5c16249d14a62acd9aaf6744e2bd8",
+    "slug": "dicionario_investimento",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_88bdee38153946fa8e1536946369898b",
+    "slug": "finalidades_investimento_2022",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  },
+  {
+    "type": "query_result",
+    "query_ref": "qr_4b0aa72e628c4aeda721552a31e5806c",
+    "slug": "credito_investimento_publico_municipio_2022",
+    "formats": [
+      "AVRO",
+      "CSV",
+      "JSONL",
+      "PARQUET"
+    ]
+  }
+]

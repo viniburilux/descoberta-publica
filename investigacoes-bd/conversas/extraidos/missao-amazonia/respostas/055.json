@@ -1,0 +1,66 @@
+{
+  "row_count": 5,
+  "rows": [
+    {
+      "cnpj": "55188543000176",
+      "cnpj_basico": "55188543",
+      "nome_fantasia": "RECICLASSU",
+      "cnae_fiscal_principal": "3811400",
+      "cnae_fiscal_secundaria": "3821100,3839499,4687701,4687702,4687703",
+      "situacao_cadastral": "2",
+      "data_inicio_atividade": "2024-05-20",
+      "data_referencia": "2026-11-01",
+      "id_municipio": "1503200",
+      "sigla_uf": "PA"
+    },
+    {
+      "cnpj": "50211706000170",
+      "cnpj_basico": "50211706",
+      "nome_fantasia": "ALFA RECICLAGEM LTDA",
+      "cnae_fiscal_principal": "3832700",
+      "cnae_fiscal_secundaria": "3811400,3831901,3831999,3839499,4687701,4687702,4687703",
+      "situacao_cadastral": "2",
+      "data_inicio_atividade": "2023-04-04",
+      "data_referencia": "2026-11-01",
+      "id_municipio": "1503200",
+      "sigla_uf": "PA"
+    },
+    {
+      "cnpj": "59198728000112",
+      "cnpj_basico": "59198728",
+      "nome_fantasia": null,
+      "cnae_fiscal_principal": "3839499",
+      "cnae_fiscal_secundaria": "3832700,3831901,3831999",
+      "situacao_cadastral": "2",
+      "data_inicio_atividade": "2025-01-30",
+      "data_referencia": "2026-11-01",
+      "id_municipio": "1503200",
+      "sigla_uf": "PA"
+    },
+    {
+      "cnpj": "23265227000164",
+      "cnpj_basico": "23265227",
+      "nome_fantasia": "SUCATARIA ALACIDAO",
+      "cnae_fiscal_principal": "4687703",
+      "cnae_fiscal_secundaria": "1099604,3811400,3831999,3839499,4687701,4785799",
+      "situacao_cadastral": "2",
+      "data_inicio_atividade": "2015-09-11",
+      "data_referencia": "2026-11-01",
+      "id_municipio": "1503200",
+      "sigla_uf": "PA"
+    },
+    {
+      "cnpj": "61944292000105",
+      "cnpj_basico": "61944292",
+      "nome_fantasia": "SUCATA FENIX",
+      "cnae_fiscal_principal": "4687703",
+      "cnae_fiscal_secundaria": null,
+      "situacao_cadastral": "2",
+      "data_inicio_atividade": "2025-07-28",
+      "data_referencia": "2026-11-01",
+      "id_municipio": "1503200",
+      "sigla_uf": "PA"
+    }
+  ],
+  "query_ref": "qr_5c8c7485808643b480b44c696ba1bdbf"
+}

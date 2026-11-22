@@ -1,0 +1,56 @@
+{
+  "row_count": 10,
+  "rows": [
+    {
+      "cnae_fiscal_principal": "3811400",
+      "estabelecimentos": 31,
+      "ativas": 15
+    },
+    {
+      "cnae_fiscal_principal": "3812200",
+      "estabelecimentos": 2,
+      "ativas": 0
+    },
+    {
+      "cnae_fiscal_principal": "3822000",
+      "estabelecimentos": 1,
+      "ativas": 1
+    },
+    {
+      "cnae_fiscal_principal": "3831901",
+      "estabelecimentos": 12,
+      "ativas": 6
+    },
+    {
+      "cnae_fiscal_principal": "3831999",
+      "estabelecimentos": 14,
+      "ativas": 7
+    },
+    {
+      "cnae_fiscal_principal": "3832700",
+      "estabelecimentos": 22,
+      "ativas": 9
+    },
+    {
+      "cnae_fiscal_principal": "3839499",
+      "estabelecimentos": 7,
+      "ativas": 4
+    },
+    {
+      "cnae_fiscal_principal": "4687701",
+      "estabelecimentos": 3,
+      "ativas": 1
+    },
+    {
+      "cnae_fiscal_principal": "4687702",
+      "estabelecimentos": 6,
+      "ativas": 2
+    },
+    {
+      "cnae_fiscal_principal": "4687703",
+      "estabelecimentos": 29,
+      "ativas": 15
+    }
+  ],
+  "query_ref": "qr_f6a9f43bab284d46b0c709978030a4dd"
+}

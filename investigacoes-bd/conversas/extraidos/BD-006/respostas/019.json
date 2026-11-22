@@ -1,0 +1,27 @@
+{
+  "id": "e5c87240-ecce-4856-97c5-e6b84984bf42",
+  "name": "Desmatamento PRODES",
+  "description": "O projeto PRODES realiza o monitoramento por satélites do desmatamento por corte raso na Amazônia Legal e produz, desde 1988, as taxas anuais de desmatamento na região, que são usadas pelo governo brasileiro para o estabelecimento de políticas públicas. As taxas anuais são estimadas a partir dos inc... (397 more characters)",
+  "organizations": [
+    "Instituto Nacional de Pesquisas Espaciais (INPE)"
+  ],
+  "tags": [
+    "mudancas climáticas",
+    "conservação",
+    "desmatamento",
+    "uso da terra"
+  ],
+  "themes": [
+    "Meio Ambiente"
+  ],
+  "tables": [
+    {
+      "id": "d7a76d45-c363-4494-826d-1580e997ebf0",
+      "dataset_id": "e5c87240-ecce-4856-97c5-e6b84984bf42",
+      "gcp_id": "basedosdados.br_inpe_prodes.municipio_bioma",
+      "name": "Desmatamento por Município e Bioma",
+      "description": "Apresenta o desmatamento dos municipios por bioma a partir do ano 2000"
+    }
+  ],
+  "usage_guide": null
+}

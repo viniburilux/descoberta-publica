@@ -1,0 +1,190 @@
+[
+  {
+    "id": "5a3dec52-8740-460e-b31d-0e0347979da0",
+    "name": "Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro (SICONFI)",
+    "description": "O Sistema de Informações Contábeis e Fiscais do Setor Público Brasileiro (Siconfi) foi desenvolvido como um instrumento para, dentre outros objetivos, facilitar a produção e análise de informações contábeis e fiscais, padronizar os mecanismos de consolidação e aumentar a qualidade e confiabilidade das informações contábeis, financeiras e de estatísticas fiscais recebidas dos municípios, estados, Distrito Federal e União. \r\nA base abrange os dados do Finbra, que vão de 1989 até 2012, e do SICONFI, que vão até o dado mais recente disponível",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "orçamento",
+      "despesa",
+      "fiscalização",
+      "finanças públicas",
+      "finanças públicas",
+      "receita",
+      "gasto"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "ab4af450-6b41-412e-b7cb-ec7030646c3d",
+    "name": "Resultado da Arrecadação Federal",
+    "description": "Dados da arrecadação de impostos e contribuições federais administrados pela Secretaria Especial da Receita Federal do Brasil (RFB).",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "receita",
+      "arrecadação"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "6c564fc4-98db-4bf3-b787-b1bf7856933c",
+    "name": "Dados Fiscais do Tesouro dos EUA",
+    "description": "Posição fiscal agregada do governo federal dos Estados Unidos, a partir da API FiscalData do Tesouro dos EUA. Cobre a dívida pública total em aberto reportada diariamente (Debt to the Penny), o Demonstrativo Mensal do Tesouro de receitas e despesas federais por agência e classificação funcional, as taxas de juros médias sobre os títulos do Tesouro em aberto e as taxas de câmbio trimestrais de reporte do Tesouro. Complementa us_treasury_usaspending, que reporta os gastos federais no nível de contrato ou auxílio; este conjunto é a posição agregada de dívida, receitas, despesas, juros e câmbio.",
+    "organizations": [
+      "U.S. Department of Treasury"
+    ],
+    "tags": [
+      "orçamento",
+      "dívida",
+      "câmbio",
+      "despesa",
+      "política fiscal",
+      "taxa de juros",
+      "finanças públicas",
+      "receita"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Política"
+    ]
+  },
+  {
+    "id": "37807a93-219d-45d6-b2ae-5f3f2746a035",
+    "name": "Cadastro de Imóveis Rurais (CAFIR)",
+    "description": "É o cadastro de imóveis rurais, administrado pela Secretaria Especial da Receita Federal do Brasil (RFB), do qual constarão as informações relativas ao imóvel rural, seu titular e, se for o caso, seus condôminos e compossuidores. Ao imóvel rural cadastrado no Cafir será atribuído o código do imóvel no Cadastro Imobiliário Brasileiro (CIB).",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "agropecuária",
+      "propriedade",
+      "imóvel"
+    ],
+    "themes": [
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "276a6fb3-078c-4746-b6bc-ea728662b8b3",
+    "name": "Vendas de Eletricidade no Varejo nos Estados Unidos (EIA-861)",
+    "description": "O lado da demanda da eletricidade nos Estados Unidos, a partir do Formulário EIA-861 da U.S. Energy Information Administration: um censo anual das distribuidoras e comercializadoras de eletricidade, com vendas, receita e número de consumidores por empresa, unidade federativa e setor de consumo (Anexo 4), as características de cada empresa e os condados que ela atende, mais o Formulário EIA-861M, que traz vendas, receita, consumidores e preço mensais por unidade federativa e setor de 1990 em diante. É o complemento de duas outras bases da EIA: us_eia_electricity, que cobre o lado da oferta de eletricidade (usinas, geradores e combustível) e junta-se a esta por utility_id, e us_eia_seds, o sistema estadual de consumo de energia de todos os combustíveis.",
+    "organizations": [
+      "Energy Information Administration (EIA)"
+    ],
+    "tags": [
+      "consumo",
+      "eletricidade",
+      "empresa",
+      "preço",
+      "receita"
+    ],
+    "themes": [
+      "Energia"
+    ]
+  },
+  {
+    "id": "33b49786-fb5f-496f-bb7c-9811c985af8e",
+    "name": "Diretórios Brasileiros",
+    "description": "Tabelas ligando diversos códigos institucionais e informações de entidades brasileiras.",
+    "organizations": [
+      "Base dos Dados"
+    ],
+    "tags": [
+      "diretório",
+      "municípios",
+      "escolas"
+    ],
+    "themes": [
+      "Educação",
+      "Ciência, Tecnologia e Inovação",
+      "Organização Territorial"
+    ]
+  },
+  {
+    "id": "062621e9-5aa0-4903-852d-619ae54393d2",
+    "name": "Cadastro Nacional de Obras (CNO)",
+    "description": "O Cadastro Nacional de Obras (CNO) é o banco de dados, administrado pela Secretaria Especial da Receita Federal do Brasil (RFB), que armazena informações cadastrais de obras de construção civil e de seus responsáveis. Este cadastro é necessário para que o contribuinte possa cumprir as suas obrigações tributárias (entregar declarações e realizar pagamentos) e, ao final da obra, obter a certidão de regularidade fiscal relativa à obra.",
+    "organizations": [
+      "Receita Federal"
+    ],
+    "tags": [
+      "construção",
+      "fiscalização",
+      "obra pública"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas",
+      "Organização Territorial",
+      "Urbanização"
+    ]
+  },
+  {
+    "id": "14bd1457-ffd4-4808-bf27-8795eee051f2",
+    "name": "Relatórios Regulatórios Bancários (Call Report, FR Y-9C e CRA)",
+    "description": "Os relatórios regulatórios completos do sistema bancário dos Estados Unidos: os anexos trimestrais do Call Report de todos os bancos (2009-2026), as demonstrações consolidadas FR Y-9C das holdings bancárias (1986-2026) e a divulgação anual de crédito a pequenas empresas e pequenos produtores rurais do Community Reinvestment Act (1996-2024). Aprofunda o núcleo de finanças em vez de duplicá-lo: us_fdic_bankfind traz o resumo curado da FDIC, este conjunto traz os anexos regulatórios completos que estão por baixo dele, e o arquivo do CRA por setor censitário é a contrapartida de crédito a pequenas empresas dos dados hipotecários de us_cfpb_hmda. Todos os itens são identificados pelo código do MDRM, o dicionário oficial do Federal Reserve, que acompanha o conjunto como tabela própria. O identificador RSSD é a chave de junção entre todas as tabelas deste conjunto; a ponte para us_fdic_bankfind é a coluna institution.fdic_cert_id, que carrega o certificado da FDIC.",
+    "organizations": [
+      "Conselho Federal de Exame de Instituições Financeiras (FFIEC)"
+    ],
+    "tags": [
+      "balanço patrimonial",
+      "banco",
+      "supervisão bancária",
+      "crédito",
+      "depósito",
+      "instituição financeira",
+      "empréstimo",
+      "relatório regulatório",
+      "pequena empresa"
+    ],
+    "themes": [
+      "Economia"
+    ]
+  },
+  {
+    "id": "6d20934d-373c-4a01-96b9-4205da302ee6",
+    "name": "Gestão de Pessoas (Executivo Federal) - Pensionistas",
+    "description": "As informações disponibilizadas referem-se ao pagamento (rendimento bruto) recebido por pensionistas de servidores instituidores de pensão, constantes no Sistema Integrado de Administração de Pessoal (Siape).\r\n\r\nCabe ressaltar que o Ministério da Economia é responsável pelas informações dos servidores instituidores de pensão e pensionistas do Poder Executivo Federal, não incluindo dados dos poderes Judiciário e Legislativo. Também não constam nos arquivos, dados relativos aos servidores do Banco Central do Brasil (1), Ministério da Defesa (2) (com exceção de militares de ex-territórios ou que assumiram cargos civis no Poder Executivo Federal) e Governo do Distrito Federal (3) (Fundo Constitucional), responsáveis pela publicação dos seus dados em portais próprios.\r\n\r\nEm relação à Agência Brasileira de Inteligência (Abin), os dados funcionais de pessoal são protegidos pela legislação vigente Lei nº 9883 (4) e Portaria Conjunta n° 5, de 05/08/2015/MPOG (5).\r\n\r\nDestacamos que todas as pensões acima do teto do funcionalismo público estão sujeitas ao abate-teto. Aos pensionistas com mais de um benefício, aplica-se o abate-teto em cima da soma das pensões, considerando os valores proporcionais a cada uma.\r\n\r\n### Conceito\r\n\r\nBeneficiário de pensão ou pensionista: Dependente do servidor titular de cargo efetivo da União ou do aposentado que faleceu; dependente de anistiado político ou pessoa que receba pensão especial graciosa ou indenizatória, concedida por meio de Lei ou Decreto Presidencial; ou beneficiados dessas condições por decisão judicial, a quem tenha sido concedido o benefício da pensão.\r\n\r\n### Política Pública\r\n\r\nPolítica de aperfeiçoamento contínuo dos processos de gestão de pessoas no âmbito da administração pública federal, no que se refere ao aspecto de aprimorar a cultura de transparência pública de forma a franquear a todos o acesso de forma aberta, aos dados produzidos ou acumulados pelo Poder Executivo federal, sobre os quais não recaia vedação expressa de acesso.\r\n\r\n### Legislação\r\n\r\nLei nº 8112 de 11 de dezembro de 1990, Lei nº 13.135, de 17 de junho de 2015.",
+    "organizations": [
+      "Ministério da Economia (ME)"
+    ],
+    "tags": [
+      "serviço militar",
+      "pensão"
+    ],
+    "themes": [
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "1b3add4c-7dc1-43cf-8b83-2606f88dfd78",
+    "name": "Financiamento de Campanhas Eleitorais Federais",
+    "description": "Registros de financiamento de campanhas eleitorais federais dos Estados Unidos declarados à Federal Election Commission, cobrindo os ciclos eleitorais de dois anos de 1980 a 2026. Inclui o cadastro de candidatos e comitês, as contribuições recebidas de pessoas físicas e de outros comitês, as transações entre comitês e as despesas operacionais declaradas, no nível de cada transação individual.",
+    "organizations": [
+      "Comissão Eleitoral Federal (FEC) Americana"
+    ],
+    "tags": [
+      "financiamento de campanha",
+      "candidatura",
+      "doação",
+      "eleições",
+      "despesa",
+      "financiamento",
+      "lobby",
+      "partido político",
+      "transparência"
+    ],
+    "themes": [
+      "Política"
+    ]
+  }
+]

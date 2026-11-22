@@ -1,0 +1,141 @@
+[
+  {
+    "id": "257e000c-1685-418a-88d9-4908ccef2840",
+    "name": "Emendas Parlamentares",
+    "description": "Dados do Portal da Transparência com as Emendas Parlamentares. \r\n\r\nEmendas parlamentares entende-se os recursos do orçamento público legalmente indicados pelos membros do Congresso Nacional e das Assembleias Legislativas estaduais para finalidades públicas, geralmente relacionada ao interesse temático e eleitoral de cada parlamentar.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "congresso",
+      "parlamento",
+      "gasto"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "4440e775-4912-4531-8d32-691a575fedaf",
+    "name": "Benefícios do Instituto Nacional do Seguro Social (INSS)",
+    "description": "Benefícios concedidos e mantidos pelo Instituto Nacional do Seguro Social (INSS), agregados por município de residência do titular, mês, espécie do benefício, clientela, sexo e faixa etária, a partir dos microdados do Sistema Único de Informações de Benefícios (SUIBE) publicados em dados abertos conforme o Decreto nº 8.777/2016 e a Lei de Acesso à Informação nº 12.527/2011. Os valores são nominais, sem deflacionamento. Os benefícios assistenciais de prestação continuada (BPC/LOAS, espécies 87 e 88) também constam, em nível de pessoa, no conjunto br_cgu_beneficios_cidadao: somar os dois conjuntos conta os mesmos benefícios duas vezes.",
+    "organizations": [
+      "Ministério da Previdência Social (MPS)"
+    ],
+    "tags": [
+      "auxílio",
+      "terceira idade",
+      "renda",
+      "previdência",
+      "aposentadoria",
+      "assistência social",
+      "previdência social",
+      "transferência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "a9a5b35d-2b41-4be5-be07-7256e713ba53",
+    "name": "Benefícios ao Cidadão",
+    "description": "Dados do portal da transparência sobre os benefícios sociais pagos aos cidadãos brasileiros.",
+    "organizations": [
+      "Controladoria Geral da União (CGU)"
+    ],
+    "tags": [
+      "auxílio",
+      "consumo",
+      "desigualdade",
+      "pobreza_-renda",
+      "pobreza",
+      "bolsa",
+      "transferência"
+    ],
+    "themes": [
+      "Economia",
+      "Governo e Finanças Públicas",
+      "Política",
+      "População"
+    ]
+  },
+  {
+    "id": "ac0ae399-fc78-4795-82ae-60c87504775f",
+    "name": "Desastres e Reconhecimentos Federais",
+    "description": "Dados sobre desastres registrados no Sistema Integrado de Informações sobre Desastres (S2ID), mantido pela Secretaria Nacional de Proteção e Defesa Civil (SEDEC) do Ministério da Integração e do Desenvolvimento Regional (MIDR). Reúne os reconhecimentos federais de situação de emergência e estado de calamidade pública, decretados por municípios e reconhecidos por portaria da SEDEC, no nível de município e tipologia de desastre segundo a classificação COBRADE. A tabela de reconhecimentos vigentes é uma série de retratos diários do conjunto em vigor, já que o relatório de origem mostra apenas o momento da consulta; a de reconhecimentos realizados traz o histórico das portarias publicadas no Diário Oficial da União desde 2013.",
+    "organizations": [
+      "Secretaria Nacional de Proteção e Defesa Civil (SEDEC)"
+    ],
+    "tags": [
+      "desastre",
+      "desastre natural",
+      "natureza"
+    ],
+    "themes": [
+      "Agropecuária",
+      "Meio Ambiente"
+    ]
+  },
+  {
+    "id": "2907eff4-e542-4b76-9942-4b98aed54d1d",
+    "name": "OpenFEMA: desastres, assistência federal e seguro de inundação",
+    "description": "Conjunto de dados abertos da Agência Federal de Gestão de Emergências dos Estados Unidos (FEMA), publicado pelo programa OpenFEMA. Reúne as declarações de desastre emitidas sob o Stafford Act desde 1953, com uma linha por área designada; os projetos financiados pelo programa Public Assistance desde 1998, com os valores federais obrigados; e os arquivos redigidos do National Flood Insurance Program, com 2,7 milhões de sinistros desde 1970 e 74,3 milhões de apólices desde 2009, incluindo data da perda, cobertura contratada, valores pagos, prêmio, zona de inundação e localização aproximada. Os dados não são de domínio público: seu uso é regido pelos termos do OpenFEMA, que o restringem a pesquisa estatística ou registro de referência e proíbem a reidentificação.",
+    "organizations": [
+      "Agência Federal de Gestão de Emergências (FEMA) dos Estados Unidos"
+    ],
+    "tags": [
+      "auxílio",
+      "mudancas climáticas",
+      "indenização",
+      "desastre",
+      "federal",
+      "inundação",
+      "habitação",
+      "seguro",
+      "desastre natural",
+      "propriedade",
+      "risco"
+    ],
+    "themes": [
+      "Economia",
+      "Meio Ambiente",
+      "Governo e Finanças Públicas"
+    ]
+  },
+  {
+    "id": "c747a59f-b695-4d19-82e4-fef703e74c17",
+    "name": "Pesquisa Nacional por Amostra de Domicílios - PNAD COVID19",
+    "description": "Objetiva estimar o número de pessoas com sintomas referidos associados à síndrome gripal e monitorar os impactos da pandemia da COVID-19 no mercado de trabalho brasileiro.\r\n\r\nA coleta da Pesquisa Nacional por Amostra de Domicílios - PNAD COVID19 teve início em 4 de maio de 2020, com entrevistas realizadas por telefone em, aproximadamente, 48 mil domicílios por semana, totalizando cerca de 193 mil domicílios por mês, em todo o Território Nacional. A amostra é fixa, ou seja, os domicílios entrevistados no primeiro mês de coleta de dados permanecerão na amostra nos meses subsequentes, até o fim da pesquisa.\r\n\r\nO questionário se divide em duas partes, sendo uma direcionada a questões de saúde, especificamente sobre sintomas associados à síndrome gripal e outra, a questões de trabalho. Nas questões de saúde, investiga-se a ocorrência de alguns dos principais sintomas da COVID19 no período de referência da pesquisa, considerando-se todos os moradores do domicílio. Para aqueles que apresentaram algum sintoma, perguntam-se quais as providências tomadas para alivio dos sintomas; se buscaram por atendimento médico devido a esses sintomas; e o tipo de estabelecimento de saúde procurado. Nas questões de trabalho, busca-se classificar a população em idade de trabalhar nas seguintes categorias: ocupados, desocupados e pessoas fora da força de trabalho. Investiga-se, ainda, os seguintes aspectos: ocupação e atividade; afastamento do trabalho e o motivo do afastamento; exercício de trabalho remoto; busca por trabalho; motivo por não ter procurado trabalho; horas semanais efetivamente e habitualmente trabalhadas; assim como o rendimento efetivo e habitual do trabalho. Por fim, visando compor o rendimento domiciliar, pergunta-se se algum morador recebeu outros rendimentos não oriundos do trabalho, tais como: aposentadoria, BPC-LOAS, Bolsa Família, algum auxílio emergencial relacionado à COVID, seguro desemprego, aluguel e outros. Cabe ressaltar que a PNAD COVID19 é uma pesquisa com instrumento dinâmico de coleta das informações; portanto, o questionário está sujeito a alterações ao longo do período de sua aplicação.\r\n\r\nA pesquisa prevê divulgações semanais para alguns indicadores, em nível Brasil, e divulgações mensais para um conjunto mais amplo de indicadores, por Unidades da Federação.\r\n\r\nOs resultados da PNAD COVID19 são pioneiros no sentido de constituírem a primeira divulgação de Estatísticas Experimentais elaboradas pelo IBGE, as quais estão alinhadas com a estratégia de modernização do Instituto e permitem a ampliação das ofertas de informação para atender às necessidades de seus usuários.",
+    "organizations": [
+      "Instituto Brasileiro de Geografia e Estatística (IBGE)"
+    ],
+    "tags": [
+      "coronavírus",
+      "COVID19",
+      "emprego",
+      "trabalho",
+      "trabalho remoto"
+    ],
+    "themes": [
+      "Economia",
+      "Educação",
+      "Saúde"
+    ]
+  },
+  {
+    "id": "3d388daa-2d20-49eb-8f55-6c561bef26b6",
+    "name": "Dados Abertos da Câmara dos Deputados",
+    "description": "Dados abertos da Câmara Federal de Deputados",
+    "organizations": [
+      "Câmara dos Deputados"
+    ],
+    "tags": [
+      "partido político"
+    ],
+    "themes": [
+      "Política"
+    ]
+  }
+]
