@@ -1,68 +1,68 @@
 [
   {
     "pacote": "BD-001-material-recuperado-2026-11-22.zip",
-    "bytes": 153840,
     "arquivos": 62,
-    "sha256": "297159ac9efd605045c37c86dde7f0cc3b5521e1dab1edc3c7c32bbc31320192"
+    "bytes": 153839,
+    "sha256": "d5e3aa3131d2046a5498d4bee4c52ca3a00632e9e90f27ead596ca36cf81426a"
   },
   {
     "pacote": "BD-002-material-recuperado-2026-11-22.zip",
-    "bytes": 172503,
     "arquivos": 46,
-    "sha256": "45b9d31a52b67c7cfb86770a54895a7ee4c356b7ec06a343988af78c9602dc49"
+    "bytes": 172499,
+    "sha256": "bbe776c60b1e88199817a73c1a408999be81ad808885c935292895fa200c62a4"
   },
   {
     "pacote": "BD-003-material-recuperado-2026-11-22.zip",
-    "bytes": 295872,
     "arquivos": 122,
-    "sha256": "919144e24327b3ccee04ffc9df59b7076a989e76fa6b9863be0a18f1262f8db9"
+    "bytes": 295867,
+    "sha256": "c318585fa0e1d15a361cfdfc5e96859e15e550a04481224a12fe7a5041e048a9"
   },
   {
     "pacote": "BD-004-material-recuperado-2026-11-22.zip",
-    "bytes": 110731,
     "arquivos": 42,
-    "sha256": "be837d886f1923f3e11ecd518ad3ca0fb03b32a08ddde55229f1cbb2cbe14396"
+    "bytes": 110735,
+    "sha256": "bf5e64beb7294dbdab652e609f19e3bca8f0d8c9547bf320f01a74c0cf6633f2"
   },
   {
     "pacote": "BD-005-material-recuperado-2026-11-22.zip",
-    "bytes": 113484,
     "arquivos": 39,
-    "sha256": "fa8c9d4c324bbad1dbbea56c6132b5ad4f1c610c1e4e83ff6b2145f7f60d8240"
+    "bytes": 113476,
+    "sha256": "1dd204946289fb151bd04ff5263ec66b7a0d339a3f875d9ec24bd3f65e1d12fa"
   },
   {
     "pacote": "BD-006-material-recuperado-2026-11-22.zip",
-    "bytes": 3121773,
     "arquivos": 212,
-    "sha256": "e61a8a8c0272b5c88d3094f841e9084acf7bf2aceebb017c6a2e95205132c988"
+    "bytes": 3121766,
+    "sha256": "50a12b89687330e36e2702d6893662161ddbbe76d093c6edb923455b124e5401"
   },
   {
     "pacote": "BD-007-material-recuperado-2026-11-22.zip",
-    "bytes": 5294642,
     "arquivos": 474,
-    "sha256": "29f187ddea065d71efb01ac14f7c8627a39ed2b3633385861ecdd0f750afb0c7"
+    "bytes": 5294641,
+    "sha256": "7c2553a8fa5c0cbc8d13a5cdf8f8cd03d7d552a291e704c24ee912e4de2a6115"
   },
   {
     "pacote": "BD-008-material-recuperado-2026-11-22.zip",
-    "bytes": 3264312,
     "arquivos": 185,
-    "sha256": "4528071b689435d2333b1a416cce362600b4bbbf84644e3d07aa7592e335867e"
+    "bytes": 3264310,
+    "sha256": "e8932d4ddb2db5361fdaa32687d6a6a8f05c6f0eb392f260669e8ce9469f14a8"
   },
   {
     "pacote": "BD-009-material-recuperado-2026-11-22.zip",
-    "bytes": 2899062,
     "arquivos": 171,
-    "sha256": "71a70a7f5c6a0c2043767237f238006b487b799bcb7e9cd3617675a50f08a49a"
+    "bytes": 2899061,
+    "sha256": "ebd688e58f169d7c708a391f12c4a0c3663439354bf1f73cc3898ece954a59bc"
   },
   {
     "pacote": "BD-010-material-recuperado-2026-11-22.zip",
-    "bytes": 11556145,
     "arquivos": 697,
-    "sha256": "e9c368bf49cf5a1724f558f698b4c694b2d5eb2089cf2288746bbb9dbb12b420"
+    "bytes": 11556143,
+    "sha256": "1fe24619bfbf8711d6a8f24afd2143465f78d03b3b63befdce3dba5302c126e5"
   },
   {
     "pacote": "BD-011-material-recuperado-2026-11-22.zip",
-    "bytes": 2920789,
     "arquivos": 173,
-    "sha256": "37b34eb2616a135b07bb77dcd4a31f773e0a228f8e4951698c013fbfad9790ec"
+    "bytes": 2920785,
+    "sha256": "b73dabee5644ad8f677487263668ce17642f56babd35e9e6ffe8e596e4b4a3fe"
   }
 ]

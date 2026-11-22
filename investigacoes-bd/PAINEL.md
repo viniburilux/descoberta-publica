@@ -1,6 +1,6 @@
 # Painel de situação das 12 investigações
 
-Versão: 22/11/2026. Acervo de conversas: **15 threads, 174 mensagens, 308 SQLs extraídos e 133 tabelas CSV registradas**.
+Versão: 22/11/2026. Acervo de conversas: **15 threads, 160 mensagens, 308 SQLs extraídos e 133 tabelas CSV registradas**.
 
 [Índice mestre](README.md) · [Conversas originais](conversas/) · [Reproduzir](REPRODUZIR.md) · [Originais e versões](originais/)
 

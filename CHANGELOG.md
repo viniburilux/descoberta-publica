@@ -1,6 +1,7 @@
 # Changelog
 
 ## Acervo BD (22/11/2026)
+- Publicadas 15 conversas completas, 160 mensagens únicas, com 308 SQLs extraídos e 133 CSVs de linhas registradas.
 - Publicados código Python, 21 SQLs, configurações, catálogo, resultados CSV, mapas, app HTML, GeoJSON, TIFFs, documentos e versões originais.
 - Incluídas as frentes micro-CARs, Rondon do Pará e Bom Sucesso, com pacotes territoriais e timelines.
 - Adicionados painel A–G por investigação, guia de reprodução e manifesto SHA-256.

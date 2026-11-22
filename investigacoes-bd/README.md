@@ -6,7 +6,7 @@ Acervo de trabalho das 12 frentes BD do Descoberta Pública. Perguntas, código,
 
 ## Começar pelo material
 
-- **Conversas:** [15 threads, 174 mensagens, perguntas e respostas integrais](conversas/), com leitura cronológica, SQL separado e tabelas registradas.
+- **Conversas:** [15 threads, 160 mensagens, perguntas e respostas integrais](conversas/), com leitura cronológica, SQL separado e tabelas registradas.
 
 - **Crédito rural:** [CSV de 5.380 municípios](originais/bd_reconciliation/outputs/mapa_credito_rural_municipal_2023_nomeado.csv), [mapa PNG](originais/bd_reconciliation/outputs/mapa_entrega_canone_2023.png), [app HTML](originais/bd_reconciliation/outputs/app/index.html) e [SQL](consultas/credito_rural_por_municipio.sql).
 - **Reconciliação:** [21 SQLs](originais/bd_reconciliation/outputs/sql/), [4 configs](originais/bd_reconciliation/configs/relationships/), [Python](originais/bd_reconciliation/source/) e [catálogo](originais/bd_reconciliation/catalog/).
@@ -37,4 +37,4 @@ Acervo de trabalho das 12 frentes BD do Descoberta Pública. Perguntas, código,
 
 ## Origem e versão
 
-Originais recuperados dos pacotes BD de 19 e 20/11/2026, dos arquivos de trabalho no Drive e dos três produtos cujas fontes estão em `originais/produtos/`. [Inventário de origem](origens-drive.json). Os identificadores `query_ref` e os identificadores de sessão permanecem nos arquivos originais. Conversas recuperadas: [15 threads e 174 mensagens](conversas/), com SQLs, chamadas e respostas extraídos. Os arquivos nativos apenas referenciados nos downloads seguem identificados no painel.
+Originais recuperados dos pacotes BD de 19 e 20/11/2026, dos arquivos de trabalho no Drive e dos três produtos cujas fontes estão em `originais/produtos/`. [Inventário de origem](origens-drive.json). Os identificadores `query_ref` e os identificadores de sessão permanecem nos arquivos originais. Conversas recuperadas: [15 threads e 160 mensagens](conversas/), com SQLs, chamadas e respostas extraídos. Os arquivos nativos apenas referenciados nos downloads seguem identificados no painel.

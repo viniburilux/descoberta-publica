@@ -1,6 +1,6 @@
 # Conversas originais da Base dos Dados
 
-15 threads, 174 mensagens. JSONs integrais e leitura cronológica em Markdown. SQL, chamadas e respostas foram extraídos em arquivos separados, com identificadores de origem. As tabelas CSV extraídas contêm as linhas registradas nas respostas do chatbot. Os downloads apenas referenciados estão identificados em cada pasta.
+15 threads, 160 mensagens. JSONs integrais e leitura cronológica em Markdown. SQL, chamadas e respostas foram extraídos em arquivos separados, com identificadores de origem. As tabelas CSV extraídas contêm as linhas registradas nas respostas do chatbot. Os downloads apenas referenciados estão identificados em cada pasta.
 
 - [BD-001: 20 mensagens](extraidos/BD-001/mensagens.md) · [JSON](BD-001_43f64dd9-d0fe-416c-a599-a5e2a28e1918.json) · [SQL e respostas](extraidos/BD-001/)
 - [BD-002: 6 mensagens](extraidos/BD-002/mensagens.md) · [JSON](BD-002_433024b2-d169-4637-889d-a75f45eedadc.json) · [SQL e respostas](extraidos/BD-002/)
