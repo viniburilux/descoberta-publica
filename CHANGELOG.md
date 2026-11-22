@@ -1,5 +1,11 @@
 # Changelog
 
+## Acervo BD (22/11/2026)
+- Publicados código Python, 21 SQLs, configurações, catálogo, resultados CSV, mapas, app HTML, GeoJSON, TIFFs, documentos e versões originais.
+- Incluídas as frentes micro-CARs, Rondon do Pará e Bom Sucesso, com pacotes territoriais e timelines.
+- Adicionados painel A–G por investigação, guia de reprodução e manifesto SHA-256.
+
+
 ## v0.1.2 (08/11/2026)
 - Segunda varredura independente de dados pessoais no campo `objeto`: 785 CPFs válidos por dígito verificador em formatações não cobertas pela v0.1.1 (sem pontuação, com espaços, mista), 101 ocorrências adicionais em contexto de CPF, 212 números de RG, 192 e-mails de provedores pessoais e 21 endereços residenciais co-ocorrentes mascarados. Resíduo zero na reverificação dos padrões; 494.446 linhas preservadas (contagem idêntica por UF/ano). Manifesto novo (manifest_v012.json); manifest_v01.json cobre apenas os arquivos inalterados.
 - `ferramentas`: `duplicatas_auditoria.parquet` recebeu o mesmo tratamento.

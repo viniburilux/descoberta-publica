@@ -1,0 +1,17 @@
+PLANO - historia territorial 01h39 (pedido Vini, todos todo-01M7VM26X0QRF76HB005QXQT2N e todo-01M7VM29SB96TTF7Z7MSY5NE5M)
+=== RONDON DO PARA (todo-01M7VM26X0QRF76HB005QXQT2N) ===
+1. Cobertura 2017/2020/2024:
+   a. Wayback releases por ano: filtrar waybackconfig.json por titulo ~2017/2020/2024, baixar tiles z15-16 caixa -48.062..-48.048/-4.706..-4.701, footprint SRC_DATE via metadataLayerUrl de cada release, mosaico 3 quadros com datas de CAPTURA.
+   b. PRODES-AMZ yearly_deforestation 2015-2025 (terrabrasilis WFS prodes-amazon-nb) intersectando o par de CARs grandes: ha/ano dentro de cada CAR (quantitativo).
+   c. MapBiomas Colecao 11 (1985-2025) via thread nova chatbot BD (br_mapbiomas_estatisticas cobertura por municipio/transicao) - custo zero, autorizado; sem geoserver direto (DNS morto) nem GEE (sem conta).
+2. Cronologia CARs: ja temos (A 06/06/2023 PE, B 27/03/2026 SU, sobreposicao 91,7/96,1%; micros ondas 03/04 e 16/04/2025). Checar se ha historico de retificacao/publicacao no SICAR por imovel (endpoint consulta publica imovel rural: sicar.gov.br/publico/imoveis - browser, sem login).
+3. TADs x poligonos: JA CONFIRMADO (sintese 4.1) - intersecoes diretas quantificadas; TADs sao poligonos do IBAMA (verificar se geometria TAD e oficial IBAMA pamgia = sim, servico oficial).
+4. Outros registros: SIGEF/SNCI parcelas certificadas na caixa (hosts incra mortos - tentar sigef.incra.gov.br WFS, snci.incra.gov.br; se mortos, registrar); UC/TI (WFS MMA/ICMBio); mineracao ANM na caixa; assentamentos espelho ambientare em Rondon (resultado: provavelmente zero).
+=== SAO FELIX DO CORIBE (todo-01M7VM29SB96TTF7Z7MSY5NE5M) ===
+1. Processo INCRA 54160.001657/00-18: sem consulta publica direta; tentar (a) portaria de criacao PA no DOU 2003 (pesquisa in.gov.br), (b) registrorural.com.br codigo BA03... (agregador, lead; area 1.514,39ha diverge do decreto 1.519,6441 e espelho 1.519,64 - registrar divergencia), (c) JusBrasil/processos publicos.
+2. Implantacao/delimitacao oficial: portaria criacao 2003 + geo oficial so via INCRA (morto); espelho ambientare BA0369000 segue referencia de geometria com caveats.
+3. Geometria oficial x CARs: comparar espelho x CAR micro7 (14m) - ja feito; explicar 14m: hipoteses legitimamente cadastrais: (a) datum/arredondamento no CAR declarado; (b) micro declarado sobre imovel privado vizinho real; (c) limites do espelho deslocados vs oficial. Checar CARs vizinhos do micro7 no SICAR (filtrar municipio, dist<500m) para ver quem o micro7 toca.
+4. Linha do tempo SFC: 2002 decreto -> 2003 criacao PA (espelho) -> ... -> 2023-11 micro7 criado.
+=== CONTRADICAO/EXPLICACOES LEGITIMAS (ambos) ===
+- Micro-CARs podem ser legitimos: CAR nao tem area minima legal; lotes rurais minosculos existem (casas em vila rural? - checar se area e zona urbana/assentamento); testes de sistema e retificacoes geram cadastros espurios; duplicidade A/B pode ser retificacao pendente (A PE 2023, B SU 2026 - mas ambos vivos = duplicidade cadastral a explicar, nao fraude presumida).
+- Embargos 2006-2012 pre-datam os CARs (2023+): cadastro posterior sobre area ja embargada e plausivel e nao irregular per se.

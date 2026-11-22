@@ -1,53 +1,38 @@
 # Investigações na Base dos Dados
 
-Doze frentes de investigação executadas entre 18 e 20 de novembro de 2026 sobre a infraestrutura pública de dados da [Base dos Dados](https://basedosdados.org) (BD): o chatbot com SQL visível, o catálogo com mais de 740 tabelas e a API pública de metadados.
+Acervo de trabalho das 12 frentes BD do Descoberta Pública. Perguntas, código, consultas, resultados, mapas, documentos e versões originais.
 
-Este diretório é o registro público e navegável desse trabalho. Cada frente tem pergunta, método, resultado, hipóteses abertas e nível de maturidade explícito. Os textos e a organização são nossos; a infraestrutura de dados é da BD, sempre creditada.
+[**Abrir o painel das 12 investigações**](PAINEL.md) · [Reproduzir os pacotes](REPRODUZIR.md) · [Arquivos originais](originais/) · [Manifesto SHA-256](manifesto-originais.json)
 
-**Aviso de leitura:** nada aqui é acusação. Onde existe anomalia, ela aparece como inconsistência de dado a verificar. Valor registrado ou rateado não é valor pago. Declaração em cadastro não é condição observada no território. Resultado nulo também é resultado.
+## Começar pelo material
 
-## As doze frentes
+- **Crédito rural:** [CSV de 5.380 municípios](originais/bd_reconciliation/outputs/mapa_credito_rural_municipal_2023_nomeado.csv), [mapa PNG](originais/bd_reconciliation/outputs/mapa_entrega_canone_2023.png), [app HTML](originais/bd_reconciliation/outputs/app/index.html) e [SQL](consultas/credito_rural_por_municipio.sql).
+- **Reconciliação:** [21 SQLs](originais/bd_reconciliation/outputs/sql/), [4 configs](originais/bd_reconciliation/configs/relationships/), [Python](originais/bd_reconciliation/source/) e [catálogo](originais/bd_reconciliation/catalog/).
+- **Rondon do Pará e Bom Sucesso:** [timeline Rondon](originais/drive-2026-11-20/timeline_rondon_do_para.md), [timeline Bom Sucesso](originais/drive-2026-11-20/timeline_sfc_bom_sucesso.md), [síntese v2](originais/drive-2026-11-20/sintese_aprofundamento_2026-11-20_v2.md), [evidências geoespaciais](originais/pacote_evidencias_20261120/) e [séries TIFF](originais/versoes/lulc_10m_evidencias_v2/).
+- **Experiência da máquina:** [desenho A/B](originais/bd_reconciliation/docs/experimento_ab_desenho.md), [par 1](originais/bd_reconciliation/docs/ab_resultado_par1.md), [par 2](originais/bd_reconciliation/docs/ab_resultado_par2_reparo.md) e [recuperador](originais/bd_reconciliation/source/retrieve_experience.py).
 
-| ID | Frente | Maturidade |
-|----|--------|-----------|
-| [BD-001](investigacoes/BD-001-pncp-festas.md) | Garimpo PNCP: festas e eventos | Investigação |
-| [BD-002](investigacoes/BD-002-reconhecimento-catalogo.md) | Reconhecimento do catálogo além do PNCP | Exploração |
-| [BD-003](investigacoes/BD-003-reconhecimento-infra-emendas-saude.md) | Infra BD, emendas × internações (nulo) e limite por CPF mascarado | Investigação |
-| [BD-004](investigacoes/BD-004-vinte-cruzamentos.md) | Vinte cruzamentos exploratórios (banco de hipóteses) | Exploração |
-| [BD-005](investigacoes/BD-005-mapa-entidades.md) | Mapa de entidades em 6 camadas | Investigação |
-| [BD-006](investigacoes/BD-006-inventario-territorial-sicor-car.md) | Inventário territorial e join SICOR × CAR | Reprodução |
-| [BD-007](investigacoes/BD-007-dinheiro-e-territorio.md) | O Dinheiro e o Território (SICOR × CAR × PAM × MapBiomas) | Produto |
-| [BD-008](investigacoes/BD-008-executor-reconciliacao.md) | Executor de reconciliação (cânone 2023) | Reprodução |
-| [BD-009](investigacoes/BD-009-catalogo-reconciliacao.md) | Catálogo de reconciliação (4 relações medidas) | Reprodução |
-| [BD-010](investigacoes/BD-010-micro-cars.md) | Micro-CARs: datas, APP/RL declaradas e sobreposições | Investigação |
-| [BD-011](investigacoes/BD-011-ciclo-experiencia-maquina.md) | Ciclo de experiência da máquina | Método |
-| [BD-012](investigacoes/BD-012-mcp-mapa-proposta.md) | Mapa do MCP da BD e proposta de contribuição | Aplicável |
+## Investigações
 
-## Os produtos
+- [BD-001: Garimpo PNCP: festas e eventos](investigacoes/BD-001-pncp-festas.md)
+- [BD-002: Reconhecimento do catálogo](investigacoes/BD-002-reconhecimento-catalogo.md)
+- [BD-003: Infraestrutura, emendas e internações](investigacoes/BD-003-reconhecimento-infra-emendas-saude.md)
+- [BD-004: Vinte cruzamentos exploratórios](investigacoes/BD-004-vinte-cruzamentos.md)
+- [BD-005: Mapa de entidades em seis camadas](investigacoes/BD-005-mapa-entidades.md)
+- [BD-006: Inventário territorial e SICOR × CAR](investigacoes/BD-006-inventario-territorial-sicor-car.md)
+- [BD-007: O Dinheiro e o Território](investigacoes/BD-007-dinheiro-e-territorio.md)
+- [BD-008: Executor de reconciliação](investigacoes/BD-008-executor-reconciliacao.md)
+- [BD-009: Catálogo de reconciliação](investigacoes/BD-009-catalogo-reconciliacao.md)
+- [BD-010: Micro-CARs, Rondon do Pará e Bom Sucesso](investigacoes/BD-010-micro-cars.md)
+- [BD-011: Ciclo de experiência da máquina](investigacoes/BD-011-ciclo-experiencia-maquina.md)
+- [BD-012: Mapa do MCP da BD](investigacoes/BD-012-mcp-mapa-proposta.md)
 
-Quatro artefatos prontos para uso e leitura, abertos por link:
+## Documentos e aplicações
 
-- **[O Dinheiro e o Território](https://files.instinct.com/0ge7iva44a3a-o-dinheiro-e-o-territorio)**: app interativa para buscar, filtrar e comparar os 5.380 municípios do cânone de crédito rural 2023.
-- **[Crédito rural por município, SICOR 2023](https://files.instinct.com/5gs9dgjmfr9g-credito-rural-por-municipio-sicor-2023)**: dossiê com método, validação, lacunas e o SQL verificado.
-- **[A história territorial dos dois casos](https://files.instinct.com/5upblg04u1v8-a-historia-territorial-dos-dois-casos)**: Rondon do Pará (PA) e Bom Sucesso, São Félix do Coribe (BA), reconstruídos ato a ato em fontes oficiais.
-- **[MCP de gestão da BD: mapa e proposta](https://files.instinct.com/pl7nm8txk6ks-mcp-de-gestao-da-bd-mapa)**: o que o MCP oficial da BD expõe, o que é leitura livre e a proposta objetiva de colaboração.
+- [O Dinheiro e o Território](https://files.instinct.com/0ge7iva44a3a-o-dinheiro-e-o-territorio).
+- [Crédito rural por município, SICOR 2023](https://files.instinct.com/5gs9dgjmfr9g-credito-rural-por-municipio-sicor-2023).
+- [A história territorial dos dois casos](https://files.instinct.com/5upblg04u1v8-a-historia-territorial-dos-dois-casos).
+- [Mapa do MCP da BD](https://files.instinct.com/pl7nm8txk6ks-mcp-de-gestao-da-bd-mapa).
 
-## Métodos reutilizáveis
+## Origem e versão
 
-O que saiu dessas frentes como método, não só como resultado: [metodos.md](metodos.md).
-
-## Níveis de maturidade
-
-1. **Exploração**: sondagem, hipóteses, reconhecimento de catálogo.
-2. **Investigação**: consultas executadas, resultados observados.
-3. **Reprodução**: resultado recuperável ou reexecutável (query_ref, SQL, CSV).
-4. **Publicável**: revisado, com lastro e limites claros.
-5. **Aplicável**: pronto para demonstrar e compartilhar.
-6. **Produto**: artefato de uso (app, dossiê, catálogo).
-
-## Rastreabilidade e fontes
-
-- Os resultados de consulta citados têm `query_ref` do executor público da BD, que recupera o resultado original sem reexecução: qr_6cdff61d, qr_523383966, qr_7b381f10, qr_374c2380, qr_ad504f37, qr_0ef8fb01, qr_ceaa9c22, qr_8a918dd1, qr_0454ef447a7a4f19a728c259c9de78ae.
-- As sessões de trabalho foram no chatbot da BD nos dias 18, 19 e 20/11/2026.
-- Fontes primárias: Banco Central (SICOR), Serviço Florestal Brasileiro (SICAR), IBAMA (embargos e autos), INCRA (SIGEF/SIPRA), INPE (PRODES/DETER), MapBiomas, RAIS/CNAE e PNCP. Cada fonte tem seus próprios termos de uso e licença.
-- Os textos e a organização deste diretório seguem as licenças deste repositório: código sob MIT, documentação e curadoria sob CC BY 4.0.
+Originais recuperados dos pacotes BD de 19 e 20/11/2026, dos arquivos de trabalho no Drive e dos três produtos cujas fontes estão em `originais/produtos/`. [Inventário de origem](origens-drive.json). Os identificadores `query_ref` e os identificadores de sessão permanecem nos arquivos originais. Conversas completas ainda em recuperação estão identificadas por frente no painel.

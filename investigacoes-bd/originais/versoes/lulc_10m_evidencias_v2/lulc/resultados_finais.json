@@ -1,0 +1,91 @@
+{
+ "carA": {
+  "area_geodesica_ha": 1347.69,
+  "2017": {
+   "Arvores": 912.91,
+   "Cultivo": 372.14,
+   "SoloExposto": 0.81,
+   "Rangeland": 77.08
+  },
+  "2020": {
+   "Agua": 0.16,
+   "Arvores": 704.14,
+   "Cultivo": 476.37,
+   "Construido": 0.25,
+   "SoloExposto": 0.54,
+   "Rangeland": 181.5
+  },
+  "2024": {
+   "Arvores": 655.4,
+   "Cultivo": 511.62,
+   "Construido": 0.56,
+   "Rangeland": 195.38
+  },
+  "area_raster_2024_ha": 1362.96
+ },
+ "carB": {
+  "area_geodesica_ha": 1285.67,
+  "2017": {
+   "Arvores": 957.36,
+   "Cultivo": 330.43,
+   "SoloExposto": 0.81,
+   "Rangeland": 11.93
+  },
+  "2020": {
+   "Agua": 0.16,
+   "Arvores": 747.21,
+   "Cultivo": 451.2,
+   "Construido": 0.25,
+   "SoloExposto": 0.54,
+   "Rangeland": 101.19
+  },
+  "2024": {
+   "Arvores": 700.68,
+   "Cultivo": 473.35,
+   "Construido": 0.56,
+   "Rangeland": 125.95
+  },
+  "area_raster_2024_ha": 1300.54
+ },
+ "tad836171": {
+  "area_geodesica_ha": 376.25,
+  "2017": {
+   "Arvores": 31.89,
+   "Cultivo": 344.21,
+   "SoloExposto": 0.55,
+   "Rangeland": 9.11
+  },
+  "2020": {
+   "Arvores": 31.71,
+   "Cultivo": 270.07,
+   "Construido": 0.21,
+   "SoloExposto": 0.34,
+   "Rangeland": 83.43
+  },
+  "2024": {
+   "Arvores": 28.59,
+   "Cultivo": 302.35,
+   "Construido": 0.4,
+   "Rangeland": 54.41
+  },
+  "area_raster_2024_ha": 385.75
+ },
+ "assentamento_espelho": {
+  "area_geodesica_ha": 1514.39,
+  "2017": {
+   "Arvores": 686.78,
+   "Cultivo": 7.4,
+   "Rangeland": 835.6
+  },
+  "2020": {
+   "Agua": 0.47,
+   "Arvores": 705.67,
+   "Rangeland": 823.64
+  },
+  "2024": {
+   "Arvores": 329.41,
+   "Rangeland": 1200.38
+  },
+  "area_raster_2024_ha": 1529.79
+ }
+}

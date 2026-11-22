@@ -1,0 +1,62 @@
+{
+  "id": "sicor_car",
+  "titulo": "SICOR x CAR - credito rural x imovel rural cadastrado",
+  "entidades": {
+    "left": "Operacao de credito rural com recurso publico, agregada por propriedade",
+    "right": "Imovel rural cadastrado no SICAR/CAR"
+  },
+  "left": {
+    "table": "basedosdados.br_bcb_sicor.recurso_publico_propriedade",
+    "key": "id_car",
+    "partition_field": "ano_emissao",
+    "filters": {"ano_emissao": [2019, 2023, 2026]},
+    "notes": "id_car sem hifens, 41 caracteres. Preenchimento de id_car so e relevante a partir de 2019; 2013-2018 praticamente vazio (ex.: 2013: 1 preenchido em 2.294.848; 2014: 0 em 2.384.340)."
+  },
+  "right": {
+    "table": "basedosdados.br_sfb_sicar.area_imovel",
+    "key": "id_imovel",
+    "snapshot_field": "data_extracao",
+    "partition_field": "sigla_uf",
+    "notes": "id_imovel com hifens, 43 caracteres (ex.: PB-2514602-5DD165C47BF34FED93670B549770BEDE). Snapshots de extracao por UF em datas distintas (2026-06-02 SP; 2026-08-01 CE, MT...; etc.)."
+  },
+  "transforms": [
+    {"name": "literal", "expr": "TRIM({key})", "resultado": "0 correspondencias - formato incompativel"},
+    {"name": "normalizado", "expr": "REPLACE(UPPER(TRIM({key})), '-', '')", "resultado": "adotado"}
+  ],
+  "structural_checks": {
+    "comprimento_esperado": 41,
+    "regex_formato": "^[A-Za-z]{2}[0-9]{7}[A-Fa-f0-9]{32}$",
+    "campos_embutidos": {
+      "uf_prefixo": "SUBSTR({key}, 1, 2)",
+      "municipio_embutido": "SUBSTR({key}, 3, 7)"
+    }
+  },
+  "temporal_alignment": {
+    "estrategia": "Uniao de snapshots por UF (data_extracao distinta por UF) + cobertura por ano_emissao; ids nao encontrados classificados por presenca do municipio no CAR",
+    "motivo": "Um unico snapshot cobre poucas UFs; a uniao dos snapshots por UF e o que eleva a cobertura a >99,7%"
+  },
+  "metricas": ["registros", "ids_distintos"],
+  "observado": {
+    "data_observacao": "2026-11-19",
+    "literal_join": {"registros_correspondentes": 0, "registros_sicor_2026": 1912658, "id_car_nulo_2026": 72778, "id_car_distintos_2026": 812394, "car_snapshot_2026_08_04_registros": 1788278, "car_imoveis_distintos": 1786880},
+    "cobertura_final": [
+      {"ano": 2019, "registros": 1680904, "registros_com_snapshot": 1680881, "registros_sem_snapshot": 23, "ids_distintos": 770165, "ids_com_snapshot": 770154},
+      {"ano": 2023, "registros": 2028517, "registros_com_snapshot": 2028504, "registros_sem_snapshot": 13, "ids_distintos": 927784, "ids_com_snapshot": 927775},
+      {"ano": 2026, "registros": 1839880, "registros_com_snapshot": 1834500, "registros_sem_snapshot": 5380, "ids_distintos": 812394, "ids_com_snapshot": 809136}
+    ],
+    "residuos": {"ids_nao_encontrados": 3258, "ids_em_municipio_com_outros_car": 3258, "ids_em_municipio_sem_car": 0, "municipios_dos_ids": 1428, "query_ref": "qr_6231e31d695d43e7a19aec973a414263"}
+  },
+  "problemas_conhecidos": [
+    "Formato da chave diverge entre as bases (hifens): join literal retorna zero",
+    "Snapshots CAR sao por UF em datas distintas: um snapshot unico cobre parcialmente (2026: 389.263/1.839.880 registros)",
+    "3.258 ids de 2026 sem correspondencia estao todos em municipios que possuem outros CARs - hipotese de defasagem temporal do snapshot ou baixa do imovel, nao ausencia de CAR no municipio",
+    "id_car de anos anteriores a 2019 e praticamente vazio: recorte temporal e obrigatorio"
+  ],
+  "evidencia": {
+    "thread": "BD chatbot T6 (id c3e3f115), 2026-11-19 06:37-06:57",
+    "arquivo_corpus": "bd_clean_6.txt",
+    "query_refs": ["qr_6231e31d695d43e7a19aec973a414263"]
+  },
+  "status_validacao": "validado_execucao_registrada",
+  "versao": "0.1.0"
+}

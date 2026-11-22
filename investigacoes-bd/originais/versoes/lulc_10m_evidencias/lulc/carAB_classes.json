@@ -1,0 +1,46 @@
+{
+ "A": {
+  "2017": {
+   "Arvores": 918.18,
+   "SoloExposto": 0.82,
+   "Rangeland": 77.96,
+   "Cultivo": 375.7
+  },
+  "2020": {
+   "Agua": 0.16,
+   "Arvores": 708.52,
+   "Construido": 0.25,
+   "SoloExposto": 0.54,
+   "Rangeland": 182.87,
+   "Cultivo": 480.32
+  },
+  "2024": {
+   "Arvores": 659.59,
+   "Construido": 0.56,
+   "Rangeland": 196.51,
+   "Cultivo": 516.0
+  }
+ },
+ "B": {
+  "2017": {
+   "Arvores": 963.62,
+   "SoloExposto": 0.82,
+   "Rangeland": 12.0,
+   "Cultivo": 333.26
+  },
+  "2020": {
+   "Agua": 0.16,
+   "Arvores": 752.16,
+   "Construido": 0.25,
+   "SoloExposto": 0.54,
+   "Rangeland": 102.08,
+   "Cultivo": 454.51
+  },
+  "2024": {
+   "Arvores": 705.57,
+   "Construido": 0.56,
+   "Rangeland": 126.57,
+   "Cultivo": 477.0
+  }
+ }
+}

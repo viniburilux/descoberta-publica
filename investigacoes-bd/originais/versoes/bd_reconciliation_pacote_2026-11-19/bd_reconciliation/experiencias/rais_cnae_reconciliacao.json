@@ -1,0 +1,32 @@
+{
+  "id": "rais_cnae_reconciliacao",
+  "tipo": "experiencia_validada",
+  "titulo": "Reconciliacao RAIS x classificacao CNAE (suite 04, validada ao vivo)",
+  "tags": [
+    "rais",
+    "cnae",
+    "emprego",
+    "vinculos",
+    "reconciliacao",
+    "classificacao"
+  ],
+  "familia_metodo": "reconciliacao de contagens entre fontes",
+  "armadilhas_validadas": [
+    "RAIS: 11.768.420 vinculos no recorte, 1.339 com CNAE invalido, 1.337 distintos; 11.760.468 reconciliados (99,93%).",
+    "Chaves vazias distorcem denominador: usar predicado de chave nao-vazia antes de percentuais."
+  ],
+  "fonte": "thread 5d4bd8d9, qr_254f1cba, 2026-11-19",
+  "registrado_em": "2026-11-19T21:21:00-03:00",
+  "contexto_origem": "OPERAÇÃO BD, missão 2 (reconciliação), 19/11/2026; thread validação 5d4bd8d9, qr_254f1cba.",
+  "ideia_original": "Reconciliar contagens RAIS × classificação CNAE medindo cobertura, chaves nulas, duplicidade, transformações e resíduos (suite 01-05).",
+  "principio_hipotese": "Reconciliação de contagens entre fontes exige predicado de chave não-vazia antes de percentuais; denominador errado esconde resíduo.",
+  "evidencias_exemplos": [
+    "RAIS: 11.768.420 vinculos no recorte, 1.339 com CNAE invalido, 1.337 distintos; 11.760.468 reconciliados (99,93%).",
+    "Chaves vazias distorcem denominador: usar predicado de chave nao-vazia antes de percentuais."
+  ],
+  "outras_aplicacoes": "Hipótese: mesma suite aplicável a outros pares classificação-oficial × registro administrativo (CBO, CID-10, NCM). Não executado.",
+  "perguntas_abertas": "Cobertura em outros anos; tratamento dos 1.337 CNAEs inválidos distintos (erro de digitação vs código extinto).",
+  "experimentos_possiveis": "Reexecutar suite em recorte temporal diferente; cruzar resíduos com tabela de correspondência CNAE oficial.",
+  "estado_validacao": "experimentada",
+  "relacoes": "Linha bd_reconciliation; suite outputs/sql/rais_cnae/; config configs/relationships/rais_cnae.json."
+}

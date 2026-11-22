@@ -1,0 +1,6 @@
+LULC 10m anual por poligono - metodo e cautelas (20/11/2026 02h08 -03)
+Fonte: Esri/Impact Observatory/Microsoft Sentinel-2 10m Land Cover Time Series (serie anual 2017-2024+), ImageServer publico:
+https://ic.imagery1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer
+Metodo: exportImage por bbox (SR 3857, 10 m/px, time=1 jul do ano), mascara do poligono rasterizada a 10 m, contagem de pixels x 100 m2. Cores do renderer mapeadas para classes (Arvores/Cultivo/Rangeland/Construido/Agua/SoloExposto).
+Cautelas: (1) saida de MODELO de classificacao 10 m, nao produto oficial brasileiro; classe "Arvores" nao distingue floresta primaria de secundaria/plantio; (2) areas em 3857 tem inflacao ~1-2% vs geodesica (CAR A: 1372,7 ha raster vs 1350,22 ha declarado; TAD: 388,5 vs campo 376,25); (3) serie comeca em 2017 - nao informa estado anterior a 2017; (4) tensao aberta com PRODES-AMZ (que registra zero corte raso de primaria nos CARs A/B 2016-2025): a queda de "Arvores" 2017->2024 no modelo 10m pode ser vegetacao secundaria/degradacao (fora do escopo PRODES), erro do modelo, ou falha de deteccao - NAO RESOLVIDO.
+Resultados: lulc/carAB_classes.json, lulc/tad836171_classes.json; visual carA_lulc_2017_2020_2024.png.

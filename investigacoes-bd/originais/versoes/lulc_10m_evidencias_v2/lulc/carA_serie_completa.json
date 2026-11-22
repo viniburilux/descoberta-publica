@@ -1,0 +1,42 @@
+{
+ "2017": {
+  "Arvores": 912.9,
+  "Cultivo": 372.1,
+  "Rangeland": 77.1
+ },
+ "2018": {
+  "Arvores": 799.9,
+  "Cultivo": 358.7,
+  "Rangeland": 203.8
+ },
+ "2019": {
+  "Arvores": 712.3,
+  "Cultivo": 402.5,
+  "Rangeland": 247.6
+ },
+ "2020": {
+  "Arvores": 704.1,
+  "Cultivo": 476.4,
+  "Rangeland": 181.5
+ },
+ "2021": {
+  "Arvores": 692.6,
+  "Cultivo": 260.3,
+  "Rangeland": 408.8
+ },
+ "2022": {
+  "Arvores": 683.0,
+  "Cultivo": 306.3,
+  "Rangeland": 372.4
+ },
+ "2023": {
+  "Arvores": 657.3,
+  "Cultivo": 558.7,
+  "Rangeland": 146.3
+ },
+ "2024": {
+  "Arvores": 655.4,
+  "Cultivo": 511.6,
+  "Rangeland": 195.4
+ }
+}

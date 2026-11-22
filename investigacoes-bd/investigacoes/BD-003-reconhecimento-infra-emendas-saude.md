@@ -1,5 +1,4 @@
-# BD-003: Infraestrutura da BD, emendas × internações e o limite do CPF mascarado
-
+# BD-003: Infraestrutura, emendas e internações
 - **Tema:** reconhecimento sistemático da infraestrutura da BD com níveis de evidência, e os primeiros testes analíticos.
 - **Quando:** 18/11/2026, no chatbot da BD.
 - **Pergunta:** como a BD está organizada (catálogo, tabelas, chaves) e o que um primeiro teste real mostra?
@@ -8,13 +7,40 @@
   - Mapa da infraestrutura da BD.
   - Teste emendas parlamentares × internações em saúde: correlação de Pearson de -0,0085. Resultado nulo, registrado como achado.
   - Tentativa de cruzar doadores de campanha → QSA → CNPJ → contratos bloqueada por CPF mascarado, com 3 rotas alternativas levantadas e não testadas.
-- **O que aprendemos:** resultado nulo é resultado, e os limites de cruzamento impostos por dados mascarados são documentáveis. Essa trilha real de 85 consultas, com sucessos e falhas, virou insumo de avaliação.
-- **Desdobramento:** a mesma sondagem foi rodada em 5 modelos de IA na noite de 18/11 (chatbot da BD, Qwen, ChatGPT, Gemini e Grok), com protocolo comparativo desenhado. É o embrião de um benchmark de Text-to-SQL sobre catálogo público, o candidato científico mais maduro do acervo: os dados primários já estão coletados, falta compor.
-- **Maturidade:** Investigação (2 de 6).
 - **Rastreio:** conversa no chatbot da BD em 18/11/2026.
 
-## Saída pronta: esqueleto de artigo (benchmark)
+## Sequência da investigação
 
-- Pergunta: qual modelo de IA responde melhor perguntas reais sobre um catálogo público de dados?
-- Protocolo: a mesma bateria de reconhecimento e consultas rodada em 5 modelos (chatbot da BD, Qwen, ChatGPT, Gemini e Grok) na noite de 18/11/2026, com trilha de sucessos e falhas registrada (85 consultas na sessão principal).
-- Material: dados primários já coletados; falta compor a tabela comparativa e redigir.
+Reconhecimento da infraestrutura → teste emendas × internações → Pearson -0,0085 → exploração das chaves para outros cruzamentos.
+
+## A. Material bruto recuperado
+
+A recuperação da conversa completa e dos exports desta frente está em andamento.
+
+Último vestígio da sessão: `4bbb1362-4dfb-47c1-a70a-61886d7a151b`, chatbot da BD.
+
+## B. Consultas e código
+
+SQL e chamadas da sessão ainda não recuperados como arquivos nesta frente.
+
+## C. Resultados e arquivos
+
+Resultados ainda registrados na ficha e no vestígio da sessão; os exports correspondentes aguardam recuperação.
+
+## D. Reprodutibilidade
+
+Aguardando os arquivos da sessão para executar a reprodução.
+
+## E. Destinos possíveis
+
+Artigo e protocolo de benchmark Text-to-SQL; relato técnico do teste emendas × internações.
+
+## F. Pendências e próximo passo
+
+Recuperar o log da sessão e os materiais dos cinco modelos; montar a tabela de consultas, erros, correções e resultados.
+
+Pendente: integrar a conversa completa com suas perguntas, respostas e chamadas originais.
+
+## G. Pacote de trabalho
+
+[Todos os materiais desta frente](#c-resultados-e-arquivos) · [Painel das 12 investigações](../PAINEL.md) · [Manifesto de arquivos e SHA-256](../manifesto-originais.json).

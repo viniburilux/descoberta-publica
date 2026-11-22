@@ -1,0 +1,54 @@
+{
+  "id": "ibama_autos_embargos",
+  "titulo": "Autos de infracao x areas embargadas (IBAMA)",
+  "entidades": {
+    "left": "Auto de infracao ambiental",
+    "right": "Termo de embargo de area"
+  },
+  "left": {
+    "table": "basedosdados.br_ibama_fiscalizacao.auto_infracao",
+    "key": "id_auto",
+    "partition_field": "ano",
+    "filters": {"ano": ">=1977"},
+    "notes": "711.140 registros no periodo completo; 6.651 com id_auto nulo; 704.489 distintos; sem duplicidades de chave."
+  },
+  "right": {
+    "table": "basedosdados.br_ibama_fiscalizacao.area_embargada",
+    "key": "id_auto",
+    "partition_field": "ano",
+    "notes": "116.332 registros; 19.979 com id_auto nulo; 94.546 distintos; 1.610 chaves duplicadas (um auto pode gerar varios embargos)."
+  },
+  "transforms": [
+    {"name": "literal", "expr": "{key}", "resultado": "adotado - chave direta documentada"}
+  ],
+  "structural_checks": null,
+  "temporal_alignment": {"estrategia": "periodo completo das duas tabelas", "motivo": "relacionamento documentado pela propria descricao da tabela de embargos"},
+  "metricas": ["registros", "ids_distintos"],
+  "observado": {
+    "data_observacao": "2026-11-19",
+    "autos_registros": 711140,
+    "autos_id_nulo": 6651,
+    "autos_distintos": 704489,
+    "autos_chaves_duplicadas": 0,
+    "embargos_registros": 116332,
+    "embargos_id_nulo": 19979,
+    "embargos_distintos": 94546,
+    "embargos_chaves_duplicadas": 1610,
+    "embargos_com_auto_correspondente": 96293,
+    "embargos_sem_auto_correspondente": 20039,
+    "composicao_sem_correspondencia": {"id_auto_nulo": 19979, "id_auto_preenchido_sem_auto": 60},
+    "autos_com_pelo_menos_um_embargo": 94489
+  },
+  "problemas_conhecidos": [
+    "Duas leituras de cobertura com denominadores distintos: 99,94% dos termos com id_auto preenchido (96.293/96.353) versus 82,77% de todos os registros de embargo (96.293/116.332). Registrar sempre o denominador.",
+    "19.979 registros de embargo com id_auto nulo (17,2% do total) limitam joins por identificador; caminho alternativo pode ser municipio+data, nao testado",
+    "Cardinalidade um-para-muitos: um auto pode gerar varios embargos"
+  ],
+  "evidencia": {
+    "thread": "BD chatbot T6 (id c3e3f115), 2026-11-19 06:37-06:40",
+    "arquivo_corpus": "bd_clean_6.txt",
+    "query_refs": []
+  },
+  "status_validacao": "validado_execucao_registrada",
+  "versao": "0.1.0"
+}

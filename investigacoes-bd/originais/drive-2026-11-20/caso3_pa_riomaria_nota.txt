@@ -1,0 +1,24 @@
+CASO #3 — MICRO PA-1506161-EE5157E8CA8B4DF280FC7F9D371FF17A (Rio Maria, PA) — 20/11/2026 ~02h54 -03
+
+CAR/SICAR (WFS geoserver.car.gov.br, lido 20/11 02h52; raw pa3_micro.json):
+- status PE; condicao "Analisado, aguardando atendimento a notificação"; tipo IRU; area 0,0001 ha (1 m²).
+- dat_criacao 18/10/2025 (= último evento cadastral, inscrição OU retificação — demonstrativo oficial pendente, rota captcha parada); data_atualizacao 20/07/2026.
+- geometria: ~0,9 m em lon -49.202020, lat -7.121773.
+
+VIZINHANÇA CAR (bbox ~1km, raw pa3_vizinhos.json): 7 vizinhos, todos módulo fiscal:
+- 0CDA15DA… 4.211,84 ha PE "Aguardando análise" (evento 2019) — 52,4 m
+- F063D649… 3.960,32 ha PE "Analisado, aguardando regularização ambiental" (2021) — 56,4 m
+- E9A92052… 14.831,89 ha CA "Cancelado por decisão administrativa" (2015) — 44,9 m
+- E283386C… 45,48 ha PE notificação (2018) — 72,5 m
+- 61CA7731… 0,0717 ha (717 m²) PE notificação (evento 17/10/2025, 1 dia ANTES do evento do micro; proximidade de datas registrada sem inferir relação) — 427,5 m
+- 3C75390E… 72,81 ha PE notificação (04/12/2025) — 579,0 m
+- 01F02576… 46,44 ha AT "Aguardando análise" (30/09/2026) — 786,1 m
+- O micro NÃO está dentro de nenhum polígono vizinho: fica no interstício de ~45-72 m entre CARs grandes (o mais próximo é o cancelado de 14.831 ha). Padrão distinto do caso #2 (micro dentro de 2 CARs) e de Rondon (micro #12 dentro de A e B).
+
+DETER-AMZ (deter-amz:deter_amz, axis lon,lat REVALIDADO 02h53 — ver nota deter_carAB): 8 feições no bbox ~1km (2017-06 a 2022-07), NENHUMA sobre o micro; mais próxima 753 m (14/02/2020, DESMATAMENTO_CR 0,102 km², CBERS-4). Nenhum alerta na vizinhança após 25/07/2022. Raws: deter_amz_riomaria_lonlat.json.
+PRODES-AMZ yearly_deforestation_biome: consultas 502 persistentes na execução de 02h53; resultado anterior (lat,lon) INVALIDADO pela revalidação de eixo — reconsulta pendente.
+
+REVALIDAÇÃO DE EIXO (importante para resultados anteriores): em 02h53, o mesmo servidor/camada deter-amz respondeu 77 feições com axis lon,lat e 0 com lat,lat num bbox de controle em Rondon do Pará — comportamento OPOSTO ao registrado na execução de ~02h06. Conclusão: a ordem de eixos do terrabrasilis NÃO é estável; toda consulta espacial exige controle positivo na mesma sessão. O zero DETER × CARs A/B foi reconfirmado em 02h53 com axis lon,lat + controle regional positivo (83 feições num bbox 0,3°) — permanece zero dentro do bbox dos CARs A/B.
+
+
+PRODES-AMZ anual (VALIDADO 03h40, método documentado; raw prodes_amz_rm_v2.json; controles: positivo 580 feições, negativo 0 oceano): 4 feições no bbox ~1km — 2018 (9,2 ha, 1.152 m), 2020 (157,2 ha, 1.235 m), 2020 (6,6 ha, 753 m), 2022 (22,4 ha, 1.124 m). NENHUMA contém o micro; nada após 2022 na vizinhança. (Substitui a consulta invalidada de 02h52.)

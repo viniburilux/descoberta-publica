@@ -1,0 +1,55 @@
+{
+  "id": "rais_cnae",
+  "titulo": "RAIS x Diretorio CNAE 2 - estabelecimentos x classificacao de atividades",
+  "entidades": {
+    "left": "Estabelecimento com vinculos (RAIS)",
+    "right": "Subclasse CNAE 2 (diretorio de classificacao)"
+  },
+  "left": {
+    "table": "basedosdados.br_me_rais.microdados_estabelecimentos",
+    "key": "cnae_2_subclasse",
+    "partition_field": "ano",
+    "filters": {"ano": [2023]},
+    "notes": "Muitos estabelecimentos por subclasse. 0 registros com cnae_2_subclasse nulo em 2023."
+  },
+  "right": {
+    "table": "basedosdados.br_bd_diretorios_brasil.cnae_2",
+    "key": "subclasse",
+    "notes": "Uma linha por subclasse; sem duplicidades observadas."
+  },
+  "transforms": [
+    {"name": "literal", "expr": "{key}", "resultado": "adotado - codigos compativeis"}
+  ],
+  "structural_checks": null,
+  "temporal_alignment": {"estrategia": "mesmo ano de referencia (2023)", "motivo": "diretorio CNAE versionado; conferir vigencia da versao do diretorio"},
+  "metricas": ["registros", "chaves_distintas"],
+  "observado": {
+    "data_observacao": "2026-11-19",
+    "registros_rais": 11768420,
+    "cnae_nulo": 0,
+    "subclasses_distintas_rais": 1339,
+    "registros_diretorio": 1356,
+    "subclasses_distintas_diretorio": 1356,
+    "subclasses_duplicadas_rais": 1331,
+    "subclasses_duplicadas_diretorio": 0,
+    "subclasses_com_correspondencia": 1337,
+    "subclasses_sem_correspondencia": 2,
+    "registros_com_correspondencia": 11760468,
+    "registros_sem_correspondencia": 7952,
+    "sem_correspondencia_detalhe": [
+      {"subclasse": "8630505", "registros": 1253},
+      {"subclasse": "9999999", "registros": 6699, "nota": "nao interpretar como atividade economica valida sem investigacao adicional"}
+    ]
+  },
+  "problemas_conhecidos": [
+    "2 subclasses RAIS sem correspondencia no diretorio consultado: 8630505 e 9999999 (esta concentra 6.699 registros e parece codigo de preenchimento, nao atividade)",
+    "Relacao muitos-para-um: joins precisam respeitar a cardinalidade para nao multiplicar registros"
+  ],
+  "evidencia": {
+    "thread": "BD chatbot T6 (id c3e3f115), 2026-11-19 06:40",
+    "arquivo_corpus": "bd_clean_6.txt",
+    "query_refs": []
+  },
+  "status_validacao": "validado_execucao_registrada",
+  "versao": "0.1.0"
+}

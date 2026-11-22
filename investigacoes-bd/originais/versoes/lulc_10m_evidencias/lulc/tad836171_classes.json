@@ -1,0 +1,21 @@
+{
+ "2017": {
+  "Arvores": 31.28,
+  "SoloExposto": 0.55,
+  "Rangeland": 9.01,
+  "Cultivo": 347.64
+ },
+ "2020": {
+  "Arvores": 31.31,
+  "Construido": 0.2,
+  "SoloExposto": 0.34,
+  "Rangeland": 83.19,
+  "Cultivo": 273.44
+ },
+ "2024": {
+  "Arvores": 28.22,
+  "Construido": 0.37,
+  "Rangeland": 54.56,
+  "Cultivo": 305.33
+ }
+}

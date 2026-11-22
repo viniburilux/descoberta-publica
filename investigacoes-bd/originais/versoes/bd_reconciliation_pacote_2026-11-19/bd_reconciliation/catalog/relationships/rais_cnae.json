@@ -1,0 +1,82 @@
+{
+  "id": "rais_cnae",
+  "titulo": "RAIS x Diretorio CNAE 2",
+  "config_executavel": "../../configs/relationships/rais_cnae.json",
+  "bases": {
+    "left": "basedosdados.br_me_rais.microdados_estabelecimentos",
+    "right": "basedosdados.br_bd_diretorios_brasil.cnae_2"
+  },
+  "entidades": "Estabelecimento (RAIS) x subclasse de classificacao de atividade (CNAE 2)",
+  "campos_chaves": {
+    "left": "cnae_2_subclasse",
+    "right": "subclasse",
+    "recorte": "ano = 2023"
+  },
+  "consultas_referencia": [
+    "WITH r AS (SELECT cnae_2_subclasse, COUNT(*) n FROM basedosdados.br_me_rais.microdados_estabelecimentos WHERE ano=2023 AND cnae_2_subclasse IS NOT NULL GROUP BY cnae_2_subclasse), c AS (SELECT subclasse FROM basedosdados.br_bd_diretorios_brasil.cnae_2) SELECT ... LEFT JOIN r x c -- cobertura por subclasses e por registros"
+  ],
+  "transformacoes": [
+    "nenhuma - codigos compativeis"
+  ],
+  "cardinalidade": "muitos-para-um (muitos estabelecimentos por subclasse; diretorio sem duplicatas)",
+  "cobertura_observada": {
+    "2023": "99,85% subclasses distintas (1.337/1.339); 99,93% registros (11.760.468/11.768.420); sem correspondencia: 8630505 (1.253) e 9999999 (6.699)"
+  },
+  "problemas_conhecidos": "subclasse 9999999 concentra 6.699 registros e nao deve ser lida como atividade valida sem investigacao; verificar vigencia da versao do diretorio CNAE",
+  "evidencias": {
+    "thread": "BD chatbot T6 c3e3f115, 2026-11-19 06:40",
+    "arquivo": "bd_clean_6.txt",
+    "query_refs": [],
+    "validacao_ao_vivo": "thread 5d4bd8d9-338c-4330-9ea0-74230674b27a (chatbot BD, 2026-11-19 ~20h51-20h54): numeros exatos confirmados; ver outputs/runs/2026-11-19/validacao_real_chatbot.md"
+  },
+  "versoes": [
+    {
+      "versao": "0.1.0",
+      "data": "2026-11-19",
+      "nota": "registro inicial"
+    }
+  ],
+  "status_validacao": "suite04_cobertura_validada_ao_vivo_2026-11-19 (demais suites nao reexecutadas)",
+  "suites_status": {
+    "01_chaves_nulas": {
+      "status": "executada_ao_vivo_2026-11-19",
+      "query_ref": "qr_69ef908a403e47169779df9e5b5a8fc3"
+    },
+    "02_duplicidade": {
+      "status": "executada_ao_vivo_2026-11-19",
+      "query_ref": "qr_633ce0ad7b9e441ba1ced39fda253748"
+    },
+    "03_transformacoes": {
+      "status": "executada_ao_vivo_2026-11-19",
+      "query_ref": "qr_6e7209ab689644b8abc7692bf9ea0ca1"
+    },
+    "05_residuos": {
+      "status": "executada_ao_vivo_2026-11-19",
+      "query_ref": "qr_fa03d0d162304f31b0e4b77d984f8ba3"
+    },
+    "04_cobertura": {
+      "status": "validada_ao_vivo_2026-11-19",
+      "nota": "ver outputs/runs/2026-11-19/validacao_real_chatbot.md"
+    },
+    "06_estrutura": {
+      "status": "NA_justificado",
+      "motivo": "suite estrutural so se aplica a chaves com campos embutidos; config nao define structural_checks"
+    }
+  },
+  "cobertura_suites": "5/5 aplicaveis + 06 NA justificado",
+  "thread_validacao": "https://basedosdados.org/chatbot?t=23340b3d-36ca-478c-8a85-7b3db0ed4e3d",
+  "metadados_bd": {
+    "left": {
+      "dataset_slug_graphql": "rais",
+      "organizacao": "me",
+      "tabelas_no_dataset": 3,
+      "fonte": "GraphQL pública backend.basedosdados.org/graphql, sem autenticação, consultada 20/11/2026"
+    },
+    "right": {
+      "dataset_slug_graphql": "diretorios_brasil",
+      "organizacao": "bd",
+      "tabelas_no_dataset": 24,
+      "fonte": "GraphQL pública backend.basedosdados.org/graphql, sem autenticação, consultada 20/11/2026"
+    }
+  }
+}

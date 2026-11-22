@@ -1,0 +1,19 @@
+CASOS #10/#14/#15/#19 — MICROS RS-4322301 (Tuparendi, RS) — 20/11/2026 ~02h57 -03
+
+SICAR WFS (geoserver.car.gov.br, lidos 20/11 02h54; raws rs10_micro.json, rs_outros3.json):
+4 micros top-20, todos 0,0001 ha (1 m²), IRU, AT, "Aguardando análise":
+- 411110B1…: evento 10/05/2025, centro -54.617120,-27.653660
+- 249321677C…: evento 02/10/2024, centro -54.600108,-27.678190
+- 8DD943476…: evento 07/05/2025, centro -54.586599,-27.638087
+- 0BBDEB727…: evento 16/07/2026, centro -54.610353,-27.654883
+(dat_criacao = último evento cadastral; inscrição vs retificação só no demonstrativo oficial — rota captcha parada)
+
+VIZINHANÇA (bbox ~6×6 km: 345 CARs; raw rs_vizinhos.json; distâncias geodésicas ponto→polígono):
+PADRÃO DE PAREAMENTO NO MESMO DIA (fato; sem inferir causa):
+- 411110B1 (10/05/2025) tem RS-4322301-3D9CD0419D30… (28 ha, "Aguardando análise", evento 10/05/2025) a 1,6 m.
+- 249321677C (02/10/2024) tem …-B3E3279BD524… (29,6 ha, idem, evento 02/10/2024) a 0,9 m.
+- 8DD943476 (07/05/2025) tem …-D68D12B2FC85… (39,275 ha, idem, evento 07/05/2025) a 0,8 m.
+- 0BBDEB727 (16/07/2026) tem …-74CE2C571649… (23,7 ha, idem, evento 16/07/2026) a 5,8 m.
+Nenhum dos 4 micros está DENTRO de outro CAR (distâncias mínimas 0,8-1,6 m). Cada micro também tem outros CARs pequenos (11-65 ha) a 2-68 m, a maioria "Aguardando análise".
+Leitura estrutural (hipóteses legítimas abertas, NÃO conclusão): cadastro de fragmentos (ex.: RL/APP ou gleba desmembrada) declarados em par no mesmo dia; ou correções de limite. Verificação exigiria demonstrativos oficiais dos pares.
+Bioma (malha IBGE, síntese §6): Tuparendi = Mata Atlântica — PRODES não cobre; DETER-AMZ/Cerrado não se aplicam. Rotas de supressão: MapBiomas (pendente) e desmatamento RS (Sema/RS), não consultadas nesta execução.

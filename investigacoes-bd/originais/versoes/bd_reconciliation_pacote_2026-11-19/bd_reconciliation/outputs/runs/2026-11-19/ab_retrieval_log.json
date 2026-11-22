@@ -1,0 +1,48 @@
+{
+  "mecanismo": "overlap_lexical_tags3_titulo2_corpo1_minscore10_top2",
+  "limitacao": "selecao programatica simples, NAO reconhecimento semantico",
+  "caso": "Quanto foi o credito rural de investimento com recurso publico em 2022, rateado por municipio usando o Cadastro Ambiental Rural? Total geral, numero de municipios, top-10.",
+  "scores": [
+    {
+      "id": "t7_sicor_car_rateio",
+      "score": 27,
+      "arquivo": "t7_sicor_car_rateio.json"
+    },
+    {
+      "id": "prodes_mapbiomas_cobertura",
+      "score": 6,
+      "arquivo": "prodes_mapbiomas_cobertura.json"
+    },
+    {
+      "id": "ibama_autos_embargos",
+      "score": 0,
+      "arquivo": "ibama_autos_embargos.json"
+    },
+    {
+      "id": "rais_cnae_reconciliacao",
+      "score": 0,
+      "arquivo": "rais_cnae_reconciliacao.json"
+    }
+  ],
+  "selecionados": [
+    "t7_sicor_car_rateio"
+  ],
+  "contexto_para_injetar": [
+    {
+      "titulo": "Rateio municipal de credito rural SICOR conectado ao CAR (caso T7, 2023, recurso publico)",
+      "familia_metodo": "agregacao territorial com tabela-ponte e rateio",
+      "armadilhas_validadas": [
+        "A tabela-ponte recurso_publico_propriedade NAO tem coluna de valor; o valor esta em operacao.valor_parcela_credito, ligado por id_referencia_bacen + numero_ordem.",
+        "id_car precisa de normalizacao (UPPER + remover hifens) para casar com area_imovel.id_imovel.",
+        "area_imovel tem multiplos snapshots por imovel; deduplicar pelo snapshot mais recente (data_extracao) antes de ligar municipio.",
+        "Municipio vem de area_imovel.id_municipio; NAO usar prefixo territorial do id_car.",
+        "Rateio: dividir o valor da operacao igualmente pelo numero de imoveis CAR distintos ligados a ela.",
+        "Recorte de recurso publico oficial: join operacao.id_fonte_recurso -> fonte_recurso.indicador_recurso_publico = '1' (a tabela-ponte sozinha NAO equivale ao recorte publico oficial)."
+      ],
+      "disclaimers": [
+        "Valor registrado rateado entre imoveis da operacao; NAO e valor pago nem local exato do beneficio.",
+        "Chave operacao (id_referencia_bacen + numero_ordem) e unica no SICOR 2023 (verificado: 2.129.134 linhas = chaves)."
+      ]
+    }
+  ]
+}

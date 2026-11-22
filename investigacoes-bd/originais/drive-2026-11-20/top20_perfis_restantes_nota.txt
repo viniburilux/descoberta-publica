@@ -1,0 +1,19 @@
+TOP-20 — PERFIS DOS 12 RESTANTES + VIZINHANÇAS-CHAVE (20/11/2026 ~03h43 -03)
+Fonte: SICAR WFS (geoserver.car.gov.br, lidos 03h42-03h43; raws top20_ba_perfis.json, top20_pa1.json, pa1_vizinhos.json, sfc_trio_vizinhos.json). dat_criacao = último evento cadastral (inscrição OU retificação; demonstrativo oficial pendente — rota captcha parada). Distâncias geodésicas ponto→polígono.
+
+#1 PA-1506187-94551B72 (Rondon do Pará): 1 m², CANCELADO por decisão administrativa, evento 04/11/2023. Centro -48.15481,-4.48092.
+  Vizinhança (12 CARs no bbox ~2km): a 0,2 m de 4A1E521A (1.030,8 ha, "Aguardando análise", 05/09/2023); a 0,3 m de F692F7F7 (51,76 ha, "em conformidade", 24/07/2025); e a 52,3 m de OUTRO micro 57C97645 (0,0007 ha = 7 m²) TAMBÉM cancelado por decisão administrativa em 04/11/2023 — par de cancelamentos no mesmo dia (fato; causa não verificada).
+#4 BA-2921401-9177991E (Mirangaba): 1 m² AT "Aguardando análise", evento 19/09/2025, centro -40.50091,-10.72812.
+#5 BA-2928109-0F43ABB9 (Santa Maria da Vitória): 2 m² AT idem, 29/07/2025, -44.27859,-13.28779 (município da comarca dos registros do decreto SFC 2002).
+#6 BA-2929057-3DE9EF40 (SFC): 1 m² AT idem, 29/11/2024, -44.00270,-13.76776. A 1,2 m de 64E367FB (25,0 ha, "Aguardando análise", 15/07/2025); a 6,0 m de 7E626251 (66,2 ha, 05/08/2026); a 9,1 m de EE5B2DDD (20,0 ha, 27/08/2024).
+#8 BA-2913705-C31099AB (Inhambupe): 1 m² AT idem, 11/10/2025, -38.35300,-11.78675.
+#9 BA-2929057-2483416C (SFC): 1 m² AT idem, 12/03/2025, -43.88704,-13.68135. A 8,4 m de C2F9DD1E (9,3 ha, 2019); a 10,9 m de 71ED1867 (48,1 ha, 21/03/2025); e a 27,9 m e 33,3 m de DOIS outros micros 1 m² (9D6291990A44 e 14E1FC196411), ambos com evento 29/05/2025 — cluster de micros em SFC (o município concentra 222 micros <0,01 ha na consulta anterior, com quirk de cod_imovel registrado na síntese §7).
+#11 BA-2930766-9CCE04D4 (Sítio do Quinto): 1 m² AT idem, 03/07/2024, -38.06747,-10.38228.
+#13 BA-2901601-2D6EA361 (Antas): 1 m² AT idem, 26/04/2025, -38.25053,-10.40017.
+#16 BA-2916500-9222A7C0 (Itapicuru): 1 m² AT idem, 11/03/2024, -38.13645,-11.24183.
+#17 BA-2929057-60EC867C (SFC): 2 m² AT idem, 10/11/2025, -43.97070,-13.73810. A 7,1 m de 8EA9D061 (199,8 ha, 30/09/2018); a 18,1 m de D6FECCC5 (243,5 ha, 22/08/2024).
+#18 BA-2902005-876B8A8C (Aracatu): 1 m² AT idem, 06/11/2025, -41.32235,-14.34542.
+#20 BA-2926509-E3BCDCD3 (Ribeira do Amparo): 1 m² AT idem, 18/12/2024, -38.30243,-10.94668.
+
+Cobertura dos 20 por ID (reconciliada 03h43): perfilados #1-#20 completos em SICAR. Aprofundados (vizinhança+satélite/documental): #1, #2, #3, #6, #7, #9, #10, #12, #14, #15, #17, #19. Demonstrativos oficiais lidos: #7, #12 + 6 micros das ondas Rondon + CARs A/B. Pendentes de demonstrativo: 18 (rota captcha parada).
+Padrões estruturais (fatores geométricos/temporais; SEM conclusão de irregularidade): dentro-de-2-CARs (#2 MS, #12 Rondon); interstício entre CARs grandes (#3 Rio Maria); adjacente a PA (#7 SFC); pareamento mesmo-dia (#10/#14/#15/#19 Tuparendi — proximidade+mesma data de evento, não parentesco cadastral provado); par de cancelamentos mesmo-dia (#1 Rondon); cluster de micros (#9 SFC).

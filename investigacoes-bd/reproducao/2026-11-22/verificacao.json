@@ -1,0 +1,93 @@
+{
+  "sqls": [
+    {
+      "arquivo": "sql/ibama_autos_embargos/01_chaves_nulas.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/ibama_autos_embargos/02_duplicidade.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/ibama_autos_embargos/03_transformacoes.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/ibama_autos_embargos/04_cobertura.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/ibama_autos_embargos/05_residuos.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/prodes_mapbiomas/01_chaves_nulas.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/prodes_mapbiomas/02_duplicidade.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/prodes_mapbiomas/03_transformacoes.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/prodes_mapbiomas/04_cobertura.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/prodes_mapbiomas/05_residuos.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/rais_cnae/01_chaves_nulas.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/rais_cnae/02_duplicidade.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/rais_cnae/03_transformacoes.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/rais_cnae/04_cobertura.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/rais_cnae/05_residuos.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/sicor_car/01_chaves_nulas.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/sicor_car/02_duplicidade.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/sicor_car/03_transformacoes.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/sicor_car/04_cobertura.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/sicor_car/05_residuos.sql",
+      "igual_ao_original": true
+    },
+    {
+      "arquivo": "sql/sicor_car/06_estrutura.sql",
+      "igual_ao_original": true
+    }
+  ],
+  "sqls_identicos": 21,
+  "app_html_identico": false,
+  "app_sha256": "0b6dde3267aa65a0ff1264f3f11491b739c3b5010a2eabbdb7be37c097a82e23",
+  "app_conteudo_fora_title_identico": true,
+  "app_diferenca_de_versao": "Pontuação do título da aba: dois-pontos no HTML salvo; traço longo no gerador original."
+}

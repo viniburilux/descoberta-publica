@@ -1,0 +1,27 @@
+.dt-mapa { display: flex; flex-direction: column; gap: 12px; }
+.dt-controls { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.dt-controls select, .dt-controls input, .dt-controls button { font: inherit; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--ds-line, #2a323d); background: var(--ds-surface, #fff); color: inherit; }
+.dt-controls button { cursor: pointer; }
+.dt-busca { position: relative; flex: 1; min-width: 180px; }
+.dt-busca input { width: 100%; }
+.dt-sug { position: absolute; z-index: 6; left: 0; right: 0; background: var(--ds-surface, #fff); border: 1px solid var(--ds-line, #2a323d); border-radius: 8px; max-height: 240px; overflow: auto; display: flex; flex-direction: column; }
+.dt-sug button { text-align: left; border: 0; background: none; padding: 8px 10px; cursor: pointer; font: inherit; color: inherit; }
+.dt-sug button:hover { background: rgba(127,127,127,.15); }
+.dt-sug button span { opacity: .6; }
+.dt-legend { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 12px; }
+.dt-leg-item { display: inline-flex; align-items: center; gap: 4px; }
+.dt-sw { width: 22px; height: 12px; border-radius: 3px; display: inline-block; }
+.dt-mapwrap { position: relative; }
+.dt-mapwrap svg { width: 100%; height: auto; display: block; touch-action: manipulation; }
+path.dt-mun { stroke: rgba(15,18,22,.6); stroke-width: .15; cursor: pointer; }
+path.dt-mun:hover { stroke: currentColor; stroke-width: .7; }
+path.dt-mun.dt-sel { stroke: currentColor; stroke-width: 1.1; }
+.dt-tip { position: absolute; top: 8px; left: 8px; pointer-events: none; background: rgba(0,0,0,.8); color: #fff; border-radius: 8px; padding: 8px 10px; font-size: 13px; line-height: 1.4; }
+.dt-tip span { opacity: .7; }
+.dt-comparacao h3 { margin: 4px 0 8px; font-size: 15px; }
+.dt-comparacao ul { list-style: none; margin: 0; padding: 0; }
+.dt-comparacao li { display: flex; justify-content: space-between; gap: 10px; padding: 6px 0; border-bottom: 1px solid var(--ds-line, #2a323d); font-size: 14px; }
+.dt-muted { opacity: .6; font-size: 12.5px; }
+.dt-x { border: 0; background: none; cursor: pointer; opacity: .6; font: inherit; color: inherit; }
+.dt-x:hover { opacity: 1; }
+.dt-cover { width: 100%; height: auto; border-radius: 8px; display: block; }

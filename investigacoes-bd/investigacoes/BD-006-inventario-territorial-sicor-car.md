@@ -1,23 +1,46 @@
-# BD-006: Inventário territorial e o join SICOR × CAR
-
+# BD-006: Inventário territorial e SICOR × CAR
 - **Tema:** as bases territoriais da BD (imóveis rurais, cobertura, desmatamento, fogo, fiscalização, unidades de conservação) e a junção entre crédito rural (SICOR) e imóveis (CAR).
 - **Quando:** 19/11/2026, no chatbot da BD.
 - **Pergunta:** o que o catálogo oferece para investigação territorial e como conectar crédito rural a imóveis?
 - **Como foi feito:** inventário das tabelas territoriais e das chaves, e teste de join SICOR × CAR com medição de cobertura.
 - **Resultados:** o join literal pelo código do CAR deu 0% de cobertura. Depois de normalizar o hífen no código, 99,999% (2019/2023) e 99,708% (2026).
-- **O que aprendemos:** a chave SICOR × CAR exige normalização de formato. É um achado de qualidade de dados com valor direto para qualquer pessoa que use a BD: sem o teste, o cruzamento parece simplesmente impossível.
-- **Hipóteses abertas:** os cerca de 0,3% que ficaram fora do join em 2026 não foram caracterizados.
-- **Maturidade:** Reprodução (3 de 6).
 - **Rastreio:** query_ref qr_374c2380; conversa no chatbot da BD em 19/11/2026.
 
-## Como reproduzir
+## Sequência da investigação
 
-1. Abra o chatbot da BD ou um BigQuery com as tabelas públicas br_bcb_sicor.recurso_publico_propriedade e br_sfb_sicar.area_imovel.
-2. Rode o join literal e meça a cobertura: 0%.
-3. Rode a versão normalizada (maiúsculas, sem hífen) e meça de novo: 99,999% (2019/2023) e 99,708% (2026).
+Inventário territorial → join literal com cobertura zero → normalização → cobertura medida por período.
 
-Consultas prontas: [sicor_car_03_transformacoes.sql](../consultas/sicor_car_03_transformacoes.sql) e [sicor_car_04_cobertura.sql](../consultas/sicor_car_04_cobertura.sql).
+## A. Material bruto recuperado
 
-## Saída pronta: contribuição de documentação para a BD
+Código, consultas, contagens, documentos e resultados originais no pacote abaixo. Os dois exports de conversa do pacote de reconciliação somam 14 mensagens; a recuperação das sessões completas está em andamento.
 
-Texto pronto: a chave SICOR × CAR existe, mas exige normalização de formato; sem isso, o join retorna vazio. Cobertura medida por ano, com consulta pública reproduzível.
+Último vestígio da sessão: `c3e3f115-4ee9-48ca-a0f6-46daa03b50a5`, chatbot da BD.
+
+## B. Consultas e código
+
+[Código Python](../originais/bd_reconciliation/source/) · [SQLs originais](../originais/bd_reconciliation/outputs/sql/) · [Guia de reprodução](../REPRODUZIR.md).
+
+## C. Resultados e arquivos
+
+- [Config SICOR × CAR](../originais/bd_reconciliation/configs/relationships/sicor_car.json)
+- [6 SQLs originais](../originais/bd_reconciliation/outputs/sql/sicor_car/)
+- [Contagens registradas](../originais/bd_reconciliation/inputs/recorded/sicor_car.json)
+- [Diagnóstico original](../originais/bd_reconciliation/outputs/runs/2026-11-19/sicor_car_diagnostico.md)
+
+## D. Reprodutibilidade
+
+Geração local dos 21 SQLs conferida em 22/11/2026: 21/21 idênticos aos originais. Regressão das métricas: 8/8 checks aprovados. [Comandos e resultados](../REPRODUZIR.md).
+
+## E. Destinos possíveis
+
+Tutorial técnico e caso de uso BD sobre normalização de chaves territoriais.
+
+## F. Pendências e próximo passo
+
+Reexecutar a suíte SICOR × CAR no recorte desejado e comparar o relatório com as contagens registradas.
+
+Pendente: integrar a conversa completa com suas perguntas, respostas e chamadas originais.
+
+## G. Pacote de trabalho
+
+[Todos os materiais desta frente](#c-resultados-e-arquivos) · [Painel das 12 investigações](../PAINEL.md) · [Manifesto de arquivos e SHA-256](../manifesto-originais.json).

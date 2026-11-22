@@ -1,0 +1,28 @@
+CONJUNTO DE TESTES ESPACIAIS terrabrasilis.dpi.inpe.br — 20/11/2026 02h53-02h55 UTC-3 (timestamps de resposta em UTC)
+Objetivo: fixar método documentado (endpoint, versão WFS, filtro, ordem de eixos) e validar controles antes de qualquer zero.
+
+Endpoint único em todos os testes: https://terrabrasilis.dpi.inpe.br/geoserver/ows
+Parâmetros comuns: service=WFS&version=1.0.0&request=GetFeature&outputFormat=application/json
+Camada: deter-amz:deter_amz (propriedade geométrica: geom; DescribeFeatureType 02h45 OK)
+srsName: não informado (resposta GeoJSON em EPSG:4326, coordenadas lon,lat na resposta — verificado pelo controle positivo)
+
+T1 (controle positivo, Rondon do Pará): CQL_FILTER=BBOX(geom,-49.95,-4.85,-49.80,-4.70)&count=5 → HTTP 200, 78.233 bytes, 77 feições (numberReturned>count: servidor ignorou count). 76/77 centroides dentro do bbox pedido; 1 feição com centroide fora (polígono cruzando a borda do recorte — esperado em BBOX por interseção). Datas 2020-07 a 2021-10. Arquivo: deter_ctrl_rondon_lonlat.json. Resposta timeStamp 2026-11-20T05:53Z.
+T2 (mesmo bbox, ordem trocada lat,lon): CQL_FILTER=BBOX(geom,-4.85,-49.95,-4.70,-49.80)&count=5 → HTTP 200, 147 bytes, 0 feições (bbox cai no oceano Atlântico Sul). Arquivo: deter_ctrl_rondon.json.
+T3 (controle negativo, oceano): CQL_FILTER=BBOX(geom,-30.0,-10.0,-29.9,-9.9)&count=10 → HTTP 200, 147 bytes, 0 feições. Arquivo: deter_ctrl_negativo_oceano.json.
+T4 (controle regional CAR A/B, 0,3°): CQL_FILTER=BBOX(geom,-48.20,-4.80,-47.90,-4.55)&count=100 → HTTP 200, 109.322 bytes, 83 feições, meses 2016-08 a 2022-07. Arquivo: deter_ctrl_carAB_regiao.json.
+T5 (bbox exato CARs A/B): CQL_FILTER=BBOX(geom,-48.06,-4.72,-48.01,-4.67)&count=200 → HTTP 200, 147 bytes, 0 feições → zero CONTROLADO (positivo T1/T4 + negativo T3 OK, mesma sessão, mesma camada/versão/filtro). Arquivo: deter_amz_carAB_lonlat.json.
+T6 (Rio Maria ~1km): CQL_FILTER=BBOX(geom,-49.212,-7.1318,-49.192,-7.1118)&count=200 → HTTP 200, 23.417 bytes, 8 feições (2017-06 a 2022-07); nenhuma contém o ponto do micro; mais próxima 753 m (14/02/2020). Arquivo: deter_amz_riomaria_lonlat.json.
+T7 (Ponta Porã, camada deter-cerrado-nb:deter_cerrado, prop st_multi, lon,lat confirmado por controle municipalities 02h45): 11 feições; nenhuma sobre o micro; mais próxima 1.900 m (06/06/2024). Arquivo: deter_cerrado_pontapora_bbox.json.
+
+PENDÊNCIAS (502 = pendência, NÃO zero): prodes-amazon-nb:yearly_deforestation_biome e prodes-cerrado-nb:yearly_deforestation retornam HTTP 502 "Falha interna" em todas as tentativas 02h45-02h53 (T8: BBOX(geom,-49.212,-7.1318,-49.192,-7.1118); T9: BBOX(geom,-48.06,-4.72,-48.01,-4.67); T10: BBOX(geom,-55.925,-21.918,-55.915,-21.908)). Todo resultado PRODES anterior a 02h53 está RETIRADO/INVALIDADO (requisição literal não preservada, ordem de eixos não reproduzível); reconsulta com este método fica na fila.
+
+NOTA SOBRE "INSTABILIDADE": não afirmo que o servidor mudou. O que está provado: em 02h53-02h55, para ESTE endpoint/camada/versão/filtro, a ordem correta é lon,lat (T1 vs T2/T3). O registro de ~02h06 (lat,lon com controle positivo) não tem requisição literal preservada e não pôde ser reproduzido; tratado como NÃO VERIFICADO. Regra permanente: controle positivo+negativo na mesma sessão antes de qualquer zero.
+
+Código mínimo usado nas verificações locais: shapely (contains/intersects) + pyproj.Geod(ellps='WGS84').inv para distâncias geodésicas ponto→polígono (interpolação no anel exterior). Sem transformações de CRS locais: todas as geometrias consumidas em EPSG:4326 como entregues pelo servidor.
+
+
+RESOLUÇÃO 03h38-03h40 (servidor respondeu; mesmas requisições com controles):
+T8 resolvido: prodes-amazon-nb:yearly_deforestation_biome BBOX(geom,-49.212,-7.1318,-49.192,-7.1118) → HTTP 200, 10.875 bytes, 4 feições (2018/2020/2022); controle+ 580, controle− 0 (prodes_ctrl_pos/neg.json).
+T9 resolvido: BBOX(geom,-48.06,-4.72,-48.01,-4.67) → HTTP 200, 12.590 bytes, 7 feições (2008/2009/2010/2013/2015); zero 2016-2025 no recorte (prodes_amz_carAB_v2.json).
+T10 resolvido: prodes-cerrado-nb:yearly_deforestation BBOX(geom,-55.925,-21.918,-55.915,-21.908) → HTTP 200, 8.302 bytes, 4 feições (2002/2004/2006); controle+ 1.530 (oeste BA), controle− 0 (prodes_ce_*).
+T11 (novo): prodes-caatinga-nb:yearly_deforestation BBOX(geom,-44.14,-13.60,-43.98,-13.43) → HTTP 200, 1.206.677 bytes, 1.037 feições; controle+ 30.522, controle− 0 (prodes_ca_*). 90 feições intersectam o espelho do PA SFC: 448,90 ha acumulados 2004-2024; 2025 zero.

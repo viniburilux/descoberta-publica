@@ -1,0 +1,9 @@
+ACHADO micro7 x vizinhanca CAR (SICAR WFS ao vivo, 20/11/2026)
+- Micro7 BA-2929057-C5D11EE026A64399A6EF36764E8739E9: MultiPolygon ~0,62 m2, centro -44.038694,-13.503350, criado 2026-07-01.
+- NENHUM outro CAR o contem ou toca. CAR mais proximo a 368,9 m (BA-2929057-B362C3F6..., criado 2019-02-06); demais <600m: 471,8 m (criado 2025-11-10) e 567,1 m (criado 2024-08-21).
+- Ou seja: micro7 ocupa uma feicao sub-metrica ISOLADA, a ~14 m do limite ESPELHADO do assentamento e a >=369 m de qualquer CAR.
+- Leituras cadastrais plausiveis (nao demonstradas, sem conclusao):
+  (a) se o limite OFICIAL do assentamento diferir do espelho em >14 m naquele trecho, o micro pode estar DENTRO do PA - e CAR de assentado dentro de PA e pratica regular e orientada pelo INCRA; mas 0,6 m2 nao corresponde a parcela de assentamento (tipicamente dezenas de ha);
+  (b) feicao residual de retificacao/validacao geometrica (slivers sub-metricos sao comuns em recortes);
+  (c) cadastro espurio/teste.
+- Implicacao: a pergunta "por que 14 m do limite" so se responde com a geometria OFICIAL do PA (INCRA) - espelho insuficiente para localizar o micro em relacao ao limite real.

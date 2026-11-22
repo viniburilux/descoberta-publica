@@ -1,0 +1,20 @@
+LULC 10m CAR A — série geodésica v3 (20/11/2026 02h34 -03), SUBSTITUI números v2 (deltas <0,4%, tendência idêntica)
+
+Método v3: máscara raster do polígono do CAR A (centro do pixel dentro), área geodésica por linha de latitude (grid EPSG:3857 10 m → área real do pixel = 100 m² × cos²φ), classes por ID original do raster U8.
+Fechamento de área: soma das classes = 1.356,7 ha (constante em todos os anos, mesma máscara); polígono do CAR geodésico = 1.347,7 ha; CAR declara 1.350,22 ha. Diferença +9,0 ha (+0,67%) = contagem de pixels inteiros de 10 m na borda (faixa de borda ≈ 1.121 px ≈ 11,2 ha); incerteza de leitura por classe ±~5 ha. NÃO atribuir a perda/ganho real.
+
+Série (ha, geodésico, dentro da máscara):
+ano | Árvores | Cultivo | Rangeland | SoloExposto | Água | Construído
+2017 | 910.2 | 369.4 | 76.3 | 0.8 | - | -
+2018 | 797.2 | 356.1 | 202.8 | 0.6 | - | -
+2019 | 709.7 | 400.2 | 246.2 | 0.5 | - | -
+2020 | 701.8 | 473.9 | 180.0 | 0.5 | 0.2 | 0.2
+2021 | 690.3 | 258.7 | 406.5 | 0.3 | 0.1 | 0.8
+2022 | 680.8 | 303.9 | 370.8 | 0.9 | 0.1 | 0.3
+2023 | 655.0 | 555.6 | 145.4 | - | - | 0.6
+2024 | 653.0 | 508.5 | 194.6 | - | - | 0.6
+
+Leitura: Árvores 910,2 → 653,0 ha 2017-2024 (monotônico, -257,2 ha); Cultivo e Rangeland oscilam (troca cultivo↔rangeland ano a ano é típica de rotação/sazonalidade na classificação).
+Framing obrigatório: classificação automatizada Sentinel-2 10m (Esri/Impact Observatory/Microsoft); não é desmate comprovado nem conclusão legal. Rangeland = definição do produto (pastagem/campo natural).
+Fonte: https://ic.imagery1.arcgis.com/arcgis/rest/services/Sentinel2_10m_LandCover/ImageServer
+Arquivo de dados: carA_serie_geodesica_v3.json (mesma pasta).

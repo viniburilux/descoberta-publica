@@ -1,0 +1,83 @@
+{
+  "id": "ibama_autos_embargos",
+  "titulo": "Autos de infracao x areas embargadas (IBAMA)",
+  "config_executavel": "../../configs/relationships/ibama_autos_embargos.json",
+  "bases": {
+    "left": "basedosdados.br_ibama_fiscalizacao.auto_infracao",
+    "right": "basedosdados.br_ibama_fiscalizacao.area_embargada"
+  },
+  "entidades": "Auto de infracao ambiental x termo de embargo originado",
+  "campos_chaves": {
+    "comum": "id_auto",
+    "recorte": "periodo completo (ano >= 1977)"
+  },
+  "consultas_referencia": [
+    "WITH autos AS (SELECT id_auto FROM basedosdados.br_ibama_fiscalizacao.auto_infracao WHERE ano>=1977), embargos AS (SELECT id_embargo, id_auto FROM basedosdados.br_ibama_fiscalizacao.area_embargada) SELECT COUNT(*) embargos, COUNTIF(a.id_auto IS NOT NULL) com_auto FROM embargos e LEFT JOIN autos a USING(id_auto)"
+  ],
+  "transformacoes": [
+    "nenhuma - chave direta documentada pela propria tabela"
+  ],
+  "cardinalidade": "um-para-muitos (um auto pode gerar varios embargos; 1.610 chaves duplicadas no lado embargos)",
+  "cobertura_observada": {
+    "termos_preenchidos": "99,94% (96.293/96.353 termos com id_auto preenchido)",
+    "todos_os_registros": "82,77% (96.293/116.332) - diferenca = 19.979 embargos com id_auto nulo + 60 sem auto",
+    "autos_com_embargo": "94.489 autos distintos com ao menos um embargo"
+  },
+  "problemas_conhecidos": "17,2% dos registros de embargo tem id_auto nulo; sempre declarar o denominador da cobertura; caminho alternativo (municipio+data) nao testado",
+  "evidencias": {
+    "thread": "BD chatbot T6 c3e3f115, 2026-11-19 06:37-06:40",
+    "arquivo": "bd_clean_6.txt",
+    "query_refs": [],
+    "validacao_ao_vivo": "thread 5d4bd8d9-338c-4330-9ea0-74230674b27a (chatbot BD, 2026-11-19 ~20h51-20h54): numeros exatos confirmados; ver outputs/runs/2026-11-19/validacao_real_chatbot.md"
+  },
+  "versoes": [
+    {
+      "versao": "0.1.0",
+      "data": "2026-11-19",
+      "nota": "registro inicial"
+    }
+  ],
+  "status_validacao": "suite04_cobertura_validada_ao_vivo_2026-11-19 (demais suites nao reexecutadas)",
+  "suites_status": {
+    "01_chaves_nulas": {
+      "status": "executada_ao_vivo_2026-11-19",
+      "query_ref": "qr_4effff192e124b76918b273cafdde30e"
+    },
+    "02_duplicidade": {
+      "status": "executada_ao_vivo_2026-11-19",
+      "query_ref": "qr_175fba619f8c48c7a258ab771890d57f"
+    },
+    "03_transformacoes": {
+      "status": "executada_ao_vivo_2026-11-19",
+      "query_ref": "qr_802c6540ee1049749f944f1eda8fd12b"
+    },
+    "05_residuos": {
+      "status": "executada_ao_vivo_2026-11-19",
+      "query_ref": "qr_6006e2b683604c27a396ef462a449365"
+    },
+    "04_cobertura": {
+      "status": "validada_ao_vivo_2026-11-19",
+      "nota": "ver outputs/runs/2026-11-19/validacao_real_chatbot.md"
+    },
+    "06_estrutura": {
+      "status": "NA_justificado",
+      "motivo": "suite estrutural so se aplica a chaves com campos embutidos; config nao define structural_checks"
+    }
+  },
+  "cobertura_suites": "5/5 aplicaveis + 06 NA justificado",
+  "thread_validacao": "https://basedosdados.org/chatbot?t=23340b3d-36ca-478c-8a85-7b3db0ed4e3d",
+  "metadados_bd": {
+    "left": {
+      "dataset_slug_graphql": "fiscalizacao",
+      "organizacao": "ibama",
+      "tabelas_no_dataset": 3,
+      "fonte": "GraphQL pública backend.basedosdados.org/graphql, sem autenticação, consultada 20/11/2026"
+    },
+    "right": {
+      "dataset_slug_graphql": "fiscalizacao",
+      "organizacao": "ibama",
+      "tabelas_no_dataset": 3,
+      "fonte": "GraphQL pública backend.basedosdados.org/graphql, sem autenticação, consultada 20/11/2026"
+    }
+  }
+}

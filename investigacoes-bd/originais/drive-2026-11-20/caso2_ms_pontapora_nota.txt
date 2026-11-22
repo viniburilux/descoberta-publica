@@ -1,0 +1,28 @@
+CASO #2 — MICRO MS-5006606-4693892971CF47B4B2684C3A94950BEE (Ponta Porã, MS) — 20/11/2026 ~02h50 -03
+
+CAR/SICAR (WFS geoserver.car.gov.br, lido 20/11 02h44):
+- status AT; condicao "Aguardando análise"; tipo IRU; area 0,0001 ha (1 m²); dat_criacao 04/04/2024 (= último evento cadastral, inscrição OU retificação — só o demonstrativo oficial distingue; demonstrativo pendente pela rota captcha, bloqueio terminal nesta sessão).
+- geometria: ponto/quadrado ~0,9 m em lon -55.920205, lat -21.913447. Raw: ms_pontapora_micro2.json.
+
+DETER-Cerrado (terrabrasilis deter-cerrado-nb:deter_cerrado, lido 20/11 02h45; raw deter_cerrado_pontapora_bbox.json):
+- 11 feições em bbox de ~5 km ao redor do micro (2018-05 a 2026-06), todas DESMATAMENTO_CR em Ponta Porã.
+- NENHUMA contém o ponto do micro. A mais próxima: 06/06/2024 (publish 2024-06), 0,283 km², CBERS-4A/WFI, a ~1.900 m do micro. Demais: 2,8-6,4 km.
+- CORREÇÃO da pista "DETER 2024-06" (handoff Gemini): há alerta de jun/2024 na VIZINHANÇA (~1,9 km), não sobre o micro. Hipótese de detecção no próprio micro não se sustenta no DETER-Cerrado.
+
+PRODES-Cerrado anual (prodes-cerrado-nb:yearly_deforestation): 3 tentativas 02h45-02h50, servidor retornou 502/"Falha interna" persistente para a camada. PENDENTE (não é zero: é consulta não realizada).
+Controle positivo de eixo executado: municipalities_cerrado_biome com POINT(lon lat) retornou Ponta Porã (geocodigo 5006606) — ordem lon,lat confirmada para estas camadas.
+
+Próximos passos: PRODES-Cerrado no ponto; TADs IBAMA na vizinhança; parcelas SIGEF próximas; demonstrativo oficial quando rota car.gov.br destravar.
+
+
+VIZINHANÇA CAR (WFS SICAR MS, bbox ~1km, lido 20/11 02h51; raw ms_vizinhos.json; prop geom = geo_area_imovel):
+- 9 CARs vizinhos além do micro, todos módulo fiscal (m_fiscal=1), áreas 100,9-2.393,4 ha; o micro é o único 1 m² e o único não-fiscal no recorte.
+- O ponto do micro está DENTRO de 2 polígonos CAR:
+  * MS-5006606-F52D5261C8504529A0FC680C01132DA2 — 195,7855 ha, "Aguardando análise", último evento 25/03/2025.
+  * MS-5006606-9F4376C099A342D2899444A8DB7FADE6 — 504,4833 ha, "Aguardando análise", último evento 17/09/2025.
+- E a ~5,8 m de: MS-5006606-435CBE455E2845479317448F13C3BD1B — 100,9458 ha, "Analisado, aguardando atendimento a notificação", último evento 05/04/2024 (1 dia após o evento do micro, 04/04/2024 — proximidade de datas registrada, SEM inferir relação/lote).
+- Mesmo padrão estrutural dos casos Rondon (micro #12 dentro de A e B) e SFC (micro7 a 14 m do limite do PA espelhado). Sobreposição geométrica de CARs NÃO é duplicidade jurídica nem irregularidade: existem explicações legítimas (memoriais, declarações concorrentes, correções de limite); nenhuma conclusão emitida.
+- Outros vizinhos: distâncias 181 m a 2.020 m (lista completa no raw).
+
+
+PRODES-CERRADO anual (VALIDADO 03h40, método documentado; raw prodes_ce_ms_v2.json; controles: positivo 1.530 feições em bbox de referência oeste da Bahia, negativo 0 no oceano): 4 feições no bbox ~1km — 2002 (7,7 ha, 229 m), 2004 (46,4 ha, 61 m), 2004 (164,8 ha, 549 m), 2006 (5,3 ha, 197 m). NENHUMA contém o micro; NADA ≥2008 na vizinhança de 1 km. Leitura: a supressão mapeada pelo PRODES no entorno é antiga (2002-2006); o micro não está sobre polígono PRODES.

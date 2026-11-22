@@ -16,6 +16,11 @@ O PNCP é a primeira fonte, não o limite do projeto.
 
 ## O que já existe
 
+### Investigações na Base dos Dados
+
+[Acervo BD](investigacoes-bd/) com [painel das 12 frentes](investigacoes-bd/PAINEL.md), código, SQL, resultados municipais, mapas, evidências territoriais e versões originais.
+
+
 ### Base original: inexigibilidades do PNCP
 
 A edição **v0.1.2** reúne **494.446 registros únicos das 27 UFs**, publicados entre 01/01/2025 e 06/11/2026, com uma lacuna de 22 a 31/08/2026. Inclui classificação do objeto, ferramentas de consulta e uma dimensão de municípios com população, PIB e receita.

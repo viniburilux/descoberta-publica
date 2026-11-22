@@ -1,0 +1,16 @@
+{
+  "fonte": "BD chatbot T6 (c3e3f115) 2026-11-19 06:37-06:40 - execucao original registrada em bd_clean_6.txt",
+  "autos_registros": 711140,
+  "autos_id_nulo": 6651,
+  "autos_distintos": 704489,
+  "embargos_registros": 116332,
+  "embargos_id_nulo": 19979,
+  "embargos_distintos": 94546,
+  "embargos_chaves_duplicadas": 1610,
+  "embargos_com_auto_correspondente": 96293,
+  "embargos_sem_auto_total": 20039,
+  "nota_composicao": "20.039 = 19.979 com id_auto vazio + 60 preenchidos sem auto correspondente (correcao confirmada em execucao ao vivo 2026-11-19, thread 5d4bd8d9)",
+  "autos_com_pelo_menos_um_embargo": 94489,
+  "destaque_termos_pct": 99.94,
+  "destaque_total_pct": 82.77
+}

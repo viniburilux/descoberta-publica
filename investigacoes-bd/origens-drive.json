@@ -1,0 +1,282 @@
+[
+  {
+    "id": "1PX-rX_Cb8WGEHHtWKeIatWjoDgKjMdfV",
+    "name": "bd_reconciliation_pacote_2026-11-20_final.tar.gz",
+    "size": 2728154
+  },
+  {
+    "id": "1n1L2tUXsHLsTAUVMLSnj1hyS1Aj7iJdI",
+    "name": "sigef_cruzamentos_20261120.tar.gz",
+    "size": 30814
+  },
+  {
+    "id": "1bqtW9_63IDCLn73EjNQRYWGy7G1cCLRi",
+    "name": "prodes_ma_tuparendi_20261120.json",
+    "size": 10687
+  },
+  {
+    "id": "10CSYFzd2YSlccDrG4d-of-5afhEOH8G2",
+    "name": "ba_vizinhancas_20261120.tar.gz",
+    "size": 81383
+  },
+  {
+    "id": "12OOIl74LSkKqU9p8EcGcH4zZ8nIKfZ6p",
+    "name": "timeline_rondon_do_para.md",
+    "size": 6192
+  },
+  {
+    "id": "1Z5TCHfY6URt3iHxnFAWd0gsBDYg3pmVt",
+    "name": "timeline_sfc_bom_sucesso.md",
+    "size": 6394
+  },
+  {
+    "id": "1NNZzf8ejjp67gYUVuhyo1UbUzVBVfKi7",
+    "name": "sintese_aprofundamento_2026-11-20_v2.md",
+    "size": 14439
+  },
+  {
+    "id": "1jyF1s1DCGytgm6xzQCBMjkjDr1BK76uP",
+    "name": "dou_20031118_s1_p101_oficial.pdf",
+    "size": 49579
+  },
+  {
+    "id": "13WBNmpUNXSxQpanRTVf8GtzCrX13Dzmy",
+    "name": "sfc_documental_oficial.txt",
+    "size": 7287
+  },
+  {
+    "id": "1Q48mByzRCg5PI3fuVziGcAOUC1SLHrWf",
+    "name": "pacote_evidencias_20261120.tar.gz",
+    "size": 740968
+  },
+  {
+    "id": "1BS5i5LhBEo13jV_uq595R6gNiYcab0vA",
+    "name": "top20_perfis_restantes_nota.txt",
+    "size": 3200
+  },
+  {
+    "id": "17GsrtfUtbvPndpZ5fh8fjfO81aVSv5Ha",
+    "name": "testes_espaciais_terrabrasilis_20261120.txt",
+    "size": 4622
+  },
+  {
+    "id": "10ld0_v_wHrGmSJW2RG_cFtGqg0aH35IR",
+    "name": "deter_carAB_nota.txt",
+    "size": 2639
+  },
+  {
+    "id": "1SBaYWuwu6YnyOPx4xtOAHSQGrZfEgs7i",
+    "name": "caso3_pa_riomaria_nota.txt",
+    "size": 2913
+  },
+  {
+    "id": "1Cw5XViBX-u4DVIBVU_u86fYP5NEVPT0b",
+    "name": "caso2_ms_pontapora_nota.txt",
+    "size": 3366
+  },
+  {
+    "id": "1ap4GQAi-3Kp9L-tX_fJjYeNd1htgOFIJ",
+    "name": "prodes_caatinga_sfc_nota.txt",
+    "size": 2942
+  },
+  {
+    "id": "1NFz7PTMt3XjSDDEEgchEdDqbeNRdN3oH",
+    "name": "casos_rs_tuparendi_nota.txt",
+    "size": 1843
+  },
+  {
+    "id": "1BzTUMZqY3noljsMEHkjWD9HhvKV9oRat",
+    "name": "prodes_caat_m7.json",
+    "size": 741622
+  },
+  {
+    "id": "1n-OazGSfZg0H0jl-j28z9xohumfTvx4s",
+    "name": "prodes_amz_tads.json",
+    "size": 147
+  },
+  {
+    "id": "19Si__7MngBKfVX04msv-w1n5m08xyAku",
+    "name": "prodes_amz_carA.json",
+    "size": 57
+  },
+  {
+    "id": "1YGMbfG03dPZ6s6MSK-gPncDBxmEpYKdI",
+    "name": "prodes_amz_carB.json",
+    "size": 59
+  },
+  {
+    "id": "1USHr05W3XiV0dRKMeDpcuzwndTN3_GDm",
+    "name": "mapbiomas_col11_municipios.md",
+    "size": 3039
+  },
+  {
+    "id": "1SqSJTEbR9Uki0epT4pUqrDY-x_E_cdOz",
+    "name": "geografar_assrefagraria_incra2019_layout.txt",
+    "size": 128775
+  },
+  {
+    "id": "1o1rHbzJsur3Ix8_jie8BApYQG9gTNteR",
+    "name": "geografar_assrefagraria_incra2019.pdf",
+    "size": 925011
+  },
+  {
+    "id": "12g9_n4Ld5SSqH8NJMOUBqOMjGx2Qetjb",
+    "name": "ondas_micros_rondon_v2_datas_corrigidas.png",
+    "size": 1710673
+  },
+  {
+    "id": "1eitma4ImImb0Wb2iMmsgv5uvw5w9GfHz",
+    "name": "carA_lulc_vertical_2017_2020_2024_v3_legivel.png",
+    "size": 152002
+  },
+  {
+    "id": "1VjtB_WQ_m6GFa1vuX-DWV9ntorGzrtW9",
+    "name": "demonstrativos_carAB_nota.txt",
+    "size": 2362
+  },
+  {
+    "id": "1HItXrOCALHAdm6Aq5l1VNr6vwiMlcW-b",
+    "name": "demonstrativos_micros_inscricao_vs_retificacao.txt",
+    "size": 3126
+  },
+  {
+    "id": "1MwWDkFuVQzAg1RdQ3tjN0nOp8CMCqDIv",
+    "name": "carA_serie_geodesica_v3.json",
+    "size": 1051
+  },
+  {
+    "id": "1AhEFqHx8i_LeztEiiIxqZ_Y49evQahJ9",
+    "name": "lulc_10m_metodo_v3_geodesico.txt",
+    "size": 1743
+  },
+  {
+    "id": "1u4EmmfN5oiJFP-i3AkXGy2VdXNWCdkbx",
+    "name": "lulc_10m_evidencias_v2.tar.gz",
+    "size": 215023
+  },
+  {
+    "id": "1wfODPh-s9p_MzIwqpgwAhC3Bs-8eA_Kv",
+    "name": "carA_lulc_vertical_2017_2020_2024.png",
+    "size": 86957
+  },
+  {
+    "id": "1zKafSI9SROMv3vmsNCDBh6IY8VpNRy42",
+    "name": "lulc_10m_metodo.txt",
+    "size": 1237
+  },
+  {
+    "id": "1zag3bWjG7kxka83Zoy5yKV47yuCTEvIg",
+    "name": "lulc_10m_evidencias.tar.gz",
+    "size": 66872
+  },
+  {
+    "id": "19DRytkTWlB64mQDS9aWJU2siC2_kPYiO",
+    "name": "carA_lulc_2017_2020_2024.png",
+    "size": 75608
+  },
+  {
+    "id": "1ixoWAIrbdie6uzusttRieP3fVL5bLw_a",
+    "name": "achado_micro7_vizinhanca.txt",
+    "size": 1155
+  },
+  {
+    "id": "1WnQpGBuX6XX2LeiTIQPH3IEpAIjuQvuz",
+    "name": "plano_historia_01h39.txt",
+    "size": 3141
+  },
+  {
+    "id": "17iwhcSn-7-xAuae-MTqiZgLcwWuwm65p",
+    "name": "tup_micros.json",
+    "size": 8592
+  },
+  {
+    "id": "1009miCYvgt0OXiqdzGDzo0VZhcppqRkQ",
+    "name": "ondas_micros_rondon.png",
+    "size": 288661
+  },
+  {
+    "id": "1A103R9d_GYipMUvmVLVHceLe42nMR4yJ",
+    "name": "tad_hist_3.txt",
+    "size": 17866
+  },
+  {
+    "id": "1BJLndzDzrqCP1HtWEpoNnUrzcJUIBJ2x",
+    "name": "tad_decisao.csv",
+    "size": 126687
+  },
+  {
+    "id": "1Peuvw8RSswqLPa0WxIetAy-R7ZyGgder",
+    "name": "tad_main_3.txt",
+    "size": 5527
+  },
+  {
+    "id": "1TOAlVPHqSVab4gcRMvPefIJzebprYAET",
+    "name": "tad_hist_NOTA.txt",
+    "size": 409
+  },
+  {
+    "id": "1c-G0vzfnBRgPOCmw-tbOGzogS885j7hf",
+    "name": "status20_live.json",
+    "size": 5197
+  },
+  {
+    "id": "1JY2V925ljB8LLTHvD7qdozGflzwX_o_r",
+    "name": "assent_geom.json",
+    "size": 5220
+  },
+  {
+    "id": "1cJRQLNOn_k0PaiwGMSqueypt5mT1dZS5",
+    "name": "mosaico_assentamento_micro7_2017x2024.png",
+    "size": 1805102
+  },
+  {
+    "id": "1U3FDLyNgI6MGgOK5XUZRGd2NQGRq7uIx",
+    "name": "sintese_aprofundamento_2026-11-20.md",
+    "size": 7879
+  },
+  {
+    "id": "1cZvP0Tv_-v6Nc_KDAls67zjENaXzDJSc",
+    "name": "bd_reconciliation_pacote_2026-11-19.tar.gz",
+    "size": 2727548
+  },
+  {
+    "id": "1o46DXtluvExgww0O08lDeDvOkwAaAjd2",
+    "name": "outputs__mapa_entrega_canone_2023.png",
+    "size": 413247
+  },
+  {
+    "id": "1pLfH54VUkiQschPX3OIXD1vJzXxu1mNf",
+    "name": "outputs_app__index.html",
+    "size": 2621055
+  },
+  {
+    "id": "1nBgTzpB3AoHnJmjnpCuhm_KjTfwwV2vS",
+    "name": "outputs__mapa_credito_rural_municipal_2023.csv",
+    "size": 126199
+  },
+  {
+    "id": "1pnUqo1zfhEwLwD5E3Ogvajt5VQVVp0bW",
+    "name": "outputs__brasil_municipios_ibge2022.topojson",
+    "size": 2354733
+  },
+  {
+    "id": "1Ga-fqDWakVL7gJnYYjXC74Vjjq5v82CI",
+    "name": "outputs__mapa_credito_rural_municipal_2023_nomeado.csv",
+    "size": 202172
+  },
+  {
+    "id": "1Dign4Wj0WJ7RTwTfwG6bI33EUGiFU31S",
+    "name": "outputs__brasil_municipios.topojson",
+    "size": 2133590
+  },
+  {
+    "id": "1xjRZok_p3jfDACHRsCDHsKvZH6gxaPJN",
+    "name": "inputs__bd_msgs_missao1_ciclo1.json",
+    "size": 524563
+  },
+  {
+    "id": "1sA1pVY07gH2YzciOZkTtS9ktt4RGsUNe",
+    "name": "outputs__municipios_brasil_id_nome.csv",
+    "size": 117683
+  }
+]

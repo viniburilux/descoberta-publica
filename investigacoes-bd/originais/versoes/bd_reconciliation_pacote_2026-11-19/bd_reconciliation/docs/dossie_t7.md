@@ -1,0 +1,18 @@
+# Dossiê T7 — Rateio municipal do crédito rural SICOR × CAR
+Formato: 9 campos da DIRETRIZ TRANSVERSAL (19/11/2026).
+
+1. **Contexto de origem.** Método produzido na thread T7 original (a6ea1581, exploração crédito rural × CAR) e reproduzido de forma GUIADA na thread 35bbb638 (19/11). Refinado pelo par A/B 1 (erro induzido) e confirmado pelo par 2 (reparo) em b41bd441.
+2. **Ideia original.** O valor das operações de crédito rural com recurso público pode ser territorializado por município ligando a operação aos imóveis CAR declarados na garantia e rateando o valor igualmente entre eles.
+3. **Princípio extraível.** Tabelas-ponte de microdados frequentemente não carregam a medida de interesse: a medida vive em outra tabela da mesma chave composta; chaves de cadastro exigem normalização; snapshots exigem dedup por entidade dentro de janela, nunca filtro global por data máxima; classificações oficiais (ex.: recurso público) vivem em tabelas de domínio próprias e não coincidem com recortes por tabela-ponte.
+4. **Evidências.** Cânone 2023: R$ 112.125.325.594,22 / 5.380 mun / 92,56% do subtotal classificado (R$ 121,13 bi); total operacao 2023 R$ 406,40 bi. Caso 2022 (investimento): R$ 48,29 bi conectados de R$ 52,42 bi (92,12%), 5.241 mun, 489.138 imóveis; equivalência de normalizações provada (0 divergências); erro de snapshot quantificado (378.322 imóveis, -77%). Query_refs: qr_0ef8fb01, qr_ceaa9c22, qr_8a918dd1; threads 35bbb638, e6d448ba, de090efe, b41bd441.
+5. **Outras aplicações.** Qualquer rateio territorial via CAR (desmatamento×crédito, área financiada×produção PAM, embargos×financiamento); o padrão ponte→medida→normalização→dedup→rateio aplica-se a outros microdados com garantia/localização (ex.: imóveis×benefícios).
+6. **Perguntas abertas.** (a) RESOLVIDA 19/11 ~22:54: o indicador_recurso_publico = 1 cobre 16 códigos = os 15 da lista oficial de fontes públicas do BC + FNDCT/0911 (sem operações em 2023, impacto zero no recorte); (b) discrepância de 1 no denominador sicor_car; (c) rateio igual é a hipótese neutra — existe informação para rateio proporcional (ex.: área do imóvel)?; (d) sensibilidade a CARs multi-municipais.
+7. **Experimentos possíveis.** Comparar agregado com MDCR oficial por UF (auditoria independente de verdade); rateio proporcional à área como análise de sensibilidade; repetir para 2020-2021 e custeio/comercialização; par A/B 3 em família diferente (teste de generalização real).
+8. **Estado de validação.** DEMONSTRADA no executor BD para 2023 (total) e 2022 (investimento), com baseline em contexto separado (mesma thread/executor: não é auditoria independente) e reparo de erro; pendências 6a/6b abertas. Não é motor universal.
+9. **Relações.** Registro `experiencias/t7_sicor_car_rateio.json` (acervo); suites da linha bd_reconciliation (06_estrutura valida a chave); mapa de entrega qr_8a918dd1; diretriz transversal docs/diretriz_transversal_exploracao.md; M1.2/M1.5 da operação.
+
+10. **Fontes oficiais e artefatos.**
+- Documentação geo-credito-rural (fontes de recurso SICOR): https://geo-credito-rural.github.io/sicor/microdados/fontes-recursos.html
+- Resolução CMN 4.901 (BCB, fonte oficial do catálogo de fontes): https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?numero=4901&tipo=Resolu%C3%A7%C3%A3o+CMN
+- Thread executor BD: https://basedosdados.org/chatbot?t=35bbb638-d45b-425b-8d06-3b463679a9e4
+- Visual de entrega: `outputs/mapa_entrega_canone_2023.png` — export direto do gráfico renderizado no chatbot (canvas Vega), com mapa completo + legenda + nota de escopo com a fórmula segura; pixels inspecionados.
