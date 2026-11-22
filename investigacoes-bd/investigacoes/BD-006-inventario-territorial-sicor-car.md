@@ -43,4 +43,6 @@ Pendente: integrar a conversa completa com suas perguntas, respostas e chamadas 
 
 ## G. Pacote de trabalho
 
+[Baixar o material recuperado (ZIP)](../pacotes/BD-006-material-recuperado-2026-11-22.zip). Versão 22/11/2026.
+
 [Todos os materiais desta frente](#c-resultados-e-arquivos) · [Painel das 12 investigações](../PAINEL.md) · [Manifesto de arquivos e SHA-256](../manifesto-originais.json).

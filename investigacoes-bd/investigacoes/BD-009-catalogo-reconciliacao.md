@@ -44,4 +44,6 @@ Adicionar um quinto relacionamento com config, export registrado e relatório no
 
 ## G. Pacote de trabalho
 
+[Baixar o material recuperado (ZIP)](../pacotes/BD-009-material-recuperado-2026-11-22.zip). Versão 22/11/2026.
+
 [Todos os materiais desta frente](#c-resultados-e-arquivos) · [Painel das 12 investigações](../PAINEL.md) · [Manifesto de arquivos e SHA-256](../manifesto-originais.json).

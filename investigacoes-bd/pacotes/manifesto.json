@@ -1,0 +1,38 @@
+[
+  {
+    "pacote": "BD-007-material-recuperado-2026-11-22.zip",
+    "arquivos": 90,
+    "bytes": 4582088,
+    "sha256": "dcf3235fc79318d68e5fa0bc96c206d38c95896795d013f1c228763bd38957df"
+  },
+  {
+    "pacote": "BD-009-material-recuperado-2026-11-22.zip",
+    "arquivos": 80,
+    "bytes": 2780248,
+    "sha256": "e4044c6899cd43c6b5758fb853f230a0786144bd6c6a851ab847ee239515a210"
+  },
+  {
+    "pacote": "BD-008-material-recuperado-2026-11-22.zip",
+    "arquivos": 80,
+    "bytes": 2780385,
+    "sha256": "025692311747e2e8e031a7cc9e4131002619925d709e22eec3627110590e3ffd"
+  },
+  {
+    "pacote": "BD-006-material-recuperado-2026-11-22.zip",
+    "arquivos": 80,
+    "bytes": 2780285,
+    "sha256": "260f62209729c94b12627facf797e7472a1a34158abaee5f016e491fe9c89932"
+  },
+  {
+    "pacote": "BD-010-material-recuperado-2026-11-22.zip",
+    "arquivos": 221,
+    "bytes": 10671657,
+    "sha256": "70b78e170f9a4770f6b3f600b8fceb5bcc3651fe68fbf43ee2629653ae95a1e4"
+  },
+  {
+    "pacote": "BD-011-material-recuperado-2026-11-22.zip",
+    "arquivos": 80,
+    "bytes": 2780135,
+    "sha256": "a764f6d76039608d444fe2a42de2a60d04983b998ec3b8543923e7ea47bb3f46"
+  }
+]
