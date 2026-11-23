@@ -20,6 +20,12 @@ O PNCP é a primeira fonte, não o limite do projeto.
 
 [Acervo BD](investigacoes-bd/) com [painel das 12 frentes](investigacoes-bd/PAINEL.md), código, SQL, resultados municipais, mapas, evidências territoriais e versões originais.
 
+### Mapa: crédito rural público territorializado
+
+Para onde vai o crédito rural público: cada operação de 2023 do SICOR associada aos imóveis rurais (CAR) e agregada pelo município do imóvel, não pelo município do contrato. 5.380 municípios, R$ 112,13 bi, com filtros por região, UF e faixa de crédito, ranking municipal e download aberto dos dados (Zenodo, DOI 10.5281/zenodo.24453249).
+
+**[Abrir o mapa interativo](https://viniburilux.github.io/dinheiro-e-territorio/)**
+
 
 ### Base original: inexigibilidades do PNCP
 
