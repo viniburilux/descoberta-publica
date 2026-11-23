@@ -1,6 +1,6 @@
 # Conversas originais da Base dos Dados
 
-15 threads, 160 mensagens. JSONs integrais e leitura cronológica em Markdown. SQL, chamadas e respostas foram extraídos em arquivos separados, com identificadores de origem. As tabelas CSV extraídas contêm as linhas registradas nas respostas do chatbot. Os downloads apenas referenciados estão identificados em cada pasta.
+15 threads, 160 mensagens. JSONs das conversas e leitura cronológica em Markdown. 14 threads mantêm os bytes originais; BD-007 tem 36 ocorrências de números de CPF substituídas, transformação identificada no manifesto. SQL, chamadas e respostas foram extraídos em arquivos separados, com identificadores de origem. As tabelas CSV extraídas contêm as linhas registradas nas respostas do chatbot. Os downloads apenas referenciados estão identificados em cada pasta.
 
 - [BD-001: 20 mensagens](extraidos/BD-001/mensagens.md) · [JSON](BD-001_43f64dd9-d0fe-416c-a599-a5e2a28e1918.json) · [SQL e respostas](extraidos/BD-001/)
 - [BD-002: 6 mensagens](extraidos/BD-002/mensagens.md) · [JSON](BD-002_433024b2-d169-4637-889d-a75f45eedadc.json) · [SQL e respostas](extraidos/BD-002/)
@@ -18,6 +18,6 @@
 - [validacao-suites: 8 mensagens](extraidos/validacao-suites/mensagens.md) · [JSON](validacao-suites_23340b3d-36ca-478c-8a85-7b3db0ed4e3d.json) · [SQL e respostas](extraidos/validacao-suites/)
 - [missao-amazonia: 4 mensagens](extraidos/missao-amazonia/mensagens.md) · [JSON](missao-amazonia_3eabfa06-6c02-418f-a9bc-a1a858460367.json) · [SQL e respostas](extraidos/missao-amazonia/)
 
-[Manifesto de origem e hashes](MANIFEST.json). BD-007 mantém o texto integral, com 36 ocorrências de números de CPF substituídas por `[CPF_OCULTADO]`. A versão sem essa substituição permanece no arquivo privado. As outras 14 conversas mantêm os bytes originais.
+[Manifesto de origem e hashes](MANIFEST.json). BD-007 é uma transcrição recuperada com transformação identificada: 36 ocorrências de números de CPF foram substituídas por `[CPF_OCULTADO]`. A versão sem essa substituição permanece no arquivo privado. As outras 14 conversas mantêm os bytes originais.
 
 A thread missao-amazonia trata de Igarapé-Açu e Amazônia Carbono Circular. A origem dos micro-CARs está em BD-007, seguida da continuação BD-010.
