@@ -184,3 +184,17 @@ Versão: 22/11/2026. Acervo de conversas: **15 threads, 160 mensagens, 308 SQLs 
 
 </details>
 
+<details>
+<summary>BD-013: SCR.data (BCB) e PAM (IBGE) com o SICOR (adicionado em 23/11/2026, fora da contagem das 12)</summary>
+
+| Dimensão | Situação e acesso |
+|---|---|
+| A. Material bruto | Sem conversa arquivada neste lote; o teste foi feito em conversa nova no chat da BD, fora do acervo acima |
+| B. Consultas e código | 1 SQL (cobertura SICOR × PAM, 2023) e 1 script Python (SCR.data rural por UF) |
+| C. Resultados e arquivos | 1 CSV (SCR rural por mês × UF × submodalidade, 2024) e tabela de cobertura no README |
+| D. Reprodutibilidade | Script reexecutável (baixa o ZIP anual do BCB). O SQL foi executado no chat da BD e não foi reexecutado de forma independente |
+| E. Destinos possíveis | Resposta à sugestão de cruzar SICOR com SCR.data e PAM; nota de método sobre o limite do SCR (UF do tomador, sem município) |
+| F. Pendências | SCR.data não foi encontrado na BD; só o ano de 2024 foi baixado do BCB; o cruzamento SICOR × PAM foi só de cobertura de municípios, sem análise de relação entre crédito e produção |
+| G. Pacote de trabalho | [Abrir todos os materiais](scr-data-pam/README.md) |
+
+</details>
