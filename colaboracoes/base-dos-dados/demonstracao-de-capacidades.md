@@ -27,6 +27,7 @@ Onde está, territorialmente, o crédito rural contratado com recursos públicos
 - R$ 406,4 bi: total SICOR 2023 (todos os recursos), reconciliado com o MDCR oficial (diferença de 0,05%).
 - R$ 121,13 bi: recursos públicos classificados (MDCR oficial: R$ 121,05 bi; diferença de 0,07%).
 - R$ 112,13 bi territorializados em 5.380 municípios via CAR (92,56% do total público).
+- Dos 7,44% não territorializados (R$ 9,01 bi): 6,95 p.p. têm identificador CAR nulo (28.749 operações, R$ 8,42 bi) e 0,49 p.p. estão ausentes da tabela de ligação (1.577 operações, R$ 0,59 bi).
 - Join SICOR-CAR: 0% literal -> 99,999% após normalização documentada do identificador.
 - Série 2019-2025 pelo mesmo método: R$ 52,7 bi -> R$ 128,7 bi (+144%).
 - Correlação municipal crédito x agricultura (MapBiomas): 0,68-0,80 por ano; crédito x pastagem: 0,35-0,47.
