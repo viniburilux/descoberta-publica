@@ -1,16 +1,5 @@
 id: descoberta-publica
-nome: "Descoberta Pública"
 repository: viniburilux/descoberta-publica
 status: rodando
-cadence: "a confirmar"
-last_execution: 2026-11-22
-next_execution: "a confirmar"
+cadence: sob demanda
 automation: parcial
-current_mission: "acervo da BD integral em investigacoes-bd/; colaboração com a Base dos Dados"
-next_action: "depósito Zenodo DOI (proposto, não feito)"
-dependencies: [pncp, esg-reversa]
-where:
-  methodology: "README e investigacoes-bd/"
-  discoveries: "investigacoes-bd/ e colaboracoes/base-dos-dados/"
-  outputs: "dataset v0.1 PNCP; portal dinheiro-e-territorio"
-registro: "a criar"
