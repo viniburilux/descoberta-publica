@@ -4,7 +4,7 @@ Espaço de trabalho da parceria entre a Descoberta Pública e a Base dos Dados (
 
 O que vive aqui:
 
-- **Radar de oportunidades**: editais, chamadas e frentes de dados públicos que a parceria pode aproveitar.
+- **Radar de oportunidades**: pautas, descobertas, investigações e aplicações que podem virar conteúdo ou projeto com a BD.
 - **Pautas**: achados e recortes prontos para virar investigação ou publicação.
 - **Material SICOR + CAR**: cruzamentos entre crédito rural (SICOR) e Cadastro Ambiental Rural (CAR), com os derivados de pesquisa.
 
